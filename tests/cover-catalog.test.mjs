@@ -36,10 +36,15 @@ test('filters by cover artist and source/original artist', () => {
   assert.deepEqual(filterCoverAlbums(merged, { originalArtist: 'Nirvana' }).map((x) => x.id), ['a1']);
 });
 
-test('search includes track titles and musician names', () => {
+test('search spans tracks, albums, both artist roles, genres, and musician names', () => {
   const merged = mergeCoverAlbums(albums, details);
   assert.deepEqual(filterCoverAlbums(merged, {}, 'All Apologies').map((x) => x.id), ['a1']);
-  assert.deepEqual(filterCoverAlbums(merged, {}, 'Herbie Hancock').map((x) => x.id), ['a1']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'The New Standard').map((x) => x.id), ['a1']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'Pat Metheny').map((x) => x.id), ['a2']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'Nirvana').map((x) => x.id), ['a1']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'Jazz').map((x) => x.id), ['a1', 'a2']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'Rock').map((x) => x.id), ['a1']);
+  assert.deepEqual(filterCoverAlbums(merged, {}, 'piano').map((x) => x.id), ['a1']);
 });
 
 test('facet options respond to other selected facets', () => {
