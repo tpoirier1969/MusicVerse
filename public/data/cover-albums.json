@@ -1,0 +1,1112 @@
+[
+  {
+    "rank": 45,
+    "startHere": false,
+    "artist": "Widespread Panic",
+    "album": "Jackassolantern",
+    "genre": "Jam Band",
+    "approach": "Halloween live-cover collection",
+    "why": "A concentrated dose of Panic’s cover culture, with Black Sabbath, Rolling Stones, Talking Heads and others treated as jam-band terrain.",
+    "spotify": "https://open.spotify.com/album/54tRp0j72EJ7AeEtDSenG4?utm_source=openai&utm_medium=chatgpt&request_id=db99b235-d534-43cf-b8c5-f92cf295e6b7"
+  },
+  {
+    "rank": 48,
+    "startHere": false,
+    "artist": "Les Claypool",
+    "album": "Live Frogs: Sets 1 & 2",
+    "genre": "Jam Band",
+    "approach": "Set 2 performs Pink Floyd’s Animals in full",
+    "why": "The Spotify release combines both sets; the second set is the Frog Brigade’s complete, elastic run through Animals.",
+    "spotify": "https://open.spotify.com/album/6r4geKO5K1yjlcJgxRljDd?utm_source=openai&utm_medium=chatgpt&request_id=c82cce7b-a8f3-4c97-a82e-79cdb6d5a301"
+  },
+  {
+    "rank": 46,
+    "startHere": false,
+    "artist": "Gov't Mule",
+    "album": "Dark Side of the Mule (Deluxe Edition)",
+    "genre": "Jam Band",
+    "approach": "Live Pink Floyd program",
+    "why": "Warren Haynes and Mule stretch Pink Floyd into a heavy improvisational live set; the deluxe Spotify edition also contains the rest of the concert.",
+    "spotify": "https://open.spotify.com/album/6YzLBF5Z5MsscSAG2GpGpi?utm_source=openai&utm_medium=chatgpt&request_id=4ad349e1-7895-4482-836b-c2a5ae80879e"
+  },
+  {
+    "rank": 47,
+    "startHere": false,
+    "artist": "Umphrey's McGee",
+    "album": "ZONKEY",
+    "genre": "Jam Band",
+    "approach": "Studio mashup album built from other artists’ songs",
+    "why": "Not merely covers: songs are spliced together into carefully arranged hybrids, making this one of the strangest entries on the list.",
+    "spotify": "https://open.spotify.com/album/5GHLXH6qgXR4Gq10bmFfEo?utm_source=openai&utm_medium=chatgpt&request_id=ca68b0f3-87ef-46c0-a6e6-4bba8ae7dccf"
+  },
+  {
+    "rank": 1,
+    "startHere": true,
+    "artist": "Herbie Hancock",
+    "album": "The New Standard",
+    "genre": "Jazz",
+    "approach": "Contemporary pop songs rebuilt as acoustic jazz",
+    "why": "Peter Gabriel, Sade, Prince, the Beatles and others become modern jazz vehicles rather than polite standards.",
+    "spotify": "https://open.spotify.com/album/15xN5nr2KFFScKLjVxwIgd?utm_source=openai&utm_medium=chatgpt&request_id=979ac1b8-7359-4d14-8fb4-0ca3964c75cf"
+  },
+  {
+    "rank": 5,
+    "startHere": true,
+    "artist": "The Bad Plus",
+    "album": "It's Hard",
+    "genre": "Jazz",
+    "approach": "Piano-trio deconstructions of pop, rock and country",
+    "why": "Yes, it includes Barry Manilow, Johnny Cash, Kraftwerk and Yeah Yeah Yeahs. No, they do not behave themselves.",
+    "spotify": "https://open.spotify.com/album/6wvhtrGBFbkS8l0IMYLqZJ?utm_source=openai&utm_medium=chatgpt&request_id=adde29ad-3e04-4015-8a84-ef6abe18681a"
+  },
+  {
+    "rank": 6,
+    "startHere": true,
+    "artist": "Brad Mehldau",
+    "album": "Your Mother Should Know: Brad Mehldau Plays The Beatles",
+    "genre": "Jazz",
+    "approach": "Solo-piano Beatles songbook",
+    "why": "Mehldau treats Beatles tunes as serious improvisational material without sanding off their hooks.",
+    "spotify": "https://open.spotify.com/album/6w9YYlUOAu5gtirkVUZQFT?utm_source=openai&utm_medium=chatgpt&request_id=e57963ab-0bbc-4f3e-85b1-d55e15412ffa"
+  },
+  {
+    "rank": 49,
+    "startHere": false,
+    "artist": "Charlie Hunter",
+    "album": "Natty Dread",
+    "genre": "Jazz",
+    "approach": "Full-album reinterpretation of Bob Marley’s Natty Dread",
+    "why": "Hunter turns Marley into a compact jazz-groove record built around his simultaneous bass-and-guitar approach.",
+    "spotify": "https://open.spotify.com/album/01XxaE3MoDZCPqPEtnSFGO?utm_source=openai&utm_medium=chatgpt&request_id=8a48db34-5f2c-46f8-8e4a-8aeb3f167be1"
+  },
+  {
+    "rank": 50,
+    "startHere": false,
+    "artist": "John Scofield",
+    "album": "That's What I Say",
+    "genre": "Jazz",
+    "approach": "Ray Charles songbook",
+    "why": "Scofield’s bluesy jazz language is a natural fit for Ray Charles, and the guest vocalists keep it from turning into a polite instrumental tribute.",
+    "spotify": "https://open.spotify.com/album/4LWDgiazselhhacGx8k0OD?utm_source=openai&utm_medium=chatgpt&request_id=3a37ce49-f7cc-45d3-8ddb-e495f092a10e"
+  },
+  {
+    "rank": 4,
+    "startHere": true,
+    "artist": "Pat Metheny",
+    "album": "What's It All About",
+    "genre": "Jazz",
+    "approach": "Solo-guitar interpretations of pop songs",
+    "why": "A particularly good fit if you like acoustic transformations: familiar pop melodies become spacious solo-guitar pieces.",
+    "spotify": "https://open.spotify.com/album/0NTw2CP759sAAhDV7X52xe?utm_source=openai&utm_medium=chatgpt&request_id=77ae43d9-9b62-4e97-a3ac-f046e549a551"
+  },
+  {
+    "rank": 12,
+    "startHere": true,
+    "artist": "Bill Frisell",
+    "album": "All We Are Saying...",
+    "genre": "Jazz",
+    "approach": "John Lennon songbook",
+    "why": "Frisell makes Lennon’s melodies sound built for his floating, spacious mix of jazz, folk and Americana.",
+    "spotify": "https://open.spotify.com/album/4NVlIW7uOVhJH9LEhV4fmi?utm_source=openai&utm_medium=chatgpt&request_id=722cbe09-24ef-474d-a31d-e609c8161eb7"
+  },
+  {
+    "rank": 14,
+    "startHere": false,
+    "artist": "David Bowie",
+    "album": "Pinups (2015 Remaster)",
+    "genre": "Rock",
+    "approach": "1960s British and American rock covers",
+    "why": "Bowie treats the mod-era songbook as raw material rather than nostalgia, pushing the songs through his early-’70s glam sound.",
+    "spotify": "https://open.spotify.com/album/71nxmbr3tHAVyvdHXc0ltd?utm_source=openai&utm_medium=chatgpt&request_id=71765433-b8e9-4808-a913-d71fcc671e4a"
+  },
+  {
+    "rank": 15,
+    "startHere": false,
+    "artist": "Rage Against the Machine",
+    "album": "Renegades",
+    "genre": "Rock",
+    "approach": "Protest, funk, punk and hip-hop covers",
+    "why": "Springsteen, Dylan, Devo, MC5, Afrika Bambaataa and others are translated into Rage’s own rhythmic and political vocabulary.",
+    "spotify": "https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi?utm_source=openai&utm_medium=chatgpt&request_id=5244ceba-b797-4e6f-ad0e-b016531e3142"
+  },
+  {
+    "rank": 38,
+    "startHere": false,
+    "artist": "Weezer",
+    "album": "Weezer (Teal Album)",
+    "genre": "Rock",
+    "approach": "Straight-ahead pop and rock covers",
+    "why": "Less radical than many entries here, but a useful example of a self-writing band treating the cover album as gleeful genre-hopping nostalgia.",
+    "spotify": "https://open.spotify.com/album/65sHj9PvsbyD0uugGHjueN?utm_source=openai&utm_medium=chatgpt&request_id=48d4fd3e-85fd-4702-b0af-fa9f2eaff283"
+  },
+  {
+    "rank": 43,
+    "startHere": false,
+    "artist": "Camper Van Beethoven",
+    "album": "Tusk",
+    "genre": "Rock",
+    "approach": "Full-album recreation of Fleetwood Mac’s Tusk",
+    "why": "A sprawling eccentric band covering another sprawling eccentric record turns out to be a very sensible bad idea.",
+    "spotify": "https://open.spotify.com/album/6xrWTlsjow7hlTGVPBbeev?utm_source=openai&utm_medium=chatgpt&request_id=4aa4e05f-1936-4f1c-af93-8f566cc17061"
+  },
+  {
+    "rank": 37,
+    "startHere": false,
+    "artist": "The Band",
+    "album": "Moondog Matinee",
+    "genre": "Rock",
+    "approach": "Early R&B and rock-and-roll roots songbook",
+    "why": "A band famous for creating its own version of American roots music turns around and shows the source material under the hood.",
+    "spotify": "https://open.spotify.com/album/5s4WsnjKO7boZLqLvNsbJH?utm_source=openai&utm_medium=chatgpt&request_id=91dfe20b-ea91-4619-838a-540b516ac64e"
+  },
+  {
+    "rank": 39,
+    "startHere": false,
+    "artist": "The Rolling Stones",
+    "album": "Blue & Lonesome",
+    "genre": "Rock",
+    "approach": "Chicago blues covers",
+    "why": "After decades of Jagger-Richards songs, the Stones circle back to the blues repertoire that originally created the band.",
+    "spotify": "https://open.spotify.com/album/43TJjpNBfw0qY6E87VeIxX?utm_source=openai&utm_medium=chatgpt&request_id=b226e2a1-083d-4bb0-9559-af16d01e4462"
+  },
+  {
+    "rank": 41,
+    "startHere": false,
+    "artist": "The Black Keys",
+    "album": "Chulahoma",
+    "genre": "Rock",
+    "approach": "Junior Kimbrough tribute",
+    "why": "A compact lesson in how to honor a source while making the groove, guitar tone and atmosphere completely your own.",
+    "spotify": "https://open.spotify.com/album/6jJKeu4hPomUuMOM6iGVzQ?utm_source=openai&utm_medium=chatgpt&request_id=8ae10ae4-e01d-4cd3-af15-565af5ae7d8f"
+  },
+  {
+    "rank": 35,
+    "startHere": false,
+    "artist": "Nada Surf",
+    "album": "if I had a hi-fi",
+    "genre": "Rock",
+    "approach": "Eclectic full cover album",
+    "why": "Kate Bush, Depeche Mode, Dwight Twilley and others get filtered through Nada Surf’s melodic guitar-pop instincts.",
+    "spotify": "https://open.spotify.com/album/3H9s5KC8da6FBifMLx1ZIo?utm_source=openai&utm_medium=chatgpt&request_id=208f13e2-905a-440d-b1a2-046be337cea9"
+  },
+  {
+    "rank": 44,
+    "startHere": false,
+    "artist": "The Walkmen",
+    "album": "Pussy Cats Starring The Walkmen (U.S. Version)",
+    "genre": "Rock",
+    "approach": "Full-album recreation of Harry Nilsson’s Pussy Cats",
+    "why": "They cover the entire ragged 1974 Nilsson/Lennon album, preserving the wrecked-party atmosphere while sounding very much like the Walkmen.",
+    "spotify": "https://open.spotify.com/album/7k7BiwAIHrbI9eCbxHZOVt?utm_source=openai&utm_medium=chatgpt&request_id=da6ab896-8561-4862-a26d-550c93104211"
+  },
+  {
+    "rank": 40,
+    "startHere": false,
+    "artist": "Metallica",
+    "album": "Garage, Inc.",
+    "genre": "Rock",
+    "approach": "Metal, punk and hard-rock cover collection",
+    "why": "The source list is almost a map of Metallica’s musical DNA, from Diamond Head and Misfits to Thin Lizzy and Bob Seger.",
+    "spotify": "https://open.spotify.com/album/5b7HQ04lPT7eGJQ7fmVsjC?utm_source=openai&utm_medium=chatgpt&request_id=4b434dea-3de0-452f-900e-eb6383c3d5e0"
+  },
+  {
+    "rank": 42,
+    "startHere": false,
+    "artist": "The Flaming Lips",
+    "album": "With a Little Help from My Fwends",
+    "genre": "Rock",
+    "approach": "Full-album recreation of Sgt. Pepper with guests",
+    "why": "The Beatles’ most polished studio monument gets dismantled into a noisy, psychedelic communal experiment.",
+    "spotify": "https://open.spotify.com/album/5VMJzDzXtrAxpbvqOMBPmq?utm_source=openai&utm_medium=chatgpt&request_id=5b624487-a67a-4bd2-a734-446df9131653"
+  },
+  {
+    "rank": 22,
+    "startHere": false,
+    "artist": "Paul McCartney",
+    "album": "Run Devil Run",
+    "genre": "Singer-Songwriter",
+    "approach": "Mostly 1950s rock ’n’ roll covers, plus three originals",
+    "why": "McCartney revisits the pre-Beatles music that formed him, but plays it with far more muscle than reverence.",
+    "spotify": "https://open.spotify.com/album/5oPrd92C5K6LEVnTUznLAi?utm_source=openai&utm_medium=chatgpt&request_id=3e31c341-7e7a-4a14-be8a-aec168b3f931"
+  },
+  {
+    "rank": 23,
+    "startHere": false,
+    "artist": "John Lennon",
+    "album": "Rock 'N' Roll",
+    "genre": "Singer-Songwriter",
+    "approach": "1950s and early-’60s rock-and-roll covers",
+    "why": "Lennon goes directly back to the music that made him want to be in a band in the first place.",
+    "spotify": "https://open.spotify.com/album/4D5tTcz72CXGPtzTabLTDY?utm_source=openai&utm_medium=chatgpt&request_id=215b1c2b-d44a-4287-a4ef-dd1e5c9d729a"
+  },
+  {
+    "rank": 36,
+    "startHere": false,
+    "artist": "Counting Crows",
+    "album": "Underwater Sunshine (Or What We Did on Our Summer Vacation)",
+    "genre": "Singer-Songwriter",
+    "approach": "Full album of songs by other writers",
+    "why": "A useful songwriter’s-eye cover record: the band chooses songs they love and then plays with phrasing, dynamics and arrangement rather than genre gimmicks.",
+    "spotify": "https://open.spotify.com/album/4YAvFAK2i596UgEf8NR0qe?utm_source=openai&utm_medium=chatgpt&request_id=47a5ef17-7db2-474f-903b-747b140f3b73"
+  },
+  {
+    "rank": 2,
+    "startHere": true,
+    "artist": "Tori Amos",
+    "album": "Strange Little Girls",
+    "genre": "Singer-Songwriter",
+    "approach": "Songs written by men, reframed through female characters",
+    "why": "One of the most conceptually aggressive cover albums here: familiar songs are shifted in viewpoint, mood and sometimes meaning.",
+    "spotify": "https://open.spotify.com/album/6VVyHpknRsMb0tU6VmTL9S?utm_source=openai&utm_medium=chatgpt&request_id=4caee3f9-9a14-4f9c-a687-91531306505d"
+  },
+  {
+    "rank": 19,
+    "startHere": false,
+    "artist": "Neil Young",
+    "album": "A Letter Home",
+    "genre": "Singer-Songwriter",
+    "approach": "Lo-fi covers recorded in a Voice-O-Graph booth",
+    "why": "The primitive recording method becomes part of the interpretation; songs by Dylan, Springsteen, Nelson and others sound like found artifacts.",
+    "spotify": "https://open.spotify.com/album/0qeBoQjqVd5L0T93Pf7Vwm?utm_source=openai&utm_medium=chatgpt&request_id=2e42e7ef-cf8f-485a-bd1d-b8b3c6fc8988"
+  },
+  {
+    "rank": 21,
+    "startHere": false,
+    "artist": "James Taylor",
+    "album": "Covers",
+    "genre": "Singer-Songwriter",
+    "approach": "Soul, rock, country and pop covers",
+    "why": "Taylor’s rhythmic guitar and understated delivery make a broad songbook sound unusually cohesive.",
+    "spotify": "https://open.spotify.com/album/0TJsDbqfqBgHfj3hkDJG64?utm_source=openai&utm_medium=chatgpt&request_id=f2a25eac-6d42-4160-8581-59a863a34cc6"
+  },
+  {
+    "rank": 27,
+    "startHere": false,
+    "artist": "k.d. lang",
+    "album": "Hymns of the 49th Parallel",
+    "genre": "Singer-Songwriter",
+    "approach": "Canadian songwriter tribute",
+    "why": "Neil Young, Joni Mitchell, Leonard Cohen, Bruce Cockburn and others get an unusually controlled, spacious vocal treatment.",
+    "spotify": "https://open.spotify.com/album/7aTcKEqDqi1NoR2RggubbX?utm_source=openai&utm_medium=chatgpt&request_id=d647f500-d033-4dfd-91d7-9ef65c628d8f"
+  },
+  {
+    "rank": 31,
+    "startHere": false,
+    "artist": "Rufus Wainwright",
+    "album": "Rufus Does Judy At Carnegie Hall",
+    "genre": "Singer-Songwriter",
+    "approach": "Recreation of Judy Garland’s 1961 Carnegie Hall concert",
+    "why": "It is both tribute and high-wire stunt: Wainwright takes on an entire iconic concert rather than cherry-picking songs.",
+    "spotify": "https://open.spotify.com/album/21VWYGNiCVVruLbjTkJGQi?utm_source=openai&utm_medium=chatgpt&request_id=a06935df-0c79-46de-bd99-d3abbac144bc"
+  },
+  {
+    "rank": 28,
+    "startHere": false,
+    "artist": "Rosanne Cash",
+    "album": "The List",
+    "genre": "Singer-Songwriter",
+    "approach": "Classic country and American songs from Johnny Cash’s famous list",
+    "why": "A songwriter works through the canon her father told her she needed to know, with guests including Springsteen and Elvis Costello.",
+    "spotify": "https://open.spotify.com/album/2ztJpdxupEltRgGuzihTJb?utm_source=openai&utm_medium=chatgpt&request_id=fa049691-ac5d-4440-81eb-84c8bec206f5"
+  },
+  {
+    "rank": 29,
+    "startHere": false,
+    "artist": "Steve Earle",
+    "album": "Townes",
+    "genre": "Singer-Songwriter",
+    "approach": "Townes Van Zandt tribute",
+    "why": "Earle’s own songwriting owes a debt to Van Zandt, so the album feels like a conversation between two very different Texas voices.",
+    "spotify": "https://open.spotify.com/album/0fFTuwgv609ioFvbAXQks2?utm_source=openai&utm_medium=chatgpt&request_id=7d93c76f-54cf-4ab3-8323-a52d5c4b52ab"
+  },
+  {
+    "rank": 30,
+    "startHere": false,
+    "artist": "Jason Isbell and the 400 Unit",
+    "album": "Georgia Blue",
+    "genre": "Singer-Songwriter",
+    "approach": "Songs by Georgia artists",
+    "why": "R.E.M., Gladys Knight, James Brown, the Allman Brothers orbit and others are tied together by Isbell’s Southern-rock band language.",
+    "spotify": "https://open.spotify.com/album/2JGpezeVAwq7Jw2ua3EniV?utm_source=openai&utm_medium=chatgpt&request_id=ce4d7360-4ae1-48ed-85fd-65a1f5db0572"
+  },
+  {
+    "rank": 3,
+    "startHere": true,
+    "artist": "Peter Gabriel",
+    "album": "Scratch My Back",
+    "genre": "Singer-Songwriter",
+    "approach": "Orchestral covers with voice; no conventional rock band",
+    "why": "Gabriel strips songs by Bowie, Radiohead, Arcade Fire, Paul Simon and others down to orchestral architecture and voice.",
+    "spotify": "https://open.spotify.com/album/6UvXlXqOAFv49ePZ22kEyn?utm_source=openai&utm_medium=chatgpt&request_id=2ec22ce1-0857-486d-95fb-4a93bd163f2c"
+  },
+  {
+    "rank": 10,
+    "startHere": true,
+    "artist": "Willie Nelson",
+    "album": "Stardust",
+    "genre": "Singer-Songwriter",
+    "approach": "Great American Songbook standards",
+    "why": "A songwriter famous for originals turns classic standards into unmistakably Willie Nelson phrasing, timing and guitar language.",
+    "spotify": "https://open.spotify.com/album/38uGoW7jS8jjJMvZA26sRq?utm_source=openai&utm_medium=chatgpt&request_id=93fd50d0-9dd4-42e4-afdb-ee550cc3ede4"
+  },
+  {
+    "rank": 18,
+    "startHere": false,
+    "artist": "Bob Dylan",
+    "album": "World Gone Wrong",
+    "genre": "Singer-Songwriter",
+    "approach": "Traditional folk and blues songs",
+    "why": "A stark acoustic record that reconnects Dylan’s writing voice to the older songs and forms that helped build it.",
+    "spotify": "https://open.spotify.com/album/6lfZX6OFJRxRcODaxwSRL5?utm_source=openai&utm_medium=chatgpt&request_id=6f776663-8052-4ad0-86a7-ec847903fc68"
+  },
+  {
+    "rank": 24,
+    "startHere": false,
+    "artist": "Shawn Colvin",
+    "album": "Cover Girl",
+    "genre": "Singer-Songwriter",
+    "approach": "Acoustic-centered songwriter covers",
+    "why": "Colvin is especially good at making other writers’ songs feel conversational and lived-in rather than performed-at.",
+    "spotify": "https://open.spotify.com/album/2i6yafZMIkgqkjWAobKic5?utm_source=openai&utm_medium=chatgpt&request_id=252e2947-59b0-48f0-b2d2-bd09689cfe50"
+  },
+  {
+    "rank": 8,
+    "startHere": true,
+    "artist": "Richard Thompson",
+    "album": "1000 Years of Popular Music",
+    "genre": "Singer-Songwriter",
+    "approach": "A deliberately absurd sweep across centuries of popular song",
+    "why": "From medieval material to modern pop, Thompson turns the whole idea of a cover album into a historical tour with guitars attached.",
+    "spotify": "https://open.spotify.com/album/5ykzct1q6gwg1tO0F1QCyS?utm_source=openai&utm_medium=chatgpt&request_id=02fab81a-69d7-4039-9a72-39716bdfb9a8"
+  },
+  {
+    "rank": 9,
+    "startHere": true,
+    "artist": "Cat Power",
+    "album": "The Covers Record",
+    "genre": "Singer-Songwriter",
+    "approach": "Sparse, intimate reductions of other writers’ songs",
+    "why": "Chan Marshall often changes tempo, harmony and emotional temperature so completely that the source song nearly disappears.",
+    "spotify": "https://open.spotify.com/album/4dZBOO1PjjmtPA974xHMND?utm_source=openai&utm_medium=chatgpt&request_id=5a4f8bb1-f8bc-4bec-8e7b-c0307067c2e9"
+  },
+  {
+    "rank": 34,
+    "startHere": false,
+    "artist": "Sun Kil Moon",
+    "album": "Tiny Cities",
+    "genre": "Singer-Songwriter",
+    "approach": "Modest Mouse songbook",
+    "why": "Mark Kozelek slows, strips and reshapes Modest Mouse so radically that these can feel like entirely different compositions.",
+    "spotify": "https://open.spotify.com/album/3bVDZOD7EnPkxludwZUidT?utm_source=openai&utm_medium=chatgpt&request_id=0ef3ce48-252e-4a79-acb7-f6ebcdce2e39"
+  },
+  {
+    "rank": 11,
+    "startHere": true,
+    "artist": "Iron & Wine & Ben Bridwell",
+    "album": "Sing Into My Mouth",
+    "genre": "Singer-Songwriter",
+    "approach": "Warm folk-rock recastings of songs from several decades",
+    "why": "Talking Heads, Sade, Spiritualized, El Perro del Mar and others get pulled into a relaxed acoustic orbit.",
+    "spotify": "https://open.spotify.com/album/0jMBAo2pk2cEE0aJ3WseMl?utm_source=openai&utm_medium=chatgpt&request_id=bbda478a-4f3b-4d46-ab17-3ed420e0a466"
+  },
+  {
+    "rank": 20,
+    "startHere": false,
+    "artist": "Joni Mitchell",
+    "album": "Both Sides Now",
+    "genre": "Jazz",
+    "approach": "Mostly standards, plus two reworkings of Mitchell originals",
+    "why": "Orchestral jazz arrangements show how deeply Mitchell’s harmonic language overlaps with the standards tradition.",
+    "spotify": "https://open.spotify.com/album/2zK66VRY3rDGDuZcGvRJdZ?utm_source=openai&utm_medium=chatgpt&request_id=f77f6abb-bec5-4649-b469-1f1c6bd45708"
+  },
+  {
+    "rank": 25,
+    "startHere": false,
+    "artist": "Rickie Lee Jones",
+    "album": "Pop Pop",
+    "genre": "Jazz",
+    "approach": "Standards, jazz, blues and pop songs",
+    "why": "Small-combo arrangements and Jones’s elastic phrasing make this one of the more jazz-adjacent singer-songwriter cover records.",
+    "spotify": "https://open.spotify.com/album/1p4qOsiMG7OBX8TSZb54Cv?utm_source=openai&utm_medium=chatgpt&request_id=814227c8-e11c-4e8e-ba82-273ccdd89e20"
+  },
+  {
+    "rank": 26,
+    "startHere": false,
+    "artist": "Joe Jackson",
+    "album": "Joe Jackson's Jumpin' Jive (Remastered 1999)",
+    "genre": "Jazz",
+    "approach": "Jump blues and swing repertoire",
+    "why": "A sharp left turn from Jackson’s own new-wave songwriting into Louis Jordan-era rhythm, horns and swing.",
+    "spotify": "https://open.spotify.com/album/7spQJsP6dimhGMNgsBYaRO?utm_source=openai&utm_medium=chatgpt&request_id=2ecac157-690b-47ea-be56-71b4b503143b"
+  },
+  {
+    "rank": 32,
+    "startHere": false,
+    "artist": "Susanna Hoffs & Matthew Sweet",
+    "album": "Under The Covers Vol. 1",
+    "genre": "Singer-Songwriter",
+    "approach": "1960s rock and pop favorites",
+    "why": "Two strong songwriters and harmony singers dig into the Byrds, Beatles, Fairport Convention, Love and more without turning it into karaoke.",
+    "spotify": "https://open.spotify.com/album/3LWX8h6RyWdJN59NFz6hnk?utm_source=openai&utm_medium=chatgpt&request_id=e8fb91e5-e6ce-4346-b0bc-9dcd840a0698"
+  },
+  {
+    "rank": 13,
+    "startHere": false,
+    "artist": "Elvis Costello",
+    "album": "Kojak Variety",
+    "genre": "Singer-Songwriter",
+    "approach": "R&B, soul, country and rock favorites",
+    "why": "Costello’s songwriter brain stays active even when the songs aren’t his; arrangements emphasize character over imitation.",
+    "spotify": "https://open.spotify.com/album/2ThJPrLwKqqmfF0sMawv4L?utm_source=openai&utm_medium=chatgpt&request_id=386e9783-ff75-4cc7-a3f9-235edfb357fc"
+  },
+  {
+    "rank": 16,
+    "startHere": false,
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Kicking Against the Pricks (2009 Remaster)",
+    "genre": "Singer-Songwriter",
+    "approach": "Blues, country, folk and rock songbook",
+    "why": "Early Bad Seeds turn standards and obscurities into something theatrical, nocturnal and unmistakably Cave.",
+    "spotify": "https://open.spotify.com/album/434DQKPE6u2TV9vtNL2qHS?utm_source=openai&utm_medium=chatgpt&request_id=9f105200-64ec-4386-9dcf-8aa80d98f028"
+  },
+  {
+    "rank": 17,
+    "startHere": false,
+    "artist": "Patti Smith",
+    "album": "Twelve",
+    "genre": "Singer-Songwriter",
+    "approach": "Eclectic rock and pop covers",
+    "why": "Smith attacks songs from Hendrix, Nirvana, the Beatles, Tears for Fears and more with her own spoken-rock intensity.",
+    "spotify": "https://open.spotify.com/album/3hlHi5Mz5hRao09uUvT0ta?utm_source=openai&utm_medium=chatgpt&request_id=91fe0f3f-c91e-4dc2-ba43-2bd360593505"
+  },
+  {
+    "rank": 33,
+    "startHere": false,
+    "artist": "Mark Lanegan",
+    "album": "I'll Take Care of You",
+    "genre": "Singer-Songwriter",
+    "approach": "Blues, folk and soul covers",
+    "why": "Lanegan’s gravelly baritone makes traditional and roots material feel darker and heavier without over-arranging it.",
+    "spotify": "https://open.spotify.com/album/0NlNOxlL0jM5kKo0AJ7duq?utm_source=openai&utm_medium=chatgpt&request_id=4f3fab4f-ed39-4dfa-94e3-95db1b6e17f4"
+  },
+  {
+    "rank": 7,
+    "startHere": true,
+    "artist": "Bruce Springsteen",
+    "album": "We Shall Overcome: The Seeger Sessions",
+    "genre": "Singer-Songwriter",
+    "approach": "Pete Seeger-associated folk and traditional songs",
+    "why": "Springsteen swaps E Street precision for a loose, communal folk-band sound that feels more like a crowded room than a museum.",
+    "spotify": "https://open.spotify.com/album/2O3avtEIE8xX9F0zcIjIZI?utm_source=openai&utm_medium=chatgpt&request_id=f5481e06-ad78-4c31-9fad-32527c8bb5a8"
+  },
+  {
+    "rank": 51,
+    "startHere": true,
+    "artist": "Herbie Hancock",
+    "album": "River: The Joni Letters",
+    "genre": "Jazz",
+    "approach": "Joni Mitchell songbook",
+    "why": "Mitchell’s songs become spacious modern jazz, with guest vocalists and Hancock’s harmonic language reshaping the material.",
+    "spotify": "https://open.spotify.com/album/3GwR5VxaMzB01ay6qIT3Yq?utm_source=openai&utm_medium=chatgpt&request_id=38f80213-aecb-4b5b-b8e2-be91856212df"
+  },
+  {
+    "rank": 52,
+    "startHere": true,
+    "artist": "Bill Frisell",
+    "album": "Have a Little Faith",
+    "genre": "Jazz",
+    "approach": "American songbook across genres",
+    "why": "Frisell connects Copland, Dylan, Madonna, Sousa and more through the same wide-open guitar vocabulary.",
+    "spotify": "https://open.spotify.com/album/6oMlklL1QnJFf0gBw1VZix?utm_source=openai&utm_medium=chatgpt&request_id=dd6401bc-c2e7-47b9-8f3e-206da4cbe582"
+  },
+  {
+    "rank": 53,
+    "startHere": true,
+    "artist": "Ryan Adams",
+    "album": "1989",
+    "genre": "Singer-Songwriter",
+    "approach": "Full Taylor Swift album reinterpretation",
+    "why": "A glossy pop record is rebuilt as moody singer-songwriter rock; the songs survive a very different emotional climate.",
+    "spotify": "https://open.spotify.com/album/0MVK1j7wrUkBZ09ZuMURJA?utm_source=openai&utm_medium=chatgpt&request_id=e2e714ee-7748-48f0-b646-13f799c6e8ec"
+  },
+  {
+    "rank": 54,
+    "startHere": true,
+    "artist": "Mark Kozelek",
+    "album": "What's Next To The Moon",
+    "genre": "Singer-Songwriter",
+    "approach": "AC/DC songs recast acoustically",
+    "why": "Bon Scott-era AC/DC becomes stark, slow, intimate acoustic music, an unusually drastic change of frame.",
+    "spotify": "https://open.spotify.com/album/1nIB0laWm2Rw4P9EXeMs5O?utm_source=openai&utm_medium=chatgpt&request_id=41847fe9-c415-41a9-a977-ca5866831351"
+  },
+  {
+    "rank": 55,
+    "startHere": true,
+    "artist": "Punch Brothers",
+    "album": "Hell on Church Street",
+    "genre": "Singer-Songwriter",
+    "approach": "Reimagining of Tony Rice's Church Street Blues",
+    "why": "The band revisits an influential acoustic album with chamber-bluegrass arranging rather than simply reproducing it.",
+    "spotify": "https://open.spotify.com/album/5XptR8Eatr8J2KlcO7heEA?utm_source=openai&utm_medium=chatgpt&request_id=5064987e-b536-4c9c-85c1-758336313f63"
+  },
+  {
+    "rank": 56,
+    "startHere": true,
+    "artist": "Tedeschi Trucks Band",
+    "album": "Layla Revisited (Live at LOCKN')",
+    "genre": "Jam Band",
+    "approach": "Derek and the Dominos album performed live",
+    "why": "A jam-oriented band takes on Layla and Other Assorted Love Songs as a complete live statement with room to stretch.",
+    "spotify": "https://open.spotify.com/album/6O5gWyGfpV47SgllhnoaK2?utm_source=openai&utm_medium=chatgpt&request_id=2ff27ac2-3815-4165-8df7-ed31fdada39d"
+  },
+  {
+    "rank": 57,
+    "startHere": true,
+    "artist": "Cat Power",
+    "album": "Jukebox",
+    "genre": "Singer-Songwriter",
+    "approach": "Sparse rock, soul and folk covers",
+    "why": "Chan Marshall again uses tempo, space and phrasing to make familiar songs feel detached from their original recordings.",
+    "spotify": "https://open.spotify.com/album/2uhG1PSozFcBPi4ASO0UH7?utm_source=openai&utm_medium=chatgpt&request_id=a25d8a6d-acce-4d9b-bbef-134e0b6c7d58"
+  },
+  {
+    "rank": 58,
+    "startHere": true,
+    "artist": "Gillian Welch & David Rawlings",
+    "album": "All The Good Times",
+    "genre": "Singer-Songwriter",
+    "approach": "Traditional and country-folk songs",
+    "why": "Two major modern songwriters strip older material down to voice, guitar and banjo with almost no decorative clutter.",
+    "spotify": "https://open.spotify.com/album/30O0jOuezaGlLKpST18yoQ?utm_source=openai&utm_medium=chatgpt&request_id=f49fcc7d-23a9-4028-a6cf-6212fca58a3f"
+  },
+  {
+    "rank": 59,
+    "startHere": false,
+    "artist": "Elvis Costello & The Attractions",
+    "album": "Almost Blue",
+    "genre": "Singer-Songwriter",
+    "approach": "Classic country covers",
+    "why": "Costello leaves new wave behind for a deliberately traditional country record that still sounds unmistakably like him.",
+    "spotify": "https://open.spotify.com/album/6Y234kkXewBp0CjanUQW3w?utm_source=openai&utm_medium=chatgpt&request_id=212f93f5-edf2-4082-a3b7-91edb44cb7b5"
+  },
+  {
+    "rank": 60,
+    "startHere": true,
+    "artist": "Chrissie Hynde",
+    "album": "Standing in the Doorway: Chrissie Hynde Sings Bob Dylan (feat. James Walbourne)",
+    "genre": "Singer-Songwriter",
+    "approach": "Bob Dylan songbook",
+    "why": "Hynde and James Walbourne keep the arrangements lean and conversational, letting phrasing do most of the reinterpretive work.",
+    "spotify": "https://open.spotify.com/album/5aG1UimFYw9MXU1Q0M36MR?utm_source=openai&utm_medium=chatgpt&request_id=922fd002-f49d-4abd-b340-db8702204ea2"
+  },
+  {
+    "rank": 61,
+    "startHere": false,
+    "artist": "Bob Dylan",
+    "album": "Good As I Been To You",
+    "genre": "Singer-Songwriter",
+    "approach": "Solo acoustic folk and blues tradition",
+    "why": "Dylan returns to the traditional repertoire underneath his own songwriting with just voice and acoustic guitar.",
+    "spotify": "https://open.spotify.com/album/4OIFBxR56S44aXiovovyK7?utm_source=openai&utm_medium=chatgpt&request_id=e02d78a4-cd40-48e3-a07c-0505b10c5d54"
+  },
+  {
+    "rank": 62,
+    "startHere": false,
+    "artist": "Neil Young & Crazy Horse",
+    "album": "Americana",
+    "genre": "Singer-Songwriter",
+    "approach": "Traditional American songs",
+    "why": "Folk standards and old songs are pushed through the rough, oversized sound of Crazy Horse.",
+    "spotify": "https://open.spotify.com/album/1VfoJdwAjt5vbcg8TuczNY?utm_source=openai&utm_medium=chatgpt&request_id=1cadfefc-6119-4fc9-92dc-70809ce34ff5"
+  },
+  {
+    "rank": 63,
+    "startHere": false,
+    "artist": "Bill Frisell",
+    "album": "Guitar in the Space Age",
+    "genre": "Jazz",
+    "approach": "Mid-century guitar and pop repertoire",
+    "why": "Frisell revisits the music that surrounded the electric guitar’s early cultural rise without treating it as a museum piece.",
+    "spotify": "https://open.spotify.com/album/1ueFFIHSmbmmi6gkNbo8BJ?utm_source=openai&utm_medium=chatgpt&request_id=32c6b5d2-c98f-4b2d-a57e-ab650f2884ec"
+  },
+  {
+    "rank": 64,
+    "startHere": true,
+    "artist": "The Bad Plus",
+    "album": "For All I Care",
+    "genre": "Jazz",
+    "approach": "Rock, pop and classical covers",
+    "why": "With Wendy Lewis singing, the trio tackles Nirvana, Pink Floyd, Wilco and classical material through its angular jazz language.",
+    "spotify": "https://open.spotify.com/album/3CGYqqKu94N6TBohkL35OV?utm_source=openai&utm_medium=chatgpt&request_id=d5fda0c6-8e59-47e8-b9d0-dfd8b98c5c70"
+  },
+  {
+    "rank": 65,
+    "startHere": false,
+    "artist": "Herbie Hancock",
+    "album": "Gershwin's World",
+    "genre": "Jazz",
+    "approach": "Gershwin and related repertoire",
+    "why": "Rather than a straight tribute, Hancock uses Gershwin as the center of a wider conversation about 20th-century American music.",
+    "spotify": "https://open.spotify.com/album/6IySeurw1LfTolgz9EjUSG?utm_source=openai&utm_medium=chatgpt&request_id=0e1f8fde-94fb-4b37-bc8d-9277a7a4cfd3"
+  },
+  {
+    "rank": 66,
+    "startHere": false,
+    "artist": "Molly Tuttle",
+    "album": "...but i'd rather be with you",
+    "genre": "Singer-Songwriter",
+    "approach": "Eclectic contemporary cover set",
+    "why": "Tuttle pulls rock, punk and pop songs into an acoustic world without sanding away their individual personalities.",
+    "spotify": "https://open.spotify.com/album/1Misn812Z5W216eNI7NuIy?utm_source=openai&utm_medium=chatgpt&request_id=b3892b97-0d2c-4893-b6ba-35df60740fcc"
+  },
+  {
+    "rank": 67,
+    "startHere": true,
+    "artist": "Lucinda Williams",
+    "album": "Runnin' Down a Dream: A Tribute to Tom Petty",
+    "genre": "Singer-Songwriter",
+    "approach": "Tom Petty songbook",
+    "why": "Williams’ rough-edged voice shifts Petty’s melodic rock songs toward blues, country and bar-band grit.",
+    "spotify": "https://open.spotify.com/album/45YARZ102DY7sx4ieWBzKc?utm_source=openai&utm_medium=chatgpt&request_id=ace4a788-bef2-4714-af97-6551290374ba"
+  },
+  {
+    "rank": 68,
+    "startHere": false,
+    "artist": "Siouxsie and the Banshees",
+    "album": "Through The Looking Glass (Remastered And Expanded)",
+    "genre": "Rock",
+    "approach": "Eclectic rock and pop covers",
+    "why": "The band chooses sources from very different corners and forces them through its own gothic, rhythmic sound.",
+    "spotify": "https://open.spotify.com/album/7kEqVGkLoruahp34YW16oe?utm_source=openai&utm_medium=chatgpt&request_id=57c53190-248b-4a09-9c2a-59c064a14bc1"
+  },
+  {
+    "rank": 69,
+    "startHere": false,
+    "artist": "Yo La Tengo",
+    "album": "Fakebook",
+    "genre": "Rock",
+    "approach": "Mostly acoustic covers and reworkings",
+    "why": "A deliberately loose, intimate record that turns the cover-song idea into something closer to friends playing favorites in a room.",
+    "spotify": "https://open.spotify.com/album/4F9SZ7G2XMUYA1r0MWW6Hu?utm_source=openai&utm_medium=chatgpt&request_id=9607cc8d-6217-4812-b85d-eda64e650f29"
+  },
+  {
+    "rank": 70,
+    "startHere": false,
+    "artist": "Bruce Springsteen",
+    "album": "Only the Strong Survive",
+    "genre": "Singer-Songwriter",
+    "approach": "Soul and R&B covers",
+    "why": "Springsteen steps away from his own catalog to sing classic soul material with polished, horn-heavy arrangements.",
+    "spotify": "https://open.spotify.com/album/4XJaXh57G3rZtAzqeVZSfn?utm_source=openai&utm_medium=chatgpt&request_id=a44f73b8-d268-4cff-b13f-edc4ae2abb43"
+  },
+  {
+    "rank": 71,
+    "startHere": false,
+    "artist": "Cat Power",
+    "album": "Covers",
+    "genre": "Singer-Songwriter",
+    "approach": "Minimalist modern cover set",
+    "why": "Her third dedicated covers record continues her habit of altering mood and structure instead of tracing the source recording.",
+    "spotify": "https://open.spotify.com/album/58z5GjZRjt6XIz5GOS0PJh?utm_source=openai&utm_medium=chatgpt&request_id=925ad5bd-4341-408f-be88-efee047f6dbe"
+  },
+  {
+    "rank": 72,
+    "startHere": false,
+    "artist": "Bryan Ferry",
+    "album": "These Foolish Things",
+    "genre": "Rock",
+    "approach": "Rock, soul and pop covers",
+    "why": "Ferry’s first solo record established his habit of treating other people’s songs as raw material for stylized art-pop performance.",
+    "spotify": "https://open.spotify.com/album/3MOuhseZUoKBvnSZh9EC3V?utm_source=openai&utm_medium=chatgpt&request_id=52b06e5d-9644-4092-bf55-125e8e5bdaf6"
+  },
+  {
+    "rank": 73,
+    "startHere": false,
+    "artist": "Bryan Ferry",
+    "album": "Another Time, Another Place",
+    "genre": "Rock",
+    "approach": "Mostly covers of pop and rock standards",
+    "why": "Ferry continues the lounge-glam transformation of songs that originally lived in very different musical settings.",
+    "spotify": "https://open.spotify.com/album/4GM7Fz5hzjOfFyPkPlHB6x?utm_source=openai&utm_medium=chatgpt&request_id=7dc81977-2bbc-4589-a9b7-8cabd5d23497"
+  },
+  {
+    "rank": 74,
+    "startHere": false,
+    "artist": "Bob Dylan",
+    "album": "Shadows in the Night",
+    "genre": "Singer-Songwriter",
+    "approach": "American standards",
+    "why": "Dylan handles standards with a small, restrained band and very little of the grand orchestration usually attached to them.",
+    "spotify": "https://open.spotify.com/album/2mVpSZrllFAWhOgCoyz8ow?utm_source=openai&utm_medium=chatgpt&request_id=6de2691a-178f-4345-b4b2-a0c7366da246"
+  },
+  {
+    "rank": 75,
+    "startHere": false,
+    "artist": "Bob Dylan",
+    "album": "Fallen Angels",
+    "genre": "Singer-Songwriter",
+    "approach": "American standards",
+    "why": "A second compact standards record that relies on phrasing and band feel rather than vocal polish.",
+    "spotify": "https://open.spotify.com/album/3wjymdW6uOqrgCLWBb6ph4?utm_source=openai&utm_medium=chatgpt&request_id=f52ae75c-cdd1-4e60-b6b3-47de1bab5894"
+  },
+  {
+    "rank": 76,
+    "startHere": false,
+    "artist": "Bob Dylan",
+    "album": "Triplicate",
+    "genre": "Singer-Songwriter",
+    "approach": "Three-disc American standards collection",
+    "why": "Dylan expands his standards project into a large songbook survey while keeping the arrangements unusually restrained.",
+    "spotify": "https://open.spotify.com/album/5coSubIBt21W8V40Po41pY?utm_source=openai&utm_medium=chatgpt&request_id=399ba9a4-4c91-4dfa-85c1-a48c8641dd36"
+  },
+  {
+    "rank": 77,
+    "startHere": false,
+    "artist": "Willie Nelson",
+    "album": "Summertime: Willie Nelson Sings Gershwin",
+    "genre": "Singer-Songwriter",
+    "approach": "Gershwin songbook",
+    "why": "Nelson’s behind-the-beat phrasing and guitar make Gershwin sound surprisingly close to country and western swing.",
+    "spotify": "https://open.spotify.com/album/1tbrHxof4Yzas1N7daw3ZB?utm_source=openai&utm_medium=chatgpt&request_id=fa6c3d52-b3cd-44ae-b346-5c0a80b787bf"
+  },
+  {
+    "rank": 78,
+    "startHere": false,
+    "artist": "Willie Nelson",
+    "album": "My Way",
+    "genre": "Singer-Songwriter",
+    "approach": "Sinatra-associated standards",
+    "why": "Nelson approaches the Sinatra repertoire without trying to imitate Sinatra, which is exactly why it works.",
+    "spotify": "https://open.spotify.com/album/6x4hSL5zCjExduI7LygbhX?utm_source=openai&utm_medium=chatgpt&request_id=43f46ef5-f3e3-4226-9482-45fdba6e2438"
+  },
+  {
+    "rank": 79,
+    "startHere": false,
+    "artist": "Paul McCartney",
+    "album": "Kisses On The Bottom",
+    "genre": "Singer-Songwriter",
+    "approach": "Mostly pre-rock standards",
+    "why": "McCartney returns to the songs he heard before rock and roll, using small-combo and jazz-pop arrangements.",
+    "spotify": "https://open.spotify.com/album/5jOBxNZ2fXG1k0x8SYJ38e?utm_source=openai&utm_medium=chatgpt&request_id=897020b8-d330-4930-8653-70f9ec0921ae"
+  },
+  {
+    "rank": 80,
+    "startHere": false,
+    "artist": "Bill Frisell",
+    "album": "When You Wish Upon a Star",
+    "genre": "Jazz",
+    "approach": "Film and television music",
+    "why": "Familiar screen themes become understated jazz-Americana pieces rather than orchestral nostalgia.",
+    "spotify": "https://open.spotify.com/album/0TUBfk07rsH1ORHQU2WUSy?utm_source=openai&utm_medium=chatgpt&request_id=3a60f6bd-4a82-43a4-8c52-cf6b237a3840"
+  },
+  {
+    "rank": 81,
+    "startHere": false,
+    "artist": "Keith Jarrett",
+    "album": "Standards Vol.1",
+    "genre": "Jazz",
+    "approach": "Jazz standards",
+    "why": "Jarrett, Gary Peacock and Jack DeJohnette turn well-known standards into open-ended trio improvisations.",
+    "spotify": "https://open.spotify.com/album/6g4tw8mwge2gJKqJQxE5r3?utm_source=openai&utm_medium=chatgpt&request_id=599561a9-9a82-4612-98b3-d856d9b19c31"
+  },
+  {
+    "rank": 82,
+    "startHere": false,
+    "artist": "Keith Jarrett",
+    "album": "Standards, Vol. 2",
+    "genre": "Jazz",
+    "approach": "Jazz standards",
+    "why": "The same trio continues treating standard repertoire as a launch point rather than a fixed arrangement.",
+    "spotify": "https://open.spotify.com/album/6fvZds34e7H5ICQ5HOWNbd?utm_source=openai&utm_medium=chatgpt&request_id=6d88a9e5-19b0-4b20-9ecd-2e7d7066cdbd"
+  },
+  {
+    "rank": 83,
+    "startHere": false,
+    "artist": "Joe Jackson",
+    "album": "The Duke",
+    "genre": "Singer-Songwriter",
+    "approach": "Duke Ellington reinterpretations",
+    "why": "Jackson rebuilds Ellington with contemporary instrumentation and guest voices instead of attempting a period recreation.",
+    "spotify": "https://open.spotify.com/album/4v8poJ1GCHuIZ15P85awg7?utm_source=openai&utm_medium=chatgpt&request_id=cccb1372-5752-4760-bf2e-d5b07f9eaeb8"
+  },
+  {
+    "rank": 84,
+    "startHere": false,
+    "artist": "k.d. lang",
+    "album": "Drag",
+    "genre": "Singer-Songwriter",
+    "approach": "Themed cover collection",
+    "why": "A tightly curated set of songs connected by smoking imagery, delivered with lang’s unusually controlled vocal style.",
+    "spotify": "https://open.spotify.com/album/4GDJ3VWtSW7uZcZoEOPT44?utm_source=openai&utm_medium=chatgpt&request_id=c88f6b4b-4dca-469a-b1e6-1e5a13ddd1c7"
+  },
+  {
+    "rank": 85,
+    "startHere": false,
+    "artist": "Shawn Colvin",
+    "album": "Uncovered",
+    "genre": "Singer-Songwriter",
+    "approach": "Songwriter and rock covers",
+    "why": "Colvin’s acoustic-centered arrangements emphasize lyrics and melodic shape rather than production tricks.",
+    "spotify": "https://open.spotify.com/album/48RUKWr9oRjtkNiV74IVqn?utm_source=openai&utm_medium=chatgpt&request_id=490e93b6-fc72-4656-8030-e9be0d10fbbd"
+  },
+  {
+    "rank": 86,
+    "startHere": false,
+    "artist": "Steve Earle",
+    "album": "GUY",
+    "genre": "Singer-Songwriter",
+    "approach": "Guy Clark tribute",
+    "why": "Earle revisits a songwriter who helped define his own lineage, making the project feel personal rather than archival.",
+    "spotify": "https://open.spotify.com/album/6uIsL1dOrLolqxh3PgvfeZ?utm_source=openai&utm_medium=chatgpt&request_id=462f74ad-bbc7-4ea9-9142-1a8e6583fa2d"
+  },
+  {
+    "rank": 87,
+    "startHere": false,
+    "artist": "Steve Earle",
+    "album": "J.T.",
+    "genre": "Singer-Songwriter",
+    "approach": "Justin Townes Earle tribute",
+    "why": "A father records his son's songs, giving the album a direct emotional weight beyond ordinary tribute-album territory.",
+    "spotify": "https://open.spotify.com/album/7B6RM1dHpQQqVx9rbnK9JD?utm_source=openai&utm_medium=chatgpt&request_id=31d291cd-1852-4716-9178-a5fcb6e298ba"
+  },
+  {
+    "rank": 88,
+    "startHere": false,
+    "artist": "John Prine",
+    "album": "In Spite Of Ourselves",
+    "genre": "Singer-Songwriter",
+    "approach": "Classic country duet repertoire",
+    "why": "Prine pairs with female singers on mostly older country songs, keeping the performances loose, funny and human-scaled.",
+    "spotify": "https://open.spotify.com/album/6UNwnh9qYgU8D5rFvihXfJ?utm_source=openai&utm_medium=chatgpt&request_id=aa283145-941e-4d65-81b1-08147989d7a4"
+  },
+  {
+    "rank": 89,
+    "startHere": false,
+    "artist": "John Prine",
+    "album": "For Better, Or Worse",
+    "genre": "Singer-Songwriter",
+    "approach": "Classic country duet repertoire",
+    "why": "A later companion to In Spite of Ourselves, again built around conversational country duets.",
+    "spotify": "https://open.spotify.com/album/1D2PhOw1Rq360HVsmUWXnT?utm_source=openai&utm_medium=chatgpt&request_id=770c2e31-d03b-4775-89bf-e94d5cdc0aa9"
+  },
+  {
+    "rank": 90,
+    "startHere": false,
+    "artist": "Old Crow Medicine Show",
+    "album": "50 Years of Blonde on Blonde (Live)",
+    "genre": "Singer-Songwriter",
+    "approach": "Bob Dylan album performed in full",
+    "why": "The band plays Blonde on Blonde straight through but with its own old-time and string-band engine underneath it.",
+    "spotify": "https://open.spotify.com/album/0uyUriz7zOAn1G9sB8zH8e?utm_source=openai&utm_medium=chatgpt&request_id=8bce26ea-fe36-4240-a756-083f3af0c4e1"
+  },
+  {
+    "rank": 91,
+    "startHere": false,
+    "artist": "Ryan Adams",
+    "album": "Nebraska",
+    "genre": "Singer-Songwriter",
+    "approach": "Full Bruce Springsteen album reinterpretation",
+    "why": "Springsteen’s already spare record is pushed through Adams’ own melancholy acoustic-rock sensibility.",
+    "spotify": "https://open.spotify.com/album/4Rb3ltIWEi0OnVNNv03RHh?utm_source=openai&utm_medium=chatgpt&request_id=60fb3982-6d99-44a1-a3bc-d95c91c2dfe3"
+  },
+  {
+    "rank": 92,
+    "startHere": false,
+    "artist": "Cowboy Junkies",
+    "album": "Songs of the Recollection",
+    "genre": "Rock",
+    "approach": "Career-spanning covers collection",
+    "why": "Their slow, spacious band sound makes material from Bowie, the Cure, Neil Young and others feel unusually cohesive.",
+    "spotify": "https://open.spotify.com/album/3CRQfG5NbcbwphJC3K4lbz?utm_source=openai&utm_medium=chatgpt&request_id=6f670f6e-7198-4784-a6d2-3624542ba02d"
+  },
+  {
+    "rank": 93,
+    "startHere": false,
+    "artist": "Chrissie Hynde & The Valve Bone Woe Ensemble",
+    "album": "Valve Bone Woe",
+    "genre": "Singer-Songwriter",
+    "approach": "Jazz and pop standards",
+    "why": "Hynde moves well outside the Pretenders sound into horn-rich jazz arrangements and older repertoire.",
+    "spotify": "https://open.spotify.com/album/7Ar78kaPOUZc7PcmpqOn6k?utm_source=openai&utm_medium=chatgpt&request_id=405469be-230b-4555-a87d-3d57ccbb1f0f"
+  },
+  {
+    "rank": 94,
+    "startHere": false,
+    "artist": "Annie Lennox",
+    "album": "Medusa",
+    "genre": "Singer-Songwriter",
+    "approach": "Pop, rock and soul covers",
+    "why": "Lennox uses a highly produced solo-pop sound to remake songs by other writers rather than chase their original arrangements.",
+    "spotify": "https://open.spotify.com/album/1T2aRQcFUL59f9kQ876dLX?utm_source=openai&utm_medium=chatgpt&request_id=78b9478b-cb4a-41ac-a037-57cfec9156ab"
+  },
+  {
+    "rank": 95,
+    "startHere": false,
+    "artist": "Annie Lennox",
+    "album": "Nostalgia",
+    "genre": "Singer-Songwriter",
+    "approach": "Standards and classic songs",
+    "why": "Her voice becomes the organizing instrument on a restrained album of older repertoire.",
+    "spotify": "https://open.spotify.com/album/1REqQsUK0WRYQVzsmdsj04?utm_source=openai&utm_medium=chatgpt&request_id=c5ef95ab-2bad-493f-98d0-33932f1192d2"
+  },
+  {
+    "rank": 96,
+    "startHere": false,
+    "artist": "Morrissey",
+    "album": "California Son",
+    "genre": "Singer-Songwriter",
+    "approach": "1960s and 1970s songbook",
+    "why": "Morrissey selects mostly less-obvious material and delivers it with his own theatrical phrasing intact.",
+    "spotify": "https://open.spotify.com/album/0qQmvjDy6kuaICOAC9HYY7?utm_source=openai&utm_medium=chatgpt&request_id=8951dffd-95c5-4487-ace0-8ff66f0456c7"
+  },
+  {
+    "rank": 97,
+    "startHere": false,
+    "artist": "Guns N' Roses",
+    "album": "The Spaghetti Incident?",
+    "genre": "Rock",
+    "approach": "Punk and glam covers",
+    "why": "A stadium-rock band raids punk, proto-punk and glam influences instead of covering safer arena-rock material.",
+    "spotify": "https://open.spotify.com/album/4ieR19hRkKeE81CalJPQNu?utm_source=openai&utm_medium=chatgpt&request_id=00c75689-1b62-42b8-8130-f11ff348e237"
+  },
+  {
+    "rank": 98,
+    "startHere": false,
+    "artist": "Aerosmith",
+    "album": "Honkin' On Bobo",
+    "genre": "Rock",
+    "approach": "Mostly blues standards",
+    "why": "Aerosmith returns to blues roots with a deliberately rawer band sound than its polished hit-era records.",
+    "spotify": "https://open.spotify.com/album/0cofhAxozb6jvoPDYlibbd?utm_source=openai&utm_medium=chatgpt&request_id=eaba8061-7c98-47d2-bc0d-49b037b84f06"
+  },
+  {
+    "rank": 99,
+    "startHere": false,
+    "artist": "Ozzy Osbourne",
+    "album": "Under Cover",
+    "genre": "Rock",
+    "approach": "Classic rock covers",
+    "why": "Ozzy tackles songs from the Beatles, King Crimson, Mountain and others with his own heavy vocal identity intact.",
+    "spotify": "https://open.spotify.com/album/5yIXVMM70ay1mQ5kCWpidF?utm_source=openai&utm_medium=chatgpt&request_id=c9cb2571-73c4-4509-b24c-92fb6d457103"
+  },
+  {
+    "rank": 100,
+    "startHere": false,
+    "artist": "Def Leppard",
+    "album": "Yeah!",
+    "genre": "Rock",
+    "approach": "1970s glam and hard-rock covers",
+    "why": "The band explicitly revisits the records that shaped it before becoming a major songwriting act itself.",
+    "spotify": "https://open.spotify.com/album/2XWi9UGkoa4bnObVeMGn8K?utm_source=openai&utm_medium=chatgpt&request_id=73584a08-2b85-4c67-810f-13aee539e34d"
+  },
+  {
+    "rank": 101,
+    "startHere": false,
+    "artist": "Placebo",
+    "album": "Covers",
+    "genre": "Rock",
+    "approach": "Alternative-rock cover collection",
+    "why": "Placebo’s dark, compressed sound makes the source choices feel like part of one record despite their different origins.",
+    "spotify": "https://open.spotify.com/album/7kTsa1wUFrahJJf1cJEOpZ?utm_source=openai&utm_medium=chatgpt&request_id=e32da1aa-ce55-47c5-907f-0184656cca3d"
+  },
+  {
+    "rank": 102,
+    "startHere": false,
+    "artist": "Lucinda Williams",
+    "album": "Bob's Back Pages: A Night of Bob Dylan Songs",
+    "genre": "Singer-Songwriter",
+    "approach": "Bob Dylan songbook",
+    "why": "Williams’ weathered delivery makes Dylan material sound closer to roadhouse blues and country rock.",
+    "spotify": "https://open.spotify.com/album/4jM6JxCJtK9l14WQ7tKCye?utm_source=openai&utm_medium=chatgpt&request_id=d2f232de-472d-4b27-b045-8dc8a67d865a"
+  },
+  {
+    "rank": 103,
+    "startHere": false,
+    "artist": "Phish",
+    "album": "LivePhish, Vol. 13 10/31/94 (Glens Falls Civic Center, Glens Falls, NY)",
+    "genre": "Jam Band",
+    "approach": "Includes The Beatles' White Album performed in full",
+    "why": "The famous Halloween costume set places a complete Beatles album inside a much larger Phish concert.",
+    "spotify": "https://open.spotify.com/album/3iRKGdBVBAfeLqQmiAZwsK?utm_source=openai&utm_medium=chatgpt&request_id=fe68c36f-10a7-4e7e-a3dd-1ead095b3ac1"
+  },
+  {
+    "rank": 104,
+    "startHere": true,
+    "artist": "Phish",
+    "album": "LivePhish, Vol. 15 10/31/96 (The Omni, Atlanta, GA)",
+    "genre": "Jam Band",
+    "approach": "Includes Talking Heads' Remain in Light performed in full",
+    "why": "Remain in Light is especially compatible with Phish: grooves expand, rhythms interlock, and the cover set feeds directly into their jam vocabulary.",
+    "spotify": "https://open.spotify.com/album/22Vo3uGnJpuhVpuU9QiSxv?utm_source=openai&utm_medium=chatgpt&request_id=93a4fe36-80f0-48d5-9aaf-54206b886866"
+  },
+  {
+    "rank": 105,
+    "startHere": false,
+    "artist": "Duran Duran",
+    "album": "Thank You",
+    "genre": "Rock",
+    "approach": "Eclectic rock, pop and hip-hop covers",
+    "why": "Duran Duran chooses influences far outside its own obvious lane, from Lou Reed to Public Enemy.",
+    "spotify": "https://open.spotify.com/album/2XIlp6UgHAQYNg3OTtoD54?utm_source=openai&utm_medium=chatgpt&request_id=71e24e9b-31fd-4065-82e9-38477eea6d50"
+  },
+  {
+    "rank": 106,
+    "startHere": false,
+    "artist": "Ramones",
+    "album": "Acid Eaters",
+    "genre": "Rock",
+    "approach": "1960s rock covers",
+    "why": "The Ramones strip a collection of their formative influences down to the band’s compact, blunt attack.",
+    "spotify": "https://open.spotify.com/album/17Nd6rUueiqoYVTI0zXx5U?utm_source=openai&utm_medium=chatgpt&request_id=afd8a55c-8f96-40af-a55c-bb523c03830f"
+  },
+  {
+    "rank": 107,
+    "startHere": false,
+    "artist": "Alison Moyet",
+    "album": "Voice (Deluxe Edition)",
+    "genre": "Singer-Songwriter",
+    "approach": "Standards and songwriter covers",
+    "why": "Moyet puts the focus on interpretation and vocal character with arrangements that leave far more air than her synth-pop work.",
+    "spotify": "https://open.spotify.com/album/1QXnH0NrsTfSzIa00pxm0f?utm_source=openai&utm_medium=chatgpt&request_id=a54123dd-fc85-4501-9781-7110e589c752"
+  },
+  {
+    "rank": 108,
+    "startHere": false,
+    "artist": "Natalie Merchant",
+    "album": "The House Carpenter's Daughter",
+    "genre": "Singer-Songwriter",
+    "approach": "Traditional and folk songs",
+    "why": "Merchant steps away from contemporary songwriting for a quiet album rooted in older folk repertoire.",
+    "spotify": "https://open.spotify.com/album/6ARdmVzwPoZ30LG0sP6REz?utm_source=openai&utm_medium=chatgpt&request_id=d2af4325-1e61-4f61-9657-74b035e4f3b6"
+  },
+  {
+    "rank": 109,
+    "startHere": false,
+    "artist": "Lucinda Williams",
+    "album": "Funny How Time Slips Away: A Night of 60's Country Classics",
+    "genre": "Singer-Songwriter",
+    "approach": "1960s country covers",
+    "why": "Williams takes classic country material and roughens the edges with her later-career voice and band feel.",
+    "spotify": "https://open.spotify.com/album/512H6Oob5vrO638CR2LrpD?utm_source=openai&utm_medium=chatgpt&request_id=0bb4472c-382b-4e13-956d-4d13b92c801d"
+  },
+  {
+    "rank": 110,
+    "startHere": false,
+    "artist": "The Corrs",
+    "album": "Home",
+    "genre": "Rock",
+    "approach": "Irish traditional and songwriter material",
+    "why": "The Corrs lean into their Irish acoustic roots rather than their polished pop side.",
+    "spotify": "https://open.spotify.com/album/7ikWEipHEl6zuKXOvc77hY?utm_source=openai&utm_medium=chatgpt&request_id=6e36dbc5-5c8a-4cb3-8988-58252c2d21e1"
+  },
+  {
+    "rank": 111,
+    "startHere": false,
+    "artist": "Cyndi Lauper",
+    "album": "At Last",
+    "genre": "Singer-Songwriter",
+    "approach": "Standards and classic pop songs",
+    "why": "Lauper uses jazz, soul and traditional-pop arrangements while keeping her distinctive phrasing front and center.",
+    "spotify": "https://open.spotify.com/album/5UV4FazvWUfsur7E5PeCTi?utm_source=openai&utm_medium=chatgpt&request_id=5f2a7686-147d-4033-9c0e-af096eca2a80"
+  }
+]
