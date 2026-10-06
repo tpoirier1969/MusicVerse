@@ -1,6 +1,14 @@
 import './styles.css';
 import { loadMusicData } from './data.js';
 import {
+  filterCoverAlbums,
+  formatDuration,
+  getAlbumOriginalArtists,
+  getAlbumOriginalGenres,
+  getCoverAlbumById,
+  getFacetOptions,
+} from './cover-catalog.js';
+import {
   addTrackToPlaylist,
   createPlaylist,
   getListeningLog,
@@ -24,6 +32,9 @@ const app = document.querySelector('#app');
 let data = { coverAlbums: [], crazyCovers: [], accordionMusic: [] };
 let activeCoverTab = 'start';
 let searchText = '';
+let coverAlbumSearchText = '';
+let coverAlbumViewMode = 'grid';
+let coverAlbumFilters = { coverArtist: '', originalArtist: '', coverGenre: '', originalGenre: '' };
 let toastTimer = null;
 
 const moduleMeta = {
@@ -50,6 +61,14 @@ function route() {
   return Object.keys(moduleMeta).includes(value) ? value : 'home';
 }
 
+function hashParams() {
+  const raw = String(location.hash || '').split('?')[1] || '';
+  return new URLSearchParams(raw);
+}
+
+function activeAlbumId() {
+  return hashParams().get('album') || '';
+}
 function showToast(message) {
   let node = document.querySelector('.toast');
   if (!node) {
@@ -209,18 +228,53 @@ function crazyRows(items) {
   }).join('')}</div>`;
 }
 
-function coverAlbumsGrid() {
-  const items = data.coverAlbums.filter((album) => {
-    const haystack = `${album.artist} ${album.album} ${album.genre} ${album.approach}`.toLowerCase();
-    return !searchText || haystack.includes(searchText.toLowerCase());
-  });
-  return `<div class="album-grid">${items.slice(0, 60).map((album, index) => `<article class="album-card">
-    <div class="album-card-art" style="--album-bg:url('${index % 2 ? '/assets/vinyl.svg' : '/assets/roadscape.svg'}')"></div>
-    <div><span class="eyebrow">${esc(album.genre)}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach)}</small></div>
-    <button class="round-arrow" data-open-url="${esc(album.spotify)}" aria-label="Open on Spotify">→</button>
-  </article>`).join('')}</div>`;
+function albumFilterSelect(field, label, options) {
+  const selected = coverAlbumFilters[field] || '';
+  const optionHtml = options.map((value) => `<option value="${esc(value)}"${value === selected ? ' selected' : ''}>${esc(value)}</option>`).join('');
+  return `<label class="album-filter"><span>${esc(label)}</span><select data-album-filter="${esc(field)}"><option value="">Any</option>${optionHtml}</select></label>`;
 }
 
+function coverAlbumBrowser() {
+  const items = filterCoverAlbums(data.coverAlbums, coverAlbumFilters, coverAlbumSearchText);
+  const facets = {
+    coverArtist: getFacetOptions(data.coverAlbums, coverAlbumFilters, 'coverArtist', coverAlbumSearchText),
+    originalArtist: getFacetOptions(data.coverAlbums, coverAlbumFilters, 'originalArtist', coverAlbumSearchText),
+    coverGenre: getFacetOptions(data.coverAlbums, coverAlbumFilters, 'coverGenre', coverAlbumSearchText),
+    originalGenre: getFacetOptions(data.coverAlbums, coverAlbumFilters, 'originalGenre', coverAlbumSearchText),
+  };
+
+  const controls = `<div class="album-browser-controls organic-panel">
+    <form class="album-search-form" data-album-search-form>
+      <label><span>Search albums</span><div><input name="albumSearch" type="search" value="${esc(coverAlbumSearchText)}" placeholder="Album, artist, song, musician…"><button type="submit">Search</button></div></label>
+    </form>
+    <div class="album-filter-grid">
+      ${albumFilterSelect('coverArtist','Cover artist',facets.coverArtist)}
+      ${albumFilterSelect('originalArtist','Original artist',facets.originalArtist)}
+      ${albumFilterSelect('coverGenre','Cover genre',facets.coverGenre)}
+      ${albumFilterSelect('originalGenre','Original genre',facets.originalGenre)}
+    </div>
+    <div class="album-browser-footer"><span><strong>${items.length}</strong> of ${data.coverAlbums.length} albums</span><div class="album-view-toggle" role="group" aria-label="Album view"><button type="button" data-album-view="grid" class="${coverAlbumViewMode === 'grid' ? 'is-active' : ''}">Grid</button><button type="button" data-album-view="list" class="${coverAlbumViewMode === 'list' ? 'is-active' : ''}">List</button></div><button type="button" class="filter-reset" data-album-filter-reset>Clear filters</button></div>
+  </div>`;
+
+  if (!items.length) return `${controls}<div class="empty-browser organic-panel"><h3>No albums match those filters.</h3><p>Clear a filter or broaden the search.</p></div>`;
+  return `${controls}${coverAlbumViewMode === 'list' ? coverAlbumsList(items) : coverAlbumsGrid(items)}`;
+}
+
+function coverAlbumsGrid(items) {
+  return `<div class="album-grid album-grid-browser">${items.map((album, index) => `<a class="album-card album-card-link" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums">
+    <div class="album-card-art" style="--album-bg:url('${album.detail?.artwork || (index % 2 ? '/assets/vinyl.svg' : '/assets/roadscape.svg')}')"></div>
+    <div><span class="eyebrow">${esc(album.genre || 'Unknown genre')}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach || '')}</small></div>
+    <span class="round-arrow" aria-hidden="true">→</span>
+  </a>`).join('')}</div>`;
+}
+
+function coverAlbumsList(items) {
+  return `<div class="album-list-view"><div class="album-list-head"><span>Album</span><span>Cover artist</span><span>Cover genre</span><span>Original artist</span><span>Original genre</span></div>${items.map((album) => {
+    const originals = getAlbumOriginalArtists(album);
+    const originalGenres = getAlbumOriginalGenres(album);
+    return `<a class="album-list-row" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums"><strong>${esc(album.album)}</strong><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
+  }).join('')}</div>`;
+}
 function accordionGrid() {
   return `<div class="album-grid compact-grid">${data.accordionMusic.slice(0, 80).map((item, index)=>`<article class="album-card">
     <div class="album-card-art" style="--album-bg:url('${index % 3 === 0 ? '/assets/van.svg' : '/assets/guitar.svg'}')"></div>
@@ -230,7 +284,7 @@ function accordionGrid() {
 }
 
 function coververseBody() {
-  if (activeCoverTab === 'albums') return `<section class="module-content"><div class="section-heading"><div><h2>Cover Albums</h2><p>${data.coverAlbums.length} albums in the current catalog.</p></div></div>${coverAlbumsGrid()}</section>`;
+  if (activeCoverTab === 'albums') return `<section class="module-content"><div class="section-heading"><div><h2>Cover Albums</h2><p>Browse the catalog by artist, source material, and genre.</p></div></div>${coverAlbumBrowser()}</section>`;
   if (activeCoverTab === 'crazy') return `<section class="module-content"><div class="section-heading"><div><h2>Crazy Covers</h2><p>Interpretation first. Karaoke need not apply.</p></div><span>${data.crazyCovers.length} recordings</span></div>${crazyRows(data.crazyCovers.filter((track)=>!searchText || `${track.sourceArtist} ${track.song} ${track.coverArtist} ${track.style}`.toLowerCase().includes(searchText.toLowerCase())).slice(0,100))}</section>`;
   return `
     ${featuredAlbum()}
@@ -242,7 +296,43 @@ function coververseBody() {
   </>`;
 }
 
+function musicianSummary(musicians = []) {
+  if (!musicians.length) return '—';
+  return musicians.map((musician) => `${musician.name}${musician.roles?.length ? ` (${musician.roles.join(', ')})` : ''}`).join('; ');
+}
+
+function coverAlbumDetailView(album) {
+  if (!album) return shell(`<section class="module-content"><a class="back-link" href="#/coververse?tab=albums">← Cover Albums</a><div class="coming organic-panel"><h2>Album not found</h2><p>This MusicVerse album ID does not exist.</p></div></section>`);
+  const detail = album.detail || {};
+  const tracks = detail.tracks || [];
+  const originals = getAlbumOriginalArtists(album);
+  const originalGenres = getAlbumOriginalGenres(album);
+  const artwork = detail.artwork || '/assets/roadscape.svg';
+  const notes = detail.notes || [];
+  const personnel = detail.personnel || [];
+
+  return shell(`<section class="album-detail-hero">
+    <a class="back-link" href="#/coververse?tab=albums">← Cover Albums</a>
+    <div class="album-detail-hero-grid">
+      <img class="album-detail-art" src="${esc(artwork)}" alt="${esc(album.album)} cover artwork">
+      <div class="album-detail-copy"><span class="eyebrow">COVER ALBUM</span><h1>${esc(album.album)}</h1><h2>${esc(album.artist)}</h2><p>${esc(album.why || album.approach || '')}</p>
+        <div class="detail-meta"><span><b>Cover genre</b>${esc(album.genre || 'Unknown')}</span><span><b>Original artist</b>${esc(originals.join(', ') || 'Not yet cataloged')}</span><span><b>Original genre</b>${esc(originalGenres.join(', ') || 'Not yet cataloged')}</span>${detail.releaseDate ? `<span><b>Released</b>${esc(detail.releaseDate)}</span>` : ''}</div>
+        <div class="action-row"><button class="primary-action" data-open-url="${esc(album.spotify || '')}">▶ Open album in Spotify</button></div>
+      </div>
+    </div>
+  </section>
+  <section class="album-detail-body">
+    <div class="album-notes organic-panel"><div><span class="eyebrow">WHY IT'S HERE</span><h2>Album notes</h2>${notes.length ? notes.map((note) => `<p>${esc(note)}</p>`).join('') : `<p>${esc(album.approach || 'Additional notes have not been added yet.')}</p>`}</div>${personnel.length ? `<div><span class="eyebrow">PERSONNEL</span><h3>Musicians</h3><ul>${personnel.map((person) => `<li><strong>${esc(person.name)}</strong><span>${esc((person.roles || []).join(', '))}</span></li>`).join('')}</ul></div>` : ''}</div>
+    <div class="track-table-wrap organic-panel"><div class="section-heading"><div><span class="eyebrow">TRACKS</span><h2>Track listing</h2><p>${tracks.length ? `${tracks.length} verified tracks` : 'Track details have not been added for this album yet.'}</p></div></div>
+      ${tracks.length ? `<div class="album-track-table"><div class="album-track-head"><span>#</span><span>Track</span><span>Original artist</span><span>Length</span><span>Musicians</span><span>Actions</span></div>${tracks.map((track) => `<div class="album-track-row"><span>${esc(track.number)}</span><div><strong>${esc(track.title)}</strong>${track.originalGenre ? `<small>${esc(track.originalGenre)}</small>` : ''}</div><span>${esc(track.originalArtist || '—')}</span><span>${formatDuration(track.durationSeconds)}</span><span class="track-musicians">${esc(musicianSummary(track.musicians || []))}</span><span class="track-actions"><button data-open-url="${esc(track.spotify || '')}" data-listened="${esc(track.id)}"${track.spotify ? '' : ' disabled'}>▶ Play</button><button data-open-url="${esc(track.spotify || '')}"${track.spotify ? '' : ' disabled'}>Spotify ↗</button></span></div>`).join('')}</div>` : '<div class="empty-track-data">No verified track-level data has been added yet. MusicVerse leaves it blank rather than guessing.</div>'}
+    </div>
+  </section>`);
+}
 function coververseView() {
+  const albumId = activeAlbumId();
+  if (albumId) return coverAlbumDetailView(getCoverAlbumById(data.coverAlbums, albumId));
+  const requestedTab = hashParams().get('tab');
+  if (['start','albums','crazy'].includes(requestedTab)) activeCoverTab = requestedTab;
   return shell(`<section class="module-hero cover-hero page-wave"><div><span class="eyebrow">COVERVERSE</span><h1>CoverVerse</h1><p>Fresh takes on familiar songs.</p>${heroSearch()}</div><div class="small-roadtrip"></div></section>${coverSubnav()}${coververseBody()}`);
 }
 
@@ -367,6 +457,20 @@ document.addEventListener('click', async (event) => {
     return;
   }
 
+  const albumView = event.target.closest('[data-album-view]');
+  if (albumView) {
+    coverAlbumViewMode = albumView.dataset.albumView === 'list' ? 'list' : 'grid';
+    render();
+    return;
+  }
+
+  const resetAlbumFilters = event.target.closest('[data-album-filter-reset]');
+  if (resetAlbumFilters) {
+    coverAlbumFilters = { coverArtist: '', originalArtist: '', coverGenre: '', originalGenre: '' };
+    coverAlbumSearchText = '';
+    render();
+    return;
+  }
   const open = event.target.closest('[data-open-url]');
   if (open) {
     openSpotifyUrl(open.dataset.openUrl, open.dataset.listened || '');
@@ -406,14 +510,26 @@ document.addEventListener('click', async (event) => {
   }
 });
 
+document.addEventListener('change', (event) => {
+  const filter = event.target.closest('[data-album-filter]');
+  if (!filter) return;
+  coverAlbumFilters = { ...coverAlbumFilters, [filter.dataset.albumFilter]: filter.value };
+  render();
+});
 document.addEventListener('submit', (event) => {
+  if (event.target.matches('[data-album-search-form]')) {
+    event.preventDefault();
+    coverAlbumSearchText = String(new FormData(event.target).get('albumSearch') || '').trim();
+    render();
+    return;
+  }
   if (event.target.matches('[data-search-form]')) {
     event.preventDefault();
     searchText = new FormData(event.target).get('q') || event.target.querySelector('input')?.value || '';
     const input = event.target.querySelector('input');
     searchText = String(input?.value || '').trim();
     if (searchText && route() === 'home') location.hash = '#/coververse';
-    activeCoverTab = searchText ? 'crazy' : activeCoverTab;
+    if (searchText && route() === 'coververse' && activeCoverTab === 'start') activeCoverTab = 'crazy';
     render();
   }
   if (event.target.matches('[data-new-playlist]')) {
