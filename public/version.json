@@ -1,9 +1,10 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "updated_at": "2026-10-06",
   "notes": [
-    "Enriched five Start Here Cover Albums with verified track listings, Spotify matches, durations, source artists, personnel, notes, and artwork.",
-    "Added Brad Mehldau, Ryan Adams, Mark Kozelek, Chrissie Hynde, and Lucinda Williams album details.",
-    "Original tracks inside otherwise-cover albums are now labeled explicitly."
+    "Expanded CoverVerse album details from 7 to 12 records.",
+    "Added detailed track/source data for The Bad Plus, Tori Amos, Peter Gabriel, Bill Frisell, and Punch Brothers.",
+    "Original Artist filtering now spans a much broader set of source recordings and artists.",
+    "Album detail records retain verified Spotify track IDs, durations, personnel, artwork, notes, and provenance."
   ]
 }
