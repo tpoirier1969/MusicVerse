@@ -16,6 +16,7 @@ import {
   finishSpotifyLoginFromUrl,
   getSpotifyToken,
   spotifyConfigured,
+  spotifyResourceUri,
   spotifyTrackUri,
 } from './spotify.js';
 
@@ -28,6 +29,7 @@ let toastTimer = null;
 const moduleMeta = {
   home: { label: 'Home', icon: '⌂' },
   coververse: { label: 'CoverVerse', img: '/assets/vinyl.svg' },
+  instruments: { label: 'InstrumentVerse', img: '/assets/accordion.svg' },
   playlists: { label: 'Playlists', img: '/assets/van.svg' },
   tabs: { label: 'Tabs & Chords', img: '/assets/guitar.svg' },
   log: { label: 'Listening Log', img: '/assets/mug.svg' },
@@ -81,13 +83,13 @@ function shell(content) {
         <span class="brand-tag">music fuels brighter roads</span>
       </a>
       <nav class="orb-nav" aria-label="MusicVerse modules">
-        ${['home','coververse','playlists','tabs','log','library'].map(navItem).join('')}
+        ${['home','coververse','instruments','playlists','tabs','log','library'].map(navItem).join('')}
       </nav>
       <div class="sidebar-landscape" aria-hidden="true"></div>
     </aside>
     <main class="main-canvas">${content}</main>
     <nav class="mobile-nav" aria-label="Mobile navigation">
-      ${['home','coververse','playlists','library'].map((slug) => {
+      ${['home','coververse','instruments','playlists','library'].map((slug) => {
         const meta = moduleMeta[slug];
         return `<a href="#/${slug}" class="mobile-nav-link${route() === slug ? ' is-active' : ''}"><span>${slug === 'home' ? '⌂' : '●'}</span>${esc(meta.label.replace('CoverVerse','Covers'))}</a>`;
       }).join('')}
@@ -142,6 +144,7 @@ function homeView() {
 
     <section class="module-ribbon" aria-label="MusicVerse modules">
       ${moduleWorld('coververse','CoverVerse','Crazy covers, full cover albums, and fresh takes on familiar songs.','/assets/vinyl.svg','world-rust')}
+      ${moduleWorld('instruments','InstrumentVerse','Explore instruments through styles, traditions, players, and recordings.','/assets/accordion.svg','world-gold')}
       ${moduleWorld('playlists','Playlists','Build collections for moods, moments, and long roads.','/assets/van.svg','world-sage')}
       ${moduleWorld('tabs','Tabs & Chords','Keep the tabs, chords, and references you actually use.','/assets/guitar.svg','world-gold')}
       ${moduleWorld('log','Listening Log','Track what you hear and rediscover the good stuff later.','/assets/mug.svg','world-teal')}
@@ -167,7 +170,6 @@ function coverSubnav() {
     ['start','Start Here','Begin your journey','/assets/van.svg'],
     ['albums','Cover Albums','Full collections','/assets/vinyl.svg'],
     ['crazy','Crazy Covers','Unexpected takes','/assets/guitar.svg'],
-    ['accordion','Accordion Music','Traditions & styles','/assets/mug.svg'],
   ];
   return `<div class="cover-subnav">${items.map(([id,title,sub,img]) => `<button class="cover-subnav-item${activeCoverTab===id?' is-active':''}" data-cover-tab="${id}"><span class="cover-subnav-art" style="--sub-image:url('${img}')"></span><span><strong>${title}</strong><small>${sub}</small></span><b>→</b></button>`).join('')}</div>`;
 }
@@ -230,7 +232,6 @@ function accordionGrid() {
 function coververseBody() {
   if (activeCoverTab === 'albums') return `<section class="module-content"><div class="section-heading"><div><h2>Cover Albums</h2><p>${data.coverAlbums.length} albums in the current catalog.</p></div></div>${coverAlbumsGrid()}</section>`;
   if (activeCoverTab === 'crazy') return `<section class="module-content"><div class="section-heading"><div><h2>Crazy Covers</h2><p>Interpretation first. Karaoke need not apply.</p></div><span>${data.crazyCovers.length} recordings</span></div>${crazyRows(data.crazyCovers.filter((track)=>!searchText || `${track.sourceArtist} ${track.song} ${track.coverArtist} ${track.style}`.toLowerCase().includes(searchText.toLowerCase())).slice(0,100))}</section>`;
-  if (activeCoverTab === 'accordion') return `<section class="module-content"><div class="section-heading"><div><h2>Accordion Music</h2><p>Traditions, players, and listening references.</p></div></div>${accordionGrid()}</section>`;
   return `
     ${featuredAlbum()}
     <section class="cover-lower">
@@ -243,6 +244,10 @@ function coververseBody() {
 
 function coververseView() {
   return shell(`<section class="module-hero cover-hero page-wave"><div><span class="eyebrow">COVERVERSE</span><h1>CoverVerse</h1><p>Fresh takes on familiar songs.</p>${heroSearch()}</div><div class="small-roadtrip"></div></section>${coverSubnav()}${coververseBody()}`);
+}
+
+function instrumentView() {
+  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">INSTRUMENTVERSE</span><h1>InstrumentVerse</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
 }
 
 function playlistTrackRow(track, playlistId) {
@@ -274,6 +279,7 @@ function libraryView() {
 function render() {
   switch (route()) {
     case 'coververse': app.innerHTML = coververseView(); break;
+    case 'instruments': app.innerHTML = instrumentView(); break;
     case 'playlists': app.innerHTML = playlistsView(); break;
     case 'tabs': app.innerHTML = tabsView(); break;
     case 'log': app.innerHTML = logView(); break;
@@ -285,7 +291,32 @@ function render() {
 function openSpotifyUrl(url, listenedId = '') {
   if (!url) return showToast('Spotify link is not available for this item yet.');
   if (listenedId) markListened(listenedId);
-  window.open(url, '_blank', 'noopener,noreferrer');
+
+  const appUri = spotifyResourceUri(url);
+  if (!appUri) {
+    window.open(url, '_blank', 'noopener,noreferrer');
+    return;
+  }
+
+  let fallbackTimer = null;
+  const onVisibilityChange = () => {
+    if (document.hidden) cleanup();
+  };
+  const cleanup = () => {
+    if (fallbackTimer) window.clearTimeout(fallbackTimer);
+    fallbackTimer = null;
+    window.removeEventListener('blur', cleanup);
+    document.removeEventListener('visibilitychange', onVisibilityChange);
+  };
+
+  window.addEventListener('blur', cleanup, { once: true });
+  document.addEventListener('visibilitychange', onVisibilityChange);
+  fallbackTimer = window.setTimeout(() => {
+    cleanup();
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }, 1800);
+
+  window.location.href = appUri;
 }
 
 function addTrackDialog(track) {
@@ -322,7 +353,7 @@ async function handleExport(playlistId) {
     tracks: playlist.tracks,
   });
   showToast(`Sent “${playlist.name}” to Spotify.`);
-  if (exported?.external_urls?.spotify) window.open(exported.external_urls.spotify, '_blank', 'noopener,noreferrer');
+  if (exported?.external_urls?.spotify) openSpotifyUrl(exported.external_urls.spotify);
 }
 
 window.addEventListener('hashchange', render);
