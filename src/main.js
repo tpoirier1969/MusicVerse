@@ -119,7 +119,7 @@ function shell(content) {
 function heroSearch() {
   return `<form class="hero-search" data-search-form>
     <span aria-hidden="true">⌕</span>
-    <input data-search-input type="search" value="${esc(searchText)}" placeholder="Search songs, artists, albums, playlists, or tabs…" aria-label="Search MusicVerse">
+    <input data-search-input type="search" value="${esc(searchText)}" placeholder="Search tracks, albums, cover/original artists, or genres…" aria-label="Search MusicVerse">
     <button type="submit">Search</button>
   </form>`;
 }
@@ -245,7 +245,7 @@ function coverAlbumBrowser() {
 
   const controls = `<div class="album-browser-controls organic-panel">
     <form class="album-search-form" data-album-search-form>
-      <label><span>Search albums</span><div><input name="albumSearch" type="search" value="${esc(coverAlbumSearchText)}" placeholder="Album, artist, song, musician…"><button type="submit">Search</button></div></label>
+      <label><span>Search albums & tracks</span><div><input name="albumSearch" type="search" value="${esc(coverAlbumSearchText)}" placeholder="Track, album, cover/original artist, genre, musician…"><button type="submit">Search</button></div></label>
     </form>
     <div class="album-filter-grid">
       ${albumFilterSelect('coverArtist','Cover artist',facets.coverArtist)}
@@ -525,11 +525,18 @@ document.addEventListener('submit', (event) => {
   }
   if (event.target.matches('[data-search-form]')) {
     event.preventDefault();
-    searchText = new FormData(event.target).get('q') || event.target.querySelector('input')?.value || '';
     const input = event.target.querySelector('input');
     searchText = String(input?.value || '').trim();
-    if (searchText && route() === 'home') location.hash = '#/coververse';
-    if (searchText && route() === 'coververse' && activeCoverTab === 'start') activeCoverTab = 'crazy';
+
+    if (searchText && ['home', 'coververse'].includes(route())) {
+      coverAlbumSearchText = searchText;
+      activeCoverTab = 'albums';
+      const targetHash = '#/coververse?tab=albums';
+      if (location.hash !== targetHash) location.hash = targetHash;
+      else render();
+      return;
+    }
+
     render();
   }
   if (event.target.matches('[data-new-playlist]')) {
