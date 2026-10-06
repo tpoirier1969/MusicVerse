@@ -1,0 +1,772 @@
+[
+  {
+    "albumId": "cover-album-0005",
+    "releaseDate": "1996-02-19",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2738ebd5f2e53d6a316e9659d4f",
+    "originalArtists": [
+      "Don Henley",
+      "Peter Gabriel",
+      "The Beatles",
+      "Babyface",
+      "Stevie Wonder",
+      "Sade",
+      "Traditional",
+      "Prince",
+      "Nirvana",
+      "Steely Dan"
+    ],
+    "originalGenres": [
+      "Rock",
+      "R&B"
+    ],
+    "notes": [
+      "Hancock treats contemporary rock and R&B material as modern jazz repertoire rather than as novelty covers.",
+      "The core group includes Herbie Hancock, Michael Brecker, John Scofield, Dave Holland, Jack DeJohnette and Don Alias; selected tracks add strings and woodwinds/brass."
+    ],
+    "personnel": [
+      {
+        "name": "Herbie Hancock",
+        "roles": [
+          "piano"
+        ]
+      },
+      {
+        "name": "Michael Brecker",
+        "roles": [
+          "tenor saxophone",
+          "soprano saxophone"
+        ]
+      },
+      {
+        "name": "John Scofield",
+        "roles": [
+          "guitar",
+          "electric sitar"
+        ]
+      },
+      {
+        "name": "Dave Holland",
+        "roles": [
+          "acoustic bass"
+        ]
+      },
+      {
+        "name": "Jack DeJohnette",
+        "roles": [
+          "drums",
+          "percussion"
+        ]
+      },
+      {
+        "name": "Don Alias",
+        "roles": [
+          "percussion"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/00ca054f-055f-4c6d-8a8c-1526624c5f49/disc/1"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_New_Standard_(Herbie_Hancock_album)"
+      },
+      {
+        "label": "Original-song reference",
+        "url": "https://www.musik-sammler.de/release/herbie-hancock-the-new-standard-cd-239555/"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0005-01",
+        "number": 1,
+        "title": "New York Minute",
+        "durationSeconds": 513.826,
+        "originalArtist": "Don Henley",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5xQWccXe7uHjnC8u3JCH7w",
+        "spotifyUri": "spotify:track:5xQWccXe7uHjnC8u3JCH7w",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-02",
+        "number": 2,
+        "title": "Mercy Street",
+        "durationSeconds": 516.533,
+        "originalArtist": "Peter Gabriel",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1UdZ2oZYuBH1o5VxLV4hP8",
+        "spotifyUri": "spotify:track:1UdZ2oZYuBH1o5VxLV4hP8",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-03",
+        "number": 3,
+        "title": "Norwegian Wood",
+        "durationSeconds": 484.293,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4VqSbmpTxOgRU2MQoa6CSC",
+        "spotifyUri": "spotify:track:4VqSbmpTxOgRU2MQoa6CSC",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-04",
+        "number": 4,
+        "title": "When Can I See You",
+        "durationSeconds": 374.906,
+        "originalArtist": "Babyface",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/14DMZPsUGPL2GIu36qyc17",
+        "spotifyUri": "spotify:track:14DMZPsUGPL2GIu36qyc17",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-05",
+        "number": 5,
+        "title": "You've Got It Bad Girl",
+        "durationSeconds": 433.093,
+        "originalArtist": "Stevie Wonder",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4O0a3QEXJvSJV6lVHxfThP",
+        "spotifyUri": "spotify:track:4O0a3QEXJvSJV6lVHxfThP",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-06",
+        "number": 6,
+        "title": "Love Is Stronger Than Pride",
+        "durationSeconds": 477.693,
+        "originalArtist": "Sade",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3X3bXuwfzB3KhHejDaEdR1",
+        "spotifyUri": "spotify:track:3X3bXuwfzB3KhHejDaEdR1",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-07",
+        "number": 7,
+        "title": "Scarborough Fair",
+        "durationSeconds": 501.666,
+        "originalArtist": "Traditional",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/13p0z3GDGH47JCZViO4u7D",
+        "spotifyUri": "spotify:track:13p0z3GDGH47JCZViO4u7D",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-08",
+        "number": 8,
+        "title": "Thieves In The Temple",
+        "durationSeconds": 450.72,
+        "originalArtist": "Prince",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6WgynOUpUJTNLGGTT6m8Fl",
+        "spotifyUri": "spotify:track:6WgynOUpUJTNLGGTT6m8Fl",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-09",
+        "number": 9,
+        "title": "All Apologies",
+        "durationSeconds": 304.226,
+        "originalArtist": "Nirvana",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2oNYOxcWACEYHd2uPge9P4",
+        "spotifyUri": "spotify:track:2oNYOxcWACEYHd2uPge9P4",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-10",
+        "number": 10,
+        "title": "Manhattan (Island Of Lights And Love)",
+        "durationSeconds": 245.093,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0aZj4OIGvUxzEz7KCWMATa",
+        "spotifyUri": "spotify:track:0aZj4OIGvUxzEz7KCWMATa",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0005-11",
+        "number": 11,
+        "title": "Your Gold Teeth II",
+        "durationSeconds": 314.133,
+        "originalArtist": "Steely Dan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0q2DjEfLxKZA4jTAqazx6d",
+        "spotifyUri": "spotify:track:0q2DjEfLxKZA4jTAqazx6d",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Michael Brecker",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Jack DeJohnette",
+            "roles": [
+              "drums",
+              "percussion"
+            ]
+          },
+          {
+            "name": "Don Alias",
+            "roles": [
+              "percussion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0010",
+    "releaseDate": "2011-06-14",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273b99bc001949bdf676dd853cd",
+    "originalArtists": [],
+    "originalGenres": [],
+    "notes": [
+      "A solo-guitar album of songs written by others, and Metheny's first album without his own compositions.",
+      "The record uses several guitar configurations, including baritone, 42-string, 6-string and nylon-string guitars."
+    ],
+    "personnel": [
+      {
+        "name": "Pat Metheny",
+        "roles": [
+          "guitar"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/25964f3b-77c4-424f-a31b-d8e39e8b8abf"
+      },
+      {
+        "label": "Nonesuch Records",
+        "url": "https://www.nonesuch.com/albums/whats-it-all-about"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/0NTw2CP759sAAhDV7X52xe"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0010-01",
+        "number": 1,
+        "title": "The Sound of Silence",
+        "durationSeconds": 393.276,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3fPag1YSaCb6Gbq1puybqf",
+        "spotifyUri": "spotify:track:3fPag1YSaCb6Gbq1puybqf",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-02",
+        "number": 2,
+        "title": "Cherish",
+        "durationSeconds": 328.029,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7JPsBQf1EoKYTJQod7FPBj",
+        "spotifyUri": "spotify:track:7JPsBQf1EoKYTJQod7FPBj",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-03",
+        "number": 3,
+        "title": "Alfie",
+        "durationSeconds": 466.972,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4OaV5pFQ9F4kKOeveDemVl",
+        "spotifyUri": "spotify:track:4OaV5pFQ9F4kKOeveDemVl",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-04",
+        "number": 4,
+        "title": "Pipeline",
+        "durationSeconds": 208.076,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2zUysbXqlKYndZIC71aLFM",
+        "spotifyUri": "spotify:track:2zUysbXqlKYndZIC71aLFM",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-05",
+        "number": 5,
+        "title": "Garota de Ipanema",
+        "durationSeconds": 312.478,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4k0W847Xdeyg34ayFN410L",
+        "spotifyUri": "spotify:track:4k0W847Xdeyg34ayFN410L",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-06",
+        "number": 6,
+        "title": "Rainy Days and Mondays",
+        "durationSeconds": 432.002,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7nroZF24JLcG7EnkgW7jb6",
+        "spotifyUri": "spotify:track:7nroZF24JLcG7EnkgW7jb6",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-07",
+        "number": 7,
+        "title": "That's the Way I've Always Heard It Should Be",
+        "durationSeconds": 363.299,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3QEutlBJshBHpZFiTQfzIF",
+        "spotifyUri": "spotify:track:3QEutlBJshBHpZFiTQfzIF",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-08",
+        "number": 8,
+        "title": "Slow Hot Wind",
+        "durationSeconds": 268.046,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2xgsgpZFQDuKAXR9eoavCU",
+        "spotifyUri": "spotify:track:2xgsgpZFQDuKAXR9eoavCU",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-09",
+        "number": 9,
+        "title": "Betcha by Golly, Wow",
+        "durationSeconds": 318.854,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3rX03xjlRdwHLqGXp5sviB",
+        "spotifyUri": "spotify:track:3rX03xjlRdwHLqGXp5sviB",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0010-10",
+        "number": 10,
+        "title": "And I Love Her",
+        "durationSeconds": 262.098,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2kvqPKN242cGQLI2KW0Dmq",
+        "spotifyUri": "spotify:track:2kvqPKN242cGQLI2KW0Dmq",
+        "musicians": [
+          {
+            "name": "Pat Metheny",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
