@@ -231,7 +231,7 @@ function coververseBody() {
   if (activeCoverTab === 'albums') return `<section class="module-content"><div class="section-heading"><div><h2>Cover Albums</h2><p>${data.coverAlbums.length} albums in the current catalog.</p></div></div>${coverAlbumsGrid()}</section>`;
   if (activeCoverTab === 'crazy') return `<section class="module-content"><div class="section-heading"><div><h2>Crazy Covers</h2><p>Interpretation first. Karaoke need not apply.</p></div><span>${data.crazyCovers.length} recordings</span></div>${crazyRows(data.crazyCovers.filter((track)=>!searchText || `${track.sourceArtist} ${track.song} ${track.coverArtist} ${track.style}`.toLowerCase().includes(searchText.toLowerCase())).slice(0,100))}</section>`;
   if (activeCoverTab === 'accordion') return `<section class="module-content"><div class="section-heading"><div><h2>Accordion Music</h2><p>Traditions, players, and listening references.</p></div></div>${accordionGrid()}</section>`;
-  return `<>
+  return `
     ${featuredAlbum()}
     <section class="cover-lower">
       <div class="organic-panel track-panel"><div class="section-heading"><div><h2>Recent Finds</h2><p>Wild covers from the existing catalog.</p></div><button data-cover-tab="crazy">See all →</button></div>${crazyRows(data.crazyCovers.filter((x)=>x.standout).slice(0,7))}</div>
