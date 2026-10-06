@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" role="img" aria-label="Accordion">
+  <g stroke="#30463e" stroke-linejoin="round">
+    <path d="M34 55c0-11 9-20 20-20h39v150H54c-11 0-20-9-20-20Z" fill="#b85f3d" stroke-width="5"/>
+    <path d="M147 35h39c11 0 20 9 20 20v110c0 11-9 20-20 20h-39Z" fill="#c77750" stroke-width="5"/>
+    <path d="M93 47h54v126H93Z" fill="#d8c7a7" stroke-width="4"/>
+    <path d="m98 52 44 15-44 15 44 15-44 15 44 15-44 15 44 15" fill="none" stroke="#6d756c" stroke-width="5"/>
+    <rect x="159" y="51" width="32" height="116" rx="5" fill="#f4ecd9" stroke-width="3"/>
+    <path d="M159 69h32M159 87h32M159 105h32M159 123h32M159 141h32" fill="none" stroke="#9b9b8e" stroke-width="2"/>
+    <path d="M159 60h15v12h-15M176 78h15v12h-15M159 96h15v12h-15M176 114h15v12h-15M159 132h15v12h-15" fill="#30463e" stroke="none"/>
+    <g fill="#f3d7b6" stroke-width="2">
+      <circle cx="58" cy="70" r="5"/><circle cx="74" cy="70" r="5"/><circle cx="58" cy="88" r="5"/><circle cx="74" cy="88" r="5"/>
+      <circle cx="58" cy="106" r="5"/><circle cx="74" cy="106" r="5"/><circle cx="58" cy="124" r="5"/><circle cx="74" cy="124" r="5"/>
+      <circle cx="58" cy="142" r="5"/><circle cx="74" cy="142" r="5"/>
+    </g>
+  </g>
+</svg>
