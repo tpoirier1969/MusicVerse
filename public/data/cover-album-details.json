@@ -3860,5 +3860,282 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0035",
+    "releaseDate": "1978-04-01",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273501c9821efa6129d22d25559",
+    "originalArtists": [],
+    "originalGenres": [],
+    "notes": [
+      "Stardust is a ten-song collection of American pop standards, produced and arranged by Booker T. Jones.",
+      "These standards do not map cleanly to one source recording, so MusicVerse leaves original-artist fields unknown rather than treating a songwriter or a famous later interpreter as the original artist."
+    ],
+    "personnel": [
+      {
+        "name": "Willie Nelson",
+        "roles": [
+          "vocals",
+          "guitar"
+        ]
+      },
+      {
+        "name": "Booker T. Jones",
+        "roles": [
+          "organ",
+          "piano",
+          "producer",
+          "arranger"
+        ]
+      },
+      {
+        "name": "Bobbie Nelson",
+        "roles": [
+          "piano"
+        ]
+      },
+      {
+        "name": "Mickey Raphael",
+        "roles": [
+          "harmonica"
+        ]
+      },
+      {
+        "name": "Jody Payne",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Bee Spears",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Chris Ethridge",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Paul English",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Rex Ludwig",
+        "roles": [
+          "drums"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Willie Nelson official store",
+        "url": "https://willienelson.com/products/stardust"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/8a034c40-ce79-495b-b2f4-9576c898dbba"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/38uGoW7jS8jjJMvZA26sRq"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0035-01",
+        "number": 1,
+        "title": "Stardust",
+        "durationSeconds": 233.749,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7iyd0aOJ2J54hENgLeGxCk",
+        "spotifyUri": "spotify:track:7iyd0aOJ2J54hENgLeGxCk",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-02",
+        "number": 2,
+        "title": "Georgia On My Mind",
+        "durationSeconds": 262.663,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5GOFil3Umfp4yB75U2Ah4e",
+        "spotifyUri": "spotify:track:5GOFil3Umfp4yB75U2Ah4e",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-03",
+        "number": 3,
+        "title": "Blue Skies",
+        "durationSeconds": 217.725,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/33LQxf2T3Jbgw3XQ1H3LMY",
+        "spotifyUri": "spotify:track:33LQxf2T3Jbgw3XQ1H3LMY",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-04",
+        "number": 4,
+        "title": "All of Me",
+        "durationSeconds": 238.199,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4cen5a0z9D3ryLbCte2tCQ",
+        "spotifyUri": "spotify:track:4cen5a0z9D3ryLbCte2tCQ",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-05",
+        "number": 5,
+        "title": "Unchained Melody",
+        "durationSeconds": 232.391,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3hfPI0akrkb0t0zaRf5nJC",
+        "spotifyUri": "spotify:track:3hfPI0akrkb0t0zaRf5nJC",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-06",
+        "number": 6,
+        "title": "September Song",
+        "durationSeconds": 278.522,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0HBc7nSv7tT4KXktKAaNYx",
+        "spotifyUri": "spotify:track:0HBc7nSv7tT4KXktKAaNYx",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-07",
+        "number": 7,
+        "title": "On the Sunny Side of the Street",
+        "durationSeconds": 159.118,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/56IA2zZQwSUW6t7heX8gtn",
+        "spotifyUri": "spotify:track:56IA2zZQwSUW6t7heX8gtn",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-08",
+        "number": 8,
+        "title": "Moonlight in Vermont",
+        "durationSeconds": 206.751,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0Otg6s8ps1OkdRkD5KmepW",
+        "spotifyUri": "spotify:track:0Otg6s8ps1OkdRkD5KmepW",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-09",
+        "number": 9,
+        "title": "Don't Get Around Much Anymore",
+        "durationSeconds": 157.006,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0Mt7UFxCdP6wk8fcQX2TpY",
+        "spotifyUri": "spotify:track:0Mt7UFxCdP6wk8fcQX2TpY",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0035-10",
+        "number": 10,
+        "title": "Someone to Watch Over Me",
+        "durationSeconds": 241.446,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6K2h64Ul4sv6HAJGNxoorf",
+        "spotifyUri": "spotify:track:6K2h64Ul4sv6HAJGNxoorf",
+        "musicians": [
+          {
+            "name": "Willie Nelson",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
