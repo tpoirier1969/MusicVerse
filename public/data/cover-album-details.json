@@ -2066,5 +2066,1799 @@
         "isCover": false
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0006",
+    "releaseDate": "2016-08-26",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273caac9b249b0431dfe5c18743",
+    "originalArtists": [
+      "Yeah Yeah Yeahs",
+      "Peter Gabriel",
+      "Cyndi Lauper",
+      "Johnny Cash",
+      "Bill McHenry",
+      "Prince",
+      "Crowded House",
+      "TV on the Radio",
+      "Barry Manilow",
+      "Kraftwerk",
+      "Ornette Coleman"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "The trio deliberately jumps across pop, country, electronic music and avant-garde jazz while keeping the instrumentation acoustic.",
+      "This is a useful CoverVerse stress test: nearly every track points to a different source artist."
+    ],
+    "personnel": [
+      {
+        "name": "Ethan Iverson",
+        "roles": [
+          "piano"
+        ]
+      },
+      {
+        "name": "Reid Anderson",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "David King",
+        "roles": [
+          "drums"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/its-hard-mw0002962787"
+      },
+      {
+        "label": "Album reference",
+        "url": "https://en.wikipedia.org/wiki/It%27s_Hard_(The_Bad_Plus_album)"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6wvhtrGBFbkS8l0IMYLqZJ"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0006-01",
+        "number": 1,
+        "title": "Maps",
+        "durationSeconds": 261.329,
+        "originalArtist": "Yeah Yeah Yeahs",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/720v6LmyIQQq3NXxkLdCvi",
+        "spotifyUri": "spotify:track:720v6LmyIQQq3NXxkLdCvi",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-02",
+        "number": 2,
+        "title": "Games Without Frontiers",
+        "durationSeconds": 259.674,
+        "originalArtist": "Peter Gabriel",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3X8ABbm4KOqrbPmgn4SzAA",
+        "spotifyUri": "spotify:track:3X8ABbm4KOqrbPmgn4SzAA",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-03",
+        "number": 3,
+        "title": "Time After Time",
+        "durationSeconds": 374.617,
+        "originalArtist": "Cyndi Lauper",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1CdSQrf0mqQkjDRNJ0mXd4",
+        "spotifyUri": "spotify:track:1CdSQrf0mqQkjDRNJ0mXd4",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-04",
+        "number": 4,
+        "title": "I Walk the Line",
+        "durationSeconds": 198.75,
+        "originalArtist": "Johnny Cash",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0sG97rWD7GN4oOYAbzfhXi",
+        "spotifyUri": "spotify:track:0sG97rWD7GN4oOYAbzfhXi",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-05",
+        "number": 5,
+        "title": "Alfombra Magica",
+        "durationSeconds": 247.684,
+        "originalArtist": "Bill McHenry",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3xGUMsMZXrcmXKdiqODV43",
+        "spotifyUri": "spotify:track:3xGUMsMZXrcmXKdiqODV43",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-06",
+        "number": 6,
+        "title": "The Beautiful Ones",
+        "durationSeconds": 212.412,
+        "originalArtist": "Prince",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2KFHgQ8paqlIea7FfbBFBy",
+        "spotifyUri": "spotify:track:2KFHgQ8paqlIea7FfbBFBy",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-07",
+        "number": 7,
+        "title": "Don't Dream It's Over",
+        "durationSeconds": 322.146,
+        "originalArtist": "Crowded House",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0cCJmwAOmumujlR8uEVmqV",
+        "spotifyUri": "spotify:track:0cCJmwAOmumujlR8uEVmqV",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-08",
+        "number": 8,
+        "title": "Staring at the Sun",
+        "durationSeconds": 267.351,
+        "originalArtist": "TV on the Radio",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3fFmksnLmZij81CRqZkd8P",
+        "spotifyUri": "spotify:track:3fFmksnLmZij81CRqZkd8P",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-09",
+        "number": 9,
+        "title": "Mandy",
+        "durationSeconds": 374.126,
+        "originalArtist": "Barry Manilow",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6e4oOZPRnkOs6t3vG9idyJ",
+        "spotifyUri": "spotify:track:6e4oOZPRnkOs6t3vG9idyJ",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-10",
+        "number": 10,
+        "title": "The Robots",
+        "durationSeconds": 210.535,
+        "originalArtist": "Kraftwerk",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1cL8Ty3XEAXDTcwZiolGjU",
+        "spotifyUri": "spotify:track:1cL8Ty3XEAXDTcwZiolGjU",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0006-11",
+        "number": 11,
+        "title": "Broken Shadows",
+        "durationSeconds": 212.573,
+        "originalArtist": "Ornette Coleman",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5UjXnLhn3IoM07aktTnFbc",
+        "spotifyUri": "spotify:track:5UjXnLhn3IoM07aktTnFbc",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0026",
+    "releaseDate": "2001-09-18",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2737ec772c8102fddc69d64a521",
+    "originalArtists": [
+      "The Velvet Underground",
+      "Eminem",
+      "The Stranglers",
+      "Depeche Mode",
+      "10cc",
+      "Lloyd Cole & The Commotions",
+      "Tom Waits",
+      "Neil Young",
+      "The Boomtown Rats",
+      "The Beatles",
+      "Slayer",
+      "Joe Jackson"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "Amos built the concept around songs written and originally performed by men, reframing each through a female character or point of view.",
+      "The source material ranges from hip-hop and metal to classic rock, synth-pop and singer-songwriter material."
+    ],
+    "personnel": [
+      {
+        "name": "Tori Amos",
+        "roles": [
+          "vocals"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rhino expanded-edition notes",
+        "url": "https://media.rhino.com/press-release/strange-little-girls-expanded-edition"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/strange-little-girls-mw0000011921"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6VVyHpknRsMb0tU6VmTL9S"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0026-01",
+        "number": 1,
+        "title": "New Age",
+        "durationSeconds": 276.96,
+        "originalArtist": "The Velvet Underground",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6IVRkthdux8MywUbwRO4Bx",
+        "spotifyUri": "spotify:track:6IVRkthdux8MywUbwRO4Bx",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-02",
+        "number": 2,
+        "title": "'97 Bonnie & Clyde",
+        "durationSeconds": 346.053,
+        "originalArtist": "Eminem",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3KzxBwT7ombxfh6NHAvlDX",
+        "spotifyUri": "spotify:track:3KzxBwT7ombxfh6NHAvlDX",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-03",
+        "number": 3,
+        "title": "Strange Little Girl",
+        "durationSeconds": 229.093,
+        "originalArtist": "The Stranglers",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1N4WioydnI37dzsZgb5SXw",
+        "spotifyUri": "spotify:track:1N4WioydnI37dzsZgb5SXw",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-04",
+        "number": 4,
+        "title": "Enjoy the Silence",
+        "durationSeconds": 249.96,
+        "originalArtist": "Depeche Mode",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2ZIm4nE67GSmw1j8qZbRYC",
+        "spotifyUri": "spotify:track:2ZIm4nE67GSmw1j8qZbRYC",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-05",
+        "number": 5,
+        "title": "I'm Not in Love",
+        "durationSeconds": 339.36,
+        "originalArtist": "10cc",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5uM5qZPnfEkvP5ErrMAdMv",
+        "spotifyUri": "spotify:track:5uM5qZPnfEkvP5ErrMAdMv",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-06",
+        "number": 6,
+        "title": "Rattlesnakes",
+        "durationSeconds": 239.426,
+        "originalArtist": "Lloyd Cole & The Commotions",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2N6Rx3WzHG20fcxKhGZMI9",
+        "spotifyUri": "spotify:track:2N6Rx3WzHG20fcxKhGZMI9",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-07",
+        "number": 7,
+        "title": "Time",
+        "durationSeconds": 321.573,
+        "originalArtist": "Tom Waits",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0IyorRkG1pPDCQtlrkmfpZ",
+        "spotifyUri": "spotify:track:0IyorRkG1pPDCQtlrkmfpZ",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-08",
+        "number": 8,
+        "title": "Heart of Gold",
+        "durationSeconds": 239.946,
+        "originalArtist": "Neil Young",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6rBgsttFLDRpZkRBu7GTeW",
+        "spotifyUri": "spotify:track:6rBgsttFLDRpZkRBu7GTeW",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-09",
+        "number": 9,
+        "title": "I Don't Like Mondays",
+        "durationSeconds": 260.626,
+        "originalArtist": "The Boomtown Rats",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5RCnDm5q0eZpURO4gUrtRr",
+        "spotifyUri": "spotify:track:5RCnDm5q0eZpURO4gUrtRr",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-10",
+        "number": 10,
+        "title": "Happiness Is a Warm Gun",
+        "durationSeconds": 595.266,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5fDchUGS9ypF8kMHSejdiN",
+        "spotifyUri": "spotify:track:5fDchUGS9ypF8kMHSejdiN",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-11",
+        "number": 11,
+        "title": "Raining Blood",
+        "durationSeconds": 382.32,
+        "originalArtist": "Slayer",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0CXZjq6V0dFxGN3FrUyALR",
+        "spotifyUri": "spotify:track:0CXZjq6V0dFxGN3FrUyALR",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0026-12",
+        "number": 12,
+        "title": "Real Men",
+        "durationSeconds": 244.96,
+        "originalArtist": "Joe Jackson",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/086rn8Zx72CsPpIOzIfkuM",
+        "spotifyUri": "spotify:track:086rn8Zx72CsPpIOzIfkuM",
+        "musicians": [
+          {
+            "name": "Tori Amos",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0034",
+    "releaseDate": "2010-02-12",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2738e81e0ba9909580b35e4648f",
+    "originalArtists": [
+      "David Bowie",
+      "Paul Simon",
+      "Elbow",
+      "Bon Iver",
+      "Talking Heads",
+      "Lou Reed",
+      "Arcade Fire",
+      "The Magnetic Fields",
+      "Randy Newman",
+      "Regina Spektor",
+      "Neil Young",
+      "Radiohead"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "Gabriel deliberately avoided a conventional rock-band treatment, rebuilding twelve favorite songs around voice and orchestral instrumentation.",
+      "The album was conceived as one half of a song-exchange project in which the source artists were invited to cover Gabriel songs in return."
+    ],
+    "personnel": [
+      {
+        "name": "Peter Gabriel",
+        "roles": [
+          "vocals"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peter Gabriel official site",
+        "url": "https://petergabriel.com/release/scratch-my-back/"
+      },
+      {
+        "label": "Track-source reference",
+        "url": "https://www.kcrw.com/shows/album-preview/stories/peter-gabriel-scratch-my-back"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6UvXlXqOAFv49ePZ22kEyn"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0034-01",
+        "number": 1,
+        "title": "Heroes",
+        "durationSeconds": 248.706,
+        "originalArtist": "David Bowie",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3JnUGjk4IoihcVDmcxDEA1",
+        "spotifyUri": "spotify:track:3JnUGjk4IoihcVDmcxDEA1",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-02",
+        "number": 2,
+        "title": "The Boy in the Bubble",
+        "durationSeconds": 264.506,
+        "originalArtist": "Paul Simon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5shoYjXZETzCVTIcpgNqzs",
+        "spotifyUri": "spotify:track:5shoYjXZETzCVTIcpgNqzs",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-03",
+        "number": 3,
+        "title": "Mirrorball",
+        "durationSeconds": 288.493,
+        "originalArtist": "Elbow",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5zadmfJYoynGGCCC5IXspp",
+        "spotifyUri": "spotify:track:5zadmfJYoynGGCCC5IXspp",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-04",
+        "number": 4,
+        "title": "Flume",
+        "durationSeconds": 180.546,
+        "originalArtist": "Bon Iver",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5DNcNUUlkBgnndXBKLQB4g",
+        "spotifyUri": "spotify:track:5DNcNUUlkBgnndXBKLQB4g",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-05",
+        "number": 5,
+        "title": "Listening Wind",
+        "durationSeconds": 262.6,
+        "originalArtist": "Talking Heads",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/75lQKRAH3znK0ooA7go8SN",
+        "spotifyUri": "spotify:track:75lQKRAH3znK0ooA7go8SN",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-06",
+        "number": 6,
+        "title": "The Power of the Heart",
+        "durationSeconds": 351.84,
+        "originalArtist": "Lou Reed",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5W6aV89ATpC3ybwCzAr0d9",
+        "spotifyUri": "spotify:track:5W6aV89ATpC3ybwCzAr0d9",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-07",
+        "number": 7,
+        "title": "My Body Is a Cage",
+        "durationSeconds": 372.666,
+        "originalArtist": "Arcade Fire",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6M5PxYhmHBJaoPcYQ0puHz",
+        "spotifyUri": "spotify:track:6M5PxYhmHBJaoPcYQ0puHz",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-08",
+        "number": 8,
+        "title": "The Book of Love",
+        "durationSeconds": 232.613,
+        "originalArtist": "The Magnetic Fields",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4TGjfiGfhS8OKXHdghtMh0",
+        "spotifyUri": "spotify:track:4TGjfiGfhS8OKXHdghtMh0",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-09",
+        "number": 9,
+        "title": "I Think It's Going to Rain Today",
+        "durationSeconds": 154.306,
+        "originalArtist": "Randy Newman",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/09PPn8Dr7iJNkrpkEgDf9v",
+        "spotifyUri": "spotify:track:09PPn8Dr7iJNkrpkEgDf9v",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-10",
+        "number": 10,
+        "title": "Après Moi",
+        "durationSeconds": 313.16,
+        "originalArtist": "Regina Spektor",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5hudxqyQi9ubRBdztBe7YT",
+        "spotifyUri": "spotify:track:5hudxqyQi9ubRBdztBe7YT",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-11",
+        "number": 11,
+        "title": "Philadelphia",
+        "durationSeconds": 226.013,
+        "originalArtist": "Neil Young",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6JV2IJ7i2ZBteERX7Xx7Ve",
+        "spotifyUri": "spotify:track:6JV2IJ7i2ZBteERX7Xx7Ve",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0034-12",
+        "number": 12,
+        "title": "Street Spirit (Fade Out)",
+        "durationSeconds": 306.32,
+        "originalArtist": "Radiohead",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5uwM1pahX8puwaVko73ELX",
+        "spotifyUri": "spotify:track:5uwM1pahX8puwaVko73ELX",
+        "musicians": [
+          {
+            "name": "Peter Gabriel",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0011",
+    "releaseDate": "2011-09-27",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2736ac1372428f0d11d43503684",
+    "originalArtists": [
+      "The Beatles",
+      "John Lennon"
+    ],
+    "originalGenres": [
+      "Rock"
+    ],
+    "notes": [
+      "Frisell’s quintet treats Lennon material from both the Beatles catalog and Lennon’s solo years as a single songbook.",
+      "The arrangements are built around ensemble interplay rather than vocals, with guitar, violin, pedal steel/acoustic guitar, bass and drums."
+    ],
+    "personnel": [
+      {
+        "name": "Bill Frisell",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Jenny Scheinman",
+        "roles": [
+          "violin"
+        ]
+      },
+      {
+        "name": "Tony Scherr",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Greg Leisz",
+        "roles": [
+          "guitars"
+        ]
+      },
+      {
+        "name": "Kenny Wollesen",
+        "roles": [
+          "drums"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Bill Frisell official site",
+        "url": "https://www.billfrisell.com/silent-comedy"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/eac04b94-2579-4bcd-a7a3-92859c2e04d7"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/4NVlIW7uOVhJH9LEhV4fmi"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0011-01",
+        "number": 1,
+        "title": "Across the Universe",
+        "durationSeconds": 353.746,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2jnlTzDEeRC38V9kHlV5Vc",
+        "spotifyUri": "spotify:track:2jnlTzDEeRC38V9kHlV5Vc",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-02",
+        "number": 2,
+        "title": "Revolution",
+        "durationSeconds": 230.693,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3p8RifSXkGMqtayI5CIF6j",
+        "spotifyUri": "spotify:track:3p8RifSXkGMqtayI5CIF6j",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-03",
+        "number": 3,
+        "title": "Nowhere Man",
+        "durationSeconds": 314.44,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2UN2zPpH4gFytyDivl42YM",
+        "spotifyUri": "spotify:track:2UN2zPpH4gFytyDivl42YM",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-04",
+        "number": 4,
+        "title": "Imagine",
+        "durationSeconds": 291.986,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3OrBUwZzkNERlpXe1krygq",
+        "spotifyUri": "spotify:track:3OrBUwZzkNERlpXe1krygq",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-05",
+        "number": 5,
+        "title": "Please Please Me",
+        "durationSeconds": 126.6,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0XuEEfAf89ZM3EFhgfxPJM",
+        "spotifyUri": "spotify:track:0XuEEfAf89ZM3EFhgfxPJM",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-06",
+        "number": 6,
+        "title": "You've Got to Hide Your Love Away",
+        "durationSeconds": 310.866,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6HuzSP4QnbA3YixSgHG7IJ",
+        "spotifyUri": "spotify:track:6HuzSP4QnbA3YixSgHG7IJ",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-07",
+        "number": 7,
+        "title": "Hold On",
+        "durationSeconds": 236.133,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5f7XLUInfqQ7pRIjJjgmXy",
+        "spotifyUri": "spotify:track:5f7XLUInfqQ7pRIjJjgmXy",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-08",
+        "number": 8,
+        "title": "In My Life",
+        "durationSeconds": 245.226,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2uoA3q46wO19HBblC4l5gO",
+        "spotifyUri": "spotify:track:2uoA3q46wO19HBblC4l5gO",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-09",
+        "number": 9,
+        "title": "Come Together",
+        "durationSeconds": 310.066,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6dmXWF2ohRhBQ9ngzxatiE",
+        "spotifyUri": "spotify:track:6dmXWF2ohRhBQ9ngzxatiE",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-10",
+        "number": 10,
+        "title": "Julia",
+        "durationSeconds": 211.373,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0nc7jNw7pGtP68VRwefBGY",
+        "spotifyUri": "spotify:track:0nc7jNw7pGtP68VRwefBGY",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-11",
+        "number": 11,
+        "title": "Woman",
+        "durationSeconds": 261.453,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1bqLdPmmukhtDH2kNnM2Kf",
+        "spotifyUri": "spotify:track:1bqLdPmmukhtDH2kNnM2Kf",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-12",
+        "number": 12,
+        "title": "#9 Dream",
+        "durationSeconds": 222.346,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/315w4f3BEtfiy8JSZ8EvlI",
+        "spotifyUri": "spotify:track:315w4f3BEtfiy8JSZ8EvlI",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-13",
+        "number": 13,
+        "title": "Love",
+        "durationSeconds": 138.026,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0kq9ab3EXOGHcNAWaPJWsW",
+        "spotifyUri": "spotify:track:0kq9ab3EXOGHcNAWaPJWsW",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-14",
+        "number": 14,
+        "title": "Beautiful Boy",
+        "durationSeconds": 207.986,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5qJXgFdkkPqDyFyHuH0iCX",
+        "spotifyUri": "spotify:track:5qJXgFdkkPqDyFyHuH0iCX",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-15",
+        "number": 15,
+        "title": "Mother",
+        "durationSeconds": 412.88,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3PfB2z9dtlcrULnhehoyxn",
+        "spotifyUri": "spotify:track:3PfB2z9dtlcrULnhehoyxn",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0011-16",
+        "number": 16,
+        "title": "Give Peace a Chance",
+        "durationSeconds": 218.253,
+        "originalArtist": "John Lennon",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/05fWBDXgmuVb9NNFftCfaX",
+        "spotifyUri": "spotify:track:05fWBDXgmuVb9NNFftCfaX",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0055",
+    "releaseDate": "2022-01-14",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273fb766ff6ad2b4674eb8128a0",
+    "originalArtists": [
+      "Tony Rice"
+    ],
+    "originalGenres": [
+      "Bluegrass"
+    ],
+    "notes": [
+      "Punch Brothers reimagined Tony Rice’s 1983 album Church Street Blues in sequence, treating Rice’s recording as the source album even though the songs themselves come from many writers and traditions.",
+      "The band described the project as both a standalone work and a gift to Rice."
+    ],
+    "personnel": [
+      {
+        "name": "Chris Eldridge",
+        "roles": [
+          "acoustic guitar"
+        ]
+      },
+      {
+        "name": "Noam Pikelny",
+        "roles": [
+          "banjo"
+        ]
+      },
+      {
+        "name": "Paul Kowert",
+        "roles": [
+          "double bass"
+        ]
+      },
+      {
+        "name": "Gabe Witcher",
+        "roles": [
+          "fiddle"
+        ]
+      },
+      {
+        "name": "Chris Thile",
+        "roles": [
+          "mandolin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Nonesuch Records",
+        "url": "https://www.nonesuch.com/albums/hell-church-street"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/7949549d-0a78-4377-b0aa-58f1faa9e176"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/5XptR8Eatr8J2KlcO7heEA"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0055-01",
+        "number": 1,
+        "title": "Church Street Blues",
+        "durationSeconds": 153.327,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7az05FAMuX2E4vWo3gQoPS",
+        "spotifyUri": "spotify:track:7az05FAMuX2E4vWo3gQoPS",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-02",
+        "number": 2,
+        "title": "Cattle in the Cane",
+        "durationSeconds": 212.164,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1iNIB7xrjq8qr2efZNJD0J",
+        "spotifyUri": "spotify:track:1iNIB7xrjq8qr2efZNJD0J",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-03",
+        "number": 3,
+        "title": "Streets of London",
+        "durationSeconds": 262.439,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3G5ysWFkqhae8QxlXX8V17",
+        "spotifyUri": "spotify:track:3G5ysWFkqhae8QxlXX8V17",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-04",
+        "number": 4,
+        "title": "One More Night",
+        "durationSeconds": 109.254,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5muyMixMNLGeL31Ohi17rN",
+        "spotifyUri": "spotify:track:5muyMixMNLGeL31Ohi17rN",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-05",
+        "number": 5,
+        "title": "The Gold Rush",
+        "durationSeconds": 166.027,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5DG3HPR6ivqu1bLob210fE",
+        "spotifyUri": "spotify:track:5DG3HPR6ivqu1bLob210fE",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-06",
+        "number": 6,
+        "title": "Any Old Time",
+        "durationSeconds": 178.973,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5u5OHbWaCxcvIoi04HGLy6",
+        "spotifyUri": "spotify:track:5u5OHbWaCxcvIoi04HGLy6",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-07",
+        "number": 7,
+        "title": "Orphan Annie",
+        "durationSeconds": 300.676,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7tsWLFSZ7HNUDDF5UxUSZE",
+        "spotifyUri": "spotify:track:7tsWLFSZ7HNUDDF5UxUSZE",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-08",
+        "number": 8,
+        "title": "House Carpenter / Jerusalem Ridge",
+        "durationSeconds": 437.658,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2j4VdCqeIyKFr3FnckDThH",
+        "spotifyUri": "spotify:track:2j4VdCqeIyKFr3FnckDThH",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-09",
+        "number": 9,
+        "title": "Last Thing on My Mind",
+        "durationSeconds": 265.184,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4wBdBoWX2Nq7dg19N6499N",
+        "spotifyUri": "spotify:track:4wBdBoWX2Nq7dg19N6499N",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-10",
+        "number": 10,
+        "title": "Pride of Man",
+        "durationSeconds": 233.416,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3e3sDRflULRApZmJZkGiRP",
+        "spotifyUri": "spotify:track:3e3sDRflULRApZmJZkGiRP",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0055-11",
+        "number": 11,
+        "title": "Wreck of the Edmund Fitzgerald",
+        "durationSeconds": 285.976,
+        "originalArtist": "Tony Rice",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3WUVzOFltfSz7AU648MGq4",
+        "spotifyUri": "spotify:track:3WUVzOFltfSz7AU648MGq4",
+        "musicians": [
+          {
+            "name": "Chris Eldridge",
+            "roles": [
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "Noam Pikelny",
+            "roles": [
+              "banjo"
+            ]
+          },
+          {
+            "name": "Paul Kowert",
+            "roles": [
+              "double bass"
+            ]
+          },
+          {
+            "name": "Gabe Witcher",
+            "roles": [
+              "fiddle"
+            ]
+          },
+          {
+            "name": "Chris Thile",
+            "roles": [
+              "mandolin"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
