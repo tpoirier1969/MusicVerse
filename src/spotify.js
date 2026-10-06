@@ -123,7 +123,23 @@ export async function exportPlaylistToSpotify({ name, description, tracks, isPub
   return playlist;
 }
 
+export function spotifyResourceUri(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+  if (/^spotify:[a-z]+:[A-Za-z0-9]+$/i.test(raw)) return raw;
+
+  try {
+    const url = new URL(raw);
+    if (!/(^|\.)open\.spotify\.com$/i.test(url.hostname)) return '';
+    const [type, id] = url.pathname.split('/').filter(Boolean);
+    if (!['track','album','artist','playlist','show','episode'].includes(type) || !id) return '';
+    return `spotify:${type}:${id}`;
+  } catch {
+    return '';
+  }
+}
+
 export function spotifyTrackUri(url) {
-  const match = String(url || '').match(/open\.spotify\.com\/track\/([A-Za-z0-9]+)/i);
-  return match ? `spotify:track:${match[1]}` : '';
+  const uri = spotifyResourceUri(url);
+  return uri.startsWith('spotify:track:') ? uri : '';
 }
