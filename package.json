@@ -11,7 +11,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "wrangler deploy",
-    "check:cloudflare": "wrangler deploy --dry-run"
+    "check:cloudflare": "wrangler deploy --dry-run",
+    "test": "node --test"
   },
   "devDependencies": {
     "vite": "^8.1.0",
