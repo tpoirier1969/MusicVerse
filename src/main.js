@@ -264,7 +264,7 @@ function tabsView() {
 
 function logView() {
   const log = Object.entries(getListeningLog()).sort((a,b)=>String(b[1]).localeCompare(String(a[1]))).slice(0,50);
-  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LISTENING LOG</span><h1>Remember what landed.</h1><p>A quiet trail of the songs and versions you actually opened.</p></div><div class="small-roadtrip coffee-trip"></div></section><section class="coming organic-panel"><h2>Recent listening</h2>${log.length ? `<div class="log-list">${log.map(([id,at])=>`<div><span>${esc(id.replace('cover:','').replaceAll(':',' · '))}</span><small>${new Date(at).toLocaleString()}</small></div>`).join('')}</div>` : '<p>No listening history yet. Open a few covers and this starts filling itself.</p>'}</section>`;
+  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LISTENING LOG</span><h1>Remember what landed.</h1><p>A quiet trail of the songs and versions you actually opened.</p></div><div class="small-roadtrip coffee-trip"></div></section><section class="coming organic-panel"><h2>Recent listening</h2>${log.length ? `<div class="log-list">${log.map(([id,at])=>`<div><span>${esc(id.replace('cover:','').replaceAll(':',' · '))}</span><small>${new Date(at).toLocaleString()}</small></div>`).join('')}</div>` : '<p>No listening history yet. Open a few covers and this starts filling itself.</p>'}</section>`);
 }
 
 function libraryView() {
