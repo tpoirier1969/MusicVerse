@@ -187,3 +187,5 @@ h1,h2,h3 { font-family:Georgia,serif; color:#172a24; }
   .album-detail-body{padding:20px 14px 36px}.album-notes{grid-template-columns:1fr;padding:20px}.track-table-wrap{padding:16px}.album-track-head,.album-track-row{min-width:860px}
   .instrument-feature-icon{width:92px;max-width:30vw}.instrument-heading{align-items:end}
 }
+
+.original-track-label{display:inline-block;font-style:normal;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--pine);background:#e3eadf;border-radius:999px;padding:4px 8px}
