@@ -1,10 +1,9 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "updated_at": "2026-10-06",
   "notes": [
-    "Expanded CoverVerse album details from 7 to 12 records.",
-    "Added detailed track/source data for The Bad Plus, Tori Amos, Peter Gabriel, Bill Frisell, and Punch Brothers.",
-    "Original Artist filtering now spans a much broader set of source recordings and artists.",
-    "Album detail records retain verified Spotify track IDs, durations, personnel, artwork, notes, and provenance."
+    "Top-level MusicVerse search now routes into the track-aware Cover Albums catalog.",
+    "Cover Albums search explicitly supports track title, album, cover artist, original artist, cover genre, original genre, and musician metadata.",
+    "Expanded automated search coverage across album and track metadata."
   ]
 }
