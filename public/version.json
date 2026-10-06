@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
-  "display_version": "v0.1.0",
-  "build": "0.1.0",
+  "version": "0.2.0",
   "updated_at": "2026-10-06",
   "notes": [
-    "Initial MusicVerse application shell.",
-    "CoverVerse module seeded from the existing music spreadsheet.",
-    "Responsive road-trip design for desktop and phone.",
-    "Local playlist builder with Spotify export integration point."
+    "Added InstrumentVerse and moved accordion exploration out of CoverVerse.",
+    "Added Cover Albums filtering by cover artist, original artist, cover genre, and original genre.",
+    "Added grid and compact list views for Cover Albums.",
+    "Added internal MusicVerse album-detail pages with verified track metadata where available.",
+    "Spotify links now prefer the installed Spotify app with web fallback.",
+    "Added automated CoverVerse filtering and catalog-integrity tests."
   ]
 }
