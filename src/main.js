@@ -268,7 +268,7 @@ function logView() {
 }
 
 function libraryView() {
-  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LIBRARY</span><h1>Your music shelf.</h1><p>Favorites, albums, playlists, tabs and saved references will converge here.</p></div><div class="small-roadtrip library-trip"></div></section><section class="coming organic-panel"><h2>Library foundation</h2><p>Favorites already work locally inside CoverVerse. Once the MusicVerse Supabase project is connected, this becomes your synced desktop/phone library.</p></section>`;
+  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LIBRARY</span><h1>Your music shelf.</h1><p>Favorites, albums, playlists, tabs and saved references will converge here.</p></div><div class="small-roadtrip library-trip"></div></section><section class="coming organic-panel"><h2>Library foundation</h2><p>Favorites already work locally inside CoverVerse. Once the MusicVerse Supabase project is connected, this becomes your synced desktop/phone library.</p></section>`);
 }
 
 function render() {
