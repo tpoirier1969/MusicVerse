@@ -1,5 +1,6 @@
 [
   {
+    "id": "cover-album-0001",
     "rank": 45,
     "startHere": false,
     "artist": "Widespread Panic",
@@ -10,6 +11,7 @@
     "spotify": "https://open.spotify.com/album/54tRp0j72EJ7AeEtDSenG4?utm_source=openai&utm_medium=chatgpt&request_id=db99b235-d534-43cf-b8c5-f92cf295e6b7"
   },
   {
+    "id": "cover-album-0002",
     "rank": 48,
     "startHere": false,
     "artist": "Les Claypool",
@@ -20,6 +22,7 @@
     "spotify": "https://open.spotify.com/album/6r4geKO5K1yjlcJgxRljDd?utm_source=openai&utm_medium=chatgpt&request_id=c82cce7b-a8f3-4c97-a82e-79cdb6d5a301"
   },
   {
+    "id": "cover-album-0003",
     "rank": 46,
     "startHere": false,
     "artist": "Gov't Mule",
@@ -30,6 +33,7 @@
     "spotify": "https://open.spotify.com/album/6YzLBF5Z5MsscSAG2GpGpi?utm_source=openai&utm_medium=chatgpt&request_id=4ad349e1-7895-4482-836b-c2a5ae80879e"
   },
   {
+    "id": "cover-album-0004",
     "rank": 47,
     "startHere": false,
     "artist": "Umphrey's McGee",
@@ -40,6 +44,7 @@
     "spotify": "https://open.spotify.com/album/5GHLXH6qgXR4Gq10bmFfEo?utm_source=openai&utm_medium=chatgpt&request_id=ca68b0f3-87ef-46c0-a6e6-4bba8ae7dccf"
   },
   {
+    "id": "cover-album-0005",
     "rank": 1,
     "startHere": true,
     "artist": "Herbie Hancock",
@@ -50,6 +55,7 @@
     "spotify": "https://open.spotify.com/album/15xN5nr2KFFScKLjVxwIgd?utm_source=openai&utm_medium=chatgpt&request_id=979ac1b8-7359-4d14-8fb4-0ca3964c75cf"
   },
   {
+    "id": "cover-album-0006",
     "rank": 5,
     "startHere": true,
     "artist": "The Bad Plus",
@@ -60,6 +66,7 @@
     "spotify": "https://open.spotify.com/album/6wvhtrGBFbkS8l0IMYLqZJ?utm_source=openai&utm_medium=chatgpt&request_id=adde29ad-3e04-4015-8a84-ef6abe18681a"
   },
   {
+    "id": "cover-album-0007",
     "rank": 6,
     "startHere": true,
     "artist": "Brad Mehldau",
@@ -70,6 +77,7 @@
     "spotify": "https://open.spotify.com/album/6w9YYlUOAu5gtirkVUZQFT?utm_source=openai&utm_medium=chatgpt&request_id=e57963ab-0bbc-4f3e-85b1-d55e15412ffa"
   },
   {
+    "id": "cover-album-0008",
     "rank": 49,
     "startHere": false,
     "artist": "Charlie Hunter",
@@ -80,6 +88,7 @@
     "spotify": "https://open.spotify.com/album/01XxaE3MoDZCPqPEtnSFGO?utm_source=openai&utm_medium=chatgpt&request_id=8a48db34-5f2c-46f8-8e4a-8aeb3f167be1"
   },
   {
+    "id": "cover-album-0009",
     "rank": 50,
     "startHere": false,
     "artist": "John Scofield",
@@ -90,6 +99,7 @@
     "spotify": "https://open.spotify.com/album/4LWDgiazselhhacGx8k0OD?utm_source=openai&utm_medium=chatgpt&request_id=3a37ce49-f7cc-45d3-8ddb-e495f092a10e"
   },
   {
+    "id": "cover-album-0010",
     "rank": 4,
     "startHere": true,
     "artist": "Pat Metheny",
@@ -100,6 +110,7 @@
     "spotify": "https://open.spotify.com/album/0NTw2CP759sAAhDV7X52xe?utm_source=openai&utm_medium=chatgpt&request_id=77ae43d9-9b62-4e97-a3ac-f046e549a551"
   },
   {
+    "id": "cover-album-0011",
     "rank": 12,
     "startHere": true,
     "artist": "Bill Frisell",
@@ -110,6 +121,7 @@
     "spotify": "https://open.spotify.com/album/4NVlIW7uOVhJH9LEhV4fmi?utm_source=openai&utm_medium=chatgpt&request_id=722cbe09-24ef-474d-a31d-e609c8161eb7"
   },
   {
+    "id": "cover-album-0012",
     "rank": 14,
     "startHere": false,
     "artist": "David Bowie",
@@ -120,6 +132,7 @@
     "spotify": "https://open.spotify.com/album/71nxmbr3tHAVyvdHXc0ltd?utm_source=openai&utm_medium=chatgpt&request_id=71765433-b8e9-4808-a913-d71fcc671e4a"
   },
   {
+    "id": "cover-album-0013",
     "rank": 15,
     "startHere": false,
     "artist": "Rage Against the Machine",
@@ -130,6 +143,7 @@
     "spotify": "https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi?utm_source=openai&utm_medium=chatgpt&request_id=5244ceba-b797-4e6f-ad0e-b016531e3142"
   },
   {
+    "id": "cover-album-0014",
     "rank": 38,
     "startHere": false,
     "artist": "Weezer",
@@ -140,6 +154,7 @@
     "spotify": "https://open.spotify.com/album/65sHj9PvsbyD0uugGHjueN?utm_source=openai&utm_medium=chatgpt&request_id=48d4fd3e-85fd-4702-b0af-fa9f2eaff283"
   },
   {
+    "id": "cover-album-0015",
     "rank": 43,
     "startHere": false,
     "artist": "Camper Van Beethoven",
@@ -150,6 +165,7 @@
     "spotify": "https://open.spotify.com/album/6xrWTlsjow7hlTGVPBbeev?utm_source=openai&utm_medium=chatgpt&request_id=4aa4e05f-1936-4f1c-af93-8f566cc17061"
   },
   {
+    "id": "cover-album-0016",
     "rank": 37,
     "startHere": false,
     "artist": "The Band",
@@ -160,6 +176,7 @@
     "spotify": "https://open.spotify.com/album/5s4WsnjKO7boZLqLvNsbJH?utm_source=openai&utm_medium=chatgpt&request_id=91dfe20b-ea91-4619-838a-540b516ac64e"
   },
   {
+    "id": "cover-album-0017",
     "rank": 39,
     "startHere": false,
     "artist": "The Rolling Stones",
@@ -170,6 +187,7 @@
     "spotify": "https://open.spotify.com/album/43TJjpNBfw0qY6E87VeIxX?utm_source=openai&utm_medium=chatgpt&request_id=b226e2a1-083d-4bb0-9559-af16d01e4462"
   },
   {
+    "id": "cover-album-0018",
     "rank": 41,
     "startHere": false,
     "artist": "The Black Keys",
@@ -180,6 +198,7 @@
     "spotify": "https://open.spotify.com/album/6jJKeu4hPomUuMOM6iGVzQ?utm_source=openai&utm_medium=chatgpt&request_id=8ae10ae4-e01d-4cd3-af15-565af5ae7d8f"
   },
   {
+    "id": "cover-album-0019",
     "rank": 35,
     "startHere": false,
     "artist": "Nada Surf",
@@ -190,6 +209,7 @@
     "spotify": "https://open.spotify.com/album/3H9s5KC8da6FBifMLx1ZIo?utm_source=openai&utm_medium=chatgpt&request_id=208f13e2-905a-440d-b1a2-046be337cea9"
   },
   {
+    "id": "cover-album-0020",
     "rank": 44,
     "startHere": false,
     "artist": "The Walkmen",
@@ -200,6 +220,7 @@
     "spotify": "https://open.spotify.com/album/7k7BiwAIHrbI9eCbxHZOVt?utm_source=openai&utm_medium=chatgpt&request_id=da6ab896-8561-4862-a26d-550c93104211"
   },
   {
+    "id": "cover-album-0021",
     "rank": 40,
     "startHere": false,
     "artist": "Metallica",
@@ -210,6 +231,7 @@
     "spotify": "https://open.spotify.com/album/5b7HQ04lPT7eGJQ7fmVsjC?utm_source=openai&utm_medium=chatgpt&request_id=4b434dea-3de0-452f-900e-eb6383c3d5e0"
   },
   {
+    "id": "cover-album-0022",
     "rank": 42,
     "startHere": false,
     "artist": "The Flaming Lips",
@@ -220,6 +242,7 @@
     "spotify": "https://open.spotify.com/album/5VMJzDzXtrAxpbvqOMBPmq?utm_source=openai&utm_medium=chatgpt&request_id=5b624487-a67a-4bd2-a734-446df9131653"
   },
   {
+    "id": "cover-album-0023",
     "rank": 22,
     "startHere": false,
     "artist": "Paul McCartney",
@@ -230,6 +253,7 @@
     "spotify": "https://open.spotify.com/album/5oPrd92C5K6LEVnTUznLAi?utm_source=openai&utm_medium=chatgpt&request_id=3e31c341-7e7a-4a14-be8a-aec168b3f931"
   },
   {
+    "id": "cover-album-0024",
     "rank": 23,
     "startHere": false,
     "artist": "John Lennon",
@@ -240,6 +264,7 @@
     "spotify": "https://open.spotify.com/album/4D5tTcz72CXGPtzTabLTDY?utm_source=openai&utm_medium=chatgpt&request_id=215b1c2b-d44a-4287-a4ef-dd1e5c9d729a"
   },
   {
+    "id": "cover-album-0025",
     "rank": 36,
     "startHere": false,
     "artist": "Counting Crows",
@@ -250,6 +275,7 @@
     "spotify": "https://open.spotify.com/album/4YAvFAK2i596UgEf8NR0qe?utm_source=openai&utm_medium=chatgpt&request_id=47a5ef17-7db2-474f-903b-747b140f3b73"
   },
   {
+    "id": "cover-album-0026",
     "rank": 2,
     "startHere": true,
     "artist": "Tori Amos",
@@ -260,6 +286,7 @@
     "spotify": "https://open.spotify.com/album/6VVyHpknRsMb0tU6VmTL9S?utm_source=openai&utm_medium=chatgpt&request_id=4caee3f9-9a14-4f9c-a687-91531306505d"
   },
   {
+    "id": "cover-album-0027",
     "rank": 19,
     "startHere": false,
     "artist": "Neil Young",
@@ -270,6 +297,7 @@
     "spotify": "https://open.spotify.com/album/0qeBoQjqVd5L0T93Pf7Vwm?utm_source=openai&utm_medium=chatgpt&request_id=2e42e7ef-cf8f-485a-bd1d-b8b3c6fc8988"
   },
   {
+    "id": "cover-album-0028",
     "rank": 21,
     "startHere": false,
     "artist": "James Taylor",
@@ -280,6 +308,7 @@
     "spotify": "https://open.spotify.com/album/0TJsDbqfqBgHfj3hkDJG64?utm_source=openai&utm_medium=chatgpt&request_id=f2a25eac-6d42-4160-8581-59a863a34cc6"
   },
   {
+    "id": "cover-album-0029",
     "rank": 27,
     "startHere": false,
     "artist": "k.d. lang",
@@ -290,6 +319,7 @@
     "spotify": "https://open.spotify.com/album/7aTcKEqDqi1NoR2RggubbX?utm_source=openai&utm_medium=chatgpt&request_id=d647f500-d033-4dfd-91d7-9ef65c628d8f"
   },
   {
+    "id": "cover-album-0030",
     "rank": 31,
     "startHere": false,
     "artist": "Rufus Wainwright",
@@ -300,6 +330,7 @@
     "spotify": "https://open.spotify.com/album/21VWYGNiCVVruLbjTkJGQi?utm_source=openai&utm_medium=chatgpt&request_id=a06935df-0c79-46de-bd99-d3abbac144bc"
   },
   {
+    "id": "cover-album-0031",
     "rank": 28,
     "startHere": false,
     "artist": "Rosanne Cash",
@@ -310,6 +341,7 @@
     "spotify": "https://open.spotify.com/album/2ztJpdxupEltRgGuzihTJb?utm_source=openai&utm_medium=chatgpt&request_id=fa049691-ac5d-4440-81eb-84c8bec206f5"
   },
   {
+    "id": "cover-album-0032",
     "rank": 29,
     "startHere": false,
     "artist": "Steve Earle",
@@ -320,6 +352,7 @@
     "spotify": "https://open.spotify.com/album/0fFTuwgv609ioFvbAXQks2?utm_source=openai&utm_medium=chatgpt&request_id=7d93c76f-54cf-4ab3-8323-a52d5c4b52ab"
   },
   {
+    "id": "cover-album-0033",
     "rank": 30,
     "startHere": false,
     "artist": "Jason Isbell and the 400 Unit",
@@ -330,6 +363,7 @@
     "spotify": "https://open.spotify.com/album/2JGpezeVAwq7Jw2ua3EniV?utm_source=openai&utm_medium=chatgpt&request_id=ce4d7360-4ae1-48ed-85fd-65a1f5db0572"
   },
   {
+    "id": "cover-album-0034",
     "rank": 3,
     "startHere": true,
     "artist": "Peter Gabriel",
@@ -340,6 +374,7 @@
     "spotify": "https://open.spotify.com/album/6UvXlXqOAFv49ePZ22kEyn?utm_source=openai&utm_medium=chatgpt&request_id=2ec22ce1-0857-486d-95fb-4a93bd163f2c"
   },
   {
+    "id": "cover-album-0035",
     "rank": 10,
     "startHere": true,
     "artist": "Willie Nelson",
@@ -350,6 +385,7 @@
     "spotify": "https://open.spotify.com/album/38uGoW7jS8jjJMvZA26sRq?utm_source=openai&utm_medium=chatgpt&request_id=93fd50d0-9dd4-42e4-afdb-ee550cc3ede4"
   },
   {
+    "id": "cover-album-0036",
     "rank": 18,
     "startHere": false,
     "artist": "Bob Dylan",
@@ -360,6 +396,7 @@
     "spotify": "https://open.spotify.com/album/6lfZX6OFJRxRcODaxwSRL5?utm_source=openai&utm_medium=chatgpt&request_id=6f776663-8052-4ad0-86a7-ec847903fc68"
   },
   {
+    "id": "cover-album-0037",
     "rank": 24,
     "startHere": false,
     "artist": "Shawn Colvin",
@@ -370,6 +407,7 @@
     "spotify": "https://open.spotify.com/album/2i6yafZMIkgqkjWAobKic5?utm_source=openai&utm_medium=chatgpt&request_id=252e2947-59b0-48f0-b2d2-bd09689cfe50"
   },
   {
+    "id": "cover-album-0038",
     "rank": 8,
     "startHere": true,
     "artist": "Richard Thompson",
@@ -380,6 +418,7 @@
     "spotify": "https://open.spotify.com/album/5ykzct1q6gwg1tO0F1QCyS?utm_source=openai&utm_medium=chatgpt&request_id=02fab81a-69d7-4039-9a72-39716bdfb9a8"
   },
   {
+    "id": "cover-album-0039",
     "rank": 9,
     "startHere": true,
     "artist": "Cat Power",
@@ -390,6 +429,7 @@
     "spotify": "https://open.spotify.com/album/4dZBOO1PjjmtPA974xHMND?utm_source=openai&utm_medium=chatgpt&request_id=5a4f8bb1-f8bc-4bec-8e7b-c0307067c2e9"
   },
   {
+    "id": "cover-album-0040",
     "rank": 34,
     "startHere": false,
     "artist": "Sun Kil Moon",
@@ -400,6 +440,7 @@
     "spotify": "https://open.spotify.com/album/3bVDZOD7EnPkxludwZUidT?utm_source=openai&utm_medium=chatgpt&request_id=0ef3ce48-252e-4a79-acb7-f6ebcdce2e39"
   },
   {
+    "id": "cover-album-0041",
     "rank": 11,
     "startHere": true,
     "artist": "Iron & Wine & Ben Bridwell",
@@ -410,6 +451,7 @@
     "spotify": "https://open.spotify.com/album/0jMBAo2pk2cEE0aJ3WseMl?utm_source=openai&utm_medium=chatgpt&request_id=bbda478a-4f3b-4d46-ab17-3ed420e0a466"
   },
   {
+    "id": "cover-album-0042",
     "rank": 20,
     "startHere": false,
     "artist": "Joni Mitchell",
@@ -420,6 +462,7 @@
     "spotify": "https://open.spotify.com/album/2zK66VRY3rDGDuZcGvRJdZ?utm_source=openai&utm_medium=chatgpt&request_id=f77f6abb-bec5-4649-b469-1f1c6bd45708"
   },
   {
+    "id": "cover-album-0043",
     "rank": 25,
     "startHere": false,
     "artist": "Rickie Lee Jones",
@@ -430,6 +473,7 @@
     "spotify": "https://open.spotify.com/album/1p4qOsiMG7OBX8TSZb54Cv?utm_source=openai&utm_medium=chatgpt&request_id=814227c8-e11c-4e8e-ba82-273ccdd89e20"
   },
   {
+    "id": "cover-album-0044",
     "rank": 26,
     "startHere": false,
     "artist": "Joe Jackson",
@@ -440,6 +484,7 @@
     "spotify": "https://open.spotify.com/album/7spQJsP6dimhGMNgsBYaRO?utm_source=openai&utm_medium=chatgpt&request_id=2ecac157-690b-47ea-be56-71b4b503143b"
   },
   {
+    "id": "cover-album-0045",
     "rank": 32,
     "startHere": false,
     "artist": "Susanna Hoffs & Matthew Sweet",
@@ -450,6 +495,7 @@
     "spotify": "https://open.spotify.com/album/3LWX8h6RyWdJN59NFz6hnk?utm_source=openai&utm_medium=chatgpt&request_id=e8fb91e5-e6ce-4346-b0bc-9dcd840a0698"
   },
   {
+    "id": "cover-album-0046",
     "rank": 13,
     "startHere": false,
     "artist": "Elvis Costello",
@@ -460,6 +506,7 @@
     "spotify": "https://open.spotify.com/album/2ThJPrLwKqqmfF0sMawv4L?utm_source=openai&utm_medium=chatgpt&request_id=386e9783-ff75-4cc7-a3f9-235edfb357fc"
   },
   {
+    "id": "cover-album-0047",
     "rank": 16,
     "startHere": false,
     "artist": "Nick Cave & The Bad Seeds",
@@ -470,6 +517,7 @@
     "spotify": "https://open.spotify.com/album/434DQKPE6u2TV9vtNL2qHS?utm_source=openai&utm_medium=chatgpt&request_id=9f105200-64ec-4386-9dcf-8aa80d98f028"
   },
   {
+    "id": "cover-album-0048",
     "rank": 17,
     "startHere": false,
     "artist": "Patti Smith",
@@ -480,6 +528,7 @@
     "spotify": "https://open.spotify.com/album/3hlHi5Mz5hRao09uUvT0ta?utm_source=openai&utm_medium=chatgpt&request_id=91fe0f3f-c91e-4dc2-ba43-2bd360593505"
   },
   {
+    "id": "cover-album-0049",
     "rank": 33,
     "startHere": false,
     "artist": "Mark Lanegan",
@@ -490,6 +539,7 @@
     "spotify": "https://open.spotify.com/album/0NlNOxlL0jM5kKo0AJ7duq?utm_source=openai&utm_medium=chatgpt&request_id=4f3fab4f-ed39-4dfa-94e3-95db1b6e17f4"
   },
   {
+    "id": "cover-album-0050",
     "rank": 7,
     "startHere": true,
     "artist": "Bruce Springsteen",
@@ -500,6 +550,7 @@
     "spotify": "https://open.spotify.com/album/2O3avtEIE8xX9F0zcIjIZI?utm_source=openai&utm_medium=chatgpt&request_id=f5481e06-ad78-4c31-9fad-32527c8bb5a8"
   },
   {
+    "id": "cover-album-0051",
     "rank": 51,
     "startHere": true,
     "artist": "Herbie Hancock",
@@ -510,6 +561,7 @@
     "spotify": "https://open.spotify.com/album/3GwR5VxaMzB01ay6qIT3Yq?utm_source=openai&utm_medium=chatgpt&request_id=38f80213-aecb-4b5b-b8e2-be91856212df"
   },
   {
+    "id": "cover-album-0052",
     "rank": 52,
     "startHere": true,
     "artist": "Bill Frisell",
@@ -520,6 +572,7 @@
     "spotify": "https://open.spotify.com/album/6oMlklL1QnJFf0gBw1VZix?utm_source=openai&utm_medium=chatgpt&request_id=dd6401bc-c2e7-47b9-8f3e-206da4cbe582"
   },
   {
+    "id": "cover-album-0053",
     "rank": 53,
     "startHere": true,
     "artist": "Ryan Adams",
@@ -530,6 +583,7 @@
     "spotify": "https://open.spotify.com/album/0MVK1j7wrUkBZ09ZuMURJA?utm_source=openai&utm_medium=chatgpt&request_id=e2e714ee-7748-48f0-b646-13f799c6e8ec"
   },
   {
+    "id": "cover-album-0054",
     "rank": 54,
     "startHere": true,
     "artist": "Mark Kozelek",
@@ -540,6 +594,7 @@
     "spotify": "https://open.spotify.com/album/1nIB0laWm2Rw4P9EXeMs5O?utm_source=openai&utm_medium=chatgpt&request_id=41847fe9-c415-41a9-a977-ca5866831351"
   },
   {
+    "id": "cover-album-0055",
     "rank": 55,
     "startHere": true,
     "artist": "Punch Brothers",
@@ -550,6 +605,7 @@
     "spotify": "https://open.spotify.com/album/5XptR8Eatr8J2KlcO7heEA?utm_source=openai&utm_medium=chatgpt&request_id=5064987e-b536-4c9c-85c1-758336313f63"
   },
   {
+    "id": "cover-album-0056",
     "rank": 56,
     "startHere": true,
     "artist": "Tedeschi Trucks Band",
@@ -560,6 +616,7 @@
     "spotify": "https://open.spotify.com/album/6O5gWyGfpV47SgllhnoaK2?utm_source=openai&utm_medium=chatgpt&request_id=2ff27ac2-3815-4165-8df7-ed31fdada39d"
   },
   {
+    "id": "cover-album-0057",
     "rank": 57,
     "startHere": true,
     "artist": "Cat Power",
@@ -570,6 +627,7 @@
     "spotify": "https://open.spotify.com/album/2uhG1PSozFcBPi4ASO0UH7?utm_source=openai&utm_medium=chatgpt&request_id=a25d8a6d-acce-4d9b-bbef-134e0b6c7d58"
   },
   {
+    "id": "cover-album-0058",
     "rank": 58,
     "startHere": true,
     "artist": "Gillian Welch & David Rawlings",
@@ -580,6 +638,7 @@
     "spotify": "https://open.spotify.com/album/30O0jOuezaGlLKpST18yoQ?utm_source=openai&utm_medium=chatgpt&request_id=f49fcc7d-23a9-4028-a6cf-6212fca58a3f"
   },
   {
+    "id": "cover-album-0059",
     "rank": 59,
     "startHere": false,
     "artist": "Elvis Costello & The Attractions",
@@ -590,6 +649,7 @@
     "spotify": "https://open.spotify.com/album/6Y234kkXewBp0CjanUQW3w?utm_source=openai&utm_medium=chatgpt&request_id=212f93f5-edf2-4082-a3b7-91edb44cb7b5"
   },
   {
+    "id": "cover-album-0060",
     "rank": 60,
     "startHere": true,
     "artist": "Chrissie Hynde",
@@ -600,6 +660,7 @@
     "spotify": "https://open.spotify.com/album/5aG1UimFYw9MXU1Q0M36MR?utm_source=openai&utm_medium=chatgpt&request_id=922fd002-f49d-4abd-b340-db8702204ea2"
   },
   {
+    "id": "cover-album-0061",
     "rank": 61,
     "startHere": false,
     "artist": "Bob Dylan",
@@ -610,6 +671,7 @@
     "spotify": "https://open.spotify.com/album/4OIFBxR56S44aXiovovyK7?utm_source=openai&utm_medium=chatgpt&request_id=e02d78a4-cd40-48e3-a07c-0505b10c5d54"
   },
   {
+    "id": "cover-album-0062",
     "rank": 62,
     "startHere": false,
     "artist": "Neil Young & Crazy Horse",
@@ -620,6 +682,7 @@
     "spotify": "https://open.spotify.com/album/1VfoJdwAjt5vbcg8TuczNY?utm_source=openai&utm_medium=chatgpt&request_id=1cadfefc-6119-4fc9-92dc-70809ce34ff5"
   },
   {
+    "id": "cover-album-0063",
     "rank": 63,
     "startHere": false,
     "artist": "Bill Frisell",
@@ -630,6 +693,7 @@
     "spotify": "https://open.spotify.com/album/1ueFFIHSmbmmi6gkNbo8BJ?utm_source=openai&utm_medium=chatgpt&request_id=32c6b5d2-c98f-4b2d-a57e-ab650f2884ec"
   },
   {
+    "id": "cover-album-0064",
     "rank": 64,
     "startHere": true,
     "artist": "The Bad Plus",
@@ -640,6 +704,7 @@
     "spotify": "https://open.spotify.com/album/3CGYqqKu94N6TBohkL35OV?utm_source=openai&utm_medium=chatgpt&request_id=d5fda0c6-8e59-47e8-b9d0-dfd8b98c5c70"
   },
   {
+    "id": "cover-album-0065",
     "rank": 65,
     "startHere": false,
     "artist": "Herbie Hancock",
@@ -650,6 +715,7 @@
     "spotify": "https://open.spotify.com/album/6IySeurw1LfTolgz9EjUSG?utm_source=openai&utm_medium=chatgpt&request_id=0e1f8fde-94fb-4b37-bc8d-9277a7a4cfd3"
   },
   {
+    "id": "cover-album-0066",
     "rank": 66,
     "startHere": false,
     "artist": "Molly Tuttle",
@@ -660,6 +726,7 @@
     "spotify": "https://open.spotify.com/album/1Misn812Z5W216eNI7NuIy?utm_source=openai&utm_medium=chatgpt&request_id=b3892b97-0d2c-4893-b6ba-35df60740fcc"
   },
   {
+    "id": "cover-album-0067",
     "rank": 67,
     "startHere": true,
     "artist": "Lucinda Williams",
@@ -670,6 +737,7 @@
     "spotify": "https://open.spotify.com/album/45YARZ102DY7sx4ieWBzKc?utm_source=openai&utm_medium=chatgpt&request_id=ace4a788-bef2-4714-af97-6551290374ba"
   },
   {
+    "id": "cover-album-0068",
     "rank": 68,
     "startHere": false,
     "artist": "Siouxsie and the Banshees",
@@ -680,6 +748,7 @@
     "spotify": "https://open.spotify.com/album/7kEqVGkLoruahp34YW16oe?utm_source=openai&utm_medium=chatgpt&request_id=57c53190-248b-4a09-9c2a-59c064a14bc1"
   },
   {
+    "id": "cover-album-0069",
     "rank": 69,
     "startHere": false,
     "artist": "Yo La Tengo",
@@ -690,6 +759,7 @@
     "spotify": "https://open.spotify.com/album/4F9SZ7G2XMUYA1r0MWW6Hu?utm_source=openai&utm_medium=chatgpt&request_id=9607cc8d-6217-4812-b85d-eda64e650f29"
   },
   {
+    "id": "cover-album-0070",
     "rank": 70,
     "startHere": false,
     "artist": "Bruce Springsteen",
@@ -700,6 +770,7 @@
     "spotify": "https://open.spotify.com/album/4XJaXh57G3rZtAzqeVZSfn?utm_source=openai&utm_medium=chatgpt&request_id=a44f73b8-d268-4cff-b13f-edc4ae2abb43"
   },
   {
+    "id": "cover-album-0071",
     "rank": 71,
     "startHere": false,
     "artist": "Cat Power",
@@ -710,6 +781,7 @@
     "spotify": "https://open.spotify.com/album/58z5GjZRjt6XIz5GOS0PJh?utm_source=openai&utm_medium=chatgpt&request_id=925ad5bd-4341-408f-be88-efee047f6dbe"
   },
   {
+    "id": "cover-album-0072",
     "rank": 72,
     "startHere": false,
     "artist": "Bryan Ferry",
@@ -720,6 +792,7 @@
     "spotify": "https://open.spotify.com/album/3MOuhseZUoKBvnSZh9EC3V?utm_source=openai&utm_medium=chatgpt&request_id=52b06e5d-9644-4092-bf55-125e8e5bdaf6"
   },
   {
+    "id": "cover-album-0073",
     "rank": 73,
     "startHere": false,
     "artist": "Bryan Ferry",
@@ -730,6 +803,7 @@
     "spotify": "https://open.spotify.com/album/4GM7Fz5hzjOfFyPkPlHB6x?utm_source=openai&utm_medium=chatgpt&request_id=7dc81977-2bbc-4589-a9b7-8cabd5d23497"
   },
   {
+    "id": "cover-album-0074",
     "rank": 74,
     "startHere": false,
     "artist": "Bob Dylan",
@@ -740,6 +814,7 @@
     "spotify": "https://open.spotify.com/album/2mVpSZrllFAWhOgCoyz8ow?utm_source=openai&utm_medium=chatgpt&request_id=6de2691a-178f-4345-b4b2-a0c7366da246"
   },
   {
+    "id": "cover-album-0075",
     "rank": 75,
     "startHere": false,
     "artist": "Bob Dylan",
@@ -750,6 +825,7 @@
     "spotify": "https://open.spotify.com/album/3wjymdW6uOqrgCLWBb6ph4?utm_source=openai&utm_medium=chatgpt&request_id=f52ae75c-cdd1-4e60-b6b3-47de1bab5894"
   },
   {
+    "id": "cover-album-0076",
     "rank": 76,
     "startHere": false,
     "artist": "Bob Dylan",
@@ -760,6 +836,7 @@
     "spotify": "https://open.spotify.com/album/5coSubIBt21W8V40Po41pY?utm_source=openai&utm_medium=chatgpt&request_id=399ba9a4-4c91-4dfa-85c1-a48c8641dd36"
   },
   {
+    "id": "cover-album-0077",
     "rank": 77,
     "startHere": false,
     "artist": "Willie Nelson",
@@ -770,6 +847,7 @@
     "spotify": "https://open.spotify.com/album/1tbrHxof4Yzas1N7daw3ZB?utm_source=openai&utm_medium=chatgpt&request_id=fa6c3d52-b3cd-44ae-b346-5c0a80b787bf"
   },
   {
+    "id": "cover-album-0078",
     "rank": 78,
     "startHere": false,
     "artist": "Willie Nelson",
@@ -780,6 +858,7 @@
     "spotify": "https://open.spotify.com/album/6x4hSL5zCjExduI7LygbhX?utm_source=openai&utm_medium=chatgpt&request_id=43f46ef5-f3e3-4226-9482-45fdba6e2438"
   },
   {
+    "id": "cover-album-0079",
     "rank": 79,
     "startHere": false,
     "artist": "Paul McCartney",
@@ -790,6 +869,7 @@
     "spotify": "https://open.spotify.com/album/5jOBxNZ2fXG1k0x8SYJ38e?utm_source=openai&utm_medium=chatgpt&request_id=897020b8-d330-4930-8653-70f9ec0921ae"
   },
   {
+    "id": "cover-album-0080",
     "rank": 80,
     "startHere": false,
     "artist": "Bill Frisell",
@@ -800,6 +880,7 @@
     "spotify": "https://open.spotify.com/album/0TUBfk07rsH1ORHQU2WUSy?utm_source=openai&utm_medium=chatgpt&request_id=3a60f6bd-4a82-43a4-8c52-cf6b237a3840"
   },
   {
+    "id": "cover-album-0081",
     "rank": 81,
     "startHere": false,
     "artist": "Keith Jarrett",
@@ -810,6 +891,7 @@
     "spotify": "https://open.spotify.com/album/6g4tw8mwge2gJKqJQxE5r3?utm_source=openai&utm_medium=chatgpt&request_id=599561a9-9a82-4612-98b3-d856d9b19c31"
   },
   {
+    "id": "cover-album-0082",
     "rank": 82,
     "startHere": false,
     "artist": "Keith Jarrett",
@@ -820,6 +902,7 @@
     "spotify": "https://open.spotify.com/album/6fvZds34e7H5ICQ5HOWNbd?utm_source=openai&utm_medium=chatgpt&request_id=6d88a9e5-19b0-4b20-9ecd-2e7d7066cdbd"
   },
   {
+    "id": "cover-album-0083",
     "rank": 83,
     "startHere": false,
     "artist": "Joe Jackson",
@@ -830,6 +913,7 @@
     "spotify": "https://open.spotify.com/album/4v8poJ1GCHuIZ15P85awg7?utm_source=openai&utm_medium=chatgpt&request_id=cccb1372-5752-4760-bf2e-d5b07f9eaeb8"
   },
   {
+    "id": "cover-album-0084",
     "rank": 84,
     "startHere": false,
     "artist": "k.d. lang",
@@ -840,6 +924,7 @@
     "spotify": "https://open.spotify.com/album/4GDJ3VWtSW7uZcZoEOPT44?utm_source=openai&utm_medium=chatgpt&request_id=c88f6b4b-4dca-469a-b1e6-1e5a13ddd1c7"
   },
   {
+    "id": "cover-album-0085",
     "rank": 85,
     "startHere": false,
     "artist": "Shawn Colvin",
@@ -850,6 +935,7 @@
     "spotify": "https://open.spotify.com/album/48RUKWr9oRjtkNiV74IVqn?utm_source=openai&utm_medium=chatgpt&request_id=490e93b6-fc72-4656-8030-e9be0d10fbbd"
   },
   {
+    "id": "cover-album-0086",
     "rank": 86,
     "startHere": false,
     "artist": "Steve Earle",
@@ -860,6 +946,7 @@
     "spotify": "https://open.spotify.com/album/6uIsL1dOrLolqxh3PgvfeZ?utm_source=openai&utm_medium=chatgpt&request_id=462f74ad-bbc7-4ea9-9142-1a8e6583fa2d"
   },
   {
+    "id": "cover-album-0087",
     "rank": 87,
     "startHere": false,
     "artist": "Steve Earle",
@@ -870,6 +957,7 @@
     "spotify": "https://open.spotify.com/album/7B6RM1dHpQQqVx9rbnK9JD?utm_source=openai&utm_medium=chatgpt&request_id=31d291cd-1852-4716-9178-a5fcb6e298ba"
   },
   {
+    "id": "cover-album-0088",
     "rank": 88,
     "startHere": false,
     "artist": "John Prine",
@@ -880,6 +968,7 @@
     "spotify": "https://open.spotify.com/album/6UNwnh9qYgU8D5rFvihXfJ?utm_source=openai&utm_medium=chatgpt&request_id=aa283145-941e-4d65-81b1-08147989d7a4"
   },
   {
+    "id": "cover-album-0089",
     "rank": 89,
     "startHere": false,
     "artist": "John Prine",
@@ -890,6 +979,7 @@
     "spotify": "https://open.spotify.com/album/1D2PhOw1Rq360HVsmUWXnT?utm_source=openai&utm_medium=chatgpt&request_id=770c2e31-d03b-4775-89bf-e94d5cdc0aa9"
   },
   {
+    "id": "cover-album-0090",
     "rank": 90,
     "startHere": false,
     "artist": "Old Crow Medicine Show",
@@ -900,6 +990,7 @@
     "spotify": "https://open.spotify.com/album/0uyUriz7zOAn1G9sB8zH8e?utm_source=openai&utm_medium=chatgpt&request_id=8bce26ea-fe36-4240-a756-083f3af0c4e1"
   },
   {
+    "id": "cover-album-0091",
     "rank": 91,
     "startHere": false,
     "artist": "Ryan Adams",
@@ -910,6 +1001,7 @@
     "spotify": "https://open.spotify.com/album/4Rb3ltIWEi0OnVNNv03RHh?utm_source=openai&utm_medium=chatgpt&request_id=60fb3982-6d99-44a1-a3bc-d95c91c2dfe3"
   },
   {
+    "id": "cover-album-0092",
     "rank": 92,
     "startHere": false,
     "artist": "Cowboy Junkies",
@@ -920,6 +1012,7 @@
     "spotify": "https://open.spotify.com/album/3CRQfG5NbcbwphJC3K4lbz?utm_source=openai&utm_medium=chatgpt&request_id=6f670f6e-7198-4784-a6d2-3624542ba02d"
   },
   {
+    "id": "cover-album-0093",
     "rank": 93,
     "startHere": false,
     "artist": "Chrissie Hynde & The Valve Bone Woe Ensemble",
@@ -930,6 +1023,7 @@
     "spotify": "https://open.spotify.com/album/7Ar78kaPOUZc7PcmpqOn6k?utm_source=openai&utm_medium=chatgpt&request_id=405469be-230b-4555-a87d-3d57ccbb1f0f"
   },
   {
+    "id": "cover-album-0094",
     "rank": 94,
     "startHere": false,
     "artist": "Annie Lennox",
@@ -940,6 +1034,7 @@
     "spotify": "https://open.spotify.com/album/1T2aRQcFUL59f9kQ876dLX?utm_source=openai&utm_medium=chatgpt&request_id=78b9478b-cb4a-41ac-a037-57cfec9156ab"
   },
   {
+    "id": "cover-album-0095",
     "rank": 95,
     "startHere": false,
     "artist": "Annie Lennox",
@@ -950,6 +1045,7 @@
     "spotify": "https://open.spotify.com/album/1REqQsUK0WRYQVzsmdsj04?utm_source=openai&utm_medium=chatgpt&request_id=c5ef95ab-2bad-493f-98d0-33932f1192d2"
   },
   {
+    "id": "cover-album-0096",
     "rank": 96,
     "startHere": false,
     "artist": "Morrissey",
@@ -960,6 +1056,7 @@
     "spotify": "https://open.spotify.com/album/0qQmvjDy6kuaICOAC9HYY7?utm_source=openai&utm_medium=chatgpt&request_id=8951dffd-95c5-4487-ace0-8ff66f0456c7"
   },
   {
+    "id": "cover-album-0097",
     "rank": 97,
     "startHere": false,
     "artist": "Guns N' Roses",
@@ -970,6 +1067,7 @@
     "spotify": "https://open.spotify.com/album/4ieR19hRkKeE81CalJPQNu?utm_source=openai&utm_medium=chatgpt&request_id=00c75689-1b62-42b8-8130-f11ff348e237"
   },
   {
+    "id": "cover-album-0098",
     "rank": 98,
     "startHere": false,
     "artist": "Aerosmith",
@@ -980,6 +1078,7 @@
     "spotify": "https://open.spotify.com/album/0cofhAxozb6jvoPDYlibbd?utm_source=openai&utm_medium=chatgpt&request_id=eaba8061-7c98-47d2-bc0d-49b037b84f06"
   },
   {
+    "id": "cover-album-0099",
     "rank": 99,
     "startHere": false,
     "artist": "Ozzy Osbourne",
@@ -990,6 +1089,7 @@
     "spotify": "https://open.spotify.com/album/5yIXVMM70ay1mQ5kCWpidF?utm_source=openai&utm_medium=chatgpt&request_id=c9cb2571-73c4-4509-b24c-92fb6d457103"
   },
   {
+    "id": "cover-album-0100",
     "rank": 100,
     "startHere": false,
     "artist": "Def Leppard",
@@ -1000,6 +1100,7 @@
     "spotify": "https://open.spotify.com/album/2XWi9UGkoa4bnObVeMGn8K?utm_source=openai&utm_medium=chatgpt&request_id=73584a08-2b85-4c67-810f-13aee539e34d"
   },
   {
+    "id": "cover-album-0101",
     "rank": 101,
     "startHere": false,
     "artist": "Placebo",
@@ -1010,6 +1111,7 @@
     "spotify": "https://open.spotify.com/album/7kTsa1wUFrahJJf1cJEOpZ?utm_source=openai&utm_medium=chatgpt&request_id=e32da1aa-ce55-47c5-907f-0184656cca3d"
   },
   {
+    "id": "cover-album-0102",
     "rank": 102,
     "startHere": false,
     "artist": "Lucinda Williams",
@@ -1020,6 +1122,7 @@
     "spotify": "https://open.spotify.com/album/4jM6JxCJtK9l14WQ7tKCye?utm_source=openai&utm_medium=chatgpt&request_id=d2f232de-472d-4b27-b045-8dc8a67d865a"
   },
   {
+    "id": "cover-album-0103",
     "rank": 103,
     "startHere": false,
     "artist": "Phish",
@@ -1030,6 +1133,7 @@
     "spotify": "https://open.spotify.com/album/3iRKGdBVBAfeLqQmiAZwsK?utm_source=openai&utm_medium=chatgpt&request_id=fe68c36f-10a7-4e7e-a3dd-1ead095b3ac1"
   },
   {
+    "id": "cover-album-0104",
     "rank": 104,
     "startHere": true,
     "artist": "Phish",
@@ -1040,6 +1144,7 @@
     "spotify": "https://open.spotify.com/album/22Vo3uGnJpuhVpuU9QiSxv?utm_source=openai&utm_medium=chatgpt&request_id=93a4fe36-80f0-48d5-9aaf-54206b886866"
   },
   {
+    "id": "cover-album-0105",
     "rank": 105,
     "startHere": false,
     "artist": "Duran Duran",
@@ -1050,6 +1155,7 @@
     "spotify": "https://open.spotify.com/album/2XIlp6UgHAQYNg3OTtoD54?utm_source=openai&utm_medium=chatgpt&request_id=71e24e9b-31fd-4065-82e9-38477eea6d50"
   },
   {
+    "id": "cover-album-0106",
     "rank": 106,
     "startHere": false,
     "artist": "Ramones",
@@ -1060,6 +1166,7 @@
     "spotify": "https://open.spotify.com/album/17Nd6rUueiqoYVTI0zXx5U?utm_source=openai&utm_medium=chatgpt&request_id=afd8a55c-8f96-40af-a55c-bb523c03830f"
   },
   {
+    "id": "cover-album-0107",
     "rank": 107,
     "startHere": false,
     "artist": "Alison Moyet",
@@ -1070,6 +1177,7 @@
     "spotify": "https://open.spotify.com/album/1QXnH0NrsTfSzIa00pxm0f?utm_source=openai&utm_medium=chatgpt&request_id=a54123dd-fc85-4501-9781-7110e589c752"
   },
   {
+    "id": "cover-album-0108",
     "rank": 108,
     "startHere": false,
     "artist": "Natalie Merchant",
@@ -1080,6 +1188,7 @@
     "spotify": "https://open.spotify.com/album/6ARdmVzwPoZ30LG0sP6REz?utm_source=openai&utm_medium=chatgpt&request_id=d2af4325-1e61-4f61-9657-74b035e4f3b6"
   },
   {
+    "id": "cover-album-0109",
     "rank": 109,
     "startHere": false,
     "artist": "Lucinda Williams",
@@ -1090,6 +1199,7 @@
     "spotify": "https://open.spotify.com/album/512H6Oob5vrO638CR2LrpD?utm_source=openai&utm_medium=chatgpt&request_id=0bb4472c-382b-4e13-956d-4d13b92c801d"
   },
   {
+    "id": "cover-album-0110",
     "rank": 110,
     "startHere": false,
     "artist": "The Corrs",
@@ -1100,6 +1210,7 @@
     "spotify": "https://open.spotify.com/album/7ikWEipHEl6zuKXOvc77hY?utm_source=openai&utm_medium=chatgpt&request_id=6e36dbc5-5c8a-4cb3-8988-58252c2d21e1"
   },
   {
+    "id": "cover-album-0111",
     "rank": 111,
     "startHere": false,
     "artist": "Cyndi Lauper",
