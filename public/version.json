@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "display_version": "v0.1.0",
+  "build": "0.1.0",
+  "updated_at": "2026-10-06",
+  "notes": [
+    "Initial MusicVerse application shell.",
+    "CoverVerse module seeded from the existing music spreadsheet.",
+    "Responsive road-trip design for desktop and phone.",
+    "Local playlist builder with Spotify export integration point."
+  ]
+}
