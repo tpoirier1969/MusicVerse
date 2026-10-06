@@ -1,3 +1,5 @@
+import { mergeCoverAlbums } from './cover-catalog.js';
+
 const DATA_BASE = '/data';
 
 async function readJson(name) {
@@ -7,10 +9,15 @@ async function readJson(name) {
 }
 
 export async function loadMusicData() {
-  const [coverAlbums, crazyCovers, accordionMusic] = await Promise.all([
+  const [coverAlbums, coverAlbumDetails, crazyCovers, accordionMusic] = await Promise.all([
     readJson('cover-albums'),
+    readJson('cover-album-details'),
     readJson('crazy-covers'),
     readJson('accordion-music'),
   ]);
-  return { coverAlbums, crazyCovers, accordionMusic };
+  return {
+    coverAlbums: mergeCoverAlbums(coverAlbums, coverAlbumDetails),
+    crazyCovers,
+    accordionMusic,
+  };
 }
