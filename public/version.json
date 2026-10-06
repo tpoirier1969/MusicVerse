@@ -1,9 +1,9 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "updated_at": "2026-10-06",
   "notes": [
-    "Top-level MusicVerse search now routes into the track-aware Cover Albums catalog.",
-    "Cover Albums search explicitly supports track title, album, cover artist, original artist, cover genre, original genre, and musician metadata.",
-    "Expanded automated search coverage across album and track metadata."
+    "Added a verified track-level detail record for Willie Nelson's Stardust.",
+    "All ten Stardust tracks now include stable MusicVerse track IDs, Spotify track links, and Spotify durations.",
+    "Preserved unknown original-artist fields for standards where a single source recording cannot be identified without guesswork."
   ]
 }
