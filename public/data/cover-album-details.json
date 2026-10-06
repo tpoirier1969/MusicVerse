@@ -768,5 +768,1303 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0007",
+    "releaseDate": "2023-02-10",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2732a3af4c762732ffacec06235",
+    "originalArtists": [
+      "The Beatles",
+      "David Bowie"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "A live solo-piano set built around ten Beatles songs, followed by David Bowie’s “Life on Mars?” as a bridge to later pop songwriting.",
+      "Recorded at Philharmonie de Paris in September 2020."
+    ],
+    "personnel": [
+      {
+        "name": "Brad Mehldau",
+        "roles": [
+          "piano"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Nonesuch Records",
+        "url": "https://www.nonesuch.com/albums/your-mother-should-know-brad-mehldau-plays-beatles"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/5e7a3bf1-44ba-4284-8b10-d60188282383"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6w9YYlUOAu5gtirkVUZQFT"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0007-01",
+        "number": 1,
+        "title": "I Am the Walrus",
+        "durationSeconds": 254.573,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7rs2rtBcpCH1PEUhapS3rE",
+        "spotifyUri": "spotify:track:7rs2rtBcpCH1PEUhapS3rE",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-02",
+        "number": 2,
+        "title": "Your Mother Should Know",
+        "durationSeconds": 138.213,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/67ZAqk0egv33NmEW0OpGHt",
+        "spotifyUri": "spotify:track:67ZAqk0egv33NmEW0OpGHt",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-03",
+        "number": 3,
+        "title": "I Saw Her Standing There",
+        "durationSeconds": 234.133,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3aVmoxYkKf1Hgv7JzRr6OJ",
+        "spotifyUri": "spotify:track:3aVmoxYkKf1Hgv7JzRr6OJ",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-04",
+        "number": 4,
+        "title": "For No One",
+        "durationSeconds": 148.12,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1fszxlX9SnaiWOZvIEjGFq",
+        "spotifyUri": "spotify:track:1fszxlX9SnaiWOZvIEjGFq",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-05",
+        "number": 5,
+        "title": "Baby's in Black",
+        "durationSeconds": 439.413,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5eZOJ4AKEVs4w5dNpWchnz",
+        "spotifyUri": "spotify:track:5eZOJ4AKEVs4w5dNpWchnz",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-06",
+        "number": 6,
+        "title": "She Said She Said",
+        "durationSeconds": 162.866,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4ZN5ZWAcgZAq276aheEMwu",
+        "spotifyUri": "spotify:track:4ZN5ZWAcgZAq276aheEMwu",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-07",
+        "number": 7,
+        "title": "Here, There and Everywhere",
+        "durationSeconds": 238.186,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1NZx2bnfrpbL0EutycF8el",
+        "spotifyUri": "spotify:track:1NZx2bnfrpbL0EutycF8el",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-08",
+        "number": 8,
+        "title": "If I Needed Someone",
+        "durationSeconds": 145.586,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2vCpBRTrKM8MBUeiAdBVRT",
+        "spotifyUri": "spotify:track:2vCpBRTrKM8MBUeiAdBVRT",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-09",
+        "number": 9,
+        "title": "Maxwell's Silver Hammer",
+        "durationSeconds": 402.36,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6LM09VkMnRFO3IPDLAkKwB",
+        "spotifyUri": "spotify:track:6LM09VkMnRFO3IPDLAkKwB",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-10",
+        "number": 10,
+        "title": "Golden Slumbers",
+        "durationSeconds": 497.2,
+        "originalArtist": "The Beatles",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6NJsj8KRnoxAvE0ultDWbn",
+        "spotifyUri": "spotify:track:6NJsj8KRnoxAvE0ultDWbn",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0007-11",
+        "number": 11,
+        "title": "Life on Mars?",
+        "durationSeconds": 249.773,
+        "originalArtist": "David Bowie",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0xR3xi1YHLZHkXwNQ9hXmp",
+        "spotifyUri": "spotify:track:0xR3xi1YHLZHkXwNQ9hXmp",
+        "musicians": [
+          {
+            "name": "Brad Mehldau",
+            "roles": [
+              "piano"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0053",
+    "releaseDate": "2015-09-21",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273536e8d127e6e6613971ddcde",
+    "originalArtists": [
+      "Taylor Swift"
+    ],
+    "originalGenres": [
+      "Pop"
+    ],
+    "notes": [
+      "Ryan Adams re-recorded Taylor Swift’s 1989 song-for-song, shifting the material toward a looser singer-songwriter and rock palette.",
+      "The album was produced by Ryan Adams and Charlie Stavish."
+    ],
+    "personnel": [
+      {
+        "name": "Ryan Adams",
+        "roles": [
+          "vocals",
+          "guitars",
+          "keyboards"
+        ]
+      },
+      {
+        "name": "Charlie Stavish",
+        "roles": [
+          "bass",
+          "synthesizer"
+        ]
+      },
+      {
+        "name": "Nate Walcott",
+        "roles": [
+          "piano",
+          "organ",
+          "synthesizer"
+        ]
+      },
+      {
+        "name": "Tod Wisenbaker",
+        "roles": [
+          "guitars"
+        ]
+      },
+      {
+        "name": "Stephen Patt",
+        "roles": [
+          "double bass",
+          "pedal steel guitar"
+        ]
+      },
+      {
+        "name": "The Section Quartet",
+        "roles": [
+          "strings"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/ecdf58b0-1731-4bb8-b2f4-6228c656ad6c"
+      },
+      {
+        "label": "Album personnel reference",
+        "url": "https://en.wikipedia.org/wiki/1989_(Ryan_Adams_album)"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/0MVK1j7wrUkBZ09ZuMURJA"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0053-01",
+        "number": 1,
+        "title": "Welcome to New York",
+        "durationSeconds": 198.52,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/11W48AnQ2tSBp7d8x55JW4",
+        "spotifyUri": "spotify:track:11W48AnQ2tSBp7d8x55JW4",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-02",
+        "number": 2,
+        "title": "Blank Space",
+        "durationSeconds": 201.693,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7363P58oxh8jr5NEv7086t",
+        "spotifyUri": "spotify:track:7363P58oxh8jr5NEv7086t",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-03",
+        "number": 3,
+        "title": "Style",
+        "durationSeconds": 164.466,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4HRcQ151h3D8lZFvDMgObi",
+        "spotifyUri": "spotify:track:4HRcQ151h3D8lZFvDMgObi",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-04",
+        "number": 4,
+        "title": "Out of the Woods",
+        "durationSeconds": 367.386,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4kl5l7LzhTLOO3RoUJ59ei",
+        "spotifyUri": "spotify:track:4kl5l7LzhTLOO3RoUJ59ei",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-05",
+        "number": 5,
+        "title": "All You Had to Do Was Stay",
+        "durationSeconds": 210.24,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/7Jw1V7CzU9xvVSEONbHOD3",
+        "spotifyUri": "spotify:track:7Jw1V7CzU9xvVSEONbHOD3",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-06",
+        "number": 6,
+        "title": "Shake It Off",
+        "durationSeconds": 246.44,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/391ijHd2drZtRfz5v0LqLf",
+        "spotifyUri": "spotify:track:391ijHd2drZtRfz5v0LqLf",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-07",
+        "number": 7,
+        "title": "I Wish You Would",
+        "durationSeconds": 224.053,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0Nb6EyYhGhH96rqSe4wmdy",
+        "spotifyUri": "spotify:track:0Nb6EyYhGhH96rqSe4wmdy",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-08",
+        "number": 8,
+        "title": "Bad Blood",
+        "durationSeconds": 235.12,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6klHV5z1YjlLZt9oKNkq8P",
+        "spotifyUri": "spotify:track:6klHV5z1YjlLZt9oKNkq8P",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-09",
+        "number": 9,
+        "title": "Wildest Dreams",
+        "durationSeconds": 321.12,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6cX3XiNsgTUAqzdworhRUt",
+        "spotifyUri": "spotify:track:6cX3XiNsgTUAqzdworhRUt",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-10",
+        "number": 10,
+        "title": "How You Get the Girl",
+        "durationSeconds": 230.16,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5fA7hkil3LuUCDRpSwN4U4",
+        "spotifyUri": "spotify:track:5fA7hkil3LuUCDRpSwN4U4",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-11",
+        "number": 11,
+        "title": "This Love",
+        "durationSeconds": 285.693,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2sflRF1Y7fgkOud0vGDAZU",
+        "spotifyUri": "spotify:track:2sflRF1Y7fgkOud0vGDAZU",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-12",
+        "number": 12,
+        "title": "I Know Places",
+        "durationSeconds": 314.306,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4MTs3CVEeu4Am2w1AdrBzQ",
+        "spotifyUri": "spotify:track:4MTs3CVEeu4Am2w1AdrBzQ",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0053-13",
+        "number": 13,
+        "title": "Clean",
+        "durationSeconds": 263.506,
+        "originalArtist": "Taylor Swift",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2xZiDt5inFaBvoxwG8EYWV",
+        "spotifyUri": "spotify:track:2xZiDt5inFaBvoxwG8EYWV",
+        "musicians": [
+          {
+            "name": "Ryan Adams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0054",
+    "releaseDate": "2001-01-10",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2731d728477c9d2942bee78c482",
+    "originalArtists": [
+      "AC/DC"
+    ],
+    "originalGenres": [
+      "Rock"
+    ],
+    "notes": [
+      "Ten Bon Scott-era AC/DC songs are stripped down and substantially rearranged rather than reproduced as hard-rock covers.",
+      "The record is a useful example of how dramatically familiar material can change when arrangement and scale are reduced."
+    ],
+    "personnel": [
+      {
+        "name": "Mark Kozelek",
+        "roles": [
+          "performer",
+          "arranger"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/whats-next-to-the-moon-mw0000586556"
+      },
+      {
+        "label": "Album reference",
+        "url": "https://en.wikipedia.org/wiki/What%27s_Next_to_the_Moon_(album)"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/1nIB0laWm2Rw4P9EXeMs5O"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0054-01",
+        "number": 1,
+        "title": "Up to My Neck in You",
+        "durationSeconds": 159.36,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3nKG9g0QABptYiA8rW0udg",
+        "spotifyUri": "spotify:track:3nKG9g0QABptYiA8rW0udg",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-02",
+        "number": 2,
+        "title": "Love at First Feel",
+        "durationSeconds": 132.773,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6faH7FMKZoKA4vMlxoRjoV",
+        "spotifyUri": "spotify:track:6faH7FMKZoKA4vMlxoRjoV",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-03",
+        "number": 3,
+        "title": "Love Hungry Man",
+        "durationSeconds": 100.973,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0lenidP4Dn0eeY5j5NbFKK",
+        "spotifyUri": "spotify:track:0lenidP4Dn0eeY5j5NbFKK",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-04",
+        "number": 4,
+        "title": "Bad Boy Boogie",
+        "durationSeconds": 288.88,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1g5DCObDn6JJrOPTuSkbvQ",
+        "spotifyUri": "spotify:track:1g5DCObDn6JJrOPTuSkbvQ",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-05",
+        "number": 5,
+        "title": "What's Next to the Moon",
+        "durationSeconds": 214.866,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3DMv3s8wJYEujSQ4TPCbP6",
+        "spotifyUri": "spotify:track:3DMv3s8wJYEujSQ4TPCbP6",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-06",
+        "number": 6,
+        "title": "Walk All Over You",
+        "durationSeconds": 178.32,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2SLEYlc0olZGKvMSNnbiG6",
+        "spotifyUri": "spotify:track:2SLEYlc0olZGKvMSNnbiG6",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-07",
+        "number": 7,
+        "title": "You Ain't Got a Hold on Me",
+        "durationSeconds": 195.28,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4xFFalDX61STz17D48giJL",
+        "spotifyUri": "spotify:track:4xFFalDX61STz17D48giJL",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-08",
+        "number": 8,
+        "title": "If You Want Blood",
+        "durationSeconds": 157.946,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/78kixLbLPU1pfaDkNAsV5E",
+        "spotifyUri": "spotify:track:78kixLbLPU1pfaDkNAsV5E",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-09",
+        "number": 9,
+        "title": "Riff Raff",
+        "durationSeconds": 168.133,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4PP4Ry0OLeRGkPqNJpe9dM",
+        "spotifyUri": "spotify:track:4PP4Ry0OLeRGkPqNJpe9dM",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0054-10",
+        "number": 10,
+        "title": "Rock N Roll Singer",
+        "durationSeconds": 210.866,
+        "originalArtist": "AC/DC",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4WSQXhHfcPyYDEGPdfvP9c",
+        "spotifyUri": "spotify:track:4WSQXhHfcPyYDEGPdfvP9c",
+        "musicians": [
+          {
+            "name": "Mark Kozelek",
+            "roles": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0060",
+    "releaseDate": "2021-05-21",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273582d1e379128943de81828a1",
+    "originalArtists": [
+      "Bob Dylan"
+    ],
+    "originalGenres": [
+      "Rock"
+    ],
+    "notes": [
+      "Hynde and James Walbourne assembled the Dylan set remotely during lockdown, building arrangements by sending ideas and recordings back and forth.",
+      "The nine-song collection stays focused on Dylan rather than mixing the tribute with unrelated material."
+    ],
+    "personnel": [
+      {
+        "name": "Chrissie Hynde",
+        "roles": [
+          "vocals",
+          "guitar",
+          "acoustic guitar"
+        ]
+      },
+      {
+        "name": "James Walbourne",
+        "roles": [
+          "guitar",
+          "acoustic guitar",
+          "keyboards",
+          "piano",
+          "organ",
+          "accordion",
+          "mandolin",
+          "flute",
+          "clarinet",
+          "background vocals"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/standing-in-the-doorway-chrissie-hynde-sings-bob-dylan-mw0003522363"
+      },
+      {
+        "label": "Qobuz credits",
+        "url": "https://www.qobuz.com/us-en/album/standing-in-the-doorway-chrissie-hynde-sings-bob-dylan-feat-james-walbourne-chrissie-hynde-james-walbourne/b44zp4d592iel"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/5aG1UimFYw9MXU1Q0M36MR"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0060-01",
+        "number": 1,
+        "title": "In the Summertime",
+        "durationSeconds": 195.466,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4GVVDFS3ThvBvTIJgq3nVz",
+        "spotifyUri": "spotify:track:4GVVDFS3ThvBvTIJgq3nVz",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-02",
+        "number": 2,
+        "title": "You're a Big Girl Now",
+        "durationSeconds": 263.24,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4BCy7nen7lKH9GQOAbxM4u",
+        "spotifyUri": "spotify:track:4BCy7nen7lKH9GQOAbxM4u",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-03",
+        "number": 3,
+        "title": "Standing in the Doorway",
+        "durationSeconds": 433.773,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5AufTEpm5ZQsuUKFEqSChO",
+        "spotifyUri": "spotify:track:5AufTEpm5ZQsuUKFEqSChO",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-04",
+        "number": 4,
+        "title": "Sweetheart Like You",
+        "durationSeconds": 302.48,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3re6N0pv2A9TdLaIgIPM5a",
+        "spotifyUri": "spotify:track:3re6N0pv2A9TdLaIgIPM5a",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-05",
+        "number": 5,
+        "title": "Blind Willie McTell",
+        "durationSeconds": 365.293,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/22uaqe1qj18ZRoss58paZV",
+        "spotifyUri": "spotify:track:22uaqe1qj18ZRoss58paZV",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-06",
+        "number": 6,
+        "title": "Love Minus Zero / No Limit",
+        "durationSeconds": 252.04,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6BqE7fE92KqRvO9ShoJhmX",
+        "spotifyUri": "spotify:track:6BqE7fE92KqRvO9ShoJhmX",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-07",
+        "number": 7,
+        "title": "Don't Fall Apart on Me Tonight",
+        "durationSeconds": 415.226,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5me8BGMjXCL4LN5oz1TkA3",
+        "spotifyUri": "spotify:track:5me8BGMjXCL4LN5oz1TkA3",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-08",
+        "number": 8,
+        "title": "Tomorrow Is a Long Time",
+        "durationSeconds": 214.08,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/00XensDESR0u3NsqLGdvaV",
+        "spotifyUri": "spotify:track:00XensDESR0u3NsqLGdvaV",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0060-09",
+        "number": 9,
+        "title": "Every Grain of Sand",
+        "durationSeconds": 252.853,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/6UFFr9AE2Yp7w6g9YiCFV7",
+        "spotifyUri": "spotify:track:6UFFr9AE2Yp7w6g9YiCFV7",
+        "musicians": [
+          {
+            "name": "Chrissie Hynde",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "James Walbourne",
+            "roles": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0067",
+    "releaseDate": "2020-10-29",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2736169fa10ac9a1fe3ef1a1d54",
+    "originalArtists": [
+      "Tom Petty"
+    ],
+    "originalGenres": [
+      "Rock"
+    ],
+    "notes": [
+      "The first Lu’s Jukebox set is a Tom Petty tribute drawn from across his catalog and performed as a full-band studio concert.",
+      "The closing track, “Stolen Moments,” is a Lucinda Williams original rather than a Petty cover."
+    ],
+    "personnel": [
+      {
+        "name": "Lucinda Williams",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Steve Mackey",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Fred Eltringham",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Joshua Grange",
+        "roles": [
+          "guitar",
+          "keyboards"
+        ]
+      },
+      {
+        "name": "Stuart Mathis",
+        "roles": [
+          "guitar"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/runnin-down-a-dream-a-tribute-to-tom-petty-mw0003480135"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/1b7fdd03-4e1a-4eb8-a749-1935b9d0bba8"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/45YARZ102DY7sx4ieWBzKc"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0067-01",
+        "number": 1,
+        "title": "Rebels",
+        "durationSeconds": 297.839,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/5cUH5tMxkPxNULXrVez09N",
+        "spotifyUri": "spotify:track:5cUH5tMxkPxNULXrVez09N",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-02",
+        "number": 2,
+        "title": "Runnin' Down a Dream",
+        "durationSeconds": 280.029,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2gFpiBPMIE4pjJ43ZtevVJ",
+        "spotifyUri": "spotify:track:2gFpiBPMIE4pjJ43ZtevVJ",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-03",
+        "number": 3,
+        "title": "Gainesville",
+        "durationSeconds": 252.615,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/23SGj6NJmntraimvo5VK3x",
+        "spotifyUri": "spotify:track:23SGj6NJmntraimvo5VK3x",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-04",
+        "number": 4,
+        "title": "Louisiana Rain",
+        "durationSeconds": 289.476,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2SONbAarBN2vgIdxm3Ydtq",
+        "spotifyUri": "spotify:track:2SONbAarBN2vgIdxm3Ydtq",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-05",
+        "number": 5,
+        "title": "I Won't Back Down",
+        "durationSeconds": 192.073,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3ituYzp5ag4SqFukb7gJ40",
+        "spotifyUri": "spotify:track:3ituYzp5ag4SqFukb7gJ40",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-06",
+        "number": 6,
+        "title": "A Face in the Crowd",
+        "durationSeconds": 248.41,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/1VqpgeCdpDzmNNyJv4Z04Q",
+        "spotifyUri": "spotify:track:1VqpgeCdpDzmNNyJv4Z04Q",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-07",
+        "number": 7,
+        "title": "Wildflowers",
+        "durationSeconds": 207.824,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2iFTn9rsklCBmqErQnqBXi",
+        "spotifyUri": "spotify:track:2iFTn9rsklCBmqErQnqBXi",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-08",
+        "number": 8,
+        "title": "You Wreck Me",
+        "durationSeconds": 205.255,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/4v5Kv5BdVIifZhdcDDgoLO",
+        "spotifyUri": "spotify:track:4v5Kv5BdVIifZhdcDDgoLO",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-09",
+        "number": 9,
+        "title": "Room at the Top",
+        "durationSeconds": 353.159,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2REO94gpcvk785J9mUI6JC",
+        "spotifyUri": "spotify:track:2REO94gpcvk785J9mUI6JC",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-10",
+        "number": 10,
+        "title": "You Don't Know How It Feels",
+        "durationSeconds": 236.405,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/0oVWY9y7RqIEba0qyw4rSV",
+        "spotifyUri": "spotify:track:0oVWY9y7RqIEba0qyw4rSV",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-11",
+        "number": 11,
+        "title": "Down South",
+        "durationSeconds": 210.738,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/16XMPPGbLGwnEziU6j3Dko",
+        "spotifyUri": "spotify:track:16XMPPGbLGwnEziU6j3Dko",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-12",
+        "number": 12,
+        "title": "Southern Accents",
+        "durationSeconds": 261.951,
+        "originalArtist": "Tom Petty",
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/3YELAuWIGL3Jep2KOiytlR",
+        "spotifyUri": "spotify:track:3YELAuWIGL3Jep2KOiytlR",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0067-13",
+        "number": 13,
+        "title": "Stolen Moments",
+        "durationSeconds": 293.402,
+        "originalArtist": null,
+        "originalGenre": null,
+        "spotify": "https://open.spotify.com/track/2BuWorQ84FxUzxMC4P0eEm",
+        "spotifyUri": "spotify:track:2BuWorQ84FxUzxMC4P0eEm",
+        "musicians": [
+          {
+            "name": "Lucinda Williams",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ],
+        "isCover": false
+      }
+    ]
   }
 ]
