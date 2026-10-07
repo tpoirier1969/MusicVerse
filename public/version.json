@@ -1,10 +1,10 @@
 {
-  "version": "0.3.5",
+  "version": "0.3.6",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added a full verified detail record for Tedeschi Trucks Band's Layla Revisited (Live at LOCKN').",
-    "The album now includes verified artwork, Spotify track links and durations, source-album relationships, personnel, notes, and provenance.",
-    "Track-level relationships identify Derek and the Dominos as the source artist because this release is explicitly a full-album revisit of Layla and Other Assorted Love Songs.",
-    "MusicVerse now has 18 enriched cover albums with track-level detail."
+    "Added full verified detail records for Bill Frisell's Have a Little Faith and The Bad Plus's For All I Care.",
+    "Both albums now include verified cover art, Spotify track links and durations, source artists/composers, source genres, personnel, album notes, and provenance.",
+    "For All I Care includes track-level Wendy Lewis vocal credits only on the vocal performances; the Ligeti, Babbitt, and Stravinsky pieces remain trio instrumentals.",
+    "MusicVerse now has 20 enriched cover albums with track-level detail."
   ]
 }
