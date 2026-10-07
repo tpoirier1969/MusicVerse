@@ -40,6 +40,36 @@ export function getAlbumFacetValues(album, field) {
   }
 }
 
+export function getAlbumSearchMatches(album, searchText = '') {
+  const query = String(searchText || '').trim().toLowerCase();
+  if (!album || !query) return { albumMatched: false, trackMatches: [] };
+
+  const detail = album.detail || {};
+  const albumHaystack = [
+    album.album,
+    album.artist,
+    album.genre,
+    album.approach,
+    album.why,
+    ...getAlbumOriginalArtists(album),
+    ...getAlbumOriginalGenres(album),
+    ...(detail.notes || []),
+    ...(detail.personnel || []).flatMap((person) => [person.name, ...(person.roles || [])]),
+  ].filter(Boolean).join(' ').toLowerCase();
+
+  const trackMatches = (detail.tracks || []).filter((track) => [
+    track.title,
+    track.originalArtist,
+    track.originalGenre,
+    ...(track.musicians || []).flatMap((musician) => [musician.name, ...(musician.roles || [])]),
+  ].filter(Boolean).join(' ').toLowerCase().includes(query));
+
+  return {
+    albumMatched: albumHaystack.includes(query),
+    trackMatches,
+  };
+}
+
 export function filterCoverAlbums(albums, filters = {}, searchText = '') {
   const query = String(searchText || '').trim().toLowerCase();
   return (Array.isArray(albums) ? albums : []).filter((album) => {
@@ -49,24 +79,8 @@ export function filterCoverAlbums(albums, filters = {}, searchText = '') {
     }
 
     if (!query) return true;
-    const detail = album.detail || {};
-    const haystack = [
-      album.album,
-      album.artist,
-      album.genre,
-      album.approach,
-      album.why,
-      ...getAlbumOriginalArtists(album),
-      ...getAlbumOriginalGenres(album),
-      ...(detail.notes || []),
-      ...(detail.tracks || []).flatMap((track) => [
-        track.title,
-        track.originalArtist,
-        track.originalGenre,
-        ...(track.musicians || []).flatMap((musician) => [musician.name, ...(musician.roles || [])]),
-      ]),
-    ].filter(Boolean).join(' ').toLowerCase();
-    return haystack.includes(query);
+    const matches = getAlbumSearchMatches(album, query);
+    return matches.albumMatched || matches.trackMatches.length > 0;
   });
 }
 
