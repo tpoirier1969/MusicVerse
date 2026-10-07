@@ -133,7 +133,10 @@
     "genre": "Rock",
     "approach": "1960s British and American rock covers",
     "why": "Bowie treats the mod-era songbook as raw material rather than nostalgia, pushing the songs through his early-’70s glam sound.",
-    "spotify": "https://open.spotify.com/album/71nxmbr3tHAVyvdHXc0ltd?utm_source=openai&utm_medium=chatgpt&request_id=71765433-b8e9-4808-a913-d71fcc671e4a"
+    "spotify": "https://open.spotify.com/album/71nxmbr3tHAVyvdHXc0ltd?utm_source=openai&utm_medium=chatgpt&request_id=71765433-b8e9-4808-a913-d71fcc671e4a",
+    "coverAlbumIntent": true,
+    "coverTrackCount": 12,
+    "totalTrackCount": 12
   },
   {
     "id": "cover-album-0013",
@@ -144,7 +147,10 @@
     "genre": "Rock",
     "approach": "Protest, funk, punk and hip-hop covers",
     "why": "Springsteen, Dylan, Devo, MC5, Afrika Bambaataa and others are translated into Rage’s own rhythmic and political vocabulary.",
-    "spotify": "https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi?utm_source=openai&utm_medium=chatgpt&request_id=5244ceba-b797-4e6f-ad0e-b016531e3142"
+    "spotify": "https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi?utm_source=openai&utm_medium=chatgpt&request_id=5244ceba-b797-4e6f-ad0e-b016531e3142",
+    "coverAlbumIntent": true,
+    "coverTrackCount": 12,
+    "totalTrackCount": 12
   },
   {
     "id": "cover-album-0014",
@@ -519,7 +525,10 @@
     "genre": "Singer-Songwriter",
     "approach": "R&B, soul, country and rock favorites",
     "why": "Costello’s songwriter brain stays active even when the songs aren’t his; arrangements emphasize character over imitation.",
-    "spotify": "https://open.spotify.com/album/2ThJPrLwKqqmfF0sMawv4L?utm_source=openai&utm_medium=chatgpt&request_id=386e9783-ff75-4cc7-a3f9-235edfb357fc"
+    "spotify": "https://open.spotify.com/album/2ThJPrLwKqqmfF0sMawv4L?utm_source=openai&utm_medium=chatgpt&request_id=386e9783-ff75-4cc7-a3f9-235edfb357fc",
+    "coverAlbumIntent": true,
+    "coverTrackCount": 15,
+    "totalTrackCount": 15
   },
   {
     "id": "cover-album-0047",
