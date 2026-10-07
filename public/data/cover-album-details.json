@@ -9708,5 +9708,1042 @@
         "musicians": []
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0008",
+    "releaseDate": "1997-02-27",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2739ee6be7c702d86a91627f77d",
+    "originalArtists": [
+      "Bob Marley & The Wailers"
+    ],
+    "originalGenres": [
+      "Reggae"
+    ],
+    "notes": [
+      "Hunter reworks Bob Marley & The Wailers' Natty Dread track-for-track as instrumental jazz rather than trying to reproduce the reggae arrangements.",
+      "The quartet's two-saxophone front line and Hunter's 8-string guitar turn the songs into a mix of soul-jazz, post-bop, funk and straight-ahead improvisation."
+    ],
+    "personnel": [
+      {
+        "name": "Charlie Hunter",
+        "roles": [
+          "8-string guitar"
+        ]
+      },
+      {
+        "name": "Calder Spanier",
+        "roles": [
+          "alto saxophone"
+        ]
+      },
+      {
+        "name": "Kenny Brooks",
+        "roles": [
+          "tenor saxophone"
+        ]
+      },
+      {
+        "name": "Scott Amendola",
+        "roles": [
+          "drums"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Blue Note / Universal Music",
+        "url": "https://www.universalmusic.it/musica-jazz/album/natty-dread_30941107600/"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/natty-dread-mw0000099526"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/01XxaE3MoDZCPqPEtnSFGO"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0008-01",
+        "number": 1,
+        "title": "Lively Up Yourself",
+        "durationSeconds": 339.96,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/1UpMYIzz7FX76xWxIlX4MQ",
+        "spotifyUri": "spotify:track:1UpMYIzz7FX76xWxIlX4MQ",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-02",
+        "number": 2,
+        "title": "No Woman, No Cry",
+        "durationSeconds": 316.866,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/09E4AQMofViyFMY0VibpPb",
+        "spotifyUri": "spotify:track:09E4AQMofViyFMY0VibpPb",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-03",
+        "number": 3,
+        "title": "Them Belly Full",
+        "durationSeconds": 324.666,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/45crBXgghaXvjAt3NjsIyj",
+        "spotifyUri": "spotify:track:45crBXgghaXvjAt3NjsIyj",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-04",
+        "number": 4,
+        "title": "Rebel Music (3 O'Clock Roadblock)",
+        "durationSeconds": 280.2,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/4eyxgIl7Qr8T1UuqkvTv3K",
+        "spotifyUri": "spotify:track:4eyxgIl7Qr8T1UuqkvTv3K",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-05",
+        "number": 5,
+        "title": "So Jah Seh",
+        "durationSeconds": 225.44,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/2IOc2jvtCqJ7k2rhaDgUAC",
+        "spotifyUri": "spotify:track:2IOc2jvtCqJ7k2rhaDgUAC",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-06",
+        "number": 6,
+        "title": "Natty Dread",
+        "durationSeconds": 262.133,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/1fAJJoVHQ1JvTmstMvxXcF",
+        "spotifyUri": "spotify:track:1fAJJoVHQ1JvTmstMvxXcF",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-07",
+        "number": 7,
+        "title": "Bend Down Low",
+        "durationSeconds": 154.96,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/5wvmPB4FDzRAoEaYSnCsfX",
+        "spotifyUri": "spotify:track:5wvmPB4FDzRAoEaYSnCsfX",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-08",
+        "number": 8,
+        "title": "Talkin' Blues",
+        "durationSeconds": 319.44,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/5qUYdbAjMQiZZa5qN5iyuG",
+        "spotifyUri": "spotify:track:5qUYdbAjMQiZZa5qN5iyuG",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0008-09",
+        "number": 9,
+        "title": "Revolution",
+        "durationSeconds": 360,
+        "originalArtist": "Bob Marley & The Wailers",
+        "originalGenre": "Reggae",
+        "spotify": "https://open.spotify.com/track/44WmVqLVNoZ47cTN5otxVV",
+        "spotifyUri": "spotify:track:44WmVqLVNoZ47cTN5otxVV",
+        "musicians": [
+          {
+            "name": "Charlie Hunter",
+            "roles": [
+              "8-string guitar"
+            ]
+          },
+          {
+            "name": "Calder Spanier",
+            "roles": [
+              "alto saxophone"
+            ]
+          },
+          {
+            "name": "Kenny Brooks",
+            "roles": [
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Scott Amendola",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0009",
+    "releaseDate": "2005-06-07",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273f6ca3b09d44e4821f2f5b3c9",
+    "originalArtists": [
+      "Ray Charles"
+    ],
+    "originalGenres": [
+      "R&B",
+      "Soul",
+      "Jazz"
+    ],
+    "notes": [
+      "Scofield treats Ray Charles' repertoire as material for a jazz-and-R&B band rather than as a museum-piece tribute.",
+      "The record mixes instrumental arrangements with guest vocal turns from Dr. John, Warren Haynes, John Mayer, Mavis Staples and Aaron Neville, while longtime Ray Charles saxophonist David 'Fathead' Newman also appears."
+    ],
+    "personnel": [
+      {
+        "name": "John Scofield",
+        "roles": [
+          "guitar",
+          "arrangements"
+        ]
+      },
+      {
+        "name": "Steve Jordan",
+        "roles": [
+          "drums",
+          "producer"
+        ]
+      },
+      {
+        "name": "Willie Weeks",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Larry Goldings",
+        "roles": [
+          "Hammond B3",
+          "Wurlitzer",
+          "vibraphone"
+        ]
+      },
+      {
+        "name": "Manolo Badrena",
+        "roles": [
+          "percussion"
+        ]
+      },
+      {
+        "name": "David “Fathead” Newman",
+        "roles": [
+          "tenor saxophone"
+        ]
+      },
+      {
+        "name": "Alex Foster",
+        "roles": [
+          "tenor saxophone"
+        ]
+      },
+      {
+        "name": "Howard Johnson",
+        "roles": [
+          "baritone saxophone"
+        ]
+      },
+      {
+        "name": "Keith O'Quinn",
+        "roles": [
+          "trombone"
+        ]
+      },
+      {
+        "name": "Earl Gardner",
+        "roles": [
+          "trumpet"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "MusicBrainz",
+        "url": "https://musicbrainz.org/release/b1ab820a-595e-490f-8a75-cb74142dc126"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/thats-what-i-say-mw0000253731"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/4LWDgiazselhhacGx8k0OD"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0009-01",
+        "number": 1,
+        "title": "Busted",
+        "durationSeconds": 391.52,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/7GHvMmDZQXNokA9NBNxgns",
+        "spotifyUri": "spotify:track:7GHvMmDZQXNokA9NBNxgns",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-02",
+        "number": 2,
+        "title": "What'd I Say",
+        "durationSeconds": 378.733,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/4bQbYATzePQEM4fjag8s23",
+        "spotifyUri": "spotify:track:4bQbYATzePQEM4fjag8s23",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "Dr. John",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Warren Haynes",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "John Mayer",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Aaron Neville",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mavis Staples",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-03",
+        "number": 3,
+        "title": "Sticks And Stones",
+        "durationSeconds": 224.173,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/5wiSLYWKu4fDkcGM3mzAyJ",
+        "spotifyUri": "spotify:track:5wiSLYWKu4fDkcGM3mzAyJ",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-04",
+        "number": 4,
+        "title": "I Don't Need No Doctor",
+        "durationSeconds": 269.04,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/63p9izwA20hVjus2t68fE9",
+        "spotifyUri": "spotify:track:63p9izwA20hVjus2t68fE9",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "John Mayer",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-05",
+        "number": 5,
+        "title": "Cryin' Time",
+        "durationSeconds": 93.133,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/4DY8ExggplnygvawHs6gaw",
+        "spotifyUri": "spotify:track:4DY8ExggplnygvawHs6gaw",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-06",
+        "number": 6,
+        "title": "I Can't Stop Loving You",
+        "durationSeconds": 288.186,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/6tpv7W58GfQtswx2CqNYxM",
+        "spotifyUri": "spotify:track:6tpv7W58GfQtswx2CqNYxM",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "Mavis Staples",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-07",
+        "number": 7,
+        "title": "Hit The Road Jack",
+        "durationSeconds": 328.466,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/1WbL0J9jQBmHIG7NovcTKo",
+        "spotifyUri": "spotify:track:1WbL0J9jQBmHIG7NovcTKo",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-08",
+        "number": 8,
+        "title": "Talkin' 'Bout You/I Got A Woman",
+        "durationSeconds": 350,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/1uaGf7ND3h0DXZStB1kAl6",
+        "spotifyUri": "spotify:track:1uaGf7ND3h0DXZStB1kAl6",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "Dr. John",
+            "roles": [
+              "vocals",
+              "piano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-09",
+        "number": 9,
+        "title": "Unchain My Heart - Pt. 1",
+        "durationSeconds": 305.8,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/1xzjkBcOVgfaY8YcLhCvPQ",
+        "spotifyUri": "spotify:track:1xzjkBcOVgfaY8YcLhCvPQ",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-10",
+        "number": 10,
+        "title": "Let's Go Get Stoned",
+        "durationSeconds": 209.133,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/64OjyIHMdJhoFXpW1u0MbE",
+        "spotifyUri": "spotify:track:64OjyIHMdJhoFXpW1u0MbE",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-11",
+        "number": 11,
+        "title": "Night Time Is The Right Time",
+        "durationSeconds": 297.92,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/5QUrJyoOCl6fLkQwTLqkFB",
+        "spotifyUri": "spotify:track:5QUrJyoOCl6fLkQwTLqkFB",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "Warren Haynes",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-12",
+        "number": 12,
+        "title": "You Don't Know Me",
+        "durationSeconds": 297.026,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/4bQm4LTIpF8rdAkrtzihYY",
+        "spotifyUri": "spotify:track:4bQm4LTIpF8rdAkrtzihYY",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          },
+          {
+            "name": "Aaron Neville",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0009-13",
+        "number": 13,
+        "title": "Georgia On My Mind",
+        "durationSeconds": 490.92,
+        "originalArtist": "Ray Charles",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/7BEuB8jCKUGmTIwcqIpNdq",
+        "spotifyUri": "spotify:track:7BEuB8jCKUGmTIwcqIpNdq",
+        "musicians": [
+          {
+            "name": "John Scofield",
+            "roles": [
+              "guitar",
+              "arrangements"
+            ]
+          },
+          {
+            "name": "Steve Jordan",
+            "roles": [
+              "drums",
+              "producer"
+            ]
+          },
+          {
+            "name": "Willie Weeks",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Larry Goldings",
+            "roles": [
+              "keyboards"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
