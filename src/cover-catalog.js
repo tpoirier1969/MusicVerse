@@ -10,9 +10,34 @@ export function mergeCoverAlbums(albums, details) {
   }));
 }
 
+export function getCoverAlbumRatio(album) {
+  if (!album) return null;
+
+  const coverTrackCount = Number(album.coverTrackCount);
+  const totalTrackCount = Number(album.totalTrackCount);
+  if (Number.isFinite(coverTrackCount) && Number.isFinite(totalTrackCount) && totalTrackCount > 0) {
+    return coverTrackCount / totalTrackCount;
+  }
+
+  const tracks = album.detail?.tracks || [];
+  if (tracks.length && tracks.every((track) => typeof track.isCover === 'boolean')) {
+    return tracks.filter((track) => track.isCover).length / tracks.length;
+  }
+
+  return null;
+}
+
 export function isCoverAlbumEligible(album) {
-  if (!album || album.allCovers === false) return false;
-  return !(album.detail?.tracks || []).some((track) => track.isCover === false);
+  if (!album) return false;
+  if (album.coverAlbumIntent === true) return true;
+
+  const ratio = getCoverAlbumRatio(album);
+  if (ratio !== null) return ratio >= 0.9;
+
+  if (album.coverAlbumIntent === false) return false;
+
+  // Existing curated records remain eligible until research proves otherwise.
+  return true;
 }
 
 export function getAlbumArtwork(album) {

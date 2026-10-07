@@ -1,0 +1,1564 @@
+{
+  "instruments": [
+    {
+      "id": "accordion",
+      "label": "Accordion",
+      "description": "Explore how the accordion changes character across regions, genres, ensembles, and players.",
+      "genres": [
+        {
+          "name": "Accordion Jazz",
+          "about": "In jazz, accordion can function like a portable keyboard while retaining a breath-like attack. Players use it for chordal comping, agile single-note lines, and sustained harmonies that can move between piano, organ, and horn-like roles."
+        },
+        {
+          "name": "Austrian Folk",
+          "about": "In Austrian folk and alpine dance music, accordion supplies both melody and rhythmic lift. Its bass buttons and bellows accents let one player reinforce the dance pulse while carrying ornamented tunes."
+        },
+        {
+          "name": "Balkan Folk",
+          "about": "Across Balkan folk traditions, accordion is prized for fast ornamentation, asymmetrical dance rhythms, and the ability to cut through dense ensembles. It often acts as both lead voice and rhythmic engine."
+        },
+        {
+          "name": "Basque Trikitixa",
+          "about": "Trikitixa centers on a small diatonic button accordion whose bright attack is tightly interlocked with dance rhythm. The instrument is a defining melodic voice in Basque social and festival music."
+        },
+        {
+          "name": "Cajun",
+          "about": "Cajun music often puts the diatonic accordion at the center of the band. Its limited-note layout encourages forceful bellows phrasing, rhythmic push, and a vocal-like melodic style closely tied to two-steps and waltzes."
+        },
+        {
+          "name": "Classical Accordion",
+          "about": "Concert accordion extends the instrument beyond dance accompaniment with a wide dynamic range, independent bass systems, and sustained polyphony. Classical repertoire treats the bellows as an expressive control comparable to bowing or breath."
+        },
+        {
+          "name": "Conjunto / Tex-Mex",
+          "about": "In conjunto and Tex-Mex music, accordion is a principal melodic voice, trading phrases with bajo sexto and vocals. Its punchy articulation and ornaments are central to polkas, rancheras, and the broader border-music sound."
+        },
+        {
+          "name": "Finnish Folk",
+          "about": "Finnish accordion tradition combines dance rhythm with lyrical melody, especially in polkas, waltzes, and humppa. The instrument can sound both sharply rhythmic and deeply sentimental within the same repertoire."
+        },
+        {
+          "name": "Forró",
+          "about": "Accordion is one of the core sounds of northeastern Brazilian forró, especially alongside zabumba and triangle. It supplies syncopated melody, harmony, and propulsion for baião, xote, and related dance forms."
+        },
+        {
+          "name": "French Musette",
+          "about": "Parisian bal-musette made accordion a signature urban dance sound. Musette playing emphasizes lilting waltz pulse, ornamental melody, and a bright, reedy timbre that became shorthand for a particular image of French popular music."
+        },
+        {
+          "name": "Funaná",
+          "about": "In Cape Verdean funaná, accordion pairs with scraped percussion to create fast, driving dance music. The instrument's repeating rhythmic figures and clipped melodic phrases are fundamental to the genre's momentum."
+        },
+        {
+          "name": "German Polka",
+          "about": "German polka uses accordion for buoyant melody, oom-pah harmony, and strong dance accents. It can reinforce brass-band textures or carry a complete small-ensemble arrangement by itself."
+        },
+        {
+          "name": "Irish / Celtic",
+          "about": "Accordion and button accordion are important dance instruments in Irish traditional music. Crisp articulation, bellows control, and compact ornamentation help reels and jigs maintain both melodic detail and rhythmic drive."
+        },
+        {
+          "name": "Italian Folk",
+          "about": "Accordion became deeply embedded in Italian folk and popular dance music, from village repertoire to migrant communities abroad. It is valued for self-contained accompaniment and a singing melodic quality."
+        },
+        {
+          "name": "Klezmer",
+          "about": "In klezmer, accordion can provide harmony, bass motion, rhythmic accompaniment, or lead lines alongside clarinet and violin. Its capacity for bends, swells, and sharp accents suits the music's speech-like phrasing."
+        },
+        {
+          "name": "Norteño",
+          "about": "Norteño places button accordion at the front of the ensemble with bajo sexto. The accordion carries hooks, fills, and improvised responses that are essential to the genre's identity."
+        },
+        {
+          "name": "Pop",
+          "about": "In pop, accordion is usually a color rather than the whole arrangement. Its instantly recognizable attack can add folk character, nostalgia, rhythmic bounce, or an intentionally unusual texture."
+        },
+        {
+          "name": "Portuguese Folk",
+          "about": "Portuguese folk accordion supports social dance and regional song with melody, bass, and chordal accompaniment. Its portability made it especially effective for community music-making."
+        },
+        {
+          "name": "Québécois Folk",
+          "about": "Québécois traditional music uses accordion to drive reels, crooked tunes, and social dancing. Strong rhythmic articulation works with foot percussion and fiddle to keep the music moving."
+        },
+        {
+          "name": "Rock",
+          "about": "Rock uses accordion as an alternative to keyboards or guitar, sometimes for roots texture and sometimes for deliberate contrast. Amplification lets its sustained chords and biting reeds sit comfortably beside drums and electric guitars."
+        },
+        {
+          "name": "Russian Bayan",
+          "about": "The bayan is a chromatic button accordion central to Russian concert and folk traditions. Its extended range, powerful bass system, and refined dynamics support virtuosic solo repertoire as well as ensemble music."
+        },
+        {
+          "name": "Scottish Folk",
+          "about": "Scottish accordion is closely tied to dance bands and ceilidh repertoire. It combines precise dance rhythm with broad melodic phrasing and can anchor both small groups and larger accordion-led ensembles."
+        },
+        {
+          "name": "Slovenian Polka",
+          "about": "Slovenian-style polka relies heavily on accordion for quick melodic figures and bright rhythmic punctuation. The instrument often defines the characteristic bounce of the ensemble."
+        },
+        {
+          "name": "Tango",
+          "about": "Tango's emblematic free-reed voice is the bandoneón, a close accordion relative. Its sharp attacks, sighing bellows, and dark sustained chords are central to tango's rhythmic tension and emotional character."
+        },
+        {
+          "name": "Ukrainian Folk",
+          "about": "Accordion and bayan are common in Ukrainian folk and dance settings, where they provide portable harmony, bass, and melody. The instrument supports both vigorous dances and lyrical song accompaniment."
+        },
+        {
+          "name": "Vallenato",
+          "about": "Accordion is one of vallenato's defining instruments, interacting with caja and guacharaca. It carries melodic hooks and improvised passages while helping shape the genre's distinctive rhythmic conversation."
+        },
+        {
+          "name": "Zydeco",
+          "about": "Zydeco puts accordion at the center of a Creole dance groove influenced by blues and R&B. Piano and button accordions deliver riffs, fills, and percussive bellows accents over a strong backbeat."
+        }
+      ]
+    },
+    {
+      "id": "clarinet",
+      "label": "Clarinet",
+      "description": "Follow clarinet sounds from jazz and classical playing to folk and regional traditions.",
+      "genres": [
+        {
+          "name": "Big Band / Swing",
+          "about": "In swing-era jazz the clarinet can float above the brass and saxophones with a bright, flexible lead voice. Bandleaders such as Benny Goodman and Artie Shaw made its agility, wide range, and liquid phrasing central to the sound of big-band jazz."
+        },
+        {
+          "name": "Modern Jazz",
+          "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance."
+        }
+      ]
+    },
+    {
+      "id": "pedal-steel-guitar",
+      "label": "Pedal Steel Guitar",
+      "description": "Trace pedal steel beyond country into sacred steel, jazz-minded instrumentals, roots music, and rock.",
+      "genres": [
+        {
+          "name": "Country",
+          "about": "Pedal steel is one of country's defining colors. Its foot pedals, knee levers, volume control, and sliding bar allow notes to bend independently, creating the vocal-like swells and moving harmonies heard behind countless country singers."
+        },
+        {
+          "name": "Sacred Steel / Funk",
+          "about": "In the sacred-steel tradition, steel guitar becomes an expressive lead instrument rooted in church worship. Players such as Robert Randolph push that language into funk and rock, using distortion, rapid single-note runs, and rhythmic attack."
+        },
+        {
+          "name": "Instrumental / Steel Guitar",
+          "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble."
+        }
+      ]
+    },
+    {
+      "id": "cello",
+      "label": "Cello",
+      "description": "Explore cello across classical repertoire, rock, metal, and alternative arrangements.",
+      "genres": [
+        {
+          "name": "Classical",
+          "about": "The cello is foundational to Western chamber and orchestral music, but its solo repertoire shows the instrument's unusually complete range: bass foundation, tenor lyricism, chords, counterpoint, and singing upper-register melody."
+        },
+        {
+          "name": "Cello Metal",
+          "about": "Cello metal uses amplified cellos for riffs, power-chord textures, percussion-like attacks, and lead lines normally assigned to electric guitars. The instrument's low register gives heavy music weight without abandoning acoustic resonance."
+        },
+        {
+          "name": "Alternative / Cello Rock",
+          "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre."
+        }
+      ]
+    },
+    {
+      "id": "sitar",
+      "label": "Sitar",
+      "description": "Follow sitar through North Indian classical music, psychedelic rock, and contemporary global fusion.",
+      "genres": [
+        {
+          "name": "Hindustani Classical",
+          "about": "In Hindustani classical music the sitar is a major plucked lead instrument for raga performance. Movable frets, sympathetic strings, meend string bends, and long-form improvisation allow the player to develop both melodic detail and resonance over time."
+        },
+        {
+          "name": "Rock / Psychedelia",
+          "about": "Rock musicians adopted sitar in the 1960s for more than exotic color at its best: its drones, bends, and sympathetic resonance changed how Western arrangements handled melody, sustain, and modal harmony."
+        },
+        {
+          "name": "Contemporary Global / Fusion",
+          "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting."
+        }
+      ]
+    },
+    {
+      "id": "double-bass",
+      "label": "Double Bass",
+      "description": "Explore double bass as foundation, timekeeper, solo voice, and compositional center.",
+      "genres": [
+        {
+          "name": "Jazz",
+          "about": "In jazz the double bass usually connects harmony and rhythm, outlining chord movement while locking with the drummer. Great bassists also turn that supporting role into counterpoint, melodic solos, and a strong compositional voice."
+        },
+        {
+          "name": "Jazz / Vocal",
+          "about": "When a bassist also sings, the double bass can become part of the front line rather than hidden accompaniment. The player can shape groove, harmony, and vocal phrasing at the same time."
+        },
+        {
+          "name": "Bass Feature",
+          "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes."
+        }
+      ]
+    },
+    {
+      "id": "tabla",
+      "label": "Tabla",
+      "description": "Trace tabla through Indian classical music, Indo-jazz fusion, electronic music, and cross-cultural ensembles.",
+      "genres": [
+        {
+          "name": "Indian Classical",
+          "about": "Tabla is a central rhythmic voice in North Indian classical music. Its paired drums produce a wide vocabulary of pitched and unpitched strokes, allowing the player to articulate tala cycles with both mathematical precision and improvisational conversation."
+        },
+        {
+          "name": "Indo-Jazz Fusion",
+          "about": "In Indo-jazz fusion, tabla does more than add an Indian surface texture. Players adapt tala, rhythmic subdivision, and call-and-response improvisation to interact with jazz harmony, electric instruments, and extended ensemble forms."
+        },
+        {
+          "name": "Electronic / Asian Underground",
+          "about": "Electronic artists have used tabla both acoustically and as sampled rhythmic material. The instrument's detailed attacks and cyclical phrasing can sit inside programmed beats while retaining a distinctly performed sense of time."
+        },
+        {
+          "name": "Rock / Psychedelia",
+          "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit."
+        }
+      ]
+    }
+  ],
+  "recordings": [
+    {
+      "id": "soundtrail-recording-0001",
+      "artist": "Viljo Vesterinen, Dallapé-orkesteri",
+      "track": "Säkkijärven polkka",
+      "region": "Finland",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Finnish Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Classic Finnish accordion polka; essential reference for rhythmic drive and bellows articulation."
+      },
+      "spotify": "https://open.spotify.com/track/6TDUEBMlU0oQR3fO5AblsD"
+    },
+    {
+      "id": "soundtrail-recording-0002",
+      "artist": "Jo Privat",
+      "track": "(Weekend Au) Balajo",
+      "region": "France",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "French Musette"
+      },
+      "instrumentNotes": {
+        "accordion": "Paris bal-musette sound: waltz phrasing, ornamentation, and the characteristic musette shimmer."
+      },
+      "spotify": "https://open.spotify.com/track/4KRhQpc0LLm9XOl1awhjOy"
+    },
+    {
+      "id": "soundtrail-recording-0003",
+      "artist": "Jimmy Shand",
+      "track": "Line Redpath Waltz",
+      "region": "Scotland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Scottish Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Classic Scottish dance-band accordion approach; crisp phrasing and dance rhythm."
+      },
+      "spotify": "https://open.spotify.com/track/1aUf0Q19OUzF100Y3mVWnU"
+    },
+    {
+      "id": "soundtrail-recording-0004",
+      "artist": "Iry LeJeune",
+      "track": "Teche Special",
+      "region": "Louisiana, USA",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Cajun"
+      },
+      "instrumentNotes": {
+        "accordion": "Old-school Cajun accordion; a strong example of the punchy diatonic style and vocal-like phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/2JOWu3b5KoWXausmdmfBhY"
+    },
+    {
+      "id": "soundtrail-recording-0005",
+      "artist": "Clifton Chenier",
+      "track": "I'm Coming Home (To See My Mother)",
+      "region": "Louisiana, USA",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Zydeco"
+      },
+      "instrumentNotes": {
+        "accordion": "Creole/zydeco accordion tradition; blues and R&B-inflected groove."
+      },
+      "spotify": "https://open.spotify.com/track/2j9vQAnEpJyIlSHIZcleaR"
+    },
+    {
+      "id": "soundtrail-recording-0006",
+      "artist": "Flaco Jimenez",
+      "track": "Ay Te Dejo en San Antonio",
+      "region": "Texas / Northern Mexico",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Conjunto / Tex-Mex"
+      },
+      "instrumentNotes": {
+        "accordion": "Signature conjunto accordion language: rhythmic, melodic, and highly conversational."
+      },
+      "spotify": "https://open.spotify.com/track/7lFFgni4XpRY2bGV7qeH2q"
+    },
+    {
+      "id": "soundtrail-recording-0007",
+      "artist": "Astor Piazzolla",
+      "track": "Libertango",
+      "region": "Argentina",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Tango"
+      },
+      "instrumentNotes": {
+        "accordion": "Bandoneón rather than piano accordion, but indispensable for hearing the expressive free-reed family outside folk dance music."
+      },
+      "spotify": "https://open.spotify.com/track/1IIydYQ6LTzZpgLXYpNlNy"
+    },
+    {
+      "id": "soundtrail-recording-0008",
+      "artist": "Luiz Gonzaga",
+      "track": "Asa Branca",
+      "region": "Northeastern Brazil",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Forró"
+      },
+      "instrumentNotes": {
+        "accordion": "Foundational Brazilian accordion repertoire; syncopated baião rhythm and singing melodic lines."
+      },
+      "spotify": "https://open.spotify.com/track/0jAbBolC53vVe33ouZ7D4a"
+    },
+    {
+      "id": "soundtrail-recording-0009",
+      "artist": "Carlos Vives",
+      "track": "La Gota Fria",
+      "region": "Colombia",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion is central to vallenato; lively melodic fills and rhythmic interplay with percussion."
+      },
+      "spotify": "https://open.spotify.com/track/4tXR895KKljrC2VptgyEhJ"
+    },
+    {
+      "id": "soundtrail-recording-0010",
+      "artist": "Slavko Avsenik, Original Oberkrainer Quintett",
+      "track": "Die Dorfschöne",
+      "region": "Slovenia / Alpine Central Europe",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Slovenian Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "A defining Alpine/Slovenian polka sound, with accordion at the center of the ensemble texture."
+      },
+      "spotify": "https://open.spotify.com/track/4HXICHbZCUQ2Fc0UcMyqT1"
+    },
+    {
+      "id": "soundtrail-recording-0011",
+      "artist": "Richard Galliano",
+      "track": "Summertime (Arr. for Accordion by Richard Galliano)",
+      "region": "France / international jazz",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Shows how naturally accordion handles jazz harmony, rubato, phrasing, and standards."
+      },
+      "spotify": "https://open.spotify.com/track/7iEcxQt0rLH641P0XgDrwB"
+    },
+    {
+      "id": "soundtrail-recording-0012",
+      "artist": "Various",
+      "track": "Classic Russian Accordion Bayan",
+      "region": "Russia / Eastern Europe",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Russian Bayan"
+      },
+      "instrumentNotes": {
+        "accordion": "A Spotify playlist rather than one track; useful survey of the chromatic-button bayan tradition."
+      },
+      "spotify": "https://open.spotify.com/playlist/1usXM33ydJecaeUf92xLfF"
+    },
+    {
+      "id": "soundtrail-recording-0013",
+      "artist": "Various",
+      "track": "Folk Accordéon Québécois",
+      "region": "Québec, Canada",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Québécois Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "A Spotify survey playlist for French-Canadian dance tunes and accordion accompaniment styles."
+      },
+      "spotify": "https://open.spotify.com/playlist/7yt8TMd3STs0t6tw0xaDAe"
+    },
+    {
+      "id": "soundtrail-recording-0014",
+      "artist": "Various",
+      "track": "Balkan Accordion Vibes",
+      "region": "Balkans",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Balkan Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey playlist highlighting fast ornamentation, odd meters, and virtuosic Balkan accordion playing."
+      },
+      "spotify": "https://open.spotify.com/playlist/69PDDaYJbwGcuz60zfbd0j"
+    },
+    {
+      "id": "soundtrail-recording-0015",
+      "artist": "Various",
+      "track": "Celtic traditional - TP Mix",
+      "region": "Ireland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Irish / Celtic"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey playlist for Irish/Celtic traditional playing; useful for hearing button-accordion repertoire alongside the broader tradition."
+      },
+      "spotify": "https://open.spotify.com/playlist/3n6A8SatEZR06cutRkXHTx"
+    },
+    {
+      "id": "soundtrail-recording-0016",
+      "artist": "Various",
+      "track": "Folk Italiano Tarantella",
+      "region": "Italy",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Italian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey playlist for Italian accordion dance traditions, especially tarantella repertoire."
+      },
+      "spotify": "https://open.spotify.com/playlist/6j4iXuhwFMoFxvNVnpHG96"
+    },
+    {
+      "id": "soundtrail-recording-0017",
+      "artist": "Los Tigres Del Norte",
+      "track": "Señor Locutor",
+      "region": "Northern Mexico / US-Mexico border",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Norteño"
+      },
+      "instrumentNotes": {
+        "accordion": "Norteño accordion in a modern regional-Mexican ensemble context."
+      },
+      "spotify": "https://open.spotify.com/track/6tTdUPxER1wdW1lAVcuBc4"
+    },
+    {
+      "id": "soundtrail-recording-0018",
+      "artist": "Various",
+      "track": "Klezmer Accordion Vibes",
+      "region": "Eastern European Jewish / diaspora",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Klezmer"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey playlist centered on klezmer accordion phrasing, dance rhythm, and ornamentation."
+      },
+      "spotify": "https://open.spotify.com/playlist/0NZrutKjEJytoYzHumvkdX"
+    },
+    {
+      "id": "soundtrail-recording-0019",
+      "artist": "Various / They Might Be Giants focus",
+      "track": "Accordion Rock by They Might Be Giants",
+      "region": "USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Rock"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey playlist showing accordion used as a rock/alternative texture rather than strictly folk instrumentation."
+      },
+      "spotify": "https://open.spotify.com/playlist/5vqzoKiqF3Psl7VLJnUUA8"
+    },
+    {
+      "id": "soundtrail-recording-0020",
+      "artist": "Various / The Decemberists focus",
+      "track": "Accordion Rock The Decemberists",
+      "region": "USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Rock"
+      },
+      "instrumentNotes": {
+        "accordion": "Indie-rock context for accordion, useful for hearing how the instrument sits with guitars, drums, and narrative songwriting."
+      },
+      "spotify": "https://open.spotify.com/playlist/0eIX8U7y7hxTM5rFIl1cx3"
+    },
+    {
+      "id": "soundtrail-recording-0021",
+      "artist": "Various / Weird Al focus",
+      "track": "Accordion Tracks By Weird Al",
+      "region": "USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Pop"
+      },
+      "instrumentNotes": {
+        "accordion": "A deliberately nontraditional lane: accordion used in pop parody and rock arrangements."
+      },
+      "spotify": "https://open.spotify.com/playlist/5MCk2VALeDa9kgnEsymXy3"
+    },
+    {
+      "id": "soundtrail-recording-0022",
+      "artist": "Santiago Jimenez Jr.",
+      "track": "Flor de Dalia",
+      "region": "Texas, USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Conjunto / Tex-Mex"
+      },
+      "instrumentNotes": {
+        "accordion": "A second conjunto reference, closer to the stripped-down traditional accordion-and-rhythm approach."
+      },
+      "spotify": "https://open.spotify.com/track/5srLaW9U1vAyPhSPg2uTbA"
+    },
+    {
+      "id": "soundtrail-recording-0023",
+      "artist": "Dominguinhos, Sivuca, Oswaldinho",
+      "track": "Feira de Mangaio",
+      "region": "Northeastern Brazil",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Forró"
+      },
+      "instrumentNotes": {
+        "accordion": "Three major Brazilian accordion voices; a strong complement to Luiz Gonzaga."
+      },
+      "spotify": "https://open.spotify.com/track/0je3GcZNZfTbOwMvBFXhK2"
+    },
+    {
+      "id": "soundtrail-recording-0024",
+      "artist": "Diomedes Diaz, Rafael Santos",
+      "track": "Festival Vallenato",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "A more traditional vallenato reference alongside the Carlos Vives crossover example."
+      },
+      "spotify": "https://open.spotify.com/track/5kbdl2zK1lGUDcOydT8vCB"
+    },
+    {
+      "id": "soundtrail-recording-0025",
+      "artist": "Diomedes Diaz, Juancho Rois",
+      "track": "Amarte Mas No Pude",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "Classic singer-and-accordion vallenato partnership; useful for hearing accordion answer the vocal line."
+      },
+      "spotify": "https://open.spotify.com/track/5ETEk6G40TFStO62Pa7Khe"
+    },
+    {
+      "id": "soundtrail-recording-0026",
+      "artist": "Aníbal Troilo, Guillermo Destaillats",
+      "track": "Che bandoneon!",
+      "region": "Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Tango"
+      },
+      "instrumentNotes": {
+        "accordion": "Traditional tango bandoneón language, contrasting nicely with Piazzolla's tango nuevo."
+      },
+      "spotify": "https://open.spotify.com/track/6M6MQOrNMCHQ8gw7K41ZNd"
+    },
+    {
+      "id": "soundtrail-recording-0027",
+      "artist": "Yvette Horner",
+      "track": "Payotte",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "French Musette"
+      },
+      "instrumentNotes": {
+        "accordion": "A second classic French accordion voice, useful for comparing tone and phrasing with Jo Privat."
+      },
+      "spotify": "https://open.spotify.com/track/6TgAAZRwCSnFY4g3BD9iEz"
+    },
+    {
+      "id": "soundtrail-recording-0028",
+      "artist": "Yvette Horner",
+      "track": "Amoureusement",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "French Musette"
+      },
+      "instrumentNotes": {
+        "accordion": "Lyrical musette phrasing and a softer counterpoint to the dance-floor examples."
+      },
+      "spotify": "https://open.spotify.com/track/3FBglWSbnguTI9XyElM2M6"
+    },
+    {
+      "id": "soundtrail-recording-0029",
+      "artist": "Phil Cunningham",
+      "track": "Margaret Mackinnon of Digg",
+      "region": "Scotland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Scottish Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Modern Scottish accordion playing rooted in traditional dance music."
+      },
+      "spotify": "https://open.spotify.com/track/5cqxXZ3KZFT12CMkXsswaW"
+    },
+    {
+      "id": "soundtrail-recording-0030",
+      "artist": "Phil Cunningham",
+      "track": "Jacksons' No. 2 / Jean's Reel / The Moving Cloud",
+      "region": "Scotland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Scottish Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Reel set showing fast traditional articulation and tune-to-tune transitions."
+      },
+      "spotify": "https://open.spotify.com/track/2NwdLTrNg3CCQeBslivpeo"
+    },
+    {
+      "id": "soundtrail-recording-0031",
+      "artist": "Art Van Damme",
+      "track": "Gone With the Wind",
+      "region": "USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Classic jazz accordion: swing phrasing and sophisticated chord vocabulary."
+      },
+      "spotify": "https://open.spotify.com/track/1J4SRBESoLfcI0RrrPzMck"
+    },
+    {
+      "id": "soundtrail-recording-0032",
+      "artist": "Frank Marocco, Simone Zanchini",
+      "track": "Yardbird Suite",
+      "region": "USA / Italy",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Shows accordion handling bebop language rather than folk accompaniment."
+      },
+      "spotify": "https://open.spotify.com/track/4ShH8KRxlnx36hqN6ka2uq"
+    },
+    {
+      "id": "soundtrail-recording-0033",
+      "artist": "Steve Jordan",
+      "track": "Las Coronelas",
+      "region": "Texas, USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Conjunto / Tex-Mex"
+      },
+      "instrumentNotes": {
+        "accordion": "Steve Jordan pushes conjunto accordion far beyond conventional polka vocabulary."
+      },
+      "spotify": "https://open.spotify.com/track/3O8JCiPrUVAstP1SvRRPEV"
+    },
+    {
+      "id": "soundtrail-recording-0034",
+      "artist": "Alfredo Gutierrez",
+      "track": "La Muerte De Abel Antonio",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "Traditional Colombian accordion style with highly active melodic playing."
+      },
+      "spotify": "https://open.spotify.com/track/2IYyWECy8tUR8RIwbYt9Gq"
+    },
+    {
+      "id": "soundtrail-recording-0035",
+      "artist": "Osvaldo Pugliese",
+      "track": "Arrabal - En Vivo",
+      "region": "Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Tango"
+      },
+      "instrumentNotes": {
+        "accordion": "Orchestral tango context where bandoneón works as part of a dramatic ensemble texture."
+      },
+      "spotify": "https://open.spotify.com/track/3Q3Sb1cnzpGQSSTf5SuoUK"
+    },
+    {
+      "id": "soundtrail-recording-0036",
+      "artist": "Gus Viseur",
+      "track": "Musette Swing (French Accordion)",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "French Musette"
+      },
+      "instrumentNotes": {
+        "accordion": "Album-length look at the overlap between Paris musette and jazz/swing accordion."
+      },
+      "spotify": "https://open.spotify.com/album/7b6ySMzQqfHLEPg9i2jZjI"
+    },
+    {
+      "id": "soundtrail-recording-0037",
+      "artist": "Tony Murena",
+      "track": "Tony Murena",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "French Musette"
+      },
+      "instrumentNotes": {
+        "accordion": "Artist reference for one of the important musette-jazz accordion voices."
+      },
+      "spotify": "https://open.spotify.com/artist/2zIIkeafigOydfLADwC7Lu"
+    },
+    {
+      "id": "soundtrail-recording-0038",
+      "artist": "Various",
+      "track": "Cape Verde Funana Accordion Vibes",
+      "region": "Cape Verde",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Funaná"
+      },
+      "instrumentNotes": {
+        "accordion": "Funaná uses diatonic accordion in fast, propulsive dance music with a very different rhythmic feel."
+      },
+      "spotify": "https://open.spotify.com/playlist/0Gw25bxadl4aABYEWQMzes"
+    },
+    {
+      "id": "soundtrail-recording-0039",
+      "artist": "Kepa Junkera",
+      "track": "Fasio & Lurra-terra",
+      "region": "Basque Country",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Basque Trikitixa"
+      },
+      "instrumentNotes": {
+        "accordion": "Trikitixa is Basque diatonic button accordion; a strong example of accordion outside the familiar Central-European sound."
+      },
+      "spotify": "https://open.spotify.com/track/1un13LPRa5W8EjIU0JxXf1"
+    },
+    {
+      "id": "soundtrail-recording-0040",
+      "artist": "Various",
+      "track": "Acordeão Folk Português",
+      "region": "Portugal",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Portuguese Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey of Portuguese folk accordion traditions."
+      },
+      "spotify": "https://open.spotify.com/playlist/4OUbNww8sIzVEKrgrMp1X9"
+    },
+    {
+      "id": "soundtrail-recording-0041",
+      "artist": "Various",
+      "track": "Deutsches Akkordeon Polka",
+      "region": "Germany",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "German Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey of German accordion-centered polka repertoire."
+      },
+      "spotify": "https://open.spotify.com/playlist/3nmmaSqD65ecKhQK9gjDWC"
+    },
+    {
+      "id": "soundtrail-recording-0042",
+      "artist": "Various",
+      "track": "Austrian Accordion Folk",
+      "region": "Austria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Austrian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Alpine folk survey emphasizing accordion accompaniment and dance rhythm."
+      },
+      "spotify": "https://open.spotify.com/playlist/4qcC7C91mvYC48olq0WbAM"
+    },
+    {
+      "id": "soundtrail-recording-0043",
+      "artist": "Various",
+      "track": "Slovenska Polka Harmonika",
+      "region": "Slovenia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Slovenian Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "Broader Slovenian harmonika survey beyond the Avsenik example."
+      },
+      "spotify": "https://open.spotify.com/playlist/35meXVWEMf4RVeNYO2WuPH"
+    },
+    {
+      "id": "soundtrail-recording-0044",
+      "artist": "Various",
+      "track": "Русская музыка на баяне",
+      "region": "Russia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Russian Bayan"
+      },
+      "instrumentNotes": {
+        "accordion": "Russian-language survey of bayan repertoire and chromatic-button technique."
+      },
+      "spotify": "https://open.spotify.com/playlist/4rDipO14rakbfXeGrzukOq"
+    },
+    {
+      "id": "soundtrail-recording-0045",
+      "artist": "Various",
+      "track": "Ukrainian Folk Accordion",
+      "region": "Ukraine",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Ukrainian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Survey of Ukrainian folk repertoire on accordion."
+      },
+      "spotify": "https://open.spotify.com/playlist/2EnqpbdaPzjWq0m1A54Nm2"
+    },
+    {
+      "id": "soundtrail-recording-0046",
+      "artist": "Various",
+      "track": "Jazz Accordion Italiano",
+      "region": "Italy",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Italian jazz-accordion survey showing the instrument well outside tarantella territory."
+      },
+      "spotify": "https://open.spotify.com/playlist/6H7YTAa2mnQxw9u9uu7XEV"
+    },
+    {
+      "id": "soundtrail-recording-0047",
+      "artist": "Various",
+      "track": "Classical Accordion Bach",
+      "region": "European classical",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Classical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Useful survey of Baroque keyboard repertoire transferred to accordion."
+      },
+      "spotify": "https://open.spotify.com/playlist/0bvx5K8C4DSADnCs8w0lne"
+    },
+    {
+      "id": "soundtrail-recording-0048",
+      "artist": "Astor Piazzolla, James Crabb, Australian Chamber Orchestra",
+      "track": "Piazzolla: Music for Classical Accordion and Orchestra",
+      "region": "Argentina / classical",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Classical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Album demonstrating concert-hall accordion/bandoneón language with orchestra."
+      },
+      "spotify": "https://open.spotify.com/album/6uziQMX2sZf5w05AETFaVQ"
+    },
+    {
+      "id": "soundtrail-recording-0049",
+      "artist": "Richard Galliano",
+      "track": "Chopin: Valses, Op. 69 - No. 2",
+      "region": "France / classical",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Classical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "A piano waltz reimagined for accordion, particularly relevant if approaching from piano."
+      },
+      "spotify": "https://open.spotify.com/track/11uYdUH79oYxqyiMhlwRuE"
+    },
+    {
+      "id": "soundtrail-recording-0050",
+      "artist": "Various",
+      "track": "Accordion Jazz: The Best",
+      "region": "International",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Broad jazz-accordion listening survey for finding additional players and approaches."
+      },
+      "spotify": "https://open.spotify.com/playlist/7EuZqcfGND30xu6suNdPmu"
+    },
+    {
+      "id": "soundtrail-recording-0051",
+      "artist": "Aníbal Troilo, O.T. con Jorge Casal",
+      "track": "Che, bandoneon",
+      "region": "Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Tango"
+      },
+      "instrumentNotes": {
+        "accordion": "Another Troilo recording highlighting the bandoneón's vocal, dramatic character."
+      },
+      "spotify": "https://open.spotify.com/track/0W7GrpeeOk7uANdv3GpvLT"
+    },
+    {
+      "id": "soundtrail-recording-0052",
+      "artist": "Los Tigres Del Norte",
+      "track": "José Pérez León",
+      "region": "Northern Mexico",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Norteño"
+      },
+      "instrumentNotes": {
+        "accordion": "Second norteño example for hearing accordion inside story-driven regional Mexican song."
+      },
+      "spotify": "https://open.spotify.com/track/3xKToHlV3enPcQVpns4kUf"
+    },
+    {
+      "id": "soundtrail-recording-0053",
+      "artist": "Flaco Jimenez, Dwight Yoakam",
+      "track": "Carmelita",
+      "region": "Texas, USA",
+      "startHere": true,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Conjunto / Tex-Mex"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion crossing naturally into country/Americana while retaining conjunto vocabulary."
+      },
+      "spotify": "https://open.spotify.com/track/2qz7LTS6bc3R3QcdhslXzA"
+    },
+    {
+      "id": "soundtrail-recording-0054",
+      "artist": "The Mavericks, Flaco Jimenez",
+      "track": "All You Ever Do Is Bring Me Down",
+      "region": "USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Conjunto / Tex-Mex"
+      },
+      "instrumentNotes": {
+        "accordion": "A clean example of accordion functioning inside a rock/country band arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/5GtHqxpZs9ZL479uoXOGCG"
+    },
+    {
+      "id": "soundtrail-recording-0055",
+      "artist": "Dominguinhos, Gilberto Gil",
+      "track": "Abri a Porta",
+      "region": "Brazil",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Forró"
+      },
+      "instrumentNotes": {
+        "accordion": "Brazilian accordion paired with MPB songwriting, showing a softer crossover side of forró."
+      },
+      "spotify": "https://open.spotify.com/track/1I4sXkZgl0NaE3vLEgIk5Z"
+    },
+    {
+      "id": "soundtrail-recording-0056",
+      "artist": "Carlos Vives",
+      "track": "Fruta Fresca",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "Pop-oriented vallenato where accordion remains a defining rhythmic and melodic color."
+      },
+      "spotify": "https://open.spotify.com/track/1lcaG7worZLgdGuniOfGje"
+    },
+    {
+      "id": "soundtrail-recording-0057",
+      "artist": "Carlos Vives",
+      "track": "La Tierra del Olvido",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Vallenato"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion within a broader Colombian roots-pop arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/1TPZ028i7BWWS5xW4UN9ss"
+    },
+    {
+      "id": "soundtrail-recording-0058",
+      "artist": "Richard Galliano",
+      "track": "Satie: Gymnopédie n° 1",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Extremely different accordion role: spacious, restrained classical transcription."
+      },
+      "spotify": "https://open.spotify.com/track/7luaYiIIyUfYNhWHvybd8T"
+    },
+    {
+      "id": "soundtrail-recording-0059",
+      "artist": "Richard Galliano",
+      "track": "Shostakovich: Waltz No. 2",
+      "region": "France",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Accordion Jazz"
+      },
+      "instrumentNotes": {
+        "accordion": "Shows orchestral-style phrasing and register color on accordion."
+      },
+      "spotify": "https://open.spotify.com/track/1scMU67ywT0Z6HC007hqhh"
+    },
+    {
+      "id": "soundtrail-recording-0060",
+      "artist": "Clifton Chenier",
+      "track": "I Am Coming Home",
+      "region": "Louisiana, USA",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Zydeco"
+      },
+      "instrumentNotes": {
+        "accordion": "Second Chenier reference for blues-based Creole accordion phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/1KhxHIX72v2OP7jKKEjxPz"
+    },
+    {
+      "artist": "Benny Goodman",
+      "track": "Sing, Sing, Sing (With a Swing)",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Big Band / Swing"
+      },
+      "instrumentNotes": {
+        "clarinet": "Goodman's clarinet rides above the large ensemble as a lead improvising voice, demonstrating how the instrument could command a swing-era big band."
+      },
+      "spotify": "https://open.spotify.com/track/2NCukCOjUdcJqWfnI6XtA7",
+      "id": "soundtrail-recording-0061"
+    },
+    {
+      "artist": "Artie Shaw",
+      "track": "Begin the Beguine",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Big Band / Swing"
+      },
+      "instrumentNotes": {
+        "clarinet": "Shaw's clarinet is the defining lead color of the arrangement, combining smooth legato phrasing with the projection needed to sit in front of a full dance orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/3yhn5aztNsnxBRw0oh9YkU",
+      "id": "soundtrail-recording-0062"
+    },
+    {
+      "artist": "Anat Cohen",
+      "track": "After the Rain",
+      "region": "United States / Israel",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Modern Jazz"
+      },
+      "instrumentNotes": {
+        "clarinet": "Cohen shows the clarinet as a modern jazz voice with broad range, flexible tone, and improvisational weight rather than a nostalgia instrument."
+      },
+      "spotify": "https://open.spotify.com/track/1Q0vOXhbWFzikiL4q7hdgL",
+      "id": "soundtrail-recording-0063"
+    },
+    {
+      "artist": "Gene Watson",
+      "track": "Farewell Party",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Country"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Lloyd Green's prominent steel part is a model of country pedal steel: long vocal-like bends, answering phrases, and sustained harmony around the singer."
+      },
+      "spotify": "https://open.spotify.com/track/3eJM8mzNURA95vX9FwQ3cc",
+      "id": "soundtrail-recording-0064"
+    },
+    {
+      "artist": "Robert Randolph & The Family Band",
+      "track": "The March",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Sacred Steel / Funk"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Randolph turns the steel into a front-line electric instrument, using church-derived sacred-steel vocabulary with funk attack, sustain, and high-energy improvisation."
+      },
+      "spotify": "https://open.spotify.com/track/1sP1QLHSLMWzx6PWngRJWT",
+      "id": "soundtrail-recording-0065"
+    },
+    {
+      "artist": "Buddy Emmons",
+      "track": "Top Heavy",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Instrumental / Steel Guitar"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Emmons treats steel as the featured instrumental voice, foregrounding precise bar control, pedal movement, sustain, and melodic articulation."
+      },
+      "spotify": "https://open.spotify.com/track/44BwSNzVUAKmAOhcfK0SUY",
+      "id": "soundtrail-recording-0066"
+    },
+    {
+      "artist": "Johann Sebastian Bach / Yo-Yo Ma",
+      "track": "Unaccompanied Cello Suite No. 1 in G Major, BWV 1007: Prélude",
+      "region": "Western classical",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Classical"
+      },
+      "instrumentNotes": {
+        "cello": "A standard reference for how a single cello can imply harmony, bass motion, and flowing melody without accompaniment."
+      },
+      "spotify": "https://open.spotify.com/track/3MJ6DETW8qNLDR4Gs77Z5t",
+      "id": "soundtrail-recording-0067"
+    },
+    {
+      "artist": "Apocalyptica",
+      "track": "Enter Sandman",
+      "region": "Finland",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Cello Metal"
+      },
+      "instrumentNotes": {
+        "cello": "Multiple cellos reproduce the weight and articulation of a metal band, showing how bow attack, low register, and amplification can replace distorted guitars."
+      },
+      "spotify": "https://open.spotify.com/track/1BAuJnKMYTXoZQNI0gtTKl",
+      "id": "soundtrail-recording-0068"
+    },
+    {
+      "artist": "Rasputina",
+      "track": "Transylvanian Concubine",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Alternative / Cello Rock"
+      },
+      "instrumentNotes": {
+        "cello": "Rasputina builds the band identity around cello, using repeated bowed figures and dark string textures as the core rock arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/6TxgLS1Y1s5v2a34QRnLeS",
+      "id": "soundtrail-recording-0069"
+    },
+    {
+      "artist": "Ravi Shankar",
+      "track": "Raga Jog",
+      "region": "India",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Hindustani Classical"
+      },
+      "instrumentNotes": {
+        "sitar": "A long-form raga performance makes the sitar's core vocabulary easy to hear: ornamented melodic development, sustained resonance, and gradually intensifying improvisation."
+      },
+      "spotify": "https://open.spotify.com/track/36QOw2w9UPCG41rjP43lO5",
+      "id": "soundtrail-recording-0070"
+    },
+    {
+      "artist": "The Beatles",
+      "track": "Within You Without You - Remix",
+      "region": "United Kingdom / India",
+      "startHere": true,
+      "instruments": [
+        "sitar",
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "sitar": "Rock / Psychedelia",
+        "tabla": "Rock / Psychedelia"
+      },
+      "instrumentNotes": {
+        "sitar": "The sitar is structurally woven into the composition rather than used as a brief effect, carrying melodic dialogue inside a Western rock-album context.",
+        "tabla": "Tabla supplies cyclical rhythmic motion beneath the vocal and instrumental sections, giving the track a rhythmic grammar unlike a conventional rock drum part."
+      },
+      "spotify": "https://open.spotify.com/track/2UGZC7jvYr11WFSd6xvbk9",
+      "id": "soundtrail-recording-0071"
+    },
+    {
+      "artist": "Anoushka Shankar, Alam Khan, Sarathy Korwar",
+      "track": "We Burn so Brightly",
+      "region": "India / United Kingdom",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Contemporary Global / Fusion"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar places sitar inside a contemporary ensemble with sarod and modern percussion, preserving raga-derived articulation while the production moves beyond a traditional recital format."
+      },
+      "spotify": "https://open.spotify.com/track/18BOCDDdJ12B5sPAefLUBw",
+      "id": "soundtrail-recording-0072"
+    },
+    {
+      "artist": "Charles Mingus",
+      "track": "Haitian Fight Song",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Jazz"
+      },
+      "instrumentNotes": {
+        "double-bass": "Mingus makes the bass both foundation and protagonist, using a forceful recurring figure to launch and organize the ensemble."
+      },
+      "spotify": "https://open.spotify.com/track/54nig7LiLpGVUPyp9tM8ON",
+      "id": "soundtrail-recording-0073"
+    },
+    {
+      "artist": "Esperanza Spalding",
+      "track": "I Know You Know",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Jazz / Vocal"
+      },
+      "instrumentNotes": {
+        "double-bass": "Spalding sings while playing a highly active upright-bass part, making rhythm, harmony, and vocal phrasing part of one integrated performance."
+      },
+      "spotify": "https://open.spotify.com/track/3afeZ81GDy59tATovKyH6Z",
+      "id": "soundtrail-recording-0074"
+    },
+    {
+      "artist": "Paul Chambers",
+      "track": "Dear Old Stockholm - Rudy Van Gelder Edition / Remastered 2007",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Bass Feature"
+      },
+      "instrumentNotes": {
+        "double-bass": "A bass-led small-group recording that puts Chambers' tone, time, melodic invention, and upper-register playing in the foreground."
+      },
+      "spotify": "https://open.spotify.com/track/4C64gYHQq6JKrKmw70QkLq",
+      "id": "soundtrail-recording-0075"
+    },
+    {
+      "artist": "Zakir Hussain",
+      "track": "Dadra Taal - Ustad Zakir Hussain",
+      "region": "India",
+      "startHere": true,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Indian Classical"
+      },
+      "instrumentNotes": {
+        "tabla": "A tabla-centered performance that lets the listener focus on stroke vocabulary, tonal control, phrase development, and the internal architecture of a tala cycle."
+      },
+      "spotify": "https://open.spotify.com/track/7tdgIJJA4vHSrGJkH0jVOB",
+      "id": "soundtrail-recording-0076"
+    },
+    {
+      "artist": "Shakti",
+      "track": "Joy",
+      "region": "India / United States",
+      "startHere": true,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Indo-Jazz Fusion"
+      },
+      "instrumentNotes": {
+        "tabla": "Zakir Hussain's tabla participates as an equal improvising voice in Shakti's Indo-jazz fusion, negotiating complex subdivisions with guitar, violin, and South Indian percussion."
+      },
+      "spotify": "https://open.spotify.com/intl-de/track/7kiF9dQi1duS4W2V9uPzTb",
+      "id": "soundtrail-recording-0077"
+    },
+    {
+      "artist": "Talvin Singh",
+      "track": "Disser/Point.Mento.B",
+      "region": "United Kingdom / India",
+      "startHere": true,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Electronic / Asian Underground"
+      },
+      "instrumentNotes": {
+        "tabla": "Singh's work shows how tabla technique and South Asian rhythmic thinking can be folded into electronic production and club-oriented textures."
+      },
+      "spotify": "https://open.spotify.com/track/6iLYFdEzXr5XrQoKz4ZYzf",
+      "id": "soundtrail-recording-0078"
+    }
+  ]
+}

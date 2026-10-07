@@ -188,6 +188,9 @@ h1,h2,h3 { font-family:Georgia,serif; color:#172a24; }
 .soundtrail-instrument-dot{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#fffaf0;font-size:18px;overflow:hidden}.soundtrail-instrument-dot img{width:31px;height:31px;object-fit:contain}
 .instrument-feature-glyph{width:118px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:#e7dbc5;color:var(--pine);font-size:54px;box-shadow:0 12px 22px rgba(39,48,42,.12)}
 .soundtrail-empty{padding:28px;max-width:760px}.soundtrail-empty h3{font-size:28px;margin:0 0 8px}.soundtrail-empty p{margin:0;color:var(--muted);line-height:1.55}
+.soundtrail-toolbar{display:flex;justify-content:flex-end;margin:-6px 0 16px}.soundtrail-genre-filter{display:grid;gap:6px;min-width:min(320px,100%);font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}.soundtrail-genre-filter select{border:1px solid rgba(36,52,47,.16);background:#fffaf0;border-radius:999px;padding:11px 14px;color:var(--ink);font:inherit;font-size:14px;text-transform:none;letter-spacing:0}
+.soundtrail-about{padding:24px 28px;margin-bottom:20px;max-width:920px}.soundtrail-about h3{margin:0 0 8px;font-size:28px}.soundtrail-about p{margin:0;line-height:1.58;color:#4f554d}.soundtrail-about small{display:block;margin-top:10px;color:var(--muted)}
+.soundtrail-card .soundtrail-track-note{display:block;margin-top:9px;font-size:12px;line-height:1.42;color:#5d625a}.soundtrail-card .round-arrow:disabled{opacity:.4;cursor:not-allowed}
 
 @media (max-width:1180px){
   .module-ribbon{grid-template-columns:repeat(3,1fr)}
@@ -199,7 +202,7 @@ h1,h2,h3 { font-family:Georgia,serif; color:#172a24; }
   .album-list-head{display:none}.album-list-row{grid-template-columns:1fr auto;gap:5px 12px;padding:14px}.album-list-row strong{grid-column:1/-1}.album-list-row span:nth-of-type(n+3){display:none}
   .album-detail-hero{padding:24px 16px 34px}.album-detail-hero-grid{grid-template-columns:1fr}.album-detail-art{max-width:360px}.album-detail-copy h1{font-size:46px}
   .album-detail-body{padding:20px 14px 36px}.album-notes{grid-template-columns:1fr;padding:20px}.track-table-wrap{padding:16px}.album-track-head,.album-track-row{min-width:1000px}
-  .instrument-feature-icon{width:92px;max-width:30vw}.instrument-feature-glyph{width:86px;font-size:38px}.instrument-heading{align-items:end}.soundtrail-instrument-nav{margin-inline:-2px}.version-flag{top:8px;right:10px;font-size:10px;padding:6px 9px}
+  .instrument-feature-icon{width:92px;max-width:30vw}.instrument-feature-glyph{width:86px;font-size:38px}.instrument-heading{align-items:end}.soundtrail-instrument-nav{margin-inline:-2px}.version-flag{top:8px;right:10px;font-size:10px;padding:6px 9px}.soundtrail-toolbar{justify-content:stretch}.soundtrail-genre-filter{width:100%}.soundtrail-about{padding:20px}.soundtrail-card .soundtrail-track-note{display:none}
   .home-playlist-empty{display:grid}.home-playlist-empty a{margin-left:0}.playlist-picker-new{display:grid}.playlist-picker-new .primary-action{width:100%}
   .listening-workspace{padding:22px 14px 36px}.spotify-log-panel,.local-open-panel{padding:20px}.spotify-log-toolbar{align-items:flex-start;flex-direction:column}.spotify-history-row{grid-template-columns:50px 1fr;gap:10px}.spotify-history-art{width:50px;height:50px}.spotify-history-row time{grid-column:2}.spotify-history-row .secondary-action{grid-column:2;justify-self:start}
 }

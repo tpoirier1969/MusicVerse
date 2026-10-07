@@ -7,6 +7,7 @@ import {
   getAlbumOriginalArtists,
   getAlbumSearchMatches,
   getFacetOptions,
+  getCoverAlbumRatio,
   isCoverAlbumEligible,
   mergeCoverAlbums,
 } from '../src/cover-catalog.js';
@@ -50,25 +51,24 @@ test('filters by cover artist and source/original artist', () => {
   assert.deepEqual(filterCoverAlbums(merged, { originalArtist: 'Nirvana' }).map((x) => x.id), ['a1']);
 });
 
-test('Cover Albums excludes mixed releases and albums with known original tracks', () => {
-  const explicitlyMixed = { id: 'mixed-1', artist: 'Example', album: 'Mixed Set', allCovers: false };
-  const detailedMixed = {
-    id: 'mixed-2',
-    artist: 'Example',
-    album: 'Mostly Covers',
-    detail: { tracks: [{ title: 'Original Song', isCover: false }] },
-  };
-  const allCovers = {
-    id: 'covers-1',
-    artist: 'Example',
-    album: 'All Covers',
-    detail: { tracks: [{ title: 'Cover Song', isCover: true }] },
+test('Cover Albums uses the 90 percent rule with a cover-album intent override', () => {
+  const ninetyPercent = { id: 'a', coverTrackCount: 9, totalTrackCount: 10 };
+  const belowThreshold = { id: 'b', coverTrackCount: 8, totalTrackCount: 10, coverAlbumIntent: false };
+  const marketedCoverAlbum = { id: 'c', coverTrackCount: 8, totalTrackCount: 10, coverAlbumIntent: true };
+  const detailedNinetyPercent = {
+    id: 'd',
+    detail: { tracks: [
+      ...Array.from({ length: 9 }, (_, i) => ({ title: `Cover ${i}`, isCover: true })),
+      { title: 'Original', isCover: false },
+    ] },
   };
 
-  assert.equal(isCoverAlbumEligible(explicitlyMixed), false);
-  assert.equal(isCoverAlbumEligible(detailedMixed), false);
-  assert.equal(isCoverAlbumEligible(allCovers), true);
-  assert.deepEqual(filterCoverAlbums([explicitlyMixed, detailedMixed, allCovers]).map((x) => x.id), ['covers-1']);
+  assert.equal(getCoverAlbumRatio(ninetyPercent), 0.9);
+  assert.equal(isCoverAlbumEligible(ninetyPercent), true);
+  assert.equal(isCoverAlbumEligible(belowThreshold), false);
+  assert.equal(isCoverAlbumEligible(marketedCoverAlbum), true);
+  assert.equal(isCoverAlbumEligible(detailedNinetyPercent), true);
+  assert.deepEqual(filterCoverAlbums([ninetyPercent, belowThreshold, marketedCoverAlbum, detailedNinetyPercent]).map((x) => x.id), ['a', 'c', 'd']);
 });
 
 test('search spans tracks, albums, both artist roles, genres, and musician names', () => {

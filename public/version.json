@@ -1,11 +1,12 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added an app-wide visible version flag that reads from the single canonical version.json source.",
-    "Expanded SoundTrail with Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla alongside Accordion.",
-    "Cover Albums now excludes mixed releases whenever an album is explicitly flagged mixed or verified track data contains original material.",
-    "Audited and excluded eleven known mixed releases without deleting their underlying catalog research.",
-    "Added standout individual performances from mixed releases to Crazy Covers, including Phish, Les Claypool, and Gov't Mule."
+    "Cover Albums now uses a 90 percent rule: releases with at least 90 percent covers qualify automatically, and albums explicitly presented as cover albums may qualify below that threshold.",
+    "Restored cover-focused albums such as Cat Power's The Covers Record while keeping mixed full-concert releases such as Phish Halloween shows out of Cover Albums.",
+    "Rebuilt SoundTrail around one connected recording catalog so a recording can belong to more than one instrument without duplication.",
+    "Added per-instrument genre filters and genre-specific About sections describing the instrument's role and importance in each represented style.",
+    "Migrated the existing 60 accordion recordings and added starter recordings for Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla.",
+    "Added support for localized Spotify URLs when handing tracks off to the Spotify app."
   ]
 }

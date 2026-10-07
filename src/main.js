@@ -1,5 +1,5 @@
 import './styles.css';
-import { loadAppVersion, loadMusicData, SOUNDTRAIL_INSTRUMENTS } from './data.js';
+import { loadAppVersion, loadMusicData } from './data.js';
 import {
   filterCoverAlbums,
   formatDuration,
@@ -35,10 +35,11 @@ import {
 } from './spotify.js';
 
 const app = document.querySelector('#app');
-let data = { coverAlbums: [], crazyCovers: [], accordionMusic: [] };
+let data = { coverAlbums: [], crazyCovers: [], soundTrail: { instruments: [], recordings: [] } };
 let appVersion = '';
 let activeCoverTab = 'start';
 let activeSoundTrailInstrument = 'accordion';
+let activeSoundTrailGenre = '';
 let searchText = '';
 let coverAlbumSearchText = '';
 let coverAlbumViewMode = 'grid';
@@ -313,14 +314,6 @@ function coverAlbumsList(items) {
     return `<a class="album-list-row" href="${albumDetailHref(album.id)}"><span class="album-list-title"><span class="album-list-art">${artwork ? `<img src="${esc(artwork)}" alt="">` : '<span aria-hidden="true">♪</span>'}</span><span><strong>${esc(album.album)}</strong>${albumSearchHitSummary(album)}</span></span><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
   }).join('')}</div>`;
 }
-function accordionGrid() {
-  return `<div class="album-grid compact-grid">${data.accordionMusic.slice(0, 80).map((item, index)=>`<article class="album-card">
-    <div class="album-card-art" style="--album-bg:url('${index % 3 === 0 ? '/assets/van.svg' : '/assets/guitar.svg'}')"></div>
-    <div><span class="eyebrow">${esc(item.style)}</span><h3>${esc(item.track)}</h3><p>${esc(item.artist)}</p><small>${esc(item.region)}</small></div>
-    <button class="round-arrow" data-open-url="${esc(item.spotify)}" aria-label="Open on Spotify">→</button>
-  </article>`).join('')}</div>`;
-}
-
 function coververseBody() {
   if (activeCoverTab === 'albums') return `<section class="module-content"><div class="section-heading"><div><h2>Cover Albums</h2><p>Browse the catalog by artist, source material, and genre.</p></div></div>${coverAlbumBrowser()}</section>`;
   if (activeCoverTab === 'crazy') return `<section class="module-content"><div class="section-heading"><div><h2>Crazy Covers</h2><p>Interpretation first. Karaoke need not apply.</p></div><span>${data.crazyCovers.length} recordings</span></div>${crazyRows(data.crazyCovers.filter((track)=>!searchText || `${track.sourceArtist} ${track.song} ${track.coverArtist} ${track.style}`.toLowerCase().includes(searchText.toLowerCase())).slice(0,100))}</section>`;
@@ -389,33 +382,76 @@ function coververseView() {
   return shell(`<section class="module-hero cover-hero page-wave"><div><span class="eyebrow">COVERVERSE</span><h1>CoverVerse</h1><p>Fresh takes on familiar songs.</p>${heroSearch()}</div><div class="small-roadtrip"></div></section>${coverSubnav()}${coververseBody()}`);
 }
 
+function soundTrailInstruments() {
+  return Array.isArray(data.soundTrail?.instruments) ? data.soundTrail.instruments : [];
+}
+
+function soundTrailRecordings(instrumentId, genre = '') {
+  return (data.soundTrail?.recordings || []).filter((recording) => {
+    if (!(recording.instruments || []).includes(instrumentId)) return false;
+    if (genre && recording.genresByInstrument?.[instrumentId] !== genre) return false;
+    return true;
+  });
+}
+
 function soundTrailInstrumentNav() {
-  return `<div class="soundtrail-instrument-nav" role="list" aria-label="SoundTrail instruments">${SOUNDTRAIL_INSTRUMENTS.map((instrument) => `
+  return `<div class="soundtrail-instrument-nav" role="list" aria-label="SoundTrail instruments">${soundTrailInstruments().map((instrument) => `
     <button type="button" role="listitem" class="soundtrail-instrument-chip${instrument.id === activeSoundTrailInstrument ? ' is-active' : ''}" data-soundtrail-instrument="${esc(instrument.id)}">
       <span class="soundtrail-instrument-dot" aria-hidden="true">${instrument.id === 'accordion' ? '<img src="/assets/accordion.svg" alt="">' : '♪'}</span>
       <span>${esc(instrument.label)}</span>
     </button>`).join('')}</div>`;
 }
 
-function soundTrailInstrumentBody(instrument) {
-  if (instrument.dataKey === 'accordionMusic') return accordionGrid();
-  return `<div class="soundtrail-empty organic-panel">
-    <span class="eyebrow">CATALOG READY</span>
-    <h3>No ${esc(instrument.label)} recordings added yet.</h3>
-    <p>The instrument now has a permanent home in SoundTrail. Recordings will appear here as verified entries are added, rather than filling the section with placeholder music.</p>
-  </div>`;
+function soundTrailGenreFilter(instrument) {
+  const genres = instrument.genres || [];
+  return `<label class="soundtrail-genre-filter"><span>Genre</span><select data-soundtrail-genre>
+    <option value="">All genres</option>
+    ${genres.map((genre) => `<option value="${esc(genre.name)}"${genre.name === activeSoundTrailGenre ? ' selected' : ''}>${esc(genre.name)}</option>`).join('')}
+  </select></label>`;
+}
+
+function soundTrailAbout(instrument) {
+  if (!activeSoundTrailGenre) {
+    return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THE INSTRUMENT</span><h3>${esc(instrument.label)}</h3><p>${esc(instrument.description)}</p><small>Choose a genre above to see how the instrument functions in that musical setting.</small></div>`;
+  }
+  const genre = (instrument.genres || []).find((item) => item.name === activeSoundTrailGenre);
+  if (!genre) return '';
+  return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THIS GENRE</span><h3>${esc(instrument.label)} in ${esc(genre.name)}</h3><p>${esc(genre.about)}</p></div>`;
+}
+
+function soundTrailGrid(instrument) {
+  const recordings = soundTrailRecordings(instrument.id, activeSoundTrailGenre);
+  if (!recordings.length) {
+    return `<div class="soundtrail-empty organic-panel"><h3>No recordings match this genre yet.</h3><p>MusicVerse leaves the trail empty until a real, verified example is added.</p></div>`;
+  }
+  return `<div class="album-grid compact-grid soundtrail-grid">${recordings.map((recording, index) => {
+    const genre = recording.genresByInstrument?.[instrument.id] || 'Other';
+    const note = recording.instrumentNotes?.[instrument.id] || '';
+    return `<article class="album-card soundtrail-card">
+      <div class="album-card-art" style="--album-bg:url('${index % 3 === 0 ? '/assets/van.svg' : '/assets/guitar.svg'}')"></div>
+      <div><span class="eyebrow">${esc(genre)}</span><h3>${esc(recording.track)}</h3><p>${esc(recording.artist)}</p><small>${esc(recording.region || '')}</small>${note ? `<span class="soundtrail-track-note">${esc(note)}</span>` : ''}</div>
+      <button class="round-arrow" data-open-url="${esc(recording.spotify || '')}" aria-label="Open on Spotify"${recording.spotify ? '' : ' disabled'}>→</button>
+    </article>`;
+  }).join('')}</div>`;
 }
 
 function instrumentView() {
-  const instrument = SOUNDTRAIL_INSTRUMENTS.find((item) => item.id === activeSoundTrailInstrument) || SOUNDTRAIL_INSTRUMENTS[0];
+  const instruments = soundTrailInstruments();
+  const instrument = instruments.find((item) => item.id === activeSoundTrailInstrument) || instruments[0];
+  if (!instrument) {
+    return shell(`<section class="module-content"><div class="coming organic-panel"><h2>SoundTrail data could not be loaded.</h2></div></section>`);
+  }
   const featureVisual = instrument.id === 'accordion'
     ? '<img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true">'
     : `<div class="instrument-feature-glyph" aria-hidden="true">♪</div>`;
+  const count = soundTrailRecordings(instrument.id).length;
   return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">SOUNDTRAIL</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section>
     <section class="module-content instrument-content">
       ${soundTrailInstrumentNav()}
-      <div class="section-heading instrument-heading"><div><span class="eyebrow">INSTRUMENT TRAIL</span><h2>${esc(instrument.label)}</h2><p>${esc(instrument.description)}</p></div>${featureVisual}</div>
-      ${soundTrailInstrumentBody(instrument)}
+      <div class="section-heading instrument-heading"><div><span class="eyebrow">INSTRUMENT TRAIL</span><h2>${esc(instrument.label)}</h2><p>${esc(instrument.description)}</p><small>${count} verified ${count === 1 ? 'recording' : 'recordings'}</small></div>${featureVisual}</div>
+      <div class="soundtrail-toolbar">${soundTrailGenreFilter(instrument)}</div>
+      ${soundTrailAbout(instrument)}
+      ${soundTrailGrid(instrument)}
     </section>`);
 }
 
@@ -608,6 +644,7 @@ document.addEventListener('click', async (event) => {
   const soundTrailInstrument = event.target.closest('[data-soundtrail-instrument]');
   if (soundTrailInstrument) {
     activeSoundTrailInstrument = soundTrailInstrument.dataset.soundtrailInstrument;
+    activeSoundTrailGenre = '';
     if (route() !== 'instruments') location.hash = '#/instruments'; else render();
     return;
   }
@@ -699,6 +736,13 @@ document.addEventListener('click', async (event) => {
 });
 
 document.addEventListener('change', (event) => {
+  const soundTrailGenre = event.target.closest('[data-soundtrail-genre]');
+  if (soundTrailGenre) {
+    activeSoundTrailGenre = soundTrailGenre.value;
+    render();
+    return;
+  }
+
   const filter = event.target.closest('[data-album-filter]');
   if (!filter) return;
   coverAlbumFilters = { ...coverAlbumFilters, [filter.dataset.albumFilter]: filter.value };
