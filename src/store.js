@@ -80,19 +80,15 @@ export function getSpotifyListeningHistory() {
   return read(SPOTIFY_HISTORY_KEY, []);
 }
 
-export function mergeSpotifyListeningHistory(items) {
-  const existing = getSpotifyListeningHistory();
-  const byId = new Map(existing.map((item) => [item.id, item]));
-
-  for (const item of Array.isArray(items) ? items : []) {
+export function normalizeSpotifyListeningItems(items) {
+  return (Array.isArray(items) ? items : []).flatMap((item) => {
     const track = item?.track;
     const playedAt = String(item?.played_at || '').trim();
     const trackId = String(track?.id || '').trim();
-    if (!playedAt || !trackId) continue;
+    if (!playedAt || !trackId) return [];
 
-    const id = `spotify-play:${playedAt}:${trackId}`;
-    byId.set(id, {
-      id,
+    return [{
+      id: `spotify-play:${playedAt}:${trackId}`,
       source: 'spotify',
       playedAt,
       trackId,
@@ -102,8 +98,14 @@ export function mergeSpotifyListeningHistory(items) {
       spotifyUrl: String(track?.external_urls?.spotify || ''),
       artwork: String(track?.album?.images?.[1]?.url || track?.album?.images?.[0]?.url || ''),
       contextUrl: String(item?.context?.external_urls?.spotify || ''),
-    });
-  }
+    }];
+  });
+}
+
+export function mergeSpotifyListeningHistory(items) {
+  const existing = getSpotifyListeningHistory();
+  const byId = new Map(existing.map((item) => [item.id, item]));
+  for (const item of normalizeSpotifyListeningItems(items)) byId.set(item.id, item);
 
   const next = [...byId.values()]
     .sort((a, b) => String(b.playedAt).localeCompare(String(a.playedAt)))
