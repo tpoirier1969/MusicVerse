@@ -164,7 +164,7 @@ function homePlaylistPreview() {
 
   return `<div class="playlist-strip">${playlists.map((playlist) => `<a href="#/playlists" class="playlist-teaser">
     <span class="play-badge">▶</span><strong>${esc(playlist.name)}</strong><small>${playlist.tracks.length} ${playlist.tracks.length === 1 ? 'track' : 'tracks'}</small>
-  </a>`; }).join('')}</div>`;
+  </a>`).join('')}</div>`;
 }
 
 function homeView() {
@@ -296,7 +296,8 @@ function coverAlbumsGrid(items) {
     <div class="album-card-art${artwork ? ' has-art' : ''}" style="--album-bg:url('${esc(artwork || fallback)}')"></div>
     <div><span class="eyebrow">${esc(album.genre || 'Unknown genre')}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach || '')}</small>${albumSearchHitSummary(album)}</div>
     <span class="round-arrow" aria-hidden="true">→</span>
-  </a>`).join('')}</div>`;
+  </a>`;
+  }).join('')}</div>`;
 }
 
 function coverAlbumsList(items) {
