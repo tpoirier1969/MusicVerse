@@ -14,6 +14,8 @@ import {
   createPlaylist,
   getListeningLog,
   getPlaylists,
+  getSpotifyListeningHistory,
+  mergeSpotifyListeningHistory,
   isFavorite,
   markListened,
   removeTrackFromPlaylist,
@@ -22,9 +24,11 @@ import {
 import {
   beginSpotifyLogin,
   exportPlaylistToSpotify,
+  fetchRecentlyPlayed,
   finishSpotifyLoginFromUrl,
   getSpotifyToken,
   spotifyConfigured,
+  spotifyHasScope,
   spotifyResourceUri,
   spotifyTrackUri,
 } from './spotify.js';
@@ -38,11 +42,14 @@ let coverAlbumViewMode = 'grid';
 let coverAlbumFilters = { coverArtist: '', originalArtist: '', coverGenre: '', originalGenre: '' };
 let toastTimer = null;
 let pendingPlaylistTracks = [];
+let spotifyLogLoading = false;
+let spotifyLogAttempted = false;
+let spotifyLogError = '';
 
 const moduleMeta = {
   home: { label: 'Home', icon: '⌂' },
   coververse: { label: 'CoverVerse', img: '/assets/vinyl.svg' },
-  instruments: { label: 'InstrumentVerse', img: '/assets/accordion.svg' },
+  instruments: { label: 'SoundTrail', img: '/assets/accordion.svg' },
   playlists: { label: 'Playlists', img: '/assets/van.svg' },
   tabs: { label: 'Tabs & Chords', img: '/assets/guitar.svg' },
   log: { label: 'Listening Log', img: '/assets/mug.svg' },
@@ -134,10 +141,6 @@ function moduleWorld(slug, title, text, img, className = '') {
   </a>`;
 }
 
-function albumSpotifyUrl(album) {
-  return album.spotify || '';
-}
-
 function recentAlbumCard(album, index) {
   const label = album.album || album.title || 'Untitled';
   const artist = album.artist || 'Unknown artist';
@@ -174,14 +177,6 @@ function homeView() {
       </div>
     </section>
 
-    <section class="module-ribbon" aria-label="MusicVerse modules">
-      ${moduleWorld('coververse','CoverVerse','Crazy covers, full cover albums, and fresh takes on familiar songs.','/assets/vinyl.svg','world-rust')}
-      ${moduleWorld('instruments','InstrumentVerse','Explore instruments through styles, traditions, players, and recordings.','/assets/accordion.svg','world-gold')}
-      ${moduleWorld('playlists','Playlists','Build collections for moods, moments, and long roads.','/assets/van.svg','world-sage')}
-      ${moduleWorld('tabs','Tabs & Chords','Keep the tabs, chords, and references you actually use.','/assets/guitar.svg','world-gold')}
-      ${moduleWorld('log','Listening Log','Track what you hear and rediscover the good stuff later.','/assets/mug.svg','world-teal')}
-      ${moduleWorld('library','Library','Your saved songs, albums, playlists, links, and more.','/assets/library.svg','world-clay')}
-    </section>
 
     <section class="content-wave recent-section">
       <div class="section-heading"><div><span class="eyebrow">FRESH SOUNDS</span><h2>Recently Added</h2><p>Current discoveries from the catalog you’ve already built.</p></div><a href="#/coververse">See all →</a></div>
@@ -189,7 +184,7 @@ function homeView() {
     </section>
 
     <section class="content-wave playlists-preview">
-      <div class="section-heading"><div><span class="eyebrow">TAKE THE SCENIC ROUTE</span><h2>Curated Playlists</h2><p>Build here, then send the finished list to Spotify.</p></div><a class="spotify-pill" href="#/playlists">● Build playlists and send to Spotify →</a></div>
+      <div class="section-heading"><div><span class="eyebrow">TAKE THE SCENIC ROUTE</span><h2>Your Playlists</h2><p>Build here, then send the finished list to Spotify.</p></div><a class="spotify-pill" href="#/playlists">● Build playlists and send to Spotify →</a></div>
       ${homePlaylistPreview()}
     </section>
   `);
@@ -377,7 +372,7 @@ function coververseView() {
 }
 
 function instrumentView() {
-  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">INSTRUMENTVERSE</span><h1>InstrumentVerse</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
+  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">SOUNDTRAIL</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
 }
 
 function playlistTrackRow(track, playlistId) {
@@ -397,9 +392,73 @@ function tabsView() {
   return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">TABS & CHORDS</span><h1>Keep the useful versions.</h1><p>Favorite chord sheets, tabs, tunings, capo notes, and playing references will live here.</p></div><div class="small-roadtrip guitar-trip"></div></section><section class="coming organic-panel"><h2>First module expansion</h2><p>This is deliberately scaffolded, not fake-filled. The next data layer can store links to your preferred tab/chord pages, notes, tuning, capo, difficulty, instrument and song relationships.</p></section>`);
 }
 
+function spotifyListeningRows(items) {
+  return `<div class="spotify-history-list">${items.map((item) => `<article class="spotify-history-row">
+    <div class="spotify-history-art">${item.artwork ? `<img src="${esc(item.artwork)}" alt="">` : '<span aria-hidden="true">♪</span>'}</div>
+    <div class="spotify-history-main"><strong>${esc(item.title)}</strong><span>${esc(item.artists.join(', ') || 'Unknown artist')}</span><small>${esc(item.album || 'Unknown album')}</small></div>
+    <time datetime="${esc(item.playedAt)}">${esc(new Date(item.playedAt).toLocaleString())}</time>
+    <button class="secondary-action" data-open-url="${esc(item.spotifyUrl)}"${item.spotifyUrl ? '' : ' disabled'}>Open in Spotify</button>
+  </article>`).join('')}</div>`;
+}
+
+function musicVerseOpenRows() {
+  const log = Object.entries(getListeningLog()).sort((a,b)=>String(b[1]).localeCompare(String(a[1]))).slice(0,25);
+  if (!log.length) return '<p class="log-empty-note">No MusicVerse-open history yet.</p>';
+  return `<div class="log-list">${log.map(([id,at])=>`<div><span>${esc(id.replace('cover:','').replaceAll(':',' · '))}</span><small>${new Date(at).toLocaleString()}</small></div>`).join('')}</div>`;
+}
+
 function logView() {
-  const log = Object.entries(getListeningLog()).sort((a,b)=>String(b[1]).localeCompare(String(a[1]))).slice(0,50);
-  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LISTENING LOG</span><h1>Remember what landed.</h1><p>A quiet trail of the songs and versions you actually opened.</p></div><div class="small-roadtrip coffee-trip"></div></section><section class="coming organic-panel"><h2>Recent listening</h2>${log.length ? `<div class="log-list">${log.map(([id,at])=>`<div><span>${esc(id.replace('cover:','').replaceAll(':',' · '))}</span><small>${new Date(at).toLocaleString()}</small></div>`).join('')}</div>` : '<p>No listening history yet. Open a few covers and this starts filling itself.</p>'}</section>`);
+  const spotifyHistory = getSpotifyListeningHistory();
+  const connected = Boolean(getSpotifyToken());
+  const canReadHistory = spotifyHasScope('user-read-recently-played');
+
+  let spotifyBody = '';
+  if (!spotifyConfigured()) {
+    spotifyBody = '<div class="spotify-log-message"><h3>Spotify connection is not configured yet.</h3><p>MusicVerse needs its Spotify client ID in the deployment settings before it can read your listening history.</p></div>';
+  } else if (!connected) {
+    spotifyBody = '<div class="spotify-log-message"><h3>Connect Spotify to make this useful.</h3><p>Once connected, MusicVerse can pull your recently played Spotify tracks instead of treating clicks inside MusicVerse as listening.</p><button class="primary-action" data-connect-spotify-log>Connect Spotify</button></div>';
+  } else if (!canReadHistory) {
+    spotifyBody = '<div class="spotify-log-message"><h3>Spotify needs one more permission.</h3><p>Your existing MusicVerse Spotify connection predates listening-history access. Reconnect once to grant read access to recently played tracks.</p><button class="primary-action" data-connect-spotify-log>Reconnect Spotify</button></div>';
+  } else if (spotifyLogLoading && !spotifyHistory.length) {
+    spotifyBody = '<div class="spotify-log-message"><p>Loading recent Spotify listening…</p></div>';
+  } else {
+    spotifyBody = `${spotifyLogError ? `<div class="spotify-log-warning">${esc(spotifyLogError)}</div>` : ''}<div class="spotify-log-toolbar"><span>${spotifyHistory.length ? `${spotifyHistory.length} Spotify plays saved in MusicVerse` : 'No Spotify plays have been imported yet.'}</span><button class="secondary-action" data-refresh-spotify-log>${spotifyLogLoading ? 'Refreshing…' : 'Refresh Spotify history'}</button></div>${spotifyHistory.length ? spotifyListeningRows(spotifyHistory) : ''}`;
+  }
+
+  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LISTENING LOG</span><h1>What you actually played.</h1><p>Spotify history first. MusicVerse clicks stay separate.</p></div><div class="small-roadtrip coffee-trip"></div></section>
+    <section class="listening-workspace">
+      <section class="organic-panel spotify-log-panel">
+        <div class="section-heading"><div><span class="eyebrow">SPOTIFY HISTORY</span><h2>Recently played</h2><p>Spotify supplies the most recent plays; MusicVerse keeps the imported history so it can build over time.</p></div></div>
+        ${spotifyBody}
+      </section>
+      <section class="organic-panel local-open-panel">
+        <div class="section-heading"><div><span class="eyebrow">MUSICVERSE ACTIVITY</span><h2>Opened from MusicVerse</h2><p>This is not counted as listening. It is simply a record of tracks you launched from this app.</p></div></div>
+        ${musicVerseOpenRows()}
+      </section>
+    </section>`);
+}
+
+async function loadSpotifyListeningHistory({ force = false } = {}) {
+  if (spotifyLogLoading || !getSpotifyToken() || !spotifyHasScope('user-read-recently-played')) return;
+  if (spotifyLogAttempted && !force) return;
+
+  spotifyLogLoading = true;
+  spotifyLogAttempted = true;
+  spotifyLogError = '';
+  if (route() === 'log') render();
+
+  try {
+    const items = await fetchRecentlyPlayed(50);
+    mergeSpotifyListeningHistory(items);
+  } catch (error) {
+    console.warn(error);
+    spotifyLogError = error?.status === 403
+      ? 'Spotify denied listening-history access. Reconnect Spotify and grant the requested permission.'
+      : 'Spotify listening history could not be refreshed right now.';
+  } finally {
+    spotifyLogLoading = false;
+    if (route() === 'log') render();
+  }
 }
 
 function libraryView() {
@@ -412,7 +471,10 @@ function render() {
     case 'instruments': app.innerHTML = instrumentView(); break;
     case 'playlists': app.innerHTML = playlistsView(); break;
     case 'tabs': app.innerHTML = tabsView(); break;
-    case 'log': app.innerHTML = logView(); break;
+    case 'log':
+      app.innerHTML = logView();
+      if (!spotifyLogAttempted && getSpotifyToken() && spotifyHasScope('user-read-recently-played')) void loadSpotifyListeningHistory();
+      break;
     case 'library': app.innerHTML = libraryView(); break;
     default: app.innerHTML = homeView(); break;
   }
@@ -496,6 +558,19 @@ document.addEventListener('click', async (event) => {
   if (coverTab) {
     activeCoverTab = coverTab.dataset.coverTab;
     if (route() !== 'coververse') location.hash = '#/coververse'; else render();
+    return;
+  }
+
+  const connectSpotifyLog = event.target.closest('[data-connect-spotify-log]');
+  if (connectSpotifyLog) {
+    try { await beginSpotifyLogin('#/log'); }
+    catch (error) { showToast(error.message); }
+    return;
+  }
+
+  const refreshSpotifyLog = event.target.closest('[data-refresh-spotify-log]');
+  if (refreshSpotifyLog) {
+    void loadSpotifyListeningHistory({ force: true });
     return;
   }
 
