@@ -1,10 +1,10 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added full verified detail records for Herbie Hancock's River: The Joni Letters and Gillian Welch & David Rawlings' All The Good Times.",
-    "Both albums now include verified artwork, complete Spotify track links and durations, source artists and genres, personnel, notes, and provenance.",
-    "River distinguishes its two non-Joni compositions, Duke Ellington's Solitude and Wayne Shorter's Nefertiti, from the eight Joni Mitchell pieces.",
-    "MusicVerse now has 17 enriched cover albums with track-level detail."
+    "Added a full verified detail record for Tedeschi Trucks Band's Layla Revisited (Live at LOCKN').",
+    "The album now includes verified artwork, Spotify track links and durations, source-album relationships, personnel, notes, and provenance.",
+    "Track-level relationships identify Derek and the Dominos as the source artist because this release is explicitly a full-album revisit of Layla and Other Assorted Love Songs.",
+    "MusicVerse now has 18 enriched cover albums with track-level detail."
   ]
 }
