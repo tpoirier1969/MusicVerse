@@ -141,10 +141,6 @@ function moduleWorld(slug, title, text, img, className = '') {
   </a>`;
 }
 
-function albumSpotifyUrl(album) {
-  return album.spotify || '';
-}
-
 function recentAlbumCard(album, index) {
   const label = album.album || album.title || 'Untitled';
   const artist = album.artist || 'Unknown artist';
@@ -376,7 +372,7 @@ function coververseView() {
 }
 
 function instrumentView() {
-  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">INSTRUMENTVERSE</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
+  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">SOUNDTRAIL</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
 }
 
 function playlistTrackRow(track, playlistId) {
