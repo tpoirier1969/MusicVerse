@@ -1,9 +1,10 @@
 {
-  "version": "0.2.4",
-  "updated_at": "2026-10-06",
+  "version": "0.3.0",
+  "updated_at": "2026-10-07",
   "notes": [
-    "Added a verified track-level detail record for Willie Nelson's Stardust.",
-    "All ten Stardust tracks now include stable MusicVerse track IDs, Spotify track links, and Spotify durations.",
-    "Preserved unknown original-artist fields for standards where a single source recording cannot be identified without guesswork."
+    "Album and track searches now show which track titles matched and carry the search context into album detail pages.",
+    "Album detail pages can add individual tracks or all verified album tracks to a chosen existing or newly created MusicVerse playlist.",
+    "Home playlist previews now reflect real saved playlists instead of sample names and invented counts.",
+    "Album cards stay inside MusicVerse, while Spotify actions hand off directly to the Spotify app without opening an automatic browser fallback tab."
   ]
 }
