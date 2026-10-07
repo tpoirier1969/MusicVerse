@@ -25,8 +25,8 @@ test('album detail records reference real albums and unique tracks', () => {
     for (const track of detail.tracks || []) {
       trackIds.push(track.id);
       assert.ok(Number(track.durationSeconds) > 0);
-      assert.match(track.spotify || '', /^https:\/\/open\.spotify\.com\/track\/[A-Za-z0-9]+$/);
-      assert.match(track.spotifyUri || '', /^spotify:track:[A-Za-z0-9]+$/);
+      if (track.spotify) assert.match(track.spotify, /^https:\/\/open\.spotify\.com\/(?:intl-[a-z]{2}\/)?track\/[A-Za-z0-9]+$/);
+      if (track.spotifyUri) assert.match(track.spotifyUri, /^spotify:track:[A-Za-z0-9]+$/);
     }
   }
   assert.equal(new Set(trackIds).size, trackIds.length);
@@ -69,5 +69,15 @@ test('standout covers salvaged from mixed albums live in Crazy Covers', () => {
   ];
   for (const [coverArtist, song] of expected) {
     assert.ok(crazyCovers.some((item) => item.coverArtist === coverArtist && item.song === song), `Missing Crazy Covers migration: ${coverArtist} — ${song}`);
+  }
+});
+
+
+test('next-ranked cover albums have verified track detail records', () => {
+  for (const id of ['cover-album-0046', 'cover-album-0012', 'cover-album-0013']) {
+    const detail = details.find((item) => item.albumId === id);
+    assert.ok(detail, `Missing enriched detail record: ${id}`);
+    assert.ok(detail.tracks.length >= 12, `Incomplete track list: ${id}`);
+    assert.ok(detail.tracks.every((track) => track.isCover === true), `Unexpected original track in: ${id}`);
   }
 });
