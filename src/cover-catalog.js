@@ -10,6 +10,11 @@ export function mergeCoverAlbums(albums, details) {
   }));
 }
 
+export function isCoverAlbumEligible(album) {
+  if (!album || album.allCovers === false) return false;
+  return !(album.detail?.tracks || []).some((track) => track.isCover === false);
+}
+
 export function getAlbumArtwork(album) {
   return String(album?.detail?.artwork || album?.artwork || '').trim();
 }
@@ -77,6 +82,7 @@ export function getAlbumSearchMatches(album, searchText = '') {
 export function filterCoverAlbums(albums, filters = {}, searchText = '') {
   const query = String(searchText || '').trim().toLowerCase();
   return (Array.isArray(albums) ? albums : []).filter((album) => {
+    if (!isCoverAlbumEligible(album)) return false;
     for (const field of ['coverArtist', 'originalArtist', 'coverGenre', 'originalGenre']) {
       const selected = String(filters[field] || '').trim();
       if (selected && !getAlbumFacetValues(album, field).includes(selected)) return false;
