@@ -25,6 +25,13 @@ function stableHash(value) {
   return hash >>> 0;
 }
 
+function spotifyTrackId(track) {
+  const uriMatch = String(track?.spotifyUri || '').match(/^spotify:track:([A-Za-z0-9]+)$/i);
+  if (uriMatch) return uriMatch[1];
+  const urlMatch = String(track?.spotify || '').match(/open\.spotify\.com\/(?:intl-[a-z]{2}\/)?track\/([A-Za-z0-9]+)/i);
+  return urlMatch ? urlMatch[1] : '';
+}
+
 export function featuredAlbumDateKey(date = new Date()) {
   const value = parseDate(date) || new Date();
   const year = value.getFullYear();
@@ -35,18 +42,24 @@ export function featuredAlbumDateKey(date = new Date()) {
 
 function listeningStatsForAlbums(albums, spotifyHistory) {
   const stats = new Map((albums || []).map((album) => [album.id, { playCount: 0, lastPlayedAt: null }]));
+  const trackIds = new Map((albums || []).map((album) => [
+    album.id,
+    new Set((album.detail?.tracks || []).map(spotifyTrackId).filter(Boolean)),
+  ]));
 
   for (const play of spotifyHistory || []) {
+    const playTrackId = String(play.trackId || '').trim();
     const playAlbumId = String(play.albumId || '').trim();
     const playAlbumName = normalize(play.album);
     const playArtists = (play.artists || []).map(normalize).filter(Boolean);
     const playedAt = parseDate(play.playedAt);
 
     for (const album of albums || []) {
+      const trackMatched = playTrackId && trackIds.get(album.id)?.has(playTrackId);
       const spotifyIdMatched = playAlbumId && album.spotifyAlbumId && playAlbumId === album.spotifyAlbumId;
       const nameMatched = playAlbumName && playAlbumName === normalize(album.album);
       const artistMatched = !playArtists.length || playArtists.includes(normalize(album.artist));
-      if (!spotifyIdMatched && !(nameMatched && artistMatched)) continue;
+      if (!trackMatched && !spotifyIdMatched && !(nameMatched && artistMatched)) continue;
 
       const stat = stats.get(album.id);
       stat.playCount += 1;
