@@ -1,10 +1,10 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "updated_at": "2026-10-07",
   "notes": [
-    "Uses verified album artwork consistently in recent albums, featured albums, album grid and list views, album detail, track listings, and newly added playlist tracks.",
-    "Album tracks inherit their album cover by default; track-specific artwork can override it when verified.",
-    "Crazy Covers now support verified per-track artwork without substituting decorative or guessed images.",
-    "Albums that have not yet been enriched continue to use neutral MusicVerse placeholders rather than incorrect cover art."
+    "Added full verified detail records for Cat Power's The Covers Record and Iron & Wine / Ben Bridwell's Sing Into My Mouth.",
+    "Both albums now include real Spotify cover art, complete Spotify track links and durations, source/original artists, normalized original genres, album notes, personnel, and provenance.",
+    "The Covers Record marks Cat Power's re-recording of In This Hole as an original/self-revisit rather than a cover.",
+    "MusicVerse now has 15 enriched cover albums with track-level detail."
   ]
 }

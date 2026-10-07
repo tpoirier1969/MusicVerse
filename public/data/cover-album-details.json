@@ -4137,5 +4137,442 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0039",
+    "releaseDate": "2000-03-21",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273b46c268f75fbd2878754d990",
+    "originalArtists": [
+      "The Rolling Stones",
+      "Bob Dylan",
+      "Mae West with Duke Ellington's Orchestra",
+      "Moby Grape",
+      "Michael Hurley",
+      "Cat Power",
+      "The Velvet Underground",
+      "Johnny Mathis",
+      "Smog",
+      "Papa Charlie Jackson",
+      "Phil Phillips"
+    ],
+    "originalGenres": [
+      "Rock",
+      "Folk",
+      "Pop",
+      "Blues",
+      "R&B"
+    ],
+    "notes": [
+      "Chan Marshall reduces a deliberately wide songbook to sparse voice, guitar and piano, often changing the emotional center of familiar material rather than reproducing the source arrangement.",
+      "Eleven tracks reinterpret other artists; “In This Hole” is a new version of Cat Power’s own song from What Would the Community Think."
+    ],
+    "personnel": [
+      {
+        "name": "Chan Marshall",
+        "roles": [
+          "vocals",
+          "guitar",
+          "piano"
+        ]
+      },
+      {
+        "name": "Matt Sweeney",
+        "roles": [
+          "guitar on “Salty Dog”"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Matador Records",
+        "url": "https://shop.matadorrecords.com/release/342408-cat-power-the-covers-record?lang=en_US"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/the-covers-record-mw0000054760"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Covers_Record"
+      },
+      {
+        "label": "MusicBrainz",
+        "url": "https://musicbrainz.org/release/f055a17b-8c46-4c86-8106-a916de4de693"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/4dZBOO1PjjmtPA974xHMND"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0039-01",
+        "number": 1,
+        "title": "(I Can't Get No) Satisfaction",
+        "durationSeconds": 185.16,
+        "originalArtist": "The Rolling Stones",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/6dv99Xm7fEjm7K1ATHj1UG",
+        "spotifyUri": "spotify:track:6dv99Xm7fEjm7K1ATHj1UG",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-02",
+        "number": 2,
+        "title": "Kingsport Town",
+        "durationSeconds": 294.933,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/7cOJCi1qFcIWPqHKxlMRCb",
+        "spotifyUri": "spotify:track:7cOJCi1qFcIWPqHKxlMRCb",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-03",
+        "number": 3,
+        "title": "Troubled Waters",
+        "durationSeconds": 209.6,
+        "originalArtist": "Mae West with Duke Ellington's Orchestra",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/3fYWwJaPHiNVHt5ZgklGS9",
+        "spotifyUri": "spotify:track:3fYWwJaPHiNVHt5ZgklGS9",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-04",
+        "number": 4,
+        "title": "Naked, If I Want To",
+        "durationSeconds": 167.6,
+        "originalArtist": "Moby Grape",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/1hMTOv5GPAgVGz5GnYPRVr",
+        "spotifyUri": "spotify:track:1hMTOv5GPAgVGz5GnYPRVr",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-05",
+        "number": 5,
+        "title": "Sweedeedee",
+        "durationSeconds": 233.373,
+        "originalArtist": "Michael Hurley",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/0mOQIrlQpXOkhs5qnlAjSb",
+        "spotifyUri": "spotify:track:0mOQIrlQpXOkhs5qnlAjSb",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-06",
+        "number": 6,
+        "title": "In This Hole",
+        "durationSeconds": 266.293,
+        "originalArtist": "Cat Power",
+        "originalGenre": "Rock",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/29jOWw9cdUHbpZyYr5dIln",
+        "spotifyUri": "spotify:track:29jOWw9cdUHbpZyYr5dIln",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-07",
+        "number": 7,
+        "title": "I Found A Reason",
+        "durationSeconds": 120.8,
+        "originalArtist": "The Velvet Underground",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/5Qzn59M5Q228urubQD9cES",
+        "spotifyUri": "spotify:track:5Qzn59M5Q228urubQD9cES",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-08",
+        "number": 8,
+        "title": "Wild is the Wind",
+        "durationSeconds": 250.64,
+        "originalArtist": "Johnny Mathis",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/7lTkayBAve6tNHSwwNkz7x",
+        "spotifyUri": "spotify:track:7lTkayBAve6tNHSwwNkz7x",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-09",
+        "number": 9,
+        "title": "Red Apples",
+        "durationSeconds": 264.36,
+        "originalArtist": "Smog",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/2rhANcSgocBWZGi65NAEoL",
+        "spotifyUri": "spotify:track:2rhANcSgocBWZGi65NAEoL",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-10",
+        "number": 10,
+        "title": "Paths of Victory",
+        "durationSeconds": 204.066,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/4NDklBozbvxwoSSF38yrIJ",
+        "spotifyUri": "spotify:track:4NDklBozbvxwoSSF38yrIJ",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-11",
+        "number": 11,
+        "title": "Salty Dog",
+        "durationSeconds": 127.973,
+        "originalArtist": "Papa Charlie Jackson",
+        "originalGenre": "Blues",
+        "spotify": "https://open.spotify.com/track/4S55Ta1jjX2PiHvlrLcwxG",
+        "spotifyUri": "spotify:track:4S55Ta1jjX2PiHvlrLcwxG",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0039-12",
+        "number": 12,
+        "title": "Sea of Love",
+        "durationSeconds": 139.466,
+        "originalArtist": "Phil Phillips",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/33kKcOJoyNduHwXhEnga8X",
+        "spotifyUri": "spotify:track:33kKcOJoyNduHwXhEnga8X",
+        "musicians": []
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0041",
+    "releaseDate": "2015-07-17",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273bbcb4589a7819ae8a28785ac",
+    "originalArtists": [
+      "Talking Heads",
+      "Ronnie Lane",
+      "Bonnie Raitt",
+      "John Cale",
+      "Sade",
+      "Unicorn",
+      "El Perro del Mar",
+      "Spiritualized",
+      "J.J. Cale",
+      "Them Two",
+      "The Marshall Tucker Band",
+      "Peter La Farge"
+    ],
+    "originalGenres": [
+      "Rock",
+      "Folk",
+      "Pop",
+      "Blues",
+      "R&B"
+    ],
+    "notes": [
+      "Sam Beam and Ben Bridwell treat the record as a shared songbook rather than a tribute to one artist, moving between new wave, soul, folk, country and psychedelic rock.",
+      "The performances are deliberately warm and understated, with the arrangements reshaped around the two singers and an acoustic-leaning multi-instrumental ensemble."
+    ],
+    "personnel": [
+      {
+        "name": "Sam Beam",
+        "roles": [
+          "vocals",
+          "producer"
+        ]
+      },
+      {
+        "name": "Ben Bridwell",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Jim Becker",
+        "roles": [
+          "guitar",
+          "acoustic guitar",
+          "electric guitar",
+          "harmonica",
+          "violin"
+        ]
+      },
+      {
+        "name": "Joe Adamik",
+        "roles": [
+          "bass clarinet",
+          "drums",
+          "percussion"
+        ]
+      },
+      {
+        "name": "Matt Lux",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Paul Niehaus",
+        "roles": [
+          "pedal steel guitar"
+        ]
+      },
+      {
+        "name": "Rob Burger",
+        "roles": [
+          "accordion",
+          "Mellotron",
+          "Moog bass",
+          "organ",
+          "piano",
+          "electric piano",
+          "prepared piano"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sing_into_My_Mouth"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/sing-into-my-mouth-mw0002849812"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/0jMBAo2pk2cEE0aJ3WseMl"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0041-01",
+        "number": 1,
+        "title": "This Must Be The Place",
+        "durationSeconds": 212.486,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/7dP4k5nDDwI1qMDoz5m0f6",
+        "spotifyUri": "spotify:track:7dP4k5nDDwI1qMDoz5m0f6",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-02",
+        "number": 2,
+        "title": "Done This One Before",
+        "durationSeconds": 179.366,
+        "originalArtist": "Ronnie Lane",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/3C0qIua2Jv22mi3kaobqMt",
+        "spotifyUri": "spotify:track:3C0qIua2Jv22mi3kaobqMt",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-03",
+        "number": 3,
+        "title": "Anyday Woman",
+        "durationSeconds": 170.766,
+        "originalArtist": "Bonnie Raitt",
+        "originalGenre": "Blues",
+        "spotify": "https://open.spotify.com/track/27YxQNsZUkgWqBjdyUIxan",
+        "spotifyUri": "spotify:track:27YxQNsZUkgWqBjdyUIxan",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-04",
+        "number": 4,
+        "title": "You Know More Than I Know",
+        "durationSeconds": 209.246,
+        "originalArtist": "John Cale",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/1AFNocUoxCgNUL5vv3aAS1",
+        "spotifyUri": "spotify:track:1AFNocUoxCgNUL5vv3aAS1",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-05",
+        "number": 5,
+        "title": "Bullet Proof Soul",
+        "durationSeconds": 278.953,
+        "originalArtist": "Sade",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/4sHbjW3Dx2wyAZiO5Jz7Nz",
+        "spotifyUri": "spotify:track:4sHbjW3Dx2wyAZiO5Jz7Nz",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-06",
+        "number": 6,
+        "title": "No Way Out Of Here",
+        "durationSeconds": 278.313,
+        "originalArtist": "Unicorn",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/0Xe0A6lQdRcvOBue89kgRm",
+        "spotifyUri": "spotify:track:0Xe0A6lQdRcvOBue89kgRm",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-07",
+        "number": 7,
+        "title": "God Knows (You Gotta Give To Get)",
+        "durationSeconds": 202.58,
+        "originalArtist": "El Perro del Mar",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/5dnWQWo5h2jTqlp9rN9ieA",
+        "spotifyUri": "spotify:track:5dnWQWo5h2jTqlp9rN9ieA",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-08",
+        "number": 8,
+        "title": "Straight And Narrow",
+        "durationSeconds": 315.793,
+        "originalArtist": "Spiritualized",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/0i7Xsi7sA8MaoQXpEykIWl",
+        "spotifyUri": "spotify:track:0i7Xsi7sA8MaoQXpEykIWl",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-09",
+        "number": 9,
+        "title": "Magnolia",
+        "durationSeconds": 231.78,
+        "originalArtist": "J.J. Cale",
+        "originalGenre": "Blues",
+        "spotify": "https://open.spotify.com/track/1BUMf3XHdHBhIPX8x9M0N2",
+        "spotifyUri": "spotify:track:1BUMf3XHdHBhIPX8x9M0N2",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-10",
+        "number": 10,
+        "title": "Am I A Good Man",
+        "durationSeconds": 227.673,
+        "originalArtist": "Them Two",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/0u749u0RJbLwgnSrkxebsI",
+        "spotifyUri": "spotify:track:0u749u0RJbLwgnSrkxebsI",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-11",
+        "number": 11,
+        "title": "Ab's Song",
+        "durationSeconds": 79.366,
+        "originalArtist": "The Marshall Tucker Band",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/0lovF4eevVqfpVRNYzfmmV",
+        "spotifyUri": "spotify:track:0lovF4eevVqfpVRNYzfmmV",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0041-12",
+        "number": 12,
+        "title": "Coyote",
+        "durationSeconds": 306.26,
+        "originalArtist": "Peter La Farge",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/0ChbJyCW3NvHXYlF8MRZBI",
+        "spotifyUri": "spotify:track:0ChbJyCW3NvHXYlF8MRZBI",
+        "musicians": []
+      }
+    ]
   }
 ]
