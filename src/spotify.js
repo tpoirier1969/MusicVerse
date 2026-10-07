@@ -154,7 +154,9 @@ export function spotifyResourceUri(value) {
   try {
     const url = new URL(raw);
     if (!/(^|\.)open\.spotify\.com$/i.test(url.hostname)) return '';
-    const [type, id] = url.pathname.split('/').filter(Boolean);
+    const parts = url.pathname.split('/').filter(Boolean);
+    if (/^intl-[a-z]{2}$/i.test(parts[0] || '')) parts.shift();
+    const [type, id] = parts;
     if (!['track','album','artist','playlist','show','episode'].includes(type) || !id) return '';
     return `spotify:${type}:${id}`;
   } catch {
