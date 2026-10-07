@@ -38,21 +38,11 @@ test('existing album catalog keeps real Spotify album links', () => {
   }
 });
 
-test('Cover Albums contains only eligible all-cover releases', () => {
+test('audited mixed releases follow the 90 percent and cover-album-intent policy', () => {
   const merged = mergeCoverAlbums(albums, details);
-  const eligible = merged.filter(isCoverAlbumEligible);
-  for (const album of eligible) {
-    assert.notEqual(album.allCovers, false, `Explicitly mixed album leaked into Cover Albums: ${album.album}`);
-    assert.equal(
-      (album.detail?.tracks || []).some((track) => track.isCover === false),
-      false,
-      `Album with original material leaked into Cover Albums: ${album.album}`,
-    );
-  }
+  const eligibleIds = new Set(merged.filter(isCoverAlbumEligible).map((album) => album.id));
 
   for (const id of [
-    'cover-album-0002',
-    'cover-album-0003',
     'cover-album-0023',
     'cover-album-0039',
     'cover-album-0042',
@@ -60,12 +50,12 @@ test('Cover Albums contains only eligible all-cover releases', () => {
     'cover-album-0057',
     'cover-album-0067',
     'cover-album-0073',
-    'cover-album-0103',
-    'cover-album-0104',
   ]) {
-    const album = merged.find((item) => item.id === id);
-    assert.ok(album, `Missing audited mixed album ${id}`);
-    assert.equal(isCoverAlbumEligible(album), false, `Mixed album still eligible: ${album.album}`);
+    assert.ok(eligibleIds.has(id), `Expected cover-focused album to be eligible: ${id}`);
+  }
+
+  for (const id of ['cover-album-0002', 'cover-album-0003', 'cover-album-0103', 'cover-album-0104']) {
+    assert.equal(eligibleIds.has(id), false, `Mixed concert release should stay out of Cover Albums: ${id}`);
   }
 });
 
