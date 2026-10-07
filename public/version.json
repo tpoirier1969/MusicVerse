@@ -1,10 +1,11 @@
 {
-  "version": "0.3.9",
+  "version": "0.4.0",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added full detail records for Charlie Hunter's Natty Dread and John Scofield's That's What I Say.",
-    "Natty Dread now carries the complete Bob Marley & The Wailers source relationship, verified Spotify artwork and track metadata, and quartet personnel on every track.",
-    "That's What I Say now includes verified artwork and track metadata plus Ray Charles source relationships, core personnel, and notable guest musicians by track.",
-    "MusicVerse now has 26 enriched cover albums with track-level detail."
+    "Added an app-wide visible version flag that reads from the single canonical version.json source.",
+    "Expanded SoundTrail with Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla alongside Accordion.",
+    "Cover Albums now excludes mixed releases whenever an album is explicitly flagged mixed or verified track data contains original material.",
+    "Audited and excluded eleven known mixed releases without deleting their underlying catalog research.",
+    "Added standout individual performances from mixed releases to Crazy Covers, including Phish, Les Claypool, and Gov't Mule."
   ]
 }
