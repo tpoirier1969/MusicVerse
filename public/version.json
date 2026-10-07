@@ -1,10 +1,10 @@
 {
-  "version": "0.3.7",
+  "version": "0.3.8",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added full verified detail records for Bruce Springsteen's We Shall Overcome: The Seeger Sessions and Cat Power's Jukebox.",
-    "The Springsteen record follows its existing Spotify target, the 18-track American Land Edition, and distinguishes traditional/source material from Springsteen's original American Land.",
-    "Jukebox now identifies its two Cat Power originals/self-revisits separately from the covers and includes verified artwork and Spotify track metadata.",
-    "MusicVerse now has 22 enriched cover albums with track-level detail."
+    "Completed track-level enrichment for the final two Start Here albums: Richard Thompson's 1000 Years of Popular Music and Phish's LivePhish, Vol. 15 10/31/96.",
+    "Both records now include verified Spotify artwork, complete track links and durations, source/original artists and genres, personnel, notes, and provenance.",
+    "The Phish release distinguishes Phish originals from its complete Talking Heads Remain in Light set and the concert's other covers.",
+    "All Start Here cover albums now have full detail records."
   ]
 }
