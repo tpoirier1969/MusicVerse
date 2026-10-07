@@ -2,6 +2,11 @@ const SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize';
 const SPOTIFY_API_URL = 'https://api.spotify.com/v1';
 const STORAGE_KEY = 'musicverse.spotify.pkce';
 const TOKEN_KEY = 'musicverse.spotify.token';
+const SPOTIFY_SCOPES = [
+  'playlist-modify-private',
+  'playlist-modify-public',
+  'user-read-recently-played',
+];
 
 function getConfig() {
   const clientId = String(import.meta.env.VITE_SPOTIFY_CLIENT_ID || '').trim();
@@ -26,14 +31,24 @@ export function spotifyConfigured() {
   return Boolean(getConfig().clientId);
 }
 
-export function getSpotifyToken() {
+function getStoredSpotifyToken() {
   try {
     const parsed = JSON.parse(localStorage.getItem(TOKEN_KEY) || 'null');
     if (!parsed?.access_token || !parsed?.expires_at || Date.now() >= parsed.expires_at) return null;
-    return parsed.access_token;
+    return parsed;
   } catch {
     return null;
   }
+}
+
+export function getSpotifyToken() {
+  return getStoredSpotifyToken()?.access_token || null;
+}
+
+export function spotifyHasScope(scope) {
+  const token = getStoredSpotifyToken();
+  if (!token) return false;
+  return String(token.scope || '').split(/\s+/).filter(Boolean).includes(scope);
 }
 
 export async function beginSpotifyLogin(returnHash = '#/playlists') {
@@ -47,7 +62,7 @@ export async function beginSpotifyLogin(returnHash = '#/playlists') {
     client_id: clientId,
     response_type: 'code',
     redirect_uri: redirectUri,
-    scope: 'playlist-modify-private playlist-modify-public',
+    scope: SPOTIFY_SCOPES.join(' '),
     code_challenge_method: 'S256',
     code_challenge: challenge,
     state,
@@ -91,7 +106,7 @@ export async function finishSpotifyLoginFromUrl() {
 
 async function spotifyFetch(path, options = {}) {
   const token = getSpotifyToken();
-  if (!token) throw new Error('Connect Spotify before exporting a playlist.');
+  if (!token) throw new Error('Connect Spotify before using this feature.');
   const response = await fetch(`${SPOTIFY_API_URL}${path}`, {
     ...options,
     headers: {
@@ -102,14 +117,15 @@ async function spotifyFetch(path, options = {}) {
   });
   if (!response.ok) {
     const message = await response.text();
-    throw new Error(`Spotify request failed (${response.status}): ${message.slice(0, 180)}`);
+    const error = new Error(`Spotify request failed (${response.status}): ${message.slice(0, 180)}`);
+    error.status = response.status;
+    throw error;
   }
   return response.status === 204 ? null : response.json();
 }
 
 export async function exportPlaylistToSpotify({ name, description, tracks, isPublic = false }) {
-  const profile = await spotifyFetch('/me');
-  const playlist = await spotifyFetch(`/users/${encodeURIComponent(profile.id)}/playlists`, {
+  const playlist = await spotifyFetch('/me/playlists', {
     method: 'POST',
     body: JSON.stringify({ name, description, public: isPublic }),
   });
@@ -121,6 +137,13 @@ export async function exportPlaylistToSpotify({ name, description, tracks, isPub
     });
   }
   return playlist;
+}
+
+export async function fetchRecentlyPlayed(limit = 50) {
+  const requested = Number(limit);
+  const safeLimit = Number.isFinite(requested) ? Math.max(1, Math.min(50, Math.round(requested))) : 50;
+  const response = await spotifyFetch(`/me/player/recently-played?limit=${safeLimit}`);
+  return Array.isArray(response?.items) ? response.items : [];
 }
 
 export function spotifyResourceUri(value) {
