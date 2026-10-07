@@ -1,12 +1,12 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "updated_at": "2026-10-07",
   "notes": [
-    "Moved the MusicVerse catalog to the shared Yellowdawg Supabase project as the authoritative remote data source.",
-    "Created a namespaced musicverse_* library with normalized artists, songs, albums, recordings, genres, personnel, instruments, playlists, saved items, listening events, references, and featured-album history.",
-    "Seeded the current catalog while preserving stable GitHub album and track IDs, Spotify identities, CoverVerse ordering, and SoundTrail ordering.",
-    "Added read-only Supabase views for Cover Albums, album details, Crazy Covers, and SoundTrail.",
-    "The browser now reads the catalog from Supabase first and exposes a visible bundled-catalog fallback if Supabase is unavailable.",
-    "Personal playlists, favorites, references, listening history, and feature history remain local until MusicVerse authentication is wired."
+    "CoverVerse now chooses one Featured Cover Album per local calendar day and keeps that selection fixed for the day.",
+    "Featured albums avoid repeats until the eligible feature pool cycles, then use a fourteen-day repeat guard.",
+    "Newly added albums receive a temporary feature boost.",
+    "Frequently played albums receive a boost only when Spotify history shows they have not been played within the last seven days.",
+    "Feature weighting uses actual cached Spotify play history, including track and album identity; MusicVerse clicks are not treated as listening.",
+    "Featured-album history is stored locally for now and can migrate into the existing musicverse_user_feature_history table when Supabase authentication is wired."
   ]
 }
