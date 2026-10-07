@@ -17,7 +17,7 @@ function write(key, value) {
 }
 
 export function getPlaylists() {
-  return read(PLAYLIST_KEY, [{ id: 'roadtrip', name: 'Open Road', description: 'Songs for the long way home.', tracks: [] }]);
+  return read(PLAYLIST_KEY, []);
 }
 
 export function savePlaylists(playlists) {
@@ -31,14 +31,22 @@ export function createPlaylist(name) {
   return next;
 }
 
-export function addTrackToPlaylist(playlistId, track) {
+export function addTracksToPlaylist(playlistId, tracks) {
+  const additions = (Array.isArray(tracks) ? tracks : []).filter((track) => track?.id);
+  if (!additions.length) return;
+
   const playlists = getPlaylists();
   const next = playlists.map((playlist) => {
     if (playlist.id !== playlistId) return playlist;
-    if (playlist.tracks.some((item) => item.id === track.id)) return playlist;
-    return { ...playlist, tracks: [...playlist.tracks, track] };
+    const existing = new Set(playlist.tracks.map((item) => item.id));
+    const uniqueAdditions = additions.filter((track) => !existing.has(track.id));
+    return uniqueAdditions.length ? { ...playlist, tracks: [...playlist.tracks, ...uniqueAdditions] } : playlist;
   });
   savePlaylists(next);
+}
+
+export function addTrackToPlaylist(playlistId, track) {
+  addTracksToPlaylist(playlistId, [track]);
 }
 
 export function removeTrackFromPlaylist(playlistId, trackId) {

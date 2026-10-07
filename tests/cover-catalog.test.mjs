@@ -4,6 +4,7 @@ import {
   filterCoverAlbums,
   formatDuration,
   getAlbumOriginalArtists,
+  getAlbumSearchMatches,
   getFacetOptions,
   mergeCoverAlbums,
 } from '../src/cover-catalog.js';
@@ -45,6 +46,17 @@ test('search spans tracks, albums, both artist roles, genres, and musician names
   assert.deepEqual(filterCoverAlbums(merged, {}, 'Jazz').map((x) => x.id), ['a1', 'a2']);
   assert.deepEqual(filterCoverAlbums(merged, {}, 'Rock').map((x) => x.id), ['a1']);
   assert.deepEqual(filterCoverAlbums(merged, {}, 'piano').map((x) => x.id), ['a1']);
+});
+
+test('reports the track that caused a search match', () => {
+  const merged = mergeCoverAlbums(albums, details);
+  const matches = getAlbumSearchMatches(merged[0], 'All Apologies');
+  assert.equal(matches.albumMatched, false);
+  assert.deepEqual(matches.trackMatches.map((track) => track.title), ['All Apologies']);
+
+  const artistMatches = getAlbumSearchMatches(merged[0], 'Nirvana');
+  assert.equal(artistMatches.albumMatched, true);
+  assert.deepEqual(artistMatches.trackMatches.map((track) => track.title), ['All Apologies']);
 });
 
 test('facet options respond to other selected facets', () => {

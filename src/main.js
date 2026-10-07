@@ -5,11 +5,12 @@ import {
   formatDuration,
   getAlbumOriginalArtists,
   getAlbumOriginalGenres,
+  getAlbumSearchMatches,
   getCoverAlbumById,
   getFacetOptions,
 } from './cover-catalog.js';
 import {
-  addTrackToPlaylist,
+  addTracksToPlaylist,
   createPlaylist,
   getListeningLog,
   getPlaylists,
@@ -36,6 +37,7 @@ let coverAlbumSearchText = '';
 let coverAlbumViewMode = 'grid';
 let coverAlbumFilters = { coverArtist: '', originalArtist: '', coverGenre: '', originalGenre: '' };
 let toastTimer = null;
+let pendingPlaylistTracks = [];
 
 const moduleMeta = {
   home: { label: 'Home', icon: '⌂' },
@@ -140,10 +142,21 @@ function recentAlbumCard(album, index) {
   const label = album.album || album.title || 'Untitled';
   const artist = album.artist || 'Unknown artist';
   const backgrounds = ['/assets/roadscape.svg','/assets/vinyl.svg','/assets/guitar.svg','/assets/mug.svg','/assets/library.svg'];
-  return `<article class="recent-card">
-    <button class="recent-art" data-open-url="${esc(albumSpotifyUrl(album))}" style="--recent-image:url('${backgrounds[index % backgrounds.length]}')" aria-label="Open ${esc(label)} in Spotify"></button>
-    <div class="recent-meta"><strong>${esc(label)}</strong><span>${esc(artist)}</span><small>${esc(album.genre || 'Album')}</small></div>
-  </article>`;
+  return `<a class="recent-card" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums" aria-label="View ${esc(label)} in MusicVerse">
+    <span class="recent-art" style="--recent-image:url('${backgrounds[index % backgrounds.length]}')"></span>
+    <span class="recent-meta"><strong>${esc(label)}</strong><span>${esc(artist)}</span><small>${esc(album.genre || 'Album')}</small></span>
+  </a>`;
+}
+
+function homePlaylistPreview() {
+  const playlists = getPlaylists().slice(0, 5);
+  if (!playlists.length) {
+    return `<div class="home-playlist-empty"><strong>No playlists yet.</strong><span>Build one from CoverVerse tracks, then it will appear here.</span><a href="#/playlists">Create a playlist →</a></div>`;
+  }
+
+  return `<div class="playlist-strip">${playlists.map((playlist) => `<a href="#/playlists" class="playlist-teaser">
+    <span class="play-badge">▶</span><strong>${esc(playlist.name)}</strong><small>${playlist.tracks.length} ${playlist.tracks.length === 1 ? 'track' : 'tracks'}</small>
+  </a>`).join('')}</div>`;
 }
 
 function homeView() {
@@ -177,9 +190,7 @@ function homeView() {
 
     <section class="content-wave playlists-preview">
       <div class="section-heading"><div><span class="eyebrow">TAKE THE SCENIC ROUTE</span><h2>Curated Playlists</h2><p>Build here, then send the finished list to Spotify.</p></div><a class="spotify-pill" href="#/playlists">● Build playlists and send to Spotify →</a></div>
-      <div class="playlist-strip">
-        ${['Open Road','Morning Coffee','After Dark','Acoustic Detours','Jazz Backroads'].map((name,i)=>`<a href="#/playlists" class="playlist-teaser teaser-${i+1}"><span class="play-badge">▶</span><strong>${name}</strong><small>${[42,28,36,31,54][i]} songs</small></a>`).join('')}
-      </div>
+      ${homePlaylistPreview()}
     </section>
   `);
 }
@@ -204,9 +215,9 @@ function featuredAlbum() {
       <h3>${esc(album.artist || 'Various Artists')}</h3>
       <p>${esc(album.why || 'Familiar songs, new horizons. A set of covers chosen because the arrangements actually change how the songs feel.')}</p>
       <div class="action-row">
-        <button class="primary-action" data-open-url="${esc(spotifyUrl)}">▶ Open Album</button>
-        <button class="secondary-action" data-build-album>☷ Build Playlist</button>
-        <button class="secondary-action" data-open-url="${esc(spotifyUrl)}">● Open in Spotify</button>
+        <a class="primary-action" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums">View Album</a>
+        <button class="secondary-action" data-add-album-tracks="${esc(album.id)}"${album.detail?.tracks?.length ? '' : ' disabled'}>＋ Add album tracks</button>
+        <button class="secondary-action" data-open-url="${esc(spotifyUrl)}">● Open in Spotify app</button>
       </div>
       <div class="album-meta">${esc(album.genre || 'Cover Album')} · ${esc(album.approach || 'Reinterpretation')}</div>
     </div>
@@ -232,6 +243,21 @@ function albumFilterSelect(field, label, options) {
   const selected = coverAlbumFilters[field] || '';
   const optionHtml = options.map((value) => `<option value="${esc(value)}"${value === selected ? ' selected' : ''}>${esc(value)}</option>`).join('');
   return `<label class="album-filter"><span>${esc(label)}</span><select data-album-filter="${esc(field)}"><option value="">Any</option>${optionHtml}</select></label>`;
+}
+
+function albumDetailHref(albumId) {
+  const params = new URLSearchParams({ album: albumId, tab: 'albums' });
+  if (coverAlbumSearchText) params.set('q', coverAlbumSearchText);
+  return `#/coververse?${params.toString()}`;
+}
+
+function albumSearchHitSummary(album) {
+  if (!coverAlbumSearchText) return '';
+  const matches = getAlbumSearchMatches(album, coverAlbumSearchText);
+  if (!matches.trackMatches.length) return '';
+  const visible = matches.trackMatches.slice(0, 3).map((track) => track.title);
+  const extra = matches.trackMatches.length - visible.length;
+  return `<span class="album-search-hits"><b>Track ${matches.trackMatches.length === 1 ? 'match' : 'matches'}:</b> ${esc(visible.join(', '))}${extra > 0 ? ` +${extra} more` : ''}</span>`;
 }
 
 function coverAlbumBrowser() {
@@ -261,9 +287,9 @@ function coverAlbumBrowser() {
 }
 
 function coverAlbumsGrid(items) {
-  return `<div class="album-grid album-grid-browser">${items.map((album, index) => `<a class="album-card album-card-link" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums">
+  return `<div class="album-grid album-grid-browser">${items.map((album, index) => `<a class="album-card album-card-link" href="${albumDetailHref(album.id)}">
     <div class="album-card-art" style="--album-bg:url('${album.detail?.artwork || (index % 2 ? '/assets/vinyl.svg' : '/assets/roadscape.svg')}')"></div>
-    <div><span class="eyebrow">${esc(album.genre || 'Unknown genre')}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach || '')}</small></div>
+    <div><span class="eyebrow">${esc(album.genre || 'Unknown genre')}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach || '')}</small>${albumSearchHitSummary(album)}</div>
     <span class="round-arrow" aria-hidden="true">→</span>
   </a>`).join('')}</div>`;
 }
@@ -272,7 +298,7 @@ function coverAlbumsList(items) {
   return `<div class="album-list-view"><div class="album-list-head"><span>Album</span><span>Cover artist</span><span>Cover genre</span><span>Original artist</span><span>Original genre</span></div>${items.map((album) => {
     const originals = getAlbumOriginalArtists(album);
     const originalGenres = getAlbumOriginalGenres(album);
-    return `<a class="album-list-row" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums"><strong>${esc(album.album)}</strong><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
+    return `<a class="album-list-row" href="${albumDetailHref(album.id)}"><span class="album-list-title"><strong>${esc(album.album)}</strong>${albumSearchHitSummary(album)}</span><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
   }).join('')}</div>`;
 }
 function accordionGrid() {
@@ -301,6 +327,17 @@ function musicianSummary(musicians = []) {
   return musicians.map((musician) => `${musician.name}${musician.roles?.length ? ` (${musician.roles.join(', ')})` : ''}`).join('; ');
 }
 
+function albumTrackPlaylistItem(album, track) {
+  return {
+    id: track.id,
+    title: track.title,
+    artist: album.artist,
+    originalArtist: track.originalArtist || '',
+    spotifyUrl: track.spotify || '',
+    spotifyUri: track.spotifyUri || spotifyTrackUri(track.spotify),
+  };
+}
+
 function coverAlbumDetailView(album) {
   if (!album) return shell(`<section class="module-content"><a class="back-link" href="#/coververse?tab=albums">← Cover Albums</a><div class="coming organic-panel"><h2>Album not found</h2><p>This MusicVerse album ID does not exist.</p></div></section>`);
   const detail = album.detail || {};
@@ -310,6 +347,9 @@ function coverAlbumDetailView(album) {
   const artwork = detail.artwork || '/assets/roadscape.svg';
   const notes = detail.notes || [];
   const personnel = detail.personnel || [];
+  const detailSearchText = hashParams().get('q') || '';
+  const detailSearchMatches = getAlbumSearchMatches(album, detailSearchText);
+  const matchingTrackIds = new Set(detailSearchMatches.trackMatches.map((track) => track.id));
 
   return shell(`<section class="album-detail-hero">
     <a class="back-link" href="#/coververse?tab=albums">← Cover Albums</a>
@@ -317,14 +357,14 @@ function coverAlbumDetailView(album) {
       <img class="album-detail-art" src="${esc(artwork)}" alt="${esc(album.album)} cover artwork">
       <div class="album-detail-copy"><span class="eyebrow">COVER ALBUM</span><h1>${esc(album.album)}</h1><h2>${esc(album.artist)}</h2><p>${esc(album.why || album.approach || '')}</p>
         <div class="detail-meta"><span><b>Cover genre</b>${esc(album.genre || 'Unknown')}</span><span><b>Original artist</b>${esc(originals.join(', ') || 'Not yet cataloged')}</span><span><b>Original genre</b>${esc(originalGenres.join(', ') || 'Not yet cataloged')}</span>${detail.releaseDate ? `<span><b>Released</b>${esc(detail.releaseDate)}</span>` : ''}</div>
-        <div class="action-row"><button class="primary-action" data-open-url="${esc(album.spotify || '')}">▶ Open album in Spotify</button></div>
+        <div class="action-row"><button class="primary-action" data-open-url="${esc(album.spotify || '')}">▶ Open album in Spotify app</button>${tracks.length ? `<button class="secondary-action" data-add-album-tracks="${esc(album.id)}">＋ Add album tracks</button>` : ''}</div>
       </div>
     </div>
   </section>
   <section class="album-detail-body">
     <div class="album-notes organic-panel"><div><span class="eyebrow">WHY IT'S HERE</span><h2>Album notes</h2>${notes.length ? notes.map((note) => `<p>${esc(note)}</p>`).join('') : `<p>${esc(album.approach || 'Additional notes have not been added yet.')}</p>`}</div>${personnel.length ? `<div><span class="eyebrow">PERSONNEL</span><h3>Musicians</h3><ul>${personnel.map((person) => `<li><strong>${esc(person.name)}</strong><span>${esc((person.roles || []).join(', '))}</span></li>`).join('')}</ul></div>` : ''}</div>
-    <div class="track-table-wrap organic-panel"><div class="section-heading"><div><span class="eyebrow">TRACKS</span><h2>Track listing</h2><p>${tracks.length ? `${tracks.length} verified tracks` : 'Track details have not been added for this album yet.'}</p></div></div>
-      ${tracks.length ? `<div class="album-track-table"><div class="album-track-head"><span>#</span><span>Track</span><span>Original artist</span><span>Length</span><span>Musicians</span><span>Actions</span></div>${tracks.map((track) => `<div class="album-track-row"><span>${esc(track.number)}</span><div><strong>${esc(track.title)}</strong>${track.originalGenre ? `<small>${esc(track.originalGenre)}</small>` : ''}</div><span>${track.isCover === false ? '<em class="original-track-label">Original</em>' : esc(track.originalArtist || '—')}</span><span>${formatDuration(track.durationSeconds)}</span><span class="track-musicians">${esc(musicianSummary(track.musicians || []))}</span><span class="track-actions"><button data-open-url="${esc(track.spotify || '')}" data-listened="${esc(track.id)}"${track.spotify ? '' : ' disabled'}>▶ Play</button><button data-open-url="${esc(track.spotify || '')}"${track.spotify ? '' : ' disabled'}>Spotify ↗</button></span></div>`).join('')}</div>` : '<div class="empty-track-data">No verified track-level data has been added yet. MusicVerse leaves it blank rather than guessing.</div>'}
+    <div class="track-table-wrap organic-panel"><div class="section-heading"><div><span class="eyebrow">TRACKS</span><h2>Track listing</h2><p>${tracks.length ? `${tracks.length} verified tracks` : 'Track details have not been added for this album yet.'}</p>${detailSearchText ? `<span class="detail-search-note">Search: “${esc(detailSearchText)}” · ${matchingTrackIds.size} matching ${matchingTrackIds.size === 1 ? 'track' : 'tracks'}</span>` : ''}</div></div>
+      ${tracks.length ? `<div class="album-track-table"><div class="album-track-head"><span>#</span><span>Track</span><span>Original artist</span><span>Length</span><span>Musicians</span><span>Actions</span></div>${tracks.map((track) => `<div class="album-track-row${matchingTrackIds.has(track.id) ? ' is-search-hit' : ''}"><span>${esc(track.number)}</span><div><strong>${esc(track.title)}</strong>${matchingTrackIds.has(track.id) ? '<em class="track-match-label">Search match</em>' : ''}${track.originalGenre ? `<small>${esc(track.originalGenre)}</small>` : ''}</div><span>${track.isCover === false ? '<em class="original-track-label">Original</em>' : esc(track.originalArtist || '—')}</span><span>${formatDuration(track.durationSeconds)}</span><span class="track-musicians">${esc(musicianSummary(track.musicians || []))}</span><span class="track-actions"><button data-add-track='${esc(JSON.stringify(albumTrackPlaylistItem(album, track)))}'>＋ Playlist</button><button data-open-url="${esc(track.spotify || '')}" data-listened="${esc(track.id)}"${track.spotify ? '' : ' disabled'}>▶ Play</button><button data-open-url="${esc(track.spotify || '')}"${track.spotify ? '' : ' disabled'}>Spotify ↗</button></span></div>`).join('')}</div>` : '<div class="empty-track-data">No verified track-level data has been added yet. MusicVerse leaves it blank rather than guessing.</div>'}
     </div>
   </section>`);
 }
@@ -383,43 +423,45 @@ function openSpotifyUrl(url, listenedId = '') {
   if (listenedId) markListened(listenedId);
 
   const appUri = spotifyResourceUri(url);
-  if (!appUri) {
-    window.open(url, '_blank', 'noopener,noreferrer');
+  if (appUri) {
+    window.location.href = appUri;
     return;
   }
 
-  let fallbackTimer = null;
-  const onVisibilityChange = () => {
-    if (document.hidden) cleanup();
-  };
-  const cleanup = () => {
-    if (fallbackTimer) window.clearTimeout(fallbackTimer);
-    fallbackTimer = null;
-    window.removeEventListener('blur', cleanup);
-    document.removeEventListener('visibilitychange', onVisibilityChange);
-  };
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
 
-  window.addEventListener('blur', cleanup, { once: true });
-  document.addEventListener('visibilitychange', onVisibilityChange);
-  fallbackTimer = window.setTimeout(() => {
-    cleanup();
-    window.open(url, '_blank', 'noopener,noreferrer');
-  }, 1800);
+function closePlaylistPicker() {
+  const dialog = document.querySelector('[data-playlist-picker]');
+  if (dialog) {
+    dialog.close();
+    dialog.remove();
+  }
+  pendingPlaylistTracks = [];
+}
 
-  window.location.href = appUri;
+function openPlaylistPicker(tracks) {
+  pendingPlaylistTracks = (Array.isArray(tracks) ? tracks : [tracks]).filter((track) => track?.id);
+  if (!pendingPlaylistTracks.length) return showToast('No playlist-ready tracks are available for this item.');
+
+  document.querySelector('[data-playlist-picker]')?.remove();
+  const playlists = getPlaylists();
+  const dialog = document.createElement('dialog');
+  dialog.className = 'playlist-picker-dialog';
+  dialog.dataset.playlistPicker = '';
+  dialog.innerHTML = `<div class="playlist-picker-head"><div><span class="eyebrow">ADD TO PLAYLIST</span><h2>${pendingPlaylistTracks.length === 1 ? esc(pendingPlaylistTracks[0].title) : `${pendingPlaylistTracks.length} tracks`}</h2></div><button type="button" data-playlist-picker-close aria-label="Close">×</button></div>
+    <div class="playlist-picker-options">${playlists.length ? playlists.map((playlist) => `<button type="button" data-playlist-choice="${esc(playlist.id)}"><strong>${esc(playlist.name)}</strong><span>${playlist.tracks.length} ${playlist.tracks.length === 1 ? 'track' : 'tracks'}</span></button>`).join('') : '<p>No playlists yet. Create one below and these tracks will be added to it.</p>'}</div>
+    <form class="playlist-picker-new" data-playlist-picker-new><input name="name" placeholder="New playlist name" required><button class="primary-action">Create & add</button></form>`;
+  document.body.append(dialog);
+  dialog.addEventListener('cancel', (event) => {
+    event.preventDefault();
+    closePlaylistPicker();
+  });
+  dialog.showModal();
 }
 
 function addTrackDialog(track) {
-  const playlists = getPlaylists();
-  if (!playlists.length) {
-    const created = createPlaylist('Open Road');
-    addTrackToPlaylist(created.id, track);
-    showToast(`Added “${track.title}” to Open Road.`);
-    return;
-  }
-  const selected = playlists[0];
-  addTrackToPlaylist(selected.id, track);
-  showToast(`Added “${track.title}” to ${selected.name}.`);
+  openPlaylistPicker([track]);
 }
 
 async function handleExport(playlistId) {
@@ -471,6 +513,31 @@ document.addEventListener('click', async (event) => {
     render();
     return;
   }
+  const playlistChoice = event.target.closest('[data-playlist-choice]');
+  if (playlistChoice) {
+    const playlist = getPlaylists().find((item) => item.id === playlistChoice.dataset.playlistChoice);
+    if (playlist) {
+      addTracksToPlaylist(playlist.id, pendingPlaylistTracks);
+      showToast(`Added ${pendingPlaylistTracks.length === 1 ? `“${pendingPlaylistTracks[0].title}”` : `${pendingPlaylistTracks.length} tracks`} to ${playlist.name}.`);
+    }
+    closePlaylistPicker();
+    return;
+  }
+
+  const pickerClose = event.target.closest('[data-playlist-picker-close]');
+  if (pickerClose) {
+    closePlaylistPicker();
+    return;
+  }
+
+  const addAlbum = event.target.closest('[data-add-album-tracks]');
+  if (addAlbum) {
+    const album = getCoverAlbumById(data.coverAlbums, addAlbum.dataset.addAlbumTracks);
+    const tracks = (album?.detail?.tracks || []).map((track) => albumTrackPlaylistItem(album, track));
+    openPlaylistPicker(tracks);
+    return;
+  }
+
   const open = event.target.closest('[data-open-url]');
   if (open) {
     openSpotifyUrl(open.dataset.openUrl, open.dataset.listened || '');
@@ -503,11 +570,6 @@ document.addEventListener('click', async (event) => {
     catch (error) { showToast(error.message); }
   }
 
-  const buildAlbum = event.target.closest('[data-build-album]');
-  if (buildAlbum) {
-    location.hash = '#/playlists';
-    showToast('Use ＋ beside individual covers to build the playlist you want.');
-  }
 });
 
 document.addEventListener('change', (event) => {
@@ -517,6 +579,17 @@ document.addEventListener('change', (event) => {
   render();
 });
 document.addEventListener('submit', (event) => {
+  if (event.target.matches('[data-playlist-picker-new]')) {
+    event.preventDefault();
+    const name = String(new FormData(event.target).get('name') || '').trim();
+    if (!name) return;
+    const created = createPlaylist(name);
+    addTracksToPlaylist(created.id, pendingPlaylistTracks);
+    showToast(`Created “${created.name}” and added ${pendingPlaylistTracks.length === 1 ? '1 track' : `${pendingPlaylistTracks.length} tracks`}.`);
+    closePlaylistPicker();
+    return;
+  }
+
   if (event.target.matches('[data-album-search-form]')) {
     event.preventDefault();
     coverAlbumSearchText = String(new FormData(event.target).get('albumSearch') || '').trim();
