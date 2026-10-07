@@ -1,10 +1,10 @@
 {
-  "version": "0.3.8",
+  "version": "0.3.9",
   "updated_at": "2026-10-07",
   "notes": [
-    "Completed track-level enrichment for the final two Start Here albums: Richard Thompson's 1000 Years of Popular Music and Phish's LivePhish, Vol. 15 10/31/96.",
-    "Both records now include verified Spotify artwork, complete track links and durations, source/original artists and genres, personnel, notes, and provenance.",
-    "The Phish release distinguishes Phish originals from its complete Talking Heads Remain in Light set and the concert's other covers.",
-    "All Start Here cover albums now have full detail records."
+    "Added full detail records for Charlie Hunter's Natty Dread and John Scofield's That's What I Say.",
+    "Natty Dread now carries the complete Bob Marley & The Wailers source relationship, verified Spotify artwork and track metadata, and quartet personnel on every track.",
+    "That's What I Say now includes verified artwork and track metadata plus Ray Charles source relationships, core personnel, and notable guest musicians by track.",
+    "MusicVerse now has 26 enriched cover albums with track-level detail."
   ]
 }
