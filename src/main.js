@@ -42,7 +42,7 @@ let pendingPlaylistTracks = [];
 const moduleMeta = {
   home: { label: 'Home', icon: '⌂' },
   coververse: { label: 'CoverVerse', img: '/assets/vinyl.svg' },
-  instruments: { label: 'InstrumentVerse', img: '/assets/accordion.svg' },
+  instruments: { label: 'SoundTrail', img: '/assets/accordion.svg' },
   playlists: { label: 'Playlists', img: '/assets/van.svg' },
   tabs: { label: 'Tabs & Chords', img: '/assets/guitar.svg' },
   log: { label: 'Listening Log', img: '/assets/mug.svg' },
@@ -176,7 +176,7 @@ function homeView() {
 
     <section class="module-ribbon" aria-label="MusicVerse modules">
       ${moduleWorld('coververse','CoverVerse','Crazy covers, full cover albums, and fresh takes on familiar songs.','/assets/vinyl.svg','world-rust')}
-      ${moduleWorld('instruments','InstrumentVerse','Explore instruments through styles, traditions, players, and recordings.','/assets/accordion.svg','world-gold')}
+      ${moduleWorld('instruments','SoundTrail','Explore instruments through styles, traditions, players, and recordings.','/assets/accordion.svg','world-gold')}
       ${moduleWorld('playlists','Playlists','Build collections for moods, moments, and long roads.','/assets/van.svg','world-sage')}
       ${moduleWorld('tabs','Tabs & Chords','Keep the tabs, chords, and references you actually use.','/assets/guitar.svg','world-gold')}
       ${moduleWorld('log','Listening Log','Track what you hear and rediscover the good stuff later.','/assets/mug.svg','world-teal')}
@@ -377,7 +377,7 @@ function coververseView() {
 }
 
 function instrumentView() {
-  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">INSTRUMENTVERSE</span><h1>InstrumentVerse</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
+  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">INSTRUMENTVERSE</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
 }
 
 function playlistTrackRow(track, playlistId) {
