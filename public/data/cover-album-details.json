@@ -4574,5 +4574,874 @@
         "musicians": []
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0051",
+    "releaseDate": "2007-09-25",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273470c84db4973aa3d28ad692e",
+    "originalArtists": [
+      "Joni Mitchell",
+      "Duke Ellington",
+      "Wayne Shorter"
+    ],
+    "originalGenres": [
+      "Singer-Songwriter",
+      "Jazz"
+    ],
+    "notes": [
+      "Hancock treats Joni Mitchell's writing as jazz repertoire rather than as a straight tribute, using elastic arrangements and a core quintet built around Wayne Shorter, Lionel Loueke, Dave Holland and Vinnie Colaiuta.",
+      "Eight of the ten tracks are Mitchell compositions. Duke Ellington's “Solitude” and Wayne Shorter's “Nefertiti” were included because of their importance to Mitchell's musical development.",
+      "Guest voices are used selectively: Norah Jones, Tina Turner, Corinne Bailey Rae, Joni Mitchell, Luciana Souza and Leonard Cohen."
+    ],
+    "personnel": [
+      {
+        "name": "Herbie Hancock",
+        "roles": [
+          "piano",
+          "arranger",
+          "producer"
+        ]
+      },
+      {
+        "name": "Wayne Shorter",
+        "roles": [
+          "soprano saxophone",
+          "tenor saxophone"
+        ]
+      },
+      {
+        "name": "Lionel Loueke",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Dave Holland",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Vinnie Colaiuta",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Larry Klein",
+        "roles": [
+          "producer",
+          "arranger"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Herbie Hancock official discography",
+        "url": "https://www.herbiehancock.com/music/discography/album/river-the-joni-letters/"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/d7a706e4-1fd8-4b25-88e7-831cc865426c"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/river-the-joni-letters-mw0000484971"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/3GwR5VxaMzB01ay6qIT3Yq"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0051-01",
+        "number": 1,
+        "title": "Court And Spark",
+        "durationSeconds": 454.986,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/3gWMoCASEIeR1K3WAGJQ2A",
+        "spotifyUri": "spotify:track:3gWMoCASEIeR1K3WAGJQ2A",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Norah Jones",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-02",
+        "number": 2,
+        "title": "Edith And The Kingpin",
+        "durationSeconds": 392.026,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/4JDhI64ngcTXeTr3gX1qW4",
+        "spotifyUri": "spotify:track:4JDhI64ngcTXeTr3gX1qW4",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tina Turner",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-03",
+        "number": 3,
+        "title": "Both Sides Now",
+        "durationSeconds": 458.16,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/2S6dk8S2NNvSGc6fGnBEBx",
+        "spotifyUri": "spotify:track:2S6dk8S2NNvSGc6fGnBEBx",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-04",
+        "number": 4,
+        "title": "River",
+        "durationSeconds": 324.96,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/7M0Od3nNXEdZ58O5FYNVvG",
+        "spotifyUri": "spotify:track:7M0Od3nNXEdZ58O5FYNVvG",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Corinne Bailey Rae",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-05",
+        "number": 5,
+        "title": "Sweet Bird",
+        "durationSeconds": 495,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/48s2ZAJHAL0XrPDqHKOW3j",
+        "spotifyUri": "spotify:track:48s2ZAJHAL0XrPDqHKOW3j",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-06",
+        "number": 6,
+        "title": "The Tea Leaf Prophecy (Lay Down Your Arms)",
+        "durationSeconds": 393.92,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/4iRyloGgb4CKuzFeYm4VzI",
+        "spotifyUri": "spotify:track:4iRyloGgb4CKuzFeYm4VzI",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Joni Mitchell",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-07",
+        "number": 7,
+        "title": "Solitude",
+        "durationSeconds": 342,
+        "originalArtist": "Duke Ellington",
+        "originalGenre": "Jazz",
+        "spotify": "https://open.spotify.com/track/3MUQEQpd2btoGL4nf4jAyJ",
+        "spotifyUri": "spotify:track:3MUQEQpd2btoGL4nf4jAyJ",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-08",
+        "number": 8,
+        "title": "Amelia",
+        "durationSeconds": 446.44,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/3V0lBG1CzYYJ1227B2Hg7y",
+        "spotifyUri": "spotify:track:3V0lBG1CzYYJ1227B2Hg7y",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Luciana Souza",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-09",
+        "number": 9,
+        "title": "Nefertiti",
+        "durationSeconds": 449.693,
+        "originalArtist": "Wayne Shorter",
+        "originalGenre": "Jazz",
+        "spotify": "https://open.spotify.com/track/5twe0zn2kikv71ghp4Bql9",
+        "spotifyUri": "spotify:track:5twe0zn2kikv71ghp4Bql9",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0051-10",
+        "number": 10,
+        "title": "The Jungle Line",
+        "durationSeconds": 300.666,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/46aYYtrAbugwNJFWfJCNwG",
+        "spotifyUri": "spotify:track:46aYYtrAbugwNJFWfJCNwG",
+        "musicians": [
+          {
+            "name": "Herbie Hancock",
+            "roles": [
+              "piano"
+            ]
+          },
+          {
+            "name": "Wayne Shorter",
+            "roles": [
+              "soprano saxophone",
+              "tenor saxophone"
+            ]
+          },
+          {
+            "name": "Lionel Loueke",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Dave Holland",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Vinnie Colaiuta",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Leonard Cohen",
+            "roles": [
+              "spoken word"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0058",
+    "releaseDate": "2020-07-10",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273c739f63a867e55ca9c0807eb",
+    "originalArtists": [
+      "Elizabeth Cotten",
+      "Bob Dylan",
+      "Traditional",
+      "John Prine",
+      "Norman Blake",
+      "Johnny Cash & June Carter",
+      "Arlie Duff"
+    ],
+    "originalGenres": [
+      "Folk",
+      "Singer-Songwriter",
+      "Bluegrass",
+      "Country"
+    ],
+    "notes": [
+      "Welch and Rawlings recorded this ten-song acoustic covers set at home, stripping the material down to two voices and two guitars.",
+      "The repertoire moves between traditional songs and writers including Elizabeth Cotten, Bob Dylan, John Prine and Norman Blake; “Jackson” is the country duet made famous by Johnny Cash and June Carter.",
+      "The album was originally issued in July 2020 and later won the Grammy Award for Best Folk Album."
+    ],
+    "personnel": [
+      {
+        "name": "Gillian Welch",
+        "roles": [
+          "vocals",
+          "acoustic guitar"
+        ]
+      },
+      {
+        "name": "David Rawlings",
+        "roles": [
+          "vocals",
+          "acoustic guitar",
+          "producer"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Acony Records",
+        "url": "https://store.aconyrecords.com/products/all-the-good-times-lp-reissue-preorder"
+      },
+      {
+        "label": "Gillian Welch Bandcamp",
+        "url": "https://gillianwelch.bandcamp.com/album/all-the-good-times"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/b349dfd8-eed3-4d14-af85-1a91b58dcdb5"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/30O0jOuezaGlLKpST18yoQ"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0058-01",
+        "number": 1,
+        "title": "Oh Babe It Ain't No Lie",
+        "durationSeconds": 264.593,
+        "originalArtist": "Elizabeth Cotten",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/0NrUJwn8vHgx22mpCmJKBy",
+        "spotifyUri": "spotify:track:0NrUJwn8vHgx22mpCmJKBy",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-02",
+        "number": 2,
+        "title": "Señor",
+        "durationSeconds": 327.231,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/0OwaPl8iDkvw50tbwphgC3",
+        "spotifyUri": "spotify:track:0OwaPl8iDkvw50tbwphgC3",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-03",
+        "number": 3,
+        "title": "Fly Around My Pretty Little Miss",
+        "durationSeconds": 157.373,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/1reaZz2xh2lG6rnTNnCCip",
+        "spotifyUri": "spotify:track:1reaZz2xh2lG6rnTNnCCip",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-04",
+        "number": 4,
+        "title": "Hello In There",
+        "durationSeconds": 346.378,
+        "originalArtist": "John Prine",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/1iO3oRHdlMDocoRUnpKPsi",
+        "spotifyUri": "spotify:track:1iO3oRHdlMDocoRUnpKPsi",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-05",
+        "number": 5,
+        "title": "Poor Ellen Smith",
+        "durationSeconds": 210.221,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/3ClQGKjDEHygK03JAkExgn",
+        "spotifyUri": "spotify:track:3ClQGKjDEHygK03JAkExgn",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-06",
+        "number": 6,
+        "title": "All The Good Times Are Past And Gone",
+        "durationSeconds": 234.03,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/194FyNxZMekPzN8ZWiGZsI",
+        "spotifyUri": "spotify:track:194FyNxZMekPzN8ZWiGZsI",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-07",
+        "number": 7,
+        "title": "Ginseng Sullivan",
+        "durationSeconds": 223.207,
+        "originalArtist": "Norman Blake",
+        "originalGenre": "Bluegrass",
+        "spotify": "https://open.spotify.com/track/1DWlA6FY3qFEYVVbCwmgJO",
+        "spotifyUri": "spotify:track:1DWlA6FY3qFEYVVbCwmgJO",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-08",
+        "number": 8,
+        "title": "Abandoned Love",
+        "durationSeconds": 224.978,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/5dSaBiVjHUQy38JZTuq3Np",
+        "spotifyUri": "spotify:track:5dSaBiVjHUQy38JZTuq3Np",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-09",
+        "number": 9,
+        "title": "Jackson",
+        "durationSeconds": 212.308,
+        "originalArtist": "Johnny Cash & June Carter",
+        "originalGenre": "Country",
+        "spotify": "https://open.spotify.com/track/3NQK1uTiWfaeO9DhRtkD1A",
+        "spotifyUri": "spotify:track:3NQK1uTiWfaeO9DhRtkD1A",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0058-10",
+        "number": 10,
+        "title": "Y'all Come",
+        "durationSeconds": 145.745,
+        "originalArtist": "Arlie Duff",
+        "originalGenre": "Country",
+        "spotify": "https://open.spotify.com/track/63sPJziVNwswrvvZaSmT5F",
+        "spotifyUri": "spotify:track:63sPJziVNwswrvvZaSmT5F",
+        "musicians": [
+          {
+            "name": "Gillian Welch",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          },
+          {
+            "name": "David Rawlings",
+            "roles": [
+              "vocals",
+              "acoustic guitar"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
