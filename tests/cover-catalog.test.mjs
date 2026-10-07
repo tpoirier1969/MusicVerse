@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   filterCoverAlbums,
   formatDuration,
+  getAlbumArtwork,
   getAlbumOriginalArtists,
   getAlbumSearchMatches,
   getFacetOptions,
@@ -29,6 +30,17 @@ test('merges detail records without duplicating albums', () => {
   assert.equal(merged.length, 2);
   assert.equal(merged[0].detail.albumId, 'a1');
   assert.equal(merged[1].detail, null);
+});
+
+test('uses verified detail artwork as the canonical album image', () => {
+  const merged = mergeCoverAlbums(albums, [{
+    albumId: 'a1',
+    artwork: 'https://i.scdn.co/image/test-artwork',
+    tracks: [],
+  }]);
+  assert.equal(getAlbumArtwork(merged[0]), 'https://i.scdn.co/image/test-artwork');
+  assert.equal(getAlbumArtwork({ artwork: 'https://example.com/fallback.jpg' }), 'https://example.com/fallback.jpg');
+  assert.equal(getAlbumArtwork(null), '');
 });
 
 test('filters by cover artist and source/original artist', () => {

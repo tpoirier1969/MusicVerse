@@ -1,11 +1,10 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "updated_at": "2026-10-07",
   "notes": [
-    "Renamed InstrumentVerse to SoundTrail while preserving the existing internal route and data identifiers.",
-    "Removed the duplicate home-page module ribbon so the left navigation is the single primary module menu.",
-    "Rebuilt Listening Log around Spotify recently played history, with MusicVerse-open activity shown separately and not counted as listening.",
-    "Spotify recently played imports accumulate locally over time, and Spotify authorization now requests the listening-history scope.",
-    "Updated Spotify playlist creation to the current /me/playlists endpoint."
+    "Uses verified album artwork consistently in recent albums, featured albums, album grid and list views, album detail, track listings, and newly added playlist tracks.",
+    "Album tracks inherit their album cover by default; track-specific artwork can override it when verified.",
+    "Crazy Covers now support verified per-track artwork without substituting decorative or guessed images.",
+    "Albums that have not yet been enriched continue to use neutral MusicVerse placeholders rather than incorrect cover art."
   ]
 }

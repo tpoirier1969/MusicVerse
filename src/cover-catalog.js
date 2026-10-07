@@ -10,6 +10,10 @@ export function mergeCoverAlbums(albums, details) {
   }));
 }
 
+export function getAlbumArtwork(album) {
+  return String(album?.detail?.artwork || album?.artwork || '').trim();
+}
+
 export function getAlbumOriginalArtists(album) {
   return cleanList([
     ...(album?.detail?.originalArtists || []),

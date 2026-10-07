@@ -3,6 +3,7 @@ import { loadMusicData } from './data.js';
 import {
   filterCoverAlbums,
   formatDuration,
+  getAlbumArtwork,
   getAlbumOriginalArtists,
   getAlbumOriginalGenres,
   getAlbumSearchMatches,
@@ -144,9 +145,13 @@ function moduleWorld(slug, title, text, img, className = '') {
 function recentAlbumCard(album, index) {
   const label = album.album || album.title || 'Untitled';
   const artist = album.artist || 'Unknown artist';
+  const artwork = getAlbumArtwork(album);
   const backgrounds = ['/assets/roadscape.svg','/assets/vinyl.svg','/assets/guitar.svg','/assets/mug.svg','/assets/library.svg'];
+  const art = artwork
+    ? `<span class="recent-art"><img src="${esc(artwork)}" alt=""></span>`
+    : `<span class="recent-art" style="--recent-image:url('${backgrounds[index % backgrounds.length]}')"></span>`;
   return `<a class="recent-card" href="#/coververse?album=${encodeURIComponent(album.id)}&tab=albums" aria-label="View ${esc(label)} in MusicVerse">
-    <span class="recent-art" style="--recent-image:url('${backgrounds[index % backgrounds.length]}')"></span>
+    ${art}
     <span class="recent-meta"><strong>${esc(label)}</strong><span>${esc(artist)}</span><small>${esc(album.genre || 'Album')}</small></span>
   </a>`;
 }
@@ -202,8 +207,9 @@ function coverSubnav() {
 function featuredAlbum() {
   const album = data.coverAlbums.find((item) => item.startHere) || data.coverAlbums[0] || {};
   const spotifyUrl = album.spotify || '';
+  const artwork = getAlbumArtwork(album);
   return `<section class="featured-album organic-panel">
-    <div class="featured-art" aria-hidden="true"><img src="/assets/roadscape.svg" alt=""><span class="record-peek"><img src="/assets/vinyl.svg" alt=""></span></div>
+    <div class="featured-art${artwork ? ' has-art' : ''}" aria-hidden="true"><img src="${esc(artwork || '/assets/roadscape.svg')}" alt=""><span class="record-peek"><img src="/assets/vinyl.svg" alt=""></span></div>
     <div class="featured-copy">
       <span class="eyebrow">FEATURED COVER ALBUM</span>
       <h2>${esc(album.album || 'Different Skies')}</h2>
@@ -223,13 +229,14 @@ function featuredAlbum() {
 function crazyRows(items) {
   return `<div class="track-list">${items.map((track) => {
     const id = `cover:${track.sourceArtist}:${track.song}:${track.coverArtist}`;
+    const artwork = String(track.artwork || '').trim();
     return `<article class="track-row">
-      <button class="round-play" data-open-url="${esc(track.spotify)}" data-listened="${esc(id)}" aria-label="Open ${esc(track.song)}">▶</button>
+      <button class="round-play track-art-play${artwork ? ' has-art' : ''}" ${artwork ? `style="--track-art:url('${esc(artwork)}')"` : ''} data-open-url="${esc(track.spotify)}" data-listened="${esc(id)}" aria-label="Open ${esc(track.song)}"><span aria-hidden="true">▶</span></button>
       <div class="track-main"><strong>${esc(track.song)}</strong><span>${esc(track.coverArtist)}</span></div>
       <div class="track-original"><small>Originally by</small><span>${esc(track.sourceArtist)}</span></div>
       <span class="style-pill">${esc(track.style)}</span>
       <button class="icon-btn${isFavorite(id)?' is-favorite':''}" data-favorite="${esc(id)}" title="Favorite">♥</button>
-      <button class="icon-btn" data-add-track='${esc(JSON.stringify({id,title:track.song,artist:track.coverArtist,originalArtist:track.sourceArtist,spotifyUrl:track.spotify,spotifyUri:spotifyTrackUri(track.spotify)}))}' title="Add to playlist">＋</button>
+      <button class="icon-btn" data-add-track='${esc(JSON.stringify({id,title:track.song,artist:track.coverArtist,originalArtist:track.sourceArtist,spotifyUrl:track.spotify,spotifyUri:spotifyTrackUri(track.spotify),artwork:track.artwork || ''}))}' title="Add to playlist">＋</button>
     </article>`;
   }).join('')}</div>`;
 }
@@ -282,18 +289,23 @@ function coverAlbumBrowser() {
 }
 
 function coverAlbumsGrid(items) {
-  return `<div class="album-grid album-grid-browser">${items.map((album, index) => `<a class="album-card album-card-link" href="${albumDetailHref(album.id)}">
-    <div class="album-card-art" style="--album-bg:url('${album.detail?.artwork || (index % 2 ? '/assets/vinyl.svg' : '/assets/roadscape.svg')}')"></div>
+  return `<div class="album-grid album-grid-browser">${items.map((album, index) => {
+    const artwork = getAlbumArtwork(album);
+    const fallback = index % 2 ? '/assets/vinyl.svg' : '/assets/roadscape.svg';
+    return `<a class="album-card album-card-link" href="${albumDetailHref(album.id)}">
+    <div class="album-card-art${artwork ? ' has-art' : ''}" style="--album-bg:url('${esc(artwork || fallback)}')"></div>
     <div><span class="eyebrow">${esc(album.genre || 'Unknown genre')}</span><h3>${esc(album.album)}</h3><p>${esc(album.artist)}</p><small>${esc(album.approach || '')}</small>${albumSearchHitSummary(album)}</div>
     <span class="round-arrow" aria-hidden="true">→</span>
-  </a>`).join('')}</div>`;
+  </a>`;
+  }).join('')}</div>`;
 }
 
 function coverAlbumsList(items) {
   return `<div class="album-list-view"><div class="album-list-head"><span>Album</span><span>Cover artist</span><span>Cover genre</span><span>Original artist</span><span>Original genre</span></div>${items.map((album) => {
     const originals = getAlbumOriginalArtists(album);
     const originalGenres = getAlbumOriginalGenres(album);
-    return `<a class="album-list-row" href="${albumDetailHref(album.id)}"><span class="album-list-title"><strong>${esc(album.album)}</strong>${albumSearchHitSummary(album)}</span><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
+    const artwork = getAlbumArtwork(album);
+    return `<a class="album-list-row" href="${albumDetailHref(album.id)}"><span class="album-list-title"><span class="album-list-art">${artwork ? `<img src="${esc(artwork)}" alt="">` : '<span aria-hidden="true">♪</span>'}</span><span><strong>${esc(album.album)}</strong>${albumSearchHitSummary(album)}</span></span><span>${esc(album.artist)}</span><span>${esc(album.genre || '—')}</span><span>${esc(originals.join(', ') || '—')}</span><span>${esc(originalGenres.join(', ') || '—')}</span></a>`;
   }).join('')}</div>`;
 }
 function accordionGrid() {
@@ -330,6 +342,7 @@ function albumTrackPlaylistItem(album, track) {
     originalArtist: track.originalArtist || '',
     spotifyUrl: track.spotify || '',
     spotifyUri: track.spotifyUri || spotifyTrackUri(track.spotify),
+    artwork: track.artwork || getAlbumArtwork(album),
   };
 }
 
@@ -339,7 +352,7 @@ function coverAlbumDetailView(album) {
   const tracks = detail.tracks || [];
   const originals = getAlbumOriginalArtists(album);
   const originalGenres = getAlbumOriginalGenres(album);
-  const artwork = detail.artwork || '/assets/roadscape.svg';
+  const artwork = getAlbumArtwork(album) || '/assets/roadscape.svg';
   const notes = detail.notes || [];
   const personnel = detail.personnel || [];
   const detailSearchText = hashParams().get('q') || '';
@@ -359,7 +372,7 @@ function coverAlbumDetailView(album) {
   <section class="album-detail-body">
     <div class="album-notes organic-panel"><div><span class="eyebrow">WHY IT'S HERE</span><h2>Album notes</h2>${notes.length ? notes.map((note) => `<p>${esc(note)}</p>`).join('') : `<p>${esc(album.approach || 'Additional notes have not been added yet.')}</p>`}</div>${personnel.length ? `<div><span class="eyebrow">PERSONNEL</span><h3>Musicians</h3><ul>${personnel.map((person) => `<li><strong>${esc(person.name)}</strong><span>${esc((person.roles || []).join(', '))}</span></li>`).join('')}</ul></div>` : ''}</div>
     <div class="track-table-wrap organic-panel"><div class="section-heading"><div><span class="eyebrow">TRACKS</span><h2>Track listing</h2><p>${tracks.length ? `${tracks.length} verified tracks` : 'Track details have not been added for this album yet.'}</p>${detailSearchText ? `<span class="detail-search-note">Search: “${esc(detailSearchText)}” · ${matchingTrackIds.size} matching ${matchingTrackIds.size === 1 ? 'track' : 'tracks'}</span>` : ''}</div></div>
-      ${tracks.length ? `<div class="album-track-table"><div class="album-track-head"><span>#</span><span>Track</span><span>Original artist</span><span>Length</span><span>Musicians</span><span>Actions</span></div>${tracks.map((track) => `<div class="album-track-row${matchingTrackIds.has(track.id) ? ' is-search-hit' : ''}"><span>${esc(track.number)}</span><div><strong>${esc(track.title)}</strong>${matchingTrackIds.has(track.id) ? '<em class="track-match-label">Search match</em>' : ''}${track.originalGenre ? `<small>${esc(track.originalGenre)}</small>` : ''}</div><span>${track.isCover === false ? '<em class="original-track-label">Original</em>' : esc(track.originalArtist || '—')}</span><span>${formatDuration(track.durationSeconds)}</span><span class="track-musicians">${esc(musicianSummary(track.musicians || []))}</span><span class="track-actions"><button data-add-track='${esc(JSON.stringify(albumTrackPlaylistItem(album, track)))}'>＋ Playlist</button><button data-open-url="${esc(track.spotify || '')}" data-listened="${esc(track.id)}"${track.spotify ? '' : ' disabled'}>▶ Play</button><button data-open-url="${esc(track.spotify || '')}"${track.spotify ? '' : ' disabled'}>Spotify ↗</button></span></div>`).join('')}</div>` : '<div class="empty-track-data">No verified track-level data has been added yet. MusicVerse leaves it blank rather than guessing.</div>'}
+      ${tracks.length ? `<div class="album-track-table"><div class="album-track-head"><span>#</span><span>Track</span><span>Original artist</span><span>Length</span><span>Musicians</span><span>Actions</span></div>${tracks.map((track) => `<div class="album-track-row${matchingTrackIds.has(track.id) ? ' is-search-hit' : ''}"><span>${esc(track.number)}</span><div class="album-track-title"><span class="album-track-art"><img src="${esc(track.artwork || artwork)}" alt=""></span><span><strong>${esc(track.title)}</strong>${matchingTrackIds.has(track.id) ? '<em class="track-match-label">Search match</em>' : ''}${track.originalGenre ? `<small>${esc(track.originalGenre)}</small>` : ''}</span></div><span>${track.isCover === false ? '<em class="original-track-label">Original</em>' : esc(track.originalArtist || '—')}</span><span>${formatDuration(track.durationSeconds)}</span><span class="track-musicians">${esc(musicianSummary(track.musicians || []))}</span><span class="track-actions"><button data-add-track='${esc(JSON.stringify(albumTrackPlaylistItem(album, track)))}'>＋ Playlist</button><button data-open-url="${esc(track.spotify || '')}" data-listened="${esc(track.id)}"${track.spotify ? '' : ' disabled'}>▶ Play</button><button data-open-url="${esc(track.spotify || '')}"${track.spotify ? '' : ' disabled'}>Spotify ↗</button></span></div>`).join('')}</div>` : '<div class="empty-track-data">No verified track-level data has been added yet. MusicVerse leaves it blank rather than guessing.</div>'}
     </div>
   </section>`);
 }
@@ -376,7 +389,7 @@ function instrumentView() {
 }
 
 function playlistTrackRow(track, playlistId) {
-  return `<div class="playlist-track"><span class="playlist-track-dot">●</span><div><strong>${esc(track.title)}</strong><small>${esc(track.artist)}${track.originalArtist ? ` · originally ${esc(track.originalArtist)}` : ''}</small></div><button data-remove-track="${esc(playlistId)}|${esc(track.id)}">×</button></div>`;
+  return `<div class="playlist-track"><span class="playlist-track-art">${track.artwork ? `<img src="${esc(track.artwork)}" alt="">` : '<span aria-hidden="true">♪</span>'}</span><div><strong>${esc(track.title)}</strong><small>${esc(track.artist)}${track.originalArtist ? ` · originally ${esc(track.originalArtist)}` : ''}</small></div><button data-remove-track="${esc(playlistId)}|${esc(track.id)}">×</button></div>`;
 }
 
 function playlistsView() {
