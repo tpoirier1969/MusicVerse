@@ -1,4 +1,5 @@
 import { isCoverAlbumEligible, mergeCoverAlbums } from './cover-catalog.js';
+import { loadSupabaseCatalog } from './supabase-catalog.js';
 
 const DATA_BASE = '/data';
 
@@ -15,7 +16,7 @@ export async function loadAppVersion() {
   return String(payload?.version || '').trim();
 }
 
-export async function loadMusicData() {
+async function loadBundledMusicData() {
   const [coverAlbums, coverAlbumDetails, crazyCovers, soundTrail] = await Promise.all([
     readJson('cover-albums'),
     readJson('cover-album-details'),
@@ -27,5 +28,15 @@ export async function loadMusicData() {
     coverAlbums: mergedCoverAlbums.filter(isCoverAlbumEligible),
     crazyCovers,
     soundTrail,
+    catalogSource: 'bundled-fallback',
   };
+}
+
+export async function loadMusicData() {
+  try {
+    return await loadSupabaseCatalog();
+  } catch (error) {
+    console.warn('Supabase catalog unavailable; using bundled fallback.', error);
+    return loadBundledMusicData();
+  }
 }

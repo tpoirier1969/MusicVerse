@@ -35,7 +35,7 @@ import {
 } from './spotify.js';
 
 const app = document.querySelector('#app');
-let data = { coverAlbums: [], crazyCovers: [], soundTrail: { instruments: [], recordings: [] } };
+let data = { coverAlbums: [], crazyCovers: [], soundTrail: { instruments: [], recordings: [] }, catalogSource: 'loading' };
 let appVersion = '';
 let activeCoverTab = 'start';
 let activeSoundTrailInstrument = 'accordion';
@@ -120,7 +120,7 @@ function shell(content) {
       <div class="sidebar-landscape" aria-hidden="true"></div>
     </aside>
     <main class="main-canvas">
-      ${appVersion ? `<div class="version-flag" title="MusicVerse application version">MusicVerse v${esc(appVersion)}</div>` : ''}
+      ${appVersion ? `<div class="version-flag" title="MusicVerse application version">MusicVerse v${esc(appVersion)}</div>` : ''}${data.catalogSource === 'bundled-fallback' ? '<div class="catalog-fallback-flag" title="Supabase is unavailable; MusicVerse is using its bundled read-only catalog copy.">Local catalog fallback</div>' : ''}
       ${content}
     </main>
     <nav class="mobile-nav" aria-label="Mobile navigation">
