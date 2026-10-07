@@ -19,7 +19,9 @@
     "genre": "Jam Band",
     "approach": "Set 2 performs Pink Floyd’s Animals in full",
     "why": "The Spotify release combines both sets; the second set is the Frog Brigade’s complete, elastic run through Animals.",
-    "spotify": "https://open.spotify.com/album/6r4geKO5K1yjlcJgxRljDd?utm_source=openai&utm_medium=chatgpt&request_id=c82cce7b-a8f3-4c97-a82e-79cdb6d5a301"
+    "spotify": "https://open.spotify.com/album/6r4geKO5K1yjlcJgxRljDd?utm_source=openai&utm_medium=chatgpt&request_id=c82cce7b-a8f3-4c97-a82e-79cdb6d5a301",
+    "allCovers": false,
+    "catalogNote": "Mixed release: Set 1 contains original material; Set 2 is the Pink Floyd Animals cover set."
   },
   {
     "id": "cover-album-0003",
@@ -30,7 +32,9 @@
     "genre": "Jam Band",
     "approach": "Live Pink Floyd program",
     "why": "Warren Haynes and Mule stretch Pink Floyd into a heavy improvisational live set; the deluxe Spotify edition also contains the rest of the concert.",
-    "spotify": "https://open.spotify.com/album/6YzLBF5Z5MsscSAG2GpGpi?utm_source=openai&utm_medium=chatgpt&request_id=4ad349e1-7895-4482-836b-c2a5ae80879e"
+    "spotify": "https://open.spotify.com/album/6YzLBF5Z5MsscSAG2GpGpi?utm_source=openai&utm_medium=chatgpt&request_id=4ad349e1-7895-4482-836b-c2a5ae80879e",
+    "allCovers": false,
+    "catalogNote": "Mixed deluxe concert release: includes Gov't Mule originals outside the Pink Floyd cover program."
   },
   {
     "id": "cover-album-0004",
@@ -250,7 +254,9 @@
     "genre": "Singer-Songwriter",
     "approach": "Mostly 1950s rock ’n’ roll covers, plus three originals",
     "why": "McCartney revisits the pre-Beatles music that formed him, but plays it with far more muscle than reverence.",
-    "spotify": "https://open.spotify.com/album/5oPrd92C5K6LEVnTUznLAi?utm_source=openai&utm_medium=chatgpt&request_id=3e31c341-7e7a-4a14-be8a-aec168b3f931"
+    "spotify": "https://open.spotify.com/album/5oPrd92C5K6LEVnTUznLAi?utm_source=openai&utm_medium=chatgpt&request_id=3e31c341-7e7a-4a14-be8a-aec168b3f931",
+    "allCovers": false,
+    "catalogNote": "Mixed album: includes three Paul McCartney originals."
   },
   {
     "id": "cover-album-0024",
@@ -420,13 +426,15 @@
   {
     "id": "cover-album-0039",
     "rank": 9,
-    "startHere": true,
+    "startHere": false,
     "artist": "Cat Power",
     "album": "The Covers Record",
     "genre": "Singer-Songwriter",
     "approach": "Sparse, intimate reductions of other writers’ songs",
     "why": "Chan Marshall often changes tempo, harmony and emotional temperature so completely that the source song nearly disappears.",
-    "spotify": "https://open.spotify.com/album/4dZBOO1PjjmtPA974xHMND?utm_source=openai&utm_medium=chatgpt&request_id=5a4f8bb1-f8bc-4bec-8e7b-c0307067c2e9"
+    "spotify": "https://open.spotify.com/album/4dZBOO1PjjmtPA974xHMND?utm_source=openai&utm_medium=chatgpt&request_id=5a4f8bb1-f8bc-4bec-8e7b-c0307067c2e9",
+    "allCovers": false,
+    "catalogNote": "Mixed album: includes a new recording of Cat Power's own “In This Hole.”"
   },
   {
     "id": "cover-album-0040",
@@ -459,7 +467,9 @@
     "genre": "Jazz",
     "approach": "Mostly standards, plus two reworkings of Mitchell originals",
     "why": "Orchestral jazz arrangements show how deeply Mitchell’s harmonic language overlaps with the standards tradition.",
-    "spotify": "https://open.spotify.com/album/2zK66VRY3rDGDuZcGvRJdZ?utm_source=openai&utm_medium=chatgpt&request_id=f77f6abb-bec5-4649-b469-1f1c6bd45708"
+    "spotify": "https://open.spotify.com/album/2zK66VRY3rDGDuZcGvRJdZ?utm_source=openai&utm_medium=chatgpt&request_id=f77f6abb-bec5-4649-b469-1f1c6bd45708",
+    "allCovers": false,
+    "catalogNote": "Mixed album: includes two Joni Mitchell originals reworked alongside standards."
   },
   {
     "id": "cover-album-0043",
@@ -541,13 +551,15 @@
   {
     "id": "cover-album-0050",
     "rank": 7,
-    "startHere": true,
+    "startHere": false,
     "artist": "Bruce Springsteen",
     "album": "We Shall Overcome: The Seeger Sessions",
     "genre": "Singer-Songwriter",
     "approach": "Pete Seeger-associated folk and traditional songs",
     "why": "Springsteen swaps E Street precision for a loose, communal folk-band sound that feels more like a crowded room than a museum.",
-    "spotify": "https://open.spotify.com/album/2O3avtEIE8xX9F0zcIjIZI?utm_source=openai&utm_medium=chatgpt&request_id=f5481e06-ad78-4c31-9fad-32527c8bb5a8"
+    "spotify": "https://open.spotify.com/album/2O3avtEIE8xX9F0zcIjIZI?utm_source=openai&utm_medium=chatgpt&request_id=f5481e06-ad78-4c31-9fad-32527c8bb5a8",
+    "allCovers": false,
+    "catalogNote": "Mixed edition: includes Bruce Springsteen's “American Land” alongside the Seeger/traditional material."
   },
   {
     "id": "cover-album-0051",
@@ -618,13 +630,15 @@
   {
     "id": "cover-album-0057",
     "rank": 57,
-    "startHere": true,
+    "startHere": false,
     "artist": "Cat Power",
     "album": "Jukebox",
     "genre": "Singer-Songwriter",
     "approach": "Sparse rock, soul and folk covers",
     "why": "Chan Marshall again uses tempo, space and phrasing to make familiar songs feel detached from their original recordings.",
-    "spotify": "https://open.spotify.com/album/2uhG1PSozFcBPi4ASO0UH7?utm_source=openai&utm_medium=chatgpt&request_id=a25d8a6d-acce-4d9b-bbef-134e0b6c7d58"
+    "spotify": "https://open.spotify.com/album/2uhG1PSozFcBPi4ASO0UH7?utm_source=openai&utm_medium=chatgpt&request_id=a25d8a6d-acce-4d9b-bbef-134e0b6c7d58",
+    "allCovers": false,
+    "catalogNote": "Mixed album: includes Cat Power originals “Metal Heart” and “Song To Bobby.”"
   },
   {
     "id": "cover-album-0058",
@@ -728,13 +742,15 @@
   {
     "id": "cover-album-0067",
     "rank": 67,
-    "startHere": true,
+    "startHere": false,
     "artist": "Lucinda Williams",
     "album": "Runnin' Down a Dream: A Tribute to Tom Petty",
     "genre": "Singer-Songwriter",
     "approach": "Tom Petty songbook",
     "why": "Williams’ rough-edged voice shifts Petty’s melodic rock songs toward blues, country and bar-band grit.",
-    "spotify": "https://open.spotify.com/album/45YARZ102DY7sx4ieWBzKc?utm_source=openai&utm_medium=chatgpt&request_id=ace4a788-bef2-4714-af97-6551290374ba"
+    "spotify": "https://open.spotify.com/album/45YARZ102DY7sx4ieWBzKc?utm_source=openai&utm_medium=chatgpt&request_id=ace4a788-bef2-4714-af97-6551290374ba",
+    "allCovers": false,
+    "catalogNote": "Mixed tribute album: closes with Lucinda Williams' original “Stolen Moments.”"
   },
   {
     "id": "cover-album-0068",
@@ -800,7 +816,9 @@
     "genre": "Rock",
     "approach": "Mostly covers of pop and rock standards",
     "why": "Ferry continues the lounge-glam transformation of songs that originally lived in very different musical settings.",
-    "spotify": "https://open.spotify.com/album/4GM7Fz5hzjOfFyPkPlHB6x?utm_source=openai&utm_medium=chatgpt&request_id=7dc81977-2bbc-4589-a9b7-8cabd5d23497"
+    "spotify": "https://open.spotify.com/album/4GM7Fz5hzjOfFyPkPlHB6x?utm_source=openai&utm_medium=chatgpt&request_id=7dc81977-2bbc-4589-a9b7-8cabd5d23497",
+    "allCovers": false,
+    "catalogNote": "Mixed album: the title track is a Bryan Ferry original."
   },
   {
     "id": "cover-album-0074",
@@ -1130,18 +1148,22 @@
     "genre": "Jam Band",
     "approach": "Includes The Beatles' White Album performed in full",
     "why": "The famous Halloween costume set places a complete Beatles album inside a much larger Phish concert.",
-    "spotify": "https://open.spotify.com/album/3iRKGdBVBAfeLqQmiAZwsK?utm_source=openai&utm_medium=chatgpt&request_id=fe68c36f-10a7-4e7e-a3dd-1ead095b3ac1"
+    "spotify": "https://open.spotify.com/album/3iRKGdBVBAfeLqQmiAZwsK?utm_source=openai&utm_medium=chatgpt&request_id=fe68c36f-10a7-4e7e-a3dd-1ead095b3ac1",
+    "allCovers": false,
+    "catalogNote": "Mixed live concert: The Beatles' White Album set is surrounded by Phish originals and other material."
   },
   {
     "id": "cover-album-0104",
     "rank": 104,
-    "startHere": true,
+    "startHere": false,
     "artist": "Phish",
     "album": "LivePhish, Vol. 15 10/31/96 (The Omni, Atlanta, GA)",
     "genre": "Jam Band",
     "approach": "Includes Talking Heads' Remain in Light performed in full",
     "why": "Remain in Light is especially compatible with Phish: grooves expand, rhythms interlock, and the cover set feeds directly into their jam vocabulary.",
-    "spotify": "https://open.spotify.com/album/22Vo3uGnJpuhVpuU9QiSxv?utm_source=openai&utm_medium=chatgpt&request_id=93a4fe36-80f0-48d5-9aaf-54206b886866"
+    "spotify": "https://open.spotify.com/album/22Vo3uGnJpuhVpuU9QiSxv?utm_source=openai&utm_medium=chatgpt&request_id=93a4fe36-80f0-48d5-9aaf-54206b886866",
+    "allCovers": false,
+    "catalogNote": "Mixed live concert: the Talking Heads Remain in Light set is surrounded by Phish originals and other covers."
   },
   {
     "id": "cover-album-0105",
