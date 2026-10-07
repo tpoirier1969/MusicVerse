@@ -10745,5 +10745,737 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0046",
+    "releaseDate": "1995-05-10",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2736744e8218a68ef159d400236",
+    "originalArtists": [
+      "Screamin' Jay Hawkins",
+      "Willie Dixon",
+      "The Supremes",
+      "Bob Dylan",
+      "Little Willie John",
+      "Mose Allison",
+      "Cilla Black",
+      "Little Richard",
+      "The Louvin Brothers",
+      "James Carr",
+      "Ray Noble featuring Al Bowlly",
+      "Jesse Winchester",
+      "The Drifters",
+      "Aretha Franklin",
+      "The Kinks"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "Costello described the project as some of his favorite songs performed with some of his favorite musicians; the repertoire deliberately reaches beyond obvious standards.",
+      "The linked Spotify edition uses the original 15-song album sequence. MusicVerse leaves track-level Spotify matches and source-genre labels blank where they have not yet been verified."
+    ],
+    "personnel": [
+      {
+        "name": "Elvis Costello",
+        "roles": [
+          "vocals",
+          "harmonica",
+          "producer"
+        ]
+      },
+      {
+        "name": "James Burton",
+        "roles": [
+          "acoustic guitar",
+          "electric guitar",
+          "rhythm guitar"
+        ]
+      },
+      {
+        "name": "Jim Keltner",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Larry Knechtel",
+        "roles": [
+          "piano",
+          "Hammond organ",
+          "electric piano"
+        ]
+      },
+      {
+        "name": "Marc Ribot",
+        "roles": [
+          "banjo",
+          "electric guitar",
+          "rhythm guitar",
+          "classical guitar",
+          "horn"
+        ]
+      },
+      {
+        "name": "Jerry Scheff",
+        "roles": [
+          "bass"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Elvis Costello official discography",
+        "url": "https://elviscostello.com/discography/kojak-variety/"
+      },
+      {
+        "label": "Elvis Costello official liner notes",
+        "url": "https://elviscostello.com/liner_notes/kojak-variety/"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/2ThJPrLwKqqmfF0sMawv4L"
+      },
+      {
+        "label": "MusicBrainz release credits",
+        "url": "https://musicbrainz.org/release/b17116b1-d637-4dd6-80d7-825a9f12c81a"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0046-01",
+        "number": 1,
+        "title": "Strange",
+        "durationSeconds": 159,
+        "originalArtist": "Screamin' Jay Hawkins",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-02",
+        "number": 2,
+        "title": "Hidden Charms",
+        "durationSeconds": 209,
+        "originalArtist": "Willie Dixon",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-03",
+        "number": 3,
+        "title": "Remove This Doubt",
+        "durationSeconds": 232,
+        "originalArtist": "The Supremes",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-04",
+        "number": 4,
+        "title": "I Threw It All Away",
+        "durationSeconds": 203,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-05",
+        "number": 5,
+        "title": "Leave My Kitten Alone",
+        "durationSeconds": 190,
+        "originalArtist": "Little Willie John",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-06",
+        "number": 6,
+        "title": "Everybody's Crying Mercy",
+        "durationSeconds": 245,
+        "originalArtist": "Mose Allison",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-07",
+        "number": 7,
+        "title": "I've Been Wrong Before",
+        "durationSeconds": 182,
+        "originalArtist": "Cilla Black",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-08",
+        "number": 8,
+        "title": "Bama Lama Bama Loo",
+        "durationSeconds": 165,
+        "originalArtist": "Little Richard",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-09",
+        "number": 9,
+        "title": "Must You Throw Dirt in My Face",
+        "durationSeconds": 229,
+        "originalArtist": "The Louvin Brothers",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-10",
+        "number": 10,
+        "title": "Pouring Water on a Drowning Man",
+        "durationSeconds": 219,
+        "originalArtist": "James Carr",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-11",
+        "number": 11,
+        "title": "The Very Thought of You",
+        "durationSeconds": 222,
+        "originalArtist": "Ray Noble featuring Al Bowlly",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-12",
+        "number": 12,
+        "title": "Payday",
+        "durationSeconds": 177,
+        "originalArtist": "Jesse Winchester",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-13",
+        "number": 13,
+        "title": "Please Stay",
+        "durationSeconds": 289,
+        "originalArtist": "The Drifters",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-14",
+        "number": 14,
+        "title": "Running out of Fools",
+        "durationSeconds": 184,
+        "originalArtist": "Aretha Franklin",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0046-15",
+        "number": 15,
+        "title": "Days",
+        "durationSeconds": 296,
+        "originalArtist": "The Kinks",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0012",
+    "releaseDate": "1973-10-19",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2733f91d314b2b4be4f88dafe83",
+    "originalArtists": [
+      "The Pretty Things",
+      "Them",
+      "The Yardbirds",
+      "Pink Floyd",
+      "The Mojos",
+      "The Who",
+      "The Easybeats",
+      "The Merseys",
+      "The Kinks"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "Bowie conceived Pin Ups as a collection of songs by groups he had heard around the London club circuit in the mid-1960s; his own sleeve note names Pretty Things, Them, Yardbirds, Syd's Pink Floyd, Mojos, Who, Easybeats, Merseys and Kinks.",
+      "This MusicVerse record follows the linked 2015-remaster Spotify edition, so its track durations differ slightly from the original 1973 vinyl timings."
+    ],
+    "personnel": [
+      {
+        "name": "David Bowie",
+        "roles": [
+          "vocals",
+          "guitar",
+          "tenor saxophone",
+          "alto saxophone",
+          "harmonica",
+          "arrangements",
+          "backing vocals",
+          "Moog synthesiser"
+        ]
+      },
+      {
+        "name": "Mick Ronson",
+        "roles": [
+          "guitar",
+          "piano",
+          "vocals",
+          "arrangements"
+        ]
+      },
+      {
+        "name": "Trevor Bolder",
+        "roles": [
+          "bass guitar"
+        ]
+      },
+      {
+        "name": "Aynsley Dunbar",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Mike Garson",
+        "roles": [
+          "piano",
+          "organ",
+          "harpsichord",
+          "electric piano"
+        ]
+      },
+      {
+        "name": "Ken Fordham",
+        "roles": [
+          "baritone saxophone"
+        ]
+      },
+      {
+        "name": "G. A. MacCormack",
+        "roles": [
+          "backing vocals"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "David Bowie official Pin Ups page",
+        "url": "https://www.davidbowie.com/pin-ups"
+      },
+      {
+        "label": "David Bowie Pin Ups 50th anniversary",
+        "url": "https://www.davidbowie.com/blog/2018/10/19/pin-ups-album-is-45-today"
+      },
+      {
+        "label": "David Bowie official 2015-remaster release",
+        "url": "https://store.davidbowie.com/products/pinups-2015-remaster-half-speed-master-lp"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/71nxmbr3tHAVyvdHXc0ltd"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0012-01",
+        "number": 1,
+        "title": "Rosalyn - 2015 Remaster",
+        "durationSeconds": 143,
+        "originalArtist": "The Pretty Things",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-02",
+        "number": 2,
+        "title": "Here Comes the Night - 2015 Remaster",
+        "durationSeconds": 189,
+        "originalArtist": "Them",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-03",
+        "number": 3,
+        "title": "I Wish You Would - 2015 Remaster",
+        "durationSeconds": 168,
+        "originalArtist": "The Yardbirds",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-04",
+        "number": 4,
+        "title": "See Emily Play - 2015 Remaster",
+        "durationSeconds": 253,
+        "originalArtist": "Pink Floyd",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-05",
+        "number": 5,
+        "title": "Everything's Alright - 2015 Remaster",
+        "durationSeconds": 148,
+        "originalArtist": "The Mojos",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-06",
+        "number": 6,
+        "title": "I Can't Explain - 2015 Remaster",
+        "durationSeconds": 135,
+        "originalArtist": "The Who",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-07",
+        "number": 7,
+        "title": "Friday on My Mind - 2015 Remaster",
+        "durationSeconds": 176,
+        "originalArtist": "The Easybeats",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-08",
+        "number": 8,
+        "title": "Sorrow - 2015 Remaster",
+        "durationSeconds": 173,
+        "originalArtist": "The Merseys",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-09",
+        "number": 9,
+        "title": "Don't Bring Me Down - 2015 Remaster",
+        "durationSeconds": 126,
+        "originalArtist": "The Pretty Things",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-10",
+        "number": 10,
+        "title": "Shapes of Things - 2015 Remaster",
+        "durationSeconds": 173,
+        "originalArtist": "The Yardbirds",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-11",
+        "number": 11,
+        "title": "Anyway, Anyhow, Anywhere - 2015 Remaster",
+        "durationSeconds": 193,
+        "originalArtist": "The Who",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0012-12",
+        "number": 12,
+        "title": "Where Have All the Good Times Gone - 2015 Remaster",
+        "durationSeconds": 161,
+        "originalArtist": "The Kinks",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0013",
+    "releaseDate": "2000-12-05",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2734d1db642d70b1b939ab42966",
+    "originalArtists": [
+      "Eric B. & Rakim",
+      "Volume 10",
+      "MC5",
+      "Afrika Bambaataa",
+      "Devo",
+      "EPMD",
+      "Minor Threat",
+      "Cypress Hill",
+      "Bruce Springsteen",
+      "The Stooges",
+      "The Rolling Stones",
+      "Bob Dylan"
+    ],
+    "originalGenres": [],
+    "notes": [
+      "Rage Against the Machine's official site describes Renegades as a tribute to musicians who influenced the band, spanning hip-hop, punk, funk and rock source material.",
+      "The canonical MusicVerse sequence is the linked 12-song Spotify edition; limited early CD editions with extra live tracks are not folded into this album record."
+    ],
+    "personnel": [
+      {
+        "name": "Zack de la Rocha",
+        "roles": [
+          "lead vocals"
+        ]
+      },
+      {
+        "name": "Tom Morello",
+        "roles": [
+          "guitars"
+        ]
+      },
+      {
+        "name": "Tim Commerford",
+        "roles": [
+          "bass",
+          "backing vocals"
+        ]
+      },
+      {
+        "name": "Brad Wilk",
+        "roles": [
+          "drums"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rage Against the Machine official album page",
+        "url": "https://www.ratm.com/album/renegades/"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6iVOwFVjFRoQPgj8GUwSsi"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/1c293abc-3993-3d1d-bb8d-e8fe18621488"
+      },
+      {
+        "label": "Wikipedia track-source and personnel reference",
+        "url": "https://en.wikipedia.org/wiki/Renegades_(Rage_Against_the_Machine_album)"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0013-01",
+        "number": 1,
+        "title": "Microphone Fiend",
+        "durationSeconds": 301,
+        "originalArtist": "Eric B. & Rakim",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-02",
+        "number": 2,
+        "title": "Pistol Grip Pump",
+        "durationSeconds": 196,
+        "originalArtist": "Volume 10",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-03",
+        "number": 3,
+        "title": "Kick out the Jams",
+        "durationSeconds": 190,
+        "originalArtist": "MC5",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-04",
+        "number": 4,
+        "title": "Renegades Of Funk",
+        "durationSeconds": 274,
+        "originalArtist": "Afrika Bambaataa",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-05",
+        "number": 5,
+        "title": "Beautiful World",
+        "durationSeconds": 154,
+        "originalArtist": "Devo",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-06",
+        "number": 6,
+        "title": "I'm Housin'",
+        "durationSeconds": 296,
+        "originalArtist": "EPMD",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-07",
+        "number": 7,
+        "title": "In My Eyes",
+        "durationSeconds": 174,
+        "originalArtist": "Minor Threat",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-08",
+        "number": 8,
+        "title": "How I Could Just Kill a Man",
+        "durationSeconds": 244,
+        "originalArtist": "Cypress Hill",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-09",
+        "number": 9,
+        "title": "The Ghost of Tom Joad",
+        "durationSeconds": 338,
+        "originalArtist": "Bruce Springsteen",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-10",
+        "number": 10,
+        "title": "Down On The Street",
+        "durationSeconds": 218,
+        "originalArtist": "The Stooges",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-11",
+        "number": 11,
+        "title": "Street Fighting Man",
+        "durationSeconds": 281,
+        "originalArtist": "The Rolling Stones",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0013-12",
+        "number": 12,
+        "title": "Maggie's Farm",
+        "durationSeconds": 394,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": null,
+        "isCover": true,
+        "spotify": "",
+        "spotifyUri": "",
+        "musicians": []
+      }
+    ]
   }
 ]
