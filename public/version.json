@@ -1,10 +1,10 @@
 {
-  "version": "0.3.3",
+  "version": "0.3.4",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added full verified detail records for Cat Power's The Covers Record and Iron & Wine / Ben Bridwell's Sing Into My Mouth.",
-    "Both albums now include real Spotify cover art, complete Spotify track links and durations, source/original artists, normalized original genres, album notes, personnel, and provenance.",
-    "The Covers Record marks Cat Power's re-recording of In This Hole as an original/self-revisit rather than a cover.",
-    "MusicVerse now has 15 enriched cover albums with track-level detail."
+    "Added full verified detail records for Herbie Hancock's River: The Joni Letters and Gillian Welch & David Rawlings' All The Good Times.",
+    "Both albums now include verified artwork, complete Spotify track links and durations, source artists and genres, personnel, notes, and provenance.",
+    "River distinguishes its two non-Joni compositions, Duke Ellington's Solitude and Wayne Shorter's Nefertiti, from the eight Joni Mitchell pieces.",
+    "MusicVerse now has 17 enriched cover albums with track-level detail."
   ]
 }
