@@ -8959,5 +8959,754 @@
         "musicians": []
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0038",
+    "releaseDate": "2003",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2739141dc2ca535cc6c154067bc",
+    "originalArtists": [
+      "Traditional",
+      "Henry Purcell",
+      "Orazio Vecchi",
+      "Gilbert and Sullivan",
+      "Hoagy Carmichael",
+      "Nat King Cole",
+      "Julie London",
+      "Sticks McGhee",
+      "Sanford Clark",
+      "The Who",
+      "Squeeze",
+      "Prince",
+      "Britney Spears",
+      "ABBA",
+      "The Beatles"
+    ],
+    "originalGenres": [
+      "Folk",
+      "Classical",
+      "Music Hall",
+      "Operetta",
+      "Jazz",
+      "Pop",
+      "R&B",
+      "Rock"
+    ],
+    "notes": [
+      "Thompson built the project after being asked for a millennium-spanning best-songs list and took the premise literally, moving from medieval material to contemporary pop.",
+      "The live set is deliberately chronological and interpretive, with Thompson, Judith Owen and Michael Jerome stripping wildly different eras down to voice, guitar and percussion."
+    ],
+    "personnel": [
+      {
+        "name": "Richard Thompson",
+        "roles": [
+          "guitar",
+          "vocals",
+          "arranger"
+        ]
+      },
+      {
+        "name": "Judith Owen",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Michael Jerome",
+        "roles": [
+          "percussion"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Richard Thompson official site",
+        "url": "https://www.richardthompson-music.com/2003-1000-years-of-popular-music"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/1000-years-of-popular-music-mw0000522142"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/5ykzct1q6gwg1tO0F1QCyS"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0038-01",
+        "number": 1,
+        "title": "Sumer Is Icumen In",
+        "durationSeconds": 189.733,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/4DQ9UGpsY1XvdH8knfwnBm",
+        "spotifyUri": "spotify:track:4DQ9UGpsY1XvdH8knfwnBm",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-02",
+        "number": 2,
+        "title": "King Henry V's Conquest of France",
+        "durationSeconds": 274.52,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/6c1jSxcJPlLDrxHEVsaSfj",
+        "spotifyUri": "spotify:track:6c1jSxcJPlLDrxHEVsaSfj",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-03",
+        "number": 3,
+        "title": "When I Am Laid in Earth",
+        "durationSeconds": 246.546,
+        "originalArtist": "Henry Purcell",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/4uGgNw8CMUmVe1FhNprqmy",
+        "spotifyUri": "spotify:track:4uGgNw8CMUmVe1FhNprqmy",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-04",
+        "number": 4,
+        "title": "So Ben Mi Ca Bon Tempo",
+        "durationSeconds": 185.626,
+        "originalArtist": "Orazio Vecchi",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/43gvM55btWhmcfv7sRf5JL",
+        "spotifyUri": "spotify:track:43gvM55btWhmcfv7sRf5JL",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-05",
+        "number": 5,
+        "title": "Shenandoah",
+        "durationSeconds": 224.933,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/5RPoSW2dDVxLV1jcUbS4Nj",
+        "spotifyUri": "spotify:track:5RPoSW2dDVxLV1jcUbS4Nj",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-06",
+        "number": 6,
+        "title": "Blackleg Miner",
+        "durationSeconds": 201.586,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/3JKSzqCz5KpeHHRYLkqODX",
+        "spotifyUri": "spotify:track:3JKSzqCz5KpeHHRYLkqODX",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-07",
+        "number": 7,
+        "title": "Waiting at the Church",
+        "durationSeconds": 233.4,
+        "originalArtist": null,
+        "originalGenre": "Music Hall",
+        "spotify": "https://open.spotify.com/track/7aCT0A6FzHGuqOY7NP2f5A",
+        "spotifyUri": "spotify:track:7aCT0A6FzHGuqOY7NP2f5A",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-08",
+        "number": 8,
+        "title": "Trafalgar Square",
+        "durationSeconds": 178.346,
+        "originalArtist": null,
+        "originalGenre": "Music Hall",
+        "spotify": "https://open.spotify.com/track/15mFGK8B5mzszILo3aU4Y7",
+        "spotifyUri": "spotify:track:15mFGK8B5mzszILo3aU4Y7",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-09",
+        "number": 9,
+        "title": "There Is Beauty…",
+        "durationSeconds": 159.386,
+        "originalArtist": "Gilbert and Sullivan",
+        "originalGenre": "Operetta",
+        "spotify": "https://open.spotify.com/track/6zaicOuP34KU9K4rLHyMz2",
+        "spotifyUri": "spotify:track:6zaicOuP34KU9K4rLHyMz2",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-10",
+        "number": 10,
+        "title": "Why Have My Loved Ones Gone?",
+        "durationSeconds": 205.506,
+        "originalArtist": null,
+        "originalGenre": "Popular Song",
+        "spotify": "https://open.spotify.com/track/6SII3wqgTybZKVR7HnSzHG",
+        "spotifyUri": "spotify:track:6SII3wqgTybZKVR7HnSzHG",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-11",
+        "number": 11,
+        "title": "Old Rocking Chair's Got Me",
+        "durationSeconds": 184.746,
+        "originalArtist": "Hoagy Carmichael",
+        "originalGenre": "Jazz",
+        "spotify": "https://open.spotify.com/track/5R1126NoGWcH9DACFRTjQG",
+        "spotifyUri": "spotify:track:5R1126NoGWcH9DACFRTjQG",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-12",
+        "number": 12,
+        "title": "Orange-Coloured Sky",
+        "durationSeconds": 148.866,
+        "originalArtist": "Nat King Cole",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/1nS4FA2lz5UKIHWwMurV7x",
+        "spotifyUri": "spotify:track:1nS4FA2lz5UKIHWwMurV7x",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-13",
+        "number": 13,
+        "title": "Cry Me a River",
+        "durationSeconds": 289.213,
+        "originalArtist": "Julie London",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/7c5Q6jE4IVRxxAg7DydheV",
+        "spotifyUri": "spotify:track:7c5Q6jE4IVRxxAg7DydheV",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-14",
+        "number": 14,
+        "title": "Drinking Wine Spo-dee-o-dee",
+        "durationSeconds": 152.12,
+        "originalArtist": "Sticks McGhee",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/4MiwlrIbWoE5XsjUp9YGLT",
+        "spotifyUri": "spotify:track:4MiwlrIbWoE5XsjUp9YGLT",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-15",
+        "number": 15,
+        "title": "The Fool",
+        "durationSeconds": 199.24,
+        "originalArtist": "Sanford Clark",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/7E6j1NEcm5JKQFPqjJJdg4",
+        "spotifyUri": "spotify:track:7E6j1NEcm5JKQFPqjJJdg4",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-16",
+        "number": 16,
+        "title": "Legal Matter",
+        "durationSeconds": 203.426,
+        "originalArtist": "The Who",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/3KvmzaG2lyc4GGTYPUJClX",
+        "spotifyUri": "spotify:track:3KvmzaG2lyc4GGTYPUJClX",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-17",
+        "number": 17,
+        "title": "Tempted",
+        "durationSeconds": 284.973,
+        "originalArtist": "Squeeze",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/09P3YdtAJgCGgxpLaggYHF",
+        "spotifyUri": "spotify:track:09P3YdtAJgCGgxpLaggYHF",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-18",
+        "number": 18,
+        "title": "Kiss",
+        "durationSeconds": 234.453,
+        "originalArtist": "Prince",
+        "originalGenre": "R&B",
+        "spotify": "https://open.spotify.com/track/0L8CWAqYiCgIqt3D2A9gSt",
+        "spotifyUri": "spotify:track:0L8CWAqYiCgIqt3D2A9gSt",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-19",
+        "number": 19,
+        "title": "Oops! I Did It Again",
+        "durationSeconds": 216.826,
+        "originalArtist": "Britney Spears",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/1rQIHfyygLKkRLhFUHyTGn",
+        "spotifyUri": "spotify:track:1rQIHfyygLKkRLhFUHyTGn",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-20",
+        "number": 20,
+        "title": "Sam Hall",
+        "durationSeconds": 208.44,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/33KqMvumIESJS254jsMhwb",
+        "spotifyUri": "spotify:track:33KqMvumIESJS254jsMhwb",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-21",
+        "number": 21,
+        "title": "Money",
+        "durationSeconds": 170.6,
+        "originalArtist": "ABBA",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/7ILwbQ2tvjqzHMWxNs2jqE",
+        "spotifyUri": "spotify:track:7ILwbQ2tvjqzHMWxNs2jqE",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-22",
+        "number": 22,
+        "title": "It Won't Be Long",
+        "durationSeconds": 147.466,
+        "originalArtist": "The Beatles",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/3HmRZ7EuCprfzFHeZSWQoj",
+        "spotifyUri": "spotify:track:3HmRZ7EuCprfzFHeZSWQoj",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0038-23",
+        "number": 23,
+        "title": "Marry, Ageyn Hic Hev Donne Yt",
+        "durationSeconds": 28.133,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/62bWP1m5Uhsanp1lYs5TFI",
+        "spotifyUri": "spotify:track:62bWP1m5Uhsanp1lYs5TFI",
+        "musicians": []
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0104",
+    "releaseDate": "2002-10",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273c71a1efc16f2d00fc3aad22b",
+    "originalArtists": [
+      "Phish",
+      "AC/DC",
+      "Traditional / U.S. national anthem",
+      "Talking Heads",
+      "Eumir Deodato",
+      "ZZ Top",
+      "The Edgar Winter Group"
+    ],
+    "originalGenres": [
+      "Jam Band",
+      "Rock",
+      "Traditional",
+      "Jazz/Funk",
+      "Blues Rock"
+    ],
+    "notes": [
+      "The centerpiece is Phish's 1996 Halloween 'musical costume': a complete live performance of Talking Heads' Remain in Light as the second set.",
+      "The release preserves the full three-set concert and encore, so MusicVerse marks Phish originals separately from the Talking Heads set and the other covers."
+    ],
+    "personnel": [
+      {
+        "name": "Trey Anastasio",
+        "roles": [
+          "guitar",
+          "vocals",
+          "bass on “Seen And Not Seen”"
+        ]
+      },
+      {
+        "name": "Mike Gordon",
+        "roles": [
+          "bass",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Page McConnell",
+        "roles": [
+          "keyboards",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Jon Fishman",
+        "roles": [
+          "drums",
+          "vocals",
+          "percussion"
+        ]
+      },
+      {
+        "name": "Karl Perazzo",
+        "roles": [
+          "percussion on sets two and three",
+          "drums on “Seen And Not Seen”"
+        ]
+      },
+      {
+        "name": "Dave Grippo",
+        "roles": [
+          "saxophone"
+        ]
+      },
+      {
+        "name": "Gary Gazaway",
+        "roles": [
+          "trumpet",
+          "flugelhorn",
+          "trombone"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "LivePhish show page",
+        "url": "https://www.livephish.com/LP-493.html"
+      },
+      {
+        "label": "Phish official show page",
+        "url": "https://phish.com/tours/dates/thu-1996-10-31-the-omni/"
+      },
+      {
+        "label": "Phish.net setlist",
+        "url": "https://phish.net/setlists/phish-october-31-1996-the-omni-atlanta-ga-usa"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/22Vo3uGnJpuhVpuU9QiSxv"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0104-01",
+        "number": 1,
+        "title": "Sanity",
+        "durationSeconds": 348.266,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/0jh4i0hLAEm5uvyQwMrxEt",
+        "spotifyUri": "spotify:track:0jh4i0hLAEm5uvyQwMrxEt",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-02",
+        "number": 2,
+        "title": "Highway To Hell",
+        "durationSeconds": 219.066,
+        "originalArtist": "AC/DC",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1XwfCmB8c4KLclcPhjB7q7",
+        "spotifyUri": "spotify:track:1XwfCmB8c4KLclcPhjB7q7",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-03",
+        "number": 3,
+        "title": "Down With Disease",
+        "durationSeconds": 666.293,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/2W38z1rbxG4D8dSLOJdB0I",
+        "spotifyUri": "spotify:track:2W38z1rbxG4D8dSLOJdB0I",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-04",
+        "number": 4,
+        "title": "You Enjoy Myself",
+        "durationSeconds": 1374.933,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/0qjTPOqrDeX8E8yVKtY6Vu",
+        "spotifyUri": "spotify:track:0qjTPOqrDeX8E8yVKtY6Vu",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-05",
+        "number": 5,
+        "title": "Prince Caspian",
+        "durationSeconds": 425.64,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/74HeZjww8R1WQvZO7UysfK",
+        "spotifyUri": "spotify:track:74HeZjww8R1WQvZO7UysfK",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-06",
+        "number": 6,
+        "title": "Reba",
+        "durationSeconds": 940.693,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/60dpAPXLUH7QFtMgTKKIB6",
+        "spotifyUri": "spotify:track:60dpAPXLUH7QFtMgTKKIB6",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-07",
+        "number": 7,
+        "title": "Colonel Forbin's Ascent",
+        "durationSeconds": 329.04,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/5pmSLRqhzFUZ4uHKEs0AET",
+        "spotifyUri": "spotify:track:5pmSLRqhzFUZ4uHKEs0AET",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-08",
+        "number": 8,
+        "title": "Fly Famous Mockingbird",
+        "durationSeconds": 607.293,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/1XQWLcmBAfT5cTAwphfQRm",
+        "spotifyUri": "spotify:track:1XQWLcmBAfT5cTAwphfQRm",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-09",
+        "number": 9,
+        "title": "Character Zero",
+        "durationSeconds": 454.906,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/2jke0nor5kUsdoTGK9J8s2",
+        "spotifyUri": "spotify:track:2jke0nor5kUsdoTGK9J8s2",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-10",
+        "number": 10,
+        "title": "Star-Spangled Banner",
+        "durationSeconds": 91.093,
+        "originalArtist": "Traditional / U.S. national anthem",
+        "originalGenre": "Traditional",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1yxLHefIp4XYQRth07Pep6",
+        "spotifyUri": "spotify:track:1yxLHefIp4XYQRth07Pep6",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-11",
+        "number": 11,
+        "title": "Born Under Punches (The Heat Goes On)",
+        "durationSeconds": 400.333,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/05En4JepPgm1LFHQ8TR3gN",
+        "spotifyUri": "spotify:track:05En4JepPgm1LFHQ8TR3gN",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-12",
+        "number": 12,
+        "title": "Crosseyed And Painless",
+        "durationSeconds": 599.6,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/2d7WalERLLLqzlaUVB0Ok4",
+        "spotifyUri": "spotify:track:2d7WalERLLLqzlaUVB0Ok4",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-13",
+        "number": 13,
+        "title": "The Great Curve",
+        "durationSeconds": 547.293,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1Rl1SXz2E8inN3Kssrx0Kx",
+        "spotifyUri": "spotify:track:1Rl1SXz2E8inN3Kssrx0Kx",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-14",
+        "number": 14,
+        "title": "Once In A Lifetime",
+        "durationSeconds": 308.906,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/213EVpkvDBtIFTRuXLCHIV",
+        "spotifyUri": "spotify:track:213EVpkvDBtIFTRuXLCHIV",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-15",
+        "number": 15,
+        "title": "Houses In Motion",
+        "durationSeconds": 537.426,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/3ScXBmNcaAI4Rxdc2bO3t7",
+        "spotifyUri": "spotify:track:3ScXBmNcaAI4Rxdc2bO3t7",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-16",
+        "number": 16,
+        "title": "Seen And Not Seen",
+        "durationSeconds": 270.733,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5rlNqBn9phLx8Td7Tsilue",
+        "spotifyUri": "spotify:track:5rlNqBn9phLx8Td7Tsilue",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-17",
+        "number": 17,
+        "title": "Listening Wind",
+        "durationSeconds": 488.04,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/07RwmnF2YtqjMuvIppaB7c",
+        "spotifyUri": "spotify:track:07RwmnF2YtqjMuvIppaB7c",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-18",
+        "number": 18,
+        "title": "The Overload",
+        "durationSeconds": 654.093,
+        "originalArtist": "Talking Heads",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1QxSa4rFo6kLRs14coI32I",
+        "spotifyUri": "spotify:track:1QxSa4rFo6kLRs14coI32I",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-19",
+        "number": 19,
+        "title": "Brother",
+        "durationSeconds": 356.626,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/6Ge70NXcZYdamduHBxcU4N",
+        "spotifyUri": "spotify:track:6Ge70NXcZYdamduHBxcU4N",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-20",
+        "number": 20,
+        "title": "2001",
+        "durationSeconds": 411.493,
+        "originalArtist": "Eumir Deodato",
+        "originalGenre": "Jazz/Funk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1eobafi8stZoy1iau1piW8",
+        "spotifyUri": "spotify:track:1eobafi8stZoy1iau1piW8",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-21",
+        "number": 21,
+        "title": "Maze",
+        "durationSeconds": 758.12,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/4bjb84BUwSs7UwNQqsIpQo",
+        "spotifyUri": "spotify:track:4bjb84BUwSs7UwNQqsIpQo",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-22",
+        "number": 22,
+        "title": "Simple",
+        "durationSeconds": 903.226,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/2u7Pu3EOOsUZqa3TScDLVC",
+        "spotifyUri": "spotify:track:2u7Pu3EOOsUZqa3TScDLVC",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-23",
+        "number": 23,
+        "title": "Swept Away",
+        "durationSeconds": 69.733,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/1UISOaGmyx6agdjYkXve9R",
+        "spotifyUri": "spotify:track:1UISOaGmyx6agdjYkXve9R",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-24",
+        "number": 24,
+        "title": "Steep",
+        "durationSeconds": 116.226,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/490rTnnyh0VNYgVV16SDAK",
+        "spotifyUri": "spotify:track:490rTnnyh0VNYgVV16SDAK",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-25",
+        "number": 25,
+        "title": "Jesus Just Left Chicago",
+        "durationSeconds": 469.053,
+        "originalArtist": "ZZ Top",
+        "originalGenre": "Blues Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/26LDYiGKcYdKmRGYfj6wVs",
+        "spotifyUri": "spotify:track:26LDYiGKcYdKmRGYfj6wVs",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-26",
+        "number": 26,
+        "title": "Suzy Greenberg",
+        "durationSeconds": 480.453,
+        "originalArtist": "Phish",
+        "originalGenre": "Jam Band",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/24yUqbsfLVHhpk0RxbF07t",
+        "spotifyUri": "spotify:track:24yUqbsfLVHhpk0RxbF07t",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0104-27",
+        "number": 27,
+        "title": "Frankenstein",
+        "durationSeconds": 321.4,
+        "originalArtist": "The Edgar Winter Group",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1NU4246nN1hwi8zZygl8UW",
+        "spotifyUri": "spotify:track:1NU4246nN1hwi8zZygl8UW",
+        "musicians": []
+      }
+    ]
   }
 ]
