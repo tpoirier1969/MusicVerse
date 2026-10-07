@@ -1,10 +1,11 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "updated_at": "2026-10-07",
   "notes": [
-    "Album and track searches now show which track titles matched and carry the search context into album detail pages.",
-    "Album detail pages can add individual tracks or all verified album tracks to a chosen existing or newly created MusicVerse playlist.",
-    "Home playlist previews now reflect real saved playlists instead of sample names and invented counts.",
-    "Album cards stay inside MusicVerse, while Spotify actions hand off directly to the Spotify app without opening an automatic browser fallback tab."
+    "Renamed InstrumentVerse to SoundTrail while preserving the existing internal route and data identifiers.",
+    "Removed the duplicate home-page module ribbon so the left navigation is the single primary module menu.",
+    "Rebuilt Listening Log around Spotify recently played history, with MusicVerse-open activity shown separately and not counted as listening.",
+    "Spotify recently played imports accumulate locally over time, and Spotify authorization now requests the listening-history scope.",
+    "Updated Spotify playlist creation to the current /me/playlists endpoint."
   ]
 }
