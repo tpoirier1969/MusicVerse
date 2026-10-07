@@ -1,5 +1,6 @@
 import './styles.css';
 import { loadAppVersion, loadMusicData } from './data.js';
+import { featuredAlbumDateKey, selectFeaturedCoverAlbum } from './featured-album.js';
 import {
   filterCoverAlbums,
   formatDuration,
@@ -13,10 +14,12 @@ import {
 import {
   addTracksToPlaylist,
   createPlaylist,
+  getFeaturedAlbumHistory,
   getListeningLog,
   getPlaylists,
   getSpotifyListeningHistory,
   mergeSpotifyListeningHistory,
+  rememberFeaturedAlbum,
   isFavorite,
   markListened,
   removeTrackFromPlaylist,
@@ -37,6 +40,8 @@ import {
 const app = document.querySelector('#app');
 let data = { coverAlbums: [], crazyCovers: [], soundTrail: { instruments: [], recordings: [] }, catalogSource: 'loading' };
 let appVersion = '';
+let featuredCoverAlbumId = '';
+let featuredCoverAlbumDate = '';
 let activeCoverTab = 'start';
 let activeSoundTrailInstrument = 'accordion';
 let activeSoundTrailGenre = '';
@@ -210,8 +215,28 @@ function coverSubnav() {
   return `<div class="cover-subnav">${items.map(([id,title,sub,img]) => `<button class="cover-subnav-item${activeCoverTab===id?' is-active':''}" data-cover-tab="${id}"><span class="cover-subnav-art" style="--sub-image:url('${img}')"></span><span><strong>${title}</strong><small>${sub}</small></span><b>→</b></button>`).join('')}</div>`;
 }
 
+function ensureDailyFeaturedAlbum() {
+  const today = featuredAlbumDateKey();
+  const existing = data.coverAlbums.find((item) => item.id === featuredCoverAlbumId);
+  if (featuredCoverAlbumDate === today && existing) return existing;
+
+  const album = selectFeaturedCoverAlbum(data.coverAlbums, {
+    now: new Date(),
+    history: getFeaturedAlbumHistory(),
+    spotifyHistory: getSpotifyListeningHistory(),
+  });
+
+  featuredCoverAlbumId = album?.id || '';
+  featuredCoverAlbumDate = today;
+  if (album?.id) rememberFeaturedAlbum(album.id, today);
+  return album;
+}
+
 function featuredAlbum() {
-  const album = data.coverAlbums.find((item) => item.startHere) || data.coverAlbums[0] || {};
+  const album = ensureDailyFeaturedAlbum()
+    || data.coverAlbums.find((item) => item.startHere)
+    || data.coverAlbums[0]
+    || {};
   const spotifyUrl = album.spotify || '';
   const artwork = getAlbumArtwork(album);
   return `<section class="featured-album organic-panel">
@@ -795,9 +820,14 @@ document.addEventListener('submit', (event) => {
 async function boot() {
   try { await finishSpotifyLoginFromUrl(); } catch (error) { console.warn(error); showToast(error.message); }
 
-  const [versionResult, musicResult] = await Promise.allSettled([
+  const spotifyHistoryPromise = getSpotifyToken() && spotifyHasScope('user-read-recently-played')
+    ? fetchRecentlyPlayed(50)
+    : Promise.resolve([]);
+
+  const [versionResult, musicResult, spotifyHistoryResult] = await Promise.allSettled([
     loadAppVersion(),
     loadMusicData(),
+    spotifyHistoryPromise,
   ]);
 
   if (versionResult.status === 'fulfilled') {
@@ -810,9 +840,16 @@ async function boot() {
     data = musicResult.value;
   } else {
     console.error(musicResult.reason);
-    showToast('The seed music catalog could not be loaded.');
+    showToast('The music catalog could not be loaded.');
   }
 
+  if (spotifyHistoryResult.status === 'fulfilled' && spotifyHistoryResult.value.length) {
+    mergeSpotifyListeningHistory(spotifyHistoryResult.value, { silent: true });
+  } else if (spotifyHistoryResult.status === 'rejected') {
+    console.warn('Could not refresh Spotify listening history for the daily feature.', spotifyHistoryResult.reason);
+  }
+
+  ensureDailyFeaturedAlbum();
   render();
 }
 

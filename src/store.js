@@ -2,6 +2,7 @@ const PLAYLIST_KEY = 'musicverse.playlists.v1';
 const LISTENED_KEY = 'musicverse.listened.v1';
 const FAVORITES_KEY = 'musicverse.favorites.v1';
 const SPOTIFY_HISTORY_KEY = 'musicverse.spotify-history.v1';
+const FEATURED_ALBUM_HISTORY_KEY = 'musicverse.featured-cover-albums.v1';
 
 function read(key, fallback) {
   try {
@@ -12,8 +13,12 @@ function read(key, fallback) {
   }
 }
 
-function write(key, value) {
+function writeSilent(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+function write(key, value) {
+  writeSilent(key, value);
   window.dispatchEvent(new CustomEvent('musicverse:store-change'));
 }
 
@@ -80,6 +85,29 @@ export function getSpotifyListeningHistory() {
   return read(SPOTIFY_HISTORY_KEY, []);
 }
 
+export function getFeaturedAlbumHistory() {
+  return read(FEATURED_ALBUM_HISTORY_KEY, []);
+}
+
+export function rememberFeaturedAlbum(albumId, date) {
+  const cleanAlbumId = String(albumId || '').trim();
+  const cleanDate = String(date || '').trim();
+  if (!cleanAlbumId || !cleanDate) return getFeaturedAlbumHistory();
+
+  const existing = getFeaturedAlbumHistory();
+  const current = existing.find((entry) => entry?.date === cleanDate);
+  if (current?.albumId === cleanAlbumId) return existing;
+
+  const next = existing
+    .filter((entry) => entry?.date !== cleanDate)
+    .concat({ date: cleanDate, albumId: cleanAlbumId, selectedAt: new Date().toISOString() })
+    .sort((a, b) => String(a.date).localeCompare(String(b.date)))
+    .slice(-366);
+
+  writeSilent(FEATURED_ALBUM_HISTORY_KEY, next);
+  return next;
+}
+
 export function normalizeSpotifyListeningItems(items) {
   return (Array.isArray(items) ? items : []).flatMap((item) => {
     const track = item?.track;
@@ -95,6 +123,7 @@ export function normalizeSpotifyListeningItems(items) {
       title: String(track?.name || 'Unknown track'),
       artists: (track?.artists || []).map((artist) => String(artist?.name || '').trim()).filter(Boolean),
       album: String(track?.album?.name || ''),
+      albumId: String(track?.album?.id || ''),
       spotifyUrl: String(track?.external_urls?.spotify || ''),
       artwork: String(track?.album?.images?.[1]?.url || track?.album?.images?.[0]?.url || ''),
       contextUrl: String(item?.context?.external_urls?.spotify || ''),
@@ -102,7 +131,7 @@ export function normalizeSpotifyListeningItems(items) {
   });
 }
 
-export function mergeSpotifyListeningHistory(items) {
+export function mergeSpotifyListeningHistory(items, options = {}) {
   const existing = getSpotifyListeningHistory();
   const byId = new Map(existing.map((item) => [item.id, item]));
   for (const item of normalizeSpotifyListeningItems(items)) byId.set(item.id, item);
@@ -111,6 +140,9 @@ export function mergeSpotifyListeningHistory(items) {
     .sort((a, b) => String(b.playedAt).localeCompare(String(a.playedAt)))
     .slice(0, 1000);
 
-  if (JSON.stringify(next) !== JSON.stringify(existing)) write(SPOTIFY_HISTORY_KEY, next);
+  if (JSON.stringify(next) !== JSON.stringify(existing)) {
+    if (options.silent) writeSilent(SPOTIFY_HISTORY_KEY, next);
+    else write(SPOTIFY_HISTORY_KEY, next);
+  }
   return next;
 }

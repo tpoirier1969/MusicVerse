@@ -82,6 +82,7 @@ export function mapSupabaseCatalog({ albumRows, detailRows, crazyRows, instrumen
       coverGenres: asArray(row.cover_genres),
       originalGenres: asArray(row.original_genres),
       releaseDate: row.release_date || row.release_date_text || null,
+      addedAt: row.added_at || null,
       artwork: row.artwork_url || '',
       spotify: row.spotify_url || '',
       spotifyAlbumId: row.spotify_album_id || '',
