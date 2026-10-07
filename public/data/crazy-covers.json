@@ -6268,5 +6268,55 @@
     "standout": true,
     "why": "The power ballad becomes a stark choral arrangement.",
     "spotify": "https://open.spotify.com/track/5lYO7bXfHqZgUmOH7kJYHz"
+  },
+  {
+    "sourceArtist": "Talking Heads",
+    "song": "Crosseyed And Painless",
+    "coverArtist": "Phish",
+    "style": "Jam Band / Funk",
+    "wildness": 5,
+    "standout": true,
+    "why": "A Remain in Light groove becomes an extended live Phish jam during the 1996 Halloween set.",
+    "spotify": "https://open.spotify.com/track/2d7WalERLLLqzlaUVB0Ok4"
+  },
+  {
+    "sourceArtist": "Eumir Deodato",
+    "song": "2001",
+    "coverArtist": "Phish",
+    "style": "Jam Band / Jazz-Funk",
+    "wildness": 5,
+    "standout": true,
+    "why": "Phish turns Deodato’s funk-jazz take on the Strauss theme into a long-form live jam vehicle.",
+    "spotify": "https://open.spotify.com/track/1eobafi8stZoy1iau1piW8"
+  },
+  {
+    "sourceArtist": "The Beatles",
+    "song": "While My Guitar Gently Weeps",
+    "coverArtist": "Phish",
+    "style": "Jam Band / Live Rock",
+    "wildness": 4,
+    "standout": true,
+    "why": "Part of Phish’s full live performance of the White Album at the 1994 Halloween costume show.",
+    "spotify": "https://open.spotify.com/track/6E2LHLqh8F9NIS8ar2QzCq"
+  },
+  {
+    "sourceArtist": "Pink Floyd",
+    "song": "Shine on You Crazy Diamond",
+    "coverArtist": "Les Claypool",
+    "style": "Experimental Rock / Funk",
+    "wildness": 5,
+    "standout": true,
+    "why": "Claypool’s Frog Brigade pulls the Pink Floyd epic into a bass-heavy, elastic live arrangement.",
+    "spotify": "https://open.spotify.com/track/26ITjGv4OkZCiSsiOpPO5H"
+  },
+  {
+    "sourceArtist": "Pink Floyd",
+    "song": "Time",
+    "coverArtist": "Gov't Mule",
+    "style": "Jam Band / Blues Rock",
+    "wildness": 4,
+    "standout": true,
+    "why": "Gov't Mule recasts Pink Floyd’s studio precision as a heavier live blues-rock performance.",
+    "spotify": "https://open.spotify.com/track/5xC8uWFRji4LqxIJV56uGZ"
   }
 ]

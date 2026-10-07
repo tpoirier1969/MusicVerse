@@ -7,6 +7,7 @@ import {
   getAlbumOriginalArtists,
   getAlbumSearchMatches,
   getFacetOptions,
+  isCoverAlbumEligible,
   mergeCoverAlbums,
 } from '../src/cover-catalog.js';
 
@@ -47,6 +48,27 @@ test('filters by cover artist and source/original artist', () => {
   const merged = mergeCoverAlbums(albums, details);
   assert.deepEqual(filterCoverAlbums(merged, { coverArtist: 'Pat Metheny' }).map((x) => x.id), ['a2']);
   assert.deepEqual(filterCoverAlbums(merged, { originalArtist: 'Nirvana' }).map((x) => x.id), ['a1']);
+});
+
+test('Cover Albums excludes mixed releases and albums with known original tracks', () => {
+  const explicitlyMixed = { id: 'mixed-1', artist: 'Example', album: 'Mixed Set', allCovers: false };
+  const detailedMixed = {
+    id: 'mixed-2',
+    artist: 'Example',
+    album: 'Mostly Covers',
+    detail: { tracks: [{ title: 'Original Song', isCover: false }] },
+  };
+  const allCovers = {
+    id: 'covers-1',
+    artist: 'Example',
+    album: 'All Covers',
+    detail: { tracks: [{ title: 'Cover Song', isCover: true }] },
+  };
+
+  assert.equal(isCoverAlbumEligible(explicitlyMixed), false);
+  assert.equal(isCoverAlbumEligible(detailedMixed), false);
+  assert.equal(isCoverAlbumEligible(allCovers), true);
+  assert.deepEqual(filterCoverAlbums([explicitlyMixed, detailedMixed, allCovers]).map((x) => x.id), ['covers-1']);
 });
 
 test('search spans tracks, albums, both artist roles, genres, and musician names', () => {

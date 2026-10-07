@@ -1,9 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { isCoverAlbumEligible, mergeCoverAlbums } from '../src/cover-catalog.js';
 
 const albums = JSON.parse(await readFile(new URL('../public/data/cover-albums.json', import.meta.url), 'utf8'));
 const details = JSON.parse(await readFile(new URL('../public/data/cover-album-details.json', import.meta.url), 'utf8'));
+const crazyCovers = JSON.parse(await readFile(new URL('../public/data/crazy-covers.json', import.meta.url), 'utf8'));
 
 test('CoverVerse album IDs are present and unique', () => {
   const ids = albums.map((album) => album.id);
@@ -33,5 +35,49 @@ test('album detail records reference real albums and unique tracks', () => {
 test('existing album catalog keeps real Spotify album links', () => {
   for (const album of albums) {
     assert.match(album.spotify || '', /^https:\/\/open\.spotify\.com\/album\/[A-Za-z0-9]+/);
+  }
+});
+
+test('Cover Albums contains only eligible all-cover releases', () => {
+  const merged = mergeCoverAlbums(albums, details);
+  const eligible = merged.filter(isCoverAlbumEligible);
+  for (const album of eligible) {
+    assert.notEqual(album.allCovers, false, `Explicitly mixed album leaked into Cover Albums: ${album.album}`);
+    assert.equal(
+      (album.detail?.tracks || []).some((track) => track.isCover === false),
+      false,
+      `Album with original material leaked into Cover Albums: ${album.album}`,
+    );
+  }
+
+  for (const id of [
+    'cover-album-0002',
+    'cover-album-0003',
+    'cover-album-0023',
+    'cover-album-0039',
+    'cover-album-0042',
+    'cover-album-0050',
+    'cover-album-0057',
+    'cover-album-0067',
+    'cover-album-0073',
+    'cover-album-0103',
+    'cover-album-0104',
+  ]) {
+    const album = merged.find((item) => item.id === id);
+    assert.ok(album, `Missing audited mixed album ${id}`);
+    assert.equal(isCoverAlbumEligible(album), false, `Mixed album still eligible: ${album.album}`);
+  }
+});
+
+test('standout covers salvaged from mixed albums live in Crazy Covers', () => {
+  const expected = [
+    ['Phish', 'Crosseyed And Painless'],
+    ['Phish', '2001'],
+    ['Phish', 'While My Guitar Gently Weeps'],
+    ['Les Claypool', 'Shine on You Crazy Diamond'],
+    ["Gov't Mule", 'Time'],
+  ];
+  for (const [coverArtist, song] of expected) {
+    assert.ok(crazyCovers.some((item) => item.coverArtist === coverArtist && item.song === song), `Missing Crazy Covers migration: ${coverArtist} — ${song}`);
   }
 });
