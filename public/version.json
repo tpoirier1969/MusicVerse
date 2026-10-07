@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "updated_at": "2026-10-07",
   "notes": [
-    "Cover Albums now uses a 90 percent rule: releases with at least 90 percent covers qualify automatically, and albums explicitly presented as cover albums may qualify below that threshold.",
-    "Restored cover-focused albums such as Cat Power's The Covers Record while keeping mixed full-concert releases such as Phish Halloween shows out of Cover Albums.",
-    "Rebuilt SoundTrail around one connected recording catalog so a recording can belong to more than one instrument without duplication.",
-    "Added per-instrument genre filters and genre-specific About sections describing the instrument's role and importance in each represented style.",
-    "Migrated the existing 60 accordion recordings and added starter recordings for Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla.",
-    "Added support for localized Spotify URLs when handing tracks off to the Spotify app."
+    "Moved the MusicVerse catalog to the shared Yellowdawg Supabase project as the authoritative remote data source.",
+    "Created a namespaced musicverse_* library with normalized artists, songs, albums, recordings, genres, personnel, instruments, playlists, saved items, listening events, references, and featured-album history.",
+    "Seeded the current catalog while preserving stable GitHub album and track IDs, Spotify identities, CoverVerse ordering, and SoundTrail ordering.",
+    "Added read-only Supabase views for Cover Albums, album details, Crazy Covers, and SoundTrail.",
+    "The browser now reads the catalog from Supabase first and exposes a visible bundled-catalog fallback if Supabase is unavailable.",
+    "Personal playlists, favorites, references, listening history, and feature history remain local until MusicVerse authentication is wired."
   ]
 }
