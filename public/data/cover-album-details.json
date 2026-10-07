@@ -6895,5 +6895,1397 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0052",
+    "releaseDate": "1993-02-19",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2739ce37e5e5b42f73e929f2faf",
+    "originalArtists": [
+      "Aaron Copland",
+      "Charles Ives",
+      "Bob Dylan",
+      "Muddy Waters",
+      "Madonna",
+      "Sonny Rollins",
+      "John Philip Sousa",
+      "Victor Young",
+      "Stephen Foster",
+      "John Hiatt",
+      "Traditional"
+    ],
+    "originalGenres": [
+      "Classical",
+      "Singer-Songwriter",
+      "Blues",
+      "Pop",
+      "Jazz",
+      "Folk"
+    ],
+    "notes": [
+      "Frisell treats American repertoire as one connected landscape, moving from Copland and Ives through blues, jazz, folk, pop and singer-songwriter material without changing the basic quintet.",
+      "The first seven tracks form a sequence from Aaron Copland's Billy the Kid. Two excerpts from Charles Ives' The \"Saint-Gaudens\" in Boston Common frame the album's central run of popular-song reinterpretations.",
+      "Nonesuch credits the album to Bill Frisell with Don Byron, Guy Klucevsek, Kermit Driscoll and Joey Baron, produced by Wayne Horvitz and recorded in March 1992."
+    ],
+    "personnel": [
+      {
+        "name": "Bill Frisell",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Don Byron",
+        "roles": [
+          "clarinet",
+          "bass clarinet"
+        ]
+      },
+      {
+        "name": "Guy Klucevsek",
+        "roles": [
+          "accordion"
+        ]
+      },
+      {
+        "name": "Kermit Driscoll",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Joey Baron",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Wayne Horvitz",
+        "roles": [
+          "producer"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Nonesuch Records",
+        "url": "https://www.nonesuch.com/albums/have-little-faith"
+      },
+      {
+        "label": "Bill Frisell official discography",
+        "url": "https://www.billfrisell.com/have-a-little-faith"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/1971d7aa-3ac4-3ab2-b03e-10678ad9bce7"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6oMlklL1QnJFf0gBw1VZix"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0052-01",
+        "number": 1,
+        "title": "Billy the Kid, the Open Prairie",
+        "durationSeconds": 192.373,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/3ziNPzcdieLBbrQaGslkvi",
+        "spotifyUri": "spotify:track:3ziNPzcdieLBbrQaGslkvi",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-02",
+        "number": 2,
+        "title": "Billy the Kid, Street Scene in a Frontier Town",
+        "durationSeconds": 105.426,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/2jhzjM6K4lxYtCtPYtjLCb",
+        "spotifyUri": "spotify:track:2jhzjM6K4lxYtCtPYtjLCb",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-03",
+        "number": 3,
+        "title": "Billy the Kid, Mexican Dance and Finale",
+        "durationSeconds": 224.839,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/01Dq7jwj9dDLdj7QqmFBCi",
+        "spotifyUri": "spotify:track:01Dq7jwj9dDLdj7QqmFBCi",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-04",
+        "number": 4,
+        "title": "Billy the Kid, Prairie Night (Card Game at Night), Gun Battle",
+        "durationSeconds": 302.666,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/4N8GVXDxavCbgISjBtkJSG",
+        "spotifyUri": "spotify:track:4N8GVXDxavCbgISjBtkJSG",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-05",
+        "number": 5,
+        "title": "Billy the Kid, Celebration After Billy's Capture",
+        "durationSeconds": 137.426,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/6MK1j53gRJvlylOcbxbPT4",
+        "spotifyUri": "spotify:track:6MK1j53gRJvlylOcbxbPT4",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-06",
+        "number": 6,
+        "title": "Billy the Kid, Billy in Prison",
+        "durationSeconds": 93.573,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/7qjfFaBd5vsjjwDm1w6WvX",
+        "spotifyUri": "spotify:track:7qjfFaBd5vsjjwDm1w6WvX",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-07",
+        "number": 7,
+        "title": "Billy the Kid, the Open Prairie Again",
+        "durationSeconds": 149.293,
+        "originalArtist": "Aaron Copland",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/5Lkonzsf4UerR3T0ADx2Hm",
+        "spotifyUri": "spotify:track:5Lkonzsf4UerR3T0ADx2Hm",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-08",
+        "number": 8,
+        "title": "The \"Saint-Gaudens\" in Boston Common, \"Col. Shaw and his colored regiment\" (excerpt #1)",
+        "durationSeconds": 46.599,
+        "originalArtist": "Charles Ives",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/4HissHXm42jSvGmvKhni8P",
+        "spotifyUri": "spotify:track:4HissHXm42jSvGmvKhni8P",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-09",
+        "number": 9,
+        "title": "Just Like a Woman",
+        "durationSeconds": 289.333,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/5mbM2UTqajXsf4aslVVKka",
+        "spotifyUri": "spotify:track:5mbM2UTqajXsf4aslVVKka",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-10",
+        "number": 10,
+        "title": "I Can't Be Satisfied",
+        "durationSeconds": 180.173,
+        "originalArtist": "Muddy Waters",
+        "originalGenre": "Blues",
+        "spotify": "https://open.spotify.com/track/03vmLtpbtmNJIyErBQn7As",
+        "spotifyUri": "spotify:track:03vmLtpbtmNJIyErBQn7As",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-11",
+        "number": 11,
+        "title": "Live to Tell",
+        "durationSeconds": 612.399,
+        "originalArtist": "Madonna",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/2T90QewsWUNkP9KAOhM4Pl",
+        "spotifyUri": "spotify:track:2T90QewsWUNkP9KAOhM4Pl",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-12",
+        "number": 12,
+        "title": "The \"Saint-Gaudens\" in Boston Common, \"Col. Shaw and his colored regiment\" (excerpt #2)",
+        "durationSeconds": 185.559,
+        "originalArtist": "Charles Ives",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/3AVr7S3Sm6AEe1MXJVNOBG",
+        "spotifyUri": "spotify:track:3AVr7S3Sm6AEe1MXJVNOBG",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-13",
+        "number": 13,
+        "title": "No Moe",
+        "durationSeconds": 156.199,
+        "originalArtist": "Sonny Rollins",
+        "originalGenre": "Jazz",
+        "spotify": "https://open.spotify.com/track/4ncXItEjaxbmqOxY0Zqd3X",
+        "spotifyUri": "spotify:track:4ncXItEjaxbmqOxY0Zqd3X",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-14",
+        "number": 14,
+        "title": "Washington Post March",
+        "durationSeconds": 122.199,
+        "originalArtist": "John Philip Sousa",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/7KvjyDd1Kspj9K5srZjf60",
+        "spotifyUri": "spotify:track:7KvjyDd1Kspj9K5srZjf60",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-15",
+        "number": 15,
+        "title": "When I Fall in Love",
+        "durationSeconds": 208.306,
+        "originalArtist": "Victor Young",
+        "originalGenre": "Jazz",
+        "spotify": "https://open.spotify.com/track/7ilFXYoro5l8CbFCJ2KpMm",
+        "spotifyUri": "spotify:track:7ilFXYoro5l8CbFCJ2KpMm",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-16",
+        "number": 16,
+        "title": "Little Jenny Dow",
+        "durationSeconds": 209.773,
+        "originalArtist": "Stephen Foster",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/3tHhjR4wNWU3xxfeTfniOn",
+        "spotifyUri": "spotify:track:3tHhjR4wNWU3xxfeTfniOn",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-17",
+        "number": 17,
+        "title": "Have a Little Faith in Me",
+        "durationSeconds": 340.719,
+        "originalArtist": "John Hiatt",
+        "originalGenre": "Singer-Songwriter",
+        "spotify": "https://open.spotify.com/track/2KqT7UN0Pt9zgIDJZArCMX",
+        "spotifyUri": "spotify:track:2KqT7UN0Pt9zgIDJZArCMX",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0052-18",
+        "number": 18,
+        "title": "Billy Boy",
+        "durationSeconds": 99.666,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "spotify": "https://open.spotify.com/track/71R37Wu03vnCr2P2HRRS47",
+        "spotifyUri": "spotify:track:71R37Wu03vnCr2P2HRRS47",
+        "musicians": [
+          {
+            "name": "Bill Frisell",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Don Byron",
+            "roles": [
+              "clarinet",
+              "bass clarinet"
+            ]
+          },
+          {
+            "name": "Guy Klucevsek",
+            "roles": [
+              "accordion"
+            ]
+          },
+          {
+            "name": "Kermit Driscoll",
+            "roles": [
+              "bass"
+            ]
+          },
+          {
+            "name": "Joey Baron",
+            "roles": [
+              "drums"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0064",
+    "releaseDate": "2008-10-20",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273edfed02ef0c848c6c71a09d8",
+    "originalArtists": [
+      "Nirvana",
+      "Pink Floyd",
+      "György Ligeti",
+      "Wilco",
+      "Yes",
+      "Milton Babbitt",
+      "Bee Gees",
+      "Heart",
+      "Roger Miller",
+      "Igor Stravinsky",
+      "The Flaming Lips"
+    ],
+    "originalGenres": [
+      "Rock",
+      "Classical",
+      "Pop",
+      "Country"
+    ],
+    "notes": [
+      "For All I Care is The Bad Plus's first album built entirely from other composers' music and its first to use a featured vocalist, Minneapolis singer Wendy Lewis.",
+      "The repertoire deliberately erases the usual wall between rock, pop, country and modern classical music, placing Nirvana, Pink Floyd, Wilco, Heart and the Bee Gees beside Ligeti, Babbitt and Stravinsky.",
+      "The album first appeared in Europe in October 2008; the U.S. Heads Up release followed on February 3, 2009."
+    ],
+    "personnel": [
+      {
+        "name": "Ethan Iverson",
+        "roles": [
+          "piano",
+          "bells"
+        ]
+      },
+      {
+        "name": "Reid Anderson",
+        "roles": [
+          "bass",
+          "vocals"
+        ]
+      },
+      {
+        "name": "David King",
+        "roles": [
+          "drums",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Wendy Lewis",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "The Bad Plus",
+        "roles": [
+          "producer"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Concord / Heads Up",
+        "url": "https://concord.com/concord-albums/for-all-i-care-limited-autographed-edition/"
+      },
+      {
+        "label": "Universal Music",
+        "url": "https://www.universalmusic.it/musica-jazz/album/for-all-i-care_30213429169/"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/1253263c-4c2d-425e-bcd9-75db1045d10c"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/3CGYqqKu94N6TBohkL35OV"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0064-01",
+        "number": 1,
+        "title": "Lithium",
+        "durationSeconds": 285.24,
+        "originalArtist": "Nirvana",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/2gdEpGFkarA6qURX5EaA43",
+        "spotifyUri": "spotify:track:2gdEpGFkarA6qURX5EaA43",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-02",
+        "number": 2,
+        "title": "Comfortably Numb",
+        "durationSeconds": 401.706,
+        "originalArtist": "Pink Floyd",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/0aQZxKrtx2JhXQfT4TD23E",
+        "spotifyUri": "spotify:track:0aQZxKrtx2JhXQfT4TD23E",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-03",
+        "number": 3,
+        "title": "Fém (Etude No. 8)",
+        "durationSeconds": 200,
+        "originalArtist": "György Ligeti",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/5gEY0Wb2DQcr1nBzrn5g6u",
+        "spotifyUri": "spotify:track:5gEY0Wb2DQcr1nBzrn5g6u",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-04",
+        "number": 4,
+        "title": "Radio Cure",
+        "durationSeconds": 399.786,
+        "originalArtist": "Wilco",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/3iM3KVTYajqqdXwGzRfwV4",
+        "spotifyUri": "spotify:track:3iM3KVTYajqqdXwGzRfwV4",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-05",
+        "number": 5,
+        "title": "Long Distance Runaround",
+        "durationSeconds": 223.08,
+        "originalArtist": "Yes",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/1qPYrCxy4g7225iYBmnLa1",
+        "spotifyUri": "spotify:track:1qPYrCxy4g7225iYBmnLa1",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-06",
+        "number": 6,
+        "title": "Semi-Simple Variations",
+        "durationSeconds": 152.106,
+        "originalArtist": "Milton Babbitt",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/1XG0swphL8Tn0VXo4kLQWN",
+        "spotifyUri": "spotify:track:1XG0swphL8Tn0VXo4kLQWN",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-07",
+        "number": 7,
+        "title": "How Deep is Your Love",
+        "durationSeconds": 219.386,
+        "originalArtist": "Bee Gees",
+        "originalGenre": "Pop",
+        "spotify": "https://open.spotify.com/track/0mvnBSBp5Nr9E0f1fLBeRq",
+        "spotifyUri": "spotify:track:0mvnBSBp5Nr9E0f1fLBeRq",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-08",
+        "number": 8,
+        "title": "Barracuda",
+        "durationSeconds": 201.64,
+        "originalArtist": "Heart",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/77iB5tZdSg2LJabUtzKyaS",
+        "spotifyUri": "spotify:track:77iB5tZdSg2LJabUtzKyaS",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-09",
+        "number": 9,
+        "title": "Lock, Stock and Teardrops",
+        "durationSeconds": 248.026,
+        "originalArtist": "Roger Miller",
+        "originalGenre": "Country",
+        "spotify": "https://open.spotify.com/track/58nghg7LkTHErVDWUGLBAk",
+        "spotifyUri": "spotify:track:58nghg7LkTHErVDWUGLBAk",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-10",
+        "number": 10,
+        "title": "Variation d’Apollon",
+        "durationSeconds": 273.426,
+        "originalArtist": "Igor Stravinsky",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/4xxsj5DGpSyqpe4IwaAHkP",
+        "spotifyUri": "spotify:track:4xxsj5DGpSyqpe4IwaAHkP",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-11",
+        "number": 11,
+        "title": "Feeling Yourself Disintegrate",
+        "durationSeconds": 287.746,
+        "originalArtist": "The Flaming Lips",
+        "originalGenre": "Rock",
+        "spotify": "https://open.spotify.com/track/5tk03EsTGyNj981nYFwwss",
+        "spotifyUri": "spotify:track:5tk03EsTGyNj981nYFwwss",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Wendy Lewis",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0064-12",
+        "number": 12,
+        "title": "Semi-Simple Variations (Alternate Version)",
+        "durationSeconds": 73.666,
+        "originalArtist": "Milton Babbitt",
+        "originalGenre": "Classical",
+        "spotify": "https://open.spotify.com/track/5hCUMm9AIlUa1iOQGu7i2r",
+        "spotifyUri": "spotify:track:5hCUMm9AIlUa1iOQGu7i2r",
+        "musicians": [
+          {
+            "name": "Ethan Iverson",
+            "roles": [
+              "piano",
+              "bells"
+            ]
+          },
+          {
+            "name": "Reid Anderson",
+            "roles": [
+              "bass",
+              "vocals"
+            ]
+          },
+          {
+            "name": "David King",
+            "roles": [
+              "drums",
+              "vocals"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
