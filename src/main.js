@@ -1,5 +1,5 @@
 import './styles.css';
-import { loadMusicData } from './data.js';
+import { loadAppVersion, loadMusicData, SOUNDTRAIL_INSTRUMENTS } from './data.js';
 import {
   filterCoverAlbums,
   formatDuration,
@@ -36,7 +36,9 @@ import {
 
 const app = document.querySelector('#app');
 let data = { coverAlbums: [], crazyCovers: [], accordionMusic: [] };
+let appVersion = '';
 let activeCoverTab = 'start';
+let activeSoundTrailInstrument = 'accordion';
 let searchText = '';
 let coverAlbumSearchText = '';
 let coverAlbumViewMode = 'grid';
@@ -116,7 +118,10 @@ function shell(content) {
       </nav>
       <div class="sidebar-landscape" aria-hidden="true"></div>
     </aside>
-    <main class="main-canvas">${content}</main>
+    <main class="main-canvas">
+      ${appVersion ? `<div class="version-flag" title="MusicVerse application version">MusicVerse v${esc(appVersion)}</div>` : ''}
+      ${content}
+    </main>
     <nav class="mobile-nav" aria-label="Mobile navigation">
       ${['home','coververse','instruments','playlists','library'].map((slug) => {
         const meta = moduleMeta[slug];
@@ -384,8 +389,34 @@ function coververseView() {
   return shell(`<section class="module-hero cover-hero page-wave"><div><span class="eyebrow">COVERVERSE</span><h1>CoverVerse</h1><p>Fresh takes on familiar songs.</p>${heroSearch()}</div><div class="small-roadtrip"></div></section>${coverSubnav()}${coververseBody()}`);
 }
 
+function soundTrailInstrumentNav() {
+  return `<div class="soundtrail-instrument-nav" role="list" aria-label="SoundTrail instruments">${SOUNDTRAIL_INSTRUMENTS.map((instrument) => `
+    <button type="button" role="listitem" class="soundtrail-instrument-chip${instrument.id === activeSoundTrailInstrument ? ' is-active' : ''}" data-soundtrail-instrument="${esc(instrument.id)}">
+      <span class="soundtrail-instrument-dot" aria-hidden="true">${instrument.id === 'accordion' ? '<img src="/assets/accordion.svg" alt="">' : '♪'}</span>
+      <span>${esc(instrument.label)}</span>
+    </button>`).join('')}</div>`;
+}
+
+function soundTrailInstrumentBody(instrument) {
+  if (instrument.dataKey === 'accordionMusic') return accordionGrid();
+  return `<div class="soundtrail-empty organic-panel">
+    <span class="eyebrow">CATALOG READY</span>
+    <h3>No ${esc(instrument.label)} recordings added yet.</h3>
+    <p>The instrument now has a permanent home in SoundTrail. Recordings will appear here as verified entries are added, rather than filling the section with placeholder music.</p>
+  </div>`;
+}
+
 function instrumentView() {
-  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">SOUNDTRAIL</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section><section class="module-content instrument-content"><div class="section-heading instrument-heading"><div><span class="eyebrow">FIRST INSTRUMENT</span><h2>Accordion</h2><p>Explore how the accordion changes character across regions, genres, ensembles, and players.</p></div><img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true"></div>${accordionGrid()}</section>`);
+  const instrument = SOUNDTRAIL_INSTRUMENTS.find((item) => item.id === activeSoundTrailInstrument) || SOUNDTRAIL_INSTRUMENTS[0];
+  const featureVisual = instrument.id === 'accordion'
+    ? '<img class="instrument-feature-icon" src="/assets/accordion.svg" alt="" aria-hidden="true">'
+    : `<div class="instrument-feature-glyph" aria-hidden="true">♪</div>`;
+  return shell(`<section class="module-hero instrument-hero page-wave"><div><span class="eyebrow">SOUNDTRAIL</span><h1>SoundTrail</h1><p>Follow instruments across styles, traditions, players, and recordings.</p>${heroSearch()}</div><div class="small-roadtrip instrument-trip"></div></section>
+    <section class="module-content instrument-content">
+      ${soundTrailInstrumentNav()}
+      <div class="section-heading instrument-heading"><div><span class="eyebrow">INSTRUMENT TRAIL</span><h2>${esc(instrument.label)}</h2><p>${esc(instrument.description)}</p></div>${featureVisual}</div>
+      ${soundTrailInstrumentBody(instrument)}
+    </section>`);
 }
 
 function playlistTrackRow(track, playlistId) {
@@ -574,6 +605,13 @@ document.addEventListener('click', async (event) => {
     return;
   }
 
+  const soundTrailInstrument = event.target.closest('[data-soundtrail-instrument]');
+  if (soundTrailInstrument) {
+    activeSoundTrailInstrument = soundTrailInstrument.dataset.soundtrailInstrument;
+    if (route() !== 'instruments') location.hash = '#/instruments'; else render();
+    return;
+  }
+
   const connectSpotifyLog = event.target.closest('[data-connect-spotify-log]');
   if (connectSpotifyLog) {
     try { await beginSpotifyLogin('#/log'); }
@@ -712,12 +750,25 @@ document.addEventListener('submit', (event) => {
 
 async function boot() {
   try { await finishSpotifyLoginFromUrl(); } catch (error) { console.warn(error); showToast(error.message); }
-  try {
-    data = await loadMusicData();
-  } catch (error) {
-    console.error(error);
+
+  const [versionResult, musicResult] = await Promise.allSettled([
+    loadAppVersion(),
+    loadMusicData(),
+  ]);
+
+  if (versionResult.status === 'fulfilled') {
+    appVersion = versionResult.value;
+  } else {
+    console.warn(versionResult.reason);
+  }
+
+  if (musicResult.status === 'fulfilled') {
+    data = musicResult.value;
+  } else {
+    console.error(musicResult.reason);
     showToast('The seed music catalog could not be loaded.');
   }
+
   render();
 }
 
