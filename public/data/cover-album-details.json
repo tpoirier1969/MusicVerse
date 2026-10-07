@@ -5443,5 +5443,1457 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0056",
+    "releaseDate": "2021-07-16",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b2739d4732150e613d54ec51a81d",
+    "originalArtists": [
+      "Derek and the Dominos"
+    ],
+    "originalGenres": [
+      "Blues Rock",
+      "Rock"
+    ],
+    "notes": [
+      "Tedeschi Trucks Band performed Derek and the Dominos' Layla and Other Assorted Love Songs in sequence at LOCKN' on August 24, 2019, with Trey Anastasio and Doyle Bramhall II joining the ensemble.",
+      "The album preserves the full live performance and adds a studio duet of “Thorn Tree in the Garden” by Derek Trucks and Susan Tedeschi.",
+      "Because this project is explicitly a full-album revisit, MusicVerse treats Derek and the Dominos as the source artist for the track-level relationships, even where the 1970 Layla album itself drew on older blues material."
+    ],
+    "personnel": [
+      {
+        "name": "Derek Trucks",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Susan Tedeschi",
+        "roles": [
+          "guitar",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Trey Anastasio",
+        "roles": [
+          "guitar",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Doyle Bramhall II",
+        "roles": [
+          "guitar",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Brandon Boone",
+        "roles": [
+          "bass guitar"
+        ]
+      },
+      {
+        "name": "J.J. Johnson",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Tyler Greenwell",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Gabe Dixon",
+        "roles": [
+          "keyboards",
+          "vocals"
+        ]
+      },
+      {
+        "name": "Kebbi Williams",
+        "roles": [
+          "saxophone"
+        ]
+      },
+      {
+        "name": "Elizabeth Lea",
+        "roles": [
+          "trombone"
+        ]
+      },
+      {
+        "name": "Ephraim Owens",
+        "roles": [
+          "trumpet"
+        ]
+      },
+      {
+        "name": "Alecia Chakour",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Mike Mattison",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Mark Rivers",
+        "roles": [
+          "vocals"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tedeschi Trucks Band official store",
+        "url": "https://shop.tedeschitrucksband.com/products/tedeschi-trucks-band-layla-revisited-live-at-lockn-2c"
+      },
+      {
+        "label": "Tedeschi Trucks Band Bandcamp",
+        "url": "https://tedeschitrucksband.bandcamp.com/album/layla-revisited-live-at-lockn"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/addb7a54-9fda-4910-9f80-55c5bf4938bb"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/6O5gWyGfpV47SgllhnoaK2"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0056-01",
+        "number": 1,
+        "title": "I Looked Away - Live at LOCKN' / 2019",
+        "durationSeconds": 196.505,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/1o58WQeg8AgpKzG57qXBtF",
+        "spotifyUri": "spotify:track:1o58WQeg8AgpKzG57qXBtF",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-02",
+        "number": 2,
+        "title": "Bell Bottom Blues - Live at LOCKN' / 2019",
+        "durationSeconds": 291.841,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/60sdSxvEoAvOm8lbokakcA",
+        "spotifyUri": "spotify:track:60sdSxvEoAvOm8lbokakcA",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-03",
+        "number": 3,
+        "title": "Keep On Growing - Live at LOCKN' / 2019",
+        "durationSeconds": 721.965,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/2QuTtUV6l2ZS3jxydfx6IX",
+        "spotifyUri": "spotify:track:2QuTtUV6l2ZS3jxydfx6IX",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-04",
+        "number": 4,
+        "title": "Nobody Knows You When You're Down And Out - Live at LOCKN' / 2019",
+        "durationSeconds": 299.863,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/5kV1sqmhNp1ScB6akb8SMJ",
+        "spotifyUri": "spotify:track:5kV1sqmhNp1ScB6akb8SMJ",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-05",
+        "number": 5,
+        "title": "I Am Yours - Live at LOCKN' / 2019",
+        "durationSeconds": 224.343,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/11bQr7Q8zU6GXNSuuCooZ8",
+        "spotifyUri": "spotify:track:11bQr7Q8zU6GXNSuuCooZ8",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-06",
+        "number": 6,
+        "title": "Anyday - Live at LOCKN' / 2019",
+        "durationSeconds": 796.208,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/1a0zR1AgUogkRjmfM63xdA",
+        "spotifyUri": "spotify:track:1a0zR1AgUogkRjmfM63xdA",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-07",
+        "number": 7,
+        "title": "Key To The Highway - Live at LOCKN' / 2019",
+        "durationSeconds": 523.281,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/4VwTHz6iaqmUk5pHh5UXEi",
+        "spotifyUri": "spotify:track:4VwTHz6iaqmUk5pHh5UXEi",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-08",
+        "number": 8,
+        "title": "Tell The Truth - Live at LOCKN' / 2019",
+        "durationSeconds": 426.669,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/3GNHoRb3DCq5MZ3AYriAJc",
+        "spotifyUri": "spotify:track:3GNHoRb3DCq5MZ3AYriAJc",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-09",
+        "number": 9,
+        "title": "Why Does Love Got To Be So Sad? - Live at LOCKN' / 2019",
+        "durationSeconds": 508.121,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/2Y83Fve4WUOYNJXtPshbfN",
+        "spotifyUri": "spotify:track:2Y83Fve4WUOYNJXtPshbfN",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-10",
+        "number": 10,
+        "title": "Have You Ever Loved A Woman - Live at LOCKN' / 2019",
+        "durationSeconds": 501.421,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/0GVUkrSJzgiha1wKMvA8tf",
+        "spotifyUri": "spotify:track:0GVUkrSJzgiha1wKMvA8tf",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-11",
+        "number": 11,
+        "title": "Little Wing - Live at LOCKN' / 2019",
+        "durationSeconds": 413.617,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/4mBSlDtxKBtfean9muzN3d",
+        "spotifyUri": "spotify:track:4mBSlDtxKBtfean9muzN3d",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-12",
+        "number": 12,
+        "title": "It's Too Late - Live at LOCKN' / 2019",
+        "durationSeconds": 231.555,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/2gSOF7JxlWf4G00cQupLQP",
+        "spotifyUri": "spotify:track:2gSOF7JxlWf4G00cQupLQP",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-13",
+        "number": 13,
+        "title": "Layla - Live at LOCKN' / 2019",
+        "durationSeconds": 541.726,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/4H1IG4ch639mB1kKZXe3iV",
+        "spotifyUri": "spotify:track:4H1IG4ch639mB1kKZXe3iV",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Trey Anastasio",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Doyle Bramhall II",
+            "roles": [
+              "guitar",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Brandon Boone",
+            "roles": [
+              "bass guitar"
+            ]
+          },
+          {
+            "name": "J.J. Johnson",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Tyler Greenwell",
+            "roles": [
+              "drums"
+            ]
+          },
+          {
+            "name": "Gabe Dixon",
+            "roles": [
+              "keyboards",
+              "vocals"
+            ]
+          },
+          {
+            "name": "Kebbi Williams",
+            "roles": [
+              "saxophone"
+            ]
+          },
+          {
+            "name": "Elizabeth Lea",
+            "roles": [
+              "trombone"
+            ]
+          },
+          {
+            "name": "Ephraim Owens",
+            "roles": [
+              "trumpet"
+            ]
+          },
+          {
+            "name": "Alecia Chakour",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mike Mattison",
+            "roles": [
+              "vocals"
+            ]
+          },
+          {
+            "name": "Mark Rivers",
+            "roles": [
+              "vocals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cover-track-0056-14",
+        "number": 14,
+        "title": "Thorn Tree In The Garden - Studio",
+        "durationSeconds": 168.524,
+        "originalArtist": "Derek and the Dominos",
+        "originalGenre": "Blues Rock",
+        "spotify": "https://open.spotify.com/track/2sVNkuPNU24nUirkZsp7Ak",
+        "spotifyUri": "spotify:track:2sVNkuPNU24nUirkZsp7Ak",
+        "musicians": [
+          {
+            "name": "Derek Trucks",
+            "roles": [
+              "guitar"
+            ]
+          },
+          {
+            "name": "Susan Tedeschi",
+            "roles": [
+              "vocals",
+              "guitar"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
