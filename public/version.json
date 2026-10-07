@@ -1,10 +1,10 @@
 {
-  "version": "0.3.6",
+  "version": "0.3.7",
   "updated_at": "2026-10-07",
   "notes": [
-    "Added full verified detail records for Bill Frisell's Have a Little Faith and The Bad Plus's For All I Care.",
-    "Both albums now include verified cover art, Spotify track links and durations, source artists/composers, source genres, personnel, album notes, and provenance.",
-    "For All I Care includes track-level Wendy Lewis vocal credits only on the vocal performances; the Ligeti, Babbitt, and Stravinsky pieces remain trio instrumentals.",
-    "MusicVerse now has 20 enriched cover albums with track-level detail."
+    "Added full verified detail records for Bruce Springsteen's We Shall Overcome: The Seeger Sessions and Cat Power's Jukebox.",
+    "The Springsteen record follows its existing Spotify target, the 18-track American Land Edition, and distinguishes traditional/source material from Springsteen's original American Land.",
+    "Jukebox now identifies its two Cat Power originals/self-revisits separately from the covers and includes verified artwork and Spotify track metadata.",
+    "MusicVerse now has 22 enriched cover albums with track-level detail."
   ]
 }
