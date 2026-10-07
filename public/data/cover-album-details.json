@@ -8287,5 +8287,677 @@
         ]
       }
     ]
+  },
+  {
+    "albumId": "cover-album-0050",
+    "releaseDate": "2006-10-03",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b27393a1128f0d289374572c25ad",
+    "originalArtists": [
+      "Traditional",
+      "Thomas S. Allen",
+      "Sis Cunningham & Bill Cunningham",
+      "Alice Wine",
+      "Pete Seeger",
+      "Robert Lowry",
+      "Blind Alfred Reed",
+      "Bruce Springsteen"
+    ],
+    "originalGenres": [
+      "Folk",
+      "Gospel",
+      "Singer-Songwriter"
+    ],
+    "notes": [
+      "Springsteen built the project around traditional and folk repertoire associated with Pete Seeger, recording the core album live in informal sessions rather than treating the songs as museum pieces.",
+      "MusicVerse follows the Spotify target already attached to this catalog record: the 18-track American Land Edition. It expands the original 13-track April 2006 album with five additional recordings and live performances.",
+      "The American Land Edition was released October 3, 2006. “American Land” is a Springsteen composition inspired by an immigrant-worker poem and is marked here as an original rather than a cover."
+    ],
+    "personnel": [
+      {
+        "name": "Bruce Springsteen",
+        "roles": [
+          "lead vocals",
+          "guitar",
+          "harmonica",
+          "mandolin",
+          "keyboards",
+          "percussion"
+        ]
+      },
+      {
+        "name": "Charles Giordano",
+        "roles": [
+          "accordion",
+          "Hammond organ",
+          "piano",
+          "harmonium"
+        ]
+      },
+      {
+        "name": "Mark Clifford",
+        "roles": [
+          "banjo"
+        ]
+      },
+      {
+        "name": "Jeremy Chatzky",
+        "roles": [
+          "double bass"
+        ]
+      },
+      {
+        "name": "Larry Eagle",
+        "roles": [
+          "drums",
+          "percussion"
+        ]
+      },
+      {
+        "name": "Frank Bruno",
+        "roles": [
+          "guitar",
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Soozie Tyrell",
+        "roles": [
+          "violin",
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Sam Bardfeld",
+        "roles": [
+          "violin",
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Ed Manion",
+        "roles": [
+          "saxophone"
+        ]
+      },
+      {
+        "name": "Richie “La Bamba” Rosenberg",
+        "roles": [
+          "trombone",
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Mark Pender",
+        "roles": [
+          "trumpet",
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Art Baron",
+        "roles": [
+          "tuba",
+          "tin whistle"
+        ]
+      },
+      {
+        "name": "Lisa Lowell",
+        "roles": [
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Patti Scialfa",
+        "roles": [
+          "background vocals",
+          "guitar"
+        ]
+      },
+      {
+        "name": "Greg Liszt",
+        "roles": [
+          "banjo"
+        ]
+      },
+      {
+        "name": "Marty Rifkin",
+        "roles": [
+          "dobro"
+        ]
+      },
+      {
+        "name": "Curt Ramm",
+        "roles": [
+          "trumpet"
+        ]
+      },
+      {
+        "name": "Cindy Mizelle",
+        "roles": [
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Curtis King Jr.",
+        "roles": [
+          "background vocals"
+        ]
+      },
+      {
+        "name": "Marc Anthony Thompson",
+        "roles": [
+          "background vocals",
+          "guitar"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Bruce Springsteen official site",
+        "url": "https://brucespringsteen.net/albums/we-shall-overcome-the-seeger-sessions"
+      },
+      {
+        "label": "MusicBrainz American Land edition",
+        "url": "https://musicbrainz.org/release/c88c299b-2b2d-4e20-bfc6-55190b717455"
+      },
+      {
+        "label": "AllMusic American Land edition",
+        "url": "https://www.allmusic.com/album/release/we-shall-overcome-the-seeger-sessions-american-land-edition-mr0000694502"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/2O3avtEIE8xX9F0zcIjIZI"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0050-01",
+        "number": 1,
+        "title": "Old Dan Tucker",
+        "durationSeconds": 151.06,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/4rXZ7zmDDk739IWHrLcVt1",
+        "spotifyUri": "spotify:track:4rXZ7zmDDk739IWHrLcVt1",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-02",
+        "number": 2,
+        "title": "Jesse James (Just Ask)",
+        "durationSeconds": 227.68,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1AHJ9o9ANGVX80oESbiViR",
+        "spotifyUri": "spotify:track:1AHJ9o9ANGVX80oESbiViR",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-03",
+        "number": 3,
+        "title": "Mrs. McGrath",
+        "durationSeconds": 259.911,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/24sruCj3p7EjKUwUQmxC1U",
+        "spotifyUri": "spotify:track:24sruCj3p7EjKUwUQmxC1U",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-04",
+        "number": 4,
+        "title": "O Mary Don't You Weep",
+        "durationSeconds": 364.971,
+        "originalArtist": "Traditional",
+        "originalGenre": "Gospel",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5JN70TFrbjjHVJkKfSXlAn",
+        "spotifyUri": "spotify:track:5JN70TFrbjjHVJkKfSXlAn",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-05",
+        "number": 5,
+        "title": "John Henry",
+        "durationSeconds": 307.053,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/4mai1CggFbdIpK8MEohA0K",
+        "spotifyUri": "spotify:track:4mai1CggFbdIpK8MEohA0K",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-06",
+        "number": 6,
+        "title": "Erie Canal",
+        "durationSeconds": 243.338,
+        "originalArtist": "Thomas S. Allen",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5RqFC823JhgZjcX2p5pLC2",
+        "spotifyUri": "spotify:track:5RqFC823JhgZjcX2p5pLC2",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-07",
+        "number": 7,
+        "title": "Jacob's Ladder",
+        "durationSeconds": 268.297,
+        "originalArtist": "Traditional",
+        "originalGenre": "Gospel",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/4t2L7UTfOcUBF4P8j2eA45",
+        "spotifyUri": "spotify:track:4t2L7UTfOcUBF4P8j2eA45",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-08",
+        "number": 8,
+        "title": "My Oklahoma Home",
+        "durationSeconds": 363.79,
+        "originalArtist": "Sis Cunningham & Bill Cunningham",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/7dqmragLm9YMSqy4UCKO5P",
+        "spotifyUri": "spotify:track:7dqmragLm9YMSqy4UCKO5P",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-09",
+        "number": 9,
+        "title": "Eyes on the Prize",
+        "durationSeconds": 316.783,
+        "originalArtist": "Traditional / Alice Wine",
+        "originalGenre": "Gospel",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1S0xoTJmQCIhbpj9c1ZphK",
+        "spotifyUri": "spotify:track:1S0xoTJmQCIhbpj9c1ZphK",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-10",
+        "number": 10,
+        "title": "Shenandoah",
+        "durationSeconds": 292.705,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/3DnGO6nNtrPOy8N2pKxk9F",
+        "spotifyUri": "spotify:track:3DnGO6nNtrPOy8N2pKxk9F",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-11",
+        "number": 11,
+        "title": "Pay Me My Money Down",
+        "durationSeconds": 272.292,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5MIoOiIkw77j5OGDlDbM3v",
+        "spotifyUri": "spotify:track:5MIoOiIkw77j5OGDlDbM3v",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-12",
+        "number": 12,
+        "title": "We Shall Overcome",
+        "durationSeconds": 293.044,
+        "originalArtist": "Traditional / Pete Seeger",
+        "originalGenre": "Gospel",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/62Vo9XI7EBbop77Wl4QoQ9",
+        "spotifyUri": "spotify:track:62Vo9XI7EBbop77Wl4QoQ9",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-13",
+        "number": 13,
+        "title": "Froggie Went a Courtin'",
+        "durationSeconds": 275.871,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/07fNOvllfYmjvQU76biksH",
+        "spotifyUri": "spotify:track:07fNOvllfYmjvQU76biksH",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-14",
+        "number": 14,
+        "title": "Buffalo Gals",
+        "durationSeconds": 192.348,
+        "originalArtist": "Traditional",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/28Q9uWuoLNCl3e8fJADaL1",
+        "spotifyUri": "spotify:track:28Q9uWuoLNCl3e8fJADaL1",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-15",
+        "number": 15,
+        "title": "How Can I Keep from Singing",
+        "durationSeconds": 139.718,
+        "originalArtist": "Robert Lowry",
+        "originalGenre": "Gospel",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/7BAgDWYAV5Ae7DtUnJi9xo",
+        "spotifyUri": "spotify:track:7BAgDWYAV5Ae7DtUnJi9xo",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-16",
+        "number": 16,
+        "title": "How Can a Poor Man Stand Such Times and Live",
+        "durationSeconds": 202.878,
+        "originalArtist": "Blind Alfred Reed",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/3uPImxAltF6FcSGIC3OPWq",
+        "spotifyUri": "spotify:track:3uPImxAltF6FcSGIC3OPWq",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-17",
+        "number": 17,
+        "title": "Bring 'Em Home",
+        "durationSeconds": 215.6,
+        "originalArtist": "Pete Seeger",
+        "originalGenre": "Folk",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/20NMvQ7078gahRN511FACT",
+        "spotifyUri": "spotify:track:20NMvQ7078gahRN511FACT",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0050-18",
+        "number": 18,
+        "title": "American Land",
+        "durationSeconds": 282.038,
+        "originalArtist": "Bruce Springsteen",
+        "originalGenre": "Singer-Songwriter",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/4rzaPfWO07Cs1PIyXecjB2",
+        "spotifyUri": "spotify:track:4rzaPfWO07Cs1PIyXecjB2",
+        "musicians": []
+      }
+    ]
+  },
+  {
+    "albumId": "cover-album-0057",
+    "releaseDate": "2008-01-21",
+    "artwork": "https://i.scdn.co/image/ab67616d0000b273f0999ed36c6772e972a6ac9e",
+    "originalArtists": [
+      "Liza Minnelli",
+      "Hank Williams",
+      "Cat Power",
+      "Lee Clayton",
+      "George Jackson",
+      "James Brown & The Famous Flames",
+      "Jessie Mae Hemphill",
+      "Bob Dylan",
+      "Billie Holiday",
+      "Janis Joplin",
+      "Joni Mitchell",
+      "Nick Cave and the Bad Seeds"
+    ],
+    "originalGenres": [
+      "Pop",
+      "Country",
+      "Rock",
+      "R&B",
+      "Blues",
+      "Singer-Songwriter",
+      "Jazz"
+    ],
+    "notes": [
+      "Cat Power's second covers-centered album uses a full band and a Memphis-soul-informed palette rather than the stark reductions of The Covers Record.",
+      "The set ranges from country, blues and soul to Dylan, Joni Mitchell and Nick Cave. “Metal Heart” is a new recording of Cat Power's own earlier song, while “Song To Bobby” is an original written for this album.",
+      "Matador's standard digital configuration contains 13 tracks; other physical and deluxe editions vary in their bonus material."
+    ],
+    "personnel": [
+      {
+        "name": "Chan Marshall",
+        "roles": [
+          "vocals"
+        ]
+      },
+      {
+        "name": "Judah Bauer",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Erik Paparazzi",
+        "roles": [
+          "bass"
+        ]
+      },
+      {
+        "name": "Gregg Foreman",
+        "roles": [
+          "piano"
+        ]
+      },
+      {
+        "name": "Jim White",
+        "roles": [
+          "drums"
+        ]
+      },
+      {
+        "name": "Matt Sweeney",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Spooner Oldham",
+        "roles": [
+          "piano",
+          "organ"
+        ]
+      },
+      {
+        "name": "Mabon “Teenie” Hodges",
+        "roles": [
+          "guitar"
+        ]
+      },
+      {
+        "name": "Larry McDonald",
+        "roles": [
+          "percussion"
+        ]
+      },
+      {
+        "name": "Dylan Willemsa",
+        "roles": [
+          "viola"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Matador Records",
+        "url": "https://shop.matadorrecords.com/release/342389-cat-power-jukebox?lang=en_US"
+      },
+      {
+        "label": "MusicBrainz release",
+        "url": "https://musicbrainz.org/release/c4f2fbcf-b4c0-4f6b-9cc9-df1f973eaf49"
+      },
+      {
+        "label": "AllMusic",
+        "url": "https://www.allmusic.com/album/r1265688"
+      },
+      {
+        "label": "Spotify album",
+        "url": "https://open.spotify.com/album/2uhG1PSozFcBPi4ASO0UH7"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "cover-track-0057-01",
+        "number": 1,
+        "title": "New York",
+        "durationSeconds": 121.106,
+        "originalArtist": "Liza Minnelli",
+        "originalGenre": "Pop",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5mhzHPJ2pYeH1Dj9Nayegd",
+        "spotifyUri": "spotify:track:5mhzHPJ2pYeH1Dj9Nayegd",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-02",
+        "number": 2,
+        "title": "Ramblin' (Wo)man",
+        "durationSeconds": 228.346,
+        "originalArtist": "Hank Williams",
+        "originalGenre": "Country",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/16RAHF7fbD31i9LcTzN6Oc",
+        "spotifyUri": "spotify:track:16RAHF7fbD31i9LcTzN6Oc",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-03",
+        "number": 3,
+        "title": "Metal Heart",
+        "durationSeconds": 234.92,
+        "originalArtist": "Cat Power",
+        "originalGenre": "Rock",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/6RMix5TqqyKyrMaIFMlm5q",
+        "spotifyUri": "spotify:track:6RMix5TqqyKyrMaIFMlm5q",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-04",
+        "number": 4,
+        "title": "Silver Stallion",
+        "durationSeconds": 173.72,
+        "originalArtist": "Lee Clayton",
+        "originalGenre": "Country",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/4kCiEVyvdVcQ0icmgDyZ7m",
+        "spotifyUri": "spotify:track:4kCiEVyvdVcQ0icmgDyZ7m",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-05",
+        "number": 5,
+        "title": "Aretha, Sing One For Me",
+        "durationSeconds": 193.386,
+        "originalArtist": "George Jackson",
+        "originalGenre": "R&B",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/47uR7OWHG7eMcs6GtMEbfU",
+        "spotifyUri": "spotify:track:47uR7OWHG7eMcs6GtMEbfU",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-06",
+        "number": 6,
+        "title": "Lost Someone",
+        "durationSeconds": 171.173,
+        "originalArtist": "James Brown & The Famous Flames",
+        "originalGenre": "R&B",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5owmouThkuycgEElbgEwPK",
+        "spotifyUri": "spotify:track:5owmouThkuycgEElbgEwPK",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-07",
+        "number": 7,
+        "title": "Lord, Help The Poor & Needy",
+        "durationSeconds": 158.4,
+        "originalArtist": "Jessie Mae Hemphill",
+        "originalGenre": "Blues",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5YZUk3DYXnpqbDdLUGxLfS",
+        "spotifyUri": "spotify:track:5YZUk3DYXnpqbDdLUGxLfS",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-08",
+        "number": 8,
+        "title": "I Believe In You",
+        "durationSeconds": 248.093,
+        "originalArtist": "Bob Dylan",
+        "originalGenre": "Singer-Songwriter",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/1BrCyTpzQXOMAKnc70uDgH",
+        "spotifyUri": "spotify:track:1BrCyTpzQXOMAKnc70uDgH",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-09",
+        "number": 9,
+        "title": "Song To Bobby",
+        "durationSeconds": 258.44,
+        "originalArtist": "Cat Power",
+        "originalGenre": "Singer-Songwriter",
+        "isCover": false,
+        "spotify": "https://open.spotify.com/track/04dyRkxhT5nzgAFYWJl3Nq",
+        "spotifyUri": "spotify:track:04dyRkxhT5nzgAFYWJl3Nq",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-10",
+        "number": 10,
+        "title": "Don't Explain",
+        "durationSeconds": 231.186,
+        "originalArtist": "Billie Holiday",
+        "originalGenre": "Jazz",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/4bcur3ft2X7o5yJGxNjgzb",
+        "spotifyUri": "spotify:track:4bcur3ft2X7o5yJGxNjgzb",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-11",
+        "number": 11,
+        "title": "Woman Left Lonely",
+        "durationSeconds": 248.32,
+        "originalArtist": "Janis Joplin",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/5SUfkO6cEcPlYuFnGQLQOC",
+        "spotifyUri": "spotify:track:5SUfkO6cEcPlYuFnGQLQOC",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-12",
+        "number": 12,
+        "title": "Blue",
+        "durationSeconds": 242.853,
+        "originalArtist": "Joni Mitchell",
+        "originalGenre": "Singer-Songwriter",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/0gniq13Lp5SABjKZivKgvp",
+        "spotifyUri": "spotify:track:0gniq13Lp5SABjKZivKgvp",
+        "musicians": []
+      },
+      {
+        "id": "cover-track-0057-13",
+        "number": 13,
+        "title": "Breathless",
+        "durationSeconds": 305,
+        "originalArtist": "Nick Cave and the Bad Seeds",
+        "originalGenre": "Rock",
+        "isCover": true,
+        "spotify": "https://open.spotify.com/track/2zcbraO8BpJMzlsgos855C",
+        "spotifyUri": "spotify:track:2zcbraO8BpJMzlsgos855C",
+        "musicians": []
+      }
+    ]
   }
 ]
