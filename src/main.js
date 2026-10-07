@@ -209,7 +209,7 @@ function featuredAlbum() {
   const spotifyUrl = album.spotify || '';
   const artwork = getAlbumArtwork(album);
   return `<section class="featured-album organic-panel">
-    <div class="featured-art" aria-hidden="true"><img src="${esc(artwork || '/assets/roadscape.svg')}" alt=""><span class="record-peek"><img src="/assets/vinyl.svg" alt=""></span></div>
+    <div class="featured-art${artwork ? ' has-art' : ''}" aria-hidden="true"><img src="${esc(artwork || '/assets/roadscape.svg')}" alt=""><span class="record-peek"><img src="/assets/vinyl.svg" alt=""></span></div>
     <div class="featured-copy">
       <span class="eyebrow">FEATURED COVER ALBUM</span>
       <h2>${esc(album.album || 'Different Skies')}</h2>
