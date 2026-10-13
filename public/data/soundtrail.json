@@ -120,7 +120,8 @@
           "label": "Early Music America — According the Accordion Its Historical Due",
           "url": "https://www.earlymusicamerica.org/web-articles/according-the-accordion-its-historical-due/"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "clarinet",
@@ -200,7 +201,8 @@
           "label": "Yamaha — The modern clarinet",
           "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/structure/structure002.html"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "pedal-steel-guitar",
@@ -294,7 +296,8 @@
           "label": "Smithsonian Folkways — Traditional Sacred African-American Steel Guitar Music",
           "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "cello",
@@ -398,7 +401,8 @@
           "label": "Philharmonia — Cello",
           "url": "https://philharmonia.co.uk/resources/instruments/cello/"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "sitar",
@@ -482,7 +486,8 @@
           "label": "Encyclopaedia Britannica — Sitar",
           "url": "https://www.britannica.com/art/sitar"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "double-bass",
@@ -570,7 +575,8 @@
           "label": "Youngstown Symphony Orchestra — The Double Bass: From Foundation to Melody",
           "url": "https://ysomusic.org/media/the-double-bass"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     },
     {
       "id": "tabla",
@@ -642,7 +648,8 @@
           "label": "Encyclopaedia Britannica — Tabla",
           "url": "https://www.britannica.com/art/tabla"
         }
-      ]
+      ],
+      "researchStandardVersion": 1
     }
   ],
   "recordings": [
