@@ -27,7 +27,7 @@ test('catalog sync bundle preserves stable MusicVerse identities', () => {
   assert.deepEqual(bundle.soundTrail.recordings.map((item) => item.legacyId), soundTrail.recordings.map((item) => item.id));
   assert.equal(bundle.soundTrail.instruments[0].importance, soundTrail.instruments[0].importance);
   assert.deepEqual(bundle.soundTrail.instruments[0].researchSources, soundTrail.instruments[0].researchSources);
-  assert.equal(bundle.soundTrail.instruments[0].researchStandardVersion, 1);
+  assert.equal(bundle.soundTrail.instruments[0].researchStandardVersion, 2);
 });
 
 test('catalog sync fingerprint is repeat-safe for unchanged input', () => {
