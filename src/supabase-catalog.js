@@ -101,6 +101,7 @@ export function mapSupabaseCatalog({ albumRows, detailRows, crazyRows, instrumen
   const crazyCovers = asArray(crazyRows)
     .map((row) => ({
       id: row.legacy_id || row.recording_id || '',
+      uuid: row.recording_id || '',
       sourceArtist: row.source_artist || '',
       song: row.song || '',
       coverArtist: row.cover_artist || '',
