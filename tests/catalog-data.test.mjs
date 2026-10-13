@@ -32,6 +32,12 @@ test('album detail records reference real albums and unique tracks', () => {
   assert.equal(new Set(trackIds).size, trackIds.length);
 });
 
+test('Crazy Covers has permanent unique record IDs', () => {
+  const ids = crazyCovers.map((item) => item.id);
+  assert.equal(new Set(ids).size, ids.length);
+  for (const id of ids) assert.match(id, /^crazy-cover-\d{4}$/);
+});
+
 test('existing album catalog keeps real Spotify album links', () => {
   for (const album of albums) {
     assert.match(album.spotify || '', /^https:\/\/open\.spotify\.com\/album\/[A-Za-z0-9]+/);
