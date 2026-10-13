@@ -109,6 +109,7 @@ export function buildCatalogBundle({ albums, details, crazyCovers, soundTrail })
       description: instrument.description || '',
       importance: instrument.importance || '',
       researchSources: instrument.researchSources || [],
+      researchStandardVersion: Number(instrument.researchStandardVersion) || 0,
       sortOrder: index + 1,
       genres: (instrument.genres || []).map((genre) => ({
         name: genre.name || '',
@@ -168,6 +169,9 @@ export function validateCatalogBundle(bundle) {
     }
     if (!(instrument.researchSources || []).length) {
       throw new Error(`SoundTrail instrument ${instrument.id} is missing research sources.`);
+    }
+    if (Number(instrument.researchStandardVersion) < 1) {
+      throw new Error(`SoundTrail instrument ${instrument.id} has not completed the current research standard.`);
     }
     if ((instrument.genres || []).length < 3) {
       throw new Error(`SoundTrail instrument ${instrument.id} needs a researched style map, not just starter tracks.`);
