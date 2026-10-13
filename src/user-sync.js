@@ -83,6 +83,12 @@ function validUuid(value) {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(String(value || ''));
 }
 
+function chunks(values, size = 100) {
+  const result = [];
+  for (let index = 0; index < values.length; index += size) result.push(values.slice(index, index + size));
+  return result;
+}
+
 function spotifyTrackId(value) {
   const raw = String(value || '').trim();
   if (!raw) return '';
@@ -205,31 +211,31 @@ async function resolveRecordingIds(sourceKeys = [], spotifyIds = []) {
   const legacyKeys = cleanKeys.filter((key) => !validUuid(key));
   const uuidKeys = cleanKeys.filter(validUuid);
 
-  if (legacyKeys.length) {
+  for (const batch of chunks(legacyKeys)) {
     const aliases = check(
       await supabase
         .from('musicverse_recording_aliases')
         .select('alias_id,recording_id')
-        .in('alias_id', legacyKeys),
+        .in('alias_id', batch),
       'Could not resolve MusicVerse recording IDs',
     );
     for (const row of aliases) bySource.set(row.alias_id, row.recording_id);
   }
 
-  if (uuidKeys.length) {
+  for (const batch of chunks(uuidKeys)) {
     const recordings = check(
-      await supabase.from('musicverse_recordings').select('id').in('id', uuidKeys),
+      await supabase.from('musicverse_recordings').select('id').in('id', batch),
       'Could not resolve older recording UUIDs',
     );
     for (const row of recordings) bySource.set(row.id, row.id);
   }
 
-  if (cleanSpotify.length) {
+  for (const batch of chunks(cleanSpotify)) {
     const recordings = check(
       await supabase
         .from('musicverse_recordings')
         .select('id,spotify_track_id')
-        .in('spotify_track_id', cleanSpotify),
+        .in('spotify_track_id', batch),
       'Could not resolve Spotify recording IDs',
     );
     for (const row of recordings) bySpotify.set(row.spotify_track_id, row.id);
