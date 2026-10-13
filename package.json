@@ -11,7 +11,10 @@
     "preview": "vite preview",
     "deploy": "wrangler deploy",
     "check:cloudflare": "wrangler deploy --dry-run",
-    "test": "node --test"
+    "test": "node --test",
+    "catalog:dry-run": "node scripts/catalog-sync.mjs --dry-run",
+    "catalog:audit": "node scripts/catalog-sync.mjs --audit",
+    "catalog:apply": "node scripts/catalog-sync.mjs --apply"
   },
   "devDependencies": {
     "vite": "^8.1.0",
