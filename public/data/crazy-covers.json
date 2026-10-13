@@ -1,5 +1,6 @@
 [
   {
+    "id": "crazy-cover-0001",
     "sourceArtist": "Queen",
     "song": "Bohemian Rhapsody",
     "coverArtist": "Pentatonix",
@@ -10,6 +11,7 @@
     "spotify": "https://open.spotify.com/track/0lrkMvRttmoXjMNS8YONvj"
   },
   {
+    "id": "crazy-cover-0002",
     "sourceArtist": "The Who",
     "song": "I Can See for Miles",
     "coverArtist": "Petra Haden",
@@ -20,6 +22,7 @@
     "spotify": "https://open.spotify.com/track/25DU4tskmMPbabx7Z44cI6?utm_source=openai&utm_medium=chatgpt&request_id=79e7c09c-b291-4d56-b780-b7f9db2b7fcd"
   },
   {
+    "id": "crazy-cover-0003",
     "sourceArtist": "Pink Floyd",
     "song": "Echoes",
     "coverArtist": "Rodrigo y Gabriela",
@@ -30,6 +33,7 @@
     "spotify": "https://open.spotify.com/track/28W6mGZBRvaZNXPoxteL6G"
   },
   {
+    "id": "crazy-cover-0004",
     "sourceArtist": "Led Zeppelin",
     "song": "Stairway To Heaven",
     "coverArtist": "Rodrigo y Gabriela",
@@ -40,6 +44,7 @@
     "spotify": "https://open.spotify.com/track/7hXtXvsgEg5j1TxRuEYUY9?utm_source=openai&utm_medium=chatgpt&request_id=810b4f66-098d-4a98-9646-a4a2b07bd17b"
   },
   {
+    "id": "crazy-cover-0005",
     "sourceArtist": "Metallica",
     "song": "The Struggle Within",
     "coverArtist": "Rodrigo y Gabriela",
@@ -50,6 +55,7 @@
     "spotify": "https://open.spotify.com/track/2jL3jkqYoaAF3rG1N2A3rY"
   },
   {
+    "id": "crazy-cover-0006",
     "sourceArtist": "Radiohead",
     "song": "Black Star",
     "coverArtist": "Gillian Welch",
@@ -60,6 +66,7 @@
     "spotify": "https://open.spotify.com/track/2qmWeiCJ9xrvgthvSjyqbe"
   },
   {
+    "id": "crazy-cover-0007",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Jesse Terry, Liz Longley",
@@ -70,6 +77,7 @@
     "spotify": "https://open.spotify.com/track/3tWRTNBVhlzs7lQiMFnsFh?utm_source=openai&utm_medium=chatgpt&request_id=6575c1d4-38a3-49ca-9de7-968880bd3697"
   },
   {
+    "id": "crazy-cover-0008",
     "sourceArtist": "David Bowie",
     "song": "The Man Who Sold the World",
     "coverArtist": "Nirvana",
@@ -80,6 +88,7 @@
     "spotify": "https://open.spotify.com/track/15VRO9CQwMpbqUYA7e6Hwg"
   },
   {
+    "id": "crazy-cover-0009",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Last Train to London",
     "coverArtist": "Eve St. Jones, Massey",
@@ -90,6 +99,7 @@
     "spotify": "https://open.spotify.com/track/3p5TVaZfPqAiyJKY88XEzU?utm_source=openai&utm_medium=chatgpt&request_id=46bd3729-bc59-4d01-9ef9-ec0d961f4676"
   },
   {
+    "id": "crazy-cover-0010",
     "sourceArtist": "Black Sabbath",
     "song": "Paranoid",
     "coverArtist": "Hellsongs",
@@ -100,6 +110,7 @@
     "spotify": "https://open.spotify.com/track/6bQVe3zuhcAFI9k2ao9qBC"
   },
   {
+    "id": "crazy-cover-0011",
     "sourceArtist": "Black Sabbath",
     "song": "War Pigs",
     "coverArtist": "Hellsongs",
@@ -110,6 +121,7 @@
     "spotify": "https://open.spotify.com/track/0xAZamWfMqaG2Brj5uFUsa"
   },
   {
+    "id": "crazy-cover-0012",
     "sourceArtist": "Europe",
     "song": "Rock the Night",
     "coverArtist": "Hellsongs",
@@ -120,6 +132,7 @@
     "spotify": "https://open.spotify.com/track/7KuJ13vZMgA0rMWslqJ6ly"
   },
   {
+    "id": "crazy-cover-0013",
     "sourceArtist": "Iron Maiden",
     "song": "Run to the Hills",
     "coverArtist": "Hellsongs",
@@ -130,6 +143,7 @@
     "spotify": "https://open.spotify.com/track/4NQUMSTCO4MdFOsqTgoQl2"
   },
   {
+    "id": "crazy-cover-0014",
     "sourceArtist": "Iron Maiden",
     "song": "The Trooper",
     "coverArtist": "Hellsongs",
@@ -140,6 +154,7 @@
     "spotify": "https://open.spotify.com/track/08XBUv9jqpU9sP5eT0WG6r"
   },
   {
+    "id": "crazy-cover-0015",
     "sourceArtist": "Judas Priest",
     "song": "Breaking the Law",
     "coverArtist": "Hellsongs",
@@ -150,6 +165,7 @@
     "spotify": "https://open.spotify.com/track/1joGQTC16izY7VVuolqHCx"
   },
   {
+    "id": "crazy-cover-0016",
     "sourceArtist": "Megadeth",
     "song": "Symphony of Destruction",
     "coverArtist": "Hellsongs",
@@ -160,6 +176,7 @@
     "spotify": "https://open.spotify.com/track/6qLIY3JUqf7rMgWZUAeNdZ"
   },
   {
+    "id": "crazy-cover-0017",
     "sourceArtist": "Slayer",
     "song": "Seasons in the Abyss",
     "coverArtist": "Hellsongs",
@@ -170,6 +187,7 @@
     "spotify": "https://open.spotify.com/track/4uXoe5ZogMnJvO6gjZbGKJ"
   },
   {
+    "id": "crazy-cover-0018",
     "sourceArtist": "Twisted Sister",
     "song": "We're Not Gonna Take It",
     "coverArtist": "Hellsongs",
@@ -180,6 +198,7 @@
     "spotify": "https://open.spotify.com/track/0LfYCa04w9IRbSKHRsWY2y"
   },
   {
+    "id": "crazy-cover-0019",
     "sourceArtist": "Prince",
     "song": "When Doves Cry",
     "coverArtist": "Sarah Jarosz",
@@ -190,6 +209,7 @@
     "spotify": "https://open.spotify.com/track/4LLTqpc4ywNrx89seBQi3w"
   },
   {
+    "id": "crazy-cover-0020",
     "sourceArtist": "Talking Heads",
     "song": "Life During Wartime",
     "coverArtist": "DJ Tunez",
@@ -200,6 +220,7 @@
     "spotify": "https://open.spotify.com/track/643wIwBL8j6ML1mcg22Xji"
   },
   {
+    "id": "crazy-cover-0021",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Eldorado",
     "coverArtist": "Fleming & John",
@@ -210,6 +231,7 @@
     "spotify": "https://open.spotify.com/track/4W4glIM2um2X3dCqgce5v9?utm_source=openai&utm_medium=chatgpt&request_id=223d411f-0471-415e-809c-c0690f318f7f"
   },
   {
+    "id": "crazy-cover-0022",
     "sourceArtist": "Talking Heads",
     "song": "Once in a Lifetime",
     "coverArtist": "Kevin Abstract",
@@ -220,6 +242,7 @@
     "spotify": "https://open.spotify.com/track/1eIvdu7AiS1vxxXfLcvsyK"
   },
   {
+    "id": "crazy-cover-0023",
     "sourceArtist": "Talking Heads",
     "song": "Swamp",
     "coverArtist": "Jean Dawson",
@@ -230,6 +253,7 @@
     "spotify": "https://open.spotify.com/track/7byxRs314IAu6qBnyZ7srd"
   },
   {
+    "id": "crazy-cover-0024",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Livin' Thing",
     "coverArtist": "PFR",
@@ -240,6 +264,7 @@
     "spotify": "https://open.spotify.com/track/3nAyFU7bojOXzY5y1kKSUd?utm_source=openai&utm_medium=chatgpt&request_id=168b6b0d-626c-4965-9777-4522187ba5a8"
   },
   {
+    "id": "crazy-cover-0025",
     "sourceArtist": "Berlin",
     "song": "The Metro",
     "coverArtist": "System Of A Down",
@@ -250,6 +275,7 @@
     "spotify": "https://open.spotify.com/track/7eqjORDGqwvnZHpObPX3cj"
   },
   {
+    "id": "crazy-cover-0026",
     "sourceArtist": "Lynyrd Skynyrd",
     "song": "Simple Man",
     "coverArtist": "Deftones",
@@ -260,6 +286,7 @@
     "spotify": "https://open.spotify.com/track/0OKl4ySuPS2VCuB0gby2pj"
   },
   {
+    "id": "crazy-cover-0027",
     "sourceArtist": "Black Sabbath",
     "song": "War Pigs",
     "coverArtist": "Faith No More",
@@ -270,6 +297,7 @@
     "spotify": "https://open.spotify.com/track/2vCnEuoc65PXAdx33Y7syW"
   },
   {
+    "id": "crazy-cover-0028",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Livin' Thing",
     "coverArtist": "The Beautiful South",
@@ -280,6 +308,7 @@
     "spotify": "https://open.spotify.com/track/63BiQ4fK8hjoSg0y4hMSu6?utm_source=openai&utm_medium=chatgpt&request_id=bc309358-22ee-4aa6-be87-d5a67247921f"
   },
   {
+    "id": "crazy-cover-0029",
     "sourceArtist": "Electric Light Orchestra",
     "song": "On the Run",
     "coverArtist": "Sixpence None The Richer",
@@ -290,6 +319,7 @@
     "spotify": "https://open.spotify.com/track/2OhvvxrIk3ZKHGms5AUNSf?utm_source=openai&utm_medium=chatgpt&request_id=309773fc-1eba-4196-afc8-ab35b6834adb"
   },
   {
+    "id": "crazy-cover-0030",
     "sourceArtist": "Talking Heads",
     "song": "Making Flippy Floppy",
     "coverArtist": "Teezo Touchdown",
@@ -300,6 +330,7 @@
     "spotify": "https://open.spotify.com/track/5HbXKVq7qiguEoxSskrsHs"
   },
   {
+    "id": "crazy-cover-0031",
     "sourceArtist": "Kate Bush",
     "song": "Running Up That Hill",
     "coverArtist": "Placebo",
@@ -310,6 +341,7 @@
     "spotify": "https://open.spotify.com/track/0uYVJ8z5kgMayMNPJA6Cz9"
   },
   {
+    "id": "crazy-cover-0032",
     "sourceArtist": "Leonard Cohen",
     "song": "Everybody Knows",
     "coverArtist": "Concrete Blonde",
@@ -320,6 +352,7 @@
     "spotify": "https://open.spotify.com/track/1ryN1lUyInxWIqAp0VoqLz"
   },
   {
+    "id": "crazy-cover-0033",
     "sourceArtist": "Metallica",
     "song": "Holier Than Thou",
     "coverArtist": "Biffy Clyro",
@@ -330,6 +363,7 @@
     "spotify": "https://open.spotify.com/track/2SYp2kZzBCG9dQrag6C6nM"
   },
   {
+    "id": "crazy-cover-0034",
     "sourceArtist": "Metallica",
     "song": "The Unforgiven",
     "coverArtist": "Cage The Elephant",
@@ -340,6 +374,7 @@
     "spotify": "https://open.spotify.com/track/0Iixb2jL2s6BMqHtwnhG8H"
   },
   {
+    "id": "crazy-cover-0035",
     "sourceArtist": "Pink Floyd",
     "song": "Have a Cigar",
     "coverArtist": "Foo Fighters",
@@ -350,6 +385,7 @@
     "spotify": "https://open.spotify.com/track/5ZGmJxWucdAJ4dGLx6P5gu"
   },
   {
+    "id": "crazy-cover-0036",
     "sourceArtist": "Talking Heads",
     "song": "Burning Down the House",
     "coverArtist": "Paramore",
@@ -360,6 +396,7 @@
     "spotify": "https://open.spotify.com/track/0JYuvYMXApbWilFJdMSHSd"
   },
   {
+    "id": "crazy-cover-0037",
     "sourceArtist": "Fleetwood Mac",
     "song": "Landslide",
     "coverArtist": "The Smashing Pumpkins",
@@ -370,6 +407,7 @@
     "spotify": "https://open.spotify.com/track/6N7JMoaUYgo4pwPgsnSobr"
   },
   {
+    "id": "crazy-cover-0038",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "Jason Isbell and the 400 Unit",
@@ -380,6 +418,7 @@
     "spotify": "https://open.spotify.com/track/1cZ2t1CPtwN9qgf9kJbWOC"
   },
   {
+    "id": "crazy-cover-0039",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Tony Visconti",
@@ -390,6 +429,7 @@
     "spotify": "https://open.spotify.com/track/1Vo3wPqkZTuhqsoUn2aDY4?utm_source=openai&utm_medium=chatgpt&request_id=a61036d4-490e-405b-9f82-936ba12dcaa0"
   },
   {
+    "id": "crazy-cover-0040",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Showdown",
     "coverArtist": "Richard Barone",
@@ -400,6 +440,7 @@
     "spotify": "https://open.spotify.com/track/7KUszf1OYIu0GtQFHlCYW6?utm_source=openai&utm_medium=chatgpt&request_id=00e8f79b-eac9-4f52-978d-594082160b55"
   },
   {
+    "id": "crazy-cover-0041",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Bluebird Is Dead",
     "coverArtist": "Todd Rundgren",
@@ -410,6 +451,7 @@
     "spotify": "https://open.spotify.com/track/0cFg4LCVN0a8hcDlmvO92V?utm_source=openai&utm_medium=chatgpt&request_id=91a5c284-00e5-4fde-a736-8398aa453f83"
   },
   {
+    "id": "crazy-cover-0042",
     "sourceArtist": "Leonard Cohen",
     "song": "Suzanne",
     "coverArtist": "Peter Gabriel",
@@ -420,6 +462,7 @@
     "spotify": "https://open.spotify.com/track/3xNZ9t2a1HZgcwlEtYrBCc"
   },
   {
+    "id": "crazy-cover-0043",
     "sourceArtist": "Metallica",
     "song": "The Unforgiven",
     "coverArtist": "Moses Sumney",
@@ -430,6 +473,7 @@
     "spotify": "https://open.spotify.com/track/5idotQm4Xr9YrHSo1DYgQ4"
   },
   {
+    "id": "crazy-cover-0044",
     "sourceArtist": "Black Sabbath",
     "song": "Iron Man",
     "coverArtist": "The Bad Plus",
@@ -440,6 +484,7 @@
     "spotify": "https://open.spotify.com/track/0fjIQRrBe0cIhdF8I7dpJf?utm_source=openai&utm_medium=chatgpt&request_id=c450ad34-20a4-455f-b324-e9622cbec2d0"
   },
   {
+    "id": "crazy-cover-0045",
     "sourceArtist": "Blondie",
     "song": "Heart of Glass",
     "coverArtist": "The Bad Plus",
@@ -450,6 +495,7 @@
     "spotify": "https://open.spotify.com/track/1pv1XQ0qsvZgXipCl8INym"
   },
   {
+    "id": "crazy-cover-0046",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "The Bad Plus",
@@ -460,6 +506,7 @@
     "spotify": "https://open.spotify.com/track/6RoModa3txoHpxBtJMwnv2?utm_source=openai&utm_medium=chatgpt&request_id=8ef14358-4555-4adf-a9ea-4f6abd035663"
   },
   {
+    "id": "crazy-cover-0047",
     "sourceArtist": "Radiohead",
     "song": "Karma Police",
     "coverArtist": "The Bad Plus",
@@ -470,6 +517,7 @@
     "spotify": "https://open.spotify.com/track/3dUVL0Kz4NrTxv6PsS3ZwN"
   },
   {
+    "id": "crazy-cover-0048",
     "sourceArtist": "Rush",
     "song": "Tom Sawyer",
     "coverArtist": "The Bad Plus",
@@ -480,6 +528,7 @@
     "spotify": "https://open.spotify.com/track/5BVhRTsp357QQ62qjog1nw"
   },
   {
+    "id": "crazy-cover-0049",
     "sourceArtist": "Tears for Fears",
     "song": "Everybody Wants to Rule the World",
     "coverArtist": "The Bad Plus",
@@ -490,6 +539,7 @@
     "spotify": "https://open.spotify.com/track/2ajwgRs3iGqw3URcnxSGl3"
   },
   {
+    "id": "crazy-cover-0050",
     "sourceArtist": "Yes",
     "song": "Long Distance Runaround",
     "coverArtist": "The Bad Plus",
@@ -500,6 +550,7 @@
     "spotify": "https://open.spotify.com/track/1qPYrCxy4g7225iYBmnLa1"
   },
   {
+    "id": "crazy-cover-0051",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "Royal Blood",
@@ -510,6 +561,7 @@
     "spotify": "https://open.spotify.com/track/2rUb8R8dGOe56WUWhW1DPT"
   },
   {
+    "id": "crazy-cover-0052",
     "sourceArtist": "Billy Idol",
     "song": "Eyes Without a Face",
     "coverArtist": "Paul Anka",
@@ -520,6 +572,7 @@
     "spotify": "https://open.spotify.com/track/3i22XTmhCIxPvB5HoE7Q88"
   },
   {
+    "id": "crazy-cover-0053",
     "sourceArtist": "Bon Jovi",
     "song": "It's My Life",
     "coverArtist": "Paul Anka",
@@ -530,6 +583,7 @@
     "spotify": "https://open.spotify.com/track/6maOPOi2i9feO3ZI4sDPCL"
   },
   {
+    "id": "crazy-cover-0054",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "Paul Anka",
@@ -540,6 +594,7 @@
     "spotify": "https://open.spotify.com/track/2bD79gh9TsT1GT5khYcTu3"
   },
   {
+    "id": "crazy-cover-0055",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "Paul Anka",
@@ -550,6 +605,7 @@
     "spotify": "https://open.spotify.com/track/0qjQ47pkjxL9Oodg8lp0os"
   },
   {
+    "id": "crazy-cover-0056",
     "sourceArtist": "Pet Shop Boys",
     "song": "It's a Sin",
     "coverArtist": "Paul Anka",
@@ -560,6 +616,7 @@
     "spotify": "https://open.spotify.com/track/1gOOQp2ThPQGglvzQjeCuN"
   },
   {
+    "id": "crazy-cover-0057",
     "sourceArtist": "R.E.M.",
     "song": "Everybody Hurts",
     "coverArtist": "Paul Anka",
@@ -570,6 +627,7 @@
     "spotify": "https://open.spotify.com/track/5MqW8ZU0QGSUAYdi0vFRkA"
   },
   {
+    "id": "crazy-cover-0058",
     "sourceArtist": "Soundgarden",
     "song": "Black Hole Sun",
     "coverArtist": "Paul Anka",
@@ -580,6 +638,7 @@
     "spotify": "https://open.spotify.com/track/0QNkFHLd5uHg3PnaSrfoms"
   },
   {
+    "id": "crazy-cover-0059",
     "sourceArtist": "Survivor",
     "song": "Eye of the Tiger",
     "coverArtist": "Paul Anka",
@@ -590,6 +649,7 @@
     "spotify": "https://open.spotify.com/track/0tmTHcFHncmj8IhM2xXwEG"
   },
   {
+    "id": "crazy-cover-0060",
     "sourceArtist": "Van Halen",
     "song": "Jump",
     "coverArtist": "Paul Anka",
@@ -600,6 +660,7 @@
     "spotify": "https://open.spotify.com/track/4iIA50uAZuC24xc6aKawh8"
   },
   {
+    "id": "crazy-cover-0061",
     "sourceArtist": "Elton John",
     "song": "Rocket Man",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -610,6 +671,7 @@
     "spotify": "https://open.spotify.com/track/2hl89lNoJBRMdC80T1BdFi?utm_source=openai&utm_medium=chatgpt&request_id=9aef9755-5554-49ed-a554-102873b326cd"
   },
   {
+    "id": "crazy-cover-0062",
     "sourceArtist": "Guns N' Roses",
     "song": "Sweet Child O' Mine",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -620,6 +682,7 @@
     "spotify": "https://open.spotify.com/track/7fMuNtGBixSqnsq55hLnAD?utm_source=openai&utm_medium=chatgpt&request_id=6d0a5322-884b-4111-b15e-4cc18c95f139"
   },
   {
+    "id": "crazy-cover-0063",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -630,6 +693,7 @@
     "spotify": "https://open.spotify.com/track/7GXfXVnuqATxCs6EQoDcVS?utm_source=openai&utm_medium=chatgpt&request_id=25305f83-da9c-4b65-ad13-7d0127e48b98"
   },
   {
+    "id": "crazy-cover-0064",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -640,6 +704,7 @@
     "spotify": "https://open.spotify.com/track/7pcOSC4pBd4y3i0VYU1cro?utm_source=openai&utm_medium=chatgpt&request_id=9aeb5160-5df6-4baa-9567-139009c6190a"
   },
   {
+    "id": "crazy-cover-0065",
     "sourceArtist": "Ozzy Osbourne",
     "song": "Crazy Train",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -650,6 +715,7 @@
     "spotify": "https://open.spotify.com/track/0xzF60M75AM2WwZjUovIKO?utm_source=openai&utm_medium=chatgpt&request_id=9f82ff05-2415-44c0-a6a3-b82cc198ca12"
   },
   {
+    "id": "crazy-cover-0066",
     "sourceArtist": "The Cure",
     "song": "Just Like Heaven",
     "coverArtist": "The Infamous Stringdusters",
@@ -660,6 +726,7 @@
     "spotify": "https://open.spotify.com/track/0kCdb4Nt0NiIKwsNY2zlkP"
   },
   {
+    "id": "crazy-cover-0067",
     "sourceArtist": "Blue Öyster Cult",
     "song": "Don't Fear the Reaper",
     "coverArtist": "Pickin' On Series",
@@ -670,6 +737,7 @@
     "spotify": "https://open.spotify.com/track/70YV2iOtN86cxY9DJAnVes"
   },
   {
+    "id": "crazy-cover-0068",
     "sourceArtist": "Buffalo Springfield",
     "song": "For What It's Worth",
     "coverArtist": "Pickin' On Series",
@@ -680,6 +748,7 @@
     "spotify": "https://open.spotify.com/track/6EeaII0KcBBLfKUYTAPOhs"
   },
   {
+    "id": "crazy-cover-0069",
     "sourceArtist": "Cheap Trick",
     "song": "Surrender",
     "coverArtist": "Pickin' On Series",
@@ -690,6 +759,7 @@
     "spotify": "https://open.spotify.com/track/0OOU5s1V7sgZQgnjZj2K5b"
   },
   {
+    "id": "crazy-cover-0070",
     "sourceArtist": "Crosby, Stills & Nash",
     "song": "Southern Cross",
     "coverArtist": "Pickin' On Series",
@@ -700,6 +770,7 @@
     "spotify": "https://open.spotify.com/track/5qtmraXl9T0OTtLBRT8aPC"
   },
   {
+    "id": "crazy-cover-0071",
     "sourceArtist": "Deep Purple",
     "song": "Smoke on the Water",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -710,6 +781,7 @@
     "spotify": "https://open.spotify.com/track/0gRsPzv5zgPs5ZuahJ9i4T"
   },
   {
+    "id": "crazy-cover-0072",
     "sourceArtist": "Don McLean",
     "song": "American Pie",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -720,6 +792,7 @@
     "spotify": "https://open.spotify.com/track/1YAASLJUG89orui85yB1Gx"
   },
   {
+    "id": "crazy-cover-0073",
     "sourceArtist": "Elton John",
     "song": "Your Song",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -730,6 +803,7 @@
     "spotify": "https://open.spotify.com/track/3gVAnTFZjJfvu8oNX2PW8Z"
   },
   {
+    "id": "crazy-cover-0074",
     "sourceArtist": "Joan Jett & the Blackhearts",
     "song": "I Love Rock 'N' Roll",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -740,6 +814,7 @@
     "spotify": "https://open.spotify.com/track/26zePzopENvcucGPzfmey3"
   },
   {
+    "id": "crazy-cover-0075",
     "sourceArtist": "Journey",
     "song": "Faithfully",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -750,6 +825,7 @@
     "spotify": "https://open.spotify.com/track/2b4bNq7dglKEVv9b4yyDu2"
   },
   {
+    "id": "crazy-cover-0076",
     "sourceArtist": "Journey",
     "song": "Open Arms",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -760,6 +836,7 @@
     "spotify": "https://open.spotify.com/track/2SPUioo3OcnqXQ9CxpzSiH"
   },
   {
+    "id": "crazy-cover-0077",
     "sourceArtist": "Kansas",
     "song": "Carry on My Wayward Son",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -770,6 +847,7 @@
     "spotify": "https://open.spotify.com/track/3UwHRlYNssEFJ3QYTh6igw"
   },
   {
+    "id": "crazy-cover-0078",
     "sourceArtist": "KISS",
     "song": "Rock and Roll All Night",
     "coverArtist": "Pickin' On Series",
@@ -780,6 +858,7 @@
     "spotify": "https://open.spotify.com/track/7r6UpuqqXRfpLz2aQ6e2SU"
   },
   {
+    "id": "crazy-cover-0079",
     "sourceArtist": "Pink Floyd",
     "song": "Comfortably Numb",
     "coverArtist": "Pickin' On Series",
@@ -790,6 +869,7 @@
     "spotify": "https://open.spotify.com/track/3e0ZPs0wp2beYa9fsb75zZ"
   },
   {
+    "id": "crazy-cover-0080",
     "sourceArtist": "Queen & David Bowie",
     "song": "Under Pressure",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -800,6 +880,7 @@
     "spotify": "https://open.spotify.com/track/2BkIizhyucfTfpnT0jcLCV"
   },
   {
+    "id": "crazy-cover-0081",
     "sourceArtist": "Steppenwolf",
     "song": "Born to Be Wild",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -810,6 +891,7 @@
     "spotify": "https://open.spotify.com/track/19hkLOzs0zF08qqpwFzZ5R"
   },
   {
+    "id": "crazy-cover-0082",
     "sourceArtist": "Steppenwolf",
     "song": "Magic Carpet Ride",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -820,6 +902,7 @@
     "spotify": "https://open.spotify.com/track/2Rebq5N1xl8WQ9GxThL7YT"
   },
   {
+    "id": "crazy-cover-0083",
     "sourceArtist": "Steve Miller Band",
     "song": "The Joker",
     "coverArtist": "Pickin' On Series",
@@ -830,6 +913,7 @@
     "spotify": "https://open.spotify.com/track/6vO1O1FSXp58vVjWVNZ3G6"
   },
   {
+    "id": "crazy-cover-0084",
     "sourceArtist": "Styx",
     "song": "Come Sail Away",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -840,6 +924,7 @@
     "spotify": "https://open.spotify.com/track/66ekaGlxSA48YHsMkYxvQj"
   },
   {
+    "id": "crazy-cover-0085",
     "sourceArtist": "Styx",
     "song": "Renegade",
     "coverArtist": "Pickin' On Series, Iron Horse",
@@ -850,6 +935,7 @@
     "spotify": "https://open.spotify.com/track/35Brx4D53w9miGE5NuhTWY"
   },
   {
+    "id": "crazy-cover-0086",
     "sourceArtist": "Survivor",
     "song": "Eye of the Tiger",
     "coverArtist": "Pickin' On Series",
@@ -860,6 +946,7 @@
     "spotify": "https://open.spotify.com/track/1v2iQAWQ7Q0TSrvLruckv1"
   },
   {
+    "id": "crazy-cover-0087",
     "sourceArtist": "The Doors",
     "song": "Light My Fire",
     "coverArtist": "Pickin' On Series",
@@ -870,6 +957,7 @@
     "spotify": "https://open.spotify.com/track/17MstXYewooLW1S9pD6MiA"
   },
   {
+    "id": "crazy-cover-0088",
     "sourceArtist": "The Guess Who",
     "song": "American Woman",
     "coverArtist": "Pickin' On Series",
@@ -880,6 +968,7 @@
     "spotify": "https://open.spotify.com/track/2tVXZwDfUKCrcGOibiuotd"
   },
   {
+    "id": "crazy-cover-0089",
     "sourceArtist": "The Mamas & the Papas",
     "song": "California Dreamin'",
     "coverArtist": "Pickin' On Series, Cornbread Red",
@@ -890,6 +979,7 @@
     "spotify": "https://open.spotify.com/track/7bBm9iDporQ0tT1NNYcSsH"
   },
   {
+    "id": "crazy-cover-0090",
     "sourceArtist": "The Rolling Stones",
     "song": "Gimme Shelter",
     "coverArtist": "Pickin' On Series",
@@ -900,6 +990,7 @@
     "spotify": "https://open.spotify.com/track/07OFVCtaaUvj6Dbj3l5yLI"
   },
   {
+    "id": "crazy-cover-0091",
     "sourceArtist": "The Rolling Stones",
     "song": "Sympathy for the Devil",
     "coverArtist": "Pickin' On Series",
@@ -910,6 +1001,7 @@
     "spotify": "https://open.spotify.com/track/0aK4RmeCA5OJyC2c3hoy0E"
   },
   {
+    "id": "crazy-cover-0092",
     "sourceArtist": "AC/DC",
     "song": "Dirty Deeds Done Dirt Cheap",
     "coverArtist": "Hayseed Dixie",
@@ -920,6 +1012,7 @@
     "spotify": "https://open.spotify.com/track/3iaTyF9Ts9qzWm1tyYEvS1?utm_source=openai&utm_medium=chatgpt&request_id=df823040-23be-4210-bb00-73f838fdee80"
   },
   {
+    "id": "crazy-cover-0093",
     "sourceArtist": "AC/DC",
     "song": "Hell's Bells",
     "coverArtist": "Hayseed Dixie",
@@ -930,6 +1023,7 @@
     "spotify": "https://open.spotify.com/track/6hNwHxN88yLiyJ6rlkmid7?utm_source=openai&utm_medium=chatgpt&request_id=09b7241a-62be-4409-8820-a498bd3c5ce6"
   },
   {
+    "id": "crazy-cover-0094",
     "sourceArtist": "AC/DC",
     "song": "Highway to Hell",
     "coverArtist": "Hayseed Dixie",
@@ -940,6 +1034,7 @@
     "spotify": "https://open.spotify.com/track/3HqqgWMNO3MKTmecieeKXN?utm_source=openai&utm_medium=chatgpt&request_id=eba9a4ca-6f31-458f-98f6-c7ec0d8019b2"
   },
   {
+    "id": "crazy-cover-0095",
     "sourceArtist": "AC/DC",
     "song": "You Shook Me All Night Long",
     "coverArtist": "Hayseed Dixie",
@@ -950,6 +1045,7 @@
     "spotify": "https://open.spotify.com/track/1dg0iCyaQMBySiqgVa8iFV?utm_source=openai&utm_medium=chatgpt&request_id=753f2560-7382-40cb-bc28-c99a400610f2"
   },
   {
+    "id": "crazy-cover-0096",
     "sourceArtist": "Aerosmith",
     "song": "Walk This Way",
     "coverArtist": "Hayseed Dixie",
@@ -960,6 +1056,7 @@
     "spotify": "https://open.spotify.com/track/3xz83kbRgJDdZDnOcY55bb?utm_source=openai&utm_medium=chatgpt&request_id=2b84fe82-0f21-47f1-8fb9-5daeac4ae186"
   },
   {
+    "id": "crazy-cover-0097",
     "sourceArtist": "Queen",
     "song": "Bohemian Rhapsody",
     "coverArtist": "Hayseed Dixie",
@@ -970,6 +1067,7 @@
     "spotify": "https://open.spotify.com/track/0YIWP5KuepXcVD9sOKT1iV?utm_source=openai&utm_medium=chatgpt&request_id=b470fe2a-86a4-41f8-8337-d913e11141b2"
   },
   {
+    "id": "crazy-cover-0098",
     "sourceArtist": "U2",
     "song": "Love Is Blindness",
     "coverArtist": "Jack White",
@@ -980,6 +1078,7 @@
     "spotify": "https://open.spotify.com/track/1kBM7AURqQTIXFePNVpEwP"
   },
   {
+    "id": "crazy-cover-0099",
     "sourceArtist": "The Rolling Stones",
     "song": "You Got the Silver",
     "coverArtist": "Susan Tedeschi",
@@ -990,6 +1089,7 @@
     "spotify": "https://open.spotify.com/track/5jQPaMjSWpFOMx8BVUOtpM"
   },
   {
+    "id": "crazy-cover-0100",
     "sourceArtist": "Led Zeppelin",
     "song": "Whole Lotta Love",
     "coverArtist": "Beth Hart",
@@ -1000,6 +1100,7 @@
     "spotify": "https://open.spotify.com/track/4JtO22STyuy8lUxfRhMvZS"
   },
   {
+    "id": "crazy-cover-0101",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Last Train to London",
     "coverArtist": "Costa Azul Quartet, Stephenie Coker",
@@ -1010,6 +1111,7 @@
     "spotify": "https://open.spotify.com/track/3soyaJP7jQ6FejBSmTv8tg?utm_source=openai&utm_medium=chatgpt&request_id=6497cf5c-4170-417f-bffa-8d7538905ac4"
   },
   {
+    "id": "crazy-cover-0102",
     "sourceArtist": "Tuxedomoon",
     "song": "In a Manner of Speaking",
     "coverArtist": "Nouvelle Vague",
@@ -1020,6 +1122,7 @@
     "spotify": "https://open.spotify.com/track/5EZl1Di3Lp6QpejD7bOny0"
   },
   {
+    "id": "crazy-cover-0103",
     "sourceArtist": "Billy Idol",
     "song": "Dancing With Myself",
     "coverArtist": "Nouvelle Vague",
@@ -1030,6 +1133,7 @@
     "spotify": "https://open.spotify.com/track/0vkwFZZcM8de8Xq42hXLtb"
   },
   {
+    "id": "crazy-cover-0104",
     "sourceArtist": "Blondie",
     "song": "Heart of Glass",
     "coverArtist": "Nouvelle Vague, Gerald Toto, Mélanie Pain",
@@ -1040,6 +1144,7 @@
     "spotify": "https://open.spotify.com/track/7cuIvlItp3YvsvcxYOpFby"
   },
   {
+    "id": "crazy-cover-0105",
     "sourceArtist": "Buzzcocks",
     "song": "Ever Fallen in Love",
     "coverArtist": "Nouvelle Vague",
@@ -1050,6 +1155,7 @@
     "spotify": "https://open.spotify.com/track/0ehSg6Qnt2UpGdAYgppcQM"
   },
   {
+    "id": "crazy-cover-0106",
     "sourceArtist": "Dead Kennedys",
     "song": "Too Drunk to Fuck",
     "coverArtist": "Nouvelle Vague, Camille",
@@ -1060,6 +1166,7 @@
     "spotify": "https://open.spotify.com/track/7hbaiduIw9TKWxtrPNaI9r?utm_source=openai&utm_medium=chatgpt&request_id=62bbbb90-ce9a-4339-8581-9e31d66050d3"
   },
   {
+    "id": "crazy-cover-0107",
     "sourceArtist": "Depeche Mode",
     "song": "Just Can't Get Enough",
     "coverArtist": "Nouvelle Vague, Eloisia",
@@ -1070,6 +1177,7 @@
     "spotify": "https://open.spotify.com/track/1DJ68O8kF2HHtMHlVYVdBA?utm_source=openai&utm_medium=chatgpt&request_id=1f208d81-c544-4f02-a284-bbdb1ce294ab"
   },
   {
+    "id": "crazy-cover-0108",
     "sourceArtist": "Depeche Mode",
     "song": "Master and Servant",
     "coverArtist": "Nouvelle Vague",
@@ -1080,6 +1188,7 @@
     "spotify": "https://open.spotify.com/track/1d8pyyx3L6A7mfYEnlhV9I"
   },
   {
+    "id": "crazy-cover-0109",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Strange Magic",
     "coverArtist": "Banda Do Sul, Ivette Moraes, Hudson Guitar Quartet",
@@ -1090,6 +1199,7 @@
     "spotify": "https://open.spotify.com/track/3rGZZ7OfkkbSPfXy4ufdY4?utm_source=openai&utm_medium=chatgpt&request_id=8959a49d-f747-42c4-a6fc-4b4a2648a8f8"
   },
   {
+    "id": "crazy-cover-0110",
     "sourceArtist": "Joy Division",
     "song": "Love Will Tear Us Apart",
     "coverArtist": "Nouvelle Vague, Eloisia",
@@ -1100,6 +1210,7 @@
     "spotify": "https://open.spotify.com/track/7a4fdnIEEwQpqrp39clRzK?utm_source=openai&utm_medium=chatgpt&request_id=f26ecbc5-2bc1-45d4-b9c9-9b7ab6b4b409"
   },
   {
+    "id": "crazy-cover-0111",
     "sourceArtist": "Modern English",
     "song": "I Melt With You",
     "coverArtist": "Nouvelle Vague",
@@ -1110,6 +1221,7 @@
     "spotify": "https://open.spotify.com/track/6MU0LHWLtRKvXJG5UNEoAl"
   },
   {
+    "id": "crazy-cover-0112",
     "sourceArtist": "New Order",
     "song": "Blue Monday",
     "coverArtist": "Nouvelle Vague, Mélanie Pain",
@@ -1120,6 +1232,7 @@
     "spotify": "https://open.spotify.com/track/4JlkJPQP5bs2hxjX3XNFl7"
   },
   {
+    "id": "crazy-cover-0113",
     "sourceArtist": "Public Image Ltd",
     "song": "This Is Not a Love Song",
     "coverArtist": "Nouvelle Vague, Mélanie Pain",
@@ -1130,6 +1243,7 @@
     "spotify": "https://open.spotify.com/track/5Pny9ao6ROwxCkJHlW2ueq"
   },
   {
+    "id": "crazy-cover-0114",
     "sourceArtist": "The Clash",
     "song": "Guns of Brixton",
     "coverArtist": "Nouvelle Vague, Camille",
@@ -1140,6 +1254,7 @@
     "spotify": "https://open.spotify.com/track/2Aq7srwZxnsj6YjLsNmpOr?utm_source=openai&utm_medium=chatgpt&request_id=c720d29c-69e2-4cac-baf2-65bb8cf1edd2"
   },
   {
+    "id": "crazy-cover-0115",
     "sourceArtist": "The Cramps",
     "song": "Human Fly",
     "coverArtist": "Nouvelle Vague, Phoebe Tolmer",
@@ -1150,6 +1265,7 @@
     "spotify": "https://open.spotify.com/track/0s9AugV7vycsur8Ev2GpWE"
   },
   {
+    "id": "crazy-cover-0116",
     "sourceArtist": "The Cure",
     "song": "A Forest",
     "coverArtist": "Nouvelle Vague, Marina Celeste",
@@ -1160,6 +1276,7 @@
     "spotify": "https://open.spotify.com/track/2NTjJNW80dZrMYtgRQDaFW?utm_source=openai&utm_medium=chatgpt&request_id=76f98097-a8d0-40b3-bea3-150bbe6d9799"
   },
   {
+    "id": "crazy-cover-0117",
     "sourceArtist": "The Go-Go's",
     "song": "Our Lips Are Sealed",
     "coverArtist": "Nouvelle Vague, Marina Celeste, Terry Hall",
@@ -1170,6 +1287,7 @@
     "spotify": "https://open.spotify.com/track/4ZC0rXDjOcwbTvbNHzoKHB"
   },
   {
+    "id": "crazy-cover-0118",
     "sourceArtist": "The Specials",
     "song": "Friday Night Saturday Morning",
     "coverArtist": "Nouvelle Vague, Daniella D'Ambrosio",
@@ -1180,6 +1298,7 @@
     "spotify": "https://open.spotify.com/track/2sr61GheyDPQoDgddBVoho"
   },
   {
+    "id": "crazy-cover-0119",
     "sourceArtist": "The Undertones",
     "song": "Teenage Kicks",
     "coverArtist": "Nouvelle Vague, Mélanie Pain",
@@ -1190,6 +1309,7 @@
     "spotify": "https://open.spotify.com/track/0p0Gf6uC0QzX4MN3I6HZuT"
   },
   {
+    "id": "crazy-cover-0120",
     "sourceArtist": "XTC",
     "song": "Making Plans for Nigel",
     "coverArtist": "Nouvelle Vague",
@@ -1200,6 +1320,7 @@
     "spotify": "https://open.spotify.com/track/0ALEenqvRLRQFMs0KaWuZO"
   },
   {
+    "id": "crazy-cover-0121",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr Blue Sky",
     "coverArtist": "Black Dyke Band, Nicholas J. Childs",
@@ -1210,6 +1331,7 @@
     "spotify": "https://open.spotify.com/track/6VTf2dwd5Xvr07peJ4A3a0?utm_source=openai&utm_medium=chatgpt&request_id=eb44ddba-4df8-4e54-8b1e-6598dabca971"
   },
   {
+    "id": "crazy-cover-0122",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Apocalyptica",
@@ -1220,6 +1342,7 @@
     "spotify": "https://open.spotify.com/track/3uErbNGaNIPJkRlMrLxR9Z?utm_source=openai&utm_medium=chatgpt&request_id=ceba1d8d-338f-42bd-8c8a-e25a5380bbe9"
   },
   {
+    "id": "crazy-cover-0123",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Apocalyptica",
@@ -1230,6 +1353,7 @@
     "spotify": "https://open.spotify.com/track/0OSFo2tOSjHREcV9RlNOM4?utm_source=openai&utm_medium=chatgpt&request_id=6f14ffbe-ef51-4b68-a0ff-e7640e0d6366"
   },
   {
+    "id": "crazy-cover-0124",
     "sourceArtist": "AC/DC",
     "song": "Highway to Hell",
     "coverArtist": "2CELLOS, Steve Vai",
@@ -1240,6 +1364,7 @@
     "spotify": "https://open.spotify.com/track/04GYJU7q1Oww2i9784O9IP"
   },
   {
+    "id": "crazy-cover-0125",
     "sourceArtist": "Led Zeppelin",
     "song": "Whole Lotta Love",
     "coverArtist": "2CELLOS",
@@ -1250,6 +1375,7 @@
     "spotify": "https://open.spotify.com/track/2tpgdrjuM8vqzgHrsCWKjc?utm_source=openai&utm_medium=chatgpt&request_id=dac39bd9-960a-4f17-8c44-6738e20dbf8f"
   },
   {
+    "id": "crazy-cover-0126",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "2CELLOS, HAUSER, Luka Sulic",
@@ -1260,6 +1386,7 @@
     "spotify": "https://open.spotify.com/track/6lYbh2Y2tD7UuXUZnWartn"
   },
   {
+    "id": "crazy-cover-0127",
     "sourceArtist": "The Beatles",
     "song": "Across the Universe",
     "coverArtist": "Rufus Wainwright",
@@ -1270,6 +1397,7 @@
     "spotify": "https://open.spotify.com/track/6GGA4fEbHJop37OOjK2kFR"
   },
   {
+    "id": "crazy-cover-0128",
     "sourceArtist": "Metallica",
     "song": "Wherever I May Roam",
     "coverArtist": "Jon Pardi",
@@ -1280,6 +1408,7 @@
     "spotify": "https://open.spotify.com/track/0hMgGXQds3emgOeFFjqVXb"
   },
   {
+    "id": "crazy-cover-0129",
     "sourceArtist": "Led Zeppelin",
     "song": "Stairway to Heaven",
     "coverArtist": "Dolly Parton",
@@ -1290,6 +1419,7 @@
     "spotify": "https://open.spotify.com/track/5H9RuWMuWSth7aR7JgATWm"
   },
   {
+    "id": "crazy-cover-0130",
     "sourceArtist": "Depeche Mode",
     "song": "Personal Jesus",
     "coverArtist": "Johnny Cash",
@@ -1300,6 +1430,7 @@
     "spotify": "https://open.spotify.com/track/5dcwiQFqn0mTcWewYIv7MV"
   },
   {
+    "id": "crazy-cover-0131",
     "sourceArtist": "Nine Inch Nails",
     "song": "Hurt",
     "coverArtist": "Johnny Cash",
@@ -1310,6 +1441,7 @@
     "spotify": "https://open.spotify.com/track/28cnXtME493VX9NOw9cIUh"
   },
   {
+    "id": "crazy-cover-0132",
     "sourceArtist": "Queen",
     "song": "Crazy Little Thing Called Love",
     "coverArtist": "Dwight Yoakam",
@@ -1320,6 +1452,7 @@
     "spotify": "https://open.spotify.com/track/2kPhndhmpESYhoFTvpAIQU"
   },
   {
+    "id": "crazy-cover-0133",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Darius Rucker",
@@ -1330,6 +1463,7 @@
     "spotify": "https://open.spotify.com/track/2KS2VBRLKvFT1iti4Er23G"
   },
   {
+    "id": "crazy-cover-0134",
     "sourceArtist": "Soundgarden",
     "song": "Rusty Cage",
     "coverArtist": "Johnny Cash",
@@ -1340,6 +1474,7 @@
     "spotify": "https://open.spotify.com/track/5l7KTwdgBLrx2PhFHnYoQ4"
   },
   {
+    "id": "crazy-cover-0135",
     "sourceArtist": "The Rolling Stones",
     "song": "No Expectations",
     "coverArtist": "Johnny Cash",
@@ -1350,6 +1485,7 @@
     "spotify": "https://open.spotify.com/track/6UmM8fLNocoX84m63pvuQK"
   },
   {
+    "id": "crazy-cover-0136",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Showdown",
     "coverArtist": "Ronnie Dunn",
@@ -1360,6 +1496,7 @@
     "spotify": "https://open.spotify.com/track/0ZoxnmAlf1iVr6UJUGVpNy?utm_source=openai&utm_medium=chatgpt&request_id=1b88fb77-072f-48de-884a-17348c8af814"
   },
   {
+    "id": "crazy-cover-0137",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Chris Stapleton",
@@ -1370,6 +1507,7 @@
     "spotify": "https://open.spotify.com/track/2diAXaP8GEWHa6ORPctFnh"
   },
   {
+    "id": "crazy-cover-0138",
     "sourceArtist": "The Rolling Stones",
     "song": "Wild Horses",
     "coverArtist": "The Flying Burrito Brothers",
@@ -1380,6 +1518,7 @@
     "spotify": "https://open.spotify.com/track/6eYqvu9hPLkKQL0YgHXKFV"
   },
   {
+    "id": "crazy-cover-0139",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Mickey Guyton",
@@ -1390,6 +1529,7 @@
     "spotify": "https://open.spotify.com/track/1e0A0WVgnG5sAghzRUf86n"
   },
   {
+    "id": "crazy-cover-0140",
     "sourceArtist": "Nirvana",
     "song": "In Bloom",
     "coverArtist": "Sturgill Simpson",
@@ -1400,6 +1540,7 @@
     "spotify": "https://open.spotify.com/track/5StrN0F4XI5e0BHP32THhl"
   },
   {
+    "id": "crazy-cover-0141",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "Mexican Institute Of Sound, La Perla, Gera MX, Metallica",
@@ -1410,6 +1551,7 @@
     "spotify": "https://open.spotify.com/track/58fyr6Q93U6IUff6vuvV0U"
   },
   {
+    "id": "crazy-cover-0142",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Showdown",
     "coverArtist": "Chris Cornell",
@@ -1420,6 +1562,7 @@
     "spotify": "https://open.spotify.com/track/444cxF1udEVZRyFoJXg5QV?utm_source=openai&utm_medium=chatgpt&request_id=0340e04f-2a24-41bc-988f-a638b19dd8de"
   },
   {
+    "id": "crazy-cover-0143",
     "sourceArtist": "Metallica",
     "song": "Of Wolf and Man",
     "coverArtist": "Goodnight, Texas",
@@ -1430,6 +1573,7 @@
     "spotify": "https://open.spotify.com/track/1X2GV5G9nrvU4GQdltLN2z"
   },
   {
+    "id": "crazy-cover-0144",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Dave Gahan",
@@ -1440,6 +1584,7 @@
     "spotify": "https://open.spotify.com/track/3o70wSpyXTNahSxOTW4gjU"
   },
   {
+    "id": "crazy-cover-0145",
     "sourceArtist": "The Rolling Stones",
     "song": "(I Can't Get No) Satisfaction",
     "coverArtist": "DEVO",
@@ -1450,6 +1595,7 @@
     "spotify": "https://open.spotify.com/track/5FzBxhIsZBFXDTVGWtV4IQ?utm_source=openai&utm_medium=chatgpt&request_id=ad3fcce3-8c24-443f-8bbc-da48ce42d377"
   },
   {
+    "id": "crazy-cover-0146",
     "sourceArtist": "The Rolling Stones",
     "song": "Salt of the Earth",
     "coverArtist": "Bettye LaVette",
@@ -1460,6 +1606,7 @@
     "spotify": "https://open.spotify.com/track/1vl1GbfyvwPmuVLuOlLnHe"
   },
   {
+    "id": "crazy-cover-0147",
     "sourceArtist": "Pink Floyd",
     "song": "Comfortably Numb",
     "coverArtist": "Scissor Sisters",
@@ -1470,6 +1617,7 @@
     "spotify": "https://open.spotify.com/track/1Nfl4UGkzTHJMZ7itDY3IU"
   },
   {
+    "id": "crazy-cover-0148",
     "sourceArtist": "The Rolling Stones",
     "song": "Wild Horses",
     "coverArtist": "The Sundays",
@@ -1480,6 +1628,7 @@
     "spotify": "https://open.spotify.com/track/418gyIJdAZSZisVdzDXLNc"
   },
   {
+    "id": "crazy-cover-0149",
     "sourceArtist": "Duran Duran",
     "song": "The Chauffeur",
     "coverArtist": "Deftones",
@@ -1490,6 +1639,7 @@
     "spotify": "https://open.spotify.com/track/6uJ1hWwc6Sd6K1SbBbcNZl"
   },
   {
+    "id": "crazy-cover-0150",
     "sourceArtist": "The Smiths",
     "song": "Please, Please, Please, Let Me Get What I Want",
     "coverArtist": "Deftones",
@@ -1500,6 +1650,7 @@
     "spotify": "https://open.spotify.com/track/4HpIh5wWfkq5sSuCLLSwYR"
   },
   {
+    "id": "crazy-cover-0151",
     "sourceArtist": "Metallica",
     "song": "Wherever I May Roam",
     "coverArtist": "Chase & Status, BackRoad Gee, Metallica",
@@ -1510,6 +1661,7 @@
     "spotify": "https://open.spotify.com/track/3UIbymq7RQVgRwIe8GhSzx"
   },
   {
+    "id": "crazy-cover-0152",
     "sourceArtist": "Queen",
     "song": "Bohemian Rhapsody",
     "coverArtist": "Panic! At The Disco",
@@ -1520,6 +1672,7 @@
     "spotify": "https://open.spotify.com/track/2YSbHu9XF4bNYWt3MnIhgE"
   },
   {
+    "id": "crazy-cover-0153",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Livin' Thing",
     "coverArtist": "Dwayne Gretzky",
@@ -1530,6 +1683,7 @@
     "spotify": "https://open.spotify.com/track/0IymmITZEPAEdheoyvSjNz?utm_source=openai&utm_medium=chatgpt&request_id=7f63d22a-27ba-43cb-a0ca-a348b55d599f"
   },
   {
+    "id": "crazy-cover-0154",
     "sourceArtist": "Pink Floyd",
     "song": "Have a Cigar",
     "coverArtist": "Primus",
@@ -1540,6 +1694,7 @@
     "spotify": "https://open.spotify.com/track/7vekvqFt9YQA0ZQKFrv6Ml"
   },
   {
+    "id": "crazy-cover-0155",
     "sourceArtist": "Joy Division",
     "song": "Love Will Tear Us Apart",
     "coverArtist": "José González",
@@ -1550,6 +1705,7 @@
     "spotify": "https://open.spotify.com/track/4AlpKDHtYkP6gsBNVAZ8FR"
   },
   {
+    "id": "crazy-cover-0156",
     "sourceArtist": "The Knife",
     "song": "Heartbeats",
     "coverArtist": "José González",
@@ -1560,6 +1716,7 @@
     "spotify": "https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll"
   },
   {
+    "id": "crazy-cover-0157",
     "sourceArtist": "Metallica",
     "song": "Orion",
     "coverArtist": "Rodrigo y Gabriela",
@@ -1570,6 +1727,7 @@
     "spotify": "https://open.spotify.com/track/7z3ZSzvbtkn7baumlBs52n?utm_source=openai&utm_medium=chatgpt&request_id=e131b82e-d15c-4f17-b046-cb9b34c2d952"
   },
   {
+    "id": "crazy-cover-0158",
     "sourceArtist": "The Rolling Stones",
     "song": "Ruby Tuesday",
     "coverArtist": "Melanie",
@@ -1580,6 +1738,7 @@
     "spotify": "https://open.spotify.com/track/6vr1sLoeL987BxGJW7XYaZ"
   },
   {
+    "id": "crazy-cover-0159",
     "sourceArtist": "The Beatles",
     "song": "Here Comes the Sun",
     "coverArtist": "Richie Havens",
@@ -1590,6 +1749,7 @@
     "spotify": "https://open.spotify.com/track/0hhzJEusz6r7f0eL1Uc8kw"
   },
   {
+    "id": "crazy-cover-0160",
     "sourceArtist": "Metallica",
     "song": "My Friend of Misery",
     "coverArtist": "Izïa",
@@ -1600,6 +1760,7 @@
     "spotify": "https://open.spotify.com/track/0sDTzlaTVrmOM0KLc7TSCv"
   },
   {
+    "id": "crazy-cover-0161",
     "sourceArtist": "The Beatles",
     "song": "Got to Get You Into My Life",
     "coverArtist": "Earth, Wind & Fire",
@@ -1610,6 +1771,7 @@
     "spotify": "https://open.spotify.com/track/4vGQNeWAh2WKPYsqhp5wSg"
   },
   {
+    "id": "crazy-cover-0162",
     "sourceArtist": "AC/DC",
     "song": "You Shook Me All Night Long",
     "coverArtist": "Scary Pockets, Judith Hill",
@@ -1620,6 +1782,7 @@
     "spotify": "https://open.spotify.com/track/5PPkKLQ7bB4i1py90XnhkA"
   },
   {
+    "id": "crazy-cover-0163",
     "sourceArtist": "Fleetwood Mac",
     "song": "Dreams",
     "coverArtist": "Scary Pockets, Elise Trouw",
@@ -1630,6 +1793,7 @@
     "spotify": "https://open.spotify.com/track/263eNa0ryn0kWpKSbLXCOK"
   },
   {
+    "id": "crazy-cover-0164",
     "sourceArtist": "Guns N' Roses",
     "song": "Sweet Child O' Mine",
     "coverArtist": "Scary Pockets, Mario Jose",
@@ -1640,6 +1804,7 @@
     "spotify": "https://open.spotify.com/track/0qEfiBPPu4bnAVJGcRiPtU"
   },
   {
+    "id": "crazy-cover-0165",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "Scary Pockets, Darren Criss",
@@ -1650,6 +1815,7 @@
     "spotify": "https://open.spotify.com/track/120tmueqvWTGdHET4u5sPP"
   },
   {
+    "id": "crazy-cover-0166",
     "sourceArtist": "Paul McCartney & Wings",
     "song": "Arrow Through Me",
     "coverArtist": "Scary Pockets, Madison Cunningham",
@@ -1660,6 +1826,7 @@
     "spotify": "https://open.spotify.com/track/0WqFBfRAMFqOu5bLKojjIL"
   },
   {
+    "id": "crazy-cover-0167",
     "sourceArtist": "Prince",
     "song": "Purple Rain",
     "coverArtist": "Scary Pockets, Mario Jose",
@@ -1670,6 +1837,7 @@
     "spotify": "https://open.spotify.com/track/41Muy8F6re7sZSvBgtTj3m"
   },
   {
+    "id": "crazy-cover-0168",
     "sourceArtist": "Radiohead",
     "song": "Creep",
     "coverArtist": "Scary Pockets, India Carney",
@@ -1680,6 +1848,7 @@
     "spotify": "https://open.spotify.com/track/1qxjyEmiKqgcukhqEawmqK"
   },
   {
+    "id": "crazy-cover-0169",
     "sourceArtist": "Soundgarden",
     "song": "Black Hole Sun",
     "coverArtist": "Scary Pockets, Maiya Sykes",
@@ -1690,6 +1859,7 @@
     "spotify": "https://open.spotify.com/track/3yyFIUtH4usN3eBIGKhHYq"
   },
   {
+    "id": "crazy-cover-0170",
     "sourceArtist": "The Beatles",
     "song": "Can't Buy Me Love",
     "coverArtist": "Scary Pockets, Abby Celso",
@@ -1700,6 +1870,7 @@
     "spotify": "https://open.spotify.com/track/0Fi0yp52XmFnLwT1KdXjmI"
   },
   {
+    "id": "crazy-cover-0171",
     "sourceArtist": "The Beatles",
     "song": "Come Together",
     "coverArtist": "Scary Pockets, Mario Jose",
@@ -1710,6 +1881,7 @@
     "spotify": "https://open.spotify.com/track/3vwBYoGucbkHtlDHzXqfLG"
   },
   {
+    "id": "crazy-cover-0172",
     "sourceArtist": "The Beatles",
     "song": "Rocky Raccoon",
     "coverArtist": "Scary Pockets, George Krikes",
@@ -1720,6 +1892,7 @@
     "spotify": "https://open.spotify.com/track/0sdQ5hPULJilp0gpAXGq8E"
   },
   {
+    "id": "crazy-cover-0173",
     "sourceArtist": "Iggy & The Stooges",
     "song": "Search and Destroy",
     "coverArtist": "Red Hot Chili Peppers",
@@ -1730,6 +1903,7 @@
     "spotify": "https://open.spotify.com/track/7qhyraMUrpoHalIbTZYYOy"
   },
   {
+    "id": "crazy-cover-0174",
     "sourceArtist": "Talking Heads",
     "song": "Psycho Killer",
     "coverArtist": "Miley Cyrus",
@@ -1740,6 +1914,7 @@
     "spotify": "https://open.spotify.com/track/0oIkEZW6Db30OedNBhaXYO"
   },
   {
+    "id": "crazy-cover-0175",
     "sourceArtist": "The Cure",
     "song": "Just Like Heaven",
     "coverArtist": "Dinosaur Jr.",
@@ -1750,6 +1925,7 @@
     "spotify": "https://open.spotify.com/track/69u4YVuqKoVp3nZmpyxC8I"
   },
   {
+    "id": "crazy-cover-0176",
     "sourceArtist": "Nick Cave & The Bad Seeds",
     "song": "Red Right Hand",
     "coverArtist": "Arctic Monkeys",
@@ -1760,6 +1936,7 @@
     "spotify": "https://open.spotify.com/track/0R194013qdfjeFiap76Nzs"
   },
   {
+    "id": "crazy-cover-0177",
     "sourceArtist": "David Bowie",
     "song": "Ziggy Stardust",
     "coverArtist": "Bauhaus",
@@ -1770,6 +1947,7 @@
     "spotify": "https://open.spotify.com/track/2wBKNmYONrCxgmHc2HhQ8C"
   },
   {
+    "id": "crazy-cover-0178",
     "sourceArtist": "The Beatles",
     "song": "Dear Prudence",
     "coverArtist": "Siouxsie and the Banshees",
@@ -1780,6 +1958,7 @@
     "spotify": "https://open.spotify.com/track/34tFidHrETMAjsiK87WVVW"
   },
   {
+    "id": "crazy-cover-0179",
     "sourceArtist": "The Who",
     "song": "Love Reign O'er Me",
     "coverArtist": "Pearl Jam",
@@ -1790,6 +1969,7 @@
     "spotify": "https://open.spotify.com/track/5ZfsG6AXxJBSaiAyKuTSgy"
   },
   {
+    "id": "crazy-cover-0180",
     "sourceArtist": "AC/DC",
     "song": "You Shook Me All Night Long",
     "coverArtist": "The Lost Fingers",
@@ -1800,6 +1980,7 @@
     "spotify": "https://open.spotify.com/track/28DNhgr0VvTtCEEEg2e6QM"
   },
   {
+    "id": "crazy-cover-0181",
     "sourceArtist": "Alannah Myles",
     "song": "Black Velvet",
     "coverArtist": "The Lost Fingers",
@@ -1810,6 +1991,7 @@
     "spotify": "https://open.spotify.com/track/67RsQdPCnegJGJSh9iMtN5"
   },
   {
+    "id": "crazy-cover-0182",
     "sourceArtist": "Bon Jovi",
     "song": "You Give Love a Bad Name",
     "coverArtist": "The Lost Fingers",
@@ -1820,6 +2002,7 @@
     "spotify": "https://open.spotify.com/track/2YNfpkN8HqUZngXmNuUFOh"
   },
   {
+    "id": "crazy-cover-0183",
     "sourceArtist": "Bryan Adams",
     "song": "Summer of '69",
     "coverArtist": "The Lost Fingers",
@@ -1830,6 +2013,7 @@
     "spotify": "https://open.spotify.com/track/5fzwxyCMwriBsafiXHYlGL"
   },
   {
+    "id": "crazy-cover-0184",
     "sourceArtist": "Corey Hart",
     "song": "Sunglasses at Night",
     "coverArtist": "The Lost Fingers, John Jorgenson",
@@ -1840,6 +2024,7 @@
     "spotify": "https://open.spotify.com/track/77Tnu1lqnwqA8mMRblpv3R"
   },
   {
+    "id": "crazy-cover-0185",
     "sourceArtist": "Cutting Crew",
     "song": "(I Just) Died in Your Arms",
     "coverArtist": "The Lost Fingers",
@@ -1850,6 +2035,7 @@
     "spotify": "https://open.spotify.com/track/0D7PXA5xlI3TG0o2Hxliw3"
   },
   {
+    "id": "crazy-cover-0186",
     "sourceArtist": "Fool's Garden",
     "song": "Lemon Tree",
     "coverArtist": "The Lost Fingers",
@@ -1860,6 +2046,7 @@
     "spotify": "https://open.spotify.com/track/1Dlvg3MrLQO4ReIpj5sYmt"
   },
   {
+    "id": "crazy-cover-0187",
     "sourceArtist": "George Harrison",
     "song": "All Things Must Pass",
     "coverArtist": "Robin Nolan",
@@ -1870,6 +2057,7 @@
     "spotify": "https://open.spotify.com/track/6qlshygmMj6qZ26MZ4oaVW"
   },
   {
+    "id": "crazy-cover-0188",
     "sourceArtist": "George Harrison",
     "song": "Dark Sweet Lady",
     "coverArtist": "Robin Nolan",
@@ -1880,6 +2068,7 @@
     "spotify": "https://open.spotify.com/track/5ySDkail3lvXDRbPLwSiVV"
   },
   {
+    "id": "crazy-cover-0189",
     "sourceArtist": "George Harrison",
     "song": "My Sweet Lord",
     "coverArtist": "Robin Nolan",
@@ -1890,6 +2079,7 @@
     "spotify": "https://open.spotify.com/track/19zKaSKtSVxiZY1px5mBGx"
   },
   {
+    "id": "crazy-cover-0190",
     "sourceArtist": "George Harrison",
     "song": "Wah-Wah",
     "coverArtist": "Robin Nolan",
@@ -1900,6 +2090,7 @@
     "spotify": "https://open.spotify.com/track/51egvsw9Ig0MunRQbUV9UM"
   },
   {
+    "id": "crazy-cover-0191",
     "sourceArtist": "Glass Tiger",
     "song": "Don't Forget Me (When I'm Gone)",
     "coverArtist": "The Lost Fingers",
@@ -1910,6 +2101,7 @@
     "spotify": "https://open.spotify.com/track/6pUicn1lUEaLY4oDkzuEg3"
   },
   {
+    "id": "crazy-cover-0192",
     "sourceArtist": "Men Without Hats",
     "song": "The Safety Dance",
     "coverArtist": "The Lost Fingers, John Jorgenson, Marie Josee",
@@ -1920,6 +2112,7 @@
     "spotify": "https://open.spotify.com/track/5o0h1jrgbbtZp8LkVvX2yu"
   },
   {
+    "id": "crazy-cover-0193",
     "sourceArtist": "Mötley Crüe",
     "song": "Dr. Feelgood",
     "coverArtist": "The Lost Fingers",
@@ -1930,6 +2123,7 @@
     "spotify": "https://open.spotify.com/track/49WoXD83Cu5VIxGbTduE5U"
   },
   {
+    "id": "crazy-cover-0194",
     "sourceArtist": "Nirvana",
     "song": "Lithium",
     "coverArtist": "The Lost Fingers",
@@ -1940,6 +2134,7 @@
     "spotify": "https://open.spotify.com/track/1GyaZrdIOR4J7q5hGfs3JC"
   },
   {
+    "id": "crazy-cover-0195",
     "sourceArtist": "Pearl Jam",
     "song": "Even Flow",
     "coverArtist": "The Lost Fingers",
@@ -1950,6 +2145,7 @@
     "spotify": "https://open.spotify.com/track/1LECnQkeFaCB2qe0xK6zQE"
   },
   {
+    "id": "crazy-cover-0196",
     "sourceArtist": "Ram Jam",
     "song": "Black Betty",
     "coverArtist": "The Lost Fingers",
@@ -1960,6 +2156,7 @@
     "spotify": "https://open.spotify.com/track/5ognKgKttzyVROQWaPnFqo"
   },
   {
+    "id": "crazy-cover-0197",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Give It Away",
     "coverArtist": "The Lost Fingers",
@@ -1970,6 +2167,7 @@
     "spotify": "https://open.spotify.com/track/6C0c6b2wLlLNcjIyKWa7z4"
   },
   {
+    "id": "crazy-cover-0198",
     "sourceArtist": "Rush",
     "song": "Tom Sawyer",
     "coverArtist": "The Lost Fingers",
@@ -1980,6 +2178,7 @@
     "spotify": "https://open.spotify.com/track/1MnKUfdOqs3TI1mv1MRjAS"
   },
   {
+    "id": "crazy-cover-0199",
     "sourceArtist": "Shocking Blue",
     "song": "Venus",
     "coverArtist": "The Lost Fingers",
@@ -1990,6 +2189,7 @@
     "spotify": "https://open.spotify.com/track/4ikxqd932dnAp9hWr6Wqo9"
   },
   {
+    "id": "crazy-cover-0200",
     "sourceArtist": "Soft Cell",
     "song": "Tainted Love",
     "coverArtist": "The Lost Fingers",
@@ -2000,6 +2200,7 @@
     "spotify": "https://open.spotify.com/track/2Nf1TUYSgaF9quYAeIjI4U"
   },
   {
+    "id": "crazy-cover-0201",
     "sourceArtist": "Soundgarden",
     "song": "Outshined",
     "coverArtist": "The Lost Fingers",
@@ -2010,6 +2211,7 @@
     "spotify": "https://open.spotify.com/track/7gisr1xIhiVuiaAWTMGG0u"
   },
   {
+    "id": "crazy-cover-0202",
     "sourceArtist": "Suzanne Vega",
     "song": "Tom's Diner",
     "coverArtist": "The Lost Fingers",
@@ -2020,6 +2222,7 @@
     "spotify": "https://open.spotify.com/track/2S27elv0LTqx6Kc6sRsiPz"
   },
   {
+    "id": "crazy-cover-0203",
     "sourceArtist": "The Beatles",
     "song": "All My Lovin'",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2030,6 +2233,7 @@
     "spotify": "https://open.spotify.com/track/64uGwjHgVBSMVHiKsSwcMi"
   },
   {
+    "id": "crazy-cover-0204",
     "sourceArtist": "The Beatles",
     "song": "And I Love Her",
     "coverArtist": "Robin Nolan",
@@ -2040,6 +2244,7 @@
     "spotify": "https://open.spotify.com/track/1AWcQ8OqAtbsgQKuNCCeOo"
   },
   {
+    "id": "crazy-cover-0205",
     "sourceArtist": "The Beatles",
     "song": "Because",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2050,6 +2255,7 @@
     "spotify": "https://open.spotify.com/track/7n39YMrWyXyAOiUUsurhsv"
   },
   {
+    "id": "crazy-cover-0206",
     "sourceArtist": "The Beatles",
     "song": "Don't Bother Me",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2060,6 +2266,7 @@
     "spotify": "https://open.spotify.com/track/6DFzKkX9BLF3zVMI4FvXLi"
   },
   {
+    "id": "crazy-cover-0207",
     "sourceArtist": "The Beatles",
     "song": "For No One",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2070,6 +2277,7 @@
     "spotify": "https://open.spotify.com/track/4DUQxH1JP2vktY37PKH8m0"
   },
   {
+    "id": "crazy-cover-0208",
     "sourceArtist": "The Beatles",
     "song": "Here, There and Everywhere",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2080,6 +2288,7 @@
     "spotify": "https://open.spotify.com/track/5Q3MZkaXnB5T2VfDfLZ4ye"
   },
   {
+    "id": "crazy-cover-0209",
     "sourceArtist": "The Beatles",
     "song": "Hey Jude/Duke & Dukie",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2090,6 +2299,7 @@
     "spotify": "https://open.spotify.com/track/68wOZTSFYMoPFWLsdJB9hZ"
   },
   {
+    "id": "crazy-cover-0210",
     "sourceArtist": "The Beatles",
     "song": "I Want to Tell You",
     "coverArtist": "Robin Nolan",
@@ -2100,6 +2310,7 @@
     "spotify": "https://open.spotify.com/track/2SMSS05a8Fnh46rIoGs6RU"
   },
   {
+    "id": "crazy-cover-0211",
     "sourceArtist": "The Beatles",
     "song": "I Will",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2110,6 +2321,7 @@
     "spotify": "https://open.spotify.com/track/6l7iMiglPdUUArBj9JGuXt"
   },
   {
+    "id": "crazy-cover-0212",
     "sourceArtist": "The Beatles",
     "song": "If I Needed Someone",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2120,6 +2332,7 @@
     "spotify": "https://open.spotify.com/track/3rJ61TnKCoW28KPpnjeRgE"
   },
   {
+    "id": "crazy-cover-0213",
     "sourceArtist": "The Beatles",
     "song": "Michelle",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2130,6 +2343,7 @@
     "spotify": "https://open.spotify.com/track/7dsqZ59BPLqwyRbAMeHfWO"
   },
   {
+    "id": "crazy-cover-0214",
     "sourceArtist": "The Beatles",
     "song": "Something",
     "coverArtist": "Robin Nolan",
@@ -2140,6 +2354,7 @@
     "spotify": "https://open.spotify.com/track/3BzIwAwJ1Dfpo2MBYOUTy9"
   },
   {
+    "id": "crazy-cover-0215",
     "sourceArtist": "The Beatles",
     "song": "The Fool on the Hill",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2150,6 +2365,7 @@
     "spotify": "https://open.spotify.com/track/71fdXWoqtQJx3YwFzLeaQq"
   },
   {
+    "id": "crazy-cover-0216",
     "sourceArtist": "The Beatles",
     "song": "The Inner Light",
     "coverArtist": "Robin Nolan",
@@ -2160,6 +2376,7 @@
     "spotify": "https://open.spotify.com/track/3ZqfcrnfA26a2c3VvlF4TU"
   },
   {
+    "id": "crazy-cover-0217",
     "sourceArtist": "The Beatles",
     "song": "Things We Said Today",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2170,6 +2387,7 @@
     "spotify": "https://open.spotify.com/track/5F4HlwfjhmGsZhTQJBRbv5"
   },
   {
+    "id": "crazy-cover-0218",
     "sourceArtist": "The Beatles",
     "song": "While My Guitar Gently Weeps",
     "coverArtist": "Robin Nolan",
@@ -2180,6 +2398,7 @@
     "spotify": "https://open.spotify.com/track/6JgWi6VCS4GPvy291gUjXT"
   },
   {
+    "id": "crazy-cover-0219",
     "sourceArtist": "The Beatles",
     "song": "Yellow Submarine",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2190,6 +2409,7 @@
     "spotify": "https://open.spotify.com/track/2iBsG7XpL5RxIwPV3f5Z0h"
   },
   {
+    "id": "crazy-cover-0220",
     "sourceArtist": "The Beatles",
     "song": "You Can't Do That",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2200,6 +2420,7 @@
     "spotify": "https://open.spotify.com/track/0EkryPAvc47Y22vy94tZR2"
   },
   {
+    "id": "crazy-cover-0221",
     "sourceArtist": "The Beatles",
     "song": "You Won't See Me",
     "coverArtist": "The Hot Club Of San Francisco",
@@ -2210,6 +2431,7 @@
     "spotify": "https://open.spotify.com/track/0BG4DDg0L9J9YhxkWcyBke"
   },
   {
+    "id": "crazy-cover-0222",
     "sourceArtist": "The Cardigans",
     "song": "Lovefool",
     "coverArtist": "The Lost Fingers",
@@ -2220,6 +2442,7 @@
     "spotify": "https://open.spotify.com/track/1uJO2e7z27Ny806y6gL4td"
   },
   {
+    "id": "crazy-cover-0223",
     "sourceArtist": "The Offspring",
     "song": "Come Out and Play",
     "coverArtist": "The Lost Fingers",
@@ -2230,6 +2453,7 @@
     "spotify": "https://open.spotify.com/track/4X3gemcKHCiU7iRHY0I6Ji"
   },
   {
+    "id": "crazy-cover-0224",
     "sourceArtist": "The Beatles",
     "song": "Come Together",
     "coverArtist": "Aerosmith",
@@ -2240,6 +2464,7 @@
     "spotify": "https://open.spotify.com/track/6FfE10CNarokEyIGxWhz2g"
   },
   {
+    "id": "crazy-cover-0225",
     "sourceArtist": "Led Zeppelin",
     "song": "Babe I'm Gonna Leave You",
     "coverArtist": "Great White",
@@ -2250,6 +2475,7 @@
     "spotify": "https://open.spotify.com/track/0OVikdmUa6hTGKMhEZJcYz"
   },
   {
+    "id": "crazy-cover-0226",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Ma Ma Ma Belle",
     "coverArtist": "Earl Slick",
@@ -2260,6 +2486,7 @@
     "spotify": "https://open.spotify.com/track/7a6I1pM3sZ4awzvMhpf67f?utm_source=openai&utm_medium=chatgpt&request_id=0b008675-4fcf-452f-92c7-37e6b11304f6"
   },
   {
+    "id": "crazy-cover-0227",
     "sourceArtist": "David Bowie",
     "song": "Heroes",
     "coverArtist": "Motörhead",
@@ -2270,6 +2497,7 @@
     "spotify": "https://open.spotify.com/track/2abomxjOAjQeFSuigBkk4x"
   },
   {
+    "id": "crazy-cover-0228",
     "sourceArtist": "Metallica",
     "song": "Holier Than Thou",
     "coverArtist": "OFF!",
@@ -2280,6 +2508,7 @@
     "spotify": "https://open.spotify.com/track/5JoQKrUVslQ3Gb5YYbxjQK"
   },
   {
+    "id": "crazy-cover-0229",
     "sourceArtist": "Metallica",
     "song": "The Unforgiven",
     "coverArtist": "Flatbush Zombies, DJ Scratch, Metallica",
@@ -2290,6 +2519,7 @@
     "spotify": "https://open.spotify.com/track/0lijAEexHDE052XxeKsrTa"
   },
   {
+    "id": "crazy-cover-0230",
     "sourceArtist": "The Postal Service",
     "song": "Such Great Heights",
     "coverArtist": "Iron & Wine",
@@ -2300,6 +2530,7 @@
     "spotify": "https://open.spotify.com/track/6dDxgfvM8pJm7AzmLZB1nN"
   },
   {
+    "id": "crazy-cover-0231",
     "sourceArtist": "Metallica",
     "song": "The Unforgiven",
     "coverArtist": "Vishal Dadlani, DIVINE, Shor Police, Metallica",
@@ -2310,6 +2541,7 @@
     "spotify": "https://open.spotify.com/track/5RMK3enkC072k5YewQsDNS"
   },
   {
+    "id": "crazy-cover-0232",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Evil Woman",
     "coverArtist": "Sexton Blake",
@@ -2320,6 +2552,7 @@
     "spotify": "https://open.spotify.com/track/0S9NS3mJkAJOUhnPQRimgc?utm_source=openai&utm_medium=chatgpt&request_id=a2d4e6cb-9743-47de-b7c8-2af2d45bee17"
   },
   {
+    "id": "crazy-cover-0233",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Bluebird Is Dead",
     "coverArtist": "Juliana Hatfield",
@@ -2330,6 +2563,7 @@
     "spotify": "https://open.spotify.com/track/0j0Fhkh1MFtCqvc0QQPqbL?utm_source=openai&utm_medium=chatgpt&request_id=d4c86911-5699-4375-9f37-bc1b71b7740b"
   },
   {
+    "id": "crazy-cover-0234",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Can't Get It Out of My Head",
     "coverArtist": "Juliana Hatfield",
@@ -2340,6 +2574,7 @@
     "spotify": "https://open.spotify.com/track/7vQmFWvN4Slfi1FdtzZ8eM?utm_source=openai&utm_medium=chatgpt&request_id=36c0dec4-ba20-4063-8f71-1bfb324b8554"
   },
   {
+    "id": "crazy-cover-0235",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Don't Bring Me Down",
     "coverArtist": "Juliana Hatfield",
@@ -2350,6 +2585,7 @@
     "spotify": "https://open.spotify.com/track/3kAJugkcqqAxkbMEHi6dun?utm_source=openai&utm_medium=chatgpt&request_id=0d975378-aeb7-4db2-aa49-73c428a142c7"
   },
   {
+    "id": "crazy-cover-0236",
     "sourceArtist": "Electric Light Orchestra",
     "song": "From The End Of The World",
     "coverArtist": "Juliana Hatfield",
@@ -2360,6 +2596,7 @@
     "spotify": "https://open.spotify.com/track/27AtZy3qELQ6vccZnVp84D?utm_source=openai&utm_medium=chatgpt&request_id=2ae71bf0-4daa-4872-bd61-0391ffb61d5c"
   },
   {
+    "id": "crazy-cover-0237",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Ordinary Dream",
     "coverArtist": "Juliana Hatfield",
@@ -2370,6 +2607,7 @@
     "spotify": "https://open.spotify.com/track/5MWz3GIJgaqdaNFR2B3mB8?utm_source=openai&utm_medium=chatgpt&request_id=18e3ccf1-f956-4d5e-90a5-a5c4a562c2b4"
   },
   {
+    "id": "crazy-cover-0238",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Secret Messages",
     "coverArtist": "Juliana Hatfield",
@@ -2380,6 +2618,7 @@
     "spotify": "https://open.spotify.com/track/7GnOfgQ9FSERyVSK6DO2lY?utm_source=openai&utm_medium=chatgpt&request_id=88295631-af09-4296-9bb6-e695a1a901d3"
   },
   {
+    "id": "crazy-cover-0239",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Showdown",
     "coverArtist": "Juliana Hatfield",
@@ -2390,6 +2629,7 @@
     "spotify": "https://open.spotify.com/track/5VjtlWjMhQMwEwCw82dkVK?utm_source=openai&utm_medium=chatgpt&request_id=3db49388-da5d-4446-98c9-ba144d50d70c"
   },
   {
+    "id": "crazy-cover-0240",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Strange Magic",
     "coverArtist": "Juliana Hatfield",
@@ -2400,6 +2640,7 @@
     "spotify": "https://open.spotify.com/track/5gsOO5D0JDo3hU2ITAoQjF?utm_source=openai&utm_medium=chatgpt&request_id=005d13e8-1ec9-4f25-971d-ca53e3837261"
   },
   {
+    "id": "crazy-cover-0241",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Sweet Is The Night",
     "coverArtist": "Juliana Hatfield",
@@ -2410,6 +2651,7 @@
     "spotify": "https://open.spotify.com/track/1eQaXJa1Rik8lr5Wor51Lm?utm_source=openai&utm_medium=chatgpt&request_id=31b7de4e-be20-4a6e-8db7-4b4ddd979e18"
   },
   {
+    "id": "crazy-cover-0242",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Telephone Line",
     "coverArtist": "Juliana Hatfield",
@@ -2420,6 +2662,7 @@
     "spotify": "https://open.spotify.com/track/4l3d1YaUCs37qWLiBva2y0?utm_source=openai&utm_medium=chatgpt&request_id=3aba18f5-8c29-4baa-a36d-8bbb0275c63e"
   },
   {
+    "id": "crazy-cover-0243",
     "sourceArtist": "Electric Light Orchestra",
     "song": "One Summer Dream",
     "coverArtist": "Prairie Sons and Daughters",
@@ -2430,6 +2673,7 @@
     "spotify": "https://open.spotify.com/track/6s3LGMkaGzqy1k3NtLh6kJ?utm_source=openai&utm_medium=chatgpt&request_id=d7766643-9bca-49b5-a4d1-a081ba2adfa8"
   },
   {
+    "id": "crazy-cover-0244",
     "sourceArtist": "The Cure",
     "song": "Friday I'm In Love",
     "coverArtist": "Phoebe Bridgers",
@@ -2440,6 +2684,7 @@
     "spotify": "https://open.spotify.com/track/6vC7mF2CXYW6MVF2voO4FU"
   },
   {
+    "id": "crazy-cover-0245",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Last Train to London",
     "coverArtist": "Rikas",
@@ -2450,6 +2695,7 @@
     "spotify": "https://open.spotify.com/track/5fewYZz1bCsj72vjSwSxzq?utm_source=openai&utm_medium=chatgpt&request_id=9c6b75f5-e81c-4509-a845-a27b4cab42c5"
   },
   {
+    "id": "crazy-cover-0246",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Strange Magic",
     "coverArtist": "POP ETC",
@@ -2460,6 +2706,7 @@
     "spotify": "https://open.spotify.com/track/3EbcSw6ZZV2ccIJrcvMspv?utm_source=openai&utm_medium=chatgpt&request_id=2b95deee-831d-4914-bf75-bae661a76577"
   },
   {
+    "id": "crazy-cover-0247",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Pomplamoose",
@@ -2470,6 +2717,7 @@
     "spotify": "https://open.spotify.com/track/1DYNw2iUNJC8jE56gu3FRu?utm_source=openai&utm_medium=chatgpt&request_id=1d30b4b3-5158-44ba-b679-ff010ca88754"
   },
   {
+    "id": "crazy-cover-0248",
     "sourceArtist": "Talking Heads",
     "song": "Girlfriend Is Better",
     "coverArtist": "girl in red",
@@ -2480,6 +2728,7 @@
     "spotify": "https://open.spotify.com/track/4BUPTIYoOfIO42GmTqFAiY"
   },
   {
+    "id": "crazy-cover-0249",
     "sourceArtist": "Dire Straits",
     "song": "Romeo And Juliet",
     "coverArtist": "The Killers",
@@ -2490,6 +2739,7 @@
     "spotify": "https://open.spotify.com/track/1kfrnPViuzKdNwmH21ehLg"
   },
   {
+    "id": "crazy-cover-0250",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Can't Get It Out of My Head",
     "coverArtist": "Telekinesis",
@@ -2500,6 +2750,7 @@
     "spotify": "https://open.spotify.com/track/0zf1BQJ4om2qU0W9muvnLn?utm_source=openai&utm_medium=chatgpt&request_id=dc2f2c2f-202e-4a0b-b4eb-bba4a453cdd9"
   },
   {
+    "id": "crazy-cover-0251",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "The Delgados",
@@ -2510,6 +2761,7 @@
     "spotify": "https://open.spotify.com/track/1FNi9975g1YsTb2aaE4WmQ?utm_source=openai&utm_medium=chatgpt&request_id=15ae3cd7-2441-4634-8a22-e3fafef1820f"
   },
   {
+    "id": "crazy-cover-0252",
     "sourceArtist": "Metallica",
     "song": "My Friend of Misery",
     "coverArtist": "Cherry Glazerr",
@@ -2520,6 +2772,7 @@
     "spotify": "https://open.spotify.com/track/3GGkrhDdtE10kUbMHGsrm1"
   },
   {
+    "id": "crazy-cover-0253",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "Sam Fender",
@@ -2530,6 +2783,7 @@
     "spotify": "https://open.spotify.com/track/2Wvbu2xskIjH6uKdrnR98G"
   },
   {
+    "id": "crazy-cover-0254",
     "sourceArtist": "Joy Division",
     "song": "Shadowplay",
     "coverArtist": "The Killers",
@@ -2540,6 +2794,7 @@
     "spotify": "https://open.spotify.com/track/6HbTF52swZiGSJ2cvAJ7PU"
   },
   {
+    "id": "crazy-cover-0255",
     "sourceArtist": "Talking Heads",
     "song": "Heaven",
     "coverArtist": "The National",
@@ -2550,6 +2805,7 @@
     "spotify": "https://open.spotify.com/track/32DzFNKGUKgKI9sAi6SsaW"
   },
   {
+    "id": "crazy-cover-0256",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Sweet Is The Night",
     "coverArtist": "Ben Lee",
@@ -2560,6 +2816,7 @@
     "spotify": "https://open.spotify.com/track/2THcftQNRl4jrcrcojRsnn?utm_source=openai&utm_medium=chatgpt&request_id=c8de943c-b34c-4feb-8e8c-f27afd85ab90"
   },
   {
+    "id": "crazy-cover-0257",
     "sourceArtist": "Tom Tom Club",
     "song": "Genius of Love",
     "coverArtist": "Toro y Moi, Brijean",
@@ -2570,6 +2827,7 @@
     "spotify": "https://open.spotify.com/track/0hoGRPJzogRC6o5fO0lNWd"
   },
   {
+    "id": "crazy-cover-0258",
     "sourceArtist": "Led Zeppelin",
     "song": "When the Levee Breaks",
     "coverArtist": "A Perfect Circle",
@@ -2580,6 +2838,7 @@
     "spotify": "https://open.spotify.com/track/3VKdOmOSWc50fxn0PjDZWc"
   },
   {
+    "id": "crazy-cover-0259",
     "sourceArtist": "Eurythmics",
     "song": "Sweet Dreams (Are Made of This)",
     "coverArtist": "Marilyn Manson",
@@ -2590,6 +2849,7 @@
     "spotify": "https://open.spotify.com/track/3D0bXrSv7O73vOaGOG8J9c"
   },
   {
+    "id": "crazy-cover-0260",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "St. Vincent",
@@ -2600,6 +2860,7 @@
     "spotify": "https://open.spotify.com/track/4HP8PWR9iXY62ZB0oijpoK"
   },
   {
+    "id": "crazy-cover-0261",
     "sourceArtist": "Gary Numan",
     "song": "Down in the Park",
     "coverArtist": "Marilyn Manson",
@@ -2610,6 +2871,7 @@
     "spotify": "https://open.spotify.com/track/0YCyOP5nkAp2aiowFSTqkE"
   },
   {
+    "id": "crazy-cover-0262",
     "sourceArtist": "ZZ Top",
     "song": "Sharp Dressed Man",
     "coverArtist": "Ministry, Billy F Gibbons",
@@ -2620,6 +2882,7 @@
     "spotify": "https://open.spotify.com/track/6lSps58n26FALZyAETpDfX?utm_source=openai&utm_medium=chatgpt&request_id=5e1240f9-0590-4123-add0-37d1dd06d972"
   },
   {
+    "id": "crazy-cover-0263",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Rina Sawayama",
@@ -2630,6 +2893,7 @@
     "spotify": "https://open.spotify.com/track/18sXLZIxb7nYy3g0Wnx8bA"
   },
   {
+    "id": "crazy-cover-0264",
     "sourceArtist": "Joy Division",
     "song": "Dead Souls",
     "coverArtist": "Nine Inch Nails",
@@ -2640,6 +2904,7 @@
     "spotify": "https://open.spotify.com/track/12s8P9IFXjJWwVnX7u26ca"
   },
   {
+    "id": "crazy-cover-0265",
     "sourceArtist": "Queen",
     "song": "Get Down, Make Love",
     "coverArtist": "Nine Inch Nails",
@@ -2650,6 +2915,7 @@
     "spotify": "https://open.spotify.com/track/6eco0716lo6FVLTKWi0d3r"
   },
   {
+    "id": "crazy-cover-0266",
     "sourceArtist": "The Beatles",
     "song": "Because",
     "coverArtist": "Elliott Smith",
@@ -2660,6 +2926,7 @@
     "spotify": "https://open.spotify.com/track/0W78mVK0xVPpOD7oh4medH"
   },
   {
+    "id": "crazy-cover-0267",
     "sourceArtist": "Duran Duran",
     "song": "Ordinary World",
     "coverArtist": "Joy Williams",
@@ -2670,6 +2937,7 @@
     "spotify": "https://open.spotify.com/track/1Rzv9hwuNO1H7N947tD1e8"
   },
   {
+    "id": "crazy-cover-0268",
     "sourceArtist": "Leonard Cohen",
     "song": "Hallelujah",
     "coverArtist": "Jeff Buckley",
@@ -2680,6 +2948,7 @@
     "spotify": "https://open.spotify.com/track/3pRaLNL3b8x5uBOcsgvdqM"
   },
   {
+    "id": "crazy-cover-0269",
     "sourceArtist": "Neil Young",
     "song": "Harvest Moon",
     "coverArtist": "Cassandra Wilson",
@@ -2690,6 +2959,7 @@
     "spotify": "https://open.spotify.com/track/21HsI1RpRHEjbUjmzHtIyj"
   },
   {
+    "id": "crazy-cover-0270",
     "sourceArtist": "Elliott Smith",
     "song": "Between the Bars",
     "coverArtist": "Madeleine Peyroux",
@@ -2700,6 +2970,7 @@
     "spotify": "https://open.spotify.com/track/1MLvc7jAgCTIqVbI2Hr2uE"
   },
   {
+    "id": "crazy-cover-0271",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "Robert Glasper",
@@ -2710,6 +2981,7 @@
     "spotify": "https://open.spotify.com/track/5SmYRW8JySpZnsg0yzEFR5"
   },
   {
+    "id": "crazy-cover-0272",
     "sourceArtist": "Radiohead",
     "song": "Everything in Its Right Place",
     "coverArtist": "Robert Glasper",
@@ -2720,6 +2992,7 @@
     "spotify": "https://open.spotify.com/track/0jyXW8hxeIzX4QwznqVT0E"
   },
   {
+    "id": "crazy-cover-0273",
     "sourceArtist": "The Mamas & the Papas",
     "song": "California Dreamin'",
     "coverArtist": "Diana Krall",
@@ -2730,6 +3003,7 @@
     "spotify": "https://open.spotify.com/track/14IV6ycAWxurGj5KvHtNAT"
   },
   {
+    "id": "crazy-cover-0274",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Last Minute Customers",
@@ -2740,6 +3014,7 @@
     "spotify": "https://open.spotify.com/track/7vA3ymqs68va15nNCTzAoS?utm_source=openai&utm_medium=chatgpt&request_id=53fb229c-e0a1-41e4-8fec-6b12f83a94c2"
   },
   {
+    "id": "crazy-cover-0275",
     "sourceArtist": "The Beatles",
     "song": "A Day in the Life",
     "coverArtist": "Wes Montgomery",
@@ -2750,6 +3025,7 @@
     "spotify": "https://open.spotify.com/track/5FBf12F4ry9TXoZAvISu6F"
   },
   {
+    "id": "crazy-cover-0276",
     "sourceArtist": "The Beatles",
     "song": "Blackbird",
     "coverArtist": "Brad Mehldau",
@@ -2760,6 +3036,7 @@
     "spotify": "https://open.spotify.com/track/6PtZaHjsx2Pnk3x9O92bB2?utm_source=openai&utm_medium=chatgpt&request_id=afdd6462-e2a1-40bc-a452-839b8fd3cd6f"
   },
   {
+    "id": "crazy-cover-0277",
     "sourceArtist": "The Beatles",
     "song": "Dear Prudence",
     "coverArtist": "Brad Mehldau",
@@ -2770,6 +3047,7 @@
     "spotify": "https://open.spotify.com/track/0wjfTfh7VSiE6Jatrfuz7U"
   },
   {
+    "id": "crazy-cover-0278",
     "sourceArtist": "Nirvana",
     "song": "Heart-Shaped Box",
     "coverArtist": "Yaron Herman Trio",
@@ -2780,6 +3058,7 @@
     "spotify": "https://open.spotify.com/track/5i17LHqATVUzB3qJaUcNkO"
   },
   {
+    "id": "crazy-cover-0279",
     "sourceArtist": "Radiohead",
     "song": "Knives Out",
     "coverArtist": "Brad Mehldau",
@@ -2790,6 +3069,7 @@
     "spotify": "https://open.spotify.com/track/4roMdSmnJyOxADXzTlzA0C"
   },
   {
+    "id": "crazy-cover-0280",
     "sourceArtist": "Radiohead",
     "song": "Exit Music (For a Film)",
     "coverArtist": "Brad Mehldau",
@@ -2800,6 +3080,7 @@
     "spotify": "https://open.spotify.com/track/4A3P0UVfx28TH0fghxJ16u?utm_source=openai&utm_medium=chatgpt&request_id=1521b127-96d5-433d-b70d-8c93445aa94b"
   },
   {
+    "id": "crazy-cover-0281",
     "sourceArtist": "The Beatles",
     "song": "Eleanor Rigby",
     "coverArtist": "Joshua Redman",
@@ -2810,6 +3091,7 @@
     "spotify": "https://open.spotify.com/track/4q5KE7ma9YYDNg18K3KKyU"
   },
   {
+    "id": "crazy-cover-0282",
     "sourceArtist": "Heart",
     "song": "Barracuda",
     "coverArtist": "The Bad Plus",
@@ -2820,6 +3102,7 @@
     "spotify": "https://open.spotify.com/track/77iB5tZdSg2LJabUtzKyaS"
   },
   {
+    "id": "crazy-cover-0283",
     "sourceArtist": "Led Zeppelin",
     "song": "The Ocean",
     "coverArtist": "Joshua Redman",
@@ -2830,6 +3113,7 @@
     "spotify": "https://open.spotify.com/track/1NGf8FvPcCau3GuEZcfluv"
   },
   {
+    "id": "crazy-cover-0284",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "Brad Mehldau",
@@ -2840,6 +3124,7 @@
     "spotify": "https://open.spotify.com/track/6d83pCGgsYX5e04z4Ej8VP"
   },
   {
+    "id": "crazy-cover-0285",
     "sourceArtist": "Pink Floyd",
     "song": "Comfortably Numb",
     "coverArtist": "The Bad Plus",
@@ -2850,6 +3135,7 @@
     "spotify": "https://open.spotify.com/track/0aQZxKrtx2JhXQfT4TD23E"
   },
   {
+    "id": "crazy-cover-0286",
     "sourceArtist": "Billy Joel",
     "song": "Only the Good Die Young",
     "coverArtist": "Massimo Faraò, Nicola Barbon, Bobo Facchinetti",
@@ -2860,6 +3146,7 @@
     "spotify": "https://open.spotify.com/track/5zQYI9mzdwdp2CA7KfcW3l"
   },
   {
+    "id": "crazy-cover-0287",
     "sourceArtist": "Coldplay",
     "song": "Viva la Vida",
     "coverArtist": "The Holly Molly Trio",
@@ -2870,6 +3157,7 @@
     "spotify": "https://open.spotify.com/track/6PsbpkLgClv0zb8l5PM6zz"
   },
   {
+    "id": "crazy-cover-0288",
     "sourceArtist": "Coldplay",
     "song": "Yellow",
     "coverArtist": "Mosaic Jazz Trio",
@@ -2880,6 +3168,7 @@
     "spotify": "https://open.spotify.com/track/6yTBfP7KmR5YeVdFRTqyGC"
   },
   {
+    "id": "crazy-cover-0289",
     "sourceArtist": "Paul Simon",
     "song": "Still Crazy After All These Years",
     "coverArtist": "Brad Mehldau Trio",
@@ -2890,6 +3179,7 @@
     "spotify": "https://open.spotify.com/track/08m95knJWmtWZ4xWwAFVoX"
   },
   {
+    "id": "crazy-cover-0290",
     "sourceArtist": "Prince",
     "song": "Diamonds and Pearls",
     "coverArtist": "Marcin Wasilewski Trio",
@@ -2900,6 +3190,7 @@
     "spotify": "https://open.spotify.com/track/3yArsNjOHHr7FF0pxDFhwo"
   },
   {
+    "id": "crazy-cover-0291",
     "sourceArtist": "Radiohead",
     "song": "Analyse",
     "coverArtist": "Trey Wright Trio",
@@ -2910,6 +3201,7 @@
     "spotify": "https://open.spotify.com/track/6FlSTxsFMpIbg9jegVbJJd"
   },
   {
+    "id": "crazy-cover-0292",
     "sourceArtist": "Radiohead",
     "song": "Fake Plastic Trees",
     "coverArtist": "Ian Toms Trio",
@@ -2920,6 +3212,7 @@
     "spotify": "https://open.spotify.com/track/1WQbwzn51MVLXVV4GqinR5"
   },
   {
+    "id": "crazy-cover-0293",
     "sourceArtist": "Radiohead",
     "song": "No Surprises",
     "coverArtist": "Yaron Herman, Yaron Herman Trio",
@@ -2930,6 +3223,7 @@
     "spotify": "https://open.spotify.com/track/31GXk7ii10H2Mx1cvHO5TI"
   },
   {
+    "id": "crazy-cover-0294",
     "sourceArtist": "Radiohead",
     "song": "Paranoid Android",
     "coverArtist": "Michael Udelson Trio",
@@ -2940,6 +3234,7 @@
     "spotify": "https://open.spotify.com/track/4CETn7j8NkuQQMsBaizfSD"
   },
   {
+    "id": "crazy-cover-0295",
     "sourceArtist": "The Beatles",
     "song": "Because",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -2950,6 +3245,7 @@
     "spotify": "https://open.spotify.com/track/4BvS459JezvMxTNR9GO1rQ"
   },
   {
+    "id": "crazy-cover-0296",
     "sourceArtist": "The Beatles",
     "song": "Because",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -2960,6 +3256,7 @@
     "spotify": "https://open.spotify.com/track/70h2737wPCALPd9hpybKAf"
   },
   {
+    "id": "crazy-cover-0297",
     "sourceArtist": "The Beatles",
     "song": "Blackbird",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -2970,6 +3267,7 @@
     "spotify": "https://open.spotify.com/track/4rgjBFvMr5QDAjfrnPyPVa"
   },
   {
+    "id": "crazy-cover-0298",
     "sourceArtist": "The Beatles",
     "song": "Come Together",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -2980,6 +3278,7 @@
     "spotify": "https://open.spotify.com/track/3hK6fNaZJLYMxIygRSH6Zu"
   },
   {
+    "id": "crazy-cover-0299",
     "sourceArtist": "The Beatles",
     "song": "Come Together",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -2990,6 +3289,7 @@
     "spotify": "https://open.spotify.com/track/0Aha9Uhz1E9WOjYke2KJmO"
   },
   {
+    "id": "crazy-cover-0300",
     "sourceArtist": "The Beatles",
     "song": "Eleanor Rigby",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3000,6 +3300,7 @@
     "spotify": "https://open.spotify.com/track/5Dqy9JmV6wwyPyk2sUQqnW"
   },
   {
+    "id": "crazy-cover-0301",
     "sourceArtist": "The Beatles",
     "song": "Eleanor Rigby",
     "coverArtist": "Sandro Gibellini Trio",
@@ -3010,6 +3311,7 @@
     "spotify": "https://open.spotify.com/track/03oTQ21rmVYXy5UyW2GBAW"
   },
   {
+    "id": "crazy-cover-0302",
     "sourceArtist": "The Beatles",
     "song": "Fixing a Hole",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3020,6 +3322,7 @@
     "spotify": "https://open.spotify.com/track/2AwFs3VYIY6eFChGD85tgL"
   },
   {
+    "id": "crazy-cover-0303",
     "sourceArtist": "The Beatles",
     "song": "Got to Get You Into My Life",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3030,6 +3333,7 @@
     "spotify": "https://open.spotify.com/track/3wdAu1cProx1dWa9wIKbV2"
   },
   {
+    "id": "crazy-cover-0304",
     "sourceArtist": "The Beatles",
     "song": "Here Comes the Sun",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3040,6 +3344,7 @@
     "spotify": "https://open.spotify.com/track/7GTlhVzWB64GBNg4PdsWsK"
   },
   {
+    "id": "crazy-cover-0305",
     "sourceArtist": "The Beatles",
     "song": "Here Comes the Sun",
     "coverArtist": "Tranquil Jazz Trio, Jazz Covers Club",
@@ -3050,6 +3355,7 @@
     "spotify": "https://open.spotify.com/track/6oAwWRauiH1ui0Ls9lyrU4"
   },
   {
+    "id": "crazy-cover-0306",
     "sourceArtist": "The Beatles",
     "song": "Here, There and Everywhere",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3060,6 +3366,7 @@
     "spotify": "https://open.spotify.com/track/3XgoHIgc1K1puXLpwjjXBM"
   },
   {
+    "id": "crazy-cover-0307",
     "sourceArtist": "The Beatles",
     "song": "Hey Bulldog",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3070,6 +3377,7 @@
     "spotify": "https://open.spotify.com/track/2n7Ua9TkYgyZ6iFBMLPkse"
   },
   {
+    "id": "crazy-cover-0308",
     "sourceArtist": "The Beatles",
     "song": "In My Life",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3080,6 +3388,7 @@
     "spotify": "https://open.spotify.com/track/0gDbMKPbSz4CADka51y9Yj"
   },
   {
+    "id": "crazy-cover-0309",
     "sourceArtist": "The Beatles",
     "song": "Let It Be",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3090,6 +3399,7 @@
     "spotify": "https://open.spotify.com/track/6bCkGT43US5fArgUW8KUFf"
   },
   {
+    "id": "crazy-cover-0310",
     "sourceArtist": "The Beatles",
     "song": "Let It Be",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3100,6 +3410,7 @@
     "spotify": "https://open.spotify.com/track/3qNKPIcwWnzxbEci3AAl3c"
   },
   {
+    "id": "crazy-cover-0311",
     "sourceArtist": "The Beatles",
     "song": "Mother Nature's Son",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3110,6 +3421,7 @@
     "spotify": "https://open.spotify.com/track/4dONxB5m7B4aVF2vHBQJfG"
   },
   {
+    "id": "crazy-cover-0312",
     "sourceArtist": "The Beatles",
     "song": "Norwegian Wood",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3120,6 +3432,7 @@
     "spotify": "https://open.spotify.com/track/7m0lGmE8k1BsvgaRTgkVlF"
   },
   {
+    "id": "crazy-cover-0313",
     "sourceArtist": "The Beatles",
     "song": "Norwegian Wood",
     "coverArtist": "European Jazz Trio",
@@ -3130,6 +3443,7 @@
     "spotify": "https://open.spotify.com/track/4fvRx9uVcJmUxAJ3bM95GL"
   },
   {
+    "id": "crazy-cover-0314",
     "sourceArtist": "The Beatles",
     "song": "Norwegian Wood",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3140,6 +3454,7 @@
     "spotify": "https://open.spotify.com/track/1K35hm4F3HsQTdyAGuiamB"
   },
   {
+    "id": "crazy-cover-0315",
     "sourceArtist": "The Beatles",
     "song": "Penny Lane",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3150,6 +3465,7 @@
     "spotify": "https://open.spotify.com/track/1I88sqE02AXwfJetDEwoOi"
   },
   {
+    "id": "crazy-cover-0316",
     "sourceArtist": "The Beatles",
     "song": "She's Leaving Home",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3160,6 +3476,7 @@
     "spotify": "https://open.spotify.com/track/0TLg9QXvbHatjDpwaozVXE"
   },
   {
+    "id": "crazy-cover-0317",
     "sourceArtist": "The Beatles",
     "song": "Something",
     "coverArtist": "Annie Booth Trio, Annie Booth",
@@ -3170,6 +3487,7 @@
     "spotify": "https://open.spotify.com/track/2nKZTNxrezTKjQa6msujHE"
   },
   {
+    "id": "crazy-cover-0318",
     "sourceArtist": "The Beatles",
     "song": "The Fool on the Hill",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3180,6 +3498,7 @@
     "spotify": "https://open.spotify.com/track/2YpadKjbjWblU4DKO7dK88"
   },
   {
+    "id": "crazy-cover-0319",
     "sourceArtist": "The Beatles",
     "song": "The Fool on the Hill",
     "coverArtist": "Tony Williams Trio",
@@ -3190,6 +3509,7 @@
     "spotify": "https://open.spotify.com/track/0G7DxyZ8XpeCFlqzlorn3O"
   },
   {
+    "id": "crazy-cover-0320",
     "sourceArtist": "The Beatles",
     "song": "Things We Said Today",
     "coverArtist": "Annie Booth Trio, Annie Booth, Glenn Booth",
@@ -3200,6 +3520,7 @@
     "spotify": "https://open.spotify.com/track/0zgtsRQu3ZyVrIcCmM6ODC"
   },
   {
+    "id": "crazy-cover-0321",
     "sourceArtist": "The Beatles",
     "song": "Yesterday",
     "coverArtist": "John Di Martino's Romantic Jazz Trio",
@@ -3210,6 +3531,7 @@
     "spotify": "https://open.spotify.com/track/6lNVzesgOoBUjKCxWCBbJE"
   },
   {
+    "id": "crazy-cover-0322",
     "sourceArtist": "The Beatles",
     "song": "Yesterday",
     "coverArtist": "The Beat Acoustic Trio",
@@ -3220,6 +3542,7 @@
     "spotify": "https://open.spotify.com/track/67BVpFxUcQe2THPeKn42z7"
   },
   {
+    "id": "crazy-cover-0323",
     "sourceArtist": "The Doors",
     "song": "Riders on the Storm",
     "coverArtist": "Marcin Wasilewski Trio",
@@ -3230,6 +3553,7 @@
     "spotify": "https://open.spotify.com/track/6YDi1zFfIPb5DxYPLKPF3s"
   },
   {
+    "id": "crazy-cover-0324",
     "sourceArtist": "Jimi Hendrix",
     "song": "The Wind Cries Mary",
     "coverArtist": "Jamie Cullum",
@@ -3240,6 +3564,7 @@
     "spotify": "https://open.spotify.com/track/3jUSBrXmLIYVdlXbHIcTzm"
   },
   {
+    "id": "crazy-cover-0325",
     "sourceArtist": "Radiohead",
     "song": "High and Dry",
     "coverArtist": "Jamie Cullum",
@@ -3250,6 +3575,7 @@
     "spotify": "https://open.spotify.com/track/6iwCV8GUEA8VspkRVwzjMF"
   },
   {
+    "id": "crazy-cover-0326",
     "sourceArtist": "AC/DC",
     "song": "Dirty Deeds Done Dirt Cheap",
     "coverArtist": "Kurt Elling, Charlie Hunter, SuperBlue, Nate Smith",
@@ -3260,6 +3586,7 @@
     "spotify": "https://open.spotify.com/track/6mNBiVa4BNcyv6ZvI1YAOy?utm_source=openai&utm_medium=chatgpt&request_id=002abbfa-ca2a-4fa1-9a59-5e120631c8e5"
   },
   {
+    "id": "crazy-cover-0327",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Turn to Stone",
     "coverArtist": "Kurt Elling, Charlie Hunter, SuperBlue, Huntertones",
@@ -3270,6 +3597,7 @@
     "spotify": "https://open.spotify.com/track/09NvTKEGmHjJYjxPTAQirk?utm_source=openai&utm_medium=chatgpt&request_id=27be9009-206f-4c71-972a-e6a5d5fc6f50"
   },
   {
+    "id": "crazy-cover-0328",
     "sourceArtist": "ZZ Top",
     "song": "Sharp Dressed Man",
     "coverArtist": "Kurt Elling, Charlie Hunter, SuperBlue, Huntertones",
@@ -3280,6 +3608,7 @@
     "spotify": "https://open.spotify.com/track/3lpxew6ZqtpHTCPRsI0Htx?utm_source=openai&utm_medium=chatgpt&request_id=a795d47f-6e1d-4a1d-a7b4-6165651216eb"
   },
   {
+    "id": "crazy-cover-0329",
     "sourceArtist": "Eagles",
     "song": "Desperado",
     "coverArtist": "Kurt Elling, Charlie Hunter, SuperBlue, Huntertones",
@@ -3290,6 +3619,7 @@
     "spotify": "https://open.spotify.com/track/5KU8CGB7aMPrytev2NfyO1?utm_source=openai&utm_medium=chatgpt&request_id=75d4d45a-f257-438f-8e4f-446c8d577d30"
   },
   {
+    "id": "crazy-cover-0330",
     "sourceArtist": "Fleetwood Mac",
     "song": "Say You Love Me",
     "coverArtist": "Kurt Elling, Charlie Hunter, SuperBlue, Victoria Victoria, Huntertones",
@@ -3300,6 +3630,7 @@
     "spotify": "https://open.spotify.com/track/3frUZT6MoR0Xn76FDnQev8?utm_source=openai&utm_medium=chatgpt&request_id=a514d26c-305e-435d-b214-cfc2969ef181"
   },
   {
+    "id": "crazy-cover-0331",
     "sourceArtist": "Talking Heads",
     "song": "This Must Be the Place (Naive Melody)",
     "coverArtist": "BADBADNOTGOOD, Norah Jones",
@@ -3310,6 +3641,7 @@
     "spotify": "https://open.spotify.com/track/3tVG2cbu94XOSYv5L7wuCd"
   },
   {
+    "id": "crazy-cover-0332",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "YB",
@@ -3320,6 +3652,7 @@
     "spotify": "https://open.spotify.com/track/73ojnHIAxQ8QcNaMrsAjLn"
   },
   {
+    "id": "crazy-cover-0333",
     "sourceArtist": "Radiohead",
     "song": "Pyramid Song",
     "coverArtist": "Realistic Orchestra",
@@ -3330,6 +3663,7 @@
     "spotify": "https://open.spotify.com/track/2TpFh0g0NUfty5UZlCHUTS"
   },
   {
+    "id": "crazy-cover-0334",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Mon Laferte",
@@ -3340,6 +3674,7 @@
     "spotify": "https://open.spotify.com/track/2nMaQapy84lEaGhQcGrr3Q"
   },
   {
+    "id": "crazy-cover-0335",
     "sourceArtist": "Black Sabbath",
     "song": "Iron Man",
     "coverArtist": "Brown Sabbath, Brownout",
@@ -3350,6 +3685,7 @@
     "spotify": "https://open.spotify.com/track/0TSorGY2G3eblOGP2O83AC?utm_source=openai&utm_medium=chatgpt&request_id=765ac5be-5a5c-4029-9280-0d31217e9327"
   },
   {
+    "id": "crazy-cover-0336",
     "sourceArtist": "Black Sabbath",
     "song": "The Wizard",
     "coverArtist": "Brown Sabbath, Brownout, Alex Marrero",
@@ -3360,6 +3696,7 @@
     "spotify": "https://open.spotify.com/track/7um2SnYg61yxPNqpRYeHyV?utm_source=openai&utm_medium=chatgpt&request_id=e56abfa1-deee-4669-82cc-542dd3772aca"
   },
   {
+    "id": "crazy-cover-0337",
     "sourceArtist": "Metallica",
     "song": "The Unforgiven",
     "coverArtist": "Ha*Ash",
@@ -3370,6 +3707,7 @@
     "spotify": "https://open.spotify.com/track/2OzMQSnYu4wVYBhCm3sNSZ"
   },
   {
+    "id": "crazy-cover-0338",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Juanes",
@@ -3380,6 +3718,7 @@
     "spotify": "https://open.spotify.com/track/1waCD1063ls5iPDXqXKkwb"
   },
   {
+    "id": "crazy-cover-0339",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Mac DeMarco",
@@ -3390,6 +3729,7 @@
     "spotify": "https://open.spotify.com/track/7g0sqqVy8OXfoliPoWgkaP"
   },
   {
+    "id": "crazy-cover-0340",
     "sourceArtist": "Disturbed",
     "song": "Down with the Sickness",
     "coverArtist": "Richard Cheese",
@@ -3400,6 +3740,7 @@
     "spotify": "https://open.spotify.com/track/7bRNqmnfBBrWCNRiJ1ggyH"
   },
   {
+    "id": "crazy-cover-0341",
     "sourceArtist": "Guns N' Roses",
     "song": "Welcome to the Jungle",
     "coverArtist": "Richard Cheese",
@@ -3410,6 +3751,7 @@
     "spotify": "https://open.spotify.com/track/43fzveMDqeK99a1HiPGr6L"
   },
   {
+    "id": "crazy-cover-0342",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Richard Cheese",
@@ -3420,6 +3762,7 @@
     "spotify": "https://open.spotify.com/track/4dDmm05kmDod3OhYc5727d"
   },
   {
+    "id": "crazy-cover-0343",
     "sourceArtist": "Nine Inch Nails",
     "song": "Closer",
     "coverArtist": "Richard Cheese",
@@ -3430,6 +3773,7 @@
     "spotify": "https://open.spotify.com/track/3MhfnWOCEeABPPSjZ4pKiU"
   },
   {
+    "id": "crazy-cover-0344",
     "sourceArtist": "Radiohead",
     "song": "Creep",
     "coverArtist": "Richard Cheese",
@@ -3440,6 +3784,7 @@
     "spotify": "https://open.spotify.com/track/1CSpLDkXkskf2Tm4CZBGk0"
   },
   {
+    "id": "crazy-cover-0345",
     "sourceArtist": "System of a Down",
     "song": "Chop Suey",
     "coverArtist": "Richard Cheese",
@@ -3450,6 +3795,7 @@
     "spotify": "https://open.spotify.com/track/2MYCt8cQZJaZE641mnguMu"
   },
   {
+    "id": "crazy-cover-0346",
     "sourceArtist": "Black Sabbath",
     "song": "Iron Man",
     "coverArtist": "The Cardigans",
@@ -3460,6 +3806,7 @@
     "spotify": "https://open.spotify.com/track/2cpJAVteVpeXFCiOgjcx7m"
   },
   {
+    "id": "crazy-cover-0347",
     "sourceArtist": "The Beatles",
     "song": "I Want to Hold Your Hand",
     "coverArtist": "Al Green",
@@ -3470,6 +3817,7 @@
     "spotify": "https://open.spotify.com/track/6Maz8Nl332osh3AAFnhukQ"
   },
   {
+    "id": "crazy-cover-0348",
     "sourceArtist": "The Rolling Stones",
     "song": "(I Can't Get No) Satisfaction",
     "coverArtist": "Cat Power",
@@ -3480,6 +3828,7 @@
     "spotify": "https://open.spotify.com/track/6dv99Xm7fEjm7K1ATHj1UG"
   },
   {
+    "id": "crazy-cover-0349",
     "sourceArtist": "Radiohead",
     "song": "Paranoid Android",
     "coverArtist": "Brad Mehldau",
@@ -3490,6 +3839,7 @@
     "spotify": "https://open.spotify.com/track/2sowiwuhxt4nLIWP6vWJOa?utm_source=openai&utm_medium=chatgpt&request_id=22bab6c2-a188-4f96-8c31-bd80be21c851"
   },
   {
+    "id": "crazy-cover-0350",
     "sourceArtist": "The Beatles",
     "song": "Norwegian Wood",
     "coverArtist": "Herbie Hancock",
@@ -3500,6 +3850,7 @@
     "spotify": "https://open.spotify.com/track/4VqSbmpTxOgRU2MQoa6CSC"
   },
   {
+    "id": "crazy-cover-0351",
     "sourceArtist": "A-ha",
     "song": "Take on Me",
     "coverArtist": "Kaiak",
@@ -3510,6 +3861,7 @@
     "spotify": "https://open.spotify.com/track/3FZww2GzwVH3uvp0B084TX"
   },
   {
+    "id": "crazy-cover-0352",
     "sourceArtist": "Bob Dylan",
     "song": "The Times They Are A-Changin'",
     "coverArtist": "Joshua Redman",
@@ -3520,6 +3872,7 @@
     "spotify": "https://open.spotify.com/track/4Muibci7HTkxT10kNBgHIs"
   },
   {
+    "id": "crazy-cover-0353",
     "sourceArtist": "Bryan Adams",
     "song": "Summer of '69",
     "coverArtist": "The Cooltrane Quartet",
@@ -3530,6 +3883,7 @@
     "spotify": "https://open.spotify.com/track/3OvnH6D3HUbXo5ectS2ACh"
   },
   {
+    "id": "crazy-cover-0354",
     "sourceArtist": "Coldplay",
     "song": "Yellow",
     "coverArtist": "The Cooltrane Quartet",
@@ -3540,6 +3894,7 @@
     "spotify": "https://open.spotify.com/track/5O3epXV6EMhdjQFU6KTH4K"
   },
   {
+    "id": "crazy-cover-0355",
     "sourceArtist": "Lou Reed",
     "song": "Walk on the Wild Side",
     "coverArtist": "Nicole Zuraitis, Thana Alexa",
@@ -3550,6 +3905,7 @@
     "spotify": "https://open.spotify.com/track/7FTnotwGzyx6fdVYfkxuTT"
   },
   {
+    "id": "crazy-cover-0356",
     "sourceArtist": "Nick Drake",
     "song": "River Man",
     "coverArtist": "Dave Stryker, Sara Caswell",
@@ -3560,6 +3916,7 @@
     "spotify": "https://open.spotify.com/track/2kw0EpoNg4LzYV6Sui31jM"
   },
   {
+    "id": "crazy-cover-0357",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "The Cooltrane Quartet",
@@ -3570,6 +3927,7 @@
     "spotify": "https://open.spotify.com/track/20O4M9igBhkA1q8kqWfzk4"
   },
   {
+    "id": "crazy-cover-0358",
     "sourceArtist": "Paul Simon",
     "song": "50 Ways to Leave Your Lover",
     "coverArtist": "Ben Paterson",
@@ -3580,6 +3938,7 @@
     "spotify": "https://open.spotify.com/track/5yBeshPfqIsss0Qoju1t8a"
   },
   {
+    "id": "crazy-cover-0359",
     "sourceArtist": "Radiohead",
     "song": "Knives Out",
     "coverArtist": "Terni Jazz Orchestra",
@@ -3590,6 +3949,7 @@
     "spotify": "https://open.spotify.com/track/1btyxtV7dv5EGTtpYwjlRj"
   },
   {
+    "id": "crazy-cover-0360",
     "sourceArtist": "Radiohead",
     "song": "Little by Little",
     "coverArtist": "Dan White Sextet",
@@ -3600,6 +3960,7 @@
     "spotify": "https://open.spotify.com/track/2FIjHofMSCBWIBtCerWf47"
   },
   {
+    "id": "crazy-cover-0361",
     "sourceArtist": "Radiohead",
     "song": "Motion Picture Soundtrack",
     "coverArtist": "Marco Sanguinetti",
@@ -3610,6 +3971,7 @@
     "spotify": "https://open.spotify.com/track/0eFFvLVhuPdHmVWJPcAg3C"
   },
   {
+    "id": "crazy-cover-0362",
     "sourceArtist": "Radiohead",
     "song": "Optimistic",
     "coverArtist": "Oxymore Quintet",
@@ -3620,6 +3982,7 @@
     "spotify": "https://open.spotify.com/track/5raicxtTXS4tz86RY9EbRU"
   },
   {
+    "id": "crazy-cover-0363",
     "sourceArtist": "Radiohead",
     "song": "Paranoid Android",
     "coverArtist": "Contreband",
@@ -3630,6 +3993,7 @@
     "spotify": "https://open.spotify.com/track/5fTjKZwAZwQ3ji9wM0n2BT"
   },
   {
+    "id": "crazy-cover-0364",
     "sourceArtist": "Radiohead",
     "song": "Videotape",
     "coverArtist": "Contreband",
@@ -3640,6 +4004,7 @@
     "spotify": "https://open.spotify.com/track/5cRFjPtD9qugjkYLSDhHm8"
   },
   {
+    "id": "crazy-cover-0365",
     "sourceArtist": "Radiohead",
     "song": "We Suck Young Blood",
     "coverArtist": "Marco Sanguinetti",
@@ -3650,6 +4015,7 @@
     "spotify": "https://open.spotify.com/track/0kNKwPcBqNyb63qD0yF5LQ"
   },
   {
+    "id": "crazy-cover-0366",
     "sourceArtist": "The Beatles",
     "song": "Here, There and Everywhere",
     "coverArtist": "Brad Mehldau",
@@ -3660,6 +4026,7 @@
     "spotify": "https://open.spotify.com/track/1NZx2bnfrpbL0EutycF8el"
   },
   {
+    "id": "crazy-cover-0367",
     "sourceArtist": "The Beatles",
     "song": "I Want to Hold Your Hand",
     "coverArtist": "Grant Green",
@@ -3670,6 +4037,7 @@
     "spotify": "https://open.spotify.com/track/0OKrqpR7de2s6TTXYnbGyO"
   },
   {
+    "id": "crazy-cover-0368",
     "sourceArtist": "The Beatles",
     "song": "Julia",
     "coverArtist": "Baptiste Trotignon",
@@ -3680,6 +4048,7 @@
     "spotify": "https://open.spotify.com/track/1gG4Gr1scUliMzmrG6LpTA"
   },
   {
+    "id": "crazy-cover-0369",
     "sourceArtist": "The Beatles",
     "song": "Let It Be",
     "coverArtist": "Joshua Redman",
@@ -3690,6 +4059,7 @@
     "spotify": "https://open.spotify.com/track/2BxrJyeyIIrUOCaqzO0MQC"
   },
   {
+    "id": "crazy-cover-0370",
     "sourceArtist": "The Beatles",
     "song": "She's Leaving Home",
     "coverArtist": "McCoy Tyner",
@@ -3700,6 +4070,7 @@
     "spotify": "https://open.spotify.com/track/6U6wRwjLkBQUjBEQ1vdVJi"
   },
   {
+    "id": "crazy-cover-0371",
     "sourceArtist": "The Beatles",
     "song": "When I'm Sixty-Four",
     "coverArtist": "Fred Hersch",
@@ -3710,6 +4081,7 @@
     "spotify": "https://open.spotify.com/track/5cpBnMAUHwQNK1wGmDNvln"
   },
   {
+    "id": "crazy-cover-0372",
     "sourceArtist": "U2",
     "song": "I Still Haven't Found What I'm Looking For",
     "coverArtist": "Tom Rogers Band",
@@ -3720,6 +4092,7 @@
     "spotify": "https://open.spotify.com/track/3URt3hJlLJEJFwBNBIyOGY"
   },
   {
+    "id": "crazy-cover-0373",
     "sourceArtist": "Radiohead",
     "song": "The Eraser",
     "coverArtist": "Christian Scott aTunde Adjuah",
@@ -3730,6 +4103,7 @@
     "spotify": "https://open.spotify.com/track/71tQB5sKtc7bImFPxQTjz0"
   },
   {
+    "id": "crazy-cover-0374",
     "sourceArtist": "Radiohead",
     "song": "Airbag",
     "coverArtist": "Júlio Resende Trio",
@@ -3740,6 +4114,7 @@
     "spotify": "https://open.spotify.com/track/5wwTc12E6HqnihiMhuTCmM"
   },
   {
+    "id": "crazy-cover-0375",
     "sourceArtist": "Radiohead",
     "song": "Everything in Its Right Place",
     "coverArtist": "Brad Mehldau Trio",
@@ -3750,6 +4125,7 @@
     "spotify": "https://open.spotify.com/track/1QxmKMggKPykokcwBYvjso"
   },
   {
+    "id": "crazy-cover-0376",
     "sourceArtist": "Metallica",
     "song": "Holier Than Thou",
     "coverArtist": "Corey Taylor",
@@ -3760,6 +4136,7 @@
     "spotify": "https://open.spotify.com/track/2ZGttWHfl7sdEn1U3Wpd9a"
   },
   {
+    "id": "crazy-cover-0377",
     "sourceArtist": "Metallica",
     "song": "Through the Never",
     "coverArtist": "The HU",
@@ -3770,6 +4147,7 @@
     "spotify": "https://open.spotify.com/track/6LQJIsR9T0AoHcfzmXTVot"
   },
   {
+    "id": "crazy-cover-0378",
     "sourceArtist": "The Beatles",
     "song": "We Can Work It Out",
     "coverArtist": "Stevie Wonder",
@@ -3780,6 +4158,7 @@
     "spotify": "https://open.spotify.com/track/4EMzm3ZzcKdgvuBiq0PA1e"
   },
   {
+    "id": "crazy-cover-0379",
     "sourceArtist": "Pink Floyd",
     "song": "Another Brick in the Wall",
     "coverArtist": "Korn",
@@ -3790,6 +4169,7 @@
     "spotify": "https://open.spotify.com/track/5fBI2YzuyOVF0nkYjIGjJv"
   },
   {
+    "id": "crazy-cover-0380",
     "sourceArtist": "The Who",
     "song": "Behind Blue Eyes",
     "coverArtist": "Limp Bizkit",
@@ -3800,6 +4180,7 @@
     "spotify": "https://open.spotify.com/track/1MTQHCpraD4S8g5PAFKzoj"
   },
   {
+    "id": "crazy-cover-0381",
     "sourceArtist": "Genesis",
     "song": "Jesus He Knows Me",
     "coverArtist": "Ghost",
@@ -3810,6 +4191,7 @@
     "spotify": "https://open.spotify.com/track/1zd8h6ho3mlbhkZnADHVzP"
   },
   {
+    "id": "crazy-cover-0382",
     "sourceArtist": "Nirvana",
     "song": "Lithium",
     "coverArtist": "The Polyphonic Spree",
@@ -3820,6 +4202,7 @@
     "spotify": "https://open.spotify.com/track/4IEn8Os5XMZpIRF9xX74Aj"
   },
   {
+    "id": "crazy-cover-0383",
     "sourceArtist": "Led Zeppelin",
     "song": "Immigrant Song",
     "coverArtist": "Ann Wilson",
@@ -3830,6 +4213,7 @@
     "spotify": "https://open.spotify.com/track/6gmIUtuXbQmJt5D6hppu4V"
   },
   {
+    "id": "crazy-cover-0384",
     "sourceArtist": "Simon & Garfunkel",
     "song": "The Sound of Silence",
     "coverArtist": "Disturbed",
@@ -3840,6 +4224,7 @@
     "spotify": "https://open.spotify.com/track/1Cj2vqUwlJVG27gJrun92y"
   },
   {
+    "id": "crazy-cover-0385",
     "sourceArtist": "Led Zeppelin",
     "song": "Stairway to Heaven",
     "coverArtist": "Heart",
@@ -3850,6 +4235,7 @@
     "spotify": "https://open.spotify.com/track/6gOgTWY8trzXja4ZfmqFKt"
   },
   {
+    "id": "crazy-cover-0386",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Miley Cyrus, WATT, Elton John, Yo-Yo Ma, Robert Trujillo, Chad Smith",
@@ -3860,6 +4246,7 @@
     "spotify": "https://open.spotify.com/track/43YC4iYmSsYueViJR4dBGA"
   },
   {
+    "id": "crazy-cover-0387",
     "sourceArtist": "Leonard Cohen",
     "song": "Hallelujah",
     "coverArtist": "k.d. lang",
@@ -3870,6 +4257,7 @@
     "spotify": "https://open.spotify.com/track/5S0pF13mOsTnYweFwFy4D0"
   },
   {
+    "id": "crazy-cover-0388",
     "sourceArtist": "The Rolling Stones",
     "song": "Dead Flowers",
     "coverArtist": "Townes Van Zandt",
@@ -3880,6 +4268,7 @@
     "spotify": "https://open.spotify.com/track/6QLh3oOA1AKocLHFH6j7qA"
   },
   {
+    "id": "crazy-cover-0389",
     "sourceArtist": "Neil Young",
     "song": "Heart of Gold",
     "coverArtist": "Tori Amos",
@@ -3890,6 +4279,7 @@
     "spotify": "https://open.spotify.com/track/6rBgsttFLDRpZkRBu7GTeW"
   },
   {
+    "id": "crazy-cover-0390",
     "sourceArtist": "The Beatles",
     "song": "Happiness Is a Warm Gun",
     "coverArtist": "Tori Amos",
@@ -3900,6 +4290,7 @@
     "spotify": "https://open.spotify.com/track/5fDchUGS9ypF8kMHSejdiN"
   },
   {
+    "id": "crazy-cover-0391",
     "sourceArtist": "The Beatles",
     "song": "Across the Universe",
     "coverArtist": "Fiona Apple",
@@ -3910,6 +4301,7 @@
     "spotify": "https://open.spotify.com/track/6ZQgooEk8PvsLxedYaT6Oa"
   },
   {
+    "id": "crazy-cover-0392",
     "sourceArtist": "Soundgarden",
     "song": "Black Hole Sun",
     "coverArtist": "Norah Jones",
@@ -3920,6 +4312,7 @@
     "spotify": "https://open.spotify.com/track/795Y0UaiokzrJGTGaj0U4p"
   },
   {
+    "id": "crazy-cover-0393",
     "sourceArtist": "Leonard Cohen",
     "song": "Famous Blue Raincoat",
     "coverArtist": "Tori Amos",
@@ -3930,6 +4323,7 @@
     "spotify": "https://open.spotify.com/track/7dU7EHElNeLOCkNnQXQtZs"
   },
   {
+    "id": "crazy-cover-0394",
     "sourceArtist": "Leonard Cohen",
     "song": "Hallelujah",
     "coverArtist": "John Cale",
@@ -3940,6 +4334,7 @@
     "spotify": "https://open.spotify.com/track/56GBItqD18Be9iN7zGqMX5"
   },
   {
+    "id": "crazy-cover-0395",
     "sourceArtist": "Tears for Fears",
     "song": "Mad World",
     "coverArtist": "Gary Jules, Michael Andrews",
@@ -3950,6 +4345,7 @@
     "spotify": "https://open.spotify.com/track/3JOVTQ5h8HGFnDdp4VT3MP"
   },
   {
+    "id": "crazy-cover-0396",
     "sourceArtist": "Radiohead",
     "song": "No Surprises",
     "coverArtist": "Louis Durra",
@@ -3960,6 +4356,7 @@
     "spotify": "https://open.spotify.com/track/1l3ArPTmgDHY8lWebvLIFx"
   },
   {
+    "id": "crazy-cover-0397",
     "sourceArtist": "Black Sabbath",
     "song": "Changes",
     "coverArtist": "Jazz Sabbath",
@@ -3970,6 +4367,7 @@
     "spotify": "https://open.spotify.com/track/5aJGpaqZU7pJrsB3PVeVlW?utm_source=openai&utm_medium=chatgpt&request_id=ad283337-3988-4612-adf3-5c3c41083264"
   },
   {
+    "id": "crazy-cover-0398",
     "sourceArtist": "Black Sabbath",
     "song": "Fairies Wear Boots",
     "coverArtist": "Jazz Sabbath",
@@ -3980,6 +4378,7 @@
     "spotify": "https://open.spotify.com/track/2ev6UJ3ag8XlCCVZpNsgAg?utm_source=openai&utm_medium=chatgpt&request_id=8c601111-c59d-4e83-a93c-ea0b9f452499"
   },
   {
+    "id": "crazy-cover-0399",
     "sourceArtist": "Black Sabbath",
     "song": "Iron Man",
     "coverArtist": "Jazz Sabbath",
@@ -3990,6 +4389,7 @@
     "spotify": "https://open.spotify.com/track/2KV0J5t2wlXtFK4LYWtlMl?utm_source=openai&utm_medium=chatgpt&request_id=5e521f26-c1a6-4bac-8a42-f3e5df237624"
   },
   {
+    "id": "crazy-cover-0400",
     "sourceArtist": "The Cure",
     "song": "In Between Days",
     "coverArtist": "Ben Folds",
@@ -4000,6 +4400,7 @@
     "spotify": "https://open.spotify.com/track/5VZO9H2YyIWHytHzjlfDFa"
   },
   {
+    "id": "crazy-cover-0401",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Steppin Out",
     "coverArtist": "Carl Wayne",
@@ -4010,6 +4411,7 @@
     "spotify": "https://open.spotify.com/track/6TbQojo2PTkm5IyAIsR5yO?utm_source=openai&utm_medium=chatgpt&request_id=4d209bd8-a54c-488e-be25-08f4a3c1c0f7"
   },
   {
+    "id": "crazy-cover-0402",
     "sourceArtist": "Led Zeppelin",
     "song": "Ramble On",
     "coverArtist": "Train",
@@ -4020,6 +4422,7 @@
     "spotify": "https://open.spotify.com/track/4YpbkvDZEnDPriGxDGJd8x"
   },
   {
+    "id": "crazy-cover-0403",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Alessia Cara, The Warning",
@@ -4030,6 +4433,7 @@
     "spotify": "https://open.spotify.com/track/2XGnAEodeIvFvoH60V251s"
   },
   {
+    "id": "crazy-cover-0404",
     "sourceArtist": "David Bowie",
     "song": "Life On Mars?",
     "coverArtist": "Seu Jorge",
@@ -4040,6 +4444,7 @@
     "spotify": "https://open.spotify.com/track/0KpA8R3NM3N0JB4NAGbAxO?utm_source=openai&utm_medium=chatgpt&request_id=8d3017e5-4aab-4527-aee9-227114850701"
   },
   {
+    "id": "crazy-cover-0405",
     "sourceArtist": "David Bowie",
     "song": "Rebel Rebel",
     "coverArtist": "Seu Jorge",
@@ -4050,6 +4455,7 @@
     "spotify": "https://open.spotify.com/track/5mZYRyOPWVlTtPGWHJCbAL?utm_source=openai&utm_medium=chatgpt&request_id=ea548bed-255c-4232-ab16-02ad6dceac84"
   },
   {
+    "id": "crazy-cover-0406",
     "sourceArtist": "David Bowie",
     "song": "Five Years",
     "coverArtist": "Seu Jorge",
@@ -4060,6 +4466,7 @@
     "spotify": "https://open.spotify.com/track/00kMf9MR2OKGpBovO2wYdG"
   },
   {
+    "id": "crazy-cover-0407",
     "sourceArtist": "David Bowie",
     "song": "Lady Stardust",
     "coverArtist": "Seu Jorge",
@@ -4070,6 +4477,7 @@
     "spotify": "https://open.spotify.com/track/3rIxA8zMJNoMn6wYq9uA0x"
   },
   {
+    "id": "crazy-cover-0408",
     "sourceArtist": "David Bowie",
     "song": "Suffragette City",
     "coverArtist": "Seu Jorge",
@@ -4080,6 +4488,7 @@
     "spotify": "https://open.spotify.com/track/4KCoOha3xcrstmFH8Pbcsa"
   },
   {
+    "id": "crazy-cover-0409",
     "sourceArtist": "David Bowie",
     "song": "When I Live My Dream",
     "coverArtist": "Seu Jorge",
@@ -4090,6 +4499,7 @@
     "spotify": "https://open.spotify.com/track/6090KOMXSRFLyRwg3J5MGK"
   },
   {
+    "id": "crazy-cover-0410",
     "sourceArtist": "David Bowie",
     "song": "Ziggy Stardust",
     "coverArtist": "Seu Jorge",
@@ -4100,6 +4510,7 @@
     "spotify": "https://open.spotify.com/track/5C5BcFMLrofNOqdfwf6jp9"
   },
   {
+    "id": "crazy-cover-0411",
     "sourceArtist": "David Bowie",
     "song": "Queen Bitch",
     "coverArtist": "Seu Jorge",
@@ -4110,6 +4521,7 @@
     "spotify": "https://open.spotify.com/track/1d5kdIsY7Msv2Rqa2OJnHT"
   },
   {
+    "id": "crazy-cover-0412",
     "sourceArtist": "Metallica",
     "song": "The God That Failed",
     "coverArtist": "IDLES",
@@ -4120,6 +4532,7 @@
     "spotify": "https://open.spotify.com/track/3VAVaP1cAbmlP1Eu7pFgCw"
   },
   {
+    "id": "crazy-cover-0413",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Above the Clouds",
     "coverArtist": "Sparkle* Jets Uk",
@@ -4130,6 +4543,7 @@
     "spotify": "https://open.spotify.com/track/6xSaukPQWsSed9UakgzULp?utm_source=openai&utm_medium=chatgpt&request_id=f2449901-de64-4d9a-b8dd-37bdc0c27150"
   },
   {
+    "id": "crazy-cover-0414",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Boy Blue",
     "coverArtist": "Rick Altizer",
@@ -4140,6 +4554,7 @@
     "spotify": "https://open.spotify.com/track/3OErfCivwHhgUJJ5rfTxP4?utm_source=openai&utm_medium=chatgpt&request_id=a1002021-0603-43fb-ab47-a2d517b89150"
   },
   {
+    "id": "crazy-cover-0415",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Can't Get It Out of My Head",
     "coverArtist": "Doug Powell",
@@ -4150,6 +4565,7 @@
     "spotify": "https://open.spotify.com/track/26z5zhn6jtArXeLgIylQkZ?utm_source=openai&utm_medium=chatgpt&request_id=1d6585bb-ba21-4cba-aa8a-813950913980"
   },
   {
+    "id": "crazy-cover-0416",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Do Ya",
     "coverArtist": "Jason Falkner",
@@ -4160,6 +4576,7 @@
     "spotify": "https://open.spotify.com/track/2OVVWT8QLVsgY8mG2sHDrF?utm_source=openai&utm_medium=chatgpt&request_id=cc03c2b4-2678-4424-8cc2-19faf7c203cf"
   },
   {
+    "id": "crazy-cover-0417",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Don't Bring Me Down",
     "coverArtist": "Swag",
@@ -4170,6 +4587,7 @@
     "spotify": "https://open.spotify.com/track/4J8c380IaOGe33GbZQJpwU?utm_source=openai&utm_medium=chatgpt&request_id=1d778c4a-782b-4083-b112-854c893c4473"
   },
   {
+    "id": "crazy-cover-0418",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Rock and Roll Is King",
     "coverArtist": "Walter Clevenger",
@@ -4180,6 +4598,7 @@
     "spotify": "https://open.spotify.com/track/5OLtwsNob0Lsw6alcbrc5Q?utm_source=openai&utm_medium=chatgpt&request_id=1a3b4bb7-c732-407d-be00-df160b684c8d"
   },
   {
+    "id": "crazy-cover-0419",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Turn to Stone",
     "coverArtist": "Roger Klug",
@@ -4190,6 +4609,7 @@
     "spotify": "https://open.spotify.com/track/6MJUUQF1QbgWMpF2tkyVUE?utm_source=openai&utm_medium=chatgpt&request_id=ddd940a5-857e-4d47-b578-0cf86dea1521"
   },
   {
+    "id": "crazy-cover-0420",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Twilight",
     "coverArtist": "The Shazam",
@@ -4200,6 +4620,7 @@
     "spotify": "https://open.spotify.com/track/01lxPkIfUa5uU0G3P7jLx2?utm_source=openai&utm_medium=chatgpt&request_id=4f8f03db-1d79-4700-a42b-d3ff66f10afa"
   },
   {
+    "id": "crazy-cover-0421",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Weezer",
@@ -4210,6 +4631,7 @@
     "spotify": "https://open.spotify.com/track/6fwMnm8o21YXOgvSoKA9Fz"
   },
   {
+    "id": "crazy-cover-0422",
     "sourceArtist": "Metallica",
     "song": "Sad But True",
     "coverArtist": "White Reaper",
@@ -4220,6 +4642,7 @@
     "spotify": "https://open.spotify.com/track/6XKtqDicwqQd5MNjzukYa1"
   },
   {
+    "id": "crazy-cover-0423",
     "sourceArtist": "Electric Light Orchestra",
     "song": "When Time Stood Still",
     "coverArtist": "Bill Lloyd",
@@ -4230,6 +4653,7 @@
     "spotify": "https://open.spotify.com/track/3iADNW8h8WpRpGKmVejnM4?utm_source=openai&utm_medium=chatgpt&request_id=a09ea7a5-712f-4177-8270-70a1b064f818"
   },
   {
+    "id": "crazy-cover-0424",
     "sourceArtist": "Talking Heads",
     "song": "Girlfriend Is Better",
     "coverArtist": "Yonder Mountain String Band",
@@ -4240,6 +4664,7 @@
     "spotify": "https://open.spotify.com/track/0MSvkx1j6loHy3UYTVcLiS"
   },
   {
+    "id": "crazy-cover-0425",
     "sourceArtist": "Radiohead",
     "song": "Kid A",
     "coverArtist": "Punch Brothers",
@@ -4250,6 +4675,7 @@
     "spotify": "https://open.spotify.com/track/7J4jNen0x3Y8Gy89aRIzyK"
   },
   {
+    "id": "crazy-cover-0426",
     "sourceArtist": "Queen",
     "song": "Bohemian Rhapsody",
     "coverArtist": "The Flaming Lips",
@@ -4260,6 +4686,7 @@
     "spotify": "https://open.spotify.com/track/1DjJdvIRVgCj8qB8Uxp8cu"
   },
   {
+    "id": "crazy-cover-0427",
     "sourceArtist": "Metallica",
     "song": "Don't Tread on Me",
     "coverArtist": "Portugal. The Man, Aaron Beam",
@@ -4270,6 +4697,7 @@
     "spotify": "https://open.spotify.com/track/6Qge5jHQMVOG3luHDRl0X2"
   },
   {
+    "id": "crazy-cover-0428",
     "sourceArtist": "Talking Heads",
     "song": "Crosseyed and Painless",
     "coverArtist": "Chicano Batman, Money Mark",
@@ -4280,6 +4708,7 @@
     "spotify": "https://open.spotify.com/track/483A5LxGWyknIZFiid5lTt"
   },
   {
+    "id": "crazy-cover-0429",
     "sourceArtist": "Talking Heads",
     "song": "Found a Job",
     "coverArtist": "The Linda Lindas",
@@ -4290,6 +4719,7 @@
     "spotify": "https://open.spotify.com/track/5WaeDAOYM2IkvtZO0Hg0ii"
   },
   {
+    "id": "crazy-cover-0430",
     "sourceArtist": "The Rolling Stones",
     "song": "Street Fighting Man",
     "coverArtist": "Rage Against The Machine",
@@ -4300,6 +4730,7 @@
     "spotify": "https://open.spotify.com/track/5JEZevevEmF725NxEBhfBT"
   },
   {
+    "id": "crazy-cover-0431",
     "sourceArtist": "David Bowie",
     "song": "Moonage Daydream",
     "coverArtist": "Easy Star All-Stars, Naomi Cowan",
@@ -4310,6 +4741,7 @@
     "spotify": "https://open.spotify.com/track/01jTcKw2oL7Ho0J3wvkR7e?utm_source=openai&utm_medium=chatgpt&request_id=52ddf59b-7477-42f4-9769-a6eab6867387"
   },
   {
+    "id": "crazy-cover-0432",
     "sourceArtist": "David Bowie",
     "song": "Starman",
     "coverArtist": "Easy Star All-Stars, Maxi Priest",
@@ -4320,6 +4752,7 @@
     "spotify": "https://open.spotify.com/track/2tBxr3tpXRKwK8ebUSi4b5?utm_source=openai&utm_medium=chatgpt&request_id=5e52c19d-aac7-44cf-905f-09171f6c1d4e"
   },
   {
+    "id": "crazy-cover-0433",
     "sourceArtist": "Pink Floyd",
     "song": "Money",
     "coverArtist": "Easy Star All-Stars",
@@ -4330,6 +4763,7 @@
     "spotify": "https://open.spotify.com/track/5QREkNN2kAKUsXppK9Vrcu?utm_source=openai&utm_medium=chatgpt&request_id=aaff0b93-767c-4d5b-8f19-d573ab0e509a"
   },
   {
+    "id": "crazy-cover-0434",
     "sourceArtist": "Pink Floyd",
     "song": "Time",
     "coverArtist": "Easy Star All-Stars",
@@ -4340,6 +4774,7 @@
     "spotify": "https://open.spotify.com/track/1uLBDlBZROhCvLAX5LdKrI?utm_source=openai&utm_medium=chatgpt&request_id=82922654-dafc-4873-b36f-7c95013d8fc8"
   },
   {
+    "id": "crazy-cover-0435",
     "sourceArtist": "Pink Floyd",
     "song": "Us And Them",
     "coverArtist": "Easy Star All-Stars",
@@ -4350,6 +4785,7 @@
     "spotify": "https://open.spotify.com/track/05vgup4g7KCoxmVP1LAyjR?utm_source=openai&utm_medium=chatgpt&request_id=9de5a000-bf21-498a-b53c-d74d7eb2f6b7"
   },
   {
+    "id": "crazy-cover-0436",
     "sourceArtist": "Radiohead",
     "song": "Airbag",
     "coverArtist": "Easy Star All-Stars, Horace Andy",
@@ -4360,6 +4796,7 @@
     "spotify": "https://open.spotify.com/track/2pwG1fhFogBEiub9vErZNu"
   },
   {
+    "id": "crazy-cover-0437",
     "sourceArtist": "Radiohead",
     "song": "Electioneering",
     "coverArtist": "Easy Star All-Stars, Morgan Heritage",
@@ -4370,6 +4807,7 @@
     "spotify": "https://open.spotify.com/track/08ZYVhaXfnSiKzLNfmmtnb"
   },
   {
+    "id": "crazy-cover-0438",
     "sourceArtist": "Radiohead",
     "song": "Karma Police",
     "coverArtist": "Easy Star All-Stars, Citizen Cope",
@@ -4380,6 +4818,7 @@
     "spotify": "https://open.spotify.com/track/6if1X1vgnvlqW0daL4TQRh?utm_source=openai&utm_medium=chatgpt&request_id=5541361e-9b52-41cf-9837-bad4190d9d63"
   },
   {
+    "id": "crazy-cover-0439",
     "sourceArtist": "Radiohead",
     "song": "Let Down",
     "coverArtist": "Easy Star All-Stars, Toots & The Maytals",
@@ -4390,6 +4829,7 @@
     "spotify": "https://open.spotify.com/track/1pMkSgeylhUW6rwCa8jeyU"
   },
   {
+    "id": "crazy-cover-0440",
     "sourceArtist": "Radiohead",
     "song": "No Surprises",
     "coverArtist": "Easy Star All-Stars",
@@ -4400,6 +4840,7 @@
     "spotify": "https://open.spotify.com/track/43cd2PdnHXnM9f879tK9A6"
   },
   {
+    "id": "crazy-cover-0441",
     "sourceArtist": "Radiohead",
     "song": "Paranoid Android",
     "coverArtist": "Easy Star All-Stars, Kirsty Rock",
@@ -4410,6 +4851,7 @@
     "spotify": "https://open.spotify.com/track/7rKdI5c0cuT2YQwyrvouc9?utm_source=openai&utm_medium=chatgpt&request_id=a0849fdc-96ca-40d5-859b-aaf6aa3f0b7a"
   },
   {
+    "id": "crazy-cover-0442",
     "sourceArtist": "Radiohead",
     "song": "Subterranean Homesick Alien",
     "coverArtist": "Easy Star All-Stars",
@@ -4420,6 +4862,7 @@
     "spotify": "https://open.spotify.com/track/5pXLh8ZIQOGdnrt6NlbAkg"
   },
   {
+    "id": "crazy-cover-0443",
     "sourceArtist": "Led Zeppelin",
     "song": "Whole Lotta Love",
     "coverArtist": "Dread Zeppelin",
@@ -4430,6 +4873,7 @@
     "spotify": "https://open.spotify.com/track/3akeVZ6h9l09Tb7yfvCfPz?utm_source=openai&utm_medium=chatgpt&request_id=db2ae3e8-90e5-40c5-8415-6b8cd27d60c0"
   },
   {
+    "id": "crazy-cover-0444",
     "sourceArtist": "Metallica",
     "song": "Wherever I May Roam",
     "coverArtist": "J Balvin, Metallica",
@@ -4440,6 +4884,7 @@
     "spotify": "https://open.spotify.com/track/2UI3zZWB5SzfHQGgjkmlLB"
   },
   {
+    "id": "crazy-cover-0445",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Mayer Hawthorne",
@@ -4450,6 +4895,7 @@
     "spotify": "https://open.spotify.com/track/5lPXVoh8T02PvsUxLQpO4H?utm_source=openai&utm_medium=chatgpt&request_id=1a01c7da-245c-4f8e-a451-21de89863daf"
   },
   {
+    "id": "crazy-cover-0446",
     "sourceArtist": "Metallica",
     "song": "The God That Failed",
     "coverArtist": "Imelda May",
@@ -4460,6 +4906,7 @@
     "spotify": "https://open.spotify.com/track/0S1x9nOyYrO6cwHjgivLFX"
   },
   {
+    "id": "crazy-cover-0447",
     "sourceArtist": "Metallica",
     "song": "Don't Tread on Me",
     "coverArtist": "Volbeat",
@@ -4470,6 +4917,7 @@
     "spotify": "https://open.spotify.com/track/6SLT0rM0J1CvqmTjFr7wMO"
   },
   {
+    "id": "crazy-cover-0448",
     "sourceArtist": "AC/DC",
     "song": "It's A Long Way To The Top",
     "coverArtist": "Lucinda Williams",
@@ -4480,6 +4928,7 @@
     "spotify": "https://open.spotify.com/track/3pL6iS1T3WWmgyVMtALQeU"
   },
   {
+    "id": "crazy-cover-0449",
     "sourceArtist": "Guns N' Roses",
     "song": "Sweet Child O' Mine",
     "coverArtist": "Sheryl Crow",
@@ -4490,6 +4939,7 @@
     "spotify": "https://open.spotify.com/track/0273i5ysrlovK8rr0KJfQn"
   },
   {
+    "id": "crazy-cover-0450",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Strange Magic",
     "coverArtist": "Mark Helm",
@@ -4500,6 +4950,7 @@
     "spotify": "https://open.spotify.com/track/7cVLhPHlAkU7Tly6OiUEHP?utm_source=openai&utm_medium=chatgpt&request_id=b6e211c4-5051-4b2d-b01c-4811a5d61bbb"
   },
   {
+    "id": "crazy-cover-0451",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Sweet Talkin Woman",
     "coverArtist": "Five Iron Frenzy",
@@ -4510,6 +4961,7 @@
     "spotify": "https://open.spotify.com/track/5RQHB2EnqQtwbqTFbKOAbl?utm_source=openai&utm_medium=chatgpt&request_id=eabdb280-afa6-4335-b84a-fd1f91cb29a0"
   },
   {
+    "id": "crazy-cover-0452",
     "sourceArtist": "Neil Young",
     "song": "Powderfinger",
     "coverArtist": "Cowboy Junkies",
@@ -4520,6 +4972,7 @@
     "spotify": "https://open.spotify.com/track/3x8oBw97sf8BdnzF8gg6kR"
   },
   {
+    "id": "crazy-cover-0453",
     "sourceArtist": "The Velvet Underground",
     "song": "Sweet Jane",
     "coverArtist": "Cowboy Junkies",
@@ -4530,6 +4983,7 @@
     "spotify": "https://open.spotify.com/track/4xDh3M3vz55WXyv30Lc6r5"
   },
   {
+    "id": "crazy-cover-0454",
     "sourceArtist": "Black Sabbath",
     "song": "Sabbath Bloody Sabbath",
     "coverArtist": "The Cardigans",
@@ -4540,6 +4994,7 @@
     "spotify": "https://open.spotify.com/track/4SbIu8Z9o76jt2ppn7cPZT"
   },
   {
+    "id": "crazy-cover-0455",
     "sourceArtist": "3 Doors Down",
     "song": "Here Without You",
     "coverArtist": "Igor Presnyakov",
@@ -4550,6 +5005,7 @@
     "spotify": "https://open.spotify.com/track/0aWOkQe3M8WrQRuPsWdTTf"
   },
   {
+    "id": "crazy-cover-0456",
     "sourceArtist": "AC/DC",
     "song": "Thunderstruck",
     "coverArtist": "Luca Stricagnoli",
@@ -4560,6 +5016,7 @@
     "spotify": "https://open.spotify.com/track/4WH2JcQwBB6VxQQNvBCyHV"
   },
   {
+    "id": "crazy-cover-0457",
     "sourceArtist": "Aerosmith",
     "song": "Dream On",
     "coverArtist": "Glenn Roth",
@@ -4570,6 +5027,7 @@
     "spotify": "https://open.spotify.com/track/6xQdnAiOIGcWn2ln3Zeqdf"
   },
   {
+    "id": "crazy-cover-0458",
     "sourceArtist": "Audioslave",
     "song": "Like a Stone",
     "coverArtist": "Lucas Imbiriba",
@@ -4580,6 +5038,7 @@
     "spotify": "https://open.spotify.com/track/1YUMTmMYqz6SyVQfa3vD3H"
   },
   {
+    "id": "crazy-cover-0459",
     "sourceArtist": "Badfinger",
     "song": "No Matter What",
     "coverArtist": "Glenn Roth",
@@ -4590,6 +5049,7 @@
     "spotify": "https://open.spotify.com/track/4OWVqavkkliFAz4xN3Dp9q"
   },
   {
+    "id": "crazy-cover-0460",
     "sourceArtist": "Bastille",
     "song": "Pompeii",
     "coverArtist": "James Bartholomew",
@@ -4600,6 +5060,7 @@
     "spotify": "https://open.spotify.com/track/4gfgNhgNopPEQlrcOry25K"
   },
   {
+    "id": "crazy-cover-0461",
     "sourceArtist": "Blink-182",
     "song": "I Miss You",
     "coverArtist": "Luca Stricagnoli",
@@ -4610,6 +5071,7 @@
     "spotify": "https://open.spotify.com/track/60SRvpNfIEz0RjlpNA9Wgz"
   },
   {
+    "id": "crazy-cover-0462",
     "sourceArtist": "Bob Dylan",
     "song": "Knockin' on Heaven's Door",
     "coverArtist": "Igor Presnyakov",
@@ -4620,6 +5082,7 @@
     "spotify": "https://open.spotify.com/track/3K9T0vQDAHUtlB6bUjpIfN"
   },
   {
+    "id": "crazy-cover-0463",
     "sourceArtist": "Bon Jovi",
     "song": "Livin' on a Prayer",
     "coverArtist": "Sungha Jung",
@@ -4630,6 +5093,7 @@
     "spotify": "https://open.spotify.com/track/4GtOUn8sO4ve34KtO7Bcrs"
   },
   {
+    "id": "crazy-cover-0464",
     "sourceArtist": "Bryan Adams",
     "song": "Heaven",
     "coverArtist": "James Bartholomew",
@@ -4640,6 +5104,7 @@
     "spotify": "https://open.spotify.com/track/0Yin1iwKNTLFQdDv1kuD0a"
   },
   {
+    "id": "crazy-cover-0465",
     "sourceArtist": "Chris Isaak",
     "song": "Wicked Game",
     "coverArtist": "Igor Presnyakov",
@@ -4650,6 +5115,7 @@
     "spotify": "https://open.spotify.com/track/3v90Q6WdMCKnxYrGKL5CRJ"
   },
   {
+    "id": "crazy-cover-0466",
     "sourceArtist": "Coldplay",
     "song": "A Sky Full of Stars",
     "coverArtist": "Peter Gergely",
@@ -4660,6 +5126,7 @@
     "spotify": "https://open.spotify.com/track/2ICxHFSY5ksKtMA4j5Hgqf"
   },
   {
+    "id": "crazy-cover-0467",
     "sourceArtist": "Coldplay",
     "song": "Clocks",
     "coverArtist": "James Bartholomew",
@@ -4670,6 +5137,7 @@
     "spotify": "https://open.spotify.com/track/6bAh5Bohnr3ux6t50LSAr6"
   },
   {
+    "id": "crazy-cover-0468",
     "sourceArtist": "Coldplay",
     "song": "Everglow",
     "coverArtist": "Peter Gergely",
@@ -4680,6 +5148,7 @@
     "spotify": "https://open.spotify.com/track/0RclZHnsFzYRmSQbrwdBm1"
   },
   {
+    "id": "crazy-cover-0469",
     "sourceArtist": "Coldplay",
     "song": "Fix You",
     "coverArtist": "Eddie van der Meer",
@@ -4690,6 +5159,7 @@
     "spotify": "https://open.spotify.com/track/1CjQp0SVxCRQDQT3hEwemp"
   },
   {
+    "id": "crazy-cover-0470",
     "sourceArtist": "Coldplay",
     "song": "Fix You",
     "coverArtist": "James Bartholomew",
@@ -4700,6 +5170,7 @@
     "spotify": "https://open.spotify.com/track/4IBycCZeKyhLNE3EMbESwY"
   },
   {
+    "id": "crazy-cover-0471",
     "sourceArtist": "Coldplay",
     "song": "Fix You",
     "coverArtist": "Peter Gergely",
@@ -4710,6 +5181,7 @@
     "spotify": "https://open.spotify.com/track/3mjjwKP6ZuwKnJPJ0uVrsN"
   },
   {
+    "id": "crazy-cover-0472",
     "sourceArtist": "Coldplay",
     "song": "Hymn for the Weekend",
     "coverArtist": "Peter Gergely",
@@ -4720,6 +5192,7 @@
     "spotify": "https://open.spotify.com/track/71pYk1oFtmBvHrksuEUfYx"
   },
   {
+    "id": "crazy-cover-0473",
     "sourceArtist": "Coldplay",
     "song": "Swallowed in the Sea",
     "coverArtist": "Eddie van der Meer",
@@ -4730,6 +5203,7 @@
     "spotify": "https://open.spotify.com/track/2RPgUmhfSE0rVS667Wl1vn"
   },
   {
+    "id": "crazy-cover-0474",
     "sourceArtist": "Coldplay",
     "song": "The Scientist",
     "coverArtist": "James Bartholomew",
@@ -4740,6 +5214,7 @@
     "spotify": "https://open.spotify.com/track/6EkXRZFPeuWMxpkpYw1wOM"
   },
   {
+    "id": "crazy-cover-0475",
     "sourceArtist": "Coldplay",
     "song": "The Scientist",
     "coverArtist": "Peter Gergely",
@@ -4750,6 +5225,7 @@
     "spotify": "https://open.spotify.com/track/6mbKQUhn8Qs0nwD5Cg7qtZ"
   },
   {
+    "id": "crazy-cover-0476",
     "sourceArtist": "Coldplay",
     "song": "The Scientist",
     "coverArtist": "Sungha Jung",
@@ -4760,6 +5236,7 @@
     "spotify": "https://open.spotify.com/track/3BoLiZQbWwnpFNWTm3Lvaw"
   },
   {
+    "id": "crazy-cover-0477",
     "sourceArtist": "Coldplay",
     "song": "Viva la Vida",
     "coverArtist": "Eddie van der Meer",
@@ -4770,6 +5247,7 @@
     "spotify": "https://open.spotify.com/track/6vL2RxY2B2YAWzX8NWl6of"
   },
   {
+    "id": "crazy-cover-0478",
     "sourceArtist": "Coldplay",
     "song": "Viva la Vida",
     "coverArtist": "Sungha Jung",
@@ -4780,6 +5258,7 @@
     "spotify": "https://open.spotify.com/track/799CCwmx8DxaHu63E55xjV"
   },
   {
+    "id": "crazy-cover-0479",
     "sourceArtist": "Coldplay",
     "song": "Yellow",
     "coverArtist": "Eddie van der Meer",
@@ -4790,6 +5269,7 @@
     "spotify": "https://open.spotify.com/track/5FQxut22dNoQqX2QBYXQJ3"
   },
   {
+    "id": "crazy-cover-0480",
     "sourceArtist": "Coldplay",
     "song": "Yellow",
     "coverArtist": "James Bartholomew",
@@ -4800,6 +5280,7 @@
     "spotify": "https://open.spotify.com/track/3wbgrQRljHL0Hf4jiy8yRw"
   },
   {
+    "id": "crazy-cover-0481",
     "sourceArtist": "Deep Purple",
     "song": "Smoke on the Water",
     "coverArtist": "Luca Stricagnoli",
@@ -4810,6 +5291,7 @@
     "spotify": "https://open.spotify.com/track/2ZNcFWDy0JXtaraoN3h8fV"
   },
   {
+    "id": "crazy-cover-0482",
     "sourceArtist": "Dire Straits",
     "song": "Sultans of Swing",
     "coverArtist": "Lucas Imbiriba",
@@ -4820,6 +5302,7 @@
     "spotify": "https://open.spotify.com/track/71iAJpNFAURlj3OGRH7b5z"
   },
   {
+    "id": "crazy-cover-0483",
     "sourceArtist": "Eagles",
     "song": "Hotel California",
     "coverArtist": "Igor Presnyakov",
@@ -4830,6 +5313,7 @@
     "spotify": "https://open.spotify.com/track/0kpaEMW86tXQYHZCRE4bRy"
   },
   {
+    "id": "crazy-cover-0484",
     "sourceArtist": "Eagles",
     "song": "Hotel California",
     "coverArtist": "Lucas Imbiriba",
@@ -4840,6 +5324,7 @@
     "spotify": "https://open.spotify.com/track/5yv7ytGrpLwHuVlUynInsi"
   },
   {
+    "id": "crazy-cover-0485",
     "sourceArtist": "Ed Sheeran",
     "song": "Castle on the Hill",
     "coverArtist": "Peter Gergely",
@@ -4850,6 +5335,7 @@
     "spotify": "https://open.spotify.com/track/76ypWef3gab1mM759vjq5W"
   },
   {
+    "id": "crazy-cover-0486",
     "sourceArtist": "Eric Clapton",
     "song": "Tears in Heaven",
     "coverArtist": "James Bartholomew",
@@ -4860,6 +5346,7 @@
     "spotify": "https://open.spotify.com/track/4U5of3n4plmX741lmqI8I0"
   },
   {
+    "id": "crazy-cover-0487",
     "sourceArtist": "Evanescence",
     "song": "My Immortal",
     "coverArtist": "James Bartholomew",
@@ -4870,6 +5357,7 @@
     "spotify": "https://open.spotify.com/track/7fSOhEmy8ia9zpkvUGksGZ"
   },
   {
+    "id": "crazy-cover-0488",
     "sourceArtist": "Gary Moore",
     "song": "Still Got the Blues",
     "coverArtist": "Igor Presnyakov",
@@ -4880,6 +5368,7 @@
     "spotify": "https://open.spotify.com/track/4O659wkf5zRfncY56kN3Tj"
   },
   {
+    "id": "crazy-cover-0489",
     "sourceArtist": "George Michael",
     "song": "Careless Whisper",
     "coverArtist": "Igor Presnyakov",
@@ -4890,6 +5379,7 @@
     "spotify": "https://open.spotify.com/track/3jJxvApUDmFcXILk6U71yc"
   },
   {
+    "id": "crazy-cover-0490",
     "sourceArtist": "Goo Goo Dolls",
     "song": "Iris",
     "coverArtist": "James Bartholomew",
@@ -4900,6 +5390,7 @@
     "spotify": "https://open.spotify.com/track/3aUpknuPQu4o63l2bYJph1"
   },
   {
+    "id": "crazy-cover-0491",
     "sourceArtist": "Gorillaz",
     "song": "Clint Eastwood",
     "coverArtist": "Luca Stricagnoli",
@@ -4910,6 +5401,7 @@
     "spotify": "https://open.spotify.com/track/4NC1NxTMBIw4n4gBBFOKky"
   },
   {
+    "id": "crazy-cover-0492",
     "sourceArtist": "Gorillaz",
     "song": "Feel Good Inc.",
     "coverArtist": "Luca Stricagnoli",
@@ -4920,6 +5412,7 @@
     "spotify": "https://open.spotify.com/track/2XdtKJrz2eUB9OoabTz34u"
   },
   {
+    "id": "crazy-cover-0493",
     "sourceArtist": "Green Day",
     "song": "Boulevard of Broken Dreams",
     "coverArtist": "Eddie van der Meer",
@@ -4930,6 +5423,7 @@
     "spotify": "https://open.spotify.com/track/2kdCazZXuhuOhhUWc2TaNw"
   },
   {
+    "id": "crazy-cover-0494",
     "sourceArtist": "Guns N' Roses",
     "song": "Don't Cry",
     "coverArtist": "Igor Presnyakov",
@@ -4940,6 +5434,7 @@
     "spotify": "https://open.spotify.com/track/0t84cI94orXkqjIIhDf8X2"
   },
   {
+    "id": "crazy-cover-0495",
     "sourceArtist": "Guns N' Roses",
     "song": "November Rain",
     "coverArtist": "Igor Presnyakov",
@@ -4950,6 +5445,7 @@
     "spotify": "https://open.spotify.com/track/2TIFYmsQhfKZjul21RctcI"
   },
   {
+    "id": "crazy-cover-0496",
     "sourceArtist": "Guns N' Roses",
     "song": "November Rain",
     "coverArtist": "Sungha Jung",
@@ -4960,6 +5456,7 @@
     "spotify": "https://open.spotify.com/track/7CPOMUOli58ppU7GuSYSsd"
   },
   {
+    "id": "crazy-cover-0497",
     "sourceArtist": "Guns N' Roses",
     "song": "Sweet Child O' Mine",
     "coverArtist": "Sungha Jung",
@@ -4970,6 +5467,7 @@
     "spotify": "https://open.spotify.com/track/5dT4tjMwLy1vfX4UZ14anR"
   },
   {
+    "id": "crazy-cover-0498",
     "sourceArtist": "Hozier",
     "song": "Take Me to Church",
     "coverArtist": "James Bartholomew",
@@ -4980,6 +5478,7 @@
     "spotify": "https://open.spotify.com/track/0uDSDdmi2l1O3Th5DJ6Tm2"
   },
   {
+    "id": "crazy-cover-0499",
     "sourceArtist": "Imagine Dragons",
     "song": "Radioactive",
     "coverArtist": "James Bartholomew",
@@ -4990,6 +5489,7 @@
     "spotify": "https://open.spotify.com/track/4FoijBKfhbULQY8k73exPM"
   },
   {
+    "id": "crazy-cover-0500",
     "sourceArtist": "Iron Maiden",
     "song": "Iron Maiden",
     "coverArtist": "Luca Stricagnoli",
@@ -5000,6 +5500,7 @@
     "spotify": "https://open.spotify.com/track/2n5hGNAWtTzUFrJIf4IRcN"
   },
   {
+    "id": "crazy-cover-0501",
     "sourceArtist": "James Taylor",
     "song": "Carolina in My Mind",
     "coverArtist": "Glenn Roth",
@@ -5010,6 +5511,7 @@
     "spotify": "https://open.spotify.com/track/7aSV8YHcvNvGgPnM5Qjodo"
   },
   {
+    "id": "crazy-cover-0502",
     "sourceArtist": "Kansas",
     "song": "Dust in the Wind",
     "coverArtist": "Igor Presnyakov",
@@ -5020,6 +5522,7 @@
     "spotify": "https://open.spotify.com/track/4zygiSd496x7DPZh3Zm4bH"
   },
   {
+    "id": "crazy-cover-0503",
     "sourceArtist": "Kansas",
     "song": "Dust in the Wind",
     "coverArtist": "Sungha Jung",
@@ -5030,6 +5533,7 @@
     "spotify": "https://open.spotify.com/track/7sqyrQoL1fPDU3vSgdPFud"
   },
   {
+    "id": "crazy-cover-0504",
     "sourceArtist": "Led Zeppelin",
     "song": "Stairway to Heaven",
     "coverArtist": "Igor Presnyakov",
@@ -5040,6 +5544,7 @@
     "spotify": "https://open.spotify.com/track/0xK5RyXQFjduphdlhvi1gN"
   },
   {
+    "id": "crazy-cover-0505",
     "sourceArtist": "Led Zeppelin",
     "song": "Stairway to Heaven",
     "coverArtist": "Lucas Imbiriba",
@@ -5050,6 +5555,7 @@
     "spotify": "https://open.spotify.com/track/0HBoY183gRFTCDPddUFftN"
   },
   {
+    "id": "crazy-cover-0506",
     "sourceArtist": "Led Zeppelin",
     "song": "Whole Lotta Love",
     "coverArtist": "Luca Stricagnoli",
@@ -5060,6 +5566,7 @@
     "spotify": "https://open.spotify.com/track/2TM1ZR09aUrZKWrHGiEB9C"
   },
   {
+    "id": "crazy-cover-0507",
     "sourceArtist": "Leonard Cohen",
     "song": "Hallelujah",
     "coverArtist": "Glenn Roth",
@@ -5070,6 +5577,7 @@
     "spotify": "https://open.spotify.com/track/05zwiEGXqAkyxhcX6Pq6zV"
   },
   {
+    "id": "crazy-cover-0508",
     "sourceArtist": "Leonard Cohen",
     "song": "Hallelujah",
     "coverArtist": "James Bartholomew",
@@ -5080,6 +5588,7 @@
     "spotify": "https://open.spotify.com/track/0KN0vWyY8biPENwZN8HXpL"
   },
   {
+    "id": "crazy-cover-0509",
     "sourceArtist": "Linkin Park",
     "song": "Numb",
     "coverArtist": "Igor Presnyakov",
@@ -5090,6 +5599,7 @@
     "spotify": "https://open.spotify.com/track/1PU3qYfy99v1oIqni6nCbn"
   },
   {
+    "id": "crazy-cover-0510",
     "sourceArtist": "Linkin Park",
     "song": "Numb",
     "coverArtist": "James Bartholomew",
@@ -5100,6 +5610,7 @@
     "spotify": "https://open.spotify.com/track/2N3x9B9IbTElbwIDmLK9Ol"
   },
   {
+    "id": "crazy-cover-0511",
     "sourceArtist": "Lynyrd Skynyrd",
     "song": "Sweet Home Alabama",
     "coverArtist": "Luca Stricagnoli",
@@ -5110,6 +5621,7 @@
     "spotify": "https://open.spotify.com/track/6bWtRC5hdCNeqNrd3T5vaO"
   },
   {
+    "id": "crazy-cover-0512",
     "sourceArtist": "Maroon 5",
     "song": "She Will Be Loved",
     "coverArtist": "Sungha Jung",
@@ -5120,6 +5632,7 @@
     "spotify": "https://open.spotify.com/track/6xAonuZe4QkIpIv7pHFBU5"
   },
   {
+    "id": "crazy-cover-0513",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Igor Presnyakov",
@@ -5130,6 +5643,7 @@
     "spotify": "https://open.spotify.com/track/3GWCXghlXSiL3lZM92y212"
   },
   {
+    "id": "crazy-cover-0514",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "James Bartholomew",
@@ -5140,6 +5654,7 @@
     "spotify": "https://open.spotify.com/track/4sWJju52Mgok5yxA9RrABa"
   },
   {
+    "id": "crazy-cover-0515",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Sungha Jung",
@@ -5150,6 +5665,7 @@
     "spotify": "https://open.spotify.com/track/6lQgLMxj1Ier0su7fFdg7Y"
   },
   {
+    "id": "crazy-cover-0516",
     "sourceArtist": "Mr. Big",
     "song": "To Be with You",
     "coverArtist": "Sungha Jung",
@@ -5160,6 +5676,7 @@
     "spotify": "https://open.spotify.com/track/27FRc2Ozm7fpkBmhiMvfNv"
   },
   {
+    "id": "crazy-cover-0517",
     "sourceArtist": "Muse",
     "song": "Supermassive Black Hole",
     "coverArtist": "Luca Stricagnoli",
@@ -5170,6 +5687,7 @@
     "spotify": "https://open.spotify.com/track/6VPJb34fuLht1qZSlNEXEg"
   },
   {
+    "id": "crazy-cover-0518",
     "sourceArtist": "Nine Inch Nails",
     "song": "Hurt",
     "coverArtist": "James Bartholomew",
@@ -5180,6 +5698,7 @@
     "spotify": "https://open.spotify.com/track/5OimeBcYcZatINii803PyT"
   },
   {
+    "id": "crazy-cover-0519",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "Igor Presnyakov",
@@ -5190,6 +5709,7 @@
     "spotify": "https://open.spotify.com/track/1D6KXHti2fgVeR5YbRRBZ9"
   },
   {
+    "id": "crazy-cover-0520",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "Peter Gergely",
@@ -5200,6 +5720,7 @@
     "spotify": "https://open.spotify.com/track/1FAzZ8vjZyfImN6YQYSfzD"
   },
   {
+    "id": "crazy-cover-0521",
     "sourceArtist": "Owl City",
     "song": "Fireflies",
     "coverArtist": "Eddie van der Meer",
@@ -5210,6 +5731,7 @@
     "spotify": "https://open.spotify.com/track/3j9PCbiRm3ytfYqtWaoWcp"
   },
   {
+    "id": "crazy-cover-0522",
     "sourceArtist": "Ozzy Osbourne",
     "song": "Mama, I'm Coming Home",
     "coverArtist": "Glenn Roth",
@@ -5220,6 +5742,7 @@
     "spotify": "https://open.spotify.com/track/0H2I2zVjL4FoKcMxyBRLNu"
   },
   {
+    "id": "crazy-cover-0523",
     "sourceArtist": "Paul McCartney & Wings",
     "song": "Live and Let Die",
     "coverArtist": "Glenn Roth",
@@ -5230,6 +5753,7 @@
     "spotify": "https://open.spotify.com/track/1cu2ynnAW3fJeLrL0KzYkA"
   },
   {
+    "id": "crazy-cover-0524",
     "sourceArtist": "Phil Collins",
     "song": "Another Day in Paradise",
     "coverArtist": "Glenn Roth",
@@ -5240,6 +5764,7 @@
     "spotify": "https://open.spotify.com/track/4UlsmOvKwswdJHhwdNfNqQ"
   },
   {
+    "id": "crazy-cover-0525",
     "sourceArtist": "Pixies",
     "song": "Where Is My Mind?",
     "coverArtist": "James Bartholomew",
@@ -5250,6 +5775,7 @@
     "spotify": "https://open.spotify.com/track/0QlSgXUuNjU2hGB1aBJlWV"
   },
   {
+    "id": "crazy-cover-0526",
     "sourceArtist": "Queen",
     "song": "Bohemian Rhapsody",
     "coverArtist": "Lucas Imbiriba",
@@ -5260,6 +5786,7 @@
     "spotify": "https://open.spotify.com/track/3aOaftbrSc0qejauJmslBM"
   },
   {
+    "id": "crazy-cover-0527",
     "sourceArtist": "Queen",
     "song": "Crazy Little Thing Called Love",
     "coverArtist": "Sungha Jung",
@@ -5270,6 +5797,7 @@
     "spotify": "https://open.spotify.com/track/5kYWsuVqyg1W08L1tATg1Y"
   },
   {
+    "id": "crazy-cover-0528",
     "sourceArtist": "Radiohead",
     "song": "Creep",
     "coverArtist": "Sungha Jung",
@@ -5280,6 +5808,7 @@
     "spotify": "https://open.spotify.com/track/536Awbc8Rkn2cCKsvn1C9a"
   },
   {
+    "id": "crazy-cover-0529",
     "sourceArtist": "Rainbow",
     "song": "Temple of the King",
     "coverArtist": "Igor Presnyakov",
@@ -5290,6 +5819,7 @@
     "spotify": "https://open.spotify.com/track/3pMwN7UgET1RaZo0WIVyDZ"
   },
   {
+    "id": "crazy-cover-0530",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Californication",
     "coverArtist": "James Bartholomew",
@@ -5300,6 +5830,7 @@
     "spotify": "https://open.spotify.com/track/0uiMUdniG6argtEObzYmKI"
   },
   {
+    "id": "crazy-cover-0531",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Can't Stop",
     "coverArtist": "Luca Stricagnoli",
@@ -5310,6 +5841,7 @@
     "spotify": "https://open.spotify.com/track/7uvCzfmmOvRv6QKKdmpwzb"
   },
   {
+    "id": "crazy-cover-0532",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Dark Necessities",
     "coverArtist": "Luca Stricagnoli",
@@ -5320,6 +5852,7 @@
     "spotify": "https://open.spotify.com/track/3grF9uE3buBAd3fH5zJMkW"
   },
   {
+    "id": "crazy-cover-0533",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Otherside",
     "coverArtist": "Eddie van der Meer",
@@ -5330,6 +5863,7 @@
     "spotify": "https://open.spotify.com/track/7yeOwmLCenay65zKs5FKPA"
   },
   {
+    "id": "crazy-cover-0534",
     "sourceArtist": "Red Hot Chili Peppers",
     "song": "Snow (Hey Oh)",
     "coverArtist": "Luca Stricagnoli",
@@ -5340,6 +5874,7 @@
     "spotify": "https://open.spotify.com/track/0K3zySsoktlMAs9rLwAqcv"
   },
   {
+    "id": "crazy-cover-0535",
     "sourceArtist": "Roxette",
     "song": "Listen to Your Heart",
     "coverArtist": "Igor Presnyakov",
@@ -5350,6 +5885,7 @@
     "spotify": "https://open.spotify.com/track/7iBBJvYOgRlvkg5eEy17Xs"
   },
   {
+    "id": "crazy-cover-0536",
     "sourceArtist": "Seal",
     "song": "Kiss from a Rose",
     "coverArtist": "Glenn Roth",
@@ -5360,6 +5896,7 @@
     "spotify": "https://open.spotify.com/track/1vq7jRNdkIwWkibPgWC7iw"
   },
   {
+    "id": "crazy-cover-0537",
     "sourceArtist": "Slipknot",
     "song": "Snuff",
     "coverArtist": "Igor Presnyakov",
@@ -5370,6 +5907,7 @@
     "spotify": "https://open.spotify.com/track/68WwDcHrppKmE015QdGS2O"
   },
   {
+    "id": "crazy-cover-0538",
     "sourceArtist": "Snow Patrol",
     "song": "Chasing Cars",
     "coverArtist": "James Bartholomew",
@@ -5380,6 +5918,7 @@
     "spotify": "https://open.spotify.com/track/3oa7xO1sKCmiNsqEVLsGZf"
   },
   {
+    "id": "crazy-cover-0539",
     "sourceArtist": "Sting",
     "song": "Shape of My Heart",
     "coverArtist": "Luca Stricagnoli",
@@ -5390,6 +5929,7 @@
     "spotify": "https://open.spotify.com/track/19mjFvTnEC1KkZf6Hh8pX8"
   },
   {
+    "id": "crazy-cover-0540",
     "sourceArtist": "System of a Down",
     "song": "Lonely Day",
     "coverArtist": "Igor Presnyakov",
@@ -5400,6 +5940,7 @@
     "spotify": "https://open.spotify.com/track/4nEL2aBJUPYreuOygQQcxw"
   },
   {
+    "id": "crazy-cover-0541",
     "sourceArtist": "Tears for Fears",
     "song": "Mad World",
     "coverArtist": "James Bartholomew",
@@ -5410,6 +5951,7 @@
     "spotify": "https://open.spotify.com/track/5mzXryfNlzCLSyMhqASTPq"
   },
   {
+    "id": "crazy-cover-0542",
     "sourceArtist": "The Beatles",
     "song": "All You Need Is Love",
     "coverArtist": "Glenn Roth",
@@ -5420,6 +5962,7 @@
     "spotify": "https://open.spotify.com/track/0WLAf5sPftIhQ4J6c3Py3c"
   },
   {
+    "id": "crazy-cover-0543",
     "sourceArtist": "The Box Tops",
     "song": "The Letter",
     "coverArtist": "Glenn Roth",
@@ -5430,6 +5973,7 @@
     "spotify": "https://open.spotify.com/track/6wDv3a10crqcLmCiQx2HDS"
   },
   {
+    "id": "crazy-cover-0544",
     "sourceArtist": "The Hollies",
     "song": "Bus Stop",
     "coverArtist": "Glenn Roth",
@@ -5440,6 +5984,7 @@
     "spotify": "https://open.spotify.com/track/0yviKo3n2urWyBzJqOFnjM"
   },
   {
+    "id": "crazy-cover-0545",
     "sourceArtist": "The Police",
     "song": "Every Breath You Take",
     "coverArtist": "James Bartholomew",
@@ -5450,6 +5995,7 @@
     "spotify": "https://open.spotify.com/track/4VicnfMi4JZUVOjXH256So"
   },
   {
+    "id": "crazy-cover-0546",
     "sourceArtist": "The Rolling Stones",
     "song": "Paint It Black",
     "coverArtist": "Sungha Jung",
@@ -5460,6 +6006,7 @@
     "spotify": "https://open.spotify.com/track/7LuTKX7CCimYnH9dhIIGhy"
   },
   {
+    "id": "crazy-cover-0547",
     "sourceArtist": "The Who",
     "song": "Behind Blue Eyes",
     "coverArtist": "Igor Presnyakov",
@@ -5470,6 +6017,7 @@
     "spotify": "https://open.spotify.com/track/3mUJmEetiGuzBgy97Yz1Am"
   },
   {
+    "id": "crazy-cover-0548",
     "sourceArtist": "Toto",
     "song": "Hold the Line",
     "coverArtist": "Luca Stricagnoli",
@@ -5480,6 +6028,7 @@
     "spotify": "https://open.spotify.com/track/1LqVlDDxCSSzTdKIq5pYsu"
   },
   {
+    "id": "crazy-cover-0549",
     "sourceArtist": "Tracy Chapman",
     "song": "Fast Car",
     "coverArtist": "Peter Gergely",
@@ -5490,6 +6039,7 @@
     "spotify": "https://open.spotify.com/track/2E40Yr2bt4EIOQ21hNI7AF"
   },
   {
+    "id": "crazy-cover-0550",
     "sourceArtist": "Twenty One Pilots",
     "song": "Heathens",
     "coverArtist": "James Bartholomew",
@@ -5500,6 +6050,7 @@
     "spotify": "https://open.spotify.com/track/1tdOZiUddlSKQLoySXiwNn"
   },
   {
+    "id": "crazy-cover-0551",
     "sourceArtist": "U2",
     "song": "With or Without You",
     "coverArtist": "Luca Stricagnoli",
@@ -5510,6 +6061,7 @@
     "spotify": "https://open.spotify.com/track/1TE6NXFEGTUBMXqqlpQsoR"
   },
   {
+    "id": "crazy-cover-0552",
     "sourceArtist": "U2",
     "song": "With or Without You",
     "coverArtist": "Sungha Jung",
@@ -5520,6 +6072,7 @@
     "spotify": "https://open.spotify.com/track/6hsTgRVnfW4VCPtccdjnbW"
   },
   {
+    "id": "crazy-cover-0553",
     "sourceArtist": "Pixies",
     "song": "Where Is My Mind?",
     "coverArtist": "Maxence Cyrin",
@@ -5530,6 +6083,7 @@
     "spotify": "https://open.spotify.com/track/4jNQkWhuzqrbqQuqanFFJ6"
   },
   {
+    "id": "crazy-cover-0554",
     "sourceArtist": "The Beatles",
     "song": "Eleanor Rigby",
     "coverArtist": "Stanley Jordan",
@@ -5540,6 +6094,7 @@
     "spotify": "https://open.spotify.com/track/4BcPH3BcOhvBVc6JTPkXmh"
   },
   {
+    "id": "crazy-cover-0555",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "Brad Mehldau",
@@ -5550,6 +6105,7 @@
     "spotify": "https://open.spotify.com/track/0STC8pl0Pi4ov17kaBFCky"
   },
   {
+    "id": "crazy-cover-0556",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "Tori Amos",
@@ -5560,6 +6116,7 @@
     "spotify": "https://open.spotify.com/track/1kWqRB6PHLM9QTfaXuHpIV"
   },
   {
+    "id": "crazy-cover-0557",
     "sourceArtist": "The Rolling Stones",
     "song": "Angie",
     "coverArtist": "Tori Amos",
@@ -5570,6 +6127,7 @@
     "spotify": "https://open.spotify.com/track/1ywYbypW9qrHZq4DouSYkI"
   },
   {
+    "id": "crazy-cover-0558",
     "sourceArtist": "Depeche Mode",
     "song": "Enjoy the Silence",
     "coverArtist": "Tori Amos",
@@ -5580,6 +6138,7 @@
     "spotify": "https://open.spotify.com/track/2ZIm4nE67GSmw1j8qZbRYC"
   },
   {
+    "id": "crazy-cover-0559",
     "sourceArtist": "Slayer",
     "song": "Raining Blood",
     "coverArtist": "Tori Amos",
@@ -5590,6 +6149,7 @@
     "spotify": "https://open.spotify.com/track/0CXZjq6V0dFxGN3FrUyALR"
   },
   {
+    "id": "crazy-cover-0560",
     "sourceArtist": "Led Zeppelin",
     "song": "Thank You",
     "coverArtist": "Tori Amos",
@@ -5600,6 +6160,7 @@
     "spotify": "https://open.spotify.com/track/2iFbFuO4H7od5k6aNahtbn"
   },
   {
+    "id": "crazy-cover-0561",
     "sourceArtist": "Black Sabbath",
     "song": "Changes",
     "coverArtist": "Charles Bradley, The Budos Band",
@@ -5610,6 +6171,7 @@
     "spotify": "https://open.spotify.com/track/3HC6U39266ytr7fMW9M2Mz?utm_source=openai&utm_medium=chatgpt&request_id=d335d746-d473-4e17-acc5-990aff3d1152"
   },
   {
+    "id": "crazy-cover-0562",
     "sourceArtist": "Led Zeppelin",
     "song": "All My Love",
     "coverArtist": "Bettye LaVette",
@@ -5620,6 +6182,7 @@
     "spotify": "https://open.spotify.com/track/78naMCNQS5rcFD1i7gG324"
   },
   {
+    "id": "crazy-cover-0563",
     "sourceArtist": "Pink Floyd",
     "song": "Wish You Were Here",
     "coverArtist": "Bettye LaVette",
@@ -5630,6 +6193,7 @@
     "spotify": "https://open.spotify.com/track/6iLrfhR7DABAaaZ4QTCfl1"
   },
   {
+    "id": "crazy-cover-0564",
     "sourceArtist": "The White Stripes",
     "song": "Fell in Love with a Girl",
     "coverArtist": "Joss Stone",
@@ -5640,6 +6204,7 @@
     "spotify": "https://open.spotify.com/track/6BOHQeYRHWUVy0Gcgj5iBJ"
   },
   {
+    "id": "crazy-cover-0565",
     "sourceArtist": "The Who",
     "song": "Love Reign O'er Me",
     "coverArtist": "Bettye LaVette",
@@ -5650,6 +6215,7 @@
     "spotify": "https://open.spotify.com/track/57UcYSWsx4csWbaHW88TCQ"
   },
   {
+    "id": "crazy-cover-0566",
     "sourceArtist": "Violent Femmes",
     "song": "Gone Daddy Gone",
     "coverArtist": "Gnarls Barkley, CeeLo Green, Danger Mouse",
@@ -5660,6 +6226,7 @@
     "spotify": "https://open.spotify.com/track/0YIP2pcsehVFLJRWfDVgdw"
   },
   {
+    "id": "crazy-cover-0567",
     "sourceArtist": "The Beatles",
     "song": "Eleanor Rigby",
     "coverArtist": "Aretha Franklin",
@@ -5670,6 +6237,7 @@
     "spotify": "https://open.spotify.com/track/5ryGpLshVg4CFM42WEDzcd"
   },
   {
+    "id": "crazy-cover-0568",
     "sourceArtist": "The Rolling Stones",
     "song": "Jumpin' Jack Flash",
     "coverArtist": "Aretha Franklin",
@@ -5680,6 +6248,7 @@
     "spotify": "https://open.spotify.com/track/6PimXyeHdWR59RSO0O5Ae0"
   },
   {
+    "id": "crazy-cover-0569",
     "sourceArtist": "The Beatles",
     "song": "She Came In Through the Bathroom Window",
     "coverArtist": "Joe Cocker",
@@ -5690,6 +6259,7 @@
     "spotify": "https://open.spotify.com/track/1HLi7j0ENx5KiBeOZPW8xA"
   },
   {
+    "id": "crazy-cover-0570",
     "sourceArtist": "The Beatles",
     "song": "With a Little Help from My Friends",
     "coverArtist": "Joe Cocker",
@@ -5700,6 +6270,7 @@
     "spotify": "https://open.spotify.com/track/0YZ3J8xzGwLOg4yEgST1YK"
   },
   {
+    "id": "crazy-cover-0571",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Evil Woman",
     "coverArtist": "Ross Rice",
@@ -5710,6 +6281,7 @@
     "spotify": "https://open.spotify.com/track/5htAArXl1l9aXfQw9dEvDr?utm_source=openai&utm_medium=chatgpt&request_id=7e7050f3-1ce4-4443-bc07-ca6a6b0f73bc"
   },
   {
+    "id": "crazy-cover-0572",
     "sourceArtist": "The Beatles",
     "song": "She Said She Said",
     "coverArtist": "Gov't Mule",
@@ -5720,6 +6292,7 @@
     "spotify": "https://open.spotify.com/track/0KOkbfFlR0G2rt6dWOIfLB"
   },
   {
+    "id": "crazy-cover-0573",
     "sourceArtist": "Black Sabbath",
     "song": "War Pigs",
     "coverArtist": "Gov't Mule",
@@ -5730,6 +6303,7 @@
     "spotify": "https://open.spotify.com/track/1ccQFu5jHihWlhnGSVjOsk"
   },
   {
+    "id": "crazy-cover-0574",
     "sourceArtist": "The Rolling Stones",
     "song": "(I Can't Get No) Satisfaction",
     "coverArtist": "Otis Redding",
@@ -5740,6 +6314,7 @@
     "spotify": "https://open.spotify.com/track/1klqBqLXdUN6ilIhtOAYtm"
   },
   {
+    "id": "crazy-cover-0575",
     "sourceArtist": "The Beatles",
     "song": "Hey Jude",
     "coverArtist": "Wilson Pickett",
@@ -5750,6 +6325,7 @@
     "spotify": "https://open.spotify.com/track/1MMp1H2Kib2BCDtdL5nL63"
   },
   {
+    "id": "crazy-cover-0576",
     "sourceArtist": "U2",
     "song": "One",
     "coverArtist": "Johnny Cash",
@@ -5760,6 +6336,7 @@
     "spotify": "https://open.spotify.com/track/5eReKc1D8ZQAg9kzQeHRdH"
   },
   {
+    "id": "crazy-cover-0577",
     "sourceArtist": "Oasis",
     "song": "Wonderwall",
     "coverArtist": "Ryan Adams",
@@ -5770,6 +6347,7 @@
     "spotify": "https://open.spotify.com/track/4siFdX3QLfjtzg1HHgCPW7"
   },
   {
+    "id": "crazy-cover-0578",
     "sourceArtist": "Metallica",
     "song": "My Friend of Misery",
     "coverArtist": "Kamasi Washington",
@@ -5780,6 +6358,7 @@
     "spotify": "https://open.spotify.com/track/4VgstGQR0BW7wamAFNEz6A"
   },
   {
+    "id": "crazy-cover-0579",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "D-Strings",
@@ -5790,6 +6369,7 @@
     "spotify": "https://open.spotify.com/track/2RP3C9XZivKOxwZsUaqtbf?utm_source=openai&utm_medium=chatgpt&request_id=0bfb41be-3f65-4438-ba13-177fe83731b4"
   },
   {
+    "id": "crazy-cover-0580",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Midnite String Quartet",
@@ -5800,6 +6380,7 @@
     "spotify": "https://open.spotify.com/track/7i46mfeVls67Nm0OtYFqL3?utm_source=openai&utm_medium=chatgpt&request_id=0bfb41be-3f65-4438-ba13-177fe83731b4"
   },
   {
+    "id": "crazy-cover-0581",
     "sourceArtist": "Jimi Hendrix",
     "song": "Purple Haze",
     "coverArtist": "Kronos Quartet",
@@ -5810,6 +6391,7 @@
     "spotify": "https://open.spotify.com/track/6jvJrKOfVrJvI50Mx13bgy?utm_source=openai&utm_medium=chatgpt&request_id=90bfc641-5e7d-410f-acc9-689492958770"
   },
   {
+    "id": "crazy-cover-0582",
     "sourceArtist": "Metallica",
     "song": "Enter Sandman",
     "coverArtist": "Ghost",
@@ -5820,6 +6402,7 @@
     "spotify": "https://open.spotify.com/track/0YatuNVDfq8a2VoYlPka9k"
   },
   {
+    "id": "crazy-cover-0583",
     "sourceArtist": "Queen",
     "song": "Stone Cold Crazy",
     "coverArtist": "Metallica",
@@ -5830,6 +6413,7 @@
     "spotify": "https://open.spotify.com/track/452eWE1sXO6L0HgNoqZbpE"
   },
   {
+    "id": "crazy-cover-0584",
     "sourceArtist": "Soundgarden",
     "song": "Black Hole Sun",
     "coverArtist": "Postmodern Jukebox, Willie Ray Moore",
@@ -5840,6 +6424,7 @@
     "spotify": "https://open.spotify.com/track/4p8zUfpyluhxdWyD8XYsks?utm_source=openai&utm_medium=chatgpt&request_id=04873eaa-61b8-4929-982e-1d9c45719657"
   },
   {
+    "id": "crazy-cover-0585",
     "sourceArtist": "Aerosmith",
     "song": "Dream On",
     "coverArtist": "Postmodern Jukebox, Morgan James",
@@ -5850,6 +6435,7 @@
     "spotify": "https://open.spotify.com/track/5xatbZbGCMhKLvxcuLo9sw?utm_source=openai&utm_medium=chatgpt&request_id=e4d8bc25-604d-4172-a29e-d2e2062e1c84"
   },
   {
+    "id": "crazy-cover-0586",
     "sourceArtist": "The White Stripes",
     "song": "Seven Nation Army",
     "coverArtist": "Postmodern Jukebox, Haley Reinhart",
@@ -5860,6 +6446,7 @@
     "spotify": "https://open.spotify.com/track/2Lv9mFjcIFPn8zyWF89EAe?utm_source=openai&utm_medium=chatgpt&request_id=f3e8cc25-65ec-4f2c-bea3-f517e8fcab56"
   },
   {
+    "id": "crazy-cover-0587",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Scott Bradlee's Postmodern Jukebox, Caroline Baran",
@@ -5870,6 +6457,7 @@
     "spotify": "https://open.spotify.com/track/26EA4mKx4FDLFJDcqnL1Fo"
   },
   {
+    "id": "crazy-cover-0588",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Mr. Blue Sky",
     "coverArtist": "Postmodern Jukebox",
@@ -5880,6 +6468,7 @@
     "spotify": "https://open.spotify.com/track/70Xf6hRJhmSpAF23s7HLwf?utm_source=openai&utm_medium=chatgpt&request_id=3b8a6165-c8e9-49d1-9bfd-b6d639048bdf"
   },
   {
+    "id": "crazy-cover-0589",
     "sourceArtist": "Journey",
     "song": "Don't Stop Believin'",
     "coverArtist": "Postmodern Jukebox",
@@ -5890,6 +6479,7 @@
     "spotify": "https://open.spotify.com/track/7kcOVrUOCXKzrg2ZQQLzSl?utm_source=openai&utm_medium=chatgpt&request_id=45d66a10-0515-4830-b0bf-0505cf1943d0"
   },
   {
+    "id": "crazy-cover-0590",
     "sourceArtist": "Bon Jovi",
     "song": "Livin' on a Prayer",
     "coverArtist": "Scott Bradlee's Postmodern Jukebox, Miche Braden",
@@ -5900,6 +6490,7 @@
     "spotify": "https://open.spotify.com/track/0mVBRKY4CM7wu5k9RAEVPI"
   },
   {
+    "id": "crazy-cover-0591",
     "sourceArtist": "Bad Religion",
     "song": "American Jesus",
     "coverArtist": "Robyn Adele Anderson",
@@ -5910,6 +6501,7 @@
     "spotify": "https://open.spotify.com/track/0eVgnYvZK5bwGoAwpSGCmm"
   },
   {
+    "id": "crazy-cover-0592",
     "sourceArtist": "Depeche Mode",
     "song": "Enjoy the Silence",
     "coverArtist": "Postmodern Jukebox, Chloe Feoranzo",
@@ -5920,6 +6512,7 @@
     "spotify": "https://open.spotify.com/track/5Vzs034G86rM3zLo80edmK"
   },
   {
+    "id": "crazy-cover-0593",
     "sourceArtist": "Fleetwood Mac",
     "song": "The Chain",
     "coverArtist": "Postmodern Jukebox, Tawanda",
@@ -5930,6 +6523,7 @@
     "spotify": "https://open.spotify.com/track/4GUywUClXrTk8cRxYHC0tp"
   },
   {
+    "id": "crazy-cover-0594",
     "sourceArtist": "Foo Fighters",
     "song": "My Hero",
     "coverArtist": "Robyn Adele Anderson",
@@ -5940,6 +6534,7 @@
     "spotify": "https://open.spotify.com/track/3cWqr2PBgGYumErqnUcWZt"
   },
   {
+    "id": "crazy-cover-0595",
     "sourceArtist": "Gorillaz",
     "song": "Feel Good Inc.",
     "coverArtist": "Robyn Adele Anderson",
@@ -5950,6 +6545,7 @@
     "spotify": "https://open.spotify.com/track/1BZr7i8v8k1WSTssmXw9RL"
   },
   {
+    "id": "crazy-cover-0596",
     "sourceArtist": "Green Day",
     "song": "Basket Case",
     "coverArtist": "Postmodern Jukebox, Tatum Langley",
@@ -5960,6 +6556,7 @@
     "spotify": "https://open.spotify.com/track/5LlWfhVRoNtbuVoByTSI6v"
   },
   {
+    "id": "crazy-cover-0597",
     "sourceArtist": "Guns N' Roses",
     "song": "Sweet Child O' Mine",
     "coverArtist": "Postmodern Jukebox",
@@ -5970,6 +6567,7 @@
     "spotify": "https://open.spotify.com/track/39A4zqR22ecZ2DS9FYfbVu"
   },
   {
+    "id": "crazy-cover-0598",
     "sourceArtist": "Guns N' Roses",
     "song": "Welcome to the Jungle",
     "coverArtist": "Postmodern Jukebox, Daniela Andrade",
@@ -5980,6 +6578,7 @@
     "spotify": "https://open.spotify.com/track/4cpAv5LPIumUdGoT5aWPRS"
   },
   {
+    "id": "crazy-cover-0599",
     "sourceArtist": "Jet",
     "song": "Are You Gonna Be My Girl",
     "coverArtist": "Postmodern Jukebox",
@@ -5990,6 +6589,7 @@
     "spotify": "https://open.spotify.com/track/4z7e5sL3mDShFORRf8k1pl"
   },
   {
+    "id": "crazy-cover-0600",
     "sourceArtist": "Kid Rock",
     "song": "Bawitdaba",
     "coverArtist": "Robyn Adele Anderson",
@@ -6000,6 +6600,7 @@
     "spotify": "https://open.spotify.com/track/0J8uCdPrbap1mFGeCuXfTU"
   },
   {
+    "id": "crazy-cover-0601",
     "sourceArtist": "Korn",
     "song": "Freak on a Leash",
     "coverArtist": "Robyn Adele Anderson",
@@ -6010,6 +6611,7 @@
     "spotify": "https://open.spotify.com/track/0Y3wmqDoyFH3r5BSWrvoUy"
   },
   {
+    "id": "crazy-cover-0602",
     "sourceArtist": "Linkin Park",
     "song": "Numb",
     "coverArtist": "Robyn Adele Anderson",
@@ -6020,6 +6622,7 @@
     "spotify": "https://open.spotify.com/track/2Xu7XoIn2JIfZ2qgKeQZQt"
   },
   {
+    "id": "crazy-cover-0603",
     "sourceArtist": "Men at Work",
     "song": "Who Can It Be Now?",
     "coverArtist": "Postmodern Jukebox, Sara Niemietz",
@@ -6030,6 +6633,7 @@
     "spotify": "https://open.spotify.com/track/14tmxUBniUsR1sWKIzuC4X"
   },
   {
+    "id": "crazy-cover-0604",
     "sourceArtist": "Nine Inch Nails",
     "song": "Closer",
     "coverArtist": "Postmodern Jukebox, KENTON",
@@ -6040,6 +6644,7 @@
     "spotify": "https://open.spotify.com/track/0E32W7S52AaR4ht7i7DwDq"
   },
   {
+    "id": "crazy-cover-0605",
     "sourceArtist": "Papa Roach",
     "song": "Last Resort",
     "coverArtist": "Robyn Adele Anderson",
@@ -6050,6 +6655,7 @@
     "spotify": "https://open.spotify.com/track/0KZMhp7j5bX2Ux9jTJDfzV"
   },
   {
+    "id": "crazy-cover-0606",
     "sourceArtist": "System of a Down",
     "song": "Chop Suey",
     "coverArtist": "Robyn Adele Anderson",
@@ -6060,6 +6666,7 @@
     "spotify": "https://open.spotify.com/track/6Njf8HXrlBWmb01b8KSMj9"
   },
   {
+    "id": "crazy-cover-0607",
     "sourceArtist": "System of a Down",
     "song": "Toxicity",
     "coverArtist": "Robyn Adele Anderson",
@@ -6070,6 +6677,7 @@
     "spotify": "https://open.spotify.com/track/3oMSWlnj9CpgkOm8JkTub8"
   },
   {
+    "id": "crazy-cover-0608",
     "sourceArtist": "The Smiths",
     "song": "There Is a Light That Never Goes Out",
     "coverArtist": "Postmodern Jukebox, Ashley Campbell",
@@ -6080,6 +6688,7 @@
     "spotify": "https://open.spotify.com/track/5u88RbzsIgnV3sOg8d0mMs"
   },
   {
+    "id": "crazy-cover-0609",
     "sourceArtist": "The Strokes",
     "song": "Last Nite",
     "coverArtist": "Postmodern Jukebox, Sweet Megg",
@@ -6090,6 +6699,7 @@
     "spotify": "https://open.spotify.com/track/2SYqW1oCqOiyH4d3bKI5ZC"
   },
   {
+    "id": "crazy-cover-0610",
     "sourceArtist": "U2",
     "song": "I Still Haven't Found What I'm Looking For",
     "coverArtist": "Postmodern Jukebox, Rogelio Douglas, Jr.",
@@ -6100,6 +6710,7 @@
     "spotify": "https://open.spotify.com/track/1omgcwZmCVnjPIMG5h5bx3"
   },
   {
+    "id": "crazy-cover-0611",
     "sourceArtist": "Radiohead",
     "song": "Creep",
     "coverArtist": "Scott Bradlee's Postmodern Jukebox, Haley Reinhart",
@@ -6110,6 +6721,7 @@
     "spotify": "https://open.spotify.com/track/3AOcpwgy3V2Fwg7B8PZfKl"
   },
   {
+    "id": "crazy-cover-0612",
     "sourceArtist": "Green Day",
     "song": "Boulevard of Broken Dreams",
     "coverArtist": "Scott Bradlee's Postmodern Jukebox, Maiya Sykes",
@@ -6120,6 +6732,7 @@
     "spotify": "https://open.spotify.com/track/2aWOkuQeCtgoJSa6QbNKb5"
   },
   {
+    "id": "crazy-cover-0613",
     "sourceArtist": "Guns N' Roses",
     "song": "November Rain",
     "coverArtist": "David Garrett",
@@ -6130,6 +6743,7 @@
     "spotify": "https://open.spotify.com/track/1XfYyru6HemV6aexQPdF8n"
   },
   {
+    "id": "crazy-cover-0614",
     "sourceArtist": "Nirvana",
     "song": "Smells Like Teen Spirit",
     "coverArtist": "David Garrett",
@@ -6140,6 +6754,7 @@
     "spotify": "https://open.spotify.com/track/7nv6p7p0coIqkhhzr3E7xk"
   },
   {
+    "id": "crazy-cover-0615",
     "sourceArtist": "Led Zeppelin",
     "song": "Kashmir",
     "coverArtist": "David Garrett",
@@ -6150,6 +6765,7 @@
     "spotify": "https://open.spotify.com/track/7Fs4QFrgVydhYFNNJqXcad"
   },
   {
+    "id": "crazy-cover-0616",
     "sourceArtist": "Jimi Hendrix",
     "song": "Purple Haze",
     "coverArtist": "Nigel Kennedy",
@@ -6160,6 +6776,7 @@
     "spotify": "https://open.spotify.com/track/1DhF1ULj0355GzuF6VKbMy?utm_source=openai&utm_medium=chatgpt&request_id=644642f2-020b-4689-aa07-f9d493c71998"
   },
   {
+    "id": "crazy-cover-0617",
     "sourceArtist": "Electric Light Orchestra",
     "song": "Telephone Line",
     "coverArtist": "Jeffrey Foskett",
@@ -6170,6 +6787,7 @@
     "spotify": "https://open.spotify.com/track/2Of66BkIQrADiJGLSerBLS?utm_source=openai&utm_medium=chatgpt&request_id=6b7c0b4b-0eb9-41d4-a176-5fe38dbbb58f"
   },
   {
+    "id": "crazy-cover-0618",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Phoebe Bridgers",
@@ -6180,6 +6798,7 @@
     "spotify": "https://open.spotify.com/track/279Mz9Cv892xJxoJR3Zjx6"
   },
   {
+    "id": "crazy-cover-0619",
     "sourceArtist": "Radiohead",
     "song": "Creep",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6190,6 +6809,7 @@
     "spotify": "https://open.spotify.com/track/5sT9L8WpqE9Ux1LpNyHGWi"
   },
   {
+    "id": "crazy-cover-0620",
     "sourceArtist": "U2",
     "song": "With or Without You",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6200,6 +6820,7 @@
     "spotify": "https://open.spotify.com/track/3UMfwUYJjjIBtlqnAKwWmP"
   },
   {
+    "id": "crazy-cover-0621",
     "sourceArtist": "Coldplay",
     "song": "Yellow",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6210,6 +6831,7 @@
     "spotify": "https://open.spotify.com/track/4f5Dglz30XfNc9YeeWNOqY"
   },
   {
+    "id": "crazy-cover-0622",
     "sourceArtist": "David Bowie",
     "song": "Life on Mars",
     "coverArtist": "Jasper Steverlinck, Scala & Kolacny Brothers",
@@ -6220,6 +6842,7 @@
     "spotify": "https://open.spotify.com/track/4rhc6AssN7qbQsf4vu5pNw"
   },
   {
+    "id": "crazy-cover-0623",
     "sourceArtist": "Divinyls",
     "song": "I Touch Myself",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6230,6 +6853,7 @@
     "spotify": "https://open.spotify.com/track/5WAdxow8ofiTbUyt05Wiil"
   },
   {
+    "id": "crazy-cover-0624",
     "sourceArtist": "R.E.M.",
     "song": "The One I Love",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6240,6 +6864,7 @@
     "spotify": "https://open.spotify.com/track/73fhf1cmFFWx3lTWCK21Hz"
   },
   {
+    "id": "crazy-cover-0625",
     "sourceArtist": "The Mamas & the Papas",
     "song": "California Dreamin'",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6250,6 +6875,7 @@
     "spotify": "https://open.spotify.com/track/7ilSAUShpU2ySw5iGcnCKx"
   },
   {
+    "id": "crazy-cover-0626",
     "sourceArtist": "Foo Fighters",
     "song": "Everlong",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6260,6 +6886,7 @@
     "spotify": "https://open.spotify.com/track/0i4pa9yhaNPU3ESCgL8D0x"
   },
   {
+    "id": "crazy-cover-0627",
     "sourceArtist": "Metallica",
     "song": "Nothing Else Matters",
     "coverArtist": "Scala & Kolacny Brothers",
@@ -6270,6 +6897,7 @@
     "spotify": "https://open.spotify.com/track/5lYO7bXfHqZgUmOH7kJYHz"
   },
   {
+    "id": "crazy-cover-0628",
     "sourceArtist": "Talking Heads",
     "song": "Crosseyed And Painless",
     "coverArtist": "Phish",
@@ -6280,6 +6908,7 @@
     "spotify": "https://open.spotify.com/track/2d7WalERLLLqzlaUVB0Ok4"
   },
   {
+    "id": "crazy-cover-0629",
     "sourceArtist": "Eumir Deodato",
     "song": "2001",
     "coverArtist": "Phish",
@@ -6290,6 +6919,7 @@
     "spotify": "https://open.spotify.com/track/1eobafi8stZoy1iau1piW8"
   },
   {
+    "id": "crazy-cover-0630",
     "sourceArtist": "The Beatles",
     "song": "While My Guitar Gently Weeps",
     "coverArtist": "Phish",
@@ -6300,6 +6930,7 @@
     "spotify": "https://open.spotify.com/track/6E2LHLqh8F9NIS8ar2QzCq"
   },
   {
+    "id": "crazy-cover-0631",
     "sourceArtist": "Pink Floyd",
     "song": "Shine on You Crazy Diamond",
     "coverArtist": "Les Claypool",
@@ -6310,6 +6941,7 @@
     "spotify": "https://open.spotify.com/track/26ITjGv4OkZCiSsiOpPO5H"
   },
   {
+    "id": "crazy-cover-0632",
     "sourceArtist": "Pink Floyd",
     "song": "Time",
     "coverArtist": "Gov't Mule",
