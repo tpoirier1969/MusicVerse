@@ -3,7 +3,8 @@
 
 alter table public.musicverse_instruments
   add column if not exists importance text,
-  add column if not exists research_sources jsonb not null default '[]'::jsonb;
+  add column if not exists research_sources jsonb not null default '[]'::jsonb,
+  add column if not exists research_standard_version integer not null default 0;
 
 alter table public.musicverse_instrument_genres
   add column if not exists research_sources jsonb not null default '[]'::jsonb;
@@ -39,6 +40,7 @@ begin
     update public.musicverse_instruments
     set importance = nullif(v_instrument->>'importance',''),
         research_sources = coalesce(v_instrument->'researchSources','[]'::jsonb),
+        research_standard_version = coalesce(nullif(v_instrument->>'researchStandardVersion','')::integer, 0),
         updated_at = now()
     where id = v_instrument_id;
 
@@ -108,7 +110,8 @@ select
   ) as genres,
   i.sort_order,
   i.importance,
-  i.research_sources
+  i.research_sources,
+  i.research_standard_version
 from public.musicverse_instruments i;
 
 grant select on public.musicverse_soundtrail_instruments_v to anon, authenticated;
