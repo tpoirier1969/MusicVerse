@@ -1,11 +1,12 @@
 {
-  "version": "0.6.2",
+  "version": "0.6.3",
   "updated_at": "2026-10-13",
   "notes": [
-    "Added permanent stable IDs to every Crazy Covers record so display-text corrections do not change record identity.",
-    "Added a repeat-safe catalog sync bundle with deterministic fingerprinting and validation.",
-    "Added dry-run, remote audit, and protected Supabase apply commands for future catalog updates.",
-    "Catalog apply refuses to target a Supabase project other than the configured MusicVerse project and requires a server-side service-role key.",
-    "The live import RPC still needs to be verified on the Yellowdawg Supabase project before catalog writes are enabled."
+    "Added the namespaced Yellowdawg Supabase catalog schema and public read views expected by MusicVerse.",
+    "Added the protected musicverse_import_catalog_v1 RPC for repeat-safe catalog imports.",
+    "Recording identity now preserves permanent MusicVerse aliases and can converge on verified Spotify track IDs without depending on editable display text.",
+    "The catalog importer is non-destructive: repeated imports update known records and do not delete records omitted from a later snapshot.",
+    "Added migration contract tests for required views, service-role protection, and non-destructive behavior.",
+    "No catalog data is imported by this release until the Yellowdawg migration is applied."
   ]
 }
