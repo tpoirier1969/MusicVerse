@@ -209,3 +209,41 @@ h1,h2,h3 { font-family:Georgia,serif; color:#172a24; }
 }
 
 .original-track-label{display:inline-block;font-style:normal;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--pine);background:#e3eadf;border-radius:999px;padding:4px 8px}
+
+
+/* Synced personal library */
+.reference-workspace,.library-workspace{padding:32px 42px 50px;display:grid;gap:22px}
+.reference-form,.account-panel,.library-section{padding:28px}
+.reference-form-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+.reference-form label,.account-signin{display:grid;gap:6px;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.reference-form input,.reference-form select,.reference-form textarea,.account-signin input{width:100%;border:1px solid rgba(36,52,47,.16);background:#fffaf1;border-radius:18px;padding:11px 13px;color:var(--ink);font:inherit;font-size:14px;text-transform:none;letter-spacing:0;box-sizing:border-box}
+.reference-form textarea{resize:vertical;border-radius:20px}.reference-notes{margin-bottom:14px}
+.reference-list{display:grid;gap:12px}.reference-list>.section-heading{margin-bottom:0}
+.reference-card{padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px;background:#f3eadb}
+.reference-card h3{margin:2px 0 5px;font-size:22px}.reference-card p,.reference-card small{margin:0;color:var(--muted);line-height:1.45}
+.reference-actions{display:flex;gap:8px;align-items:center;flex:0 0 auto}.reference-actions .secondary-action{text-decoration:none}
+.account-panel{display:flex;justify-content:space-between;align-items:center;gap:28px;background:linear-gradient(135deg,#e2e8dc,#f0dfc8)}
+.account-panel h2{font-size:34px;margin:2px 0 8px}.account-panel p{max-width:780px;color:#555d53;line-height:1.5}.account-panel small{color:var(--muted)}
+.account-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.account-signin{display:flex;grid-template-columns:minmax(220px,320px) auto;align-items:center;gap:10px;min-width:min(520px,100%)}
+.account-signin input{border-radius:999px}.sync-link-sent{padding:10px 12px;border-radius:16px;background:#edf2e7;color:var(--pine)!important}.sync-warning{padding:10px 12px;border-radius:16px;background:#f3ddcc;color:#7b3e2a!important;font-weight:700}
+.library-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.library-stat{padding:22px 24px;display:grid;gap:2px;color:var(--ink);background:#f0e7d6}.library-stat strong{font:700 38px/1 Georgia,serif;color:var(--pine)}.library-stat span{color:var(--muted);font-weight:800}
+.library-section{display:grid;gap:14px}.library-section .section-heading{margin:0}.library-section .reference-card{box-shadow:none}
+
+
+@media (max-width:1180px){
+  .reference-form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .library-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .account-panel{align-items:flex-start;flex-direction:column}
+  .account-actions{justify-content:flex-start}
+}
+@media (max-width:760px){
+  .reference-workspace,.library-workspace{padding:22px 14px 36px}
+  .reference-form,.account-panel,.library-section{padding:20px}
+  .reference-form-grid{grid-template-columns:1fr}
+  .reference-card{align-items:flex-start;flex-direction:column}
+  .reference-actions{width:100%;justify-content:space-between}
+  .library-stat-grid{grid-template-columns:1fr 1fr}
+  .account-signin{display:grid;grid-template-columns:1fr;width:100%;min-width:0}
+  .account-signin .primary-action{width:100%}
+}
