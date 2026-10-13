@@ -113,6 +113,13 @@
           "name": "Zydeco",
           "about": "Zydeco puts accordion at the center of a Creole dance groove influenced by blues and R&B. Piano and button accordions deliver riffs, fills, and percussive bellows accents over a strong backbeat."
         }
+      ],
+      "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
+      "researchSources": [
+        {
+          "label": "Early Music America — According the Accordion Its Historical Due",
+          "url": "https://www.earlymusicamerica.org/web-articles/according-the-accordion-its-historical-due/"
+        }
       ]
     },
     {
@@ -127,6 +134,17 @@
         {
           "name": "Modern Jazz",
           "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance."
+        }
+      ],
+      "importance": "The clarinet matters because its range and dynamic flexibility let it function as a warm low voice, bright lead, lyrical soloist, and agile ensemble instrument. It became a standard orchestral and band voice and a defining sound in early jazz and swing.",
+      "researchSources": [
+        {
+          "label": "Philharmonia — Clarinet",
+          "url": "https://philharmonia.co.uk/resources/instruments/clarinet/"
+        },
+        {
+          "label": "Yamaha — The modern clarinet",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/structure/structure002.html"
         }
       ]
     },
@@ -147,6 +165,17 @@
           "name": "Instrumental / Steel Guitar",
           "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble."
         }
+      ],
+      "importance": "Pedal steel matters because pedals and knee levers let selected strings change pitch while others sustain, creating moving harmonies and vocal-like bends unavailable on an ordinary guitar. That sound became one of country music's most recognizable signatures and also powers the separate Sacred Steel tradition.",
+      "researchSources": [
+        {
+          "label": "Country Music Hall of Fame — History of Country Music Instruments",
+          "url": "https://www.countrymusichalloffame.org/learn/family-and-community-resources/history-of-country-music-instruments"
+        },
+        {
+          "label": "Smithsonian Folkways — Traditional Sacred African-American Steel Guitar Music",
+          "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
+        }
       ]
     },
     {
@@ -165,6 +194,13 @@
         {
           "name": "Alternative / Cello Rock",
           "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre."
+        }
+      ],
+      "importance": "The cello matters because it can anchor bass lines, sing tenor melodies, and move rapidly between accompaniment and lead. Its wide range, powerful sound, and clear attack make it central to orchestral and chamber music while also giving it enough weight and flexibility for rock and amplified ensemble roles.",
+      "researchSources": [
+        {
+          "label": "Philharmonia — Cello",
+          "url": "https://philharmonia.co.uk/resources/instruments/cello/"
         }
       ]
     },
@@ -185,6 +221,17 @@
           "name": "Contemporary Global / Fusion",
           "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting."
         }
+      ],
+      "importance": "The sitar matters as a major Hindustani classical lead instrument and one of Indian music's most internationally recognized sounds. Its bent notes, drones, and sympathetic resonance shape raga performance and later helped carry Indian musical ideas into global popular and fusion music.",
+      "researchSources": [
+        {
+          "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+          "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+        },
+        {
+          "label": "Encyclopaedia Britannica — Sitar",
+          "url": "https://www.britannica.com/art/sitar"
+        }
       ]
     },
     {
@@ -203,6 +250,17 @@
         {
           "name": "Bass Feature",
           "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes."
+        }
+      ],
+      "importance": "The double bass matters because it provides the low foundation beneath orchestral strings and became both a rhythmic timekeeper and harmonic anchor in jazz. Despite that foundational role, it can also function as a melodic, compositional, and improvising solo voice.",
+      "researchSources": [
+        {
+          "label": "Encyclopaedia Britannica — Who Invented the Double Bass?",
+          "url": "https://www.britannica.com/topic/Who-Invented-the-Double-Bass"
+        },
+        {
+          "label": "Youngstown Symphony Orchestra — The Double Bass: From Foundation to Melody",
+          "url": "https://ysomusic.org/media/the-double-bass"
         }
       ]
     },
@@ -226,6 +284,17 @@
         {
           "name": "Rock / Psychedelia",
           "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit."
+        }
+      ],
+      "importance": "Tabla matters because the paired hand drums articulate tala with both rhythm and pitch, functioning as accompaniment, dialogue partner, and solo instrument in Hindustani music. Its wide tonal vocabulary also makes it unusually adaptable to fusion and contemporary settings.",
+      "researchSources": [
+        {
+          "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+          "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+        },
+        {
+          "label": "Encyclopaedia Britannica — Tabla",
+          "url": "https://www.britannica.com/art/tabla"
         }
       ]
     }
