@@ -134,6 +134,60 @@
         {
           "name": "Modern Jazz",
           "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance."
+        },
+        {
+          "name": "Classical / Concerto",
+          "about": "Classical clarinet writing exploits the instrument's unusually broad register and its ability to change character from dark, rounded low notes to clear upper-register singing. Concertos and chamber works often place it in a genuinely soloistic role rather than treating it as orchestral color.",
+          "researchSources": [
+            {
+              "label": "Philharmonia — Clarinet",
+              "url": "https://philharmonia.co.uk/resources/instruments/clarinet/"
+            }
+          ]
+        },
+        {
+          "name": "Klezmer",
+          "about": "Clarinet became one of klezmer's great virtuoso voices because it can imitate speech, laughter, sobs, bends, ornaments, and rapid dance figures. In many twentieth-century klezmer ensembles it moved easily between melody leader, improviser, and dialogue with violin or brass.",
+          "researchSources": [
+            {
+              "label": "Milken Archive — Kli Zemer",
+              "url": "https://www.milkenarchive.org/music/volumes/view/the-classical-klezmer/work/kli-zemer/"
+            }
+          ]
+        },
+        {
+          "name": "New Orleans / Traditional Jazz",
+          "about": "Early New Orleans jazz uses clarinet as the agile upper voice of the front line, weaving countermelodies around trumpet or cornet while reacting to trombone and rhythm section. The result is less a single solo line than a moving conversation inside collective improvisation.",
+          "researchSources": [
+            {
+              "label": "Historic New Orleans Collection — George Lewis",
+              "url": "https://www.hnoc.org/publications/first-draft/george-lewis-new-orleans-clarinetist"
+            }
+          ]
+        },
+        {
+          "name": "Brazilian Choro",
+          "about": "In choro the clarinet can carry quick, ornamented melodies while still sounding supple enough for lyrical passages. Brazilian players also brought jazz harmony and improvisational language into the instrument's choro vocabulary without losing the music's syncopated dance pulse.",
+          "researchSources": [
+            {
+              "label": "ChoroLab — K-Ximbinho",
+              "url": "https://chorolab.com/en/choropedia/k-ximbinho"
+            }
+          ]
+        },
+        {
+          "name": "Turkish / Romani",
+          "about": "The Turkish G clarinet is a major voice in Romani and regional dance music, prized for a dark lower register, piercing upper range, microtonal inflection, breathy attacks, and vocal-like ornament. Virtuosos can make one melodic line carry both rhythmic urgency and expressive drama.",
+          "researchSources": [
+            {
+              "label": "All About Jazz — Out of the Roma Villages of Turkey, Clarinet Reigns",
+              "url": "https://www.allaboutjazz.com/out-of-the-roma-villages-of-turkey-clarinet-reigns-beyond-its-traditions-zakir-hussain"
+            },
+            {
+              "label": "WOMEX — Selim Sesler",
+              "url": "https://www.womex.com/virtual/doublemoon_records/selim_sesler"
+            }
+          ]
         }
       ],
       "importance": "The clarinet matters because its range and dynamic flexibility let it function as a warm low voice, bright lead, lyrical soloist, and agile ensemble instrument. It became a standard orchestral and band voice and a defining sound in early jazz and swing.",
@@ -164,6 +218,70 @@
         {
           "name": "Instrumental / Steel Guitar",
           "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble."
+        },
+        {
+          "name": "Western Swing / Hot Steel",
+          "about": "Western swing helped turn steel guitar from background color into a fast, extroverted lead voice. Pedals expanded the harmonic possibilities, while jazz-influenced players used bright attack, quick single-note lines, harmonics, and chord movement over a dance-band rhythm section.",
+          "researchSources": [
+            {
+              "label": "Country Music Hall of Fame — History of Country Music Instruments",
+              "url": "https://www.countrymusichalloffame.org/learn/family-and-community-resources/history-of-country-music-instruments"
+            }
+          ]
+        },
+        {
+          "name": "Jazz",
+          "about": "Jazz pedal steel treats the instrument as a chromatic improvising voice instead of a country signifier. The pedals and knee levers allow inner notes of chords to move independently, giving skilled players access to dense harmony, smooth voice-leading, and horn-like melodic lines.",
+          "researchSources": [
+            {
+              "label": "JazzTimes — pedal steel in jazz",
+              "url": "https://jazztimes.com/reviews/albums/ellery-eskelinsusan-alcornmichael-formanek-mirage/"
+            }
+          ]
+        },
+        {
+          "name": "Country Rock",
+          "about": "Country rock put pedal steel next to electric guitars and rock drums, preserving the instrument's bends and glides while using amplification, effects, and harder rhythmic attack. The Flying Burrito Brothers made that collision a defining part of the style.",
+          "researchSources": [
+            {
+              "label": "Chris Hillman — The Flying Burrito Brothers",
+              "url": "https://chrishillman.com/pages/the-flying-burrito-brothers"
+            },
+            {
+              "label": "Vintage Guitar — Sneaky Pete Kleinow",
+              "url": "https://www.vintageguitar.com/36572/sneaky-pete-kleinow/"
+            }
+          ]
+        },
+        {
+          "name": "Folk Rock / Pop",
+          "about": "In folk rock and pop, pedal steel often appears as a highly memorable supporting voice rather than the center of the arrangement. Long bends and sustained answering phrases can add warmth, openness, and a country tint without turning the whole track into country music.",
+          "researchSources": [
+            {
+              "label": "No Depression — Jerry Garcia and the Pedal Steel Guitar",
+              "url": "https://nodepression.org/jerry-garcia-and-the-pedal-steel-guitar/"
+            }
+          ]
+        },
+        {
+          "name": "Ambient / Experimental",
+          "about": "Ambient pedal steel stretches the instrument's natural sustain into slowly changing fields of harmony. Volume swells, effects, overtones, and patient pedal movement can obscure the initial pick attack until the instrument behaves more like an electronic sound source than a guitar.",
+          "researchSources": [
+            {
+              "label": "Chuck Johnson — Balsams review",
+              "url": "https://www.chuckjohnson.net/dusted-reviews-balsams/"
+            }
+          ]
+        },
+        {
+          "name": "Sacred Steel / Gospel",
+          "about": "Sacred Steel developed within African American House of God congregations, where steel guitar takes on roles associated with the human voice, organ, and lead guitar. Pedal steel can answer singers, build worship intensity, and improvise over gospel rhythm with a vocabulary distinct from country steel.",
+          "researchSources": [
+            {
+              "label": "Smithsonian Folkways — Sacred Steel",
+              "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
+            }
+          ]
         }
       ],
       "importance": "Pedal steel matters because pedals and knee levers let selected strings change pitch while others sustain, creating moving harmonies and vocal-like bends unavailable on an ordinary guitar. That sound became one of country music's most recognizable signatures and also powers the separate Sacred Steel tradition.",
@@ -194,6 +312,84 @@
         {
           "name": "Alternative / Cello Rock",
           "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre."
+        },
+        {
+          "name": "Romantic / Concerto",
+          "about": "Romantic concerto writing pushes the cello from orchestral foundation to dramatic protagonist. Its tenor register can carry long vocal lines, while the low strings retain enough weight for forceful statements and the upper register can project over a full orchestra.",
+          "researchSources": [
+            {
+              "label": "The Strad — Jacqueline du Pré performs the Elgar Cello Concerto",
+              "url": "https://www.thestrad.com/video/jacqueline-du-pre-performs-the-elgar-cello-concerto/13810.article"
+            }
+          ]
+        },
+        {
+          "name": "Jazz / Improvised",
+          "about": "Jazz cellists use both bow and pizzicato to escape the instrument's classical job description. The cello can walk or pulse like a bass, articulate guitar-like chords, and then move into an expressive middle-register solo voice, making it unusually flexible in improvised music.",
+          "researchSources": [
+            {
+              "label": "JazzTimes — The Cello in Jazz",
+              "url": "https://www.jazztimes.com/features/profiles/cello-in-jazz/"
+            }
+          ]
+        },
+        {
+          "name": "Contemporary Solo / Looping",
+          "about": "Loop-based solo cello turns one player into an ensemble. Short bowed, plucked, and percussive figures are recorded in real time and layered into counterpoint, drones, bass motion, and rhythm, letting the cello supply nearly every part of the texture.",
+          "researchSources": [
+            {
+              "label": "Zoë Keating — Escape Artist",
+              "url": "https://music.zoekeating.com/track/escape-artist"
+            }
+          ]
+        },
+        {
+          "name": "New Acoustic / Bluegrass",
+          "about": "New-acoustic and progressive bluegrass players adapted cello to a string-band environment where there was little traditional role for it. Chopping, pizzicato bass figures, drones, and aggressive bowing let it supply rhythm and low-end support while remaining a melodic instrument.",
+          "researchSources": [
+            {
+              "label": "Club Passim — Rushad Eggleston",
+              "url": "https://www.passim.org/artists/rushad-eggleston/"
+            },
+            {
+              "label": "Berklee — Rushad Eggleston",
+              "url": "https://college.berklee.edu/people/rushad-eggleston"
+            }
+          ]
+        },
+        {
+          "name": "Singer-Songwriter / Folk-R&B",
+          "about": "Singer-songwriters can use cello as both accompaniment and groove instrument rather than a string-section sweetener. Plucked bass patterns, chopped rhythms, chords, and bowed fills let one performer support a vocal while keeping the cello central to the song's identity.",
+          "researchSources": [
+            {
+              "label": "BMI — Ben Sollee: Strong Enough to Bend",
+              "url": "https://www.bmi.com/advice/ben_sollee_strong_enough_to_bend"
+            }
+          ]
+        },
+        {
+          "name": "Classical Crossover / Pop-Rock",
+          "about": "Cello crossover arrangements translate guitar riffs, bass lines, percussion-like attacks, and lead melodies onto amplified bowed strings. The point is not to make rock polite; the cello's physical attack and range can reproduce much of a full band's energy on its own terms.",
+          "researchSources": [
+            {
+              "label": "The Strad — 2Cellos perform Smooth Criminal",
+              "url": "https://www.thestrad.com/video/2cellos-perform-smooth-criminal-live-in-tokyo/105.article"
+            }
+          ]
+        },
+        {
+          "name": "Contemporary / American Roots",
+          "about": "Contemporary solo cello can draw on American roots gestures without becoming a traditional string-band instrument. Bowed melody, pizzicato, harmonics, rhythmic attack, and live processing allow one cello to move between folk memory, improvisation, and modern composition.",
+          "researchSources": [
+            {
+              "label": "Erik Friedlander — Block Ice & Propane",
+              "url": "https://www.erikfriedlander.com/music-shop/p/block-ice-propane-cd"
+            },
+            {
+              "label": "JazzTimes — Block Ice & Propane",
+              "url": "https://jazztimes.com/archives/erik-friedlander-block-ice-propane/"
+            }
+          ]
         }
       ],
       "importance": "The cello matters because it can anchor bass lines, sing tenor melodies, and move rapidly between accompaniment and lead. Its wide range, powerful sound, and clear attack make it central to orchestral and chamber music while also giving it enough weight and flexibility for rock and amplified ensemble roles.",
@@ -220,6 +416,60 @@
         {
           "name": "Contemporary Global / Fusion",
           "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting."
+        },
+        {
+          "name": "Raga Rock / Pop",
+          "about": "Raga rock uses sitar inside Western song forms, where its buzzing sustain, bent notes, and drone-oriented phrasing can reshape a pop or rock hook rather than merely decorate it. The strongest examples make the sitar part structurally memorable.",
+          "researchSources": [
+            {
+              "label": "Far Out — Brian Jones and Paint It, Black",
+              "url": "https://faroutmagazine.co.uk/what-instrument-brian-jones-play-rolling-stones-song-paint-it-black/"
+            }
+          ]
+        },
+        {
+          "name": "Indian-Western / Funk Fusion",
+          "about": "Indian-Western fusion can put sitar directly into funk, rock, orchestral, and studio-groove settings. Rather than imitating Hindustani recital form, the instrument works with repeating riffs, backbeats, electric bass, and arranged ensemble textures.",
+          "researchSources": [
+            {
+              "label": "Cafe Dissensus — Ananda Shankar: The fusion maestro",
+              "url": "https://cafedissensusblog.com/2018/04/29/ananda-shankar-the-fusion-maestro/"
+            }
+          ]
+        },
+        {
+          "name": "Film / Soundtrack",
+          "about": "Film scoring uses sitar for both thematic identity and expressive color. In Ravi Shankar's work for Satyajit Ray, Indian classical vocabulary is compressed and reshaped around scene, character, pacing, and recurring themes rather than unfolding as a concert-length raga.",
+          "researchSources": [
+            {
+              "label": "Frontline — Working with Ravi Shankar: The Music of Satyajit Ray's Apu Trilogy",
+              "url": "https://frontline.thehindu.com/cover-story/working-with-ravi-shankar-the-music-of-satyajit-ray-apu-trilogy/article64765064.ece"
+            }
+          ]
+        },
+        {
+          "name": "Indo-Jazz",
+          "about": "Indo-jazz brings raga-derived improvisation and tala-informed phrasing into conversation with jazz harmony, winds, bass, and drums. Sitar can remain recognizably Indian while trading ideas with Western improvisers instead of being layered over a finished jazz arrangement.",
+          "researchSources": [
+            {
+              "label": "NPR — Facing The East: Indo-Jazz Fusion",
+              "url": "https://www.npr.org/2010/08/24/129379409/facing-the-east-indo-jazz-fusion"
+            }
+          ]
+        },
+        {
+          "name": "Electronic / Contemporary",
+          "about": "Contemporary sitar can sit beside synthesizers, samples, electronic processing, bass, and modern percussion without surrendering its acoustic identity. The contrast between plucked resonance and produced texture lets the instrument function as both ancient timbre and present-day lead voice.",
+          "researchSources": [
+            {
+              "label": "Anoushka Shankar — Land of Gold",
+              "url": "https://www.anoushkashankar.com/music/albums/land-of-gold"
+            },
+            {
+              "label": "Jazzwise — Land of Gold",
+              "url": "https://www.jazzwise.com/reviews/anoushka-shankar-land-of-gold"
+            }
+          ]
         }
       ],
       "importance": "The sitar matters as a major Hindustani classical lead instrument and one of Indian music's most internationally recognized sounds. Its bent notes, drones, and sympathetic resonance shape raga performance and later helped carry Indian musical ideas into global popular and fusion music.",
@@ -250,6 +500,64 @@
         {
           "name": "Bass Feature",
           "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes."
+        },
+        {
+          "name": "Classical / Solo Concerto",
+          "about": "Solo double-bass repertoire fights the instrument's stereotype as background foundation. Virtuoso concertos exploit harmonics, fast articulation, lyrical upper-register playing, and large leaps, revealing a range and agility that orchestral bass parts can easily hide.",
+          "researchSources": [
+            {
+              "label": "IMSLP — Bottesini Double Bass Concerto No. 2",
+              "url": "https://imslp.org/wiki/Double_Bass_Concerto_No.2_in_B_minor_(Bottesini%2C_Giovanni)"
+            }
+          ]
+        },
+        {
+          "name": "New Acoustic / Bluegrass",
+          "about": "New-acoustic music lets double bass keep its traditional low-end job while becoming a compositional and melodic equal to fiddle, mandolin, and guitar. Players move between pizzicato groove, counterpoint, bowed lines, and solo passages without leaving an acoustic string-band palette.",
+          "researchSources": [
+            {
+              "label": "Edgar Meyer — discography",
+              "url": "https://edgarmeyer.com/"
+            },
+            {
+              "label": "Boosey & Hawkes — Edgar Meyer biography",
+              "url": "https://www.boosey.com/composer/Edgar+Meyer?ttype=BIOGRAPHY"
+            }
+          ]
+        },
+        {
+          "name": "Rockabilly",
+          "about": "Rockabilly makes the upright bass visibly and rhythmically central. Slap technique adds a percussive click to the pitched bass line, so the instrument locks with the drums while supplying walking and root-fifth figures that keep the music jumping.",
+          "researchSources": [
+            {
+              "label": "Bass Magazine — Lee Rocker",
+              "url": "https://bassmagazine.com/issues/issue-3/lee-rocker-40-years-a-feline-with-stray-cats/"
+            },
+            {
+              "label": "Lee Rocker — Stray Cats",
+              "url": "https://leerocker.com/stray-cats"
+            }
+          ]
+        },
+        {
+          "name": "Tango",
+          "about": "In tango the double bass anchors the rhythmic section with sharply articulated attacks, walking figures, anticipations, and dramatic stops. Modern tango also gives the bass more exposed melodic writing, especially in the ensembles and compositions surrounding Astor Piazzolla.",
+          "researchSources": [
+            {
+              "label": "Todo Tango — Brothers and bass players: Pepe and Kicho Díaz",
+              "url": "https://www.todotango.com/english/history/chronicle/342/Brothers-and-bass-players:-Pepe-and-Kicho-Diaz/"
+            }
+          ]
+        },
+        {
+          "name": "Avant-Garde / Free Jazz",
+          "about": "Free and avant-garde jazz expanded the double bass from timekeeper into an independent improvising voice. Players use space, arco, harmonics, double stops, pedal tones, and unaccompanied statements while still providing enough gravity to organize a large ensemble.",
+          "researchSources": [
+            {
+              "label": "Jazz History Online — Liberation Music Orchestra",
+              "url": "https://jazzhistoryonline.com/liberation-music-orch/"
+            }
+          ]
         }
       ],
       "importance": "The double bass matters because it provides the low foundation beneath orchestral strings and became both a rhythmic timekeeper and harmonic anchor in jazz. Despite that foundational role, it can also function as a melodic, compositional, and improvising solo voice.",
@@ -284,6 +592,44 @@
         {
           "name": "Rock / Psychedelia",
           "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit."
+        },
+        {
+          "name": "Tabla Solo / Hindustani Classical",
+          "about": "Tabla solo performance places the drum pair at the center rather than in accompaniment. The player develops a tala through composed and improvised bols, variations, cadences, tone changes, and rhythmic mathematics while maintaining the cycle clearly enough for the listener to hear its architecture.",
+          "researchSources": [
+            {
+              "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+              "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+            }
+          ]
+        },
+        {
+          "name": "Hindustani Classical / Accompaniment",
+          "about": "In Hindustani instrumental performance, tabla enters as a rhythmic partner that makes the tala audible and interacts with the soloist's phrases. A strong accompanist does more than mark time: accents, subdivisions, responses, and cadences create an improvised dialogue around the raga.",
+          "researchSources": [
+            {
+              "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+              "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+            },
+            {
+              "label": "TuneDig — Ravi Shankar's Three Ragas",
+              "url": "https://tunedig.com/tunedig-episode-53-ravi-shankars-three-ragas/"
+            }
+          ]
+        },
+        {
+          "name": "Contemporary Electronic / World Fusion",
+          "about": "Contemporary tabla fusion treats hand-played bols and tuned drum tones as material for electronic production, dub, ambient texture, and programmed rhythm. The acoustic tabla can remain recognizable while being layered with bass, samples, loops, and studio effects.",
+          "researchSources": [
+            {
+              "label": "Bill Laswell — Tabla Beat Science: Tala Matrix",
+              "url": "https://billlaswell.net/album/tala-matrix"
+            },
+            {
+              "label": "RootsWorld — Tala Matrix review",
+              "url": "https://www.rootsworld.com/reviews/tala.html"
+            }
+          ]
         }
       ],
       "importance": "Tabla matters because the paired hand drums articulate tala with both rhythm and pitch, functioning as accompaniment, dialogue partner, and solo instrument in Hindustani music. Its wide tonal vocabulary also makes it unusually adaptable to fusion and contemporary settings.",
@@ -1479,13 +1825,16 @@
       "region": "India",
       "startHere": true,
       "instruments": [
-        "sitar"
+        "sitar",
+        "tabla"
       ],
       "genresByInstrument": {
-        "sitar": "Hindustani Classical"
+        "sitar": "Hindustani Classical",
+        "tabla": "Hindustani Classical / Accompaniment"
       },
       "instrumentNotes": {
-        "sitar": "A long-form raga performance makes the sitar's core vocabulary easy to hear: ornamented melodic development, sustained resonance, and gradually intensifying improvisation."
+        "sitar": "A long-form raga performance makes the sitar's core vocabulary easy to hear: ornamented melodic development, sustained resonance, and gradually intensifying improvisation.",
+        "tabla": "Chatur Lal's tabla articulates the tala in the composed sections, answering and supporting Shankar's sitar with a flexible rhythmic dialogue rather than simply marking beats."
       },
       "spotify": "https://open.spotify.com/track/36QOw2w9UPCG41rjP43lO5",
       "id": "soundtrail-recording-0070"
@@ -1587,7 +1936,7 @@
         "tabla"
       ],
       "genresByInstrument": {
-        "tabla": "Indian Classical"
+        "tabla": "Tabla Solo / Hindustani Classical"
       },
       "instrumentNotes": {
         "tabla": "A tabla-centered performance that lets the listener focus on stroke vocabulary, tonal control, phrase development, and the internal architecture of a tala cycle."
@@ -1628,6 +1977,499 @@
       },
       "spotify": "https://open.spotify.com/track/6iLYFdEzXr5XrQoKz4ZYzf",
       "id": "soundtrail-recording-0078"
+    },
+    {
+      "id": "soundtrail-recording-0079",
+      "artist": "Wolfgang Amadeus Mozart / Martin Fröst",
+      "track": "Clarinet Concerto in A Major, K. 622: II. Adagio",
+      "region": "Austria / Sweden",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Classical / Concerto"
+      },
+      "instrumentNotes": {
+        "clarinet": "Fröst's solo line shows the classical clarinet's long breath, smooth register changes, and ability to carry a singing melody above a chamber orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/70h1nYoPh4869FrsT9IILv"
+    },
+    {
+      "id": "soundtrail-recording-0080",
+      "artist": "Naftule Brandwein",
+      "track": "Heiser Bulgar",
+      "region": "United States / Eastern European Jewish diaspora",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Klezmer"
+      },
+      "instrumentNotes": {
+        "clarinet": "Brandwein's clarinet uses bends, ornaments, quick turns, and speech-like inflection as the principal dance-melody voice, a defining sound of early recorded American klezmer."
+      },
+      "spotify": "https://open.spotify.com/track/4ZQCJasz1j1geHAzZJ59Ob"
+    },
+    {
+      "id": "soundtrail-recording-0081",
+      "artist": "George Lewis",
+      "track": "Burgundy Street Blues",
+      "region": "New Orleans, United States",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "New Orleans / Traditional Jazz"
+      },
+      "instrumentNotes": {
+        "clarinet": "Lewis demonstrates the New Orleans clarinet ideal: a supple upper voice that can lead lyrically while remaining rooted in collective ensemble phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/6rMN3NP34S3PghhruNd0tc"
+    },
+    {
+      "id": "soundtrail-recording-0082",
+      "artist": "K-Ximbinho",
+      "track": "Ternura",
+      "region": "Brazil",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Brazilian Choro"
+      },
+      "instrumentNotes": {
+        "clarinet": "K-Ximbinho blends the clarinet's singing choro vocabulary with jazz-informed harmony and phrasing, showing how naturally the instrument moves between Brazilian melody and improvisation."
+      },
+      "spotify": "https://open.spotify.com/track/5kzDxKAzedM3ExWqIQtVUB"
+    },
+    {
+      "id": "soundtrail-recording-0083",
+      "artist": "Selim Sesler",
+      "track": "Roman Oyun Havası",
+      "region": "Turkey / Thrace",
+      "startHere": true,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Turkish / Romani"
+      },
+      "instrumentNotes": {
+        "clarinet": "Sesler's G clarinet carries the dance tune with microtonal bends, forceful ornaments, and a vocal quality closely associated with Turkish Romani clarinet playing."
+      },
+      "spotify": "https://open.spotify.com/track/0wrhN4YxOkSB3RKh6gyS2z"
+    },
+    {
+      "id": "soundtrail-recording-0084",
+      "artist": "Speedy West",
+      "track": "Speedin' West",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Western Swing / Hot Steel"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "West pushes steel into the foreground with fast runs, bright attacks, harmonics, and jazz-minded phrasing, showing the instrument as a virtuoso lead voice rather than background accompaniment."
+      },
+      "spotify": "https://open.spotify.com/track/58hhRCgZGA8cY1HWch5NL8"
+    },
+    {
+      "id": "soundtrail-recording-0085",
+      "artist": "Buddy Emmons",
+      "track": "Witchcraft",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Jazz"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Emmons applies pedal steel's moving inner voices and sustain to jazz harmony, phrasing the standard as an improvising instrument rather than leaning on country clichés."
+      },
+      "spotify": "https://open.spotify.com/track/4ehYUvzUOAvywGF7Xly4uR"
+    },
+    {
+      "id": "soundtrail-recording-0086",
+      "artist": "The Flying Burrito Brothers",
+      "track": "Christine’s Tune",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Country Rock"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Sneaky Pete Kleinow's steel cuts through the rock-band arrangement with bends, slides, and an electric edge, making pedal steel part of country-rock's basic grammar."
+      },
+      "spotify": "https://open.spotify.com/track/0teWfbvQtUY4dnnZu1yT4E"
+    },
+    {
+      "id": "soundtrail-recording-0087",
+      "artist": "Crosby, Stills, Nash & Young",
+      "track": "Teach Your Children",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Folk Rock / Pop"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Jerry Garcia's pedal steel answers the vocal melody with compact, memorable bends, adding a country-derived voice to a folk-rock song without taking over the arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/29HaKOpeLSYvqdFyEQSRdj"
+    },
+    {
+      "id": "soundtrail-recording-0088",
+      "artist": "Chuck Johnson",
+      "track": "Balm of Gilead",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Ambient / Experimental"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Johnson turns pedal steel sustain into slow-moving ambient harmony, using volume, resonance, and gradual pitch motion so the instrument behaves almost like a breathing synthesizer."
+      },
+      "spotify": "https://open.spotify.com/track/0ODb3fK5x99alCBz2zO1ss"
+    },
+    {
+      "id": "soundtrail-recording-0089",
+      "artist": "The Campbell Brothers featuring Katie Jackson",
+      "track": "Pass Me Not, Oh Gentle Savior",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Sacred Steel / Gospel"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Chuck Campbell's pedal steel functions as an expressive worship voice, answering singers and building intensity with gospel phrasing rooted in the House of God Sacred Steel tradition."
+      },
+      "spotify": "https://open.spotify.com/track/2W4ceYoS4JQhA6DnTYXxad"
+    },
+    {
+      "id": "soundtrail-recording-0090",
+      "artist": "Edward Elgar / Jacqueline du Pré",
+      "track": "Cello Concerto in E Minor, Op. 85: I. Adagio - Moderato",
+      "region": "United Kingdom",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Romantic / Concerto"
+      },
+      "instrumentNotes": {
+        "cello": "Du Pré's cello moves from the famous opening chords into intensely vocal phrases, showing how a single cello can project both weight and vulnerability against a full orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/5pjDwtMPly0cNMbuGXhUOI"
+    },
+    {
+      "id": "soundtrail-recording-0091",
+      "artist": "Abdul Wadud",
+      "track": "In A Breeze",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Jazz / Improvised"
+      },
+      "instrumentNotes": {
+        "cello": "Wadud treats solo cello as a complete improvising instrument, moving among bowed lines, pizzicato rhythm, resonance, and register without relying on a conventional rhythm section."
+      },
+      "spotify": "https://open.spotify.com/track/77YwncymVtZxQxAxgfekyl"
+    },
+    {
+      "id": "soundtrail-recording-0092",
+      "artist": "Erik Friedlander",
+      "track": "Block Ice & Propane",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Contemporary / American Roots"
+      },
+      "instrumentNotes": {
+        "cello": "Friedlander uses bowed and plucked solo cello to evoke American roots gestures while keeping the piece within a modern compositional and improvisational language."
+      },
+      "spotify": "https://open.spotify.com/track/0cta7iSOQRWtidQ8THG2fL"
+    },
+    {
+      "id": "soundtrail-recording-0093",
+      "artist": "Zoë Keating",
+      "track": "Escape Artist",
+      "region": "United States / Canada",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Contemporary Solo / Looping"
+      },
+      "instrumentNotes": {
+        "cello": "Keating records and layers cello parts in real time, building bass motion, pulse, harmony, and melody from one instrument until the solo performance behaves like a small string ensemble."
+      },
+      "spotify": "https://open.spotify.com/track/7sXYoFoFoJ28bnjsnoBfvY"
+    },
+    {
+      "id": "soundtrail-recording-0094",
+      "artist": "Crooked Still",
+      "track": "Little Sadie",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "New Acoustic / Bluegrass"
+      },
+      "instrumentNotes": {
+        "cello": "Rushad Eggleston's cello occupies the low string-band role while adding rhythmic attack and melodic mobility, helping define Crooked Still's alternative bluegrass sound."
+      },
+      "spotify": "https://open.spotify.com/track/06w5NlE4BEiL2UPG1TwTHx"
+    },
+    {
+      "id": "soundtrail-recording-0095",
+      "artist": "Ben Sollee",
+      "track": "A Few Honest Words",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Singer-Songwriter / Folk-R&B"
+      },
+      "instrumentNotes": {
+        "cello": "Sollee makes cello part of the song's groove and accompaniment rather than adding it as orchestral decoration, combining plucked pulse, bowed fills, and a singer-songwriter framework."
+      },
+      "spotify": "https://open.spotify.com/track/7b4XjFX7L9Xul0DVYrbceX"
+    },
+    {
+      "id": "soundtrail-recording-0096",
+      "artist": "2CELLOS",
+      "track": "Smooth Criminal",
+      "region": "Croatia",
+      "startHere": true,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Classical Crossover / Pop-Rock"
+      },
+      "instrumentNotes": {
+        "cello": "The duo transfers bass line, riff, rhythm, and lead energy onto two amplified cellos, demonstrating how aggressively the instrument can inhabit a pop-rock arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/41B5pgb2nOO4QYXAOaAQGm"
+    },
+    {
+      "id": "soundtrail-recording-0097",
+      "artist": "The Rolling Stones",
+      "track": "Paint It, Black",
+      "region": "United Kingdom",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Raga Rock / Pop"
+      },
+      "instrumentNotes": {
+        "sitar": "Brian Jones's sitar riff is not background decoration: it is one of the recording's central hooks, bringing bent, buzzing timbre directly into a compact rock single."
+      },
+      "spotify": "https://open.spotify.com/track/63T7DJ1AFDD6Bn8VzG6JE8"
+    },
+    {
+      "id": "soundtrail-recording-0098",
+      "artist": "Ananda Shankar",
+      "track": "Streets Of Calcutta",
+      "region": "India",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Indian-Western / Funk Fusion"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar places sitar over a driving studio groove, using repeating riffs and improvisatory phrases inside an arrangement shaped as much by funk and rock production as by Indian classical vocabulary."
+      },
+      "spotify": "https://open.spotify.com/track/5Y0ImlJ2Gt1rEkM7U0jXlT"
+    },
+    {
+      "id": "soundtrail-recording-0099",
+      "artist": "Ravi Shankar",
+      "track": "Improvisations On The Theme Music From Pather Panchali - Digitally Remastered",
+      "region": "India",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Film / Soundtrack"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar develops the film's thematic material through sitar improvisation, showing how a raga-trained instrument can be shaped around cinematic themes and dramatic pacing."
+      },
+      "spotify": "https://open.spotify.com/track/00Iqzdq2idIiTZLQwDHiX1"
+    },
+    {
+      "id": "soundtrail-recording-0100",
+      "artist": "Bud Shank & Ravi Shankar",
+      "track": "Fire Night",
+      "region": "United States / India",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Indo-Jazz"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar's sitar shares improvisational space with West Coast jazz musician Bud Shank, an early recorded example of Indian melodic practice entering a genuine jazz dialogue."
+      },
+      "spotify": "https://open.spotify.com/track/0QE21s9oV9r9PrdQcSisWB"
+    },
+    {
+      "id": "soundtrail-recording-0101",
+      "artist": "Anoushka Shankar featuring Alev Lenz",
+      "track": "Land of Gold",
+      "region": "United Kingdom / India",
+      "startHere": true,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Electronic / Contemporary"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar keeps the sitar's acoustic attack and bends identifiable inside a modern production built with keyboards, samples, percussion, bass, and contemporary song form."
+      },
+      "spotify": "https://open.spotify.com/track/7nvFIWFETDc1oaNENJg8FS"
+    },
+    {
+      "id": "soundtrail-recording-0102",
+      "artist": "Giovanni Bottesini / Edgar Meyer",
+      "track": "Concerto No. 2 in B Minor for Double Bass and Orchestra: I. Allegro moderato",
+      "region": "Italy / United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Classical / Solo Concerto"
+      },
+      "instrumentNotes": {
+        "double-bass": "Meyer takes the instrument into its high solo register with rapid articulation and lyrical phrasing, exposing the agility that an orchestral foundation instrument can hide."
+      },
+      "spotify": "https://open.spotify.com/track/6ydG4UEx8KsfwmSUSiKUv2"
+    },
+    {
+      "id": "soundtrail-recording-0103",
+      "artist": "Edgar Meyer, Mike Marshall, Sam Bush & Joshua Bell",
+      "track": "Short Trip Home",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "New Acoustic / Bluegrass"
+      },
+      "instrumentNotes": {
+        "double-bass": "Meyer's double bass is both foundation and equal chamber voice, moving through an acoustic quartet that deliberately blurs bluegrass, classical ensemble writing, and new-acoustic composition."
+      },
+      "spotify": "https://open.spotify.com/track/38JoNkS0QFEDKMALz86Z64"
+    },
+    {
+      "id": "soundtrail-recording-0104",
+      "artist": "Stray Cats",
+      "track": "Rock This Town",
+      "region": "United States / United Kingdom",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Rockabilly"
+      },
+      "instrumentNotes": {
+        "double-bass": "Lee Rocker's upright bass drives the track with a slapped attack and bouncing line, supplying both pitched bass and a second layer of percussion in classic rockabilly fashion."
+      },
+      "spotify": "https://open.spotify.com/track/2SknHmwY6GiOv6aK7YRahd"
+    },
+    {
+      "id": "soundtrail-recording-0105",
+      "artist": "Astor Piazzolla / Nicholas Bayley",
+      "track": "Kicho",
+      "region": "Argentina / United Kingdom",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Tango"
+      },
+      "instrumentNotes": {
+        "double-bass": "Piazzolla wrote Kicho in honor of bassist Kicho Díaz; the piece makes the double bass a foreground tango voice, not merely the instrument underneath the bandoneón and strings."
+      },
+      "spotify": "https://open.spotify.com/track/5lRGkCAbjToTLMPkKnwiAu"
+    },
+    {
+      "id": "soundtrail-recording-0106",
+      "artist": "Charlie Haden",
+      "track": "Song For Chè",
+      "region": "United States",
+      "startHere": true,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Avant-Garde / Free Jazz"
+      },
+      "instrumentNotes": {
+        "double-bass": "Haden opens with the melody alone on bass before the Liberation Music Orchestra gathers around him, making the instrument a compositional and political voice as well as the ensemble's low foundation."
+      },
+      "spotify": "https://open.spotify.com/track/3Ch2z5B418rWk7Cc3hSKb2"
+    },
+    {
+      "id": "soundtrail-recording-0107",
+      "artist": "Tabla Beat Science",
+      "track": "Magnetic",
+      "region": "International",
+      "startHere": true,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Contemporary Electronic / World Fusion"
+      },
+      "instrumentNotes": {
+        "tabla": "Tabla Beat Science puts tabla vocabulary inside a produced environment of bass, electronics, loops, and global percussion, treating hand-played rhythm as both acoustic performance and studio material."
+      },
+      "spotify": "https://open.spotify.com/track/31Wui18tjMUSmIig5fvf6o"
     }
   ]
 }
