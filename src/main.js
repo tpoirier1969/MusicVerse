@@ -259,7 +259,7 @@ function featuredAlbum() {
 
 function crazyRows(items) {
   return `<div class="track-list">${items.map((track) => {
-    const id = `cover:${track.sourceArtist}:${track.song}:${track.coverArtist}`;
+    const id = track.id || `cover:${track.sourceArtist}:${track.song}:${track.coverArtist}`;
     const artwork = String(track.artwork || '').trim();
     return `<article class="track-row">
       <button class="round-play track-art-play${artwork ? ' has-art' : ''}" ${artwork ? `style="--track-art:url('${esc(artwork)}')"` : ''} data-open-url="${esc(track.spotify)}" data-listened="${esc(id)}" aria-label="Open ${esc(track.song)}"><span aria-hidden="true">▶</span></button>
