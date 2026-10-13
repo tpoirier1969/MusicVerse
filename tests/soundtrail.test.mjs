@@ -31,6 +31,7 @@ test('every SoundTrail genre has an about description and at least one matching 
   for (const instrument of soundTrail.instruments) {
     for (const genre of instrument.genres || []) {
       assert.ok(String(genre.about || '').trim(), `Missing about text: ${instrument.id} / ${genre.name}`);
+      assert.ok((genre.researchSources || []).length, `Missing research sources: ${instrument.id} / ${genre.name}`);
       assert.ok(
         soundTrail.recordings.some((recording) =>
           (recording.instruments || []).includes(instrument.id)
