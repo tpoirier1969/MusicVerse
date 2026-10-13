@@ -158,12 +158,26 @@
         {
           "name": "Big Band / Swing",
           "about": "In swing-era jazz the clarinet can float above the brass and saxophones with a bright, flexible lead voice. Bandleaders such as Benny Goodman and Artie Shaw made its agility, wide range, and liquid phrasing central to the sound of big-band jazz.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Yamaha — The modern clarinet",
+              "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/structure/structure002.html"
+            },
+            {
+              "label": "Philharmonia — Clarinet",
+              "url": "https://philharmonia.co.uk/resources/instruments/clarinet/"
+            }
+          ]
         },
         {
           "name": "Modern Jazz",
           "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "JazzTimes — Anat Cohen: Swing Dancer",
+              "url": "https://www.jazztimes.com/features/profiles/anat-cohen-swing-dancer/"
+            }
+          ]
         },
         {
           "name": "Classical / Concerto",
@@ -241,17 +255,32 @@
         {
           "name": "Country",
           "about": "Pedal steel is one of country's defining colors. Its foot pedals, knee levers, volume control, and sliding bar allow notes to bend independently, creating the vocal-like swells and moving harmonies heard behind countless country singers.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Country Music Hall of Fame — History of Country Music Instruments",
+              "url": "https://www.countrymusichalloffame.org/learn/family-and-community-resources/history-of-country-music-instruments"
+            }
+          ]
         },
         {
           "name": "Sacred Steel / Funk",
           "about": "In the sacred-steel tradition, steel guitar becomes an expressive lead instrument rooted in church worship. Players such as Robert Randolph push that language into funk and rock, using distortion, rapid single-note runs, and rhythmic attack.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Smithsonian Folkways — Sacred Steel",
+              "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
+            }
+          ]
         },
         {
           "name": "Instrumental / Steel Guitar",
           "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Country Music Hall of Fame — Buddy Emmons",
+              "url": "https://www.countrymusichalloffame.org/press/releases/country-music-hall-of-fame-and-museum-hosts-book-talk-with-steve-fishell-on-famed-steel-guitarist-buddy-emmons-celebrates-fishells-charitable-support-of-the-museum"
+            }
+          ]
         },
         {
           "name": "Western Swing / Hot Steel",
@@ -339,17 +368,32 @@
         {
           "name": "Classical",
           "about": "The cello is foundational to Western chamber and orchestral music, but its solo repertoire shows the instrument's unusually complete range: bass foundation, tenor lyricism, chords, counterpoint, and singing upper-register melody.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Philharmonia — Cello",
+              "url": "https://philharmonia.co.uk/resources/instruments/cello/"
+            }
+          ]
         },
         {
           "name": "Cello Metal",
           "about": "Cello metal uses amplified cellos for riffs, power-chord textures, percussion-like attacks, and lead lines normally assigned to electric guitars. The instrument's low register gives heavy music weight without abandoning acoustic resonance.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Apocalyptica — Official homepage",
+              "url": "https://www.apocalyptica.com/"
+            }
+          ]
         },
         {
           "name": "Alternative / Cello Rock",
           "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Rasputina — About",
+              "url": "https://rasputina.com/about"
+            }
+          ]
         },
         {
           "name": "Romantic / Concerto",
@@ -447,17 +491,36 @@
         {
           "name": "Hindustani Classical",
           "about": "In Hindustani classical music the sitar is a major plucked lead instrument for raga performance. Movable frets, sympathetic strings, meend string bends, and long-form improvisation allow the player to develop both melodic detail and resonance over time.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+              "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+            }
+          ]
         },
         {
           "name": "Rock / Psychedelia",
           "about": "Rock musicians adopted sitar in the 1960s for more than exotic color at its best: its drones, bends, and sympathetic resonance changed how Western arrangements handled melody, sustain, and modal harmony.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "The Metropolitan Museum of Art — Musical Instruments of the Indian Subcontinent",
+              "url": "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent"
+            },
+            {
+              "label": "Beatles Bible — Within You Without You",
+              "url": "https://www.beatlesbible.com/songs/within-you-without-you/"
+            }
+          ]
         },
         {
           "name": "Contemporary Global / Fusion",
           "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Anoushka Shankar — Official site",
+              "url": "https://www.anoushkashankar.com/"
+            }
+          ]
         },
         {
           "name": "Raga Rock / Pop",
@@ -531,17 +594,32 @@
         {
           "name": "Jazz",
           "about": "In jazz the double bass usually connects harmony and rhythm, outlining chord movement while locking with the drummer. Great bassists also turn that supporting role into counterpoint, melodic solos, and a strong compositional voice.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Music Rising at Tulane — Bass",
+              "url": "https://musicrising.tulane.edu/discover/instruments/bass/"
+            }
+          ]
         },
         {
           "name": "Jazz / Vocal",
           "about": "When a bassist also sings, the double bass can become part of the front line rather than hidden accompaniment. The player can shape groove, harmony, and vocal phrasing at the same time.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Berklee College of Music — Esperanza Spalding",
+              "url": "https://college.berklee.edu/people/esperanza-spalding"
+            }
+          ]
         },
         {
           "name": "Bass Feature",
           "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Blue Note — Paul Chambers",
+              "url": "https://www.bluenote.com/artist/paul-chambers/"
+            }
+          ]
         },
         {
           "name": "Classical / Solo Concerto",
@@ -621,24 +699,34 @@
       "description": "Trace tabla through Indian classical music, Indo-jazz fusion, electronic music, and cross-cultural ensembles.",
       "genres": [
         {
-          "name": "Indian Classical",
-          "about": "Tabla is a central rhythmic voice in North Indian classical music. Its paired drums produce a wide vocabulary of pitched and unpitched strokes, allowing the player to articulate tala cycles with both mathematical precision and improvisational conversation.",
-          "researchSources": []
-        },
-        {
           "name": "Indo-Jazz Fusion",
           "about": "In Indo-jazz fusion, tabla does more than add an Indian surface texture. Players adapt tala, rhythmic subdivision, and call-and-response improvisation to interact with jazz harmony, electric instruments, and extended ensemble forms.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Shakti — Official site",
+              "url": "https://www.shakti50.com/"
+            }
+          ]
         },
         {
           "name": "Electronic / Asian Underground",
           "about": "Electronic artists have used tabla both acoustically and as sampled rhythmic material. The instrument's detailed attacks and cyclical phrasing can sit inside programmed beats while retaining a distinctly performed sense of time.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Mixmag Asia — Talvin Singh interview",
+              "url": "https://mixmag.asia/feature/talvin-singh-interview-anokha-ok-southbank-south-asian-underground"
+            }
+          ]
         },
         {
           "name": "Rock / Psychedelia",
           "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit.",
-          "researchSources": []
+          "researchSources": [
+            {
+              "label": "Beatles Bible — Within You Without You",
+              "url": "https://www.beatlesbible.com/songs/within-you-without-you/"
+            }
+          ]
         },
         {
           "name": "Tabla Solo / Hindustani Classical",
