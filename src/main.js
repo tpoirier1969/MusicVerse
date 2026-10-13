@@ -449,11 +449,11 @@ function soundTrailGenreFilter(instrument) {
 
 function soundTrailAbout(instrument) {
   if (!activeSoundTrailGenre) {
-    return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THE INSTRUMENT</span><h3>${esc(instrument.label)}</h3><p>${esc(instrument.description)}</p><small>Choose a genre above to see how the instrument functions in that musical setting.</small></div>`;
+    return `<div class="soundtrail-about organic-panel"><span class="eyebrow">WHY IT MATTERS</span><h3>${esc(instrument.label)}</h3><p>${esc(instrument.importance || instrument.description)}</p><small>${esc(instrument.description)} Choose a genre above to see how the instrument functions in that musical setting.</small></div>`;
   }
   const genre = (instrument.genres || []).find((item) => item.name === activeSoundTrailGenre);
   if (!genre) return '';
-  return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THIS GENRE</span><h3>${esc(instrument.label)} in ${esc(genre.name)}</h3><p>${esc(genre.about)}</p></div>`;
+  return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THIS STYLE</span><h3>${esc(instrument.label)} in ${esc(genre.name)}</h3><p>${esc(genre.about)}</p></div>`;
 }
 
 function soundTrailGrid(instrument) {
