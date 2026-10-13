@@ -32,3 +32,16 @@ Synced domains currently include playlists and playlist items, Crazy Covers favo
 
 Passwordless email sign-in uses Supabase Magic Links. The deployed MusicVerse origin must be included in Yellowdawg Auth URL Configuration as an allowed redirect URL. No service-role credential is used by or exposed to browser code.
 
+## SoundTrail research standard
+
+SoundTrail instruments are research objects, not empty category shells. Adding a new instrument requires research-standard version 1 before the catalog will validate:
+
+- explain why the instrument matters musically and historically, with public research sources;
+- map the instrument across significant styles and traditions without inventing genres merely to hit a quota;
+- explain what the instrument actually does in every listed style;
+- include at least one verified recording example for every listed style, with an instrument-specific note explaining what to listen for;
+- verify artist/recording relationships from public sources and verify Spotify matches separately; a missing Spotify match stays blank rather than being guessed;
+- prefer broader coverage and multiple examples where they add discovery value, while avoiding duplicate recordings simply because one performance illustrates more than one relationship.
+
+TinyFish is the default broad-web research pass for a new instrument. Research findings are corroborated before they become catalog facts. The catalog sync rejects instruments missing importance, provenance, style explanations, or recording coverage, and then syncs the research metadata to Yellowdawg after the core catalog import.
+

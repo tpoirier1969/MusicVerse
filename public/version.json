@@ -1,13 +1,12 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "updated_at": "2026-10-13",
   "notes": [
-    "Added passwordless Supabase email sign-in for MusicVerse personal-library sync.",
-    "Yellowdawg now syncs playlists, playlist items, Crazy Covers favorites, Spotify listening history, MusicVerse-open history, daily featured-album history, and saved Tabs & Chords references.",
-    "The first sign-in merges existing browser data with remote data instead of replacing either side; browser storage remains the local cache and offline recovery layer.",
-    "Added permanent-user restrictive RLS policies so anonymous Yellowdawg sessions cannot access MusicVerse personal tables.",
-    "Tabs & Chords now stores real saved references with provider, instrument, tuning, capo, difficulty, notes, and URL metadata.",
-    "Library now displays real personal content and account/sync status instead of placeholder copy.",
-    "Crazy Covers personal state uses permanent crazy-cover-#### identities while preserving legacy recording UUID compatibility during migration."
+    "Expanded Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla from starter sets into researched SoundTrail maps with meaningful style coverage.",
+    "Every SoundTrail instrument now includes a why-it-matters overview and public research provenance.",
+    "Every listed SoundTrail style now includes an explanation of the instrument's role, research provenance, and at least one verified recording example.",
+    "TinyFish is now the default broad-web research pass for newly added SoundTrail instruments, with Spotify verification kept separate from music-history research.",
+    "Removed the empty generic Tabla 'Indian Classical' bucket in favor of specific solo and accompaniment contexts.",
+    "SoundTrail catalog validation now rejects missing instrument importance, missing research provenance, missing style explanations, and styles without recording examples."
   ]
 }

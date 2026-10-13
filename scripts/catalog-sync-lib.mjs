@@ -107,10 +107,14 @@ export function buildCatalogBundle({ albums, details, crazyCovers, soundTrail })
       id: instrument.id,
       label: instrument.label || '',
       description: instrument.description || '',
+      importance: instrument.importance || '',
+      researchSources: instrument.researchSources || [],
+      researchStandardVersion: Number(instrument.researchStandardVersion) || 0,
       sortOrder: index + 1,
       genres: (instrument.genres || []).map((genre) => ({
         name: genre.name || '',
         about: genre.about || '',
+        researchSources: genre.researchSources || [],
       })),
     })),
     recordings: soundRows.map((recording, index) => ({
@@ -155,8 +159,41 @@ export function validateCatalogBundle(bundle) {
   }
   if (new Set(trackIds).size !== trackIds.length) throw new Error('Album details contain duplicate track IDs.');
 
-  const instrumentIds = new Set((bundle.soundTrail?.instruments || []).map((item) => item.id));
-  for (const recording of bundle.soundTrail?.recordings || []) {
+  const instruments = bundle.soundTrail?.instruments || [];
+  const instrumentIds = new Set(instruments.map((item) => item.id));
+  const soundRecordings = bundle.soundTrail?.recordings || [];
+
+  for (const instrument of instruments) {
+    if (!String(instrument.importance || '').trim()) {
+      throw new Error(`SoundTrail instrument ${instrument.id} is missing why-it-matters research.`);
+    }
+    if (!(instrument.researchSources || []).length) {
+      throw new Error(`SoundTrail instrument ${instrument.id} is missing research sources.`);
+    }
+    if (Number(instrument.researchStandardVersion) < 1) {
+      throw new Error(`SoundTrail instrument ${instrument.id} has not completed the current research standard.`);
+    }
+    if ((instrument.genres || []).length < 3) {
+      throw new Error(`SoundTrail instrument ${instrument.id} needs a researched style map, not just starter tracks.`);
+    }
+    for (const genre of instrument.genres || []) {
+      if (!String(genre.about || '').trim()) {
+        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} is missing its role description.`);
+      }
+      if (!(genre.researchSources || []).length) {
+        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} is missing research provenance.`);
+      }
+      const hasExample = soundRecordings.some((recording) =>
+        (recording.instruments || []).includes(instrument.id)
+        && recording.genresByInstrument?.[instrument.id] === genre.name
+      );
+      if (!hasExample) {
+        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} has no verified recording example.`);
+      }
+    }
+  }
+
+  for (const recording of soundRecordings) {
     for (const instrumentId of recording.instruments || []) {
       if (!instrumentIds.has(instrumentId)) {
         throw new Error(`SoundTrail recording ${recording.legacyId} references unknown instrument ${instrumentId}.`);

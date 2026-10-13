@@ -84,24 +84,29 @@ async function applyBundle(bundle) {
     throw new Error('MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY is required for --apply. Never put this key in browser code or commit it to GitHub.');
   }
 
-  const endpoint = `${url.replace(/\/$/, '')}/rest/v1/rpc/musicverse_import_catalog_v1`;
-  const response = await fetch(endpoint, {
-    method: 'POST',
-    headers: {
-      apikey: serviceRoleKey,
-      Authorization: `Bearer ${serviceRoleKey}`,
-      'Content-Type': 'application/json',
-      Accept: 'application/json',
-    },
-    body: JSON.stringify({ payload: bundle }),
-  });
+  async function callImportRpc(name) {
+    const endpoint = `${url.replace(/\/$/, '')}/rest/v1/rpc/${name}`;
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        apikey: serviceRoleKey,
+        Authorization: `Bearer ${serviceRoleKey}`,
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({ payload: bundle }),
+    });
 
-  if (!response.ok) {
-    const body = await response.text().catch(() => '');
-    throw new Error(`Catalog import failed (${response.status})${body ? `: ${body}` : ''}`);
+    if (!response.ok) {
+      const body = await response.text().catch(() => '');
+      throw new Error(`${name} failed (${response.status})${body ? `: ${body}` : ''}`);
+    }
+    return response.json().catch(() => ({}));
   }
 
-  return response.json().catch(() => ({}));
+  const catalog = await callImportRpc('musicverse_import_catalog_v1');
+  const soundTrailResearch = await callImportRpc('musicverse_import_soundtrail_research_v1');
+  return { catalog, soundTrailResearch };
 }
 
 const args = new Set(process.argv.slice(2));
