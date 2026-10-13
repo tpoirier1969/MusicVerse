@@ -17,6 +17,7 @@ The bundled JSON files remain the recoverable source snapshot while the Supabase
 - `npm run catalog:audit` compares stable album and SoundTrail IDs against the configured Supabase read views.
 - `npm run catalog:apply` sends the validated bundle to the protected `musicverse_import_catalog_v1` RPC. It requires `MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY`; that key must never be committed or exposed to browser code.
 - Catalog writes refuse to run unless the Supabase project ref matches `wntakzfoprthwggkidyq` (or an explicitly configured `MUSICVERSE_SUPABASE_EXPECTED_PROJECT_REF`).
+- The Yellowdawg catalog schema, read views, and protected import RPC live in `supabase/migrations/20261013_musicverse_catalog_v1.sql`. The migration is namespaced and non-destructive; applying it does not remove sibling-app data or silently delete MusicVerse catalog rows.
 
 Crazy Covers now carries permanent `crazy-cover-####` IDs so corrections to song or artist display text do not create a new record identity.
 
