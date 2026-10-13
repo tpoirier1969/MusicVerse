@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 
 const migration = await readFile(
-  new URL('../supabase/migrations/20261013_soundtrail_research_standard_v1.sql', import.meta.url),
+  new URL('../supabase/migrations/20261013195500_soundtrail_research_standard_v1.sql', import.meta.url),
   'utf8',
 );
 
