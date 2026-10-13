@@ -7,27 +7,29 @@ const migration = await readFile(
   'utf8',
 );
 
-test('Yellowdawg catalog migration exposes the resources used by the app', () => {
+test('Yellowdawg migration augments the existing MusicVerse schema', () => {
   for (const name of [
-    'musicverse_cover_albums_v',
-    'musicverse_album_details_v',
-    'musicverse_crazy_covers_v',
-    'musicverse_soundtrail_instruments_v',
-    'musicverse_soundtrail_v',
+    'musicverse_recording_aliases',
     'musicverse_import_catalog_v1',
+    'musicverse_resolve_recording',
+    'musicverse_crazy_covers_v',
+    'musicverse_soundtrail_v',
   ]) {
     assert.match(migration, new RegExp('\\b' + name + '\\b'));
   }
+
+  assert.doesNotMatch(migration, /create table if not exists public\.musicverse_catalog_albums/i);
+  assert.doesNotMatch(migration, /create table if not exists public\.musicverse_catalog_recordings/i);
 });
 
-test('catalog importer is protected and non-destructive', () => {
+test('catalog importer is service-role protected and non-destructive', () => {
   assert.match(
     migration,
-    /revoke all on function public\.musicverse_import_catalog_v1\(jsonb\) from public, anon, authenticated;/i,
+    /revoke all on function public\.musicverse_import_catalog_v1\(jsonb\)[\s\S]*from public, anon, authenticated;/i,
   );
   assert.match(
     migration,
-    /grant execute on function public\.musicverse_import_catalog_v1\(jsonb\) to service_role;/i,
+    /grant execute on function public\.musicverse_import_catalog_v1\(jsonb\)[\s\S]*to service_role;/i,
   );
 
   const functionBody = migration
@@ -39,11 +41,14 @@ test('catalog importer is protected and non-destructive', () => {
   assert.doesNotMatch(functionBody, /\bdrop\s+table\b/i);
 });
 
-test('recording identity can converge on Spotify without depending on display text', () => {
-  assert.match(migration, /musicverse_catalog_recording_aliases/);
+test('recording identity uses stable aliases and Spotify IDs rather than display text', () => {
+  assert.match(migration, /musicverse_recording_aliases/);
   assert.match(migration, /where spotify_track_id = p_spotify_track_id/i);
-  assert.doesNotMatch(
-    migration,
-    /where\s+lower\(title\).*lower\(artist\)/i,
-  );
+  assert.match(migration, /crazy-cover-' \|\| lpad\(catalog_order::text, 4, '0'\)/i);
+});
+
+test('Crazy Covers and SoundTrail views prefer contextual stable aliases', () => {
+  assert.match(migration, /alias\.alias_type = 'crazy_cover'/i);
+  assert.match(migration, /alias\.alias_type = 'soundtrail'/i);
+  assert.match(migration, /coalesce\(alias\.alias_id, r\.legacy_id\) as legacy_id/i);
 });
