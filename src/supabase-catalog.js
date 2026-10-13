@@ -122,6 +122,7 @@ export function mapSupabaseCatalog({ albumRows, detailRows, crazyRows, instrumen
       description: row.description || '',
       importance: row.importance || '',
       researchSources: asArray(row.research_sources),
+      researchStandardVersion: Number(row.research_standard_version) || 0,
       genres: asArray(row.genres),
       sortOrder: Number(row.sort_order) || 999,
     }))
