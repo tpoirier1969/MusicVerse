@@ -1,12 +1,13 @@
 {
-  "version": "0.6.3",
+  "version": "0.7.0",
   "updated_at": "2026-10-13",
   "notes": [
-    "Added stable recording aliases to the existing normalized Yellowdawg MusicVerse schema instead of creating a competing catalog.",
-    "Added and verified the protected musicverse_import_catalog_v1 RPC for repeat-safe catalog synchronization.",
-    "Crazy Covers now resolves through permanent crazy-cover-#### aliases even when a recording is shared with an album track or another module.",
-    "The current GitHub catalog snapshot was synchronized to Yellowdawg: 111 albums, 340 album tracks, 632 Crazy Covers, 78 SoundTrail recordings, and 7 instruments.",
-    "A second full synchronization of the identical snapshot produced no row-count changes, verifying repeat-safe behavior on the real catalog.",
-    "Catalog audit now compares permanent Crazy Covers IDs as well as album and SoundTrail IDs."
+    "Added passwordless Supabase email sign-in for MusicVerse personal-library sync.",
+    "Yellowdawg now syncs playlists, playlist items, Crazy Covers favorites, Spotify listening history, MusicVerse-open history, daily featured-album history, and saved Tabs & Chords references.",
+    "The first sign-in merges existing browser data with remote data instead of replacing either side; browser storage remains the local cache and offline recovery layer.",
+    "Added permanent-user restrictive RLS policies so anonymous Yellowdawg sessions cannot access MusicVerse personal tables.",
+    "Tabs & Chords now stores real saved references with provider, instrument, tuning, capo, difficulty, notes, and URL metadata.",
+    "Library now displays real personal content and account/sync status instead of placeholder copy.",
+    "Crazy Covers personal state uses permanent crazy-cover-#### identities while preserving legacy recording UUID compatibility during migration."
   ]
 }
