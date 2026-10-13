@@ -47,6 +47,8 @@ async function auditRemote(bundle) {
 
   const localAlbums = new Set(bundle.albums.map((item) => item.legacyId));
   const remoteAlbums = new Set((albumRows || []).map((item) => item.legacy_id).filter(Boolean));
+  const localCrazy = new Set(bundle.crazyCovers.map((item) => item.legacyId));
+  const remoteCrazy = new Set((crazyRows || []).map((item) => item.legacy_id).filter(Boolean));
   const localSound = new Set(bundle.soundTrail.recordings.map((item) => item.legacyId));
   const remoteSound = new Set((soundRows || []).map((item) => item.legacy_id).filter(Boolean));
 
@@ -59,9 +61,10 @@ async function auditRemote(bundle) {
       extraRemote: [...remoteAlbums].filter((id) => !localAlbums.has(id)),
     },
     crazyCovers: {
-      local: bundle.crazyCovers.length,
-      remote: Array.isArray(crazyRows) ? crazyRows.length : 0,
-      stableIdsPresentRemotely: (crazyRows || []).filter((row) => row.legacy_id).length,
+      local: localCrazy.size,
+      remote: remoteCrazy.size,
+      missingRemote: [...localCrazy].filter((id) => !remoteCrazy.has(id)),
+      extraRemote: [...remoteCrazy].filter((id) => !localCrazy.has(id)),
     },
     soundTrail: {
       local: localSound.size,
