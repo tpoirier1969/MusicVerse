@@ -2741,6 +2741,777 @@
         "tabla": "Tabla Beat Science puts tabla vocabulary inside a produced environment of bass, electronics, loops, and global percussion, treating hand-played rhythm as both acoustic performance and studio material."
       },
       "spotify": "https://open.spotify.com/track/31Wui18tjMUSmIig5fvf6o"
+    },
+    {
+      "id": "soundtrail-recording-0108",
+      "artist": "Anat Cohen",
+      "track": "Washington Square Park",
+      "region": "United States / Israel",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Modern Jazz"
+      },
+      "instrumentNotes": {
+        "clarinet": "Cohen uses clarinet as a modern improvising lead voice, moving easily between woody low-register phrases and agile upper-register lines."
+      },
+      "spotify": "https://open.spotify.com/track/1gQjnd7DfrIoeevc3jb37a"
+    },
+    {
+      "id": "soundtrail-recording-0109",
+      "artist": "Carl Maria von Weber / Sabine Meyer",
+      "track": "Clarinet Concerto No. 1 in F Minor, Op. 73: I. Allegro",
+      "region": "Germany",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Classical / Concerto"
+      },
+      "instrumentNotes": {
+        "clarinet": "Meyer demonstrates the concerto clarinet's combination of projection, fast articulation, register changes, and lyrical phrasing against orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/4a18qBwCldSTtjaEexvZ0E"
+    },
+    {
+      "id": "soundtrail-recording-0110",
+      "artist": "Naftule Brandwein",
+      "track": "Firn di Mekhutonim Aheym",
+      "region": "United States / Eastern European Jewish diaspora",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Klezmer"
+      },
+      "instrumentNotes": {
+        "clarinet": "Brandwein makes the clarinet the dance-band lead, using ornaments, bends, quick turns, and speech-like inflection characteristic of classic klezmer playing."
+      },
+      "spotify": "https://open.spotify.com/track/4hhNwqanB9LTdu7CZyMDRo"
+    },
+    {
+      "id": "soundtrail-recording-0111",
+      "artist": "George Lewis",
+      "track": "Just a Closer Walk with Thee",
+      "region": "New Orleans, United States",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "New Orleans / Traditional Jazz"
+      },
+      "instrumentNotes": {
+        "clarinet": "Lewis threads a singing clarinet line through the ensemble, showing the New Orleans role as both countermelody voice and expressive soloist."
+      },
+      "spotify": "https://open.spotify.com/track/0vo2p8sT6n0z0q4u1EKL7l"
+    },
+    {
+      "id": "soundtrail-recording-0112",
+      "artist": "K-Ximbinho",
+      "track": "Sonoroso",
+      "region": "Brazil",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Brazilian Choro"
+      },
+      "instrumentNotes": {
+        "clarinet": "A classic choro associated with clarinetist K-Ximbinho, balancing lyrical melody, syncopation, and jazz-aware harmonic language."
+      },
+      "spotify": "https://open.spotify.com/track/6TLqUZViqDTlmQPWrhdfJ4"
+    },
+    {
+      "id": "soundtrail-recording-0113",
+      "artist": "Selim Sesler",
+      "track": "Tulum",
+      "region": "Turkey / Thrace",
+      "startHere": false,
+      "instruments": [
+        "clarinet"
+      ],
+      "genresByInstrument": {
+        "clarinet": "Turkish / Romani"
+      },
+      "instrumentNotes": {
+        "clarinet": "Sesler's clarinet carries the melody with flexible pitch, dense ornamentation, and a vocal attack rooted in Turkish Romani performance practice."
+      },
+      "spotify": "https://open.spotify.com/track/2cXZyuewQqRTjmk5G9iw62"
+    },
+    {
+      "id": "soundtrail-recording-0114",
+      "artist": "Buck Owens",
+      "track": "Together Again",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Country"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Tom Brumley's celebrated pedal-steel break is a compact lesson in sustained bends and the crying vocal quality that became a country signature."
+      },
+      "spotify": "https://open.spotify.com/track/34Tzit28bgMO6QG9HDR17z"
+    },
+    {
+      "id": "soundtrail-recording-0115",
+      "artist": "Robert Randolph & The Family Band",
+      "track": "I Need More Love",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Sacred Steel / Funk"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Randolph pushes sacred-steel technique into a funk-rock groove, using pedal steel as the main riffing and soloing instrument."
+      },
+      "spotify": "https://open.spotify.com/track/5RgN46uIIkNZ95PT6ri4HZ"
+    },
+    {
+      "id": "soundtrail-recording-0116",
+      "artist": "Jimmy Bryant & Buddy Emmons",
+      "track": "Four Wheel Drive",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Instrumental / Steel Guitar"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Emmons treats pedal steel as a fast, articulate instrumental lead, trading virtuoso lines in a setting built to foreground steel-guitar technique."
+      },
+      "spotify": "https://open.spotify.com/track/2rC28L5vTnGj2EBowtRSjs"
+    },
+    {
+      "id": "soundtrail-recording-0117",
+      "artist": "Speedy West",
+      "track": "West Of Samoa",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Western Swing / Hot Steel"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "West uses bright attack, glissandi, harmonics, and hot-jazz phrasing to make steel a flashy lead voice in the western-swing tradition."
+      },
+      "spotify": "https://open.spotify.com/track/6UtAZWcMKQdehuKLql1Xh8"
+    },
+    {
+      "id": "soundtrail-recording-0118",
+      "artist": "Buddy Emmons",
+      "track": "Cherokee",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Jazz"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Emmons applies pedal-steel sustain and moving harmony to a bebop standard, demonstrating that the instrument can handle rapid jazz phrasing and changes."
+      },
+      "spotify": "https://open.spotify.com/track/7H71NxLzbNuf9WtAahMG03"
+    },
+    {
+      "id": "soundtrail-recording-0119",
+      "artist": "The Flying Burrito Brothers",
+      "track": "Sin City",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Country Rock"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Sneaky Pete Kleinow's pedal steel supplies the country vocabulary inside a rock-band arrangement, helping define the early country-rock sound."
+      },
+      "spotify": "https://open.spotify.com/track/5bfvQG4NGiTFfUxPdMKrUd"
+    },
+    {
+      "id": "soundtrail-recording-0120",
+      "artist": "Bob Dylan",
+      "track": "Lay, Lady, Lay",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Folk Rock / Pop"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Pete Drake's recurring pedal-steel figure gives the song one of its main hooks, carrying Nashville steel language into a major folk-rock recording."
+      },
+      "spotify": "https://open.spotify.com/track/4uYwlMp841PLJmj1gJJwIq"
+    },
+    {
+      "id": "soundtrail-recording-0121",
+      "artist": "Chuck Johnson",
+      "track": "Riga Black",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Ambient / Experimental"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Johnson stretches pedal-steel sustain into slow ambient layers, emphasizing resonance, gradual pitch motion, and texture over conventional country phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/3neeFnT7W2cjOqht3fQjxc"
+    },
+    {
+      "id": "soundtrail-recording-0122",
+      "artist": "The Campbell Brothers & John Medeski",
+      "track": "Don't Let The Devil Ride",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "pedal-steel-guitar"
+      ],
+      "genresByInstrument": {
+        "pedal-steel-guitar": "Sacred Steel / Gospel"
+      },
+      "instrumentNotes": {
+        "pedal-steel-guitar": "Chuck Campbell's pedal steel answers the singers and drives the worship intensity, functioning as a gospel lead voice in the Sacred Steel tradition."
+      },
+      "spotify": "https://open.spotify.com/track/5TeY1Q0JkM10VSTPa83Jeu"
+    },
+    {
+      "id": "soundtrail-recording-0123",
+      "artist": "Johann Sebastian Bach / Yo-Yo Ma",
+      "track": "Cello Suite No. 1 in G Major, BWV 1007: III. Courante",
+      "region": "Western classical",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Classical"
+      },
+      "instrumentNotes": {
+        "cello": "The dance movement highlights the cello's ability to imply bass, harmony, and fast-moving melody alone, with no accompaniment."
+      },
+      "spotify": "https://open.spotify.com/track/70rlzUf9y1skkI3agyvbjg"
+    },
+    {
+      "id": "soundtrail-recording-0124",
+      "artist": "Apocalyptica",
+      "track": "Nothing Else Matters",
+      "region": "Finland",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Cello Metal"
+      },
+      "instrumentNotes": {
+        "cello": "Layered cellos take over the sustained harmony, lead melody, and heavy ensemble roles normally split among guitars and bass in metal."
+      },
+      "spotify": "https://open.spotify.com/track/3uErbNGaNIPJkRlMrLxR9Z"
+    },
+    {
+      "id": "soundtrail-recording-0125",
+      "artist": "Rasputina",
+      "track": "Howard Hughes",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Alternative / Cello Rock"
+      },
+      "instrumentNotes": {
+        "cello": "Rasputina again makes cello a core rock-band texture, using bowed repetition and dark string color as structural material rather than decoration."
+      },
+      "spotify": "https://open.spotify.com/track/44d3RV6CutHqsTDTmgZ47q"
+    },
+    {
+      "id": "soundtrail-recording-0126",
+      "artist": "Antonín Dvořák / Mstislav Rostropovich",
+      "track": "Cello Concerto in B Minor, Op. 104: I. Allegro",
+      "region": "Czech Republic / Russia",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Romantic / Concerto"
+      },
+      "instrumentNotes": {
+        "cello": "Rostropovich demonstrates the Romantic cello as a large-scale solo voice, moving between forceful projection and broad lyrical lines against full orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/0nE5LAhlotmOrADLNeU5n9"
+    },
+    {
+      "id": "soundtrail-recording-0127",
+      "artist": "Abdul Wadud",
+      "track": "Oasis",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Jazz / Improvised"
+      },
+      "instrumentNotes": {
+        "cello": "Wadud uses pizzicato, bowing, register shifts, and rhythmic independence to make solo cello function as its own jazz ensemble."
+      },
+      "spotify": "https://open.spotify.com/track/3JmT9qNwY7wHWPsIdfk0Ma"
+    },
+    {
+      "id": "soundtrail-recording-0128",
+      "artist": "Zoë Keating",
+      "track": "Optimist",
+      "region": "United States / Canada",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Contemporary Solo / Looping"
+      },
+      "instrumentNotes": {
+        "cello": "Keating stacks cello loops into pulse, harmony, bass, and melody, turning a single performer into a layered contemporary ensemble."
+      },
+      "spotify": "https://open.spotify.com/track/0kUIxT2FcNM1EXpgO7IUW3"
+    },
+    {
+      "id": "soundtrail-recording-0129",
+      "artist": "Crooked Still",
+      "track": "Ain't No Grave",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "New Acoustic / Bluegrass"
+      },
+      "instrumentNotes": {
+        "cello": "Cello supplies low-end drive and percussive attack inside an acoustic string-band arrangement, expanding the role traditionally held by bass."
+      },
+      "spotify": "https://open.spotify.com/track/1nEPTvsHVyHKDd7BIEASpv"
+    },
+    {
+      "id": "soundtrail-recording-0130",
+      "artist": "Ben Sollee",
+      "track": "It's Not Impossible",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Singer-Songwriter / Folk-R&B"
+      },
+      "instrumentNotes": {
+        "cello": "Sollee folds plucked groove and bowed color directly into singer-songwriter accompaniment, making cello part of the rhythm section and song form."
+      },
+      "spotify": "https://open.spotify.com/track/6OmuBC7AMlhtPtZbMari8G"
+    },
+    {
+      "id": "soundtrail-recording-0131",
+      "artist": "2CELLOS",
+      "track": "Thunderstruck",
+      "region": "Croatia",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Classical Crossover / Pop-Rock"
+      },
+      "instrumentNotes": {
+        "cello": "The duo translates rapid rock riffs, attack, and stage energy onto amplified cellos, using bow articulation as a substitute for electric-guitar picking."
+      },
+      "spotify": "https://open.spotify.com/track/1taz71WL8grTxW6JLiL1i8"
+    },
+    {
+      "id": "soundtrail-recording-0132",
+      "artist": "Erik Friedlander",
+      "track": "Night White",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "cello"
+      ],
+      "genresByInstrument": {
+        "cello": "Contemporary / American Roots"
+      },
+      "instrumentNotes": {
+        "cello": "Friedlander uses solo cello to suggest roots-music pulse and open-road lyricism while retaining modern compositional freedom."
+      },
+      "spotify": "https://open.spotify.com/track/5zRc259pg9Ia2MQI8pMDQE"
+    },
+    {
+      "id": "soundtrail-recording-0133",
+      "artist": "Ravi Shankar",
+      "track": "Raga Rageshri - Part 3 (Gat)",
+      "region": "India",
+      "startHere": false,
+      "instruments": [
+        "sitar",
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "sitar": "Hindustani Classical",
+        "tabla": "Hindustani Classical / Accompaniment"
+      },
+      "instrumentNotes": {
+        "sitar": "The gat section puts the sitar's melodic improvisation into rhythmic dialogue, making bends, ornaments, and phrase development easy to follow.",
+        "tabla": "Tabla enters the composed gat section to articulate the tala and answer the sitar, illustrating the conversational accompaniment role in Hindustani performance."
+      },
+      "spotify": "https://open.spotify.com/track/2ieDzCgkQ7j2GOLU0te9OG"
+    },
+    {
+      "id": "soundtrail-recording-0134",
+      "artist": "The Beatles",
+      "track": "Love You To - Remastered 2009",
+      "region": "United Kingdom / India",
+      "startHere": false,
+      "instruments": [
+        "sitar",
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "sitar": "Rock / Psychedelia",
+        "tabla": "Rock / Psychedelia"
+      },
+      "instrumentNotes": {
+        "sitar": "George Harrison's sitar is a structural lead voice throughout the song, not a brief color, placing raga-derived phrasing inside a rock album.",
+        "tabla": "Anil Bhagwat's tabla supplies the song's central rhythmic cycle and replaces the feel of a conventional rock drum part."
+      },
+      "spotify": "https://open.spotify.com/track/4RdJFhfLQcezwN5LsXl4qP"
+    },
+    {
+      "id": "soundtrail-recording-0135",
+      "artist": "Anoushka Shankar & Norah Jones",
+      "track": "Traces Of You",
+      "region": "India / United States",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Contemporary Global / Fusion"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar uses sitar as an expressive partner to voice and contemporary songwriting, keeping Indian articulation intact inside a global pop-fusion frame."
+      },
+      "spotify": "https://open.spotify.com/track/03i4d2bfCxdk9ifcWDc3hB"
+    },
+    {
+      "id": "soundtrail-recording-0136",
+      "artist": "The Beatles",
+      "track": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+      "region": "United Kingdom",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Raga Rock / Pop"
+      },
+      "instrumentNotes": {
+        "sitar": "The sitar doubles and answers the song's melody, one of the earliest widely heard examples of the instrument entering British pop."
+      },
+      "spotify": "https://open.spotify.com/track/1H7gMYGykdtwZOV6s1N0by"
+    },
+    {
+      "id": "soundtrail-recording-0137",
+      "artist": "Ananda Shankar",
+      "track": "Jumpin' Jack Flash",
+      "region": "India / United States",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Indian-Western / Funk Fusion"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar recasts a rock song around sitar and studio groove, showing how the instrument can carry riffs and lead lines in a funk-rock fusion setting."
+      },
+      "spotify": "https://open.spotify.com/track/6BkeuHmO4P69Ln2BSonrXi"
+    },
+    {
+      "id": "soundtrail-recording-0138",
+      "artist": "Ravi Shankar",
+      "track": "Discovery of India",
+      "region": "India / United Kingdom",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Film / Soundtrack"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar's sitar-led film writing demonstrates how the instrument can carry thematic and atmospheric material shaped for narrative cinema."
+      },
+      "spotify": "https://open.spotify.com/track/4YbQKmnSvVoDTEEhMrWs6R"
+    },
+    {
+      "id": "soundtrail-recording-0139",
+      "artist": "Bud Shank & Ravi Shankar",
+      "track": "Improvisation on the Theme Music From Pather Panchali",
+      "region": "United States / India",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Indo-Jazz"
+      },
+      "instrumentNotes": {
+        "sitar": "Shankar's sitar meets Bud Shank's jazz vocabulary in an early cross-cultural improvising context, with Indian melodic language participating directly in jazz dialogue."
+      },
+      "spotify": "https://open.spotify.com/track/1805kU4JQpg53RXV6PzbSM"
+    },
+    {
+      "id": "soundtrail-recording-0140",
+      "artist": "Anoushka Shankar",
+      "track": "Crossing the Rubicon",
+      "region": "United Kingdom / India",
+      "startHere": false,
+      "instruments": [
+        "sitar"
+      ],
+      "genresByInstrument": {
+        "sitar": "Electronic / Contemporary"
+      },
+      "instrumentNotes": {
+        "sitar": "Acoustic sitar articulation remains prominent inside a modern production environment, showing how the instrument can coexist with electronics without becoming mere ornament."
+      },
+      "spotify": "https://open.spotify.com/track/2C9vogk4qornMIf848z335"
+    },
+    {
+      "id": "soundtrail-recording-0141",
+      "artist": "Charles Mingus",
+      "track": "Better Git It in Your Soul",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Jazz"
+      },
+      "instrumentNotes": {
+        "double-bass": "Mingus uses double bass as rhythmic engine, harmonic anchor, and compositional center, driving a band whose arrangement grows directly from the bass-led pulse."
+      },
+      "spotify": "https://open.spotify.com/track/16nJl8NnriCJxraco5Zssm"
+    },
+    {
+      "id": "soundtrail-recording-0142",
+      "artist": "Esperanza Spalding",
+      "track": "I Adore You",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Jazz / Vocal"
+      },
+      "instrumentNotes": {
+        "double-bass": "Spalding integrates an active upright-bass line with her vocal phrasing, making bass, groove, harmony, and singing parts of one front-line performance."
+      },
+      "spotify": "https://open.spotify.com/track/5CC9Y9yvLzNl3iVSWg3noK"
+    },
+    {
+      "id": "soundtrail-recording-0143",
+      "artist": "Paul Chambers",
+      "track": "Yesterdays - Rudy Van Gelder Edition / Remastered 2007",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Bass Feature"
+      },
+      "instrumentNotes": {
+        "double-bass": "Chambers foregrounds the instrument's tone, melodic phrasing, and upper-register facility in a small-group setting built around the bassist."
+      },
+      "spotify": "https://open.spotify.com/track/0lUWwMS1i5qtdG3Ivbu02G"
+    },
+    {
+      "id": "soundtrail-recording-0144",
+      "artist": "Serge Koussevitzky / Gary Karr",
+      "track": "Concerto for Double Bass and Orchestra: I. Allegro",
+      "region": "Russia / United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Classical / Solo Concerto"
+      },
+      "instrumentNotes": {
+        "double-bass": "Karr demonstrates the double bass as a lyrical and agile concerto soloist, projecting above orchestra in a register far beyond its usual foundation role."
+      },
+      "spotify": "https://open.spotify.com/track/1tlqfR9UbpRijHiKnPAnxh"
+    },
+    {
+      "id": "soundtrail-recording-0145",
+      "artist": "Edgar Meyer, Mike Marshall & Béla Fleck",
+      "track": "Sliding Down",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "New Acoustic / Bluegrass"
+      },
+      "instrumentNotes": {
+        "double-bass": "Meyer moves between low foundation and agile ensemble lines in a new-acoustic setting that blends bluegrass attack with chamber-music precision."
+      },
+      "spotify": "https://open.spotify.com/track/6i3ZOSknAlWQcjkW8gVD1W"
+    },
+    {
+      "id": "soundtrail-recording-0146",
+      "artist": "Stray Cats",
+      "track": "Stray Cat Strut",
+      "region": "United States / United Kingdom",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Rockabilly"
+      },
+      "instrumentNotes": {
+        "double-bass": "Lee Rocker's upright bass supplies both low-end movement and percussive slap, a classic rockabilly combination of bass line and rhythmic attack."
+      },
+      "spotify": "https://open.spotify.com/track/5yogRsv5ggT6iCnFgvdpho"
+    },
+    {
+      "id": "soundtrail-recording-0147",
+      "artist": "Astor Piazzolla & Astor Piazzolla Y Su Quinteto",
+      "track": "Contrabajeando",
+      "region": "Argentina",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Tango"
+      },
+      "instrumentNotes": {
+        "double-bass": "The piece explicitly foregrounds the contrabass within nuevo tango, letting the instrument move beyond pulse into melodic and dramatic dialogue."
+      },
+      "spotify": "https://open.spotify.com/track/0CsX5G1NFaycv3LDgRsf5Z"
+    },
+    {
+      "id": "soundtrail-recording-0148",
+      "artist": "Ornette Coleman",
+      "track": "Ramblin'",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "double-bass"
+      ],
+      "genresByInstrument": {
+        "double-bass": "Avant-Garde / Free Jazz"
+      },
+      "instrumentNotes": {
+        "double-bass": "Charlie Haden's bass provides a flexible, songlike center beneath Coleman's freer phrasing, helping show how the instrument can support form without conventional chordal comping."
+      },
+      "spotify": "https://open.spotify.com/track/2pImPndG2OefK9n5kDVRWB"
+    },
+    {
+      "id": "soundtrail-recording-0149",
+      "artist": "Shakti",
+      "track": "What Need Have I For This-What Need Have I For That-I Am Dancing At The Feet Of My Lord-All Is Bliss-All Is Bliss",
+      "region": "India / United States",
+      "startHere": false,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Indo-Jazz Fusion"
+      },
+      "instrumentNotes": {
+        "tabla": "Zakir Hussain's tabla operates as an equal improvising voice, shaping long-form rhythmic development alongside guitar, violin, and South Indian percussion."
+      },
+      "spotify": "https://open.spotify.com/track/2x5uFlQHqJXTQh1zPx5nr6"
+    },
+    {
+      "id": "soundtrail-recording-0150",
+      "artist": "Talvin Singh",
+      "track": "Traveller",
+      "region": "United Kingdom / India",
+      "startHere": false,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Electronic / Asian Underground"
+      },
+      "instrumentNotes": {
+        "tabla": "Singh integrates tabla strokes and South Asian rhythmic phrasing into programmed breakbeats and electronic production rather than treating them as a surface sample."
+      },
+      "spotify": "https://open.spotify.com/track/1SfaQ79lWHRocAxALQgIWS"
+    },
+    {
+      "id": "soundtrail-recording-0151",
+      "artist": "Zakir Hussain",
+      "track": "Jhaptaal",
+      "region": "India",
+      "startHere": false,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Tabla Solo / Hindustani Classical"
+      },
+      "instrumentNotes": {
+        "tabla": "A tabla-centered jhaptaal performance makes stroke vocabulary, phrase construction, tonal control, and cycle awareness the main musical subject."
+      },
+      "spotify": "https://open.spotify.com/track/3AOcC8vHcAQ9YE4XWEuCFv"
+    },
+    {
+      "id": "soundtrail-recording-0152",
+      "artist": "Tabla Beat Science",
+      "track": "Secret Channel",
+      "region": "International",
+      "startHere": false,
+      "instruments": [
+        "tabla"
+      ],
+      "genresByInstrument": {
+        "tabla": "Contemporary Electronic / World Fusion"
+      },
+      "instrumentNotes": {
+        "tabla": "Tabla is embedded in bass-heavy studio production and global percussion, functioning simultaneously as live hand drumming and electronic rhythmic material."
+      },
+      "spotify": "https://open.spotify.com/track/7APHIpKi9GO7Xe4RotrDgY"
     }
   ]
 }
