@@ -170,8 +170,8 @@ export function validateCatalogBundle(bundle) {
     if (!(instrument.researchSources || []).length) {
       throw new Error(`SoundTrail instrument ${instrument.id} is missing research sources.`);
     }
-    if (Number(instrument.researchStandardVersion) < 1) {
-      throw new Error(`SoundTrail instrument ${instrument.id} has not completed the current research standard.`);
+    if (Number(instrument.researchStandardVersion) < 2) {
+      throw new Error(`SoundTrail instrument ${instrument.id} has not completed research standard v2.`);
     }
     if ((instrument.genres || []).length < 3) {
       throw new Error(`SoundTrail instrument ${instrument.id} needs a researched style map, not just starter tracks.`);
@@ -183,12 +183,17 @@ export function validateCatalogBundle(bundle) {
       if (!(genre.researchSources || []).length) {
         throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} is missing research provenance.`);
       }
-      const hasExample = soundRecordings.some((recording) =>
-        (recording.instruments || []).includes(instrument.id)
-        && recording.genresByInstrument?.[instrument.id] === genre.name
+      const verifiedTrackIds = new Set(
+        soundRecordings
+          .filter((recording) =>
+            (recording.instruments || []).includes(instrument.id)
+            && recording.genresByInstrument?.[instrument.id] === genre.name
+            && recording.spotifyTrackId
+          )
+          .map((recording) => recording.spotifyTrackId)
       );
-      if (!hasExample) {
-        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} has no verified recording example.`);
+      if (verifiedTrackIds.size < 2) {
+        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} needs at least two verified Spotify track examples.`);
       }
     }
   }

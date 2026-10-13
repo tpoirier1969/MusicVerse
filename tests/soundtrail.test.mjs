@@ -18,26 +18,33 @@ test('SoundTrail exposes the approved instrument set once each', () => {
   ]);
 });
 
-test('every SoundTrail instrument meets research standard v1', () => {
+test('every SoundTrail instrument meets research standard v2', () => {
   for (const instrument of soundTrail.instruments) {
-    assert.ok(Number(instrument.researchStandardVersion) >= 1, `Research standard not completed: ${instrument.id}`);
+    assert.ok(Number(instrument.researchStandardVersion) >= 2, `Research standard v2 not completed: ${instrument.id}`);
     assert.ok(String(instrument.importance || '').trim(), `Missing importance: ${instrument.id}`);
     assert.ok((instrument.researchSources || []).length, `Missing research sources: ${instrument.id}`);
     assert.ok((instrument.genres || []).length >= 3, `Insufficient researched style map: ${instrument.id}`);
   }
 });
 
-test('every SoundTrail genre has an about description and at least one matching recording', () => {
+test('every SoundTrail genre has research context and at least two track-level examples', () => {
+  const spotifyTrackPattern = /^https:\/\/open\.spotify\.com\/(?:intl-[^/]+\/)?track\/[A-Za-z0-9]+(?:[/?#].*)?$/;
+
   for (const instrument of soundTrail.instruments) {
     for (const genre of instrument.genres || []) {
       assert.ok(String(genre.about || '').trim(), `Missing about text: ${instrument.id} / ${genre.name}`);
       assert.ok((genre.researchSources || []).length, `Missing research sources: ${instrument.id} / ${genre.name}`);
+
+      const examples = soundTrail.recordings.filter((recording) =>
+        (recording.instruments || []).includes(instrument.id)
+        && recording.genresByInstrument?.[instrument.id] === genre.name
+        && spotifyTrackPattern.test(recording.spotify || '')
+      );
+      const uniqueTrackUrls = new Set(examples.map((recording) => recording.spotify.replace(/\?.*$/, '')));
+
       assert.ok(
-        soundTrail.recordings.some((recording) =>
-          (recording.instruments || []).includes(instrument.id)
-          && recording.genresByInstrument?.[instrument.id] === genre.name
-        ),
-        `Genre has no recordings: ${instrument.id} / ${genre.name}`,
+        uniqueTrackUrls.size >= 2,
+        `Genre needs at least two verified track examples: ${instrument.id} / ${genre.name}`,
       );
     }
   }
@@ -46,6 +53,8 @@ test('every SoundTrail genre has an about description and at least one matching 
 test('SoundTrail recordings use stable IDs and preserve instrument relationships', () => {
   const ids = soundTrail.recordings.map((recording) => recording.id);
   assert.equal(new Set(ids).size, ids.length);
+  const spotifyUrls = soundTrail.recordings.map((recording) => recording.spotify).filter(Boolean);
+  assert.equal(new Set(spotifyUrls).size, spotifyUrls.length, 'SoundTrail should not duplicate the same Spotify resource');
   for (const recording of soundTrail.recordings) {
     assert.match(recording.id, /^soundtrail-recording-\d{4}$/);
     assert.ok(recording.instruments?.length);

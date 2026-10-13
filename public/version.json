@@ -1,9 +1,9 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.3",
   "updated_at": "2026-10-13",
   "notes": [
-    "SoundTrail now hides obsolete instrument/style relationships from the live genre filter unless at least one recording currently uses them.",
-    "The old generic Tabla 'Indian Classical' relationship remains preserved in Yellowdawg history but is no longer exposed in the app.",
-    "No catalog records are deleted by this cleanup."
+    "SoundTrail research standard v2 now requires at least two verified Spotify track examples for every listed instrument/style relationship.",
+    "The existing SoundTrail catalog has been expanded to meet the new two-example minimum across accordion, clarinet, pedal steel guitar, cello, sitar, double bass, and tabla.",
+    "Future instruments must include importance, researched styles, role explanations, provenance, and two verified track examples per style before catalog validation will pass."
   ]
 }

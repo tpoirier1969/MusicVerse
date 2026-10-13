@@ -34,14 +34,14 @@ Passwordless email sign-in uses Supabase Magic Links. The deployed MusicVerse or
 
 ## SoundTrail research standard
 
-SoundTrail instruments are research objects, not empty category shells. Adding a new instrument requires research-standard version 1 before the catalog will validate:
+SoundTrail instruments are research objects, not empty category shells. Adding a new instrument requires research-standard version 2 before the catalog will validate:
 
 - explain why the instrument matters musically and historically, with public research sources;
 - map the instrument across significant styles and traditions without inventing genres merely to hit a quota;
 - explain what the instrument actually does in every listed style;
-- include at least one verified recording example for every listed style, with an instrument-specific note explaining what to listen for;
+- include at least two verified Spotify track examples for every listed style, each with an instrument-specific note explaining what to listen for;
 - verify artist/recording relationships from public sources and verify Spotify matches separately; a missing Spotify match stays blank rather than being guessed;
-- prefer broader coverage and multiple examples where they add discovery value, while avoiding duplicate recordings simply because one performance illustrates more than one relationship.
+- prefer different artists, eras, or approaches when they make the comparison more useful, but allow two strong examples from the same specialist rather than padding a style with a weak match; avoid duplicate recordings simply because one performance illustrates more than one relationship.
 
 TinyFish is the default broad-web research pass for a new instrument. Research findings are corroborated before they become catalog facts. The catalog sync rejects instruments missing importance, provenance, style explanations, or recording coverage, and then syncs the research metadata to Yellowdawg after the core catalog import.
 
