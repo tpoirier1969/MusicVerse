@@ -283,7 +283,7 @@
           "url": "https://www.earlymusicamerica.org/web-articles/according-the-accordion-its-historical-due/"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "clarinet",
@@ -380,7 +380,7 @@
           "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/structure/structure002.html"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "pedal-steel-guitar",
@@ -493,7 +493,7 @@
           "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "cello",
@@ -616,7 +616,7 @@
           "url": "https://philharmonia.co.uk/resources/instruments/cello/"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "sitar",
@@ -719,7 +719,7 @@
           "url": "https://www.britannica.com/art/sitar"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "double-bass",
@@ -826,7 +826,7 @@
           "url": "https://ysomusic.org/media/the-double-bass"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     },
     {
       "id": "tabla",
@@ -913,7 +913,7 @@
           "url": "https://www.britannica.com/art/tabla"
         }
       ],
-      "researchStandardVersion": 1
+      "researchStandardVersion": 2
     }
   ],
   "recordings": [
@@ -3512,6 +3512,533 @@
         "tabla": "Tabla is embedded in bass-heavy studio production and global percussion, functioning simultaneously as live hand drumming and electronic rhythmic material."
       },
       "spotify": "https://open.spotify.com/track/7APHIpKi9GO7Xe4RotrDgY"
+    },
+    {
+      "id": "soundtrail-recording-0153",
+      "artist": "Hubert von Goisern und die Alpinkatzen",
+      "track": "Heast as net",
+      "region": "Austria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Austrian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion supplies Alpine folk color and rhythmic lift inside von Goisern's modern Austrian folk-rock approach."
+      },
+      "spotify": "https://open.spotify.com/track/1MJVg8vn6Z9k1L0H0rIFlC"
+    },
+    {
+      "id": "soundtrail-recording-0154",
+      "artist": "Hubert von Goisern und die Alpinkatzen",
+      "track": "Koa Hiatamadl",
+      "region": "Austria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Austrian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "A bright, forceful accordion line helps connect Alpine dance-music vocabulary with a contemporary band sound."
+      },
+      "spotify": "https://open.spotify.com/track/65hSj29Bue2qytRbeThm4O"
+    },
+    {
+      "id": "soundtrail-recording-0155",
+      "artist": "Taraf de Haïdouks",
+      "track": "Spune, spune, mos batrin",
+      "region": "Romania",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Balkan Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion is part of the lautari ensemble texture, reinforcing melody and dance pulse alongside violin, cymbalum, bass, and voice."
+      },
+      "spotify": "https://open.spotify.com/track/0Ym9JLSIwPURRXWjqxyGAq"
+    },
+    {
+      "id": "soundtrail-recording-0156",
+      "artist": "Taraf de Haïdouks",
+      "track": "Turceasca",
+      "region": "Romania",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Balkan Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion contributes to a fast, tightly interlocked Romanian-Romani ensemble built around rhythmic drive and ornamented dance melody."
+      },
+      "spotify": "https://open.spotify.com/track/1PKxURn2ix43IXZkp3n2I1"
+    },
+    {
+      "id": "soundtrail-recording-0157",
+      "artist": "Kepa Junkera",
+      "track": "Bok-Espok",
+      "region": "Basque Country, Spain",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Basque Trikitixa"
+      },
+      "instrumentNotes": {
+        "accordion": "Junkera uses the trikitixa's quick diatonic response for tightly articulated melody and dance rhythm, showing the instrument as a defining Basque lead voice."
+      },
+      "spotify": "https://open.spotify.com/track/0OMEuM0FI3BM4RwOvaTDhZ"
+    },
+    {
+      "id": "soundtrail-recording-0158",
+      "artist": "Iry LeJeune",
+      "track": "Love Bridge Waltz",
+      "region": "Louisiana, United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Cajun"
+      },
+      "instrumentNotes": {
+        "accordion": "LeJeune's diatonic accordion carries a strongly vocal melody while the bellows phrasing keeps the Cajun waltz moving."
+      },
+      "spotify": "https://open.spotify.com/track/5PZyASzcaKwXmmQrzUeOtQ"
+    },
+    {
+      "id": "soundtrail-recording-0159",
+      "artist": "Richard Galliano",
+      "track": "Chopin: Valses, Op. 69 - Arr. for Accordion R. Galliano: No. 1",
+      "region": "France / classical",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Classical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Galliano uses sustained bellows control and carefully voiced harmony to translate a piano waltz into an expressive concert-accordion performance."
+      },
+      "spotify": "https://open.spotify.com/track/61605zNUcQkEkn7x30MFCr"
+    },
+    {
+      "id": "soundtrail-recording-0160",
+      "artist": "Viljo Vesterinen, Dallapé-orkesteri",
+      "track": "Metsäkukkia",
+      "region": "Finland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Finnish Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Vesterinen brings a lyrical, singing accordion tone to Finnish dance-band repertoire, balancing sentimental melody with a steady social-dance pulse."
+      },
+      "spotify": "https://open.spotify.com/track/2xurkTs1PHPLPZxsFnFwmw"
+    },
+    {
+      "id": "soundtrail-recording-0161",
+      "artist": "Bitori",
+      "track": "Munana",
+      "region": "Cape Verde",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Funaná"
+      },
+      "instrumentNotes": {
+        "accordion": "Bitori's gaita accordion drives the tune with repeating, clipped melodic figures and relentless rhythmic propulsion central to traditional funaná."
+      },
+      "spotify": "https://open.spotify.com/track/5R53RswAVu6qgwwJxuDNHi"
+    },
+    {
+      "id": "soundtrail-recording-0162",
+      "artist": "Bitori",
+      "track": "Bitori Nha Bibinha",
+      "region": "Cape Verde",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Funaná"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion locks into funaná's fast dance groove, functioning as both lead melody and rhythmic engine."
+      },
+      "spotify": "https://open.spotify.com/track/72m6PMG9KH0kXgfSOrYT9a"
+    },
+    {
+      "id": "soundtrail-recording-0163",
+      "artist": "Will Glahé",
+      "track": "Beer barrel polka",
+      "region": "Germany",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "German Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "Glahé's accordion is a lead voice in the buoyant polka arrangement, combining melody, rhythmic accents, and dance-band drive."
+      },
+      "spotify": "https://open.spotify.com/track/6AZr1hqyX95O1qVW1GQz5P"
+    },
+    {
+      "id": "soundtrail-recording-0164",
+      "artist": "Will Glahé",
+      "track": "Rosamunde",
+      "region": "Germany",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "German Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion carries the familiar Central European dance melody with the crisp attack and chordal support associated with German polka orchestras."
+      },
+      "spotify": "https://open.spotify.com/track/4LOacigUeX2TLcXngkhIyv"
+    },
+    {
+      "id": "soundtrail-recording-0165",
+      "artist": "Sharon Shannon",
+      "track": "Blackbird",
+      "region": "Ireland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Irish / Celtic"
+      },
+      "instrumentNotes": {
+        "accordion": "Shannon's button accordion is the melodic center, using compact ornamentation and bellows phrasing to give the tune both lift and rhythmic precision."
+      },
+      "spotify": "https://open.spotify.com/track/5DxnjYeJVwaG0NZ1qrb34d"
+    },
+    {
+      "id": "soundtrail-recording-0166",
+      "artist": "Sharon Shannon, Steve Earle",
+      "track": "The Galway Girl",
+      "region": "Ireland / United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Irish / Celtic"
+      },
+      "instrumentNotes": {
+        "accordion": "Shannon's accordion supplies the Irish traditional color and dancing counterlines around a roots-oriented song form."
+      },
+      "spotify": "https://open.spotify.com/track/1i92xro4lPLyjiOd3y2aqA"
+    },
+    {
+      "id": "soundtrail-recording-0167",
+      "artist": "Riccardo Tesi",
+      "track": "Tarantella rouge & noir",
+      "region": "Italy",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Italian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Tesi's diatonic organetto gives the tarantella-derived piece a sharply articulated folk-dance core while the arrangement expands into contemporary ensemble territory."
+      },
+      "spotify": "https://open.spotify.com/track/3efreI5DYZaUn6tmA2FZeC"
+    },
+    {
+      "id": "soundtrail-recording-0168",
+      "artist": "Riccardo Tesi, Claudio Fossati",
+      "track": "Tarantella al melograno",
+      "region": "Italy",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Italian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "The organetto carries quick dance figures and bellows accents that connect a modern arrangement directly to Italian regional folk practice."
+      },
+      "spotify": "https://open.spotify.com/track/7G001goMKXPgZOsx3QM1mK"
+    },
+    {
+      "id": "soundtrail-recording-0169",
+      "artist": "Kroke",
+      "track": "Ajde Jano (Balkan Piece In Klezmer Style)",
+      "region": "Poland / Eastern Europe",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Klezmer"
+      },
+      "instrumentNotes": {
+        "accordion": "Jerzy Bawoł's accordion helps recast a Balkan melody through Kroke's klezmer language, supplying harmony, rhythmic breathing, and an expressive lead voice."
+      },
+      "spotify": "https://open.spotify.com/track/7rz95qkYuWUDugTFznDh2S"
+    },
+    {
+      "id": "soundtrail-recording-0170",
+      "artist": "Kroke",
+      "track": "Spiel Klezmer - Yiddish Freylekhs",
+      "region": "Poland / Eastern European Jewish tradition",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Klezmer"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion works inside a classic freylekhs setting, supporting the dance pulse while sharing melodic and ornamental duties with the trio."
+      },
+      "spotify": "https://open.spotify.com/track/0Juw52yEOsmqKOyVnBNUWm"
+    },
+    {
+      "id": "soundtrail-recording-0171",
+      "artist": "\"Weird Al\" Yankovic",
+      "track": "Another One Rides the Bus",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Pop"
+      },
+      "instrumentNotes": {
+        "accordion": "The stripped-down parody turns accordion into the main harmonic and rhythmic instrument, demonstrating how its attack can carry an entire pop performance."
+      },
+      "spotify": "https://open.spotify.com/track/23tktWr4FmFoJ6xEGqj3u2"
+    },
+    {
+      "id": "soundtrail-recording-0172",
+      "artist": "\"Weird Al\" Yankovic",
+      "track": "Polka Face",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Pop"
+      },
+      "instrumentNotes": {
+        "accordion": "Yankovic compresses contemporary pop hooks into an accordion-led polka medley, using the instrument's rhythmic bounce as the organizing sound."
+      },
+      "spotify": "https://open.spotify.com/track/2ELqO1C2U6vhg1BfYp7QhG"
+    },
+    {
+      "id": "soundtrail-recording-0173",
+      "artist": "Quim Barreiros",
+      "track": "A Cabritinha",
+      "region": "Portugal",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Portuguese Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Barreiros uses accordion as a prominent melodic and dance accompaniment voice within Portuguese popular folk and pimba tradition."
+      },
+      "spotify": "https://open.spotify.com/track/5mu40aJSlKDFY6GT7XdcrC"
+    },
+    {
+      "id": "soundtrail-recording-0174",
+      "artist": "Quim Barreiros",
+      "track": "Bacalhau À Portuguesa",
+      "region": "Portugal",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Portuguese Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion provides the portable melody-and-accompaniment sound associated with Portuguese festive folk-pop performance."
+      },
+      "spotify": "https://open.spotify.com/track/3zi74Q3yQCJ6qIZ2L5NbyW"
+    },
+    {
+      "id": "soundtrail-recording-0175",
+      "artist": "La Bottine Souriante",
+      "track": "La ziguezon",
+      "region": "Québec, Canada",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Québécois Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion reinforces a traditional Québécois dance-song texture built around strong pulse, communal singing, and tightly articulated folk melody."
+      },
+      "spotify": "https://open.spotify.com/track/2Vmf6V7IQAVZlUcjE2FbDc"
+    },
+    {
+      "id": "soundtrail-recording-0176",
+      "artist": "Le Vent du Nord",
+      "track": "Lanlaire",
+      "region": "Québec, Canada",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Québécois Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion works with fiddle and foot-driven rhythm to give the progressive Québécois arrangement its traditional dance momentum."
+      },
+      "spotify": "https://open.spotify.com/track/1jIDSmhZSyq48PdFJT7KfS"
+    },
+    {
+      "id": "soundtrail-recording-0177",
+      "artist": "They Might Be Giants",
+      "track": "Particle Man",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Rock"
+      },
+      "instrumentNotes": {
+        "accordion": "John Linnell's accordion functions as a core band instrument rather than novelty decoration, replacing part of the keyboard/guitar role in compact alternative rock."
+      },
+      "spotify": "https://open.spotify.com/track/1WFCIkoc4PaN7L7SmiI85i"
+    },
+    {
+      "id": "soundtrail-recording-0178",
+      "artist": "The Decemberists",
+      "track": "The Mariner's Revenge Song",
+      "region": "United States",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Rock"
+      },
+      "instrumentNotes": {
+        "accordion": "Jenny Conlee's accordion gives the indie-rock narrative a dark folk pulse and sustained harmonic texture alongside acoustic guitar and rhythm section."
+      },
+      "spotify": "https://open.spotify.com/track/3GDIZO71jiE1FEcHEJh3RH"
+    },
+    {
+      "id": "soundtrail-recording-0179",
+      "artist": "Friedrich Lips",
+      "track": "Arrangement Of Two Russian Folk-Songs: Come And See Us, Precious Guests & My Teeny Ones, Weeny Gnats, Gnatlings Mine - Composed Or Made Famous By: P. Londonov",
+      "region": "Russia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Russian Bayan"
+      },
+      "instrumentNotes": {
+        "accordion": "Lips uses bayan range, free-bass control, and bellows dynamics to turn Russian folk material into a concert-scale solo performance."
+      },
+      "spotify": "https://open.spotify.com/track/37mufb0R3Fo8VqgZivrLwY"
+    },
+    {
+      "id": "soundtrail-recording-0180",
+      "artist": "Friedrich Lips",
+      "track": "Russian Dance - Composed Or Made Famous By: G. Shenderjov",
+      "region": "Russia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Russian Bayan"
+      },
+      "instrumentNotes": {
+        "accordion": "A virtuoso bayan treatment of Russian dance material highlights rapid articulation, powerful bass, and wide dynamic control."
+      },
+      "spotify": "https://open.spotify.com/track/2WCFRQPLNOqQiP9xTPBZ8V"
+    },
+    {
+      "id": "soundtrail-recording-0181",
+      "artist": "Slavko Avsenik und seine Original Oberkrainer",
+      "track": "Trompeten-Echo (Na golici)",
+      "region": "Slovenia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Slovenian Polka"
+      },
+      "instrumentNotes": {
+        "accordion": "Avsenik's piano accordion is part of the bright Oberkrainer ensemble sound that defined Slovenian-style polka for an international audience."
+      },
+      "spotify": "https://open.spotify.com/track/6Hz8eXanmcxzNRFeufGJcy"
+    },
+    {
+      "id": "soundtrail-recording-0182",
+      "artist": "Lars-Luis Linek, Johannes Hoffmann",
+      "track": "Ukrainian Accordion Solo",
+      "region": "Ukraine",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Ukrainian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "The track isolates accordion as the carrier of Ukrainian-styled folk melody, accompaniment, and dance articulation."
+      },
+      "spotify": "https://open.spotify.com/track/7JaDAY14UUDJqmCr61wwCq"
+    },
+    {
+      "id": "soundtrail-recording-0183",
+      "artist": "Accordion Duet Lata-Nesmiyan",
+      "track": "Ukrainian Folk Dance",
+      "region": "Ukraine",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Ukrainian Folk"
+      },
+      "instrumentNotes": {
+        "accordion": "An archival accordion duet demonstrates how paired free-reed instruments can supply both rhythmic drive and interlocking melody in Ukrainian dance repertoire."
+      },
+      "spotify": "https://open.spotify.com/track/5vvHILQ2OE1jH4mILQqtMo"
     }
   ]
 }
