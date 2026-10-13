@@ -18,6 +18,15 @@ test('SoundTrail exposes the approved instrument set once each', () => {
   ]);
 });
 
+test('every SoundTrail instrument meets research standard v1', () => {
+  for (const instrument of soundTrail.instruments) {
+    assert.ok(Number(instrument.researchStandardVersion) >= 1, `Research standard not completed: ${instrument.id}`);
+    assert.ok(String(instrument.importance || '').trim(), `Missing importance: ${instrument.id}`);
+    assert.ok((instrument.researchSources || []).length, `Missing research sources: ${instrument.id}`);
+    assert.ok((instrument.genres || []).length >= 3, `Insufficient researched style map: ${instrument.id}`);
+  }
+});
+
 test('every SoundTrail genre has an about description and at least one matching recording', () => {
   for (const instrument of soundTrail.instruments) {
     for (const genre of instrument.genres || []) {
@@ -46,9 +55,11 @@ test('SoundTrail recordings use stable IDs and preserve instrument relationships
   }
 });
 
-test('new SoundTrail instruments have starter recordings', () => {
+test('expanded SoundTrail instruments have researched breadth, not starter stubs', () => {
   for (const instrumentId of ['clarinet','pedal-steel-guitar','cello','sitar','double-bass','tabla']) {
-    const count = soundTrail.recordings.filter((recording) => recording.instruments?.includes(instrumentId)).length;
-    assert.ok(count >= 3, `${instrumentId} needs at least three starter recordings`);
+    const instrument = soundTrail.instruments.find((item) => item.id === instrumentId);
+    const recordings = soundTrail.recordings.filter((recording) => recording.instruments?.includes(instrumentId));
+    assert.ok((instrument?.genres || []).length >= 7, `${instrumentId} needs a broad researched style map`);
+    assert.ok(recordings.length >= 7, `${instrumentId} needs examples across that style map`);
   }
 });
