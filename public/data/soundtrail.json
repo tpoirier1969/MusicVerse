@@ -7,111 +7,138 @@
       "genres": [
         {
           "name": "Accordion Jazz",
-          "about": "In jazz, accordion can function like a portable keyboard while retaining a breath-like attack. Players use it for chordal comping, agile single-note lines, and sustained harmonies that can move between piano, organ, and horn-like roles."
+          "about": "In jazz, accordion can function like a portable keyboard while retaining a breath-like attack. Players use it for chordal comping, agile single-note lines, and sustained harmonies that can move between piano, organ, and horn-like roles.",
+          "researchSources": []
         },
         {
           "name": "Austrian Folk",
-          "about": "In Austrian folk and alpine dance music, accordion supplies both melody and rhythmic lift. Its bass buttons and bellows accents let one player reinforce the dance pulse while carrying ornamented tunes."
+          "about": "In Austrian folk and alpine dance music, accordion supplies both melody and rhythmic lift. Its bass buttons and bellows accents let one player reinforce the dance pulse while carrying ornamented tunes.",
+          "researchSources": []
         },
         {
           "name": "Balkan Folk",
-          "about": "Across Balkan folk traditions, accordion is prized for fast ornamentation, asymmetrical dance rhythms, and the ability to cut through dense ensembles. It often acts as both lead voice and rhythmic engine."
+          "about": "Across Balkan folk traditions, accordion is prized for fast ornamentation, asymmetrical dance rhythms, and the ability to cut through dense ensembles. It often acts as both lead voice and rhythmic engine.",
+          "researchSources": []
         },
         {
           "name": "Basque Trikitixa",
-          "about": "Trikitixa centers on a small diatonic button accordion whose bright attack is tightly interlocked with dance rhythm. The instrument is a defining melodic voice in Basque social and festival music."
+          "about": "Trikitixa centers on a small diatonic button accordion whose bright attack is tightly interlocked with dance rhythm. The instrument is a defining melodic voice in Basque social and festival music.",
+          "researchSources": []
         },
         {
           "name": "Cajun",
-          "about": "Cajun music often puts the diatonic accordion at the center of the band. Its limited-note layout encourages forceful bellows phrasing, rhythmic push, and a vocal-like melodic style closely tied to two-steps and waltzes."
+          "about": "Cajun music often puts the diatonic accordion at the center of the band. Its limited-note layout encourages forceful bellows phrasing, rhythmic push, and a vocal-like melodic style closely tied to two-steps and waltzes.",
+          "researchSources": []
         },
         {
           "name": "Classical Accordion",
-          "about": "Concert accordion extends the instrument beyond dance accompaniment with a wide dynamic range, independent bass systems, and sustained polyphony. Classical repertoire treats the bellows as an expressive control comparable to bowing or breath."
+          "about": "Concert accordion extends the instrument beyond dance accompaniment with a wide dynamic range, independent bass systems, and sustained polyphony. Classical repertoire treats the bellows as an expressive control comparable to bowing or breath.",
+          "researchSources": []
         },
         {
           "name": "Conjunto / Tex-Mex",
-          "about": "In conjunto and Tex-Mex music, accordion is a principal melodic voice, trading phrases with bajo sexto and vocals. Its punchy articulation and ornaments are central to polkas, rancheras, and the broader border-music sound."
+          "about": "In conjunto and Tex-Mex music, accordion is a principal melodic voice, trading phrases with bajo sexto and vocals. Its punchy articulation and ornaments are central to polkas, rancheras, and the broader border-music sound.",
+          "researchSources": []
         },
         {
           "name": "Finnish Folk",
-          "about": "Finnish accordion tradition combines dance rhythm with lyrical melody, especially in polkas, waltzes, and humppa. The instrument can sound both sharply rhythmic and deeply sentimental within the same repertoire."
+          "about": "Finnish accordion tradition combines dance rhythm with lyrical melody, especially in polkas, waltzes, and humppa. The instrument can sound both sharply rhythmic and deeply sentimental within the same repertoire.",
+          "researchSources": []
         },
         {
           "name": "Forró",
-          "about": "Accordion is one of the core sounds of northeastern Brazilian forró, especially alongside zabumba and triangle. It supplies syncopated melody, harmony, and propulsion for baião, xote, and related dance forms."
+          "about": "Accordion is one of the core sounds of northeastern Brazilian forró, especially alongside zabumba and triangle. It supplies syncopated melody, harmony, and propulsion for baião, xote, and related dance forms.",
+          "researchSources": []
         },
         {
           "name": "French Musette",
-          "about": "Parisian bal-musette made accordion a signature urban dance sound. Musette playing emphasizes lilting waltz pulse, ornamental melody, and a bright, reedy timbre that became shorthand for a particular image of French popular music."
+          "about": "Parisian bal-musette made accordion a signature urban dance sound. Musette playing emphasizes lilting waltz pulse, ornamental melody, and a bright, reedy timbre that became shorthand for a particular image of French popular music.",
+          "researchSources": []
         },
         {
           "name": "Funaná",
-          "about": "In Cape Verdean funaná, accordion pairs with scraped percussion to create fast, driving dance music. The instrument's repeating rhythmic figures and clipped melodic phrases are fundamental to the genre's momentum."
+          "about": "In Cape Verdean funaná, accordion pairs with scraped percussion to create fast, driving dance music. The instrument's repeating rhythmic figures and clipped melodic phrases are fundamental to the genre's momentum.",
+          "researchSources": []
         },
         {
           "name": "German Polka",
-          "about": "German polka uses accordion for buoyant melody, oom-pah harmony, and strong dance accents. It can reinforce brass-band textures or carry a complete small-ensemble arrangement by itself."
+          "about": "German polka uses accordion for buoyant melody, oom-pah harmony, and strong dance accents. It can reinforce brass-band textures or carry a complete small-ensemble arrangement by itself.",
+          "researchSources": []
         },
         {
           "name": "Irish / Celtic",
-          "about": "Accordion and button accordion are important dance instruments in Irish traditional music. Crisp articulation, bellows control, and compact ornamentation help reels and jigs maintain both melodic detail and rhythmic drive."
+          "about": "Accordion and button accordion are important dance instruments in Irish traditional music. Crisp articulation, bellows control, and compact ornamentation help reels and jigs maintain both melodic detail and rhythmic drive.",
+          "researchSources": []
         },
         {
           "name": "Italian Folk",
-          "about": "Accordion became deeply embedded in Italian folk and popular dance music, from village repertoire to migrant communities abroad. It is valued for self-contained accompaniment and a singing melodic quality."
+          "about": "Accordion became deeply embedded in Italian folk and popular dance music, from village repertoire to migrant communities abroad. It is valued for self-contained accompaniment and a singing melodic quality.",
+          "researchSources": []
         },
         {
           "name": "Klezmer",
-          "about": "In klezmer, accordion can provide harmony, bass motion, rhythmic accompaniment, or lead lines alongside clarinet and violin. Its capacity for bends, swells, and sharp accents suits the music's speech-like phrasing."
+          "about": "In klezmer, accordion can provide harmony, bass motion, rhythmic accompaniment, or lead lines alongside clarinet and violin. Its capacity for bends, swells, and sharp accents suits the music's speech-like phrasing.",
+          "researchSources": []
         },
         {
           "name": "Norteño",
-          "about": "Norteño places button accordion at the front of the ensemble with bajo sexto. The accordion carries hooks, fills, and improvised responses that are essential to the genre's identity."
+          "about": "Norteño places button accordion at the front of the ensemble with bajo sexto. The accordion carries hooks, fills, and improvised responses that are essential to the genre's identity.",
+          "researchSources": []
         },
         {
           "name": "Pop",
-          "about": "In pop, accordion is usually a color rather than the whole arrangement. Its instantly recognizable attack can add folk character, nostalgia, rhythmic bounce, or an intentionally unusual texture."
+          "about": "In pop, accordion is usually a color rather than the whole arrangement. Its instantly recognizable attack can add folk character, nostalgia, rhythmic bounce, or an intentionally unusual texture.",
+          "researchSources": []
         },
         {
           "name": "Portuguese Folk",
-          "about": "Portuguese folk accordion supports social dance and regional song with melody, bass, and chordal accompaniment. Its portability made it especially effective for community music-making."
+          "about": "Portuguese folk accordion supports social dance and regional song with melody, bass, and chordal accompaniment. Its portability made it especially effective for community music-making.",
+          "researchSources": []
         },
         {
           "name": "Québécois Folk",
-          "about": "Québécois traditional music uses accordion to drive reels, crooked tunes, and social dancing. Strong rhythmic articulation works with foot percussion and fiddle to keep the music moving."
+          "about": "Québécois traditional music uses accordion to drive reels, crooked tunes, and social dancing. Strong rhythmic articulation works with foot percussion and fiddle to keep the music moving.",
+          "researchSources": []
         },
         {
           "name": "Rock",
-          "about": "Rock uses accordion as an alternative to keyboards or guitar, sometimes for roots texture and sometimes for deliberate contrast. Amplification lets its sustained chords and biting reeds sit comfortably beside drums and electric guitars."
+          "about": "Rock uses accordion as an alternative to keyboards or guitar, sometimes for roots texture and sometimes for deliberate contrast. Amplification lets its sustained chords and biting reeds sit comfortably beside drums and electric guitars.",
+          "researchSources": []
         },
         {
           "name": "Russian Bayan",
-          "about": "The bayan is a chromatic button accordion central to Russian concert and folk traditions. Its extended range, powerful bass system, and refined dynamics support virtuosic solo repertoire as well as ensemble music."
+          "about": "The bayan is a chromatic button accordion central to Russian concert and folk traditions. Its extended range, powerful bass system, and refined dynamics support virtuosic solo repertoire as well as ensemble music.",
+          "researchSources": []
         },
         {
           "name": "Scottish Folk",
-          "about": "Scottish accordion is closely tied to dance bands and ceilidh repertoire. It combines precise dance rhythm with broad melodic phrasing and can anchor both small groups and larger accordion-led ensembles."
+          "about": "Scottish accordion is closely tied to dance bands and ceilidh repertoire. It combines precise dance rhythm with broad melodic phrasing and can anchor both small groups and larger accordion-led ensembles.",
+          "researchSources": []
         },
         {
           "name": "Slovenian Polka",
-          "about": "Slovenian-style polka relies heavily on accordion for quick melodic figures and bright rhythmic punctuation. The instrument often defines the characteristic bounce of the ensemble."
+          "about": "Slovenian-style polka relies heavily on accordion for quick melodic figures and bright rhythmic punctuation. The instrument often defines the characteristic bounce of the ensemble.",
+          "researchSources": []
         },
         {
           "name": "Tango",
-          "about": "Tango's emblematic free-reed voice is the bandoneón, a close accordion relative. Its sharp attacks, sighing bellows, and dark sustained chords are central to tango's rhythmic tension and emotional character."
+          "about": "Tango's emblematic free-reed voice is the bandoneón, a close accordion relative. Its sharp attacks, sighing bellows, and dark sustained chords are central to tango's rhythmic tension and emotional character.",
+          "researchSources": []
         },
         {
           "name": "Ukrainian Folk",
-          "about": "Accordion and bayan are common in Ukrainian folk and dance settings, where they provide portable harmony, bass, and melody. The instrument supports both vigorous dances and lyrical song accompaniment."
+          "about": "Accordion and bayan are common in Ukrainian folk and dance settings, where they provide portable harmony, bass, and melody. The instrument supports both vigorous dances and lyrical song accompaniment.",
+          "researchSources": []
         },
         {
           "name": "Vallenato",
-          "about": "Accordion is one of vallenato's defining instruments, interacting with caja and guacharaca. It carries melodic hooks and improvised passages while helping shape the genre's distinctive rhythmic conversation."
+          "about": "Accordion is one of vallenato's defining instruments, interacting with caja and guacharaca. It carries melodic hooks and improvised passages while helping shape the genre's distinctive rhythmic conversation.",
+          "researchSources": []
         },
         {
           "name": "Zydeco",
-          "about": "Zydeco puts accordion at the center of a Creole dance groove influenced by blues and R&B. Piano and button accordions deliver riffs, fills, and percussive bellows accents over a strong backbeat."
+          "about": "Zydeco puts accordion at the center of a Creole dance groove influenced by blues and R&B. Piano and button accordions deliver riffs, fills, and percussive bellows accents over a strong backbeat.",
+          "researchSources": []
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -130,11 +157,13 @@
       "genres": [
         {
           "name": "Big Band / Swing",
-          "about": "In swing-era jazz the clarinet can float above the brass and saxophones with a bright, flexible lead voice. Bandleaders such as Benny Goodman and Artie Shaw made its agility, wide range, and liquid phrasing central to the sound of big-band jazz."
+          "about": "In swing-era jazz the clarinet can float above the brass and saxophones with a bright, flexible lead voice. Bandleaders such as Benny Goodman and Artie Shaw made its agility, wide range, and liquid phrasing central to the sound of big-band jazz.",
+          "researchSources": []
         },
         {
           "name": "Modern Jazz",
-          "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance."
+          "about": "Modern jazz clarinetists use the instrument as a fully contemporary improvising voice rather than a period color. Its range can move from woody low-register lines to penetrating upper-register solos without losing nuance.",
+          "researchSources": []
         },
         {
           "name": "Classical / Concerto",
@@ -162,7 +191,7 @@
           "researchSources": [
             {
               "label": "Historic New Orleans Collection — George Lewis",
-              "url": "https://www.hnoc.org/publications/first-draft/george-lewis-new-orleans-clarinetist"
+              "url": "https://hnoc.org/events/19th-annual-bill-russell-lecture-life-and-music-new-orleans-legend-george-lewis"
             }
           ]
         },
@@ -211,15 +240,18 @@
       "genres": [
         {
           "name": "Country",
-          "about": "Pedal steel is one of country's defining colors. Its foot pedals, knee levers, volume control, and sliding bar allow notes to bend independently, creating the vocal-like swells and moving harmonies heard behind countless country singers."
+          "about": "Pedal steel is one of country's defining colors. Its foot pedals, knee levers, volume control, and sliding bar allow notes to bend independently, creating the vocal-like swells and moving harmonies heard behind countless country singers.",
+          "researchSources": []
         },
         {
           "name": "Sacred Steel / Funk",
-          "about": "In the sacred-steel tradition, steel guitar becomes an expressive lead instrument rooted in church worship. Players such as Robert Randolph push that language into funk and rock, using distortion, rapid single-note runs, and rhythmic attack."
+          "about": "In the sacred-steel tradition, steel guitar becomes an expressive lead instrument rooted in church worship. Players such as Robert Randolph push that language into funk and rock, using distortion, rapid single-note runs, and rhythmic attack.",
+          "researchSources": []
         },
         {
           "name": "Instrumental / Steel Guitar",
-          "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble."
+          "about": "As a featured instrumental voice, pedal steel can move far beyond background fills. Virtuoso players exploit its chord-changing mechanics, sustain, harmonics, and glissandi to make it function almost like a self-contained ensemble.",
+          "researchSources": []
         },
         {
           "name": "Western Swing / Hot Steel",
@@ -306,15 +338,18 @@
       "genres": [
         {
           "name": "Classical",
-          "about": "The cello is foundational to Western chamber and orchestral music, but its solo repertoire shows the instrument's unusually complete range: bass foundation, tenor lyricism, chords, counterpoint, and singing upper-register melody."
+          "about": "The cello is foundational to Western chamber and orchestral music, but its solo repertoire shows the instrument's unusually complete range: bass foundation, tenor lyricism, chords, counterpoint, and singing upper-register melody.",
+          "researchSources": []
         },
         {
           "name": "Cello Metal",
-          "about": "Cello metal uses amplified cellos for riffs, power-chord textures, percussion-like attacks, and lead lines normally assigned to electric guitars. The instrument's low register gives heavy music weight without abandoning acoustic resonance."
+          "about": "Cello metal uses amplified cellos for riffs, power-chord textures, percussion-like attacks, and lead lines normally assigned to electric guitars. The instrument's low register gives heavy music weight without abandoning acoustic resonance.",
+          "researchSources": []
         },
         {
           "name": "Alternative / Cello Rock",
-          "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre."
+          "about": "Cello rock treats bowed strings as the core band sound rather than orchestral decoration. Repeated figures, distortion, aggressive bowing, and layered parts can replace guitar-driven rock textures while preserving the cello's darker timbre.",
+          "researchSources": []
         },
         {
           "name": "Romantic / Concerto",
@@ -411,15 +446,18 @@
       "genres": [
         {
           "name": "Hindustani Classical",
-          "about": "In Hindustani classical music the sitar is a major plucked lead instrument for raga performance. Movable frets, sympathetic strings, meend string bends, and long-form improvisation allow the player to develop both melodic detail and resonance over time."
+          "about": "In Hindustani classical music the sitar is a major plucked lead instrument for raga performance. Movable frets, sympathetic strings, meend string bends, and long-form improvisation allow the player to develop both melodic detail and resonance over time.",
+          "researchSources": []
         },
         {
           "name": "Rock / Psychedelia",
-          "about": "Rock musicians adopted sitar in the 1960s for more than exotic color at its best: its drones, bends, and sympathetic resonance changed how Western arrangements handled melody, sustain, and modal harmony."
+          "about": "Rock musicians adopted sitar in the 1960s for more than exotic color at its best: its drones, bends, and sympathetic resonance changed how Western arrangements handled melody, sustain, and modal harmony.",
+          "researchSources": []
         },
         {
           "name": "Contemporary Global / Fusion",
-          "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting."
+          "about": "Contemporary sitar players combine raga technique with electronic production, jazz harmony, global percussion, and singer-songwriter forms. The instrument remains structurally important even when the surrounding arrangement is far from a traditional raga setting.",
+          "researchSources": []
         },
         {
           "name": "Raga Rock / Pop",
@@ -468,10 +506,6 @@
             {
               "label": "Anoushka Shankar — Land of Gold",
               "url": "https://www.anoushkashankar.com/music/albums/land-of-gold"
-            },
-            {
-              "label": "Jazzwise — Land of Gold",
-              "url": "https://www.jazzwise.com/reviews/anoushka-shankar-land-of-gold"
             }
           ]
         }
@@ -496,15 +530,18 @@
       "genres": [
         {
           "name": "Jazz",
-          "about": "In jazz the double bass usually connects harmony and rhythm, outlining chord movement while locking with the drummer. Great bassists also turn that supporting role into counterpoint, melodic solos, and a strong compositional voice."
+          "about": "In jazz the double bass usually connects harmony and rhythm, outlining chord movement while locking with the drummer. Great bassists also turn that supporting role into counterpoint, melodic solos, and a strong compositional voice.",
+          "researchSources": []
         },
         {
           "name": "Jazz / Vocal",
-          "about": "When a bassist also sings, the double bass can become part of the front line rather than hidden accompaniment. The player can shape groove, harmony, and vocal phrasing at the same time."
+          "about": "When a bassist also sings, the double bass can become part of the front line rather than hidden accompaniment. The player can shape groove, harmony, and vocal phrasing at the same time.",
+          "researchSources": []
         },
         {
           "name": "Bass Feature",
-          "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes."
+          "about": "Bass-led recordings expose the double bass's full vocabulary: arco bowing, pizzicato attack, harmonics, chordal playing, and melodic improvisation. They make clear how much information the instrument can carry beyond root notes.",
+          "researchSources": []
         },
         {
           "name": "Classical / Solo Concerto",
@@ -585,19 +622,23 @@
       "genres": [
         {
           "name": "Indian Classical",
-          "about": "Tabla is a central rhythmic voice in North Indian classical music. Its paired drums produce a wide vocabulary of pitched and unpitched strokes, allowing the player to articulate tala cycles with both mathematical precision and improvisational conversation."
+          "about": "Tabla is a central rhythmic voice in North Indian classical music. Its paired drums produce a wide vocabulary of pitched and unpitched strokes, allowing the player to articulate tala cycles with both mathematical precision and improvisational conversation.",
+          "researchSources": []
         },
         {
           "name": "Indo-Jazz Fusion",
-          "about": "In Indo-jazz fusion, tabla does more than add an Indian surface texture. Players adapt tala, rhythmic subdivision, and call-and-response improvisation to interact with jazz harmony, electric instruments, and extended ensemble forms."
+          "about": "In Indo-jazz fusion, tabla does more than add an Indian surface texture. Players adapt tala, rhythmic subdivision, and call-and-response improvisation to interact with jazz harmony, electric instruments, and extended ensemble forms.",
+          "researchSources": []
         },
         {
           "name": "Electronic / Asian Underground",
-          "about": "Electronic artists have used tabla both acoustically and as sampled rhythmic material. The instrument's detailed attacks and cyclical phrasing can sit inside programmed beats while retaining a distinctly performed sense of time."
+          "about": "Electronic artists have used tabla both acoustically and as sampled rhythmic material. The instrument's detailed attacks and cyclical phrasing can sit inside programmed beats while retaining a distinctly performed sense of time.",
+          "researchSources": []
         },
         {
           "name": "Rock / Psychedelia",
-          "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit."
+          "about": "When tabla enters rock arrangements, it changes the groove rather than merely decorating it. Its articulated strokes and repeating tala patterns can support modal songwriting and create rhythmic motion unlike a standard drum kit.",
+          "researchSources": []
         },
         {
           "name": "Tabla Solo / Hindustani Classical",
@@ -619,7 +660,7 @@
             },
             {
               "label": "TuneDig — Ravi Shankar's Three Ragas",
-              "url": "https://tunedig.com/tunedig-episode-53-ravi-shankars-three-ragas/"
+              "url": "https://tunedig.com/tunedig-episode-53-ravi-shankar-three-ragas/"
             }
           ]
         },
