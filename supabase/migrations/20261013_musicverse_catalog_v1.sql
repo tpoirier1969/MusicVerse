@@ -284,6 +284,7 @@ declare
   v_crazy jsonb;
   v_instrument jsonb;
   v_genre jsonb;
+  v_genre_text text;
   v_sound jsonb;
   v_instrument_slug text;
   v_album_id uuid;
@@ -367,10 +368,10 @@ begin
     end if;
 
     if v_detail is not null and jsonb_typeof(v_detail) = 'object' then
-      for v_genre in
+      for v_genre_text in
         select value from jsonb_array_elements_text(coalesce(v_detail->'originalGenres','[]'::jsonb))
       loop
-        v_genre_id := public.musicverse_upsert_genre(trim(both '"' from v_genre::text));
+        v_genre_id := public.musicverse_upsert_genre(v_genre_text);
         if v_genre_id is not null then
           insert into public.musicverse_album_genres (album_id, genre_id, context)
           values (v_album_id, v_genre_id, 'original')
