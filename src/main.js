@@ -765,8 +765,38 @@ async function handleExport(playlistId) {
 
 window.addEventListener('hashchange', render);
 window.addEventListener('musicverse:store-change', render);
+window.addEventListener('musicverse:user-sync-state', render);
 
 document.addEventListener('click', async (event) => {
+  const syncNow = event.target.closest('[data-musicverse-sync]');
+  if (syncNow) {
+    try {
+      await syncMusicVerseNow();
+      showToast('MusicVerse library synced.');
+    } catch (error) {
+      showToast(error.message || 'MusicVerse sync failed.');
+    }
+    return;
+  }
+
+  const signOut = event.target.closest('[data-musicverse-signout]');
+  if (signOut) {
+    try {
+      await signOutMusicVerse();
+      showToast('Signed out of MusicVerse sync. Local data stays on this device.');
+    } catch (error) {
+      showToast(error.message || 'Could not sign out.');
+    }
+    return;
+  }
+
+  const removeReferenceButton = event.target.closest('[data-remove-reference]');
+  if (removeReferenceButton) {
+    removeReference(removeReferenceButton.dataset.removeReference);
+    showToast('Reference removed.');
+    return;
+  }
+
   const coverTab = event.target.closest('[data-cover-tab]');
   if (coverTab) {
     activeCoverTab = coverTab.dataset.coverTab;
@@ -881,7 +911,40 @@ document.addEventListener('change', (event) => {
   coverAlbumFilters = { ...coverAlbumFilters, [filter.dataset.albumFilter]: filter.value };
   render();
 });
-document.addEventListener('submit', (event) => {
+document.addEventListener('submit', async (event) => {
+  if (event.target.matches('[data-musicverse-signin]')) {
+    event.preventDefault();
+    const email = String(new FormData(event.target).get('email') || '').trim();
+    try {
+      await requestMusicVerseSignIn(email);
+      event.target.reset();
+    } catch (error) {
+      showToast(error.message || 'Could not send the MusicVerse sign-in link.');
+    }
+    return;
+  }
+
+  if (event.target.matches('[data-new-reference]')) {
+    event.preventDefault();
+    const form = new FormData(event.target);
+    const created = createReference({
+      title: form.get('title'),
+      url: form.get('url'),
+      type: form.get('type'),
+      provider: form.get('provider'),
+      instrument: form.get('instrument'),
+      tuning: form.get('tuning'),
+      capo: form.get('capo'),
+      difficulty: form.get('difficulty'),
+      notes: form.get('notes'),
+    });
+    if (created) {
+      event.target.reset();
+      showToast(`Saved “${created.title}”.`);
+    }
+    return;
+  }
+
   if (event.target.matches('[data-playlist-picker-new]')) {
     event.preventDefault();
     const name = String(new FormData(event.target).get('name') || '').trim();
@@ -928,14 +991,16 @@ document.addEventListener('submit', (event) => {
 async function boot() {
   try { await finishSpotifyLoginFromUrl(); } catch (error) { console.warn(error); showToast(error.message); }
 
+  const userSyncPromise = initMusicVerseUserSync();
   const spotifyHistoryPromise = getSpotifyToken() && spotifyHasScope('user-read-recently-played')
     ? fetchRecentlyPlayed(50)
     : Promise.resolve([]);
 
-  const [versionResult, musicResult, spotifyHistoryResult] = await Promise.allSettled([
+  const [versionResult, musicResult, spotifyHistoryResult, userSyncResult] = await Promise.allSettled([
     loadAppVersion(),
     loadMusicData(),
     spotifyHistoryPromise,
+    userSyncPromise,
   ]);
 
   if (versionResult.status === 'fulfilled') {
@@ -955,6 +1020,10 @@ async function boot() {
     mergeSpotifyListeningHistory(spotifyHistoryResult.value, { silent: true });
   } else if (spotifyHistoryResult.status === 'rejected') {
     console.warn('Could not refresh Spotify listening history for the daily feature.', spotifyHistoryResult.reason);
+  }
+
+  if (userSyncResult.status === 'rejected') {
+    console.warn('MusicVerse account sync could not initialize.', userSyncResult.reason);
   }
 
   ensureDailyFeaturedAlbum();
