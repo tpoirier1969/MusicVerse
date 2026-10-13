@@ -180,6 +180,9 @@ export function validateCatalogBundle(bundle) {
       if (!String(genre.about || '').trim()) {
         throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} is missing its role description.`);
       }
+      if (!(genre.researchSources || []).length) {
+        throw new Error(`SoundTrail style ${instrument.id} / ${genre.name} is missing research provenance.`);
+      }
       const hasExample = soundRecordings.some((recording) =>
         (recording.instruments || []).includes(instrument.id)
         && recording.genresByInstrument?.[instrument.id] === genre.name
