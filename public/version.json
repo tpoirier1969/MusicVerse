@@ -1,11 +1,12 @@
 {
-  "version": "0.6.2",
+  "version": "0.6.3",
   "updated_at": "2026-10-13",
   "notes": [
-    "Added permanent stable IDs to every Crazy Covers record so display-text corrections do not change record identity.",
-    "Added a repeat-safe catalog sync bundle with deterministic fingerprinting and validation.",
-    "Added dry-run, remote audit, and protected Supabase apply commands for future catalog updates.",
-    "Catalog apply refuses to target a Supabase project other than the configured MusicVerse project and requires a server-side service-role key.",
-    "The live import RPC still needs to be verified on the Yellowdawg Supabase project before catalog writes are enabled."
+    "Added stable recording aliases to the existing normalized Yellowdawg MusicVerse schema instead of creating a competing catalog.",
+    "Added and verified the protected musicverse_import_catalog_v1 RPC for repeat-safe catalog synchronization.",
+    "Crazy Covers now resolves through permanent crazy-cover-#### aliases even when a recording is shared with an album track or another module.",
+    "The current GitHub catalog snapshot was synchronized to Yellowdawg: 111 albums, 340 album tracks, 632 Crazy Covers, 78 SoundTrail recordings, and 7 instruments.",
+    "A second full synchronization of the identical snapshot produced no row-count changes, verifying repeat-safe behavior on the real catalog.",
+    "Catalog audit now compares permanent Crazy Covers IDs as well as album and SoundTrail IDs."
   ]
 }
