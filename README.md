@@ -8,3 +8,15 @@ MusicVerse is a standalone Lazy Acres Suite app. CoverVerse is one module inside
 MusicVerse uses the shared Supabase project as the authoritative remote catalog. All MusicVerse database objects are namespaced with `musicverse_` so they do not collide with other apps in the shared database. The bundled files in `public/data/` remain a read-only fallback for catalog availability; they are not a competing writable source of truth.
 
 User-specific playlists, favorites, references, listening events, and featured-album history have dedicated `musicverse_user_*` tables with RLS, but the browser app continues to use local storage for personal state until Supabase authentication is wired.
+
+## Catalog sync
+
+The bundled JSON files remain the recoverable source snapshot while the Supabase catalog is authoritative at runtime. Catalog updates use a repeat-safe sync bundle keyed by permanent MusicVerse IDs.
+
+- `npm run catalog:dry-run` validates the local catalog and prints counts plus a deterministic source fingerprint. It performs no network writes.
+- `npm run catalog:audit` compares stable album and SoundTrail IDs against the configured Supabase read views.
+- `npm run catalog:apply` sends the validated bundle to the protected `musicverse_import_catalog_v1` RPC. It requires `MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY`; that key must never be committed or exposed to browser code.
+- Catalog writes refuse to run unless the Supabase project ref matches `wntakzfoprthwggkidyq` (or an explicitly configured `MUSICVERSE_SUPABASE_EXPECTED_PROJECT_REF`).
+
+Crazy Covers now carries permanent `crazy-cover-####` IDs so corrections to song or artist display text do not create a new record identity.
+
