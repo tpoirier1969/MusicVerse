@@ -202,16 +202,26 @@ async function resolveRecordingIds(sourceKeys = [], spotifyIds = []) {
 
   const cleanKeys = [...new Set(sourceKeys.filter(Boolean))];
   const cleanSpotify = [...new Set(spotifyIds.filter(Boolean))];
+  const legacyKeys = cleanKeys.filter((key) => !validUuid(key));
+  const uuidKeys = cleanKeys.filter(validUuid);
 
-  if (cleanKeys.length) {
+  if (legacyKeys.length) {
     const aliases = check(
       await supabase
         .from('musicverse_recording_aliases')
         .select('alias_id,recording_id')
-        .in('alias_id', cleanKeys),
+        .in('alias_id', legacyKeys),
       'Could not resolve MusicVerse recording IDs',
     );
     for (const row of aliases) bySource.set(row.alias_id, row.recording_id);
+  }
+
+  if (uuidKeys.length) {
+    const recordings = check(
+      await supabase.from('musicverse_recordings').select('id').in('id', uuidKeys),
+      'Could not resolve older recording UUIDs',
+    );
+    for (const row of recordings) bySource.set(row.id, row.id);
   }
 
   if (cleanSpotify.length) {
@@ -694,10 +704,11 @@ async function loadRemoteSnapshot(userId) {
       spotifyUrl: playlist.spotify_url || '',
       tracks: itemsByPlaylist.get(playlist.id) || [],
     })),
-    favorites: favorites.map((item) =>
-      item.source_item_key
-        || favoriteAlias.get(item.recording_id)?.alias_id
-        || item.recording_id).filter(Boolean),
+    favorites: favorites.map((item) => {
+      const contextualAlias = favoriteAlias.get(item.recording_id)?.alias_id;
+      if (contextualAlias && (!item.source_item_key || validUuid(item.source_item_key))) return contextualAlias;
+      return item.source_item_key || contextualAlias || item.recording_id;
+    }).filter(Boolean),
     listeningLog,
     spotifyHistory: spotifyHistory
       .sort((a, b) => String(b.playedAt).localeCompare(String(a.playedAt)))
