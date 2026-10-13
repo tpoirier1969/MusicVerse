@@ -1,12 +1,11 @@
 {
-  "version": "0.6.1",
-  "updated_at": "2026-10-07",
+  "version": "0.6.2",
+  "updated_at": "2026-10-13",
   "notes": [
-    "CoverVerse now chooses one Featured Cover Album per local calendar day and keeps that selection fixed for the day.",
-    "Featured albums avoid repeats until the eligible feature pool cycles, then use a fourteen-day repeat guard.",
-    "Newly added albums receive a temporary feature boost.",
-    "Frequently played albums receive a boost only when Spotify history shows they have not been played within the last seven days.",
-    "Feature weighting uses actual cached Spotify play history, including track and album identity; MusicVerse clicks are not treated as listening.",
-    "Featured-album history is stored locally for now and can migrate into the existing musicverse_user_feature_history table when Supabase authentication is wired."
+    "Added permanent stable IDs to every Crazy Covers record so display-text corrections do not change record identity.",
+    "Added a repeat-safe catalog sync bundle with deterministic fingerprinting and validation.",
+    "Added dry-run, remote audit, and protected Supabase apply commands for future catalog updates.",
+    "Catalog apply refuses to target a Supabase project other than the configured MusicVerse project and requires a server-side service-role key.",
+    "The live import RPC still needs to be verified on the Yellowdawg Supabase project before catalog writes are enabled."
   ]
 }
