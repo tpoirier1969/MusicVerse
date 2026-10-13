@@ -22,3 +22,13 @@ The bundled JSON files remain the recoverable source snapshot while the Supabase
 
 Crazy Covers now carries permanent `crazy-cover-####` IDs so corrections to song or artist display text do not create a new record identity.
 
+## Personal library sync
+
+MusicVerse personal state uses Yellowdawg Supabase tables prefixed `musicverse_user_`. Once a permanent email account is signed in, Yellowdawg is the writable source of truth and browser storage becomes the local cache/offline recovery layer.
+
+The first authenticated sync merges existing browser data with remote data before writing either side. Later syncs push locally changed domains before pulling the current remote state. Signing into a different permanent account on the same browser archives the previous local cache before loading the new account.
+
+Synced domains currently include playlists and playlist items, Crazy Covers favorites, Spotify listening history, MusicVerse-open history, daily featured-album history, and Tabs & Chords references. Anonymous Supabase sessions are rejected by both the browser sync layer and restrictive RLS policies.
+
+Passwordless email sign-in uses Supabase Magic Links. The deployed MusicVerse origin must be included in Yellowdawg Auth URL Configuration as an allowed redirect URL. No service-role credential is used by or exposed to browser code.
+

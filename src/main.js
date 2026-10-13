@@ -14,14 +14,18 @@ import {
 import {
   addTracksToPlaylist,
   createPlaylist,
+  createReference,
+  getFavorites,
   getFeaturedAlbumHistory,
   getListeningLog,
   getPlaylists,
+  getReferences,
   getSpotifyListeningHistory,
   mergeSpotifyListeningHistory,
   rememberFeaturedAlbum,
   isFavorite,
   markListened,
+  removeReference,
   removeTrackFromPlaylist,
   toggleFavorite,
 } from './store.js';
@@ -36,6 +40,13 @@ import {
   spotifyResourceUri,
   spotifyTrackUri,
 } from './spotify.js';
+import {
+  getMusicVerseUserSyncState,
+  initMusicVerseUserSync,
+  requestMusicVerseSignIn,
+  signOutMusicVerse,
+  syncMusicVerseNow,
+} from './user-sync.js';
 
 const app = document.querySelector('#app');
 let data = { coverAlbums: [], crazyCovers: [], soundTrail: { instruments: [], recordings: [] }, catalogSource: 'loading' };
@@ -261,12 +272,13 @@ function crazyRows(items) {
   return `<div class="track-list">${items.map((track) => {
     const id = track.id || `cover:${track.sourceArtist}:${track.song}:${track.coverArtist}`;
     const artwork = String(track.artwork || '').trim();
+    const favorite = isFavorite(id) || (track.uuid && isFavorite(track.uuid));
     return `<article class="track-row">
       <button class="round-play track-art-play${artwork ? ' has-art' : ''}" ${artwork ? `style="--track-art:url('${esc(artwork)}')"` : ''} data-open-url="${esc(track.spotify)}" data-listened="${esc(id)}" aria-label="Open ${esc(track.song)}"><span aria-hidden="true">▶</span></button>
       <div class="track-main"><strong>${esc(track.song)}</strong><span>${esc(track.coverArtist)}</span></div>
       <div class="track-original"><small>Originally by</small><span>${esc(track.sourceArtist)}</span></div>
       <span class="style-pill">${esc(track.style)}</span>
-      <button class="icon-btn${isFavorite(id)?' is-favorite':''}" data-favorite="${esc(id)}" title="Favorite">♥</button>
+      <button class="icon-btn${favorite?' is-favorite':''}" data-favorite="${esc(id)}" title="Favorite">♥</button>
       <button class="icon-btn" data-add-track='${esc(JSON.stringify({id,title:track.song,artist:track.coverArtist,originalArtist:track.sourceArtist,spotifyUrl:track.spotify,spotifyUri:spotifyTrackUri(track.spotify),artwork:track.artwork || ''}))}' title="Add to playlist">＋</button>
     </article>`;
   }).join('')}</div>`;
@@ -484,17 +496,63 @@ function playlistTrackRow(track, playlistId) {
   return `<div class="playlist-track"><span class="playlist-track-art">${track.artwork ? `<img src="${esc(track.artwork)}" alt="">` : '<span aria-hidden="true">♪</span>'}</span><div><strong>${esc(track.title)}</strong><small>${esc(track.artist)}${track.originalArtist ? ` · originally ${esc(track.originalArtist)}` : ''}</small></div><button data-remove-track="${esc(playlistId)}|${esc(track.id)}">×</button></div>`;
 }
 
+function personalSyncSummary() {
+  const state = getMusicVerseUserSyncState();
+  if (state.signedIn) {
+    if (state.status === 'syncing') return 'Syncing with your MusicVerse library…';
+    if (state.status === 'error') return 'Signed in, but the last sync hit a problem.';
+    return `Synced with Yellowdawg as ${state.email || 'your account'}.`;
+  }
+  return 'Stored on this device until you sign in from Library.';
+}
+
 function playlistsView() {
   const playlists = getPlaylists();
   return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">PLAYLISTS</span><h1>Build the route.</h1><p>Make the list here. Send it to Spotify when it’s ready.</p></div><div class="small-roadtrip"></div></section>
     <section class="playlist-workspace">
-      <div class="playlist-toolbar organic-panel"><div><h2>Your playlists</h2><p>Stored locally for now; Supabase sync comes next.</p></div><form data-new-playlist><input name="name" placeholder="New playlist name"><button class="primary-action">Create</button></form></div>
+      <div class="playlist-toolbar organic-panel"><div><h2>Your playlists</h2><p>${esc(personalSyncSummary())}</p></div><form data-new-playlist><input name="name" placeholder="New playlist name"><button class="primary-action">Create</button></form></div>
       <div class="playlist-columns">${playlists.map((playlist)=>`<article class="playlist-builder organic-panel" data-playlist="${esc(playlist.id)}"><div class="playlist-builder-head"><div><span class="eyebrow">${playlist.tracks.length} TRACKS</span><h2>${esc(playlist.name)}</h2><p>${esc(playlist.description || 'A MusicVerse playlist')}</p></div><button class="spotify-export" data-export-playlist="${esc(playlist.id)}">● ${getSpotifyToken() ? 'Send to Spotify' : 'Connect Spotify'}</button></div><div class="playlist-track-list">${playlist.tracks.length ? playlist.tracks.map((track)=>playlistTrackRow(track,playlist.id)).join('') : '<p class="empty-state">Add tracks from CoverVerse using the ＋ buttons.</p>'}</div></article>`).join('')}</div>
     </section>`);
 }
 
+function referenceCard(reference) {
+  return `<article class="reference-card organic-panel">
+    <div><span class="eyebrow">${esc(String(reference.type || 'reference').replaceAll('_', ' '))}</span><h3>${esc(reference.title)}</h3>
+      <p>${[reference.provider, reference.instrument, reference.tuning ? `Tuning: ${reference.tuning}` : '', reference.capo ? `Capo: ${reference.capo}` : '', reference.difficulty].filter(Boolean).map(esc).join(' · ') || 'Saved playing reference'}</p>
+      ${reference.notes ? `<small>${esc(reference.notes)}</small>` : ''}
+    </div>
+    <div class="reference-actions">
+      ${reference.url ? `<a class="secondary-action" href="${esc(reference.url)}" target="_blank" rel="noopener noreferrer">Open reference</a>` : ''}
+      <button class="icon-btn" data-remove-reference="${esc(reference.id)}" title="Remove reference">×</button>
+    </div>
+  </article>`;
+}
+
 function tabsView() {
-  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">TABS & CHORDS</span><h1>Keep the useful versions.</h1><p>Favorite chord sheets, tabs, tunings, capo notes, and playing references will live here.</p></div><div class="small-roadtrip guitar-trip"></div></section><section class="coming organic-panel"><h2>First module expansion</h2><p>This is deliberately scaffolded, not fake-filled. The next data layer can store links to your preferred tab/chord pages, notes, tuning, capo, difficulty, instrument and song relationships.</p></section>`);
+  const references = getReferences();
+  const instruments = data.soundTrail?.instruments || [];
+  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">TABS & CHORDS</span><h1>Keep the useful versions.</h1><p>Save the tab, chord sheet, tuning, or lesson that was actually worth finding.</p></div><div class="small-roadtrip guitar-trip"></div></section>
+    <section class="reference-workspace">
+      <form class="reference-form organic-panel" data-new-reference>
+        <div class="section-heading"><div><span class="eyebrow">SAVE A REFERENCE</span><h2>Add tab, chords, sheet music, or a lesson</h2><p>${esc(personalSyncSummary())}</p></div></div>
+        <div class="reference-form-grid">
+          <label><span>Title</span><input name="title" required placeholder="Song or reference title"></label>
+          <label><span>URL</span><input name="url" type="url" placeholder="https://…"></label>
+          <label><span>Type</span><select name="type"><option value="tab">Tab</option><option value="chords">Chords</option><option value="sheet_music">Sheet music</option><option value="tuning">Tuning</option><option value="lesson">Lesson</option><option value="other">Other</option></select></label>
+          <label><span>Provider</span><input name="provider" placeholder="Ultimate Guitar, YouTube…"></label>
+          <label><span>Instrument</span><select name="instrument"><option value="">Any / not specified</option>${instruments.map((instrument)=>`<option value="${esc(instrument.id)}">${esc(instrument.label)}</option>`).join('')}</select></label>
+          <label><span>Tuning</span><input name="tuning" placeholder="Standard, DADGAD…"></label>
+          <label><span>Capo</span><input name="capo" placeholder="None, 2, 4…"></label>
+          <label><span>Difficulty</span><input name="difficulty" placeholder="Easy, intermediate…"></label>
+        </div>
+        <label class="reference-notes"><span>Notes</span><textarea name="notes" rows="3" placeholder="Why this version is useful"></textarea></label>
+        <button class="primary-action">Save reference</button>
+      </form>
+      <section class="reference-list">
+        <div class="section-heading"><div><span class="eyebrow">YOUR REFERENCES</span><h2>${references.length} saved</h2></div></div>
+        ${references.length ? references.map(referenceCard).join('') : '<div class="coming organic-panel"><h3>No saved references yet.</h3><p>Add only the versions you would actually want to find again.</p></div>'}
+      </section>
+    </section>`);
 }
 
 function spotifyListeningRows(items) {
@@ -566,8 +624,59 @@ async function loadSpotifyListeningHistory({ force = false } = {}) {
   }
 }
 
+function accountSyncPanel() {
+  const state = getMusicVerseUserSyncState();
+  if (state.signedIn) {
+    const lastSync = state.lastSyncAt ? new Date(state.lastSyncAt).toLocaleString() : 'Not synced yet';
+    const warningText = (state.warnings || []).length
+      ? `<p class="sync-warning">${esc(state.warnings.join(' '))}</p>`
+      : '';
+    return `<section class="account-panel organic-panel">
+      <div><span class="eyebrow">MUSICVERSE ACCOUNT</span><h2>${esc(state.email || 'Signed in')}</h2><p>Yellowdawg is the source of truth for your personal MusicVerse library. Browser storage is the local cache and offline safety net.</p><small>Last sync: ${esc(lastSync)}</small>${warningText}</div>
+      <div class="account-actions"><button class="primary-action" data-musicverse-sync${state.status === 'syncing' ? ' disabled' : ''}>${state.status === 'syncing' ? 'Syncing…' : 'Sync now'}</button><button class="secondary-action" data-musicverse-signout>Sign out</button></div>
+    </section>`;
+  }
+
+  const sent = state.linkSentTo
+    ? `<p class="sync-link-sent">Sign-in link sent to <strong>${esc(state.linkSentTo)}</strong>. Open it in this browser to connect the library.</p>`
+    : '';
+  const error = state.error ? `<p class="sync-warning">${esc(state.error)}</p>` : '';
+
+  return `<section class="account-panel organic-panel">
+    <div><span class="eyebrow">CROSS-DEVICE LIBRARY</span><h2>Sign in to sync MusicVerse</h2><p>Your current playlists, favorites, listening history, featured-album history, and saved references stay on this device until you connect an account. The first sync merges them instead of replacing them.</p>${sent}${error}</div>
+    <form class="account-signin" data-musicverse-signin><input name="email" type="email" autocomplete="email" required placeholder="Email address"><button class="primary-action"${state.status === 'signing-in' ? ' disabled' : ''}>${state.status === 'signing-in' ? 'Sending…' : 'Email me a sign-in link'}</button></form>
+  </section>`;
+}
+
 function libraryView() {
-  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LIBRARY</span><h1>Your music shelf.</h1><p>Favorites, albums, playlists, tabs and saved references will converge here.</p></div><div class="small-roadtrip library-trip"></div></section><section class="coming organic-panel"><h2>Library foundation</h2><p>Favorites already work locally inside CoverVerse. Once the MusicVerse Supabase project is connected, this becomes your synced desktop/phone library.</p></section>`);
+  const favorites = new Set(getFavorites());
+  const favoriteTracks = data.crazyCovers.filter((track) => favorites.has(track.id) || (track.uuid && favorites.has(track.uuid)));
+  const playlists = getPlaylists();
+  const references = getReferences();
+  const spotifyHistory = getSpotifyListeningHistory();
+
+  return shell(`<section class="module-hero page-wave"><div><span class="eyebrow">LIBRARY</span><h1>Your music shelf.</h1><p>Real saved MusicVerse content, synced when you choose to sign in.</p></div><div class="small-roadtrip library-trip"></div></section>
+    <section class="library-workspace">
+      ${accountSyncPanel()}
+      <div class="library-stat-grid">
+        <a class="library-stat organic-panel" href="#/coververse?tab=crazy"><strong>${favoriteTracks.length}</strong><span>Favorite covers</span></a>
+        <a class="library-stat organic-panel" href="#/playlists"><strong>${playlists.length}</strong><span>Playlists</span></a>
+        <a class="library-stat organic-panel" href="#/tabs"><strong>${references.length}</strong><span>Tabs & references</span></a>
+        <a class="library-stat organic-panel" href="#/log"><strong>${spotifyHistory.length}</strong><span>Imported Spotify plays</span></a>
+      </div>
+      <section class="library-section organic-panel">
+        <div class="section-heading"><div><span class="eyebrow">FAVORITES</span><h2>Saved cover recordings</h2></div></div>
+        ${favoriteTracks.length ? crazyRows(favoriteTracks.slice(0, 12)) : '<p class="empty-state">Favorite a Crazy Cover and it will appear here.</p>'}
+      </section>
+      <section class="library-section organic-panel">
+        <div class="section-heading"><div><span class="eyebrow">PLAYLISTS</span><h2>Your routes</h2></div><a href="#/playlists">Open playlists →</a></div>
+        ${playlists.length ? `<div class="playlist-strip">${playlists.slice(0,6).map((playlist)=>`<a href="#/playlists" class="playlist-teaser"><span class="play-badge">▶</span><strong>${esc(playlist.name)}</strong><small>${playlist.tracks.length} tracks</small></a>`).join('')}</div>` : '<p class="empty-state">No playlists yet.</p>'}
+      </section>
+      <section class="library-section organic-panel">
+        <div class="section-heading"><div><span class="eyebrow">TABS & CHORDS</span><h2>Saved references</h2></div><a href="#/tabs">Open references →</a></div>
+        ${references.length ? references.slice(0,6).map(referenceCard).join('') : '<p class="empty-state">No saved references yet.</p>'}
+      </section>
+    </section>`);
 }
 
 function render() {
@@ -657,8 +766,38 @@ async function handleExport(playlistId) {
 
 window.addEventListener('hashchange', render);
 window.addEventListener('musicverse:store-change', render);
+window.addEventListener('musicverse:user-sync-state', render);
 
 document.addEventListener('click', async (event) => {
+  const syncNow = event.target.closest('[data-musicverse-sync]');
+  if (syncNow) {
+    try {
+      await syncMusicVerseNow();
+      showToast('MusicVerse library synced.');
+    } catch (error) {
+      showToast(error.message || 'MusicVerse sync failed.');
+    }
+    return;
+  }
+
+  const signOut = event.target.closest('[data-musicverse-signout]');
+  if (signOut) {
+    try {
+      await signOutMusicVerse();
+      showToast('Signed out of MusicVerse sync. Local data stays on this device.');
+    } catch (error) {
+      showToast(error.message || 'Could not sign out.');
+    }
+    return;
+  }
+
+  const removeReferenceButton = event.target.closest('[data-remove-reference]');
+  if (removeReferenceButton) {
+    removeReference(removeReferenceButton.dataset.removeReference);
+    showToast('Reference removed.');
+    return;
+  }
+
   const coverTab = event.target.closest('[data-cover-tab]');
   if (coverTab) {
     activeCoverTab = coverTab.dataset.coverTab;
@@ -773,7 +912,40 @@ document.addEventListener('change', (event) => {
   coverAlbumFilters = { ...coverAlbumFilters, [filter.dataset.albumFilter]: filter.value };
   render();
 });
-document.addEventListener('submit', (event) => {
+document.addEventListener('submit', async (event) => {
+  if (event.target.matches('[data-musicverse-signin]')) {
+    event.preventDefault();
+    const email = String(new FormData(event.target).get('email') || '').trim();
+    try {
+      await requestMusicVerseSignIn(email);
+      event.target.reset();
+    } catch (error) {
+      showToast(error.message || 'Could not send the MusicVerse sign-in link.');
+    }
+    return;
+  }
+
+  if (event.target.matches('[data-new-reference]')) {
+    event.preventDefault();
+    const form = new FormData(event.target);
+    const created = createReference({
+      title: form.get('title'),
+      url: form.get('url'),
+      type: form.get('type'),
+      provider: form.get('provider'),
+      instrument: form.get('instrument'),
+      tuning: form.get('tuning'),
+      capo: form.get('capo'),
+      difficulty: form.get('difficulty'),
+      notes: form.get('notes'),
+    });
+    if (created) {
+      event.target.reset();
+      showToast(`Saved “${created.title}”.`);
+    }
+    return;
+  }
+
   if (event.target.matches('[data-playlist-picker-new]')) {
     event.preventDefault();
     const name = String(new FormData(event.target).get('name') || '').trim();
@@ -820,14 +992,16 @@ document.addEventListener('submit', (event) => {
 async function boot() {
   try { await finishSpotifyLoginFromUrl(); } catch (error) { console.warn(error); showToast(error.message); }
 
+  const userSyncPromise = initMusicVerseUserSync();
   const spotifyHistoryPromise = getSpotifyToken() && spotifyHasScope('user-read-recently-played')
     ? fetchRecentlyPlayed(50)
     : Promise.resolve([]);
 
-  const [versionResult, musicResult, spotifyHistoryResult] = await Promise.allSettled([
+  const [versionResult, musicResult, spotifyHistoryResult, userSyncResult] = await Promise.allSettled([
     loadAppVersion(),
     loadMusicData(),
     spotifyHistoryPromise,
+    userSyncPromise,
   ]);
 
   if (versionResult.status === 'fulfilled') {
@@ -847,6 +1021,10 @@ async function boot() {
     mergeSpotifyListeningHistory(spotifyHistoryResult.value, { silent: true });
   } else if (spotifyHistoryResult.status === 'rejected') {
     console.warn('Could not refresh Spotify listening history for the daily feature.', spotifyHistoryResult.reason);
+  }
+
+  if (userSyncResult.status === 'rejected') {
+    console.warn('MusicVerse account sync could not initialize.', userSyncResult.reason);
   }
 
   ensureDailyFeaturedAlbum();

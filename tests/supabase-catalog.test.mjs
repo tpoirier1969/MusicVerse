@@ -50,6 +50,7 @@ test('maps Supabase catalog views into the existing MusicVerse data shape', () =
     }],
     crazyRows: [{
       recording_id: 'crazy-uuid',
+      legacy_id: 'crazy-cover-0007',
       source_artist: 'Source Artist',
       song: 'Wild Song',
       cover_artist: 'Cover Artist',
@@ -85,6 +86,8 @@ test('maps Supabase catalog views into the existing MusicVerse data shape', () =
   assert.equal(data.catalogSource, 'supabase');
   assert.equal(data.coverAlbums[0].id, 'cover-album-0001');
   assert.equal(data.coverAlbums[0].detail.tracks[0].originalArtist, 'Source Artist');
+  assert.equal(data.crazyCovers[0].id, 'crazy-cover-0007');
+  assert.equal(data.crazyCovers[0].uuid, 'crazy-uuid');
   assert.equal(data.crazyCovers[0].catalogOrder, 7);
   assert.equal(data.soundTrail.instruments[0].id, 'cello');
   assert.equal(data.soundTrail.recordings[0].genresByInstrument.cello, 'Classical');
