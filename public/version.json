@@ -1,12 +1,9 @@
 {
-  "version": "0.7.1",
+  "version": "0.7.2",
   "updated_at": "2026-10-13",
   "notes": [
-    "Expanded Clarinet, Pedal Steel Guitar, Cello, Sitar, Double Bass, and Tabla from starter sets into researched SoundTrail maps with meaningful style coverage.",
-    "Every SoundTrail instrument now includes a why-it-matters overview and public research provenance.",
-    "Every listed SoundTrail style now includes an explanation of the instrument's role, research provenance, and at least one verified recording example.",
-    "TinyFish is now the default broad-web research pass for newly added SoundTrail instruments, with Spotify verification kept separate from music-history research.",
-    "Removed the empty generic Tabla 'Indian Classical' bucket in favor of specific solo and accompaniment contexts.",
-    "SoundTrail catalog validation now rejects missing instrument importance, missing research provenance, missing style explanations, and styles without recording examples."
+    "SoundTrail now hides obsolete instrument/style relationships from the live genre filter unless at least one recording currently uses them.",
+    "The old generic Tabla 'Indian Classical' relationship remains preserved in Yellowdawg history but is no longer exposed in the app.",
+    "No catalog records are deleted by this cleanup."
   ]
 }
