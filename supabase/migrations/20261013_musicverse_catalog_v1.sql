@@ -311,7 +311,7 @@ begin
     insert into public.musicverse_albums (
       legacy_id, primary_artist_id, title, album_kind, release_date, release_date_text,
       artwork_url, spotify_album_id, spotify_url, catalog_rank, start_here,
-      cover_album_intent, cover_track_count, total_track_count, cover_album_eligible,
+      cover_album_intent, cover_track_count, total_track_count,
       approach, why, catalog_note, notes, updated_at
     )
     values (
@@ -332,18 +332,6 @@ begin
         then (v_album->>'coverAlbumIntent')::boolean else null end,
       nullif(v_album->>'coverTrackCount','')::integer,
       nullif(v_album->>'totalTrackCount','')::integer,
-      case
-        when v_album ? 'coverAlbumIntent'
-          and jsonb_typeof(v_album->'coverAlbumIntent') <> 'null'
-          and (v_album->>'coverAlbumIntent')::boolean = true then true
-        when nullif(v_album->>'totalTrackCount','')::numeric > 0
-          and nullif(v_album->>'coverTrackCount','')::numeric is not null
-          then (v_album->>'coverTrackCount')::numeric / (v_album->>'totalTrackCount')::numeric >= 0.9
-        when v_album ? 'coverAlbumIntent'
-          and jsonb_typeof(v_album->'coverAlbumIntent') <> 'null'
-          and (v_album->>'coverAlbumIntent')::boolean = false then false
-        else true
-      end,
       nullif(v_album->>'approach',''),
       nullif(v_album->>'why',''),
       nullif(v_album->>'catalogNote',''),
@@ -364,7 +352,6 @@ begin
       cover_album_intent = excluded.cover_album_intent,
       cover_track_count = excluded.cover_track_count,
       total_track_count = excluded.total_track_count,
-      cover_album_eligible = excluded.cover_album_eligible,
       approach = excluded.approach,
       why = excluded.why,
       catalog_note = excluded.catalog_note,
