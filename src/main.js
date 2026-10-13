@@ -272,12 +272,13 @@ function crazyRows(items) {
   return `<div class="track-list">${items.map((track) => {
     const id = track.id || `cover:${track.sourceArtist}:${track.song}:${track.coverArtist}`;
     const artwork = String(track.artwork || '').trim();
+    const favorite = isFavorite(id) || (track.uuid && isFavorite(track.uuid));
     return `<article class="track-row">
       <button class="round-play track-art-play${artwork ? ' has-art' : ''}" ${artwork ? `style="--track-art:url('${esc(artwork)}')"` : ''} data-open-url="${esc(track.spotify)}" data-listened="${esc(id)}" aria-label="Open ${esc(track.song)}"><span aria-hidden="true">▶</span></button>
       <div class="track-main"><strong>${esc(track.song)}</strong><span>${esc(track.coverArtist)}</span></div>
       <div class="track-original"><small>Originally by</small><span>${esc(track.sourceArtist)}</span></div>
       <span class="style-pill">${esc(track.style)}</span>
-      <button class="icon-btn${isFavorite(id)?' is-favorite':''}" data-favorite="${esc(id)}" title="Favorite">♥</button>
+      <button class="icon-btn${favorite?' is-favorite':''}" data-favorite="${esc(id)}" title="Favorite">♥</button>
       <button class="icon-btn" data-add-track='${esc(JSON.stringify({id,title:track.song,artist:track.coverArtist,originalArtist:track.sourceArtist,spotifyUrl:track.spotify,spotifyUri:spotifyTrackUri(track.spotify),artwork:track.artwork || ''}))}' title="Add to playlist">＋</button>
     </article>`;
   }).join('')}</div>`;
