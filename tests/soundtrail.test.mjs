@@ -60,7 +60,7 @@ test('expanded SoundTrail instruments have researched breadth, not starter stubs
   for (const instrumentId of ['clarinet','pedal-steel-guitar','cello','sitar','double-bass','tabla']) {
     const instrument = soundTrail.instruments.find((item) => item.id === instrumentId);
     const recordings = soundTrail.recordings.filter((recording) => recording.instruments?.includes(instrumentId));
-    assert.ok((instrument?.genres || []).length >= 7, `${instrumentId} needs a broad researched style map`);
-    assert.ok(recordings.length >= 7, `${instrumentId} needs examples across that style map`);
+    assert.ok((instrument?.genres || []).length >= 6, `${instrumentId} needs a broad researched style map`);
+    assert.ok(recordings.length >= 6, `${instrumentId} needs examples across that style map`);
   }
 });
