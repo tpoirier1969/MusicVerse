@@ -80,6 +80,8 @@ test('Accordion styles include learner cues and at least two unique verified rec
 
   for (const genre of accordion.genres || []) {
     assert.ok(String(genre.listenFor || '').trim(), `Missing learner listening cue: accordion / ${genre.name}`);
+    assert.ok(String(genre.commonSetup || '').trim(), `Missing common setup: accordion / ${genre.name}`);
+    assert.ok(String(genre.learningFocus || '').trim(), `Missing learning focus: accordion / ${genre.name}`);
     const examples = soundTrail.recordings.filter((recording) =>
       (recording.instruments || []).includes('accordion')
       && recording.genresByInstrument?.accordion === genre.name
