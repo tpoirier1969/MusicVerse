@@ -436,6 +436,21 @@
               "url": "https://worldmusiccentral.org/artist-profiles-regis-gizavo/"
             }
           ]
+        },
+        {
+          "name": "Serbian Kolo",
+          "about": "Serbian kolo is circle-dance music in which accordion often behaves like a compact orchestra: it carries the fast lead melody, punctuates the dance pulse, and fills the space between phrases with ornaments and bass-chord drive. The style rewards precision because the dancers depend on the instrument's accents as much as its tune.",
+          "listenFor": "Listen for rapid ornamental turns, repeated melodic cells, very crisp bass-and-chord support, and accents that line up with the physical lift and step pattern of the circle dance.",
+          "researchSources": [
+            {
+              "label": "Serbia.com — Accordion, powerful as an entire orchestra",
+              "url": "https://serbia.com/accordion-powerful-as-an-entire-orchestra/"
+            },
+            {
+              "label": "FolkCloud — Traditional / folk music of Serbia",
+              "url": "https://folkcloud.com/folk-music-by-country/serbia"
+            }
+          ]
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -5244,6 +5259,87 @@
         {
           "label": "RootsWorld — Régis Gizavo",
           "url": "https://www.rootsworld.com/freereed/gizavo.html"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0228",
+      "artist": "Radojka & Tine Zivkovic",
+      "track": "Moravac Kolo (Morava Circle) [Dance]",
+      "region": "Serbia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Serbian Kolo"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion leads the dance with tightly articulated melodic figures while the left hand supplies an insistent pulse that keeps the circle moving."
+      },
+      "spotify": "https://open.spotify.com/track/1GTh0yvpC7aIhL4hz74mWc",
+      "researchSources": [
+        {
+          "label": "Serbia.com — Accordion, powerful as an entire orchestra",
+          "url": "https://serbia.com/accordion-powerful-as-an-entire-orchestra/"
+        },
+        {
+          "label": "FolkCloud — Traditional / folk music of Serbia",
+          "url": "https://folkcloud.com/folk-music-by-country/serbia"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0229",
+      "artist": "Radojka Zivkovic",
+      "track": "Cubarka kolo - instrumental",
+      "region": "Serbia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Serbian Kolo"
+      },
+      "instrumentNotes": {
+        "accordion": "A compact instrumental example of Serbian accordion phrasing, with quick ornaments and sharply defined rhythmic cells rather than long lyrical lines."
+      },
+      "spotify": "https://open.spotify.com/track/4oQxyYcBHiKjuVbGGrYevO",
+      "researchSources": [
+        {
+          "label": "Serbia.com — Accordion, powerful as an entire orchestra",
+          "url": "https://serbia.com/accordion-powerful-as-an-entire-orchestra/"
+        },
+        {
+          "label": "FolkCloud — Traditional / folk music of Serbia",
+          "url": "https://folkcloud.com/folk-music-by-country/serbia"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0230",
+      "artist": "Ljubiša Pavković",
+      "track": "Medeno kolo",
+      "region": "Serbia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Serbian Kolo"
+      },
+      "instrumentNotes": {
+        "accordion": "Pavković shows the more virtuosic side of kolo playing, keeping rapid right-hand detail clear while the accompaniment remains strongly dance-oriented."
+      },
+      "spotify": "https://open.spotify.com/track/0S6sHnWErkilf8GpaKFBSu",
+      "researchSources": [
+        {
+          "label": "Serbia.com — Accordion, powerful as an entire orchestra",
+          "url": "https://serbia.com/accordion-powerful-as-an-entire-orchestra/"
+        },
+        {
+          "label": "FolkCloud — Traditional / folk music of Serbia",
+          "url": "https://folkcloud.com/folk-music-by-country/serbia"
         }
       ]
     }
