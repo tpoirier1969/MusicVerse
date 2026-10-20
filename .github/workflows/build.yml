@@ -31,17 +31,25 @@ jobs:
       - name: Validate Cloudflare package
         run: npm run check:cloudflare
 
-      - name: Sync MusicVerse catalog to Yellowdawg
+      - name: Check Yellowdawg catalog-sync credential
+        id: catalog-sync-credential
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY }}
-          MUSICVERSE_SUPABASE_EXPECTED_PROJECT_REF: wntakzfoprthwggkidyq
         run: |
-          if [ -z "$MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY" ]; then
-            echo "::warning::MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY is not configured; Yellowdawg catalog sync was skipped."
-            exit 0
+          if [ -n "$MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY is not configured; Yellowdawg catalog sync cannot run."
           fi
-          npm run catalog:apply
+
+      - name: Sync MusicVerse catalog to Yellowdawg
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && steps.catalog-sync-credential.outputs.available == 'true'
+        env:
+          MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.MUSICVERSE_SUPABASE_SERVICE_ROLE_KEY }}
+          MUSICVERSE_SUPABASE_EXPECTED_PROJECT_REF: wntakzfoprthwggkidyq
+        run: npm run catalog:apply
 
       - name: Audit Yellowdawg catalog alignment
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

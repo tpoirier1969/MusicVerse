@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { buildCatalogBundle, validateCatalogBundle, assertExpectedProject } from './catalog-sync-lib.mjs';
 import { musicVerseSupabaseConfig } from '../src/supabase-catalog.js';
+import { isCoverAlbumEligible } from '../src/cover-catalog.js';
 
 const EXPECTED_PROJECT_REF = process.env.MUSICVERSE_SUPABASE_EXPECTED_PROJECT_REF || 'wntakzfoprthwggkidyq';
 
@@ -45,7 +46,7 @@ async function auditRemote(bundle) {
     selectRows(url, publishableKey, 'musicverse_soundtrail_v', { select: 'legacy_id', limit: 2000 }),
   ]);
 
-  const localAlbums = new Set(bundle.albums.map((item) => item.legacyId));
+  const localAlbums = new Set(bundle.albums.filter(isCoverAlbumEligible).map((item) => item.legacyId));
   const remoteAlbums = new Set((albumRows || []).map((item) => item.legacy_id).filter(Boolean));
   const localCrazy = new Set(bundle.crazyCovers.map((item) => item.legacyId));
   const remoteCrazy = new Set((crazyRows || []).map((item) => item.legacy_id).filter(Boolean));
