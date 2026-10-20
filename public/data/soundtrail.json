@@ -2017,12 +2017,22 @@
         "accordion"
       ],
       "genresByInstrument": {
-        "accordion": "Conjunto / Tex-Mex"
+        "accordion": "Country / Americana Accordion"
       },
       "instrumentNotes": {
-        "accordion": "A clean example of accordion functioning inside a rock/country band arrangement."
+        "accordion": "Flaco Jiménez's accordion is a featured voice inside a country-rock band arrangement, answering the vocal with border-style phrasing without turning the song into a conjunto performance."
       },
-      "spotify": "https://open.spotify.com/track/5GtHqxpZs9ZL479uoXOGCG"
+      "spotify": "https://open.spotify.com/track/5GtHqxpZs9ZL479uoXOGCG",
+      "researchSources": [
+        {
+          "label": "The Mavericks / Flaco Jiménez performance context",
+          "url": "https://www.youtube.com/watch?v=tYyg21lRAs8"
+        },
+        {
+          "label": "Country Music Hall of Fame — Flaco Jiménez",
+          "url": "https://www.countrymusichalloffame.org/flaco-jimenez-1939-2025"
+        }
+      ]
     },
     {
       "id": "soundtrail-recording-0055",
