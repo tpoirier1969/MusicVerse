@@ -1,9 +1,11 @@
 {
-  "version": "0.7.3",
-  "updated_at": "2026-10-13",
+  "version": "0.7.4",
+  "updated_at": "2026-10-20",
   "notes": [
-    "SoundTrail research standard v2 now requires at least two verified Spotify track examples for every listed instrument/style relationship.",
-    "The existing SoundTrail catalog has been expanded to meet the new two-example minimum across accordion, clarinet, pedal steel guitar, cello, sitar, double bass, and tabla.",
-    "Future instruments must include importance, researched styles, role explanations, provenance, and two verified track examples per style before catalog validation will pass."
+    "Accordion SoundTrail coverage now spans 32 researched styles and traditions.",
+    "Every Accordion style has at least three verified Spotify track examples; playlists, albums, and artist pages do not count toward the example minimum.",
+    "Added Chamamé, Merengue Típico, Swiss Schwyzerörgeli, Brazilian Gaúcho / Vanerão, and Colombian Cumbia / Tropical Accordion.",
+    "Added third-track coverage to previously thinner styles including Cajun, Basque Trikitixa, Finnish Folk, Klezmer, Norteño, Zydeco, Russian Bayan, and others.",
+    "SoundTrail's general rule remains at least two verified track examples per style, with three preferred when the research supports it; Accordion now enforces three."
   ]
 }
