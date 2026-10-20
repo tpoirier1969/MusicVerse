@@ -453,7 +453,7 @@ function soundTrailAbout(instrument) {
   }
   const genre = (instrument.genres || []).find((item) => item.name === activeSoundTrailGenre);
   if (!genre) return '';
-  return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THIS STYLE</span><h3>${esc(instrument.label)} in ${esc(genre.name)}</h3><p>${esc(genre.about)}</p></div>`;
+  return `<div class="soundtrail-about organic-panel"><span class="eyebrow">ABOUT THIS STYLE</span><h3>${esc(instrument.label)} in ${esc(genre.name)}</h3><p>${esc(genre.about)}</p>${genre.listenFor ? `<div class="soundtrail-listen-for"><strong>What to listen for</strong><span>${esc(genre.listenFor)}</span></div>` : ''}</div>`;
 }
 
 function soundTrailGrid(instrument) {
