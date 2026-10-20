@@ -274,6 +274,76 @@
               "url": "https://www.earlymusicamerica.org/web-articles/according-the-accordion-its-historical-due/"
             }
           ]
+        },
+        {
+          "name": "Chamamé",
+          "about": "In northeastern Argentina, chamamé treats accordion as a principal melodic voice. Bellows phrasing, ornamented dance melodies, and a rolling pulse let the instrument carry both rural intimacy and virtuosic concert expression.",
+          "researchSources": [
+            {
+              "label": "Songlines — Chango Spasiuk: A Beginner's Guide",
+              "url": "https://www.songlines.co.uk/content/features/chango-spasiuk-a-beginners-guide"
+            },
+            {
+              "label": "WVTf/NPR — Chango Spasiuk: Sophisticated Accordion",
+              "url": "https://www.wvtf.org/2009-03-11/chango-spasiuk-sophisticated-accordion"
+            }
+          ]
+        },
+        {
+          "name": "Merengue Típico",
+          "about": "Dominican merengue típico, also called perico ripiao, puts diatonic accordion in the front line with güira and tambora. The accordion answers the singer, spins rapid riffs, and drives the music's fast rural dance energy.",
+          "researchSources": [
+            {
+              "label": "IASO Records — Fefita La Grande",
+              "url": "https://www.iasorecords.com/artists/fefita-la-grande"
+            },
+            {
+              "label": "IASO Records — Tatico Henríquez",
+              "url": "https://www.iasorecords.com/artists/tatico-henr-quez"
+            }
+          ]
+        },
+        {
+          "name": "Swiss Schwyzerörgeli",
+          "about": "The Schwyzerörgeli is a compact Swiss diatonic button accordion closely tied to Ländler and other folk-dance music. Its mellow but crisp voice handles melody, bass-chord lift, and tightly articulated ensemble rhythm.",
+          "researchSources": [
+            {
+              "label": "House of Switzerland — Swiss folk music instruments",
+              "url": "https://houseofswitzerland.org/swiss-stories-archives/swiss-folk-music-5-traditional-instruments"
+            },
+            {
+              "label": "SWI swissinfo — The Schwyzerörgeli",
+              "url": "https://www.swissinfo.ch/eng/the-schwyzeroergeli/30684872"
+            }
+          ]
+        },
+        {
+          "name": "Brazilian Gaúcho / Vanerão",
+          "about": "In southern Brazilian gaúcho music, the gaita-ponto or button accordion is a defining lead instrument. It cuts through dance rhythms such as vanerão and milonga with clipped ornaments, broad bellows accents, and a strong two-handed groove.",
+          "researchSources": [
+            {
+              "label": "CultureWorks — Renato Borghetti",
+              "url": "https://www.cultureworks.at/en/renato-borghetti/"
+            },
+            {
+              "label": "Playing for Change — Renato Borghetti",
+              "url": "https://playingforchange.com/es/artists/renato-borghetti"
+            }
+          ]
+        },
+        {
+          "name": "Colombian Cumbia / Tropical Accordion",
+          "about": "On Colombia's Caribbean coast, accordion became a force in cumbia and related tropical dance music as well as vallenato. Players use short, bright riffs and syncopated answers to push the groove, often making the accordion the track's most recognizable melodic color.",
+          "researchSources": [
+            {
+              "label": "OM Producciones — Aníbal Velásquez",
+              "url": "https://www.omproducciones.org/en/copia-de-anibal-velasquez"
+            },
+            {
+              "label": "Spotify — Cumbias Con Acordeón Desde Colombia",
+              "url": "https://open.spotify.com/track/6arrG3oiuCdzvYAmCQIG6m"
+            }
+          ]
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -4549,6 +4619,351 @@
         {
           "label": "Spotify — Hot Tamale Baby",
           "url": "https://open.spotify.com/track/3RJIfoQRIlOgwPP6DgqUN8"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0204",
+      "artist": "Chango Spasiuk",
+      "track": "Mi pueblo, mi casa, la soledad",
+      "region": "Northeastern Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Chamamé"
+      },
+      "instrumentNotes": {
+        "accordion": "Spasiuk uses accordion as the singing lead voice of chamamé, shaping long bellows phrases over a gently rolling rural dance pulse."
+      },
+      "spotify": "https://open.spotify.com/track/7LtG8gMuOCEg8g0ohaAlGD",
+      "researchSources": [
+        {
+          "label": "Songlines — Chango Spasiuk",
+          "url": "https://www.songlines.co.uk/content/features/chango-spasiuk-a-beginners-guide"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0205",
+      "artist": "Chango Spasiuk",
+      "track": "Solo Para Mi",
+      "region": "Northeastern Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Chamamé"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion's ornaments, dynamic swells, and off-center accents show the expressive elasticity that distinguishes modern chamamé playing."
+      },
+      "spotify": "https://open.spotify.com/track/433mhuNw56NPeeGGUSQa3r",
+      "researchSources": [
+        {
+          "label": "WVTf/NPR — Chango Spasiuk",
+          "url": "https://www.wvtf.org/2009-03-11/chango-spasiuk-sophisticated-accordion"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0206",
+      "artist": "Chango Spasiuk",
+      "track": "Panambí",
+      "region": "Northeastern Argentina",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Chamamé"
+      },
+      "instrumentNotes": {
+        "accordion": "A lyrical chamamé example where accordion carries the melody with restrained bellows color rather than sheer speed."
+      },
+      "spotify": "https://open.spotify.com/track/2UeQ4pKtee5cOpMJJzjDr0",
+      "researchSources": [
+        {
+          "label": "Kramer Artists — Chango Spasiuk",
+          "url": "https://www.kramer-artists.de/chango-spasiuk/?lang=en"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0207",
+      "artist": "Fefita La Grande",
+      "track": "Acordándome de Ti",
+      "region": "Dominican Republic",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Merengue Típico"
+      },
+      "instrumentNotes": {
+        "accordion": "Fefita's accordion supplies rapid melodic responses and the bright, percussive attack central to Dominican merengue típico."
+      },
+      "spotify": "https://open.spotify.com/track/6V4ipATY3o32UaEbAbK9Ew",
+      "researchSources": [
+        {
+          "label": "IASO Records — Fefita La Grande",
+          "url": "https://www.iasorecords.com/artists/fefita-la-grande"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0208",
+      "artist": "Merengue Tipico Dominicano",
+      "track": "Tatico henriquez (chanflin)",
+      "region": "Dominican Republic",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Merengue Típico"
+      },
+      "instrumentNotes": {
+        "accordion": "This Tatico-centered típico performance demonstrates the racing accordion figures and call-and-response phrasing that modernized the rural ensemble format."
+      },
+      "spotify": "https://open.spotify.com/track/69oVppxN4aR9Q0zHh3OvLH",
+      "researchSources": [
+        {
+          "label": "IASO Records — Tatico Henríquez",
+          "url": "https://www.iasorecords.com/artists/tatico-henr-quez"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0209",
+      "artist": "Tatico Henriquez",
+      "track": "El Trigao",
+      "region": "Dominican Republic",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Merengue Típico"
+      },
+      "instrumentNotes": {
+        "accordion": "Tatico's accordion drives the melody in short, repeating bursts, demonstrating why the instrument remains the signature lead voice of perico ripiao."
+      },
+      "spotify": "https://open.spotify.com/track/5MLdURrFFRVjFwPFNF6P0o",
+      "researchSources": [
+        {
+          "label": "Spotify — El Trigao",
+          "url": "https://open.spotify.com/track/5MLdURrFFRVjFwPFNF6P0o"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0210",
+      "artist": "Jost Ribary",
+      "track": "S'Schwyzeroergeli (The Swiss Organ)",
+      "region": "Switzerland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swiss Schwyzerörgeli"
+      },
+      "instrumentNotes": {
+        "accordion": "A direct showcase of the Schwyzerörgeli's compact, mellow reed tone and dance-oriented phrasing in Swiss folk music."
+      },
+      "spotify": "https://open.spotify.com/track/5oT6QQjACvQVmrr9fhLRIm",
+      "researchSources": [
+        {
+          "label": "SWI swissinfo — The Schwyzerörgeli",
+          "url": "https://www.swissinfo.ch/eng/the-schwyzeroergeli/30684872"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0211",
+      "artist": "Ländlerquartett Res Schmid - Gebr. Marti",
+      "track": "E zäme Brösmete",
+      "region": "Switzerland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swiss Schwyzerörgeli"
+      },
+      "instrumentNotes": {
+        "accordion": "The Schwyzerörgeli works inside a traditional Ländler ensemble as both melodic voice and rhythmic glue."
+      },
+      "spotify": "https://open.spotify.com/track/7HkyUgvyjOtl5kcoxXzuyy",
+      "researchSources": [
+        {
+          "label": "Spotify — Schwyzerörgeli artist context",
+          "url": "https://open.spotify.com/artist/0lzMhQSgmrNO2FOVotePsM"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0212",
+      "artist": "Schwyzerörgeli Trio Gody Schmid",
+      "track": "E schwarze Otti",
+      "region": "Switzerland",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swiss Schwyzerörgeli"
+      },
+      "instrumentNotes": {
+        "accordion": "A trio setting shows how multiple Schwyzerörgeli parts can interlock melody, harmony, and bass movement without a larger orchestra."
+      },
+      "spotify": "https://open.spotify.com/track/3PoNWD50gMbHMej5CH0X1f",
+      "researchSources": [
+        {
+          "label": "House of Switzerland — Schwyzerörgeli",
+          "url": "https://houseofswitzerland.org/swiss-stories-archives/swiss-folk-music-5-traditional-instruments"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0213",
+      "artist": "Renato Borghetti",
+      "track": "Vanerão Gaucho",
+      "region": "Rio Grande do Sul, Brazil",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Brazilian Gaúcho / Vanerão"
+      },
+      "instrumentNotes": {
+        "accordion": "Borghetti's gaita-ponto attacks the vanerão rhythm with clipped ornaments and emphatic bellows accents built for southern Brazilian dance music."
+      },
+      "spotify": "https://open.spotify.com/track/1yyPEvfJh1P5V0aPdHHUxx",
+      "researchSources": [
+        {
+          "label": "CultureWorks — Renato Borghetti",
+          "url": "https://www.cultureworks.at/en/renato-borghetti/"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0214",
+      "artist": "Renato Borghetti",
+      "track": "Milonga Para As Missões",
+      "region": "Rio Grande do Sul, Brazil",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Brazilian Gaúcho / Vanerão"
+      },
+      "instrumentNotes": {
+        "accordion": "The button accordion stretches into a more lyrical milonga pulse while retaining the broad phrasing and rhythmic authority of gaúcho gaita playing."
+      },
+      "spotify": "https://open.spotify.com/track/4hmEM3SBvEX2QnQ7mqKQuO",
+      "researchSources": [
+        {
+          "label": "Playing for Change — Renato Borghetti",
+          "url": "https://playingforchange.com/es/artists/renato-borghetti"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0215",
+      "artist": "Renato Borghetti, Yamandu Costa",
+      "track": "Barra do Ribeiro",
+      "region": "Southern Brazil",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Brazilian Gaúcho / Vanerão"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion and seven-string guitar share lead duties, showing how gaúcho gaita language can move from dance-band drive into agile chamber-like dialogue."
+      },
+      "spotify": "https://open.spotify.com/track/2NvG5RlthrTU5Q0MoVcscS",
+      "researchSources": [
+        {
+          "label": "CultureWorks — Renato Borghetti",
+          "url": "https://www.cultureworks.at/en/renato-borghetti/"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0216",
+      "artist": "Anibal Velasquez Y Su Conjunto",
+      "track": "Cumbia Bogotana",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Colombian Cumbia / Tropical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Velásquez uses punchy accordion riffs as the hook and rhythmic spark of coastal Colombian cumbia, distinct from a more narrative vallenato approach."
+      },
+      "spotify": "https://open.spotify.com/track/2kKGl1J0NTXH7ym3ABLRTa",
+      "researchSources": [
+        {
+          "label": "OM Producciones — Aníbal Velásquez",
+          "url": "https://www.omproducciones.org/en/copia-de-anibal-velasquez"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0217",
+      "artist": "Andres Landero",
+      "track": "La Pava Congona",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Colombian Cumbia / Tropical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Landero's accordion carries a looping, earthy cumbia melody that demonstrates how the instrument can steer groove-first dance music as strongly as song form."
+      },
+      "spotify": "https://open.spotify.com/track/4cHKg3YL9pS2RWEWIPEd94",
+      "researchSources": [
+        {
+          "label": "Spotify — La Pava Congona",
+          "url": "https://open.spotify.com/track/4cHKg3YL9pS2RWEWIPEd94"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0218",
+      "artist": "Anibal Velasquez",
+      "track": "Cumbia bogotana",
+      "region": "Colombia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Colombian Cumbia / Tropical Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "A second Velásquez recording captures the clipped ornaments and bright reed attack that made accordion a signature color in Colombian tropical dance music."
+      },
+      "spotify": "https://open.spotify.com/track/2Ui0rKrf39DE2wKhFi4bDL",
+      "researchSources": [
+        {
+          "label": "Spotify — Cumbia bogotana",
+          "url": "https://open.spotify.com/track/2Ui0rKrf39DE2wKhFi4bDL"
         }
       ]
     }
