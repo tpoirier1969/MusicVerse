@@ -67,8 +67,18 @@ test('maps Supabase catalog views into the existing MusicVerse data shape', () =
       description: 'Cello description',
       importance: 'Why cello matters',
       research_sources: [{ label: 'Source', url: 'https://example.com/cello' }],
-      research_standard_version: 1,
-      genres: [{ name: 'Classical', about: 'About cello in classical music.', researchSources: [] }],
+      research_standard_version: 2,
+      research_status: 'complete',
+      example_policy: { minimumTrackExamplesPerStyle: 2 },
+      learning_notes: { setupNote: 'Common setup is not exclusive.' },
+      genres: [{
+        name: 'Classical',
+        about: 'About cello in classical music.',
+        researchSources: [],
+        listenFor: 'Long bellows-shaped lines.',
+        commonSetup: 'Cello',
+        learningFocus: 'Phrase cleanly.',
+      }],
       sort_order: 3,
     }],
     soundTrailRows: [{
@@ -94,8 +104,12 @@ test('maps Supabase catalog views into the existing MusicVerse data shape', () =
   assert.equal(data.crazyCovers[0].catalogOrder, 7);
   assert.equal(data.soundTrail.instruments[0].id, 'cello');
   assert.equal(data.soundTrail.instruments[0].importance, 'Why cello matters');
-  assert.equal(data.soundTrail.instruments[0].researchStandardVersion, 1);
+  assert.equal(data.soundTrail.instruments[0].researchStandardVersion, 2);
+  assert.equal(data.soundTrail.instruments[0].researchStatus, 'complete');
+  assert.equal(data.soundTrail.instruments[0].examplePolicy.minimumTrackExamplesPerStyle, 2);
+  assert.equal(data.soundTrail.instruments[0].learningNotes.setupNote, 'Common setup is not exclusive.');
   assert.equal(data.soundTrail.instruments[0].researchSources.length, 1);
+  assert.equal(data.soundTrail.instruments[0].genres[0].listenFor, 'Long bellows-shaped lines.');
   assert.equal(data.soundTrail.recordings[0].genresByInstrument.cello, 'Classical');
 });
 
