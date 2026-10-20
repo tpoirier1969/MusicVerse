@@ -50,6 +50,27 @@ test('every SoundTrail genre has research context and at least two track-level e
   }
 });
 
+
+
+test('Accordion keeps three verified track examples per researched style', () => {
+  const spotifyTrackPattern = /^https:\/\/open\.spotify\.com\/(?:intl-[^/]+\/)?track\/[A-Za-z0-9]+(?:[/?#].*)?$/;
+  const accordion = soundTrail.instruments.find((item) => item.id === 'accordion');
+  assert.ok(accordion, 'Accordion instrument missing');
+
+  for (const genre of accordion.genres || []) {
+    const examples = soundTrail.recordings.filter((recording) =>
+      (recording.instruments || []).includes('accordion')
+      && recording.genresByInstrument?.accordion === genre.name
+      && spotifyTrackPattern.test(recording.spotify || '')
+    );
+    const uniqueTrackUrls = new Set(examples.map((recording) => recording.spotify.replace(/\?.*$/, '')));
+    assert.ok(
+      uniqueTrackUrls.size >= 3,
+      `Accordion style needs three verified track examples: ${genre.name}`,
+    );
+  }
+});
+
 test('SoundTrail recordings use stable IDs and preserve instrument relationships', () => {
   const ids = soundTrail.recordings.map((recording) => recording.id);
   assert.equal(new Set(ids).size, ids.length);
