@@ -559,6 +559,40 @@
           ],
           "commonSetup": "Piano accordion and button accordion/dragspel",
           "learningFocus": "Shape short folk phrases, borrow articulation from fiddle playing, and keep accompaniment economical enough that the dance accent remains clear."
+        },
+        {
+          "name": "Panamanian Típico / Pindín",
+          "about": "Panamanian típico, often called pindín, is an accordion-led popular folk tradition in which the diatonic accordion carries the signature melodic voice over percussion and sung dance forms. The instrument is not decorative here: it drives introductions, fills, hooks, and much of the identity of the ensemble.",
+          "listenFor": "Listen for bright diatonic riffs, quick answers around the singer, compact repeating hooks, and a push-pull articulation that stays locked to the dance groove.",
+          "commonSetup": "Diatonic button accordion",
+          "learningFocus": "On piano accordion, study the phrasing, hooks, and rhythmic placement first. Authentic típico fingering and bellows-direction patterns are closely tied to the diatonic button layout.",
+          "researchSources": [
+            {
+              "label": "Cambridge University Press — Panamanian típico and cultural dialogue",
+              "url": "https://www.cambridge.org/core/journals/popular-music/article/los-sentimientos-del-alma-cultural-dialogue-and-the-multiple-origins-of-panamanian-tipico/3150A9FD1516DAC4185014C8C9951216"
+            },
+            {
+              "label": "Panama Guide — Panamanian Music & Art",
+              "url": "https://www.anywhere.com/panama/travel-guide/music-and-art"
+            }
+          ]
+        },
+        {
+          "name": "Romanian Lăutărească",
+          "about": "Romanian lăutărească is a professional urban and Romani-associated music tradition in which accordion became a powerful partner to voice, violin, and dance repertoire. Players use dense ornamentation, flexible timing, rapid dance figures, and dramatic shifts between lyrical doina-like expression and driving hora or sârba rhythm.",
+          "listenFor": "Listen for highly ornamented melody, sudden flourishes, flexible rubato in vocal passages, and a fast switch into sharply articulated hora or sârba dance pulse.",
+          "commonSetup": "Piano accordion or chromatic button accordion",
+          "learningFocus": "Practice ornaments slowly, keep bass accompaniment lighter under expressive vocal-style melody, and separate rubato listening skills from the strict pulse needed for hora and sârba.",
+          "researchSources": [
+            {
+              "label": "RomArchive — Sile Dorel and lăutari lineage",
+              "url": "https://www.romarchive.eu/en/music/balkan/sile-dorel/"
+            },
+            {
+              "label": "The Attic — Lăutărie Then and Now",
+              "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
+            }
+          ]
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -5640,6 +5674,168 @@
         {
           "label": "Spotify — Folkmusik på Dragspel repertoire",
           "url": "https://open.spotify.com/track/5FMsd7uEyKN1l8CeqcrNRP"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0237",
+      "artist": "Ulpiano Vergara",
+      "track": "Arrepentido",
+      "region": "Panama",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Panamanian Típico / Pindín"
+      },
+      "instrumentNotes": {
+        "accordion": "Accordion is the lead melodic voice, answering the singer with compact diatonic figures and sustaining the identity of the típico ensemble."
+      },
+      "spotify": "https://open.spotify.com/track/5VXWZOGCq77nUkWy6kzDGP",
+      "researchSources": [
+        {
+          "label": "Cambridge University Press — Panamanian típico",
+          "url": "https://www.cambridge.org/core/journals/popular-music/article/los-sentimientos-del-alma-cultural-dialogue-and-the-multiple-origins-of-panamanian-tipico/3150A9FD1516DAC4185014C8C9951216"
+        },
+        {
+          "label": "Panama Guide — Panamanian Music & Art",
+          "url": "https://www.anywhere.com/panama/travel-guide/music-and-art"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0238",
+      "artist": "Victorio Vergara Y Su Conjunto",
+      "track": "Luna Tableña",
+      "region": "Panama",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Panamanian Típico / Pindín"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion carries recurring hooks and dance accents, a clear example of típico's melody-first diatonic phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/7cYYPlbOTuTD1pcL7xdvKH",
+      "researchSources": [
+        {
+          "label": "Cambridge University Press — Panamanian típico",
+          "url": "https://www.cambridge.org/core/journals/popular-music/article/los-sentimientos-del-alma-cultural-dialogue-and-the-multiple-origins-of-panamanian-tipico/3150A9FD1516DAC4185014C8C9951216"
+        },
+        {
+          "label": "Panama Guide — Panamanian Music & Art",
+          "url": "https://www.anywhere.com/panama/travel-guide/music-and-art"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0239",
+      "artist": "Dorindo Cárdenas",
+      "track": "Regresa Pronto",
+      "region": "Panama",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Panamanian Típico / Pindín"
+      },
+      "instrumentNotes": {
+        "accordion": "Cárdenas shows the accordion functioning as both vocal partner and rhythmic engine inside a Panamanian dance-song arrangement."
+      },
+      "spotify": "https://open.spotify.com/track/0lPvjvaRakT7SYukuqoVg5",
+      "researchSources": [
+        {
+          "label": "Cambridge University Press — Panamanian típico",
+          "url": "https://www.cambridge.org/core/journals/popular-music/article/los-sentimientos-del-alma-cultural-dialogue-and-the-multiple-origins-of-panamanian-tipico/3150A9FD1516DAC4185014C8C9951216"
+        },
+        {
+          "label": "Panama Guide — Panamanian Music & Art",
+          "url": "https://www.anywhere.com/panama/travel-guide/music-and-art"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0240",
+      "artist": "Fărâmiță Lambru",
+      "track": "Hora Florăreselor",
+      "region": "Romania",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Romanian Lăutărească"
+      },
+      "instrumentNotes": {
+        "accordion": "Lambru's accordion balances ornate lead lines with the insistent circular pulse of a hora, showing the dance side of lăutărească technique."
+      },
+      "spotify": "https://open.spotify.com/track/1F0iSXgmMXN5AU3JYkwcOU",
+      "researchSources": [
+        {
+          "label": "RomArchive — Sile Dorel and lăutari lineage",
+          "url": "https://www.romarchive.eu/en/music/balkan/sile-dorel/"
+        },
+        {
+          "label": "The Attic — Lăutărie Then and Now",
+          "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0241",
+      "artist": "Fărâmiță Lambru",
+      "track": "Inimioară, Inimioară",
+      "region": "Romania",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Romanian Lăutărească"
+      },
+      "instrumentNotes": {
+        "accordion": "A vocal-and-accordion example where the instrument follows expressive song phrasing rather than maintaining an unchanging dance pattern."
+      },
+      "spotify": "https://open.spotify.com/track/5d6EdaRVzUFsoFm0jJKSCS",
+      "researchSources": [
+        {
+          "label": "RomArchive — Sile Dorel and lăutari lineage",
+          "url": "https://www.romarchive.eu/en/music/balkan/sile-dorel/"
+        },
+        {
+          "label": "The Attic — Lăutărie Then and Now",
+          "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0242",
+      "artist": "Ionica Minune",
+      "track": "De ascultare",
+      "region": "Romania",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Romanian Lăutărească"
+      },
+      "instrumentNotes": {
+        "accordion": "A modern virtuoso accordion example emphasizing ornament density, rapid runs, and flexible lăutărească phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/74mOc9u9E339Nkm2ORRgq1",
+      "researchSources": [
+        {
+          "label": "RomArchive — Sile Dorel and lăutari lineage",
+          "url": "https://www.romarchive.eu/en/music/balkan/sile-dorel/"
+        },
+        {
+          "label": "The Attic — Lăutărie Then and Now",
+          "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
         }
       ]
     }
