@@ -1,11 +1,11 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "updated_at": "2026-10-20",
   "notes": [
-    "Accordion SoundTrail coverage now spans 32 researched styles and traditions.",
-    "Every Accordion style has at least three verified Spotify track examples; playlists, albums, and artist pages do not count toward the example minimum.",
-    "Added Chamamé, Merengue Típico, Swiss Schwyzerörgeli, Brazilian Gaúcho / Vanerão, and Colombian Cumbia / Tropical Accordion.",
-    "Added third-track coverage to previously thinner styles including Cajun, Basque Trikitixa, Finnish Folk, Klezmer, Norteño, Zydeco, Russian Bayan, and others.",
-    "SoundTrail's general rule remains at least two verified track examples per style, with three preferred when the research supports it; Accordion now enforces three."
+    "MusicVerse now detects when the Supabase catalog is older than the bundled catalog and uses the bundled snapshot for that session instead of silently hiding newer records.",
+    "Catalog freshness checks compare stable Cover Album, Crazy Covers, SoundTrail instrument, SoundTrail recording, and SoundTrail style identities.",
+    "The remote catalog audit now compares only eligible Cover Albums, so intentionally excluded mixed-concert releases no longer appear as false missing records.",
+    "GitHub Actions now reports a missing Yellowdawg service-role secret as a skipped catalog sync rather than a successful sync step.",
+    "Accordion remains at 32 researched styles with at least three verified Spotify track examples per style from MusicVerse 0.7.4."
   ]
 }
