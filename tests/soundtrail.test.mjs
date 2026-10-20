@@ -73,6 +73,23 @@ test('new SoundTrail instruments cannot be introduced as starter stubs', () => {
   }
 });
 
+test('Accordion styles include learner cues and at least two unique verified recordings', () => {
+  const accordion = soundTrail.instruments.find((item) => item.id === 'accordion');
+  assert.ok(accordion);
+  const spotifyTrackPattern = /^https:\/\/open\.spotify\.com\/(?:intl-[^/]+\/)?track\/[A-Za-z0-9]+(?:[/?#].*)?$/;
+
+  for (const genre of accordion.genres || []) {
+    assert.ok(String(genre.listenFor || '').trim(), `Missing learner listening cue: accordion / ${genre.name}`);
+    const examples = soundTrail.recordings.filter((recording) =>
+      (recording.instruments || []).includes('accordion')
+      && recording.genresByInstrument?.accordion === genre.name
+      && spotifyTrackPattern.test(recording.spotify || '')
+    );
+    const unique = new Set(examples.map((recording) => recording.spotify.replace(/\?.*$/, '')));
+    assert.ok(unique.size >= 2, `Accordion style needs at least two verified recordings: ${genre.name}`);
+  }
+});
+
 test('SoundTrail recordings use stable IDs and preserve instrument relationships', () => {
   const ids = soundTrail.recordings.map((recording) => recording.id);
   assert.equal(new Set(ids).size, ids.length);
