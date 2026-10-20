@@ -1,11 +1,12 @@
 {
-  "version": "0.7.5",
+  "version": "0.7.6",
   "updated_at": "2026-10-20",
   "notes": [
-    "MusicVerse now detects when the Supabase catalog is older than the bundled catalog and uses the bundled snapshot for that session instead of silently hiding newer records.",
-    "Catalog freshness checks compare stable Cover Album, Crazy Covers, SoundTrail instrument, SoundTrail recording, and SoundTrail style identities.",
-    "The remote catalog audit now compares only eligible Cover Albums, so intentionally excluded mixed-concert releases no longer appear as false missing records.",
-    "GitHub Actions now reports a missing Yellowdawg service-role secret as a skipped catalog sync rather than a successful sync step.",
-    "Accordion remains at 32 researched styles with at least three verified Spotify track examples per style from MusicVerse 0.7.4."
+    "Accordion SoundTrail now covers 43 researched styles and 155 verified accordion recordings.",
+    "Added Finnish Tango, Country / Americana Accordion, Polish-American Polka, Malagasy Accordion, Serbian Kolo, Norwegian Gammaldans, Swedish Folk / Dragspel, Panamanian Típico / Pindín, Romanian Lăutărească, Macedonian Oro, and Bulgarian Horo Accordion.",
+    "Every Accordion style now includes what-to-listen-for guidance, a common instrument/setup note, and a practical learning focus.",
+    "SoundTrail now enforces at least two unique verified Spotify track examples per researched style, with three or more preferred when strong examples are available.",
+    "Added an additive Yellowdawg migration so learner metadata survives the Supabase-first runtime path.",
+    "Clarified related squeezebox systems such as diatonic button accordion, bayan, Schwyzerörgeli, trikitixa, and bandoneón instead of treating their fingering as interchangeable with piano accordion."
   ]
 }

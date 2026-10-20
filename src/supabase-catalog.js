@@ -123,6 +123,9 @@ export function mapSupabaseCatalog({ albumRows, detailRows, crazyRows, instrumen
       importance: row.importance || '',
       researchSources: asArray(row.research_sources),
       researchStandardVersion: Number(row.research_standard_version) || 0,
+      researchStatus: row.research_status || '',
+      examplePolicy: row.example_policy && typeof row.example_policy === 'object' ? row.example_policy : {},
+      learningNotes: row.learning_notes && typeof row.learning_notes === 'object' ? row.learning_notes : {},
       genres: asArray(row.genres),
       sortOrder: Number(row.sort_order) || 999,
     }))

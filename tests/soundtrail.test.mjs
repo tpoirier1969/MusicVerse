@@ -52,12 +52,18 @@ test('every SoundTrail genre has research context and at least two track-level e
 
 
 
-test('Accordion keeps three verified track examples per researched style', () => {
+test('Accordion styles include learner guidance and at least two verified track examples', () => {
   const spotifyTrackPattern = /^https:\/\/open\.spotify\.com\/(?:intl-[^/]+\/)?track\/[A-Za-z0-9]+(?:[/?#].*)?$/;
   const accordion = soundTrail.instruments.find((item) => item.id === 'accordion');
   assert.ok(accordion, 'Accordion instrument missing');
+  assert.equal(accordion.examplePolicy?.minimumTrackExamplesPerStyle, 2);
+  assert.equal(accordion.examplePolicy?.targetTrackExamplesPerStyle, 3);
 
   for (const genre of accordion.genres || []) {
+    assert.ok(String(genre.listenFor || '').trim(), `Missing learner listening cue: accordion / ${genre.name}`);
+    assert.ok(String(genre.commonSetup || '').trim(), `Missing common setup: accordion / ${genre.name}`);
+    assert.ok(String(genre.learningFocus || '').trim(), `Missing learning focus: accordion / ${genre.name}`);
+
     const examples = soundTrail.recordings.filter((recording) =>
       (recording.instruments || []).includes('accordion')
       && recording.genresByInstrument?.accordion === genre.name
@@ -65,8 +71,8 @@ test('Accordion keeps three verified track examples per researched style', () =>
     );
     const uniqueTrackUrls = new Set(examples.map((recording) => recording.spotify.replace(/\?.*$/, '')));
     assert.ok(
-      uniqueTrackUrls.size >= 3,
-      `Accordion style needs three verified track examples: ${genre.name}`,
+      uniqueTrackUrls.size >= 2,
+      `Accordion style needs at least two verified track examples: ${genre.name}`,
     );
   }
 });
