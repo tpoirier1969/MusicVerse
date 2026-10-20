@@ -593,6 +593,40 @@
               "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
             }
           ]
+        },
+        {
+          "name": "Macedonian Oro",
+          "about": "Macedonian oro is circle-dance music in which accordion can carry long, ornamented melodies over meters that may feel asymmetrical to players raised on straight duple time. The accordion combines lead voice and rhythmic anchor, especially in modern folk ensembles and solo dance recordings.",
+          "listenFor": "Listen for phrases grouped across uneven beats, fast ornamental turns, repeated cadential figures, and left-hand accents that clarify the dance meter rather than merely marking every beat.",
+          "commonSetup": "Piano accordion or chromatic button accordion",
+          "learningFocus": "Count the dance grouping before adding speed. Practice the right-hand ornament separately, then make the left hand reinforce the long-short beat structure instead of flattening it.",
+          "researchSources": [
+            {
+              "label": "Spotify — Oro (Macedonian Accordion Dance Music)",
+              "url": "https://open.spotify.com/album/2ocaSCALTkbimQJbpVK1z4"
+            },
+            {
+              "label": "Apple Music — Oro (Macedonian Accordion Dance Music)",
+              "url": "https://music.apple.com/us/album/oro-macedonian-accordion-dance-music/1274036835"
+            }
+          ]
+        },
+        {
+          "name": "Bulgarian Horo Accordion",
+          "about": "Bulgarian accordionists adapted regional horo dances and irregular meters into a virtuosic modern folk language. The instrument can articulate dense ornamentation, rapid modal melody, and strongly grouped rhythms while still functioning as accompaniment for dancers and ensembles.",
+          "listenFor": "Listen for uneven beat groupings, especially 5-, 7-, 9-, and 11-beat patterns, very fast grace-note figures, sharp phrase accents, and a left hand that tells you where the dance grouping resets.",
+          "commonSetup": "Piano accordion or chromatic button accordion",
+          "learningFocus": "Learn the meter as grouped pulses before learning notes. Keep ornaments subordinate to the groove, and practice bellows accents on the first pulse of each rhythmic group.",
+          "researchSources": [
+            {
+              "label": "Bulgarian National Radio — The Magic of Accordion",
+              "url": "https://old-news.bnr.bg/en/post/100127384/the-magic-of-accordion"
+            },
+            {
+              "label": "Apple Music — Musical Instruments in Bulgaria: Accordion",
+              "url": "https://music.apple.com/be/album/musical-instruments-in-bulgaria-accordion/1763218220"
+            }
+          ]
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -5836,6 +5870,168 @@
         {
           "label": "The Attic — Lăutărie Then and Now",
           "url": "https://theatticmag.com/features/2409/l%C4%83ut%C4%83rie-then-and-now%3A-inside-romania's-romani-musical-heritage.html"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0243",
+      "artist": "Igne Kitanovski",
+      "track": "Estradno Oro",
+      "region": "North Macedonia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Macedonian Oro"
+      },
+      "instrumentNotes": {
+        "accordion": "A clean accordion-led oro showing how the melody rides grouped dance accents without losing forward motion."
+      },
+      "spotify": "https://open.spotify.com/track/0JTDsbImRVXdMaWEPUYc63",
+      "researchSources": [
+        {
+          "label": "Spotify — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://open.spotify.com/album/2ocaSCALTkbimQJbpVK1z4"
+        },
+        {
+          "label": "Apple Music — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://music.apple.com/us/album/oro-macedonian-accordion-dance-music/1274036835"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0244",
+      "artist": "Igne Kitanovski",
+      "track": "Kucano Oro",
+      "region": "North Macedonia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Macedonian Oro"
+      },
+      "instrumentNotes": {
+        "accordion": "Longer phrases and ornament chains make the uneven dance pulse audible through articulation rather than a heavy bass pattern."
+      },
+      "spotify": "https://open.spotify.com/track/7zUM6iPpgHCmRCgoO71w9a",
+      "researchSources": [
+        {
+          "label": "Spotify — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://open.spotify.com/album/2ocaSCALTkbimQJbpVK1z4"
+        },
+        {
+          "label": "Apple Music — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://music.apple.com/us/album/oro-macedonian-accordion-dance-music/1274036835"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0245",
+      "artist": "Igne Kitanovski",
+      "track": "Germijansko",
+      "region": "North Macedonia",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Macedonian Oro"
+      },
+      "instrumentNotes": {
+        "accordion": "A spacious example where accordion combines sustained modal melody with precise dance-meter punctuation."
+      },
+      "spotify": "https://open.spotify.com/track/7kRlT7z24Svp81CWkFANsl",
+      "researchSources": [
+        {
+          "label": "Spotify — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://open.spotify.com/album/2ocaSCALTkbimQJbpVK1z4"
+        },
+        {
+          "label": "Apple Music — Oro (Macedonian Accordion Dance Music)",
+          "url": "https://music.apple.com/us/album/oro-macedonian-accordion-dance-music/1274036835"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0246",
+      "artist": "Boris Karlov",
+      "track": "Ganka's horo",
+      "region": "Bulgaria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Bulgarian Horo Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "Karlov's accordion keeps rapid ornamentation sharply aligned with the horo pulse, a hallmark of Bulgarian folk accordion virtuosity."
+      },
+      "spotify": "https://open.spotify.com/track/4mJN1dm4YtkQBMdlhVJqGm",
+      "researchSources": [
+        {
+          "label": "Bulgarian National Radio — The Magic of Accordion",
+          "url": "https://old-news.bnr.bg/en/post/100127384/the-magic-of-accordion"
+        },
+        {
+          "label": "Apple Music — Musical Instruments in Bulgaria: Accordion",
+          "url": "https://music.apple.com/be/album/musical-instruments-in-bulgaria-accordion/1763218220"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0247",
+      "artist": "Boris Karlov",
+      "track": "Gankino horo",
+      "region": "Bulgaria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Bulgarian Horo Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "The asymmetric meter becomes clear through grouped accents while the right hand spins fast ornamental melody above it."
+      },
+      "spotify": "https://open.spotify.com/track/2VTbgnAwEvsw6CNYcrPXNL",
+      "researchSources": [
+        {
+          "label": "Bulgarian National Radio — The Magic of Accordion",
+          "url": "https://old-news.bnr.bg/en/post/100127384/the-magic-of-accordion"
+        },
+        {
+          "label": "Apple Music — Musical Instruments in Bulgaria: Accordion",
+          "url": "https://music.apple.com/be/album/musical-instruments-in-bulgaria-accordion/1763218220"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0248",
+      "artist": "Yordan Yotov, Ognyan Vassilev, Petko Radev",
+      "track": "Krivo sadovsko horo",
+      "region": "Bulgaria",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Bulgarian Horo Accordion"
+      },
+      "instrumentNotes": {
+        "accordion": "A second-generation example showing accordion inside a fuller folk ensemble while retaining the strongly grouped dance rhythm."
+      },
+      "spotify": "https://open.spotify.com/track/2xabHGVYwYBIlbbvwa3BLM",
+      "researchSources": [
+        {
+          "label": "Bulgarian National Radio — The Magic of Accordion",
+          "url": "https://old-news.bnr.bg/en/post/100127384/the-magic-of-accordion"
+        },
+        {
+          "label": "Apple Music — Musical Instruments in Bulgaria: Accordion",
+          "url": "https://music.apple.com/be/album/musical-instruments-in-bulgaria-accordion/1763218220"
         }
       ]
     }
