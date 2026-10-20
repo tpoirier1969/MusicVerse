@@ -40,6 +40,7 @@ SoundTrail instruments are research objects, not empty category shells. Adding a
 - map the instrument across significant styles and traditions without inventing genres merely to hit a quota;
 - explain what the instrument actually does in every listed style;
 - include at least two verified Spotify track examples for every listed style, each with an instrument-specific note explaining what to listen for;
+- target three track examples when the research is strong enough to support them; Accordion currently goes one step further and requires three verified tracks for every listed style;
 - verify artist/recording relationships from public sources and verify Spotify matches separately; a missing Spotify match stays blank rather than being guessed;
 - prefer different artists, eras, or approaches when they make the comparison more useful, but allow two strong examples from the same specialist rather than padding a style with a weak match; avoid duplicate recordings simply because one performance illustrates more than one relationship.
 
