@@ -451,6 +451,36 @@
               "url": "https://folkcloud.com/folk-music-by-country/serbia"
             }
           ]
+        },
+        {
+          "name": "Norwegian Gammaldans",
+          "about": "Norwegian gammaldans is social dance music built around waltz, reinlender, polka, and related older dance forms. Accordion is a characteristic lead-and-accompaniment instrument, expected to keep the dance floor steady while giving the melody enough lift and decoration to stay lively.",
+          "listenFor": "Listen for economical left-hand bass and chords, square but buoyant dance time, neatly clipped ornaments, and clear differences between waltz sway, reinlender lift, and schottis/polka articulation.",
+          "researchSources": [
+            {
+              "label": "UMBC — Norwegian music and gammaldans",
+              "url": "https://www2.umbc.edu/eol/8/jenner/index.html"
+            },
+            {
+              "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+              "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+            }
+          ]
+        },
+        {
+          "name": "Swedish Folk / Dragspel",
+          "about": "Swedish dragspel tradition adapts polskas, waltzes, marches, and regional dance tunes to accordion while retaining the phrasing of older fiddle-centered folk music. The accordion can supply both the tune and a compact dance accompaniment, making articulation and rhythmic shape more important than sheer volume.",
+          "listenFor": "Listen for dance phrases that breathe in short arcs, clean bass support, subtle emphasis on uneven or lilting folk accents, and right-hand ornamentation that borrows the contour of fiddle playing.",
+          "researchSources": [
+            {
+              "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+              "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+            },
+            {
+              "label": "Melodigging — Swedish Folk Music / Dragspel",
+              "url": "https://www.melodigging.com/genre/swedish-folk-music"
+            }
+          ]
         }
       ],
       "importance": "The accordion matters because one portable bellows instrument can supply melody, chords, bass, and rhythmic accents. That self-contained design helped it become a core voice in dance and folk traditions across Europe and the Americas while also supporting jazz and concert repertoire.",
@@ -5350,6 +5380,168 @@
         {
           "label": "FolkCloud — Traditional / folk music of Serbia",
           "url": "https://folkcloud.com/folk-music-by-country/serbia"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0231",
+      "artist": "Håvard Svendsrud",
+      "track": "Accordion schottis",
+      "region": "Norway",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Norwegian Gammaldans"
+      },
+      "instrumentNotes": {
+        "accordion": "A schottis example where compact articulation and steady two-handed dance rhythm matter more than sustained virtuoso phrasing."
+      },
+      "spotify": "https://open.spotify.com/track/77xjn8PQr2GPkOqVwoFvVU",
+      "researchSources": [
+        {
+          "label": "UMBC — Norwegian music and gammaldans",
+          "url": "https://www2.umbc.edu/eol/8/jenner/index.html"
+        },
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0232",
+      "artist": "Håvard Svendsrud",
+      "track": "På Låveball, Vals",
+      "region": "Norway",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Norwegian Gammaldans"
+      },
+      "instrumentNotes": {
+        "accordion": "The accordion shapes a broad waltz pulse while keeping accompaniment light enough for the melody to retain its lilt."
+      },
+      "spotify": "https://open.spotify.com/track/7xT8isLXbF3lgBeqoAMNEB",
+      "researchSources": [
+        {
+          "label": "UMBC — Norwegian music and gammaldans",
+          "url": "https://www2.umbc.edu/eol/8/jenner/index.html"
+        },
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0233",
+      "artist": "Toralf Tollefsen",
+      "track": "Dans på Tuftehaugen, reinlender",
+      "region": "Norway",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Norwegian Gammaldans"
+      },
+      "instrumentNotes": {
+        "accordion": "Tollefsen's reinlender demonstrates the crisp rhythmic lift and tidy phrase endings that make accordion effective for Scandinavian social dance."
+      },
+      "spotify": "https://open.spotify.com/track/0oimDkQpdnLhpfIzHWyArD",
+      "researchSources": [
+        {
+          "label": "UMBC — Norwegian music and gammaldans",
+          "url": "https://www2.umbc.edu/eol/8/jenner/index.html"
+        },
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0234",
+      "artist": "Bröderna Gustafsson",
+      "track": "Delsbovalsen",
+      "region": "Sweden",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swedish Folk / Dragspel"
+      },
+      "instrumentNotes": {
+        "accordion": "A Swedish folk waltz on accordion, emphasizing lyrical dance phrasing and economical accompaniment rather than dense chordal playing."
+      },
+      "spotify": "https://open.spotify.com/track/5FMsd7uEyKN1l8CeqcrNRP",
+      "researchSources": [
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        },
+        {
+          "label": "Spotify — Folkmusik på Dragspel repertoire",
+          "url": "https://open.spotify.com/track/5FMsd7uEyKN1l8CeqcrNRP"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0235",
+      "artist": "Bröderna Gustafsson",
+      "track": "Vals i A-dur",
+      "region": "Sweden",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swedish Folk / Dragspel"
+      },
+      "instrumentNotes": {
+        "accordion": "The melody retains a fiddle-like contour while the accordion supplies its own clean waltz foundation."
+      },
+      "spotify": "https://open.spotify.com/track/4TTo4V2yS3B65wuaW4lLe0",
+      "researchSources": [
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        },
+        {
+          "label": "Spotify — Folkmusik på Dragspel repertoire",
+          "url": "https://open.spotify.com/track/5FMsd7uEyKN1l8CeqcrNRP"
+        }
+      ]
+    },
+    {
+      "id": "soundtrail-recording-0236",
+      "artist": "Pär Sörman, Lars Holm",
+      "track": "Vem Tände Junis Ljusa Natt",
+      "region": "Sweden",
+      "startHere": false,
+      "instruments": [
+        "accordion"
+      ],
+      "genresByInstrument": {
+        "accordion": "Swedish Folk / Dragspel"
+      },
+      "instrumentNotes": {
+        "accordion": "A more song-like Swedish folk example showing the accordion supporting lyrical phrasing instead of acting only as a dance-band engine."
+      },
+      "spotify": "https://open.spotify.com/track/0cvpzBUVdARJGqDaaOm1T4",
+      "researchSources": [
+        {
+          "label": "Hal Leonard — Scandinavian Folk Tunes for Accordion",
+          "url": "https://www.halleonard.com/product/49047117/scandinavian-folk-tunes-for-accordion"
+        },
+        {
+          "label": "Spotify — Folkmusik på Dragspel repertoire",
+          "url": "https://open.spotify.com/track/5FMsd7uEyKN1l8CeqcrNRP"
         }
       ]
     }
