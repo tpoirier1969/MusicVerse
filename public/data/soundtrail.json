@@ -386,7 +386,8 @@
           "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/structure/structure002.html"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     },
     {
       "id": "pedal-steel-guitar",
@@ -499,7 +500,8 @@
           "url": "https://folkways.si.edu/sacred-steel/gospel/music/album/smithsonian"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     },
     {
       "id": "cello",
@@ -622,7 +624,8 @@
           "url": "https://philharmonia.co.uk/resources/instruments/cello/"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     },
     {
       "id": "sitar",
@@ -725,7 +728,8 @@
           "url": "https://www.britannica.com/art/sitar"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     },
     {
       "id": "double-bass",
@@ -832,7 +836,8 @@
           "url": "https://ysomusic.org/media/the-double-bass"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     },
     {
       "id": "tabla",
@@ -919,7 +924,8 @@
           "url": "https://www.britannica.com/art/tabla"
         }
       ],
-      "researchStandardVersion": 2
+      "researchStandardVersion": 2,
+      "researchStatus": "starter"
     }
   ],
   "recordings": [
