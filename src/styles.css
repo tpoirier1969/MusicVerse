@@ -251,3 +251,8 @@ h1,h2,h3 { font-family:Georgia,serif; color:#172a24; }
 .soundtrail-listen-for{margin-top:14px;padding:13px 15px;border-radius:18px;background:rgba(255,250,241,.66);border:1px solid rgba(36,52,47,.12);display:grid;gap:4px}
 .soundtrail-listen-for strong{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--pine)}
 .soundtrail-listen-for span{color:var(--muted);line-height:1.5}
+
+.soundtrail-learning-row{margin-top:10px;display:grid;grid-template-columns:minmax(110px,auto) 1fr;gap:12px;align-items:start;padding:10px 0;border-top:1px solid rgba(36,52,47,.10)}
+.soundtrail-learning-row strong{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--pine)}
+.soundtrail-learning-row span{color:var(--muted);line-height:1.5}
+@media (max-width:760px){.soundtrail-learning-row{grid-template-columns:1fr;gap:4px}}
