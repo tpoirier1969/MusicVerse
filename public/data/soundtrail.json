@@ -760,7 +760,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     },
     {
       "id": "pedal-steel-guitar",
@@ -874,7 +874,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     },
     {
       "id": "cello",
@@ -998,7 +998,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     },
     {
       "id": "sitar",
@@ -1102,7 +1102,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     },
     {
       "id": "double-bass",
@@ -1210,7 +1210,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     },
     {
       "id": "tabla",
@@ -1298,7 +1298,7 @@
         }
       ],
       "researchStandardVersion": 2,
-      "researchStatus": "starter"
+      "researchStatus": "complete"
     }
   ],
   "recordings": [
