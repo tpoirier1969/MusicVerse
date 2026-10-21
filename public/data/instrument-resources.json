@@ -1,0 +1,1263 @@
+{
+  "schemaVersion": 1,
+  "description": "MusicVerse curated links organized by instrument; accordion resources and restored Accordion Music spreadsheet listening references. Personal saves remain in existing MusicVerse user references.",
+  "sources": [
+    "Crazy Rock Covers Catalog: Accordion Music tab",
+    "MusicVerse accordion research, October 2026"
+  ],
+  "resources": [
+    {
+      "id": "accordion-amelie-sheet-index",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "Amélie accordion scores: collection",
+      "url": "https://www.accordion-scores.com/sheet-music/amelie",
+      "provider": "Accordion-scores.com",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Piano accordion",
+        "Sheet music",
+        "Free account may be required"
+      ],
+      "notes": "Collection includes La Valse d’Amélie, La Noyée, and L’autre valse d’Amélie. Verify uploader permission before downloading."
+    },
+    {
+      "id": "accordion-amelie-valse-carla",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "La Valse d’Amélie: accordion arrangements",
+      "url": "https://www.accordion-scores.com/sheet-music/La%2Bvalse%2Bd%27Am%C3%A9lie",
+      "provider": "Accordion-scores.com",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Piano accordion",
+        "Multiple versions"
+      ],
+      "notes": "Several accordion versions, including Carla Steiner's arrangement; compare left-hand writing for your piano accordion."
+    },
+    {
+      "id": "accordion-amelie-noyee",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "La Noyée: accordion score options",
+      "url": "https://www.accordion-scores.com/sheet-music/La%2Bnoy%C3%A9e",
+      "provider": "Accordion-scores.com",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Piano accordion",
+        "Multiple versions"
+      ],
+      "notes": "Different chromatic and diatonic arrangements are listed. Choose a piano-accordion-compatible score."
+    },
+    {
+      "id": "accordion-amelie-other-valse",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "L’autre valse d’Amélie: accordion score",
+      "url": "https://www.accordion-scores.com/sheet-music/amelie",
+      "provider": "Accordion-scores.com",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Piano accordion"
+      ],
+      "notes": "Listed in the Amélie score collection; link opens the collection where you can locate this specific arrangement."
+    },
+    {
+      "id": "accordion-amelie-valse-licensed",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "La Valse d’Amélie: licensed solo accordion PDF",
+      "url": "https://www.scoreexchange.com/scores/la-valse-damelie-663728.html",
+      "provider": "ScoreExchange",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Moderate",
+        "Paid score",
+        "Piano accordion"
+      ],
+      "notes": "Julia Gordon arrangement, solo accordion. Listed at $7.69 when researched; check price and licensing at purchase."
+    },
+    {
+      "id": "accordion-amelie-valse-easyaccordion",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "Valse d’Amélie: accordion arrangement with video",
+      "url": "https://easyaccordion.com/sheetmusic/14/yann-tiersen-valse-d-amelie",
+      "provider": "EasyAccordion",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Intermediate",
+        "Paid access"
+      ],
+      "notes": "Accordion-specific arrangement with a score preview and demonstration; full PDF requires site access."
+    },
+    {
+      "id": "accordion-amelie-comptine",
+      "instrument": "accordion",
+      "section": "sheet",
+      "title": "Comptine d’un autre été: accordion arrangements",
+      "url": "https://www.musicnotes.com/sheetmusic/comptine-dun-autre-ete-lapres-midi/69204",
+      "provider": "Musicnotes",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Accordion",
+        "Paid scores"
+      ],
+      "notes": "Browse listings and choose the accordion instrumental-solo version, not the more common piano solo score."
+    },
+    {
+      "id": "accordion-requested-video",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Video to identify and find sheet music for",
+      "url": "https://www.youtube.com/watch?v=NrFe5HatQ-o",
+      "provider": "YouTube",
+      "collection": "Requested music research",
+      "tags": [
+        "Identify title",
+        "Find score",
+        "Requested 2026-10-21"
+      ],
+      "notes": "Requested exact performance; title and composer not independently confirmed. Do not substitute a guessed song title."
+    },
+    {
+      "id": "accordion-stradella-chart",
+      "instrument": "accordion",
+      "section": "learn",
+      "title": "120-bass Stradella button chart",
+      "url": "https://commons.wikimedia.org/wiki/File:120_Bass_Accordion_Chart.png",
+      "provider": "Wikimedia Commons",
+      "collection": "Left-hand bass layouts",
+      "tags": [
+        "Visual chart",
+        "120 bass",
+        "96 bass reference"
+      ],
+      "notes": "Labels root bass, counterbass, major, minor, seventh and diminished chords. On 96-bass accordions the same system has fewer columns."
+    },
+    {
+      "id": "accordion-stradella-guide",
+      "instrument": "accordion",
+      "section": "learn",
+      "title": "Stradella bass system: layout and chords",
+      "url": "https://en.wikipedia.org/wiki/Stradella_bass_system",
+      "provider": "Wikipedia",
+      "collection": "Left-hand bass layouts",
+      "tags": [
+        "Bass buttons",
+        "Chord rows"
+      ],
+      "notes": "General visual overview of standard bass rows and the circle-of-fifths arrangement."
+    },
+    {
+      "id": "accordion-visual-fingering",
+      "instrument": "accordion",
+      "section": "learn",
+      "title": "Free accordion fingering chart PDF",
+      "url": "https://freekeylessons.com/accordion-fingering-chart-pdf",
+      "provider": "Free Key Lessons",
+      "collection": "Left-hand bass layouts",
+      "tags": [
+        "Fingering",
+        "Free chart"
+      ],
+      "notes": "Beginner-facing downloadable accordion fingering and bass layout chart."
+    },
+    {
+      "id": "accordion-encyclopedia",
+      "instrument": "accordion",
+      "section": "websites",
+      "title": "Accordion-scores.com score library",
+      "url": "https://www.accordion-scores.com/",
+      "provider": "Accordion-scores.com",
+      "collection": "Sheet music libraries",
+      "tags": [
+        "Scores",
+        "French music"
+      ],
+      "notes": "Searchable collection of accordion arrangements, including many French songs and film music."
+    },
+    {
+      "id": "accordion-easy-scores",
+      "instrument": "accordion",
+      "section": "websites",
+      "title": "EasyAccordion: arrangements and demonstrations",
+      "url": "https://easyaccordion.com/",
+      "provider": "EasyAccordion",
+      "collection": "Sheet music libraries",
+      "tags": [
+        "Sheet music",
+        "Video demos"
+      ],
+      "notes": "Accordion-specific arrangements with preview videos; full access may require payment."
+    },
+    {
+      "id": "accordion-yann-performance",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "La Valse d’Amélie: Kateryna Sushko performance",
+      "artist": "Kateryna Sushko",
+      "url": "https://www.youtube.com/watch?v=MmVJBxGvCWQ",
+      "provider": "YouTube",
+      "collection": "Amélie soundtrack",
+      "tags": [
+        "Yann Tiersen",
+        "Solo accordion"
+      ],
+      "notes": "Accordion performance of the film theme; artist points to sheet music in video description."
+    },
+    {
+      "id": "accordion-musette-context",
+      "instrument": "accordion",
+      "section": "websites",
+      "title": "History and cultural role of the accordion",
+      "url": "https://www.earlymusicamerica.org/web-articles/according-the-accordion-its-historical-due/",
+      "provider": "Early Music America",
+      "collection": "Instrument background",
+      "tags": [
+        "History",
+        "Traditions"
+      ],
+      "notes": "Background reading about accordion development and use across traditions."
+    },
+    {
+      "id": "accordion-spreadsheet-001",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Säkkijärven polkka",
+      "artist": "Viljo Vesterinen, Dallapé-orkesteri",
+      "url": "https://open.spotify.com/track/6TDUEBMlU0oQR3fO5AblsD",
+      "provider": "Spotify",
+      "collection": "Finnish Folk",
+      "tags": [
+        "Finnish Folk",
+        "Finland",
+        "Start here"
+      ],
+      "notes": "Classic Finnish accordion polka; essential reference for rhythmic drive and bellows articulation.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-002",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "(Weekend Au) Balajo",
+      "artist": "Jo Privat",
+      "url": "https://open.spotify.com/track/4KRhQpc0LLm9XOl1awhjOy",
+      "provider": "Spotify",
+      "collection": "French Musette",
+      "tags": [
+        "French Musette",
+        "France",
+        "Start here"
+      ],
+      "notes": "Paris bal-musette sound: waltz phrasing, ornamentation, and the characteristic musette shimmer.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-003",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Line Redpath Waltz",
+      "artist": "Jimmy Shand",
+      "url": "https://open.spotify.com/track/1aUf0Q19OUzF100Y3mVWnU",
+      "provider": "Spotify",
+      "collection": "Scottish Folk",
+      "tags": [
+        "Scottish Folk",
+        "Scotland"
+      ],
+      "notes": "Classic Scottish dance-band accordion approach; crisp phrasing and dance rhythm.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-004",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Teche Special",
+      "artist": "Iry LeJeune",
+      "url": "https://open.spotify.com/track/2JOWu3b5KoWXausmdmfBhY",
+      "provider": "Spotify",
+      "collection": "Cajun",
+      "tags": [
+        "Cajun",
+        "Louisiana, USA",
+        "Start here"
+      ],
+      "notes": "Old-school Cajun accordion; a strong example of the punchy diatonic style and vocal-like phrasing.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-005",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "I'm Coming Home (To See My Mother)",
+      "artist": "Clifton Chenier",
+      "url": "https://open.spotify.com/track/2j9vQAnEpJyIlSHIZcleaR",
+      "provider": "Spotify",
+      "collection": "Zydeco",
+      "tags": [
+        "Zydeco",
+        "Louisiana, USA",
+        "Start here"
+      ],
+      "notes": "Creole/zydeco accordion tradition; blues and R&B-inflected groove.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-006",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Ay Te Dejo en San Antonio",
+      "artist": "Flaco Jimenez",
+      "url": "https://open.spotify.com/track/7lFFgni4XpRY2bGV7qeH2q",
+      "provider": "Spotify",
+      "collection": "Conjunto / Tex-Mex",
+      "tags": [
+        "Conjunto / Tex-Mex",
+        "Texas / Northern Mexico",
+        "Start here"
+      ],
+      "notes": "Signature conjunto accordion language: rhythmic, melodic, and highly conversational.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-007",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Libertango",
+      "artist": "Astor Piazzolla",
+      "url": "https://open.spotify.com/track/1IIydYQ6LTzZpgLXYpNlNy",
+      "provider": "Spotify",
+      "collection": "Tango",
+      "tags": [
+        "Tango",
+        "Argentina",
+        "Start here"
+      ],
+      "notes": "Bandoneón rather than piano accordion, but indispensable for hearing the expressive free-reed family outside folk dance music.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-008",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Asa Branca",
+      "artist": "Luiz Gonzaga",
+      "url": "https://open.spotify.com/track/0jAbBolC53vVe33ouZ7D4a",
+      "provider": "Spotify",
+      "collection": "Forró",
+      "tags": [
+        "Forró",
+        "Northeastern Brazil",
+        "Start here"
+      ],
+      "notes": "Foundational Brazilian accordion repertoire; syncopated baião rhythm and singing melodic lines.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-009",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "La Gota Fria",
+      "artist": "Carlos Vives",
+      "url": "https://open.spotify.com/track/4tXR895KKljrC2VptgyEhJ",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia",
+        "Start here"
+      ],
+      "notes": "Accordion is central to vallenato; lively melodic fills and rhythmic interplay with percussion.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-010",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Die Dorfschöne",
+      "artist": "Slavko Avsenik, Original Oberkrainer Quintett",
+      "url": "https://open.spotify.com/track/4HXICHbZCUQ2Fc0UcMyqT1",
+      "provider": "Spotify",
+      "collection": "Slovenian Polka",
+      "tags": [
+        "Slovenian Polka",
+        "Slovenia / Alpine Central Europe"
+      ],
+      "notes": "A defining Alpine/Slovenian polka sound, with accordion at the center of the ensemble texture.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-011",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Summertime (Arr. for Accordion by Richard Galliano)",
+      "artist": "Richard Galliano",
+      "url": "https://open.spotify.com/track/7iEcxQt0rLH641P0XgDrwB",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "France / international jazz",
+        "Start here"
+      ],
+      "notes": "Shows how naturally accordion handles jazz harmony, rubato, phrasing, and standards.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-012",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Classic Russian Accordion Bayan",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/1usXM33ydJecaeUf92xLfF",
+      "provider": "Spotify",
+      "collection": "Russian Bayan",
+      "tags": [
+        "Russian Bayan",
+        "Russia / Eastern Europe"
+      ],
+      "notes": "A Spotify playlist rather than one track; useful survey of the chromatic-button bayan tradition.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-013",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Folk Accordéon Québécois",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/7yt8TMd3STs0t6tw0xaDAe",
+      "provider": "Spotify",
+      "collection": "Québécois Folk",
+      "tags": [
+        "Québécois Folk",
+        "Québec, Canada"
+      ],
+      "notes": "A Spotify survey playlist for French-Canadian dance tunes and accordion accompaniment styles.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-014",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Balkan Accordion Vibes",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/69PDDaYJbwGcuz60zfbd0j",
+      "provider": "Spotify",
+      "collection": "Balkan Folk",
+      "tags": [
+        "Balkan Folk",
+        "Balkans"
+      ],
+      "notes": "Survey playlist highlighting fast ornamentation, odd meters, and virtuosic Balkan accordion playing.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-015",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Celtic traditional - TP Mix",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/3n6A8SatEZR06cutRkXHTx",
+      "provider": "Spotify",
+      "collection": "Irish / Celtic",
+      "tags": [
+        "Irish / Celtic",
+        "Ireland"
+      ],
+      "notes": "Survey playlist for Irish/Celtic traditional playing; useful for hearing button-accordion repertoire alongside the broader tradition.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-016",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Folk Italiano Tarantella",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/6j4iXuhwFMoFxvNVnpHG96",
+      "provider": "Spotify",
+      "collection": "Italian Folk",
+      "tags": [
+        "Italian Folk",
+        "Italy"
+      ],
+      "notes": "Survey playlist for Italian accordion dance traditions, especially tarantella repertoire.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-017",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Señor Locutor",
+      "artist": "Los Tigres Del Norte",
+      "url": "https://open.spotify.com/track/6tTdUPxER1wdW1lAVcuBc4",
+      "provider": "Spotify",
+      "collection": "Norteño",
+      "tags": [
+        "Norteño",
+        "Northern Mexico / US-Mexico border"
+      ],
+      "notes": "Norteño accordion in a modern regional-Mexican ensemble context.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-018",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Klezmer Accordion Vibes",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/0NZrutKjEJytoYzHumvkdX",
+      "provider": "Spotify",
+      "collection": "Klezmer",
+      "tags": [
+        "Klezmer",
+        "Eastern European Jewish / diaspora"
+      ],
+      "notes": "Survey playlist centered on klezmer accordion phrasing, dance rhythm, and ornamentation.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-019",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Accordion Rock by They Might Be Giants",
+      "artist": "Various / They Might Be Giants focus",
+      "url": "https://open.spotify.com/playlist/5vqzoKiqF3Psl7VLJnUUA8",
+      "provider": "Spotify",
+      "collection": "Rock",
+      "tags": [
+        "Rock",
+        "USA"
+      ],
+      "notes": "Survey playlist showing accordion used as a rock/alternative texture rather than strictly folk instrumentation.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-020",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Accordion Rock The Decemberists",
+      "artist": "Various / The Decemberists focus",
+      "url": "https://open.spotify.com/playlist/0eIX8U7y7hxTM5rFIl1cx3",
+      "provider": "Spotify",
+      "collection": "Rock",
+      "tags": [
+        "Rock",
+        "USA"
+      ],
+      "notes": "Indie-rock context for accordion, useful for hearing how the instrument sits with guitars, drums, and narrative songwriting.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-021",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Accordion Tracks By Weird Al",
+      "artist": "Various / Weird Al focus",
+      "url": "https://open.spotify.com/playlist/5MCk2VALeDa9kgnEsymXy3",
+      "provider": "Spotify",
+      "collection": "Pop",
+      "tags": [
+        "Pop",
+        "USA"
+      ],
+      "notes": "A deliberately nontraditional lane: accordion used in pop parody and rock arrangements.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-022",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Flor de Dalia",
+      "artist": "Santiago Jimenez Jr.",
+      "url": "https://open.spotify.com/track/5srLaW9U1vAyPhSPg2uTbA",
+      "provider": "Spotify",
+      "collection": "Conjunto / Tex-Mex",
+      "tags": [
+        "Conjunto / Tex-Mex",
+        "Texas, USA"
+      ],
+      "notes": "A second conjunto reference, closer to the stripped-down traditional accordion-and-rhythm approach.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-023",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Feira de Mangaio",
+      "artist": "Dominguinhos, Sivuca, Oswaldinho",
+      "url": "https://open.spotify.com/track/0je3GcZNZfTbOwMvBFXhK2",
+      "provider": "Spotify",
+      "collection": "Forró",
+      "tags": [
+        "Forró",
+        "Northeastern Brazil"
+      ],
+      "notes": "Three major Brazilian accordion voices; a strong complement to Luiz Gonzaga.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-024",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Festival Vallenato",
+      "artist": "Diomedes Diaz, Rafael Santos",
+      "url": "https://open.spotify.com/track/5kbdl2zK1lGUDcOydT8vCB",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia"
+      ],
+      "notes": "A more traditional vallenato reference alongside the Carlos Vives crossover example.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-025",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Amarte Mas No Pude",
+      "artist": "Diomedes Diaz, Juancho Rois",
+      "url": "https://open.spotify.com/track/5ETEk6G40TFStO62Pa7Khe",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia"
+      ],
+      "notes": "Classic singer-and-accordion vallenato partnership; useful for hearing accordion answer the vocal line.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-026",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Che bandoneon!",
+      "artist": "Aníbal Troilo, Guillermo Destaillats",
+      "url": "https://open.spotify.com/track/6M6MQOrNMCHQ8gw7K41ZNd",
+      "provider": "Spotify",
+      "collection": "Tango",
+      "tags": [
+        "Tango",
+        "Argentina"
+      ],
+      "notes": "Traditional tango bandoneón language, contrasting nicely with Piazzolla's tango nuevo.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-027",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Payotte",
+      "artist": "Yvette Horner",
+      "url": "https://open.spotify.com/track/6TgAAZRwCSnFY4g3BD9iEz",
+      "provider": "Spotify",
+      "collection": "French Musette",
+      "tags": [
+        "French Musette",
+        "France"
+      ],
+      "notes": "A second classic French accordion voice, useful for comparing tone and phrasing with Jo Privat.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-028",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Amoureusement",
+      "artist": "Yvette Horner",
+      "url": "https://open.spotify.com/track/3FBglWSbnguTI9XyElM2M6",
+      "provider": "Spotify",
+      "collection": "French Musette",
+      "tags": [
+        "French Musette",
+        "France"
+      ],
+      "notes": "Lyrical musette phrasing and a softer counterpoint to the dance-floor examples.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-029",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Margaret Mackinnon of Digg",
+      "artist": "Phil Cunningham",
+      "url": "https://open.spotify.com/track/5cqxXZ3KZFT12CMkXsswaW",
+      "provider": "Spotify",
+      "collection": "Scottish Folk",
+      "tags": [
+        "Scottish Folk",
+        "Scotland"
+      ],
+      "notes": "Modern Scottish accordion playing rooted in traditional dance music.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-030",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Jacksons' No. 2 / Jean's Reel / The Moving Cloud",
+      "artist": "Phil Cunningham",
+      "url": "https://open.spotify.com/track/2NwdLTrNg3CCQeBslivpeo",
+      "provider": "Spotify",
+      "collection": "Scottish Folk",
+      "tags": [
+        "Scottish Folk",
+        "Scotland"
+      ],
+      "notes": "Reel set showing fast traditional articulation and tune-to-tune transitions.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-031",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Gone With the Wind",
+      "artist": "Art Van Damme",
+      "url": "https://open.spotify.com/track/1J4SRBESoLfcI0RrrPzMck",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "USA"
+      ],
+      "notes": "Classic jazz accordion: swing phrasing and sophisticated chord vocabulary.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-032",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Yardbird Suite",
+      "artist": "Frank Marocco, Simone Zanchini",
+      "url": "https://open.spotify.com/track/4ShH8KRxlnx36hqN6ka2uq",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "USA / Italy"
+      ],
+      "notes": "Shows accordion handling bebop language rather than folk accompaniment.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-033",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Las Coronelas",
+      "artist": "Steve Jordan",
+      "url": "https://open.spotify.com/track/3O8JCiPrUVAstP1SvRRPEV",
+      "provider": "Spotify",
+      "collection": "Conjunto / Tex-Mex",
+      "tags": [
+        "Conjunto / Tex-Mex",
+        "Texas, USA"
+      ],
+      "notes": "Steve Jordan pushes conjunto accordion far beyond conventional polka vocabulary.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-034",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "La Muerte De Abel Antonio",
+      "artist": "Alfredo Gutierrez",
+      "url": "https://open.spotify.com/track/2IYyWECy8tUR8RIwbYt9Gq",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia"
+      ],
+      "notes": "Traditional Colombian accordion style with highly active melodic playing.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-035",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Arrabal - En Vivo",
+      "artist": "Osvaldo Pugliese",
+      "url": "https://open.spotify.com/track/3Q3Sb1cnzpGQSSTf5SuoUK",
+      "provider": "Spotify",
+      "collection": "Tango",
+      "tags": [
+        "Tango",
+        "Argentina"
+      ],
+      "notes": "Orchestral tango context where bandoneón works as part of a dramatic ensemble texture.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-036",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Musette Swing (French Accordion)",
+      "artist": "Gus Viseur",
+      "url": "https://open.spotify.com/album/7b6ySMzQqfHLEPg9i2jZjI",
+      "provider": "Spotify",
+      "collection": "French Musette",
+      "tags": [
+        "French Musette",
+        "France"
+      ],
+      "notes": "Album-length look at the overlap between Paris musette and jazz/swing accordion.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-037",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Tony Murena",
+      "artist": "Tony Murena",
+      "url": "https://open.spotify.com/artist/2zIIkeafigOydfLADwC7Lu",
+      "provider": "Spotify",
+      "collection": "French Musette",
+      "tags": [
+        "French Musette",
+        "France"
+      ],
+      "notes": "Artist reference for one of the important musette-jazz accordion voices.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-038",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Cape Verde Funana Accordion Vibes",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/0Gw25bxadl4aABYEWQMzes",
+      "provider": "Spotify",
+      "collection": "Funaná",
+      "tags": [
+        "Funaná",
+        "Cape Verde",
+        "Start here"
+      ],
+      "notes": "Funaná uses diatonic accordion in fast, propulsive dance music with a very different rhythmic feel.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-039",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Fasio & Lurra-terra",
+      "artist": "Kepa Junkera",
+      "url": "https://open.spotify.com/track/1un13LPRa5W8EjIU0JxXf1",
+      "provider": "Spotify",
+      "collection": "Basque Trikitixa",
+      "tags": [
+        "Basque Trikitixa",
+        "Basque Country"
+      ],
+      "notes": "Trikitixa is Basque diatonic button accordion; a strong example of accordion outside the familiar Central-European sound.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-040",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Acordeão Folk Português",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/4OUbNww8sIzVEKrgrMp1X9",
+      "provider": "Spotify",
+      "collection": "Portuguese Folk",
+      "tags": [
+        "Portuguese Folk",
+        "Portugal"
+      ],
+      "notes": "Survey of Portuguese folk accordion traditions.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-041",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Deutsches Akkordeon Polka",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/3nmmaSqD65ecKhQK9gjDWC",
+      "provider": "Spotify",
+      "collection": "German Polka",
+      "tags": [
+        "German Polka",
+        "Germany"
+      ],
+      "notes": "Survey of German accordion-centered polka repertoire.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-042",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Austrian Accordion Folk",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/4qcC7C91mvYC48olq0WbAM",
+      "provider": "Spotify",
+      "collection": "Austrian Folk",
+      "tags": [
+        "Austrian Folk",
+        "Austria"
+      ],
+      "notes": "Alpine folk survey emphasizing accordion accompaniment and dance rhythm.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-043",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Slovenska Polka Harmonika",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/35meXVWEMf4RVeNYO2WuPH",
+      "provider": "Spotify",
+      "collection": "Slovenian Polka",
+      "tags": [
+        "Slovenian Polka",
+        "Slovenia"
+      ],
+      "notes": "Broader Slovenian harmonika survey beyond the Avsenik example.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-044",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Русская музыка на баяне",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/4rDipO14rakbfXeGrzukOq",
+      "provider": "Spotify",
+      "collection": "Russian Bayan",
+      "tags": [
+        "Russian Bayan",
+        "Russia"
+      ],
+      "notes": "Russian-language survey of bayan repertoire and chromatic-button technique.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-045",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Ukrainian Folk Accordion",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/2EnqpbdaPzjWq0m1A54Nm2",
+      "provider": "Spotify",
+      "collection": "Ukrainian Folk",
+      "tags": [
+        "Ukrainian Folk",
+        "Ukraine"
+      ],
+      "notes": "Survey of Ukrainian folk repertoire on accordion.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-046",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Jazz Accordion Italiano",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/6H7YTAa2mnQxw9u9uu7XEV",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "Italy",
+        "Start here"
+      ],
+      "notes": "Italian jazz-accordion survey showing the instrument well outside tarantella territory.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-047",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Classical Accordion Bach",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/0bvx5K8C4DSADnCs8w0lne",
+      "provider": "Spotify",
+      "collection": "Classical Accordion",
+      "tags": [
+        "Classical Accordion",
+        "European classical"
+      ],
+      "notes": "Useful survey of Baroque keyboard repertoire transferred to accordion.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-048",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Piazzolla: Music for Classical Accordion and Orchestra",
+      "artist": "Astor Piazzolla, James Crabb, Australian Chamber Orchestra",
+      "url": "https://open.spotify.com/album/6uziQMX2sZf5w05AETFaVQ",
+      "provider": "Spotify",
+      "collection": "Classical Accordion",
+      "tags": [
+        "Classical Accordion",
+        "Argentina / classical"
+      ],
+      "notes": "Album demonstrating concert-hall accordion/bandoneón language with orchestra.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-049",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Chopin: Valses, Op. 69 - No. 2",
+      "artist": "Richard Galliano",
+      "url": "https://open.spotify.com/track/11uYdUH79oYxqyiMhlwRuE",
+      "provider": "Spotify",
+      "collection": "Classical Accordion",
+      "tags": [
+        "Classical Accordion",
+        "France / classical"
+      ],
+      "notes": "A piano waltz reimagined for accordion, particularly relevant if approaching from piano.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-050",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Accordion Jazz: The Best",
+      "artist": "Various",
+      "url": "https://open.spotify.com/playlist/7EuZqcfGND30xu6suNdPmu",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "International"
+      ],
+      "notes": "Broad jazz-accordion listening survey for finding additional players and approaches.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-051",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Che, bandoneon",
+      "artist": "Aníbal Troilo, O.T. con Jorge Casal",
+      "url": "https://open.spotify.com/track/0W7GrpeeOk7uANdv3GpvLT",
+      "provider": "Spotify",
+      "collection": "Tango",
+      "tags": [
+        "Tango",
+        "Argentina"
+      ],
+      "notes": "Another Troilo recording highlighting the bandoneón's vocal, dramatic character.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-052",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "José Pérez León",
+      "artist": "Los Tigres Del Norte",
+      "url": "https://open.spotify.com/track/3xKToHlV3enPcQVpns4kUf",
+      "provider": "Spotify",
+      "collection": "Norteño",
+      "tags": [
+        "Norteño",
+        "Northern Mexico"
+      ],
+      "notes": "Second norteño example for hearing accordion inside story-driven regional Mexican song.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-053",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Carmelita",
+      "artist": "Flaco Jimenez, Dwight Yoakam",
+      "url": "https://open.spotify.com/track/2qz7LTS6bc3R3QcdhslXzA",
+      "provider": "Spotify",
+      "collection": "Conjunto / Tex-Mex",
+      "tags": [
+        "Conjunto / Tex-Mex",
+        "Texas, USA",
+        "Start here"
+      ],
+      "notes": "Accordion crossing naturally into country/Americana while retaining conjunto vocabulary.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-054",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "All You Ever Do Is Bring Me Down",
+      "artist": "The Mavericks, Flaco Jimenez",
+      "url": "https://open.spotify.com/track/5GtHqxpZs9ZL479uoXOGCG",
+      "provider": "Spotify",
+      "collection": "Conjunto / Tex-Mex",
+      "tags": [
+        "Conjunto / Tex-Mex",
+        "USA"
+      ],
+      "notes": "A clean example of accordion functioning inside a rock/country band arrangement.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-055",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Abri a Porta",
+      "artist": "Dominguinhos, Gilberto Gil",
+      "url": "https://open.spotify.com/track/1I4sXkZgl0NaE3vLEgIk5Z",
+      "provider": "Spotify",
+      "collection": "Forró",
+      "tags": [
+        "Forró",
+        "Brazil"
+      ],
+      "notes": "Brazilian accordion paired with MPB songwriting, showing a softer crossover side of forró.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-056",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Fruta Fresca",
+      "artist": "Carlos Vives",
+      "url": "https://open.spotify.com/track/1lcaG7worZLgdGuniOfGje",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia"
+      ],
+      "notes": "Pop-oriented vallenato where accordion remains a defining rhythmic and melodic color.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-057",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "La Tierra del Olvido",
+      "artist": "Carlos Vives",
+      "url": "https://open.spotify.com/track/1TPZ028i7BWWS5xW4UN9ss",
+      "provider": "Spotify",
+      "collection": "Vallenato",
+      "tags": [
+        "Vallenato",
+        "Colombia"
+      ],
+      "notes": "Accordion within a broader Colombian roots-pop arrangement.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-058",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Satie: Gymnopédie n° 1",
+      "artist": "Richard Galliano",
+      "url": "https://open.spotify.com/track/7luaYiIIyUfYNhWHvybd8T",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "France"
+      ],
+      "notes": "Extremely different accordion role: spacious, restrained classical transcription.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-059",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "Shostakovich: Waltz No. 2",
+      "artist": "Richard Galliano",
+      "url": "https://open.spotify.com/track/1scMU67ywT0Z6HC007hqhh",
+      "provider": "Spotify",
+      "collection": "Accordion Jazz",
+      "tags": [
+        "Accordion Jazz",
+        "France"
+      ],
+      "notes": "Shows orchestral-style phrasing and register color on accordion.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    },
+    {
+      "id": "accordion-spreadsheet-060",
+      "instrument": "accordion",
+      "section": "listen",
+      "title": "I Am Coming Home",
+      "artist": "Clifton Chenier",
+      "url": "https://open.spotify.com/track/1KhxHIX72v2OP7jKKEjxPz",
+      "provider": "Spotify",
+      "collection": "Zydeco",
+      "tags": [
+        "Zydeco",
+        "Louisiana, USA"
+      ],
+      "notes": "Second Chenier reference for blues-based Creole accordion phrasing.",
+      "source": "Crazy Rock Covers Catalog / Accordion Music",
+      "checked": "imported-from-existing-spreadsheet"
+    }
+  ]
+}
