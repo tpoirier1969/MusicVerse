@@ -27,15 +27,13 @@ test('every SoundTrail instrument meets research standard v2', () => {
   }
 });
 
-test('complete SoundTrail instruments have research context and at least two real track examples per style', () => {
+test('every SoundTrail style has research context and at least two real track examples', () => {
   const spotifyTrackPattern = /^https:\/\/open\.spotify\.com\/(?:intl-[^/]+\/)?track\/[A-Za-z0-9]+(?:[/?#].*)?$/;
 
   for (const instrument of soundTrail.instruments) {
     for (const genre of instrument.genres || []) {
       assert.ok(String(genre.about || '').trim(), `Missing about text: ${instrument.id} / ${genre.name}`);
       assert.ok((genre.researchSources || []).length, `Missing research sources: ${instrument.id} / ${genre.name}`);
-
-      if (instrument.researchStatus !== 'complete') continue;
 
       const examples = soundTrail.recordings.filter((recording) =>
         (recording.instruments || []).includes(instrument.id)
@@ -47,27 +45,6 @@ test('complete SoundTrail instruments have research context and at least two rea
       assert.ok(
         uniqueTrackUrls.size >= 2,
         `Complete instrument genre needs at least two verified track examples: ${instrument.id} / ${genre.name}`,
-      );
-    }
-  }
-});
-
-test('new SoundTrail instruments cannot be introduced as starter stubs', () => {
-  const grandfatheredStarters = new Set([
-    'clarinet',
-    'pedal-steel-guitar',
-    'cello',
-    'sitar',
-    'double-bass',
-    'tabla',
-  ]);
-
-  for (const instrument of soundTrail.instruments) {
-    assert.ok(['starter', 'complete'].includes(instrument.researchStatus), `Missing research status: ${instrument.id}`);
-    if (instrument.researchStatus === 'starter') {
-      assert.ok(
-        grandfatheredStarters.has(instrument.id),
-        `New instrument must meet the full SoundTrail research standard before it is added: ${instrument.id}`,
       );
     }
   }
