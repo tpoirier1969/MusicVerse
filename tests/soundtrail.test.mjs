@@ -21,6 +21,7 @@ test('SoundTrail exposes the approved instrument set once each', () => {
 test('every SoundTrail instrument meets research standard v2', () => {
   for (const instrument of soundTrail.instruments) {
     assert.ok(Number(instrument.researchStandardVersion) >= 2, `Research standard v2 not completed: ${instrument.id}`);
+    assert.equal(instrument.researchStatus, 'complete', `SoundTrail instrument must be complete: ${instrument.id}`);
     assert.ok(String(instrument.importance || '').trim(), `Missing importance: ${instrument.id}`);
     assert.ok((instrument.researchSources || []).length, `Missing research sources: ${instrument.id}`);
     assert.ok((instrument.genres || []).length >= 3, `Insufficient researched style map: ${instrument.id}`);
